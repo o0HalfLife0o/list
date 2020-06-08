@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XyY0R/NqNzvpeayIjM1wIA
+! Checksum: Ga5SqY9lpXdZi44FlRxoCg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202006082300
-! Last Modified: 2020年06月08日 23:00
+! Version: 202006090730
+! Last Modified: 2020年06月09日 07:30
 ! Homepage: https://adf.minggo.eu.org
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -7728,6 +7728,7 @@ _yad_jsonp_
 ||nfmovies.com/pic/tu/a191124004.
 ||nfmovies.com/pic/tu/a200304_1170x87.png
 ||nfmovies.com/pic/tu/ad
+||nfmovies.com/pic/tu/banner
 ||nfydd.com/template/wap1/js/dd.js
 ||nihaovcd.com/js/neirong
 ||ningmengzhibo.com/ement/beforeSearchEment.action
@@ -9350,10 +9351,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||nfmovies.com/pic/tu/banner
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14344,6 +14343,7 @@ m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
+nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 china.com##object[width="360"][height="300"]
 sina.com.cn##p + .article-video
 muchong.com##p[onclick="view_ok();"]
@@ -16436,8 +16436,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|00sy.c
 @@||cdn.staticfile.org^$script,domain=00ksw.com|00sy.com|147xiaoshuo.com|31xiaoshuo.org|49zw.com|biququ.info|tsxsw.net|ziyouge.com
 @@||gtimg.com/libs/$domain=18xs.org
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|27xsw.com|2baob.com|30sy.com|33yq.com|365book.net|37zw.net|39shubao.com|3yt.com|52biquge.com|58xs.com|5ccc.tw|63xs.com|78zw.com|81zw.me|88106.com|8jzw.com|99mk.com|99shumeng.net|abiqugew.com|aikantxt.la|aixs.org|aoyuge.com|balingtxt.com|baoshuu.com|biduo.cc|biqiuge.com|biqubao.com|biqudu.tv|biquga.com|biquge.com.cn|biquge.info|biquge.lu|biquge.tv|biquge.tw|biquge11.com|biquge6.com|biquge98.com|biqugecd.com|biqugecom.com|biqugego.com|biqugeii.com|biqugemm.com|biqukan.com|biquku.la|biqusan.com|biqutxt.com|bixia.org|biyuwu.cc|bodekang.net|boluoxs.com|bookbao.org|bookbao9.net|booksky.cc|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs.cc|ddxsku.com|dianjiangxin.com|dushuge.net|farpop.com|fhxiaoshuo.org|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|imiaobige.com|ishisetianxia.com|ixs.la|ixuanquge.com|jianlaixiaoshuo.com|jx.la|liewen.la|lindiankanshu.cc|liudatxt.com|lwtxt.net|lwxstxt.com|mianhuatang.cc|paoshu8.com|pfwx.com|piaotianxs.com|pingshuku.com|qbxs8.net|qianrenge.cc|qiqint.com|qishudu.com|qq717.com|quledu.net|qushuba.com|rmxs8.com|shenshu.info|shu008.com|shuhaige.com|shuhuangge.org|shuquge.com|siluke.tv|soxs.cc|tangsanshu.com|tpsxs.com|ttzw.tv|txshuku.com|tycqxs.com|u33.cc|vipzw.com|wanwenhui.com|wenxuem.com|wrltxt.com|x23us.me|x81zw.com|xbiquge.la|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xiaoshuosk.com|xieyixs.com|xinxs.la|xqishuta.com|xqiushu.com|xs222.co|xs5200.com|xs98.com|xsjtxt.com|xsw55.com|xszww.com|xuehong.cc|xuehongxs.com|yawenb.com|yikanxiaoshuo.com|yq-888.com|yruan.com|yssm.tv|yunxs.com|zbzw.la|zhuaji.org|zwdu.com|zzs5.com
-||gralfusnzpo007.top^
-||shangyingwm.com^
 ###downdiv > .downcode
 ##.readerListADbox
 ##a[href*="://mgzs.cdn.bcebos.com/"]
@@ -17277,6 +17275,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||gralfusnzpo003.top^
 ||gralfusnzpo004.top^
 ||gralfusnzpo006.top^
+||gralfusnzpo007.top^
 ||gringrin.cn^
 ||grjs02.com^
 ||grjs06.com^
@@ -18085,6 +18084,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||sffxcwc.cn^
 ||sguac.com^
 ||sgzs999.com^
+||shangyingwm.com^
 ||shaque.vip^
 ||she-ke.cn^
 ||shenbimall.com^
@@ -18984,10 +18984,10 @@ fqsousou.com,kengso.com#@#.user-share
 @@/sensorsdata.$domain=36kr.com|shanbay.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
-@@||163.com/user/event?id=
 @@||10010.com/mall/common/js/fa.js?referer=
 @@||111.75.255.103/Scripts/Controls/PageView.js
 @@||126.net/images/blank.gif
+@@||163.com/user/event?id=
 @@||40017.cn/cn/min/???/
 @@||7m.cn/v2/js/analyse.js
 @@||8891.com.tw/js/v3/blueKai.js
