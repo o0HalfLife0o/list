@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ga5SqY9lpXdZi44FlRxoCg
+! Checksum: oyFxS2nsNKwMjVpBDvQmmA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202006090730
-! Last Modified: 2020年06月09日 07:30
+! Version: 202006091000
+! Last Modified: 2020年06月09日 10:00
 ! Homepage: https://adf.minggo.eu.org
 !
 !本规则合并自EasylistChina、EasylistLite、CJX'sAnnoyance
@@ -19083,6 +19083,8 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
+@@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyList Lite
