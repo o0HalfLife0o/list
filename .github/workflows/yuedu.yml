@@ -72,16 +72,21 @@ jobs:
           cat yueduid*.txt |sed -e 's#^,#\[#' -e 's#$#\]#' > ../new/yuedu-rss.txt
           rm -rf ../download
 
-      - name: Check files
+      - name: Check and diff
+        id: diffResult
         run: |
           cd ./new
           for i in $(ls *.txt); do
             if [ -s $i ]; then
-              cp -f $i ../$i
+              if diff -q $i ../$i; then
+                cp -f $i ../$i
+                echo "::set-output name=status::success"
+              fi
             fi
           done
 
       - name: Git push assets to "master" branch
+        if: steps.diffResult.outputs.status == 'success'
         run: |
           rm -rf download new
           sed -i '/url =/d' ./.git/config
