@@ -134,7 +134,7 @@ jobs:
           git fetch --unshallow origin
           git push -u origin master
 
-      - name: Git push assets to "master" branch
+      - name: Purge jsdelivr cache
         if: steps.diffResult.outputs.status == 'success'
         run: |
           result=$(curl -s https://purge.jsdelivr.net/gh/o0HalfLife0o/list@master/)
