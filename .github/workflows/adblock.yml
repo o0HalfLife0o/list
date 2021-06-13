@@ -118,6 +118,7 @@ jobs:
             !./.git/
 
       - name: Git push assets to "master" branch
+        continue-on-error: true
         if: steps.diffResult.outputs.status == 'success'
         run: |
           rm -rf download new old_no_title
