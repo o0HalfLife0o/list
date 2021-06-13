@@ -43,7 +43,7 @@ jobs:
           mkdir -p ./new/
           cd ./download
           #检索最新有搜索无声的书源id
-          curl -sSL "$SHUYUAN_INDEX_URL" -H "$USERAGENT" -H "Accept: application/json, text/javascript, */*; q=0.01" -H "$ACCEPTLANGUAGE" -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -H "X-Requested-With: XMLHttpRequest" -H "$HOMEPAGE" -H "Connection: keep-alive" -H "$REFERER" --data "page=1&limit=5000&keys=&ver=3&sousuo=&faxian=&audio=&tupian=" |grep -o '\"id\":[0-9]\+' |sed 's#\"id\":##' >yuedu-all.txt
+          curl -sSL "$SHUYUAN_INDEX_URL" -H "$USERAGENT" -H "Accept: application/json, text/javascript, */*; q=0.01" -H "$ACCEPTLANGUAGE" -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -H "X-Requested-With: XMLHttpRequest" -H "$HOMEPAGE" -H "Connection: keep-alive" -H "$REFERER" --data "page=1&limit=5000&keys=&ver=3&sousuo=1&faxian=&audio=0&tupian=0" |grep -o '\"id\":[0-9]\+' |sed 's#\"id\":##' >yuedu-all.txt
           #把书源id文件分割成每400行一个
           split -l 400 yuedu-all.txt yueduid
           #获取书源文件
