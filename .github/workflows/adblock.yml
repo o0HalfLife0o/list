@@ -133,6 +133,16 @@ jobs:
           git fetch --unshallow origin
           git push -u origin master
 
+      - name: Git push assets to "master" branch
+        if: steps.diffResult.outputs.status == 'success'
+        run: |
+          result=$(curl -s https://purge.jsdelivr.net/gh/o0HalfLife0o/list@master/)
+          if echo $result |grep -q 'success.*true'; then
+            echo "jsdelivr缓存更新成功"
+          else
+            echo $result
+          fi
+          
       - name: Git push assets to gitee & coding
         if: steps.diffResult.outputs.status == 'success' && steps.diffResult.outputs.status == 'false'
         run: |
