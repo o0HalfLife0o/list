@@ -322,6 +322,7 @@ pornhub.com##.hd.clear
 !||ca.gtimg.com/adplugin/swf/MediaPlugin.swf
 ! Youtube
 youtube.com###contents>ytd-search-pyv-renderer
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com###video-masthead
 youtube.com###masthead-ad
 m.youtube.com###koya_child_6
