@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4rHBhPKrbwD4v2XY1WEGVQ
+! Checksum: qOetrVloXtgCZ+dzxWCQkQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202106152030
-! Last Modified: 2021年06月15日 20:30
+! Version: 202106152205
+! Last Modified: 2021年06月15日 22:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -333,6 +333,7 @@ pornhub.com##.hd.clear
 !||ca.gtimg.com/adplugin/swf/MediaPlugin.swf
 ! Youtube
 youtube.com###contents>ytd-search-pyv-renderer
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com###video-masthead
 youtube.com###masthead-ad
 m.youtube.com###koya_child_6
@@ -2471,7 +2472,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /admaxads.
 /admcoreext.
 /admeasure.
-/admedia.$domain=~admedia.ae|~admedia.agency|~admedia.co.il|~admedia.com|~admedia.net.au
+/admedia.$domain=~admedia.ae|~admedia.agency|~admedia.az|~admedia.co.il|~admedia.com|~admedia.net.au
 /admedia/*
 /admega.
 /admeld.
@@ -31220,9 +31221,9 @@ _popunder+$popup
 ##a[href^="https://playuhd.host/"]
 ##a[href^="https://porndeals.com/?track="]
 ##a[href^="https://porngames.adult/?SID="]
-##a[href^="https://prf.hn/click/"][href*="/adref:"]
-##a[href^="https://prf.hn/click/"][href*="/camref:"]
-##a[href^="https://prf.hn/click/"][href*="/creativeref:"]
+##a[href^="https://prf.hn/click/"][href*="/adref:"] > img
+##a[href^="https://prf.hn/click/"][href*="/camref:"] > img
+##a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img
 ##a[href^="https://pubads.g.doubleclick.net/"]
 ##a[href^="https://reachtrgt.com/"]
 ##a[href^="https://redsittalvetoft.pro/"]
@@ -37779,6 +37780,7 @@ menstennisforums.com#@#.top_ads
 ||it7645-blockchain-news.club^
 ||itblisseyer.com^
 ||itcfnfi.com^
+||itchimpish.com^
 ||itchingadore.com^
 ||itchingcrystalfemales.com^
 ||itdise.info^
@@ -39606,6 +39608,7 @@ menstennisforums.com#@#.top_ads
 ||oldqsuoemchpr.com^
 ||oldrummarim.club^
 ||olibenelading.xyz^
+||olivedinflats.space^
 ||olkrzytv.com^
 ||ollectusdign.top^
 ||olmsoneenh.info^
@@ -47306,6 +47309,7 @@ menstennisforums.com#@#.top_ads
 ||cpxdeliv.com^$popup
 ||crazyad.net^$popup
 ||cretgate.com^$popup
+||cromo.name^$popup
 ||crt.livejasmin.com^$popup
 ||crypto-news-world.club^$popup
 ||cutw.pro^$popup
@@ -47668,6 +47672,7 @@ menstennisforums.com#@#.top_ads
 ||mobsuitem.com^$popup
 ||modescrips.info^$popup
 ||modificationdispatch.com^$popup
+||mogybapty.pro^$popup
 ||moncoerbb.com^$popup
 ||moneytec.com^$popup,third-party
 ||morphonebrities.info^$popup
@@ -72410,7 +72415,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||weidianyuedu.com^$third-party
 ||wenhua.jiaoshou.com^
 ||wenshenbang.com^$third-party
-||wenwen120.com^
 ||whfpbc.99.com.cn^
 ||wj.jiancai365.cn^
 ||wm.mipcdn.com^
@@ -89180,6 +89184,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||candy.com/3droi/
 ||canoe.ca/generix/ga.js
 ||canstockphoto.com/monitor/
+||canstockphoto.com/server.php?rqst=track
+||canstockphoto.com/testing/site/conversion.gif?
 ||capitalone.com/collector/
 ||capture.crutchfield.com^
 ||cardomain.com/js/tibbylog.js?
