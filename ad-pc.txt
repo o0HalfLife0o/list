@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pdlVZNg4SG42Gy90RLjlyw
+! Checksum: pLTcqjyaNSGpd607u0B11w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202106182002
-! Last Modified: 2021年06月18日 20:02
+! Version: 202106190203
+! Last Modified: 2021年06月19日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -14531,6 +14531,7 @@ _popunder+$popup
 ###dfp-leaderboard-desktop
 ###dfp-middle
 ###dfp-middle1
+###dfp-rectangle1
 ###dfp-srp-leaderboard
 ###dfp-srp-mobile-top
 ###dfp-tlb
@@ -23109,6 +23110,7 @@ _popunder+$popup
 ##.advertisement-leaderboard
 ##.advertisement-leaderboard-lg
 ##.advertisement-nav
+##.advertisement-new
 ##.advertisement-other
 ##.advertisement-placeholder
 ##.advertisement-position1
@@ -32354,6 +32356,7 @@ javbix.com#@#.adsleft
 fodey.com,tuxpi.com#@#.adslot
 wg-gesucht.de#@#.adslot_blurred
 cutepdf-editor.com#@#.adtable
+mediaite.com#@#.adthrive
 absolute.com#@#.adtile
 smilelocal.com#@#.adtop
 brandexperience-group.com#@#.adv-banner
@@ -44732,6 +44735,7 @@ menstennisforums.com#@#.top_ads
 ||bqiovml.com^$third-party
 ||br.rk.com^$third-party
 ||brainient.com^$third-party
+||brainlyads.com^$third-party
 ||branchr.com^$third-party
 ||brand-display.com^$third-party
 ||brand.net^$third-party
@@ -55546,6 +55550,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
+@@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377294;type=json;$xmlhttprequest,domain=emarketer.com
 @@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377297;type=json;$xmlhttprequest,domain=emarketer.com
@@ -55634,7 +55640,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com|speedtest.net
-@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|nbcsports.com|physicianspractice.com
+@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|physicianspractice.com
 @@||dwiextreme.com/banners/dwiextreme$image
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
@@ -55662,7 +55668,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -57882,6 +57888,7 @@ _xiuno_com_ad/
 ##A[href*=".hthty27.app"]
 ##A[href*=".youxi142.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##a[href*=".51gogogou.com"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||11111fs.com^
@@ -65452,6 +65459,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75821,7 +75829,6 @@ fqsousou.com,kengso.com#@#.user-share
 .tv/t.png?
 .uk/o.gif?
 .uk/pv?
-.uk/track?
 .uk/traffic/?
 .usertracking_script.js
 .v4.analytics.
@@ -88617,6 +88624,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wwwportal.dk/statistik.php
 ||adult-trade.nl/lo/track.php
 ||analytics.belgacom.be^
+||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
 ||cookies.reedbusiness.nl^
 ||hottraffic.nl^$third-party
