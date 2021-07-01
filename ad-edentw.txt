@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /llu2FNZd3MeJVLMo5XpjQ
+! Checksum: 0DQzBh3U/H+TpAs/aztmRA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202106302001
-! Last Modified: 2021年06月30日 20:01
+! Version: 202107020201
+! Last Modified: 2021年07月02日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -352,7 +352,6 @@ polska-ie.com#@##adsense
 firebit.info###adv-300 + div[class][align="center"][style^="background-color"]
 novostroy-m.ru###advert_result
 cxem.net###antiAdBlock
-photoshop-online.biz###aslot
 elhow.ru###b-info-wrapper
 piratia.su###block-warning
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
@@ -424,6 +423,7 @@ vk.barkov.net##.alert-danger
 stroi-help.ru##.alert_warn
 ria.ru##.antiblock
 7days2die.info#?#.articleContent > p:-abp-has(> span + strong[style])
+fotoshop-online.org##.aslot
 rufilmtv.org##.attention
 mel.fm##.b-ad-space__placeholder
 irk.ru##.b-adblock-message
@@ -452,6 +452,7 @@ ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 doctorrouter.ru##.jgcabd-container
 go.mail.ru##.js-adb-msg
 ppc.world##.js-detected-block
+dtf.ru,tjournal.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "]
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 peers.tv##.moanerwrap
 megatest.online##.msg-AdBlock
@@ -547,7 +548,6 @@ savevideo.me##div[id^="ads_notice_"]
 liga.net#@#div[id^="div-gpt-ad"]
 acomics.ru##div[style*="/design/common/pic/please"]
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
-photoshop-online.biz##div[style="display:inline-block;width:728px;height:140px"]
 sdamgia.ru##div[style="text-align:center; color:red; border: 0px solid black; font-size:16px"]
 anime.anidub.life,myanime.online,online.anidub.com#?#div[style^="position: fixed;"]:-abp-has(> :-abp-contains(Обнаружена блокировка рекламы))
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
@@ -556,6 +556,7 @@ bdmbase.ru##html > .q1
 7sim.net##html > body ~ div
 nv.ua##img[src="/images/dis_blocker_big.jpg"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
+fotoshop-online.org##section > .col-full + script + center[class]
 d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 ph4.ru##table[width][height="90"][style]
@@ -1217,6 +1218,8 @@ youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zo
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
 ! #CV-663
+newser.com#$#hide-if-matches-xpath '//span[@class][string-length(text())>40][string-length(@class)>=28]/ancestor::div[3][@class or @id]'
+foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[@class][string-length( text() ) > 40][string-length(@class)>=28]/ancestor::div[3][@class or @id]'
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[@id][string-length( text() ) > 45][string-length(@class)>=28]/ancestor::div[4][@class or @id]'
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[not(@id)][string-length( text() ) > 55][string-length(@class)>25]/ancestor::div[not(@class)][not(@id)][not(@style)][1]/ancestor::div[3]'
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[not(@class)][not(@id)][not(@style)][string-length(@div)=15]/ancestor::div[1]'
@@ -1678,6 +1681,7 @@ wp.pl#$#abort-on-property-write gafReady
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(=== 'function'))
 echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath './/div[@class]//a[string-length(@href)>500]/div[@class]/div[@class]//img[@class][string-length(@src)>70]/ancestor::div[@class and not(@id)][5]'
 echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath '//div/a[string-length(@href) > 1510]/div[@class]/img[@class][string-length(@src) > 100]/ancestor::div[@class and not(@id)][2]'
+echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath '//a[@class and @* and not (@id)][string-length(@href) > 1000]/img[@class and @* and not (@id)][string-length(@src) > 100]/ancestor::div[@class and @* and not(@id)][5]'
 ! MISC
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 naekranie.pl#$#abort-on-property-read adQueue

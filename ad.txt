@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RTvTip4V4eczoF39Y0mKzg
+! Checksum: 1+xrL3+etciAil3Lck36hw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202107012002
-! Last Modified: 2021年07月01日 20:02
+! Version: 202107020201
+! Last Modified: 2021年07月02日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1854,6 +1854,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*=".hthvip22.com"]
+##A[href*=".hth401.com"]
 ##.adHF3
 ##A[href*="/od005.net"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -9382,6 +9384,7 @@ _yad_jsonp_
 ||jingyanlib.com/home/data/getAdOnlineList?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc##DIV[id^="_"]
 jingyanlib.com##.adToastWin
 manhuadb.com##.ad_1_wrap
 manhuadb.com##.ad_2_wrap
