@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HPoEkpD9NzSXkZgZF2EPAA
+! Checksum: Vm79jQyLvamXI0rtCXyXAQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107042002
-! Last Modified: 2021年07月04日 20:02
+! Version: 202107050201
+! Last Modified: 2021年07月05日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18345,6 +18345,7 @@ _popunder+$popup
 ##.BlueTxtAdvert
 ##.BottomAd-container
 ##.BottomAdContainer
+##.BottomAdsPartial
 ##.BottomAffiliate
 ##.BottomGoogleAds
 ##.BoxAd
@@ -18633,6 +18634,7 @@ _popunder+$popup
 ##.TopAdL
 ##.TopAdR
 ##.TopAds
+##.TopAdsPartial
 ##.TopBannerAd
 ##.TopLeaderboardAdPanel
 ##.TopRightRadvertisement
@@ -35462,6 +35464,7 @@ menstennisforums.com#@#.top_ads
 ||crowdgravity.com^
 ||crptentry.com^
 ||crtracklink.com^
+||crudestoctdra.cam^
 ||crutchsnobcat.com^
 ||cryartarm.online^
 ||cryptianainv.club^
@@ -43194,6 +43197,7 @@ menstennisforums.com#@#.top_ads
 ||vatlodesim.com^
 ||vatname.info^
 ||vatskaylittl.club^
+||vattingbalak.com^
 ||vaultwrite.com^
 ||vbds84p3ct02.com^
 ||vcdc.com^
@@ -43612,6 +43616,7 @@ menstennisforums.com#@#.top_ads
 ||wigetmedia.com^
 ||wigglecrisis.com^
 ||wiglogsbathos.cam^
+||wignewsee.club^
 ||wildernesssigntolerance.com^
 ||wildtowedcad.work^
 ||wilfulpessimistic.com^
@@ -53375,6 +53380,7 @@ kentonline.co.uk##.LeaderBack
 morningstar.com##.LeaderWrap
 israelnationalnews.com##.LeftInfo
 autosport.com##.MPU_container
+ask.com##.PartialKelkooResults
 snopes.com##.PlacementWrapper
 lbcgroup.tv##.ScriptDiv
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
@@ -58290,6 +58296,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
+##A[href*="/od006.net"]
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
@@ -89526,7 +89533,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||99bitcoins.com/_load/
 ||a.electerious.com^
 ||a.huluad.com/beacons/
-||a5xo-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
@@ -92113,6 +92119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xing.com/app_stats/
 ||xing.com/collect/
 ||xing.com/logjam/
+||xoxo5-eng.spankbang.com^
 ||xstats.evoload.io^
 ||xtrack.capetown.gov.za^
 ||yahoo.com/__perf_log_
