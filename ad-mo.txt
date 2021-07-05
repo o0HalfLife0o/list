@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: moLBZR6XGRNwz9doVOWopA
+! Checksum: 3dPzTxExRmWzdAOY4DJYLQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107052002
-! Last Modified: 2021年07月05日 20:02
+! Version: 202107060201
+! Last Modified: 2021年07月06日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10262,6 +10262,7 @@ _popunder+$popup
 ###ad-gutter-left
 ###ad-gutter-right
 ###ad-halfpage
+###ad-head
 ###ad-header
 ###ad-header-1
 ###ad-header-2
@@ -12702,6 +12703,7 @@ _popunder+$popup
 ###adv-google
 ###adv-gpt-box-container1
 ###adv-gpt-masthead-leaderboard-container1
+###adv-gpt-masthead-skin-container1
 ###adv-halfpage
 ###adv-leaderboard
 ###adv-left
@@ -13463,6 +13465,7 @@ _popunder+$popup
 ###bannerads
 ###banneradspace
 ###banneradvert3
+###banneradvertise
 ###barAdWrapper
 ###base-advertising-top
 ###base-board-ad
@@ -17269,6 +17272,7 @@ _popunder+$popup
 ###square_lat_adv
 ###squaread
 ###squareadAdvertiseHere
+###squareadevertise
 ###squareadvert
 ###squared_ad
 ###srp_adsense-top
@@ -21246,6 +21250,8 @@ _popunder+$popup
 ##.adgeletti-ad-div
 ##.adgoogle_block
 ##.adhalfhome
+##.adhalfpage
+##.adhalfpageright
 ##.adhead
 ##.adhead_h
 ##.adhead_h_wide
@@ -22284,6 +22290,7 @@ _popunder+$popup
 ##.adsizewrapper
 ##.adsjx
 ##.adskeeperWrap
+##.adsky
 ##.adsleaderboard
 ##.adsleaderboardbox
 ##.adsleff
@@ -23313,6 +23320,7 @@ _popunder+$popup
 ##.adwert
 ##.adwhitespace
 ##.adwide
+##.adwideskyright
 ##.adwidget
 ##.adwithspace
 ##.adwobs
@@ -31562,6 +31570,7 @@ _popunder+$popup
 ##div[id^="advads_"]
 ##div[id^="advt-"]
 ##div[id^="amzn-assoc-ad"]
+##div[id^="banner-ad-"]
 ##div[id^="block-views-topheader-ad-block-"]
 ##div[id^="cns_ads_"]
 ##div[id^="crt-"][style]
@@ -34529,6 +34538,7 @@ menstennisforums.com#@#.top_ads
 ||bxgjpocfz1g1jiwb.pro^
 ||bxmfuxxiqmw.com^
 ||bycixeba.com^
+||bypathaivr.com^
 ||byronevaca.fun^
 ||byshatilu.com^
 ||bystfied.pro^
@@ -44989,6 +44999,7 @@ menstennisforums.com#@#.top_ads
 ||bannersnack.com^$third-party,domain=~bannersnack.dev
 ||bannersnack.net^$third-party,domain=~bannersnack.dev
 ||bannertgt.com^$third-party
+||bannertrack.net^$third-party
 ||bannertracker-script.com^$third-party
 ||bannerweb.com^$third-party
 ||baronsoffers.com^$third-party
@@ -50612,6 +50623,7 @@ menstennisforums.com#@#.top_ads
 ||remax-malta.com/widget/$third-party
 ||rentalcars.com/affxml/$domain=news-headlines.co.za|nuus.info|sa-news.com|sa-radio.com|saffa.com|saukradio.com
 ||rentalcars.com/ELBanner.do?$third-party
+||rentalcars.com/partners/$third-party
 ||res3.feedsportal.com^
 ||resimag.com/p1/6ef4933807d.gif
 ||resimag.com/p1/bb61dc4ce45.gif
@@ -51827,7 +51839,7 @@ menstennisforums.com#@#.top_ads
 ||tb.turbocap.net/a637rw3.js
 ||techhive.com/ads/
 ||technewsworld.com/images/sda/
-||techpowerup.com/gjlzhgdreg/
+||techpowerup.com/jhztbhzfzhj/
 ||techrepublic.com/leadgen/
 ||theage.com.au/assets/europa.
 ||thecenturion.co.za^*/banners/
@@ -54172,6 +54184,7 @@ scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 stripes.com##.min-h90
+techpowerup.com##.mnnusjsddc
 investopedia.com##.mntl-leaderboard-spacer
 islamicfinder.org##.mobile-cards
 pcmacstore.com##.mobileHide
@@ -54217,6 +54230,7 @@ designtaxi.com##.news-covers > .masonry-brick.nt
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
 hulkshare.com##.nhsBotBan
+techpowerup.com##.nkuztfvdxwe
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 cookingforengineers.com##.nothing
@@ -54783,7 +54797,6 @@ geeksforgeeks.org##[id^="bsa-zone"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
-techpowerup.com##[rel*="nofollow"] img
 audioz.download##[src*="/promo/"]
 brmangas.com##[src="https://manjiroinflu.com/streams.php"]
 manganelo.com##[src^="/ads/"]
@@ -55032,8 +55045,6 @@ adblock-tester.com##object[width="240"]
 opensubtitles.org##p[style="font-size:130%; font-weight:bold; margin-top:3px; text-decoration: underline;"], p[style="font-size:130%; font-weight:bold; margin-top:3px; text-decoration: underline;"] + div[style="text-align: left"]
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
-techpowerup.com##span > a[href] > div img
-techpowerup.com##span > a[rel*="nofollow"][target*="_blаnk"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
@@ -65725,8 +65736,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||acggd.com/4d22b/
+||ikkdm.com/mg/
+||jsdelivr.net/gh/ekmov/cache@master/tbk.js
+||gjwind.com/xxmh.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+acggd.com##a[href*=".apk"]
 mp4er.com##div[onclick*=".exing113.com"]
 airav.cc###air_top_banner
 image.baidu.com#?#.newfcImgli:-abp-has(.fc-ad-tip)
@@ -99354,6 +99370,8 @@ ytics.disneyplus.com^
 ||cc.zeit.de^
 ||cct2.o2online.de^
 ||center.tv/counter/
+||chartsurfer.de/js/mtm.js
+||chartsurfer.de/uscoll.php?
 ||chefkoch.de/counter
 ||chefkoch.de/statistic_service/
 ||chefkoch.de/tracking/
@@ -99517,6 +99535,7 @@ ytics.disneyplus.com^
 ||responder.wt.heise.de^
 ||rhein-zeitung.de^*/picksel/
 ||rl.heise.de^
+||rt.bunte.de^
 ||rtl.de/count/ut/x.gif?
 ||rtl.de/tools/count/
 ||rtlradio.de/stats.php?
