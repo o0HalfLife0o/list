@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sI3UHUr7LK9V8iJHZkPfzw
+! Checksum: bXV1X0FjRe6tnMjFlKnJ6w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107050810
-! Last Modified: 2021年07月05日 08:10
+! Version: 202107051401
+! Last Modified: 2021年07月05日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -388,6 +388,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 &adstype=
 &AdType=
 &adunit=
+&adunits=$xmlhttprequest
 &adurl=
 &adv_keywords=
 &advert_
@@ -80513,6 +80514,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking/events?
 /tracking/events|
 /tracking/fingerprint/*
+/tracking/freewheel/*
 /tracking/hbx-
 /tracking/impression/*
 /tracking/index.
@@ -84582,7 +84584,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||getback.ch^$third-party
 ||getpush.net^$third-party
 ||getpushmonkey.com^$third-party
-||getsupernova.com^$third-party
 ||gravitec.net^$third-party
 ||heroesdom.com^$third-party
 ||highfalutinhoney.com^$third-party
@@ -91160,7 +91161,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||roadandtrack.com^*/RTdartSite.js
 ||roblox.com/www/e.png?
 ||rok.com.com^
-||rottentomatoes.com/tracking/
 ||rover.ebay.$image,object,script
 ||rover.ebay.com.au^*&cguid=
 ||rs.mail.ru^
@@ -92131,7 +92131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
-/^https?:\/\/www\.halifax-online\.co\.uk\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=halifax-online.co.uk
+/^https?:\/\/www\.halifax-online\.co\.uk\/[A-Za-z0-9]{4,6}\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{2}\//$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
@@ -92141,10 +92141,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
+||rottentomatoes.com/f-TJoC/
+||rottentomatoes.com/hya7JT/
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
-/^https?:\/\/editorial\.rottentomatoes\.com\/bundles\/[a-z0-9]{30,}/$script,xmlhttprequest,domain=rottentomatoes.com
 /^https?:\/\/www\.gumtree\.com\/[0-9a-f]{3,}\-[0-9a-f]{2,}\-?/$domain=gumtree.com
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
