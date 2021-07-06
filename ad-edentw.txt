@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6wreUyDJWwSm4cxXoXLhIw
+! Checksum: jMLRmJ+SmZhaLJXU8rUVSA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107060201
-! Last Modified: 2021年07月06日 02:01
+! Version: 202107070201
+! Last Modified: 2021年07月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1509,13 +1509,8 @@ topwwnews.com#$#abort-on-property-read localStorage
 ! #CV-697
 thetrendspotter.net,theavtimes.com#$#abort-on-property-read advads_passive_ads
 ! #CV-782
-youtube.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined; override-property-read ytInitialPlayerResponse.adPlacements undefined
-||googlevideo.com/videoplayback?*&ctier=*$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-! experimental
-www.youtube.com,music.youtube.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds 3.playerResponse.adPlacements 3.playerResponse.playerAds 4.playerResponse.adPlacements 4.playerResponse.playerAds 5.playerResponse.adPlacements 5.playerResponse.playerAds 6.playerResponse.adPlacements 6.playerResponse.playerAds 7.playerResponse.adPlacements 7.playerResponse.playerAds 8.playerResponse.adPlacements 8.playerResponse.playerAds 9.playerResponse.adPlacements 9.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined; override-property-read ytInitialPlayerResponse.adPlacements undefined
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 ! #CV-897
 agronews.ua,aegeanews.gr,batterypoweronline.com,brezovycukr.cz,centrocommercialevulcano.com,cieonline.co.uk,commsbusiness.co.uk,dailygrindonline.net,davincidiamondsslot.net,delo.bg,dynastyseries.com,fabmx1.com,fat-bike.com,fmj.co.uk,localemagazine.com,loveourweddingmag.com,metaforespress.gr,myvalley.it,niestatystyczny.pl,primapaginamarsala.it,ringelnatz.net,schoolsweek.co.uk,sikkenscolore.it,sportbet.gr,stadtstudenten.de,stagemilk.com,tautasdziesmas.lv,thetoneking.com,toplickevesti.com,zeroradio.co.uk#$#abort-on-property-read wpsite_clickable_data
 /wpsite-background-takeover*/js/wpsite_clickable.js$script,domain=agronews.ua|aegeanews.gr|batterypoweronline.com|brezovycukr.cz|centrocommercialevulcano.com|cieonline.co.uk|commsbusiness.co.uk|dailygrindonline.net|davincidiamondsslot.net|delo.bg|dynastyseries.com|fabmx1.com|fat-bike.com|fmj.co.uk|localemagazine.com|loveourweddingmag.com|metaforespress.gr|myvalley.it|niestatystyczny.pl|primapaginamarsala.it|ringelnatz.net|schoolsweek.co.uk|sikkenscolore.it|sportbet.gr|stadtstudenten.de|stagemilk.com|tautasdziesmas.lv|thetoneking.com|toplickevesti.com|zeroradio.co.uk
@@ -1638,10 +1633,10 @@ delfi.lt#$#abort-on-property-read __dabd
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/mobile-anti-cv.txt ***
 ! List of rules that work on mobile
 ! #CV-782
-||googlevideo.com/videoplayback?*&ctier=*$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=youtube.com|~tv.youtube.com
-@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=youtube.com|~tv.youtube.com
+||googlevideo.com/videoplayback?*&ctier=*$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com|youtube-nocookie.com
+@@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com|youtube-nocookie.com
+@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com|youtube-nocookie.com
+@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com|youtube-nocookie.com
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/nordic.txt ***
 ! MISC
 tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")]/../../..'
@@ -1822,6 +1817,7 @@ marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-747
+rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][not(@id)]/div[not(@id)][not(contains(@class,"-"))][not(@style)][not(*) and not(normalize-space())]/following-sibling::div[not(contains(@class,"-"))][not(@style)][not(@id)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[4][@class and @* and not (@id)][text()[contains(.," ")]]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][contains(@class,"_")][not(@id)]/div[not(@class)][not(@style)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[@class][not(@id)][not(contains(@class,"_"))][2]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath './/div/div[not(*) and not(normalize-space())][@class][text()[contains(.," ")]][not(preceding-sibling::*) and not(following-sibling::*)][contains(@class,"_")][not(@id)]/ancestor::div[@class][3]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,motor.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath './/div[count(div[@class])=1]/following-sibling::div[@class][count(div[@class])=3][child::div[1][string-length(text())=7]/div][child::div[2]/div][child::div[3]/div]/ancestor::div[@class][2]'
