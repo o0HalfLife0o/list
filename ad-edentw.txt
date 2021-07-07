@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jMLRmJ+SmZhaLJXU8rUVSA
+! Checksum: Z8ozf7pYAydbSdaRDn4fkA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107070201
-! Last Modified: 2021年07月07日 02:01
+! Version: 202107072002
+! Last Modified: 2021年07月07日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1217,6 +1217,8 @@ redtube.com#$#abort-on-property-read smpop
 youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zone_2545
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
+! #CV-678
+newser.com,grammarist.com,canadafreepress.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//div/div [not (@*)]/ancestor::div[1][@class and @id]'
 ! #CV-663
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[@*="_blank"]/ancestor::div[2][@class and @id]'
 newser.com#$#hide-if-matches-xpath '//span[@class][string-length(text())>40][string-length(@class)>=28]/ancestor::div[3][@class or @id]'
