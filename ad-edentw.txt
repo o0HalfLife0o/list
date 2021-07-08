@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fr+azJV07QvcoYyg23o1Hw
+! Checksum: c1QwNLY8ChVFctmigzI4Zw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107082002
-! Last Modified: 2021年07月08日 20:02
+! Version: 202107090201
+! Last Modified: 2021年07月09日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -479,6 +479,7 @@ qaru.site##.similar.a[style]
 megogo.net,megogo.ru##.specialBlock_v1
 l-a-w.ru,mhelp.kz##.swal2-container
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
+savevideo.me##td > div[class]:not([id])[style*="important"]
 kinoafisha.ua##.turn-off-add-block-text
 helpsetup.ru##.veramoy
 stalkerportaal.ru##.video_adsense
@@ -1217,8 +1218,6 @@ redtube.com#$#abort-on-property-read smpop
 youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zone_2545
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
-! #CV-678
-newser.com,grammarist.com,canadafreepress.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//div/div [not (@*)]/ancestor::div[1][@class and @id]'
 ! #CV-663
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[@*="_blank"]/ancestor::div[2][@class and @id]'
 newser.com#$#hide-if-matches-xpath '//span[@class][string-length(text())>40][string-length(@class)>=28]/ancestor::div[3][@class or @id]'
@@ -1703,12 +1702,16 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 4bac.ro,cinemasfera.com,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/russian.txt ***
 ! #CV-244
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div/span[@class="news-top-rubric-heading__title"][text()="Реклама"]/ancestor::div[1]/following-sibling::div[1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class][string-length(@data-log-id) > 25]/div[string-length(@id) > 25]/ancestor::div[@class][1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 90][string-length(@data-log-id) > 20]/div[@id][string-length(@id) > 20]/ancestor::div[@class][1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[contains(@id,"-page")]//div[@class]//div[contains(@class,"mg-grid__col_sm")]//div[contains(@class,"_inner")]//div[contains(@class,"_column-item")][@data-log-id]/div[@id]' ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@id][@class="feed__item _size_big"]/div[starts-with(@class,"card-wrappersome")][string-length(@class) > 190]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//*[text()="Ad"]/ancestor::div[@class="feed__item-wrap _size_big"]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class and @id and @data-log-node]/div[@class][string-length(@class) > 200][string-length(@data-bem) > 1300]'
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
-yandex.az,yandex.md,yandex.fr,yandex.kg##.feed__item._size_small[id^=ad]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read window.yaads.renderBlock
-yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class="feed__item _size_big"]>[class^="card-wrapper_smthing"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
@@ -1819,6 +1822,7 @@ marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-747
+rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][not(@id)]/div[not(@id)][not(contains(@class,"-"))][not(@style)][not(*) and not(normalize-space())]/following-sibling::div[not(contains(@class,"-"))][not(@style)][not(@id)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[4][@class and @* and not (@id)][text()[contains(.," ")]]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][contains(@class,"_")][not(@id)]/div[not(@class)][not(@style)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[@class][not(@id)][not(contains(@class,"_"))][2]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath './/div/div[not(*) and not(normalize-space())][@class][text()[contains(.," ")]][not(preceding-sibling::*) and not(following-sibling::*)][contains(@class,"_")][not(@id)]/ancestor::div[@class][3]'
