@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c1QwNLY8ChVFctmigzI4Zw
+! Checksum: 8tSJ/TKOaLnJ1eCI3tdZQw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107090201
-! Last Modified: 2021年07月09日 02:01
+! Version: 202107100201
+! Last Modified: 2021年07月10日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1705,7 +1705,8 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div/span[@class="news-top-rubric-heading__title"][text()="Реклама"]/ancestor::div[1]/following-sibling::div[1]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class][string-length(@data-log-id) > 25]/div[string-length(@id) > 25]/ancestor::div[@class][1]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 90][string-length(@data-log-id) > 20]/div[@id][string-length(@id) > 20]/ancestor::div[@class][1]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[contains(@id,"-page")]//div[@class]//div[contains(@class,"mg-grid__col_sm")]//div[contains(@class,"_inner")]//div[contains(@class,"_column-item")][@data-log-id]/div[@id]' ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@id][@class="feed__item _size_big"]/div[starts-with(@class,"card-wrappersome")][string-length(@class) > 190]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[contains(@id,"-page")]//div[@class]//div[contains(@class,"mg-grid__col_sm")]//div[contains(@class,"_inner")]//div[contains(@class,"_column-item")][@data-log-id]/div[@id]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@id][@class="feed__item _size_big"]/div[starts-with(@class,"card-wrappersome")][string-length(@class) > 190]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//*[text()="Ad"]/ancestor::div[@class="feed__item-wrap _size_big"]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class and @id and @data-log-node]/div[@class][string-length(@class) > 200][string-length(@data-bem) > 1300]'
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
