@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qUeSJ8B82b6yFsblXwMPYg
+! Checksum: peTUEIFYnpp954GQd56/HA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107091401
-! Last Modified: 2021年07月09日 14:01
+! Version: 202107092001
+! Last Modified: 2021年07月09日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56269,6 +56269,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||phncdn.com/www-static/js/mg_utils-$script
 @@||phncdn.com/www-static/js/modal-tipping.js$script
 @@||phncdn.com/www-static/js/modelhub/$script
+@@||phncdn.com/www-static/js/next-video.js$script
 @@||phncdn.com/www-static/js/notified-modal.js?$script
 @@||phncdn.com/www-static/js/ph-networkbar.js$script
 @@||phncdn.com/www-static/js/phub-nojquery.js$script
@@ -56385,6 +56386,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pornhubcom/video_selector/$domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||pornhubcommunity.com/cdn_files/images/$image
 @@||pornhublive.com/blacklabel/bl.client.min.js|$script
+@@||pornhubthbh7ap3u.onion/video/$xmlhttprequest
 @@||pornmd.com/resources/js/search_widget.js$script
 @@||rdtcdn.com/hls/media/videos/$media,other,xmlhttprequest,domain=redtube.com
 @@||rdtcdn.com/hls/videos/$xmlhttprequest,domain=www.redtube.com
