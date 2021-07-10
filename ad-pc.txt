@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SmUyyQsh4uEQVr79Kz4t/w
+! Checksum: B+UldX/lyZ9yjroBts5vew
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107101401
-! Last Modified: 2021年07月10日 14:01
+! Version: 202107102001
+! Last Modified: 2021年07月10日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3413,7 +3413,6 @@ tieba.baidu.com##.tuijian-wrap
 /adsEnd.
 /adsense-
 /adsense.$~script,domain=~adsense.az|~adsense.googleblog.com
-/adsense/*
 /adsense1.
 /adsense2.
 /adsense23.
@@ -5436,7 +5435,6 @@ tieba.baidu.com##.tuijian-wrap
 /google-adsense-
 /google-adsense.
 /google-adverts-
-/google-adwords
 /google-afc-
 /google-afc.
 /google-dfp-
@@ -24605,8 +24603,8 @@ _popunder+$popup
 ##.catalog_ads
 ##.catalyst-ads
 ##.cate_right_ad
-##.category-ad
-##.category-ads
+##.category-ad:not(html):not(body)
+##.category-ads:not(html):not(body)
 ##.category-advertorial
 ##.category-top-ads
 ##.categoryMosaic-advertising
@@ -30955,6 +30953,7 @@ _popunder+$popup
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://mylead.global/stl/"] > img
 ##[href^="https://mysbitl.com"]
+##[href^="https://pulsetrack.biz/"]
 ##[href^="https://r.kraken.com/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
@@ -45465,7 +45464,6 @@ menstennisforums.com#@#.top_ads
 ||impactify.io^$third-party
 ||impactradius-go.com^$third-party
 ||impactradius.com^$third-party
-||impactserving.com^$third-party
 ||impeacknow.xyz^$third-party
 ||implix.com^$third-party
 ||impore.com^$third-party
@@ -50944,7 +50942,6 @@ menstennisforums.com#@#.top_ads
 ||serve.williamhillcasino.com^$popup,third-party
 ||smartblocker.org^*&trackingdomain=$popup
 ||theonlygames.com^$popup
-||topflownews.com^$popup
 ||torrent-protection.com^*&action=$popup,third-party
 ||track.mypcbackup.com^$popup,third-party
 ||track.xtrasize.nl^$popup,third-party
@@ -51406,6 +51403,7 @@ menstennisforums.com#@#.top_ads
 ||idlebrain.com^*/main-
 ||idlebrain.com^*/sky-
 ||idlebrain.com^*/square-
+||ignimgs.com/ign/pogoadk.js$script,domain=ign.com
 ||iheart.com^*/getLiveRadioAdConfig
 ||imgcarry.com/includes/js/layer.js
 ||imgshots.com/includes/js/layer.js
@@ -54600,7 +54598,6 @@ dictionary.com,thesaurus.com##aside[id$="728x90"]
 just-dice.com##body > .wrapper > .container:first-child
 psychnewsdaily.com##center
 zegtrends.com##center > .lazyloaded
-nytimes.com##css-1ichrj1.e12j3pa50
 python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
@@ -77843,10 +77840,10 @@ fqsousou.com,kengso.com#@#.user-share
 /google-analyticator/*
 /google-analytics-$~image
 /google-analytics.$~image
-/google-analytics/*$domain=~webapps.stackexchange.com
+/google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.
 /google-tag-manager.
-/google-tag-manager/*
+/google-tag-manager/*$domain=~stackexchange.com|~superuser.com
 /google-tracking/*
 /google.analytics.
 /google/analytics.js
@@ -80964,6 +80961,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://stats.*/index.js
 ://stats.*/script.js
 ://stats.*/stats.aspx
+://temptation.*/temptation.js
 ://track.*/collect
 ://track.*/visitor/
 ://tracker.*/pageview
@@ -81649,7 +81647,6 @@ _mongo_stats/
 ||adelixir.com^$third-party
 ||adform.net^$third-party
 ||adfox.ru^$third-party
-||adgjl13.com^$third-party
 ||adgreed.com^$third-party
 ||adheart.de^$third-party
 ||adhslx.com^$third-party
@@ -82305,7 +82302,6 @@ _mongo_stats/
 ||ela-3-tnk.com^$third-party
 ||elastx.net^$third-party
 ||electusdigital.com^$third-party
-||elite-s001.com^$third-party
 ||elitics.com^$third-party
 ||eloqua.com^$~stylesheet,third-party
 ||eluxer.net^$third-party
@@ -82869,7 +82865,6 @@ _mongo_stats/
 ||ladsp.com^$third-party
 ||lanchaeanly.pro^$third-party
 ||landingpg.com^$third-party
-||lansrv030.com^$third-party
 ||lasagneandands.com^$third-party
 ||lead-123.com^$third-party
 ||lead-converter.com^$third-party
@@ -82961,7 +82956,6 @@ _mongo_stats/
 ||m-pathy.com^$third-party
 ||m-t.io^$third-party
 ||m0mentum.net^$third-party
-||m1ll1c4n0.com^$third-party
 ||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||mabipa.com^$third-party
@@ -83749,7 +83743,6 @@ _mongo_stats/
 ||squidanalytics.com^$third-party
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
-||srv1010elan.com^$third-party
 ||ssm.codes^$third-party
 ||stack-sonar.com^$third-party
 ||stackadapt.com^$third-party
@@ -83821,7 +83814,6 @@ _mongo_stats/
 ||surveyscout.com^$third-party
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
-||svr-prc-01.com^$third-party
 ||swcs.jp^$third-party
 ||swfstats.com^$third-party
 ||swiss-counter.com^$third-party
@@ -83924,7 +83916,6 @@ _mongo_stats/
 ||trackcdn.com^$third-party
 ||trackcmp.net^$third-party
 ||trackconsole.com^$third-party
-||trackdiscovery.net^$third-party
 ||trackeame.com^$third-party
 ||trackedlink.net^$third-party
 ||trackedweb.net^$third-party
@@ -83983,7 +83974,6 @@ _mongo_stats/
 ||trkjmp.com^$third-party
 ||trklvs.com^$third-party
 ||trkn.us^$third-party
-||trksrv44.com^$third-party
 ||trmads.eu^$third-party
 ||trmnsite.com^$third-party
 ||trovus.co.uk^$third-party
@@ -86807,6 +86797,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
+||facebook.com/platform/scribe_endpoint.php/
 ||facebook.com/tr/
 ||facebook.com/tr?
 ||factors.ai/sdk/event/
@@ -87195,7 +87186,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mapquestapi.com/logger/
 ||maps.google.com^*/stats.js
 ||maptrackpro.com/track/
-||marketing.net.jumia.com.ng^
 ||marketingautomation.services/koi$third-party
 ||marketingautomation.services/net?$third-party
 ||marketo.com/gw1/
@@ -88236,7 +88226,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mistat.xiaomi.com^
 ||open.oneplus.net^$third-party
 ||sa.api.intl.miui.com^
-||smetrics.samsung.com^
 ||stat.xiaomi.com^
 ||stats.redditmedia.com^
 ||supportmetrics.apple.com^
@@ -91179,7 +91168,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.cheddar.com^
 ||stats.christianpost.com^
 ||stats.clear-media.com^
-||stats.comovee.com^
 ||stats.digg.com^
 ||stats.dnaindia.com^
 ||stats.extremetech.com^
@@ -101560,7 +101548,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||stat.ouedkniss.com^
 ||stat.webevolutis.com^
 ||static.actu.fr/assets/js/smarttag5182.js
-||stats.biblionumericus.fr^
 ||stats.grafikart.fr^
 ||stats.sexemodel.com^
 ||stats1x1.kapaza.be^
@@ -102371,6 +102358,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||starbucks.ca/weblx/static/optimizely.$script
+@@||starbucks.com/weblx/static/optimizely.$script
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
