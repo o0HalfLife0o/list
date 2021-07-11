@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KBdcyLLhG2Qv577XMcjFvw
+! Checksum: BbHidCljL4UaDpJyzVe2iw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107100811
-! Last Modified: 2021年07月10日 08:11
+! Version: 202107111402
+! Last Modified: 2021年07月11日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1823,6 +1823,7 @@ marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-747
+rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][not(@id)]/div[not(@id)][not(contains(@class,"-"))][not(@style)][not(*) and not(normalize-space())]/following-sibling::div[not(contains(@class,"-"))][not(@style)][not(@id)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[4][@class and @* and not (@id)][text()[contains(.," ")]]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][contains(@class,"_")][not(@id)]/div[not(@class)][not(@style)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[@class][not(@id)][not(contains(@class,"_"))][2]'

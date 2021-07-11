@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZiTbUkG0XxFhHKmG98v23g
+! Checksum: 0I1MKbOjTCoqheTfrQXMYA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107110811
-! Last Modified: 2021年07月11日 08:11
+! Version: 202107111402
+! Last Modified: 2021年07月11日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -13633,6 +13633,7 @@ halitv.com##a[href^="https://www.halitv.com/api/go."]
 howbuy.com##a[href^="https://www.howbuy.com/advertisement/"]
 sojson.com##a[href^="https://www.sojson.com/ad/"]
 zhiboba.org##a[href^="igg."]
+jisuyingyuan.info##A[href^="javascript"]
 hzjzxh.org##a[href^="javascript"]
 ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 5118.com##a[id][href^="http"]:not([href*=".5118.com"]) > img
