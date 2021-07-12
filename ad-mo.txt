@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cK1Ps0og2qZeE29LYnouvw
+! Checksum: Eg+yWBUmrjWXVy+/BkzAtg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107121401
-! Last Modified: 2021年07月12日 14:01
+! Version: 202107122002
+! Last Modified: 2021年07月12日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4354,8 +4354,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /banners.*/piclist?
 /banners.cgi?
 /banners.php?id
-/banners/300
-/banners/460
 /banners/468
 /banners/728
 /banners/ad/*
@@ -30132,6 +30130,7 @@ _popunder+$popup
 ##.topbar-ad-parent
 ##.topbar-ad-unit
 ##.topboardads
+##.topcharts_ad_720
 ##.topcontentadvertisement
 ##.topfootad
 ##.topicDetailsAdRight
@@ -52259,6 +52258,7 @@ newsmax.com###divArticleSpecialLinks
 newser.com###divRightRail > div:first-child
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
 rednationonline.ca###dnn_BannerPane
+apkwhale.com###download > div
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 energyforecastonline.co.za###endorsers
@@ -54085,7 +54085,7 @@ cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,motherjones.com,msn.com,timeslive.co.za##.sponsored
+chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,timeslive.co.za##.sponsored
 phillyvoice.com##.sponsored-article-widget
 washingtontimes.com##.sponsored-heading
 armageddonexpo.com,audiforums.com,ferrarichat.com,jaguarforums.com,pypi.org,thebugle.co.za,waamradio.com,wbal.com##.sponsors
@@ -85519,6 +85519,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.ro^$third-party
 ||top-ro.ro^$third-party
 ||trafix.ro^$third-party
+||wtstats.ro^$third-party
 ||zontera.com^$third-party
 ||109.169.66.161^$third-party,domain=~adult-site.ip
 ||1dmp.io^$third-party
@@ -89985,6 +89986,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||indeed.com/rpc/log/
 ||independentmail.com/metrics/
 ||indiatimes.com/personalisation/logdata/
+||inews.co.uk/rta2/
 ||info.com/pingback
 ||infogr.am/js/metrics.js
 ||infomine.com/imcounter.js
@@ -90208,6 +90210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.slite.com^
 ||metrics.spkt.io^
 ||metrics.ted.com^
+||metro.co.uk/base/rta/
 ||metro.co.uk/js/ga-
 ||metro.us/api/trackPage/
 ||metroweekly.com/tools/blog_add_visitor/
@@ -90671,6 +90674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rt.prnewswire.com^
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||rta.dailymail.co.uk^
+||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
 ||rte.ie/player/playertracker.js

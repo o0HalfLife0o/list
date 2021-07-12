@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iK/25NZhRg35RdM8WS80+w
+! Checksum: wHJThNut1G5PvGifFUaEhQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107121401
-! Last Modified: 2021年07月12日 14:01
+! Version: 202107122002
+! Last Modified: 2021年07月12日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31404,6 +31404,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.ro^$third-party
 ||top-ro.ro^$third-party
 ||trafix.ro^$third-party
+||wtstats.ro^$third-party
 ||zontera.com^$third-party
 ||109.169.66.161^$third-party,domain=~adult-site.ip
 ||1dmp.io^$third-party
@@ -35870,6 +35871,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||indeed.com/rpc/log/
 ||independentmail.com/metrics/
 ||indiatimes.com/personalisation/logdata/
+||inews.co.uk/rta2/
 ||info.com/pingback
 ||infogr.am/js/metrics.js
 ||infomine.com/imcounter.js
@@ -36093,6 +36095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.slite.com^
 ||metrics.spkt.io^
 ||metrics.ted.com^
+||metro.co.uk/base/rta/
 ||metro.co.uk/js/ga-
 ||metro.us/api/trackPage/
 ||metroweekly.com/tools/blog_add_visitor/
@@ -36556,6 +36559,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rt.prnewswire.com^
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||rta.dailymail.co.uk^
+||rta2.inews.co.uk^
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
 ||rte.ie/player/playertracker.js
