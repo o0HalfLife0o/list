@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Lg/NTWLTTEqfgMDyUdtFCA
+! Checksum: GAesj92RM1EIKeLMOI6swA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107140811
-! Last Modified: 2021年07月14日 08:11
+! Version: 202107141401
+! Last Modified: 2021年07月14日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25084,6 +25084,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /rolluptracker_
 /rook.tracking.
 /rot_in.php
+/roverclk/*
+/roverimp/*
+/roversync/?
 /rpc.gif?ac=
 /rpc/log?
 /rpc/preccount?
@@ -36575,8 +36578,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||roadandtrack.com^*/RTdartSite.js
 ||roblox.com/www/e.png?
 ||rok.com.com^
-||rover.ebay.$image,object,script
-||rover.ebay.com.au^*&cguid=
 ||rs.mail.ru^
 ||rsscache.com/Section/Stats/
 ||rsys2.net/pub/as?

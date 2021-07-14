@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dmB8iSiNw43+2PXqzxeZTA
+! Checksum: 4cqhTKf4la+xBDzaPgz4Xg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107140811
-! Last Modified: 2021年07月14日 08:11
+! Version: 202107141401
+! Last Modified: 2021年07月14日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10301,6 +10301,7 @@ _popunder+$popup
 ###ad-carousel
 ###ad-case
 ###ad-center
+###ad-chips
 ###ad-circfooter
 ###ad-code
 ###ad-col
@@ -51259,7 +51260,6 @@ menstennisforums.com#@#.top_ads
 ||calguns.net/images/ad
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
-||cdn.thejournal.ie/media/hpto/*TakeoverSkinsTheJournal.jpeg$image,domain=thejournal.ie
 ||cdnpure.com/static/js/ads-
 ||celebjihad.com/celeb-jihad/pu_stc.js
 ||celebstoner.com/assets/components/bdlistings/uploads/
@@ -51269,14 +51269,12 @@ menstennisforums.com#@#.top_ads
 ||cinemablend.com/static/js/batsignal/
 ||clarksvilleonline.com/cols/
 ||click.livedoor.com^
-||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cnn.com/ad/
 ||codelist.cc/bluehostbanner.jpg
 ||coincheck.com/images/affiliates/
 ||coincodex.com^$subdocument,~third-party
 ||coingolive.com/assets/img/partners/
 ||collector.viki.io^
-||constructionreviewonline.com^*banner
 ||coryarcangel.com/images/banners/
 ||cpahero.com/cpa-networks.gif
 ||crackdb.com/img/vpn.png
@@ -51301,7 +51299,7 @@ menstennisforums.com#@#.top_ads
 ||dnsleaktest.com/assets/img/cute-box-image.png
 ||dogemate.com/banner/
 ||domaintyper.com/Images/dotsitehead.png
-||dominicantoday.com^*/banners/
+||dominicantoday.com/wp-content/themes/dominicantoday/banners/
 ||dotaoutpost.com/stable/js/ab/$script,domain=wowhead.com
 ||dyncdn.me/static/20/js/expla
 ||eawaz.com/wp-content/plugins/ml-slider/
@@ -51321,43 +51319,27 @@ menstennisforums.com#@#.top_ads
 ||eurochannel.com/images/banners/
 ||europeonline-magazine.eu/banner/
 ||eurovision.tv/dist/assets/images/esc_partner_
-||eurovision.tv^*/sponsor_
 ||exchangerates.org.uk/images/200x200_
 ||expatexchange.com/banner/
-||f1i.com^*/hype/
 ||facebook.com/video/instream_video/$xmlhttprequest
 ||facebook.com^*/instream/vast.xml?
 ||failgags.com/yxsfidlqemb.php
 ||familylawweek.co.uk/bin_1/
 ||fastpic.ru/g/
-||fc.lc^$subdocument,~third-party,xmlhttprequest
-||ferrarichat.com^*/sponsors/
-||file-upload.net/include/img/300-
 ||finchannel.com/images/banners/
-||findagrave.com/get-ancestry-ads
 ||findit.com.mt/viewer/
 ||fishki.net/code?
 ||footballtradedirectory.com/images/pictures/banner/
 ||fordforums.com.au/logos/
-||formula1.com^*/sponsors/
 ||free-webhosts.com/images/a/
-||freecomiconline.me/script/$script
 ||freedownloadmanager.org/js/achecker.js
 ||freeworldgroup.com/banner
-||freshplaza.com/b/
 ||funnyjunk.com/site/js/extra/pre
-||gamasexual.com/js/d.js
-||gamecopyworld.com/*.php$subdocument
-||gamecopyworld.com^*/p1.js
-||gamecopyworld.eu/*.php$subdocument
-||gamecopyworld.eu^*/p1.js
-||gamerevolution.com^*/buynow-
-||gasgoo.com/promo/
-||geo*.hltv.org^
+||gamecopyworld.com/games/js/p1.js
+||gamecopyworld.eu/games/js/p1.js
 ||goal.com/img/sponsor/
 ||gocdkeys.com/images/background
 ||gold-splits.speedrun.com^
-||gomovies-online.me/addons/adsaskd78a6sdfkisdf.gif
 ||gounlimited.to/js/pop.js
 ||govevents.com/display-file/
 ||graphicdesignforums.co.uk/banners/
@@ -51369,8 +51351,8 @@ menstennisforums.com#@#.top_ads
 ||homeschoolmath.net/a/
 ||horizonsunlimited.com/alogos/
 ||hostsearch.com/creative/
-||hotstar.com^*/midroll?$~third-party
-||hotstar.com^*/preroll?$~third-party
+||hotstar.com^*/midroll?
+||hotstar.com^*/preroll?
 ||howtogermany.com/images/bnr-
 ||i-tech.com.au/media/wysiwyg/banner/
 ||ice.hockey/images/sponsoren/
@@ -51408,7 +51390,6 @@ menstennisforums.com#@#.top_ads
 ||koreatimes.co.kr/ad/
 ||kshp.com/uploads/banners/
 ||lagacetanewspaper.com/wp-content/uploads/banners/
-||lawprofessorblogs.com/responsive-template/*advert.
 ||leechpremium.link/img/banner/promo.png
 ||lespagesjaunesafrique.com/bandeaux/
 ||lifehack.org/Tm73FWA1STxF.js
@@ -51418,6 +51399,7 @@ menstennisforums.com#@#.top_ads
 ||linuxtracker.org/images/dw.png
 ||loadingz.com/jflex.js
 ||local.tampabay.com^$subdocument
+||lw.musictarget.com^
 ||lycos.com/catman/
 ||m.haradeiu.rocks^
 ||machineseeker.com/data/ofni/
@@ -51442,14 +51424,8 @@ menstennisforums.com#@#.top_ads
 ||mixdrop.co/xvideo-js
 ||monkeygamesworld.com/images/banners/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
-||mrunal.org^*/ad-
 ||musicatorrents.com^*/license.
 ||musicatorrents.com^*/script.
-||musictarget.com*/!
-||mygaming.co.za^*/partners/
-||mytuner.mobi^*/solitaire.png
-||mytuner.mobi^*/sudoku.png
-||mytuner.mobi^*/wordsearch.png
 ||myunique.info/wp-includes/js/pop.js
 ||namepros.com/images/backers/
 ||nativetimes.com/images/banners/
@@ -51519,52 +51495,40 @@ menstennisforums.com#@#.top_ads
 ||smashingapps.com/banner/
 ||smh.com.au/assets/europa.
 ||smn-news.com/images/banners/
-||smushcdn.com^*-take-over-$domain=sundayworld.co.za
 ||socket.streamable.com^
 ||softcab.com/google.php?
 ||sorcerers.net/images/aff/
 ||southafricab2b.co.za/banners/
 ||southfloridagaynews.com/images/banners/
-||speedcafe.com^*-banner-
-||speedcafe.com^*/partners/
 ||speedcheck.org/partner/
 ||speedvideo.net/img/pla_
 ||spongepowered.org^*/assets/img/sponsors/
 ||sportpesanews.com/images/promo/
-||sportplus.live/*/filler/index?
 ||sportzonline.to/n5m2qksvpd.js
 ||stagevu.com/AR2F6eftuQmA.js
 ||static.tellerium.com^$subdocument
-||statically.io^*/ig-widget-banner-$domain=kavogaming.com
-||statically.io^*/instant-gaming-homepage-banner.jpg$domain=kavogaming.com
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||stats.print.work^
 ||steamanalyst.com/www
-||stockhouse.com^*-300x75.gif
 ||strcloud.club/mainstream
 ||streamabc.xyz/asset/bann.js
 ||streams.tv/js/slidingbanner.js
 ||streamtape.com/adult
 ||streamtape.site/adult
-||sundayworld.co.za^*/home-page-take-over-
 ||surfmusic.de/anz
 ||survivalblog.com/marketplace/
 ||taadd.com/files/js/site_skin.js
 ||talkmagic.co.uk/aimages/$image
 ||tamilwire.org/images/banners3/
-||taxsutra.com^*/banner/
 ||tb.turbocap.net/a637rw3.js
 ||techhive.com/ads/
 ||technewsworld.com/images/sda/
-||techpowerup.com/jutrfbvhjhred/
 ||techrepublic.com/leadgen/
 ||theage.com.au/assets/europa.
-||thecenturion.co.za^*/banners/
 ||thecharlottepost.com/cache/sql/fba/
 ||thedailysheeple.com/images/banners/
 ||theindependentbd.com/assets/images/banner/
 ||theispguide.com/premiumisp.html
-||thelakewoodscoop.com^*banner
 ||thelodownny.com/leslog/ads/
 ||thepeninsulaqatar.com/images/front/cads/
 ||thephuketnews.com/photo/banner/
@@ -51618,8 +51582,6 @@ menstennisforums.com#@#.top_ads
 ||wolfstream.tv/twos.js
 ||worldstadiums.com/world_stadiums/bugarrishoes/
 ||wqah.com/images/banners/
-||ww1.flashx.
-||www.youtube.com/watch?v=*&pp=*&pbj=prefetch&$xmlhttprequest
 ||x.castanet.net^
 ||xbox-hq.com/html/images/banners/
 ||xinhuanet.com/s?
@@ -53084,7 +53046,7 @@ blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
 luxury-insider.com##.adv-info
-audiobacon.net##.adv-link
+audiobacon.net,sundayworld.co.za##.adv-link
 vidstream.io##.adv-space
 motorauthority.com##.adv-spacer
 veoh.com##.adv-title
@@ -53116,9 +53078,9 @@ nexusmods.com##.agroup
 surfwap.com##.ahblock2
 onlineradious.com##.ai-placement
 uploadvr.com##.ai-sticky-widget
-androidpolice.com,techporn.ph##.ai-track
+androidpolice.com,constructionreviewonline.com,techporn.ph##.ai-track
 unfinishedman.com##.ai-viewport-1
-bizpacreview.com,windowslatest.com##.ai_widget
+bizpacreview.com,constructionreviewonline.com,windowslatest.com##.ai_widget
 net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
 livejournal.com##.allbanners
@@ -53521,6 +53483,7 @@ digitaltrends.com##.dtads-slot
 googleping.com##.dtext
 yts.mx##.durs-bordered
 daniweb.com##.dw-inject-bsa
+mygaming.co.za##.dw_focus_videos
 nomadlist.com##.dynamic-fill
 nytimes.com##.e12j3pa50
 arabtimesonline.com,chtupdate.net##.e3lan
@@ -53545,6 +53508,7 @@ mobafire.com##.exhibit-vertical
 miami.com##.expedia-widget
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
+formula1.com##.f1-dfp-banner-wrapper
 btcmanager.com##.f_man_728
 steroid.com##.fancybox-overlay
 steroid.com##.fancybox-wrap
@@ -53611,6 +53575,7 @@ theiphoneappreview.com##.frame
 moviemistakes.com##.freestarad
 ghacks.net##.ftd-item.home-posts
 ptinews.com##.fullstorydivright
+ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,hotnews.org.za,newsday.co.zw,nondoc.com,one.com.mt,thegolfnewsnet.com,theindependent.co.zw,thestandard.co.zw##.g
 analyticsindiamag.com,moviemaker.com##.g-2.g
 sammobile.com##.g-29
@@ -53621,6 +53586,7 @@ moviemaker.com##.g-4.g
 businessofapps.com##.g-single
 yellowise.com##.g-widget-block
 titantv.com##.gAd
+gamasexual.com##.game-preview-wrapper
 monstertruckgames.org##.gamecatbox
 investing.com##.generalOverlay
 uefa.com##.geoTargetSponsor
@@ -53655,6 +53621,7 @@ teamrock.com##.grid-container-300x250
 groovypost.com##.groov-adlabel
 cnx-software.com##.gsensor-single
 gtaforums.com##.gtaforums-ad
+thelakewoodscoop.com##.gtlsad
 wheels24.co.za##.gumtree_component
 animenewsnetwork.com##.gutter
 themarknews.com##.h-section1
@@ -54285,7 +54252,7 @@ recombu.com##.takeover-right
 shacknews.com##.takeover-skin
 routesonline.com##.takeoverBanner
 igg-games.com##.taxonomy-description
-cyberparse.co.uk,gamezone.com,gizmochina.com,greekreporter.com,musictech.net,newsnext.live,nme.com,pdevice.com##.td-a-rec
+constructionreviewonline.com,cyberparse.co.uk,gamezone.com,gizmochina.com,greekreporter.com,musictech.net,newsnext.live,nme.com,pdevice.com##.td-a-rec
 alextimes.com##.td-a-rec-id-content_bottom
 telugubullet.com##.td-a-rec-id-custom-spot
 sonorannews.com##.td-a-rec-id-sidebar
@@ -79349,6 +79316,9 @@ fqsousou.com,kengso.com#@#.user-share
 /rolluptracker_
 /rook.tracking.
 /rot_in.php
+/roverclk/*
+/roverimp/*
+/roversync/?
 /rpc.gif?ac=
 /rpc/log?
 /rpc/preccount?
@@ -90840,8 +90810,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||roadandtrack.com^*/RTdartSite.js
 ||roblox.com/www/e.png?
 ||rok.com.com^
-||rover.ebay.$image,object,script
-||rover.ebay.com.au^*&cguid=
 ||rs.mail.ru^
 ||rsscache.com/Section/Stats/
 ||rsys2.net/pub/as?
