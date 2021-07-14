@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tc413hnBJDIloPOMwb8k1w
+! Checksum: 3noaWtvuhP+4P0Nnp52D/A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107140811
-! Last Modified: 2021年07月14日 08:11
+! Version: 202107150201
+! Last Modified: 2021年07月15日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1706,20 +1706,20 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 4bac.ro,cinemasfera.com,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/russian.txt ***
 ! #CV-244
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_small"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_big"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 50][string-length(@*) > 25][contains(@class," ")]/div[string-length(@id) > 24][contains(@id,"-")]'
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div/span[@class="news-top-rubric-heading__title"][text()="Реклама"]/ancestor::div[1]/following-sibling::div[1]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class][string-length(@data-log-id) > 25]/div[string-length(@id) > 25]/ancestor::div[@class][1]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 90][string-length(@data-log-id) > 20]/div[@id][string-length(@id) > 20]/ancestor::div[@class][1]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[contains(@id,"-page")]//div[@class]//div[contains(@class,"mg-grid__col_sm")]//div[contains(@class,"_inner")]//div[contains(@class,"_column-item")][@data-log-id]/div[@id]'
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@id][@class="feed__item _size_big"]/div[starts-with(@class,"card-wrappersome")][string-length(@class) > 190]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//*[text()="Ad"]/ancestor::div[@class="feed__item-wrap _size_big"]' 
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class and @id and @data-log-node]/div[@class][string-length(@class) > 200][string-length(@data-bem) > 1300]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_small"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_big"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 50][string-length(@*) > 25][contains(@class," ")]/div[not(contains(@class, "root"))][string-length(@id) > 24][contains(@id,"-")]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div/span[@class="news-top-rubric-heading__title"][text()="Реклама"]/ancestor::div[1]/following-sibling::div[1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class][string-length(@data-log-id) > 25]/div[string-length(@id) > 25]/ancestor::div[@class][1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 90][string-length(@data-log-id) > 20]/div[@id][string-length(@id) > 20]/ancestor::div[@class][1]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[contains(@id,"-page")]//div[@class]//div[contains(@class,"mg-grid__col_sm")]//div[contains(@class,"_inner")]//div[contains(@class,"_column-item")][@data-log-id]/div[@id]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@id][@class="feed__item _size_big"]/div[starts-with(@class,"card-wrappersome")][string-length(@class) > 190]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//*[text()="Ad"]/ancestor::div[@class="feed__item-wrap _size_big"]' 
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class and @id and @data-log-node]/div[@class][string-length(@class) > 200][string-length(@data-bem) > 1300]'
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read window.yaads.renderBlock
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#abort-on-property-read window.yaads.renderBlock
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
@@ -1727,7 +1727,7 @@ echo.msk.ru#$#abort-on-property-read Object.prototype.onRender; abort-on-propert
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 sdamgia.ru#$#abort-on-property-read Object.prototype.adSessionId
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
-yandex.by,yandex.fr,yandex.kz,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
+yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
 razlozhi.ru,24smi.org,auto.ru,drive2.ru,gorodrabot.ru,kinopoisk.ru#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
 24smi.org#$#abort-on-property-read Object.prototype.encodeJsonpScriptSrc
 /^https:\/\/st2\.razlozhi\.ru\/\w{9}\/.{100,300}$/$script,domain=razlozhi.ru
