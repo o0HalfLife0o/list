@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yEKT98xB7+VcHBIvS/usqQ
+! Checksum: IeYr0iGfDUZPrAOfXLPEtw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107150811
-! Last Modified: 2021年07月15日 08:11
+! Version: 202107152001
+! Last Modified: 2021年07月15日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1707,7 +1707,7 @@ filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-244
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_small"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_big"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
-~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 50][string-length(@*) > 25][contains(@class," ")]/div[not(contains(@class, "root"))][string-length(@id) > 24][contains(@id,"-")]'
+~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 50][string-length(@*) > 25][contains(@class," ")]/div[not(contains(@class, "mg-reactions__popup"))][not(contains(@class, "root"))][string-length(@id) > 24][contains(@id,"-")]'
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div/span[@class="news-top-rubric-heading__title"][text()="Реклама"]/ancestor::div[1]/following-sibling::div[1]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class][string-length(@data-log-id) > 25]/div[string-length(@id) > 25]/ancestor::div[@class][1]' 
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[string-length(@class) > 90][string-length(@data-log-id) > 20]/div[@id][string-length(@id) > 20]/ancestor::div[@class][1]' 

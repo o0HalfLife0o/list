@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5zg+VnPPaNcbSXiuV74ciA
+! Checksum: qlVZjhjA601ZlqRzvIwLFA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202107151401
-! Last Modified: 2021年07月15日 14:01
+! Version: 202107152001
+! Last Modified: 2021年07月15日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1873,6 +1873,9 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||elsiehoney.com^
+:45324/cd/$subdocument,third-party
+||elvirahedwig.com^
 ||cqdzjc.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -19394,7 +19397,7 @@ icourse163.org#@#.sns-link
 laosiji.com#@#.sns-wrapper
 mrbird.cc#@#.social-icons
 ghxi.com#@#.social-item
-ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
+7b2.com,ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
 cowtransfer.com#@#.socialButton
 storm.mg#@#.social_btn
 ali213.net#@#.subscribe-container
