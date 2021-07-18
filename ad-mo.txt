@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uU6TuwjoIDbnUxHvazeX2g
+! Checksum: q5ivGEQ59w8a5QK28vKFYw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107182001
-! Last Modified: 2021年07月18日 20:01
+! Version: 202107190201
+! Last Modified: 2021年07月19日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -42772,6 +42772,7 @@ menstennisforums.com#@#.top_ads
 ||upheavesy.club^
 ||uponelectabuzzor.club^
 ||upsettingcrescentwig.com^
+||upsettommyvomit.com^
 ||upsghpnqjoo.com^
 ||upsidebaitpalm.com^
 ||upsidecopiedcraft.com^
@@ -53155,7 +53156,7 @@ thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 wgbh.org##.becomeSponsor
 ssbcrack.com##.below-header
-greenwichtime.com,mysanantonio.com,sfgate.com##.belowMastheadWrapper
+greenwichtime.com,mysanantonio.com,newstimes.com,sfchronicle.com,sfgate.com##.belowMastheadWrapper
 vectorportal.com##.benner
 whoscored.com##.best-slip-button
 football365.com##.bet-link
@@ -54516,6 +54517,7 @@ issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
 keengamer.com##div[class*="gameon-above-"]
 topgear.com##div[class^="AdContainer-"]
+usnews.com##div[class^="Ad__Container-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
@@ -54533,6 +54535,7 @@ topgear.com##div[class^="TopContainer-"]
 fodors.com##div[class^="ad-placeholder"]
 barandbench.com##div[class^="ad-service-"]
 barandbench.com##div[class^="ad-slot"]
+usnews.com##div[class^="ad-spacer_"]
 kijiji.ca##div[class^="adChoices-"]
 goodrx.com##div[class^="adContainer"]
 goodrx.com##div[class^="adWrapper-"]
@@ -57858,9 +57861,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href="https://8646543.com"]
+##A[href="https://537687.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||835551.com^
+||luassane.cn^
 ://*:*/api/v4/g?kyurl=$script,third-party
 ||pi9lxn.cn^
 .cc/s.php?id=$script,third-party
@@ -65395,8 +65402,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||imgdb.cn^$domain=m4ff.com
+||mh-mh.com/static/js/hlink.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+m4ff.com##.content2
+m4ff.com##.index_gg_wz
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -70960,6 +70971,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||tt1069.com/adserv.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -86320,6 +86332,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drift.com/targeting/
 ||drift.com/track
 ||drlimmode9ddd.cloudfront.net^
+||dsbahmgppc0j4.cloudfront.net^
 ||dt1pxsve3tgas.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du4rq1xqh3i1k.cloudfront.net^

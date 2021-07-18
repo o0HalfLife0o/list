@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iPju36cdIX4o/D0cR+35iA
+! Checksum: zKPEWAI+zvpPzV60eTl7fg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202107182001
-! Last Modified: 2021年07月18日 20:01
+! Version: 202107190201
+! Last Modified: 2021年07月19日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1425,9 +1425,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href="https://8646543.com"]
+##A[href="https://537687.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||835551.com^
+||luassane.cn^
 ://*:*/api/v4/g?kyurl=$script,third-party
 ||pi9lxn.cn^
 .cc/s.php?id=$script,third-party
@@ -8962,8 +8966,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||imgdb.cn^$domain=m4ff.com
+||mh-mh.com/static/js/hlink.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+m4ff.com##.content2
+m4ff.com##.index_gg_wz
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14527,6 +14535,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||tt1069.com/adserv.js
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
