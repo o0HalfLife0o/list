@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qovp0VNW9ciLTLLsK7XxdA
+! Checksum: SqtPYXouQ47J/wUpK0MbUw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107191401
-! Last Modified: 2021年07月19日 14:01
+! Version: 202107192002
+! Last Modified: 2021年07月19日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1673,6 +1673,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad468.
 /ad468x60.
 /ad468x80.
+/ad4_creative/*
 /ad4i.
 /ad5.
 /ad6.
@@ -41893,6 +41894,7 @@ menstennisforums.com#@#.top_ads
 ||sperconset.club^
 ||spermparticipation.com^
 ||spherediary.com^
+||sphorical.site^
 ||spicedeceived.com^
 ||spigotsmetonym.cam^
 ||spillsackterrified.com^
@@ -50925,6 +50927,7 @@ menstennisforums.com#@#.top_ads
 ||ddfcash.com^$third-party
 ||dnk2wr2ch6zxa.cloudfront.net^
 ||fansign.streamray.com^
+||faphouse.com^$subdocument,third-party
 ||fbooksluts.com^$third-party
 ||feeds.videosz.com^
 ||fleshlight.com/images/banners/
@@ -51887,8 +51890,8 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||notube.lol/p/$popup
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||vpnfortorrents.*?$popup
-/about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|fmovies.to|gowatchseries.bz|hydracdn.network|imagetwist.com|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
-/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
+/about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|fmovies.to|gowatchseries.bz|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
 /^https?:\/\/.*\/[?]/$popup,domain=9anime.ru|flixhq.ru|kickass2.cc|movies7.to|tvshows88.com
 /^https?:\/\/.*[&%+=]/$popup,domain=dood.to|dood.video|dood.watch|fcdn.stream|jawcloud.co|mixdrop.co|powvideo.net|powvldeo.cc|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|repelis.net|sbplay.one|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamani.net|streamplay.to|streamtape.com|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|zippyshare.com
@@ -55370,6 +55373,7 @@ japan-whores.com##.vp-info
 imagearn.com##.wide_banner
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
+xhamster.com##.wio-cbanner
 de-sexy-tube.ru##.wrap-head-banner-mob
 pornrabbit.com##.wrap-spots
 pussy.org##.zone
@@ -79286,6 +79290,8 @@ fqsousou.com,kengso.com#@#.user-share
 /securetracker.
 /seed.gif?
 /seedtag-detector.
+/segment/api/*
+/segment/js/*
 /segmentio.js
 /segmentIoTrackingProvider.js
 /SellathonCounterService.
@@ -82054,6 +82060,7 @@ _mongo_stats/
 ||forkcdn.com^$third-party
 ||formalyzer.com^$third-party
 ||formisimo.com^$third-party
+||forter.com^$third-party
 ||fouanalytics.com^$third-party
 ||foundry42.com^$third-party
 ||fout.jp^$third-party
@@ -85986,6 +85993,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.com^*/1x1.gif
 ||chtah.net/a/*/spacer-0.gif$third-party
+||cimage.adobe.com^
 ||circonus.com/hit?
 ||citygridmedia.com/tracker/
 ||citysearch.com/tracker/
@@ -86502,6 +86510,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geo.thehindu.com^
 ||geobar.ziffdavisinternational.com^
 ||geoip.nekudo.com^
+||geolocation.outreach.com^
 ||geoservice.curse.com^
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
@@ -87037,6 +87046,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.glimr.io^
 ||pixel.indieclicktv.com/annonymous/
 ||pixel.mintigo.com^
+||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -87869,6 +87879,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||taboola.com/libtrc/impl.
 ||taboola.com/libtrc/userx.
 ||taboola.com/tb?
+||taboola.com^*/json?tim=
 ||taboola.com^*/log/
 ||taboola.com^*/notify-impression?$third-party
 ||taboolasyndication.com/log/
@@ -88756,40 +88767,21 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.aita.gov.vn^
 !-----------------Individual tracking systems-----------------!
 ||1337x.to/ip3.php
-||192.com/log/
-||37signals.com/ga.js
-||3dmark.com^*/ruxitbeacon
 ||4hds.com/js/camstats.js
-||4info.com/alert/listeners/
-||6waves.com/trker/
-||99bitcoins.com/_load/
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
 ||a.huluad.com/beacons/
-||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
 ||ab-machine.forbes.com^
-||abc.net.au/counters/
-||abc.net.au^*/stats/
 ||abcnews.com/assets/dtci/js/at.js
 ||abebooks.com/timer.gif?
-||about.me/wf/open?
-||abplive.in/analytics/
+||about.me/track?
 ||academia.edu/record_hit
-||accountnow.com/SyslogWriter.ashx
-||accuradio.com/static/track/
-||accuratefiles.com/stat
 ||accuterm.com/data/stat.js
-||aclst.com/ping.php?
-||aclu.org/aclu_statistics_image.php
-||acookie.alibaba.com^
 ||acronymfinder.com/~/st/af.js
 ||activate.latimes.com/pc/caltimes/?pulse2001=
-||activity.frequency.com^
-||ad2links.com/lpajax.php?
-||adapd.com/addon/upixel/
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
@@ -88818,17 +88810,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ai.inmdata.io^
 ||ai.iol.io^
 ||airbnb.*/tracking/
-||airfrance.com/s/?tcs=
-||airnewzealand.eu^$ping
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
-||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net^$image,domain=inquirer.net
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
-||alibaba.com/js/beacon_
 ||alicdn.com/AWSC/et/
 ||alicdn.com/js/aplus_*.js
 ||aliexpress.com/js/beacon_
@@ -89203,7 +89191,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfront.net/vis_opt_no_jquery.js
 ||clvk.viki.io^
 ||clyp.it^*/log^
-||cmap.alibaba.com^
 ||cmstrendslog.timesnow.tv^
 ||cnn.com/analytics/
 ||cnt.iceporn.com^
@@ -89227,6 +89214,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
 ||collector.wallapop.com^
+||collector.xhamster.com^
 ||collector.xhamster2.com^
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
@@ -89344,7 +89332,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dl.meliacloud.com^
 ||dmcdn.net/track/$domain=dailymotion.com
 ||dmp.marketgid.com^
-||dmtracking2.alibaba.com^
 ||dmtrk.com/*/o.gif
 ||docs.github.com/events
 ||docs.google.com/stat|$xmlhttprequest
@@ -89499,7 +89486,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fark.net/imagesnoc/
 ||farmville.com/trackaction.php?
 ||farsnews.com/stcs.js.aspx?
-||fast.forbes.com^
 ||fastexercise.com/logging.js
 ||fathom.app.silverbeak.com^
 ||fathom.status.im^
@@ -89544,8 +89530,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fns.modanisa.com^*/analytics.js
 ||foodcouture.net/public_html/ra/script.php$script
 ||foodnavigator.com/tracker/
-||forbes.com/fps/cookie_backup.php?
-||forbes.com^*/track.php?
 ||forbesimg.com/assets/js/forbes/fast_pixel.js
 ||ford.com/ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
 ||ford.com/ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
@@ -89648,7 +89632,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=10play.com.au|allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -89916,7 +89900,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/analytics2.php
 ||lastpass.com^*/analyticsjs$script,~third-party
 ||lastpass.com^*/loadanalytics.js
-||latimes.com/images/pixel.gif
 ||lcs.naver.
 ||legalmatch.com/scripts/lmtracker.js
 ||lendingtree.com/forms/eventtracking?
@@ -90785,7 +90768,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||startpage.*/do/smt?
 ||startpage.*/elp?
 ||startpage.*/pelp?
-||stat.alibaba.com^
 ||stat.dealtime.com^
 ||stat.kbs.co.kr^
 ||stat.pubhtml5.com^
@@ -90987,7 +90969,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinyupload.com^*/ct_adkontekst.js
 ||tivo.com/__ssobj/track?
 ||tk.kargo.com^
-||tkpi.delta.com^
 ||tmagazine.com/js/track_
 ||tms.eharmony.ca^
 ||tms.eharmony.co.uk^
@@ -91016,7 +90997,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tp.ranker.com^
 ||tqn.com/px/?
 ||tr.snapchat.com^
-||tracelog.www.alibaba.com^
 ||track.briskfile.com^
 ||track.catalogs.com^
 ||track.cbs.com^
@@ -91498,10 +91478,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||newegg.com/pfssl.js
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tipsport.org/scripts/closure.js
-/^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
-||forter.com/events
-||forter.com/prop.json$ping
-||forter.com/vchk2
 ||airbnb.*/facebook_advanced_matchings?
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -91533,6 +91509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kiehls.com^*/init.js
 ||kiva.org/r3pNVz1F/init.js
 ||lancome-usa.com^*/init.js
+||lulus.com/px/client/main.min.js
 ||madlan.co.il/o4wPDYYd/init.js
 ||nyxcosmetics.com^*/init.js
 ||octopart.com/kdRQnL15/init.js
@@ -91553,114 +91530,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zazzle.com.au/a0o07ort/init.js
 ||zazzle.com/a0o07ort/init.js
 ||zillow.com/HYx10rg3/init.js
-||a02342.andoveradvertiser.co.uk^
-||a02342.asianimage.co.uk^
-||a02342.banburycake.co.uk^
-||a02342.barryanddistrictnews.co.uk^
-||a02342.basildonstandard.co.uk^
-||a02342.bicesteradvertiser.net^
-||a02342.borehamwoodtimes.co.uk^
-||a02342.bournemouthecho.co.uk^
-||a02342.braintreeandwithamtimes.co.uk^
-||a02342.brentwoodlive.co.uk^
-||a02342.bridgwatermercury.co.uk^
-||a02342.bridportnews.co.uk^
-||a02342.bromsgroveadvertiser.co.uk^
-||a02342.bucksfreepress.co.uk^
-||a02342.burnhamandhighbridgeweeklynews.co.uk^
-||a02342.burytimes.co.uk^
-||a02342.campaignseries.co.uk^
-||a02342.chardandilminsternews.co.uk^
-||a02342.chelmsfordweeklynews.co.uk^
-||a02342.chorleycitizen.co.uk^
-||a02342.clactonandfrintongazette.co.uk^
-||a02342.cotswoldjournal.co.uk^
-||a02342.cravenherald.co.uk^
-||a02342.dailyecho.co.uk^
-||a02342.darlingtonandstocktontimes.co.uk^
-||a02342.dorsetecho.co.uk^
-||a02342.droitwichadvertiser.co.uk^
-||a02342.dudleynews.co.uk^
-||a02342.ealingtimes.co.uk^
-||a02342.echo-news.co.uk^
-||a02342.enfieldindependent.co.uk^
-||a02342.eppingforestguardian.co.uk^
-||a02342.eveshamjournal.co.uk^
-||a02342.falmouthpacket.co.uk^
-||a02342.freepressseries.co.uk^
-||a02342.gazette-news.co.uk^
-||a02342.gazetteherald.co.uk^
-||a02342.gazetteseries.co.uk^
-||a02342.glasgowtimes.co.uk^
-||a02342.greenocktelegraph.co.uk^
-||a02342.guardian-series.co.uk^
-||a02342.halesowennews.co.uk^
-||a02342.halsteadgazette.co.uk^
-||a02342.hampshirechronicle.co.uk^
-||a02342.harrowtimes.co.uk^
-||a02342.harwichandmanningtreestandard.co.uk^
-||a02342.heraldscotland.com^
-||a02342.heraldseries.co.uk^
-||a02342.herefordtimes.com^
-||a02342.hillingdontimes.co.uk^
-||a02342.ilkleygazette.co.uk^
-||a02342.keighleynews.co.uk^
-||a02342.kidderminstershuttle.co.uk^
-||a02342.knutsfordguardian.co.uk^
-||a02342.lancashiretelegraph.co.uk^
-||a02342.ledburyreporter.co.uk^
-||a02342.leighjournal.co.uk^
-||a02342.ludlowadvertiser.co.uk^
-||a02342.maldonandburnhamstandard.co.uk^
-||a02342.malverngazette.co.uk^
-||a02342.messengernewspapers.co.uk^
-||a02342.milfordmercury.co.uk^
-||a02342.newsshopper.co.uk^
-||a02342.northwichguardian.co.uk^
-||a02342.oxfordmail.co.uk^
-||a02342.penarthtimes.co.uk^
-||a02342.prestwichandwhitefieldguide.co.uk^
-||a02342.redditchadvertiser.co.uk^
-||a02342.redhillandreigatelife.co.uk^
-||a02342.richmondandtwickenhamtimes.co.uk^
-||a02342.romseyadvertiser.co.uk^
-||a02342.runcornandwidnesworld.co.uk^
-||a02342.salisburyjournal.co.uk^
-||a02342.somersetcountygazette.co.uk^
-||a02342.southendstandard.co.uk^
-||a02342.southwalesargus.co.uk^
-||a02342.southwalesguardian.co.uk^
-||a02342.southwestfarmer.co.uk^
-||a02342.stalbansreview.co.uk^
-||a02342.sthelensstar.co.uk^
-||a02342.stourbridgenews.co.uk^
-||a02342.surreycomet.co.uk^
-||a02342.swindonadvertiser.co.uk^
-||a02342.theargus.co.uk^
-||a02342.theboltonnews.co.uk^
-||a02342.thenational.scot^
-||a02342.thenorthernecho.co.uk^
-||a02342.thescottishfarmer.co.uk^
-||a02342.thetelegraphandargus.co.uk^
-||a02342.thetottenhamindependent.co.uk^
-||a02342.thewestmorlandgazette.co.uk^
-||a02342.thisisthewestcountry.co.uk^
-||a02342.thurrockgazette.co.uk^
-||a02342.times-series.co.uk^
-||a02342.wandsworthguardian.co.uk^
-||a02342.warringtonguardian.co.uk^
-||a02342.watfordobserver.co.uk^
-||a02342.westerntelegraph.co.uk^
-||a02342.wharfedaleobserver.co.uk^
-||a02342.wiltsglosstandard.co.uk^
-||a02342.wiltshiretimes.co.uk^
-||a02342.wimbledonguardian.co.uk^
-||a02342.winsfordguardian.co.uk^
-||a02342.wirralglobe.co.uk^
-||a02342.witneygazette.co.uk^
-||a02342.worcesternews.co.uk^
-||a02342.yeovilexpress.co.uk^
-||a02342.yourlocalguardian.co.uk^
+://a02342.
 ||baltimorefishbowl.com/detroitchicago/cmb.js
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
@@ -91693,25 +91563,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourcepoint-mms.mylifetime.com^
 ||sourcepoint.theguardian.com^
 ||sourcepoint.vice.com^
+||sourcepointcmp.bloomberg.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
-||ttauri.bikeperfect.com^
-||ttauri.creativebloq.com^
-||ttauri.cyclingnews.com^
-||ttauri.digitalcameraworld.com^
-||ttauri.guitarworld.com^
-||ttauri.laptopmag.com^
-||ttauri.livescience.com^
-||ttauri.loudersound.com^
-||ttauri.musicradar.com^
-||ttauri.nexttv.com^
-||ttauri.realhomes.com^
-||ttauri.space.com^
-||ttauri.t3.com^
-||ttauri.tomsguide.com^
-||ttauri.tomshardware.com^
-||ttauri.toptenreviews.com^
-||ttauri.whathifi.com^
 ||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 /yozons-lib/*$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
