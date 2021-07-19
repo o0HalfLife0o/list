@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fbjjkCqpBXGt2aaSClFvfg
+! Checksum: 1kDKcCWTMxzoDRvi33t/MA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107192002
-! Last Modified: 2021年07月19日 20:02
+! Version: 202107200201
+! Last Modified: 2021年07月20日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10326,6 +10326,8 @@ _popunder+$popup
 ###ad-cube-top
 ###ad-desktop-bottom
 ###ad-desktop-footer
+###ad-desktop-takeover-home
+###ad-desktop-takeover-int
 ###ad-desktop-top
 ###ad-desktop-wrap
 ###ad-discover
@@ -10501,6 +10503,8 @@ _popunder+$popup
 ###ad-plate
 ###ad-player
 ###ad-popup
+###ad-popup-home
+###ad-popup-int
 ###ad-popup1
 ###ad-position-a
 ###ad-position1
@@ -19501,6 +19505,7 @@ _popunder+$popup
 ##.ad-panel__googlead
 ##.ad-panorama
 ##.ad-panorama-outer-container
+##.ad-parallax
 ##.ad-parallax-wrap
 ##.ad-parent-hockey
 ##.ad-passback-o-rama
@@ -20055,6 +20060,8 @@ _popunder+$popup
 ##.ad450
 ##.ad468
 ##.ad468_60
+##.ad468box
+##.ad468innerboxadpic
 ##.ad468x60
 ##.ad468x60Wrap
 ##.ad468x60_main
@@ -21542,6 +21549,7 @@ _popunder+$popup
 ##.adplacement
 ##.adplate-background
 ##.adpod
+##.adpopup
 ##.adpos-19
 ##.adpos-20
 ##.adpos-25
@@ -21794,6 +21802,8 @@ _popunder+$popup
 ##.ads-sign
 ##.ads-single
 ##.ads-site
+##.ads-skin
+##.ads-skin-mobile
 ##.ads-sky
 ##.ads-skyscraper
 ##.ads-skyscraper-container-left
@@ -28048,6 +28058,7 @@ _popunder+$popup
 ##.page-header_ad
 ##.page-pencil-ad-container-bottom
 ##.pageAdSkin
+##.pageAdSkinMobile
 ##.pageAdSkinUrl
 ##.pageAds
 ##.pageBottomGoogleAd
@@ -30292,6 +30303,7 @@ _popunder+$popup
 ##.topadbar
 ##.topadblock
 ##.topadbox
+##.topadcont
 ##.topadrow
 ##.topads
 ##.topads-spacer
@@ -31849,6 +31861,7 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ##span[data-component-type="s-ads-metrics"]
+##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
 ###mplayer-embed
@@ -35029,7 +35042,6 @@ menstennisforums.com#@#.top_ads
 ||citizenshis.com^
 ||cityadspix.com^
 ||citysite.net^
-||cityxman.com^
 ||civadsoo.net^
 ||civicskirtblindness.com^
 ||civiliargeo.club^
@@ -35051,7 +35063,6 @@ menstennisforums.com#@#.top_ads
 ||clarityray.com^
 ||claspluke.com^
 ||class2deal.com^
-||class64deal.com^
 ||classicalservicewaistcoat.com^
 ||classicalwide.com^
 ||classionreactice.info^
@@ -35095,7 +35106,6 @@ menstennisforums.com#@#.top_ads
 ||clickco.net^
 ||clickequations.net^
 ||clickexperts.net^
-||clickganic.com^
 ||clickgate.biz^
 ||clickintext.com^
 ||clickkingdom.net^
@@ -35391,7 +35401,6 @@ menstennisforums.com#@#.top_ads
 ||coysotown.com^
 ||cozvhotizbepi.com^
 ||cp2srvng.xyz^
-||cp7gyw5w94c7.com^
 ||cpabeyond.com^
 ||cpaclicks.com^
 ||cpacoreg.com^
@@ -35573,7 +35582,6 @@ menstennisforums.com#@#.top_ads
 ||da-ads.com^
 ||da60995df247712.com^
 ||da6fda11b2b0ba.com^
-||daamjzrlon.com^
 ||dacoloment.pro^
 ||dadhuhram.com^
 ||dadsabz.com^
@@ -36060,7 +36068,6 @@ menstennisforums.com#@#.top_ads
 ||dropzenad.com^
 ||drowadri.racing^
 ||drowle.com^
-||droztihu.com^
 ||drudgerynickname.com^
 ||drunkenknowing.com^
 ||drwkzkncihwygw.com^
@@ -36345,7 +36352,6 @@ menstennisforums.com#@#.top_ads
 ||elkbahtax.com^
 ||elliotfoodauditioning.com^
 ||elliotnotions.com^
-||elmenor.xyz^
 ||elongatedinscription.com^
 ||eloquencer.com^
 ||elprogresse.top^
@@ -36401,7 +36407,6 @@ menstennisforums.com#@#.top_ads
 ||engingalon.top^
 ||englingedrxa.club^
 ||englishheadlight.com^
-||engppdoqrtivjd.com^
 ||enhancereviewpacket.com^
 ||enhucherions.xyz^
 ||eniousirre.top^
@@ -36771,7 +36776,6 @@ menstennisforums.com#@#.top_ads
 ||fdrgtt9edmej010.com^
 ||fdrptpyxchzjk.com^
 ||fdwbhggm.com^
-||fdxdjkswppg.com^
 ||fe95a992e6afb.com^
 ||feadrope.net^
 ||fearlessmigrantstate.com^
@@ -36825,6 +36829,7 @@ menstennisforums.com#@#.top_ads
 ||ffkdxymyji.com^
 ||ffonavzh.com^
 ||fftpzrscirdagr.com^
+||fgafkk.com^
 ||fgangstsur.club^
 ||fgaqwtr.com^
 ||fgddl9szdof7.com^
@@ -36943,7 +36948,6 @@ menstennisforums.com#@#.top_ads
 ||fmsde0dv2j54.com^
 ||fmstigat.online^
 ||fnacgbik9v14.com^
-||fnkyyrgraizy.com^
 ||fnrrm2fn1njl1.com^
 ||fnx2n3rqbuw7.com^
 ||foapsovi.net^
@@ -36955,7 +36959,6 @@ menstennisforums.com#@#.top_ads
 ||fogayeown.com^
 ||fogbigcourt.com^
 ||fogspubsoapy.com^
-||fogzyads.com^
 ||foheltou.com^
 ||folderbunch.com^
 ||foldupbriningjeanne.com^
@@ -37091,7 +37094,6 @@ menstennisforums.com#@#.top_ads
 ||furwayfareracerbity.com^
 ||fuseplatform.net^
 ||fusionads.net^
-||futckgpfbgzfn.com^
 ||futsoksu.com^
 ||future-hawk-content.co.uk^
 ||futureresiduals.com^
@@ -37855,7 +37857,6 @@ menstennisforums.com#@#.top_ads
 ||humbugplanning.com^
 ||humidmentioned.com^
 ||humorshieldrecede.com^
-||humparsi.com^
 ||humsoolt.net^
 ||hunchmotherhooddefine.com^
 ||hungerundo.com^
@@ -37899,7 +37900,6 @@ menstennisforums.com#@#.top_ads
 ||iciclefilament.com^
 ||icjbnnjiung.com^
 ||icjvfvoh.com^
-||iclbkrgjdstqt.com^
 ||iclickcdn.com^
 ||icmlfqdb.com^
 ||icoawhou.com^
@@ -38130,7 +38130,6 @@ menstennisforums.com#@#.top_ads
 ||iutkryvnixptlg.com^
 ||ivepdiwslclulq.com^
 ||ivfihumeajjmbc.com^
-||ivhqsuhrqvhlke.com^
 ||ivjkdyrjjgxhch.com^
 ||ivjtgtjcizwh.com^
 ||ivsdajtjh.com^
@@ -38406,7 +38405,6 @@ menstennisforums.com#@#.top_ads
 ||kjvbobnqoms.com^
 ||kka20si.xyz^
 ||kkmacsqsbf.info^
-||kkqusrnaf.com^
 ||kkzzmljoaloc.com^
 ||kliksaya.com^
 ||kliktrkr.com^
@@ -38415,7 +38413,6 @@ menstennisforums.com#@#.top_ads
 ||kljqqlhaf.com^
 ||klohovfra.com^
 ||kmbyktnb.com^
-||kmhodhhdvulnn.com^
 ||kmovuj.com^
 ||kmqkdhqaqt.com^
 ||kmuvaerfumy.com^
@@ -38710,7 +38707,6 @@ menstennisforums.com#@#.top_ads
 ||livwrite.com^
 ||lizzietolerance.com^
 ||ljecur.com^
-||lk1mft33pj2f.com^
 ||lkcgvcdmc.com^
 ||lkdvvxvtsq6o.com^
 ||lknbffkv.com^
@@ -39608,6 +39604,7 @@ menstennisforums.com#@#.top_ads
 ||newmayads.com^
 ||newnovads.com^
 ||newoctads.com^
+||news-easy.org^
 ||news-headlines.co^
 ||news-jupiter.com^
 ||news-mars.com^
@@ -40147,7 +40144,6 @@ menstennisforums.com#@#.top_ads
 ||overreactscout.com^
 ||oversightbullet.com^
 ||overyfamiliar.biz^
-||ovk2cuebg77t.com^
 ||ovsindusted.club^
 ||ovyiakt1wzqz.com^
 ||owbihynrz.com^
@@ -40650,6 +40646,7 @@ menstennisforums.com#@#.top_ads
 ||premium-members.com^
 ||premium4kflix.club^
 ||premium4kflix.top^
+||premiumbros.com^
 ||premiumvertising.com^
 ||prepairoo.club^
 ||preparecanyonpendulous.com^
@@ -40915,6 +40912,7 @@ menstennisforums.com#@#.top_ads
 ||qbddhjrwe.com^
 ||qbgrlltue.com^
 ||qbkzvophvva.com^
+||qcdnxq.com^
 ||qd3u5eeuos.com^
 ||qdatasales.com^
 ||qdayipnsir.com^
@@ -40956,7 +40954,6 @@ menstennisforums.com#@#.top_ads
 ||qn-5.com^
 ||qnageoh3ns.com^
 ||qngqlrxscxlvh.com^
-||qnwjhpingotrmc.com^
 ||qocvicklgcgr.com^
 ||qopmcrys.com^
 ||qoredi.com^
@@ -40985,6 +40982,7 @@ menstennisforums.com#@#.top_ads
 ||qudcsysviowa.com^
 ||questionsunpleasantaborigines.com^
 ||qugdtlps.com^
+||quicklisti.com^
 ||quickorange.com^
 ||quiptenrice.casa^
 ||quite-bag-seed-catch.xyz^
@@ -41332,7 +41330,6 @@ menstennisforums.com#@#.top_ads
 ||riwhedipsa.pro^
 ||rj2ro1x3j4ht.com^
 ||rjltpektsuqsu.com^
-||rkcqlsiu9fr6.top^
 ||rkfnrkjfnrkfnkjh.xyz^
 ||rkomf.com^
 ||rkpecade.com^
@@ -41391,7 +41388,6 @@ menstennisforums.com#@#.top_ads
 ||routeserve.info^
 ||rouvoute.net^
 ||rovalionsa.fun^
-||rovenancyde.top^
 ||rovuditho.pro^
 ||rowfeedire.casa^
 ||rowframemailer.com^
@@ -41491,7 +41487,6 @@ menstennisforums.com#@#.top_ads
 ||s4d.xyz^
 ||s4yxaqyq95.com^
 ||s83ovp6qyhco.com^
-||s85n4btydl.online^
 ||s99i.org^
 ||sabs-push.xyz^
 ||sabsmismake.casa^
@@ -41829,7 +41824,6 @@ menstennisforums.com#@#.top_ads
 ||sixtuxfixer.com^
 ||sizeilksohs.com^
 ||sjeffrontagr.top^
-||sjscxhknxeek.com^
 ||sketchinferiorunits.com^
 ||skillpropulsion.com^
 ||skilyake.net^
@@ -42134,7 +42128,6 @@ menstennisforums.com#@#.top_ads
 ||strawldeli.biz^
 ||strayhepatitisbruise.com^
 ||stream-all.com^
-||streamium.xyz^
 ||streamsearchclub.com^
 ||streamspeedygreatlyapplication.best^
 ||streamyourvid.com^
@@ -42529,7 +42522,6 @@ menstennisforums.com#@#.top_ads
 ||tmiscattlem.fun^
 ||tmjhdyghjm.com^
 ||tmnlsmvgrkoj.com^
-||tncexvzu.com^
 ||tncomg.com^
 ||tncred.com^
 ||tnzjsphdird.com^
@@ -42733,7 +42725,6 @@ menstennisforums.com#@#.top_ads
 ||tv1s4d6klh4n.com^
 ||tveszimawy.com^
 ||tvjkilgfanpt.com^
-||tvlubtrxcold.com^
 ||twentiesbarton.com^
 ||twentycustomimprovement.com^
 ||twentypassengerdiagram.com^
@@ -43012,7 +43003,6 @@ menstennisforums.com#@#.top_ads
 ||vcmrlwcafliaa.com^
 ||vcommission.com^
 ||vcpcvmfnocsfay.com^
-||vcwrigdrnh.com^
 ||vebadu.com^
 ||vedcouragin.info^
 ||vedefendin.club^
@@ -43379,7 +43369,6 @@ menstennisforums.com#@#.top_ads
 ||whispercustom.com^
 ||whistlingenrapturereprint.com^
 ||whiteboardnez.com^
-||whitective.club^
 ||whitetrcklnk.click^
 ||whixekica.pro^
 ||whixochyxy.pro^
@@ -44932,7 +44921,6 @@ menstennisforums.com#@#.top_ads
 ||bidvertiser.com^$third-party
 ||biemedia.com^$third-party
 ||bigchoicegroup.com^$third-party
-||bigfineads.com^$third-party
 ||bigpulpit.com^$third-party
 ||billypub.com^$third-party
 ||bilsyndication.com^$third-party
@@ -45425,7 +45413,6 @@ menstennisforums.com#@#.top_ads
 ||hotwords.com.br^$third-party
 ||hotwords.com.mx^$third-party
 ||hotwords.com^$third-party
-||houchosi.net^$third-party
 ||hover.in^$third-party
 ||hoverr.co^$third-party
 ||hoverr.media^$third-party
@@ -46393,7 +46380,6 @@ menstennisforums.com#@#.top_ads
 ||relevanti.com^$third-party
 ||relytec.com^$third-party
 ||remintrex.com^$third-party
-||remtoaku.net^$third-party
 ||reople.co.kr^$third-party
 ||replase.cf^$third-party
 ||replase.ml^$third-party
@@ -49468,7 +49454,6 @@ menstennisforums.com#@#.top_ads
 ||cloudfront.net/tie.js
 ||cloudfront.net^$image,script,subdocument,xmlhttprequest,domain=300mbfilms.org|4archive.org|amabitch.com|comedy.com|coroas40.com|devil-torrents.pl|downloadpirate.com|embedsr.to|mixdrop.to|multiup.org|omghype.com|pirateiro.com|streamp1ay.cc|streamplay.to|thepiratebay.org|usersfiles.com|video.az|vshare.eu|xrares.com
 ||cloudiro.com^*-ads.
-||cloudlocker.biz/img/$third-party
 ||cloudzer.net/ref/
 ||cloudzer.net^*/banner/$third-party
 ||cmp.advertising.com^$third-party
@@ -49706,7 +49691,6 @@ menstennisforums.com#@#.top_ads
 ||ds02gfqy6io6i.cloudfront.net^
 ||dsh7ky7308k4b.cloudfront.net^
 ||dsie7h4lo9wxu.cloudfront.net^
-||dstik9906m659.cloudfront.net^
 ||dtakdb1z5gq7e.cloudfront.net^
 ||dtrk.slimcdn.com^
 ||dttek.com/sponsors/
@@ -70845,8 +70829,7 @@ aeink.com##p[style*="82px;background:"]
 itkeyword.com##p[style="line-height:1.4; margin-top:8px; margin-bottom:10px;"]
 isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 pcbeta.com#?#div[class]:-abp-properties(height: 169px;*padding-top: 10px;)
-ruanyifeng.com#?#.asset-content > p:-abp-contains(培训)
-ruanyifeng.com#?#.asset-content > p:-abp-contains(培训) + p > img
+ruanyifeng.com#?#.asset-content > p:-abp-contains(/0 元|报名费|原价/) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 gdot.me,sc115.com,wnacg.com,wnacg.org##script + a
 logo160.com##script + a[href="/"]
@@ -79986,6 +79969,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/visitors/?
 /track/visits/?
 /track2.php
+/track?*&event=
 /track?_event=
 /track?browserId
 /track?cb=
@@ -88175,6 +88159,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||myv-img.de/m2/e?
 ||nct.ui-portal.de/gmx/gmx/s?$image,ping
 ||newelements.de/tracker/
+||nexx.cloud/play/beacon.
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
 ||omniture.eaeurope.eu^
@@ -88900,82 +88885,38 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.nine.com.au^
 ||adf.ly/omni*.swf
 ||adguard.com/-/event/
-||adidas.com/analytics/
-||adidas.com^*/analytics/
-||adroll.com/pixel/
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
-||advancedtracker.appspot.com^
-||advfn.com/space.gif?
-||affiliate.resellerclub.com^
-||affiliates.genealogybank.com^
-||affiliates.londonmarketing.com^
-||affiliates.myfax.com^
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
-||afterdawn.com/views.cfm?
-||agendize.com/analytics.js
-||agg.inquisitr.com^
-||agg.lifedaily.com^
-||aggregator.inquisitr.com^
-||agoda.net/js/abtest/analytics.js
-||ai.inmdata.io^
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
-||akamaihd.net^$image,domain=inquirer.net
-||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
-||alicdn.com/js/aplus_*.js
-||aliexpress.com/js/beacon_
 ||alipay.com/web/bi.do?ref=
 ||allaboutberlin.com/whoisthere.js
-||allcarpictures.com/stat/
-||allexperts.com/px/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
-||alljapanesepass.com/t/
-||allmodern.com^*/sessioned_reqs.asp?
 ||als-svc.nytimes.com^
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
-||amazon.*/batch/*/oe/$ping
-||amazon.*/batch/*uedata=$image
-||amazon.*/gp/r.html?
-||amazon.*/uedata/
 ||amazon.com/1/remote-weblab-triggers/
-||amazon.com/clog/
-||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
-||amazon.com/gp/yourstore/recs/
-||amazon.com^*/amazon-clicks/
 ||amazon.com^*/events/$domain=~aws.amazon.com
 ||amazon.com^*/impress.html
-||amazon.com^*/token/
-||amazon.com^*/vap-metrics/
-||amazonaws.com/beacon/vtpixpc.gif?
-||amazonaws.com^*/pzyche.js
-||amcnets.com/cgi-bin/true-ip.cgi
-||amd.com/us/as/vwo/vwo_
 ||americanexpress.com/beacon
-||americanexpress.com/monitoring/
 ||amnesty.org/collect/
-||amy.gs/track/
-||analytic.imlive.com^
 ||analytics-proxy.springboard.com^
 ||analytics.adfreetime.com^
-||analytics.amplitude.com^$domain=~analytics.amplitude.com
 ||analytics.archive.org^
-||analytics.bloomberg.com^
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.designspiration.com^
 ||analytics.ecosia.org^
-||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
@@ -89314,6 +89255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coherentpath.com/tracker/
 ||coinmarketcap.com/static/cloud/js/le.min.js
 ||collarity.com/ucs/tracker.js
+||collect.alipay.com^
 ||collector-cdn.github.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.fiverr.com^
@@ -89327,6 +89269,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.trendmd.com^
 ||collector.wallapop.com^
 ||collector.xhamster.com^
+||collector.xhamster.desi^
 ||collector.xhamster2.com^
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
@@ -101012,6 +100955,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||stargate-planet.de^*counter*/c$image,script
 ||statistics.raiffeisen.ch^
 ||statistics.riskommunal.net^
+||statistik.mitmischen.de^
 ||stats.autoscout24.ch^
 ||stats.bmw.de^
 ||stats.t-online.de/include-ivw-agof-szmng-js/

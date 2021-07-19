@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rapz/aADZ8jdeDHb+MbeIQ
+! Checksum: gixIeg5xqTNwOI1WUpqDcw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107192002
-! Last Modified: 2021年07月19日 20:02
+! Version: 202107200201
+! Last Modified: 2021年07月20日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -14281,8 +14281,7 @@ aeink.com##p[style*="82px;background:"]
 itkeyword.com##p[style="line-height:1.4; margin-top:8px; margin-bottom:10px;"]
 isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 pcbeta.com#?#div[class]:-abp-properties(height: 169px;*padding-top: 10px;)
-ruanyifeng.com#?#.asset-content > p:-abp-contains(培训)
-ruanyifeng.com#?#.asset-content > p:-abp-contains(培训) + p > img
+ruanyifeng.com#?#.asset-content > p:-abp-contains(/0 元|报名费|原价/) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 gdot.me,sc115.com,wnacg.com,wnacg.org##script + a
 logo160.com##script + a[href="/"]
@@ -25659,6 +25658,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track/visitors/?
 /track/visits/?
 /track2.php
+/track?*&event=
 /track?_event=
 /track?browserId
 /track?cb=
@@ -33848,6 +33848,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||myv-img.de/m2/e?
 ||nct.ui-portal.de/gmx/gmx/s?$image,ping
 ||newelements.de/tracker/
+||nexx.cloud/play/beacon.
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
 ||omniture.eaeurope.eu^
@@ -34573,82 +34574,38 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.nine.com.au^
 ||adf.ly/omni*.swf
 ||adguard.com/-/event/
-||adidas.com/analytics/
-||adidas.com^*/analytics/
-||adroll.com/pixel/
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
-||advancedtracker.appspot.com^
-||advfn.com/space.gif?
-||affiliate.resellerclub.com^
-||affiliates.genealogybank.com^
-||affiliates.londonmarketing.com^
-||affiliates.myfax.com^
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
-||afterdawn.com/views.cfm?
-||agendize.com/analytics.js
-||agg.inquisitr.com^
-||agg.lifedaily.com^
-||aggregator.inquisitr.com^
-||agoda.net/js/abtest/analytics.js
-||ai.inmdata.io^
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
-||akamaihd.net^$image,domain=inquirer.net
-||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
 ||alicdn.com/AWSC/et/
-||alicdn.com/js/aplus_*.js
-||aliexpress.com/js/beacon_
 ||alipay.com/web/bi.do?ref=
 ||allaboutberlin.com/whoisthere.js
-||allcarpictures.com/stat/
-||allexperts.com/px/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
-||alljapanesepass.com/t/
-||allmodern.com^*/sessioned_reqs.asp?
 ||als-svc.nytimes.com^
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
-||amazon.*/batch/*/oe/$ping
-||amazon.*/batch/*uedata=$image
-||amazon.*/gp/r.html?
-||amazon.*/uedata/
 ||amazon.com/1/remote-weblab-triggers/
-||amazon.com/clog/
-||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
-||amazon.com/gp/yourstore/recs/
-||amazon.com^*/amazon-clicks/
 ||amazon.com^*/events/$domain=~aws.amazon.com
 ||amazon.com^*/impress.html
-||amazon.com^*/token/
-||amazon.com^*/vap-metrics/
-||amazonaws.com/beacon/vtpixpc.gif?
-||amazonaws.com^*/pzyche.js
-||amcnets.com/cgi-bin/true-ip.cgi
-||amd.com/us/as/vwo/vwo_
 ||americanexpress.com/beacon
-||americanexpress.com/monitoring/
 ||amnesty.org/collect/
-||amy.gs/track/
-||analytic.imlive.com^
 ||analytics-proxy.springboard.com^
 ||analytics.adfreetime.com^
-||analytics.amplitude.com^$domain=~analytics.amplitude.com
 ||analytics.archive.org^
-||analytics.bloomberg.com^
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.designspiration.com^
 ||analytics.ecosia.org^
-||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
@@ -34987,6 +34944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coherentpath.com/tracker/
 ||coinmarketcap.com/static/cloud/js/le.min.js
 ||collarity.com/ucs/tracker.js
+||collect.alipay.com^
 ||collector-cdn.github.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.fiverr.com^
@@ -35000,6 +34958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.trendmd.com^
 ||collector.wallapop.com^
 ||collector.xhamster.com^
+||collector.xhamster.desi^
 ||collector.xhamster2.com^
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
@@ -46685,6 +46644,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||stargate-planet.de^*counter*/c$image,script
 ||statistics.raiffeisen.ch^
 ||statistics.riskommunal.net^
+||statistik.mitmischen.de^
 ||stats.autoscout24.ch^
 ||stats.bmw.de^
 ||stats.t-online.de/include-ivw-agof-szmng-js/
