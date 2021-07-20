@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6xhbvi51qX8kosD82FNmhQ
+! Checksum: 7+WGf4ICQsytt4OZ88ReXg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107201401
-! Last Modified: 2021年07月20日 14:01
+! Version: 202107202001
+! Last Modified: 2021年07月20日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31343,6 +31343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||24option.com/?oftc=$image,third-party
 ||360buyimg.com^*/unit/log/*/log.js
 ||3crowd.com^*/3c1px.gif
+||3p-geo.yahoo.com^
 ||3qsdn.com/watchtime?
 ||51network.com^$third-party
 ||5251.net/stat.jsp?
@@ -31561,6 +31562,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.wildtangent.com^
 ||analytics.witglobal.net^
 ||analytics.worldtable.co^
+||analytics.yahoo.com^
 ||analytics.yext-static.com^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
@@ -36992,6 +36994,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yellowpages.com/proxy/envoy/
 ||yellowpages.com/proxy/turn_tags/
 ||yelp.*/spice?
+||yimg.com/aaq/wf/wf-darla-
 ||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com^*/yabcs.js
 ||yimg.com^*/ywa.js

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TQsGPYK0xsX+D8QvfIJozA
+! Checksum: HShTeBCsN5dX9fQb2lRk6Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107201401
-! Last Modified: 2021年07月20日 14:01
+! Version: 202107202001
+! Last Modified: 2021年07月20日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -19574,6 +19574,7 @@ _popunder+$popup
 ##.ad-slot-container
 ##.ad-slot-container-1
 ##.ad-slot-full-width
+##.ad-slot-placeholder
 ##.ad-slot-sidebar
 ##.ad-slot-sidebar-b
 ##.ad-slot-tall
@@ -54435,9 +54436,9 @@ facebook.com##a[aria-label="Advertiser link"]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
 3dnatives.com##a[data-bid][target="_blank"]
+techpowerup.com##a[href*=".bmp"][target*="_blank"]
 msn.com##a[href*=".booking.com/"]
 beforeitsnews.com,in5d.com##a[href*=".hop.clickbank.net"]
-techpowerup.com##a[href*=".nop"][target*="_blank"]
 limetorrents.info##a[href*=".php"]
 whatismyreferer.com##a[href*="/?offer_id="]
 itweb.co.za##a[href*="/adclick.php?"]
@@ -85543,6 +85544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||24option.com/?oftc=$image,third-party
 ||360buyimg.com^*/unit/log/*/log.js
 ||3crowd.com^*/3c1px.gif
+||3p-geo.yahoo.com^
 ||3qsdn.com/watchtime?
 ||51network.com^$third-party
 ||5251.net/stat.jsp?
@@ -85761,6 +85763,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.wildtangent.com^
 ||analytics.witglobal.net^
 ||analytics.worldtable.co^
+||analytics.yahoo.com^
 ||analytics.yext-static.com^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
@@ -91192,6 +91195,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yellowpages.com/proxy/envoy/
 ||yellowpages.com/proxy/turn_tags/
 ||yelp.*/spice?
+||yimg.com/aaq/wf/wf-darla-
 ||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com^*/yabcs.js
 ||yimg.com^*/ywa.js
