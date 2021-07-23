@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: od3QZm+Q2XIZHnv2NDO21Q
+! Checksum: yO++/Zm7c/EYtmVhntDTHQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107230811
-! Last Modified: 2021年07月23日 08:11
+! Version: 202107231401
+! Last Modified: 2021年07月23日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54614,10 +54614,10 @@ facebook.com##a[aria-label="Advertiser link"]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
 3dnatives.com##a[data-bid][target="_blank"]
-techpowerup.com##a[href*=".asp"]
 msn.com##a[href*=".booking.com/"]
 beforeitsnews.com,in5d.com##a[href*=".hop.clickbank.net"]
 limetorrents.info##a[href*=".php"]
+techpowerup.com##a[href*=".xzh"]
 whatismyreferer.com##a[href*="/?offer_id="]
 itweb.co.za##a[href*="/adclick.php?"]
 igorslab.de,landline.media,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
@@ -65609,6 +65609,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mh1234.com^*/wap*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -73164,6 +73165,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|farpop.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||euler7.club^
+||kenxr.com^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -76294,6 +76297,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-facade.
 /analytics-gcp.
 /analytics-helper.
+/analytics-hit?
 /analytics-ingestion/*
 /analytics-ingress-
 /analytics-initial-
@@ -81529,6 +81533,7 @@ _mongo_stats/
 ||affilae.com^$third-party
 ||affiliateedge.eu^$third-party
 ||affiliatly.com^$third-party
+||affilired.com^$third-party
 ||affinesystems.com^$third-party
 ||affinitymatrix.com^$third-party
 ||affistats.com^$third-party
@@ -85753,81 +85758,43 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gostats.vn^$third-party
 !-----------------Third-party tracking services-----------------!
 ||100widgets.com^$third-party
-||101apps.com/tracker.ashx?
 ||105app.com/report/?
 ||216.18.176.4/logger/
-||24option.com/?oftc=$image,third-party
-||360buyimg.com^*/unit/log/*/log.js
-||3crowd.com^*/3c1px.gif
+||360buyimg.com/jdf/1.0.0/unit/log/
 ||3p-geo.yahoo.com^
-||3qsdn.com/watchtime?
 ||51network.com^$third-party
-||5251.net/stat.jsp?
-||6waves.com/edm.php?uid=$image
 ||99widgets.com/counters/
 ||a.mobify.com^
 ||aan.amazon.com^$third-party
-||aao.org/aao/sdc/track.js
-||abc.hearst.co.uk^$third-party
-||abcotvs.net^*/fban_
-||acces-charme.com/fakebar/track.php?
-||acount.alley.ws^$third-party
-||acs86.com/t.js
-||activecommerce.net/collector.gif
 ||activengage.com/overwatch/
-||activetracker.activehotels.com^$third-party
-||activities.niagara.comedycentral.com^
-||activity.*.miui.com^
-||actonservice.com^*/tracker/
 ||ad-shield.io^$third-party
-||ad.aloodo.com^$third-party
+||ad.aloodo.com^
 ||ad.atdmt.com/c/
 ||ad.atdmt.com/e/
-||ad.atdmt.com/i/*=
-||ad.atdmt.com/i/go;
-||ad.atdmt.com/i/img/
+||ad.atdmt.com/i/
 ||ad.atdmt.com/m/
 ||ad.atdmt.com/s/
-||adchemy-content.com^*/tracking.js
-||addnow.com/tracker/
 ||addthis.com/at/
 ||addthis.com/live/
-||addthis.com/red/$script,third-party
-||addthis.com/red/p.png?
-||addthis.com^*/p.json?*&ref=
-||addthiscdn.com/*.gif?uid=
 ||addthiscdn.com/live/
 ||addthisedge.com/live/
 ||addtoany.com/menu/transparent.gif
-||adf.ly/ad/conv?
 ||adfox.yandex.ru^
 ||adlog.com.com^
-||admission.net^*/displaytracker.js
 ||ads-trk.vidible.tv^
-||ads.bridgetrack.com^$image
-||adsv7.com/t/
-||adultmastercash.com/e1.php$third-party
-||affiliate.iamplify.com^
 ||affiliate.mediatemple.net^$~third-party
 ||affiliates.mgmmirage.com^
-||affiliates.minglematch.com^$third-party
-||affiliates.purevpn.com^$third-party
-||affilired.com/analytic/$third-party
+||affiliates.minglematch.com^
 ||affirm.com/api/v2/cookie_sent
 ||affirm.com/api/v2/session/touch_track
-||afrigator.com/track/
-||agendize.com^*/counts.jsp?
+||agendize.com/web/scheduling.js
 ||air.audioeye.com^
-||aiya.com.cn/stat.js
 ||akamaihd.net/p1lakjen.gif
 ||akamaized.net/cookie_check/
-||akanoo.com/tracker/
 ||akatracking.esearchvision.com^
-||aklamio.com/ovlbtntrk?
 ||aktion.esprit-club.com^$image
-||alenty.com/trk/
 ||alex.leonard.ie/misc-images/transparent.png
-||alexa.com/minisiteinfo/$third-party
+||alexa.com/minisiteinfo/
 ||alexa.com/traffic/
 ||alexandria.marfeelcdn.com^
 ||algolia.io/1/isalive
@@ -86677,6 +86644,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||followistic.com/widget/stat/
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
+||foureyes.io/fe-init.js
 ||fourmtagservices.appspot.com^
 ||foxcontent.com/tracking/
 ||fp-cdn.azureedge.net/prod/
@@ -87343,7 +87311,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.marchex.io^
 ||px.owneriq.net^
 ||px.spiceworks.com^
-||pxchk.net/api/v2/collector
 ||pxchk.net/b/s
 ||pxt.daz3d.com^
 ||qcloud.com/report.go?
@@ -89062,7 +89029,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apartments.com/clientvisit/al.gif?
 ||apkpure.com/analytics_
 ||appanalysis.banggood.com^
-||archive.org/includes/analytics.js
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
@@ -89193,6 +89159,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eporner.com/dot/
 ||eproof.drudgereport.com^
 ||equirodi.*/addstat.php
+||error.fc2.com^
 ||et.nytimes.com^
 ||etsy.com/bcn/beacon
 ||etui.fs.ml.com^
@@ -89224,6 +89191,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fathom.app.silverbeak.com^
 ||fathom.status.im^
 ||fathom.tdvm.net^
+||fc2.com/ana/analyzer.php
+||fc2.com/ana/processor.php?
 ||fc2.com/counter_img.php?
 ||fdt.kraken.com^
 ||firebaselogging.googleapis.com^
@@ -100737,7 +100706,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||baidu.com/push.js
 ||baidu.com/tb/pms/img/st.gif?
 ||baidu.com^*/adlog?
-||baidu.com^*/w.gif?
 ||baofeng.com/script/baidu_
 ||bc.qunar.com^
 ||bdwblog.eastmoney.com^
@@ -100776,6 +100744,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||eastmoney.com/counter.js?
 ||ebook.tianya.cn/js/stat.js
 ||eclick.baidu.com^
+||event.csdn.net^
 ||fang.com/stats/
 ||firefoxchina.cn/*/trac.js
 ||forum.zuvio.com.tw/api/article/finish
