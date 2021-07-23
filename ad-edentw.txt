@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wSPYhznEcJWDZB5M8RhyBQ
+! Checksum: sYtRUELBwi5dSgn3HD5Nmg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107232001
-! Last Modified: 2021年07月23日 20:01
+! Version: 202107240201
+! Last Modified: 2021年07月24日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1218,6 +1218,10 @@ youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zo
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
 ! #CV-663
+/image/*/*ite-*.png^$domain=newser.com
+/image/*/*ite-*.jpg^$domain=newser.com
+newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(@id )]'
+grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//*[@*][string-length(text())>47][contains(normalize-space(),"")][string-length(@class)>=27]/preceding-sibling::*/ancestor::*[3][@*]/*[not(@role)][not(contains(@*,"side"))][not(contains(@*,"ory_"))][not(contains(@*,"tainer"))][not(contains(@*,"lated-"))][not(contains(@*,"dsq-"))][not(contains(@*,"mh_"))][not(contains(@*,"wpd"))][not(contains(@*,"td_"))][not(contains(@*,"vere"))][not(contains(@*,"_html"))][not(contains(@*,"nal"))][not(contains(@*,"tent"))][not(contains(@*,"box"))][not(contains(@*,"mary"))][not(contains(@*,"main"))][not(@itemtype)][not(@role)][not(contains(@*,"ent"))][not(contains(@*,"uter"))]'
 newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(contains(@class,"tent"))][not(contains(@class,"div"))][not(contains(@class,"bkit"))][not(contains(@id,"div"))][not(contains(@id,"rid"))][not(contains(@id,"con"))][not(contains(@class,"sub"))]'
 foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//*[@*][string-length( text() ) > 45][contains(normalize-space(),"")][string-length(@class)<=28]/ancestor::div[3][not(@role)][not(contains(@*,"side"))][not(contains(@*,"ory_"))][not(contains(@*,"tainer"))][not(contains(@*,"lated-"))][not(contains(@*,"dsq-"))][not(contains(@*,"mh_"))][not(contains(@*,"wpd"))][not(@style)][not(contains(@*,"td_"))][not(contains(@*,"vere"))][not(contains(@*,"_html"))][not(contains(@*,"nal"))][not(contains(@*, "tent"))][not(contains(@*, "box"))][not(contains(@*, "mary"))][not(contains(@*, "main"))][not(@itemtype)][@class and @id][not(@role)][not(contains(@*,"ent"))][not(contains(@*,"uter"))]'
 newser.com,foreverymom.com,grammarist.com,canadafreepress.com,independentminute.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,breakingfirst.com,deneenborelli.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,gamersheroes.com,rightwingtribune.com,dcclothesline.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,bestfunnyjokes4u.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,wakingtimes.com,threepercenternation.com,survivalnation.com,greatamericanpolitics.com,vitamiiin.com,americasfreedomfighters.com,steadfastherald.com#$#hide-if-matches-xpath '//div[@*="_blank"]/ancestor::div[2][@class and @id]'
