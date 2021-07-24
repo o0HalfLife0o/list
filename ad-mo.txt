@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y/WQREhM63QZxTyBYCnKBA
+! Checksum: fCMq1rdCcHD/1VlTeQCSvQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107241401
-! Last Modified: 2021年07月24日 14:01
+! Version: 202107242001
+! Last Modified: 2021年07月24日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -16615,6 +16615,7 @@ _popunder+$popup
 ###rightAdDiv3
 ###rightAdHideLinkContainer
 ###rightAdHolder
+###rightAdUnit
 ###rightAd_Iframe
 ###rightAd_rdr
 ###rightAds
@@ -77611,6 +77612,7 @@ fqsousou.com,kengso.com#@#.user-share
 /flip-stats-queue?
 /flow_statistic.
 /flowplayer.ganalytics.
+/flushimpressions?
 /flv_tracking.
 /footer-tracking.js
 /footer_tag_iframe.
@@ -80598,6 +80600,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ViewCounter/*
 /viewcounterjqueryproxy.
 /viewcounterproxy.
+/viewerimpressions?
 /views/vw.js
 /views_tracking/*
 /viewstats.aspx?
@@ -90901,8 +90904,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||greenmangaming.com/omnopfddrdlevbbh.js
 ||paxful.com/bmlsclxndnomunnk.js
 ||teepublic.com/binfgkxpxaizujgk.js
-/client-timings$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackexchange.com|stackoverflow.com|superuser.com
-/gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackexchange.com|stackoverflow.com|superuser.com
 $subdocument,third-party,domain=estream.to
 $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hdyayinmac1.com|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|jkanime.net|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|replaytvstreaming.com|seventorrents.cc|sherlockonline.ru|shortbitsfree.net|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.org|tomadivx.tv|unblockall.org|unblocked.gdn|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|vidzi.tv|void.cat|wallpoper.com|watchfreemovies.tv|wearesaudis.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|zona.plus
