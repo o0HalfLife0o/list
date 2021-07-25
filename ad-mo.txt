@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rxrE14WSeVz8FC3PY+7Fdg
+! Checksum: WgjbttfrQjIM0tHHIww6MA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202107251401
-! Last Modified: 2021年07月25日 14:01
+! Version: 202107252001
+! Last Modified: 2021年07月25日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51677,7 +51677,7 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-/^https?:\/\/.*techpowerup\.com\/[a-z0-9]{8,}\/[a-z0-9]{7,}\./$image,domain=techpowerup.com
+/^https?:\/\/.*techpowerup\.com\/[a-z0-9]{4,}\/[a-z0-9]{4,}\./$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -53946,7 +53946,6 @@ scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 stripes.com##.min-h90
-techpowerup.com##.mnnusjsdde
 investopedia.com##.mntl-leaderboard-spacer
 islamicfinder.org##.mobile-cards
 pcmacstore.com##.mobileHide
@@ -53994,7 +53993,6 @@ transfermarkt.com##.newsansicht-topspielerprofil
 moddb.com##.nextmediaboxtop
 democraticunderground.com##.nhome-mediumrectangle-container
 hulkshare.com##.nhsBotBan
-techpowerup.com##.nkuzlfvdxwe
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 cookingforengineers.com##.nothing
@@ -54507,6 +54505,7 @@ medicalnewstoday.com##[data-empty="true"]
 washingtonpost.com##[data-sc-c="adslot"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 gadgetsnow.com##[data-type="mtf"]
+techpowerup.com##[data-width]
 myabandonware.com##[data-x725-ad]
 naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
@@ -54599,7 +54598,7 @@ probuilds.net##a[class^="dl-blitz-"]
 msn.com##a[href*=".booking.com/"]
 beforeitsnews.com,in5d.com##a[href*=".hop.clickbank.net"]
 limetorrents.info##a[href*=".php"]
-techpowerup.com##a[href*=".xlh"]
+techpowerup.com##a[href*=".xlx"]
 whatismyreferer.com##a[href*="/?offer_id="]
 itweb.co.za##a[href*="/adclick.php?"]
 igorslab.de,landline.media,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
