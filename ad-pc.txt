@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +lBii1b4LfOAW7EX3ctkLg
+! Checksum: lPT2G9DHFH/rvTufcglgVQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107261401
-! Last Modified: 2021年07月26日 14:01
+! Version: 202107262002
+! Last Modified: 2021年07月26日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -28317,6 +28317,7 @@ _popunder+$popup
 ##.pod-ad-box
 ##.podRelatedAdLinksWidget
 ##.podSponsoredLink
+##.polaris__ad
 ##.poll_sponsor_ad
 ##.pop-up-ad
 ##.popAdContainer
@@ -51852,7 +51853,7 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-/^https?:\/\/.*techpowerup\.com\/[a-z0-9]{1,}\/[a-z0-9]{3,}\./$image,domain=techpowerup.com
+/^https?:\/\/.*techpowerup\.com\/[a-z0-9].{1,}\/[a-z0-9]{3,}\./$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -81600,6 +81601,7 @@ _mongo_stats/
 ||r42tag.com^
 ||sbgsodufuosmmvsdf.info^
 ||site24x7rum.eu^
+||tatpek.com^
 ||truffle.bid^
 ||wknd.ai^
 ||z0uolej1qnxzub1.info^
@@ -83348,6 +83350,7 @@ _mongo_stats/
 ||personyze.com^$third-party
 ||peruse.ai^$third-party
 ||petametrics.com^$third-party
+||pghub.io^$third-party
 ||pgs.io^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
@@ -86827,6 +86830,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
+||facebook.com/platform/cavalry_endpoint.php?
 ||facebook.com/platform/scribe_endpoint.php/
 ||facebook.com/tr/
 ||facebook.com/tr?
@@ -86978,7 +86982,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hi.hellobar.com^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit.mybestpro.com^
-||hits-*.iubenda.com^
 ||hits.dealer.com^
 ||hits.informer.com^
 ||hktracker.hankookilbo.com^
@@ -87072,6 +87075,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||iterable.com/analytics.js
 ||itracking.fccinteractive.com^
+||iubenda.com/write?
 ||iyisayfa.net/inc.php?
 ||jac.yahoosandbox.com^
 ||jailbaitchan.com/tp/
@@ -87589,6 +87593,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||relap.io^*/head.js?
 ||relaymedia.com/ping?$third-party
 ||replyat.com/gadgetpagecounter*.asp?
+||reporting.cdndex.io^
 ||reporting.handll.net^
 ||reporting.singlefeed.com^
 ||reports-api.sqreen.io^
@@ -87596,6 +87601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||res.rbl.ms^
 ||researchintel.com^$third-party
 ||response.pure360.com^
+||rest.wildstar-online.com^
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
 ||ria.ru/counter?
@@ -88061,6 +88067,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tru.webelapp.com^
 ||trumba.com/et.aspx?$third-party
 ||trustarc.com/bannermsg?
+||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
 ||trustcommander.net/privacy/
 ||trustedform.com/trustedform.js?provide_referrer
@@ -89392,6 +89399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eporner.com/dot/
 ||eproof.drudgereport.com^
 ||equirodi.*/addstat.php
+||error-collector.ted.com^
 ||error.fc2.com^
 ||et.nytimes.com^
 ||etsy.com/bcn/beacon
@@ -90551,6 +90559,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||u45.pnc.com^
 ||u46.pnc.com^
 ||u47.pnc.com^
+||u989.theweek.com^
 ||ua.indianexpress.com^
 ||uber.com/_events
 ||uber.com/_track
@@ -90958,6 +90967,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twch.20min.ch^
+||twus-mms.theweek.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 /yozons-lib/*$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 ://media.*/misites/$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
