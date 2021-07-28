@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rL9DuifGCs4RmEttcYvB1w
+! Checksum: nOmfLRYDiBP3/+V7Lbe91g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107280201
-! Last Modified: 2021年07月28日 02:01
+! Version: 202107280811
+! Last Modified: 2021年07月28日 08:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1833,6 +1833,7 @@ marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-747
+rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath './/div[not(@id) and contains(@class," ") and string-length(@class)<17]/div[not(@id) and not(@style) and @class and @*[not(name() = 'class')]="" and string-length(@class)<10]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath './/div[@class][count(div[@class])>6]/div[(@class)][string-length(text())>60]/ancestor::div[@class][1]/preceding-sibling::div/div[(@class)][string-length(text())>10]/ancestor::div[@class][2]/preceding-sibling::div[contains(@class," ")]/ancestor::div[@class][2][contains(@class," ")]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
 rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
@@ -1915,6 +1916,8 @@ boerse-online.de#@#.social_wrapper
 ! FDA-2302
 @@||aswpsdkus.com/notify/*/ua-html-prompt.min.js$domain=ran.de
 @@||aswpsdkus.com/notify/*/ua-sdk.min.js$domain=ran.de
+! FDA-2366 and FDA-2367
+@@||googletagmanager.com/gtm.js$script,domain=finanzen.ch|finanzen.net|finanzen.at
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
