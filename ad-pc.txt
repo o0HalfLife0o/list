@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tXTRsW40nq/EFXH5cyKRBw
+! Checksum: 7nWnpbQfCMuRz/rhcD2Keg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202107290201
-! Last Modified: 2021年07月29日 02:01
+! Version: 202107290811
+! Last Modified: 2021年07月29日 08:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4280,6 +4280,7 @@ tieba.baidu.com##.tuijian-wrap
 /arcads.js
 /arcAdsJS/*
 /Article-Ad-
+/article-ads.
 /article-advert-
 /article_ad.
 /article_ads-
@@ -6439,6 +6440,7 @@ tieba.baidu.com##.tuijian-wrap
 /pfpadv.
 /pgad.
 /pgrightsideads.
+/ph-ads-old.
 /photo728ad.
 /photoad.
 /photoads/*
@@ -11986,6 +11988,7 @@ _popunder+$popup
 ###adhesionUnit
 ###adhide
 ###adholder
+###adholderContainerHeader
 ###adhome
 ###adhomepage
 ###adhzh
@@ -13965,6 +13968,7 @@ _popunder+$popup
 ###bpcads-top-leaderboard
 ###bps-header-ad-container
 ###bq_homeMiddleAd
+###br-ad-header
 ###br_ad
 ###brand-box-ad
 ###brand-box-ad-1-container
@@ -32728,6 +32732,7 @@ accounts.google.com,staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
 thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
+adeam.com#@#.atf-wrapper
 jiji.ng#@#.b-advert
 rubtech.xyz#@#.banner-468x60
 pbs.org#@#.banner-ad
@@ -51851,6 +51856,7 @@ menstennisforums.com#@#.top_ads
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D].{1,3}\/.{3,20}/$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -52992,6 +52998,7 @@ washingtonpost.com###slug_leaderboard
 footballtransfertavern.com###snack_ldb
 ghacks.net###snhb-snhb_ghacks_bottom-0
 soccer24.co.zw###soccer24-ad
+wcny.org###soliloquy-12716
 toumpano.net###sp-feature
 toumpano.net###sp-right
 searchenginejournal.com###spcat_ifr
@@ -53972,6 +53979,7 @@ tripadvisor.com##.iab_medRec
 infobetting.com##.ibBanner
 ice.hockey##.ice_ner
 ice.hockey##.ice_werbung
+gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
@@ -54679,8 +54687,10 @@ coinmarketcap.com##[class^="sponsoredMark_"]
 torlock.com##[class^="wrn"]
 medicalnewstoday.com##[data-ad]
 medicalnewstoday.com##[data-empty="true"]
+washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-sc-c="adslot"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
+washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
 myabandonware.com##[data-x725-ad]
 naturalnews.com##[href*="/WBA-"]
@@ -73362,6 +73372,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||reofamily.cn^
 ||jiachangwuliu.cn^
 ||qiyebaopin.cn^
 ||rtkyvd.xyz^
@@ -87619,6 +87630,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||raygun.io/events?
 ||rbl.ms/res/users/tracking/
 ||rc.rlcdn.com^
+||readcube.com/assets/track_
 ||readcube.com/ping?
 ||readcube.com/tracking/
 ||realm.hearst3pcc.com^
@@ -88979,6 +88991,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pia.jp/images/pt.gif$image
 ||popin.cc/td_js_
 ||quant.jp/track/
+||rakuten-static.com/com/rat/
 ||ranking.apis.sankei-digital.co.jp^
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
@@ -89747,6 +89760,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qwant.com/impression/
 ||qwant.com/v2/api/ux/surveys?
 ||qz.com/log
+||r.bbci.co.uk^
 ||r.my.com^
 ||rankhit.china.com^
 ||realitytvworld.com/images/pixel.gif
@@ -90128,6 +90142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.microsoft.com^$xmlhttprequest
 ||target.nationwide.com^
 ||target.nejm.org^
+||targeting.washpost.nile.works^
 ||targetspot.com/track/
 ||tarot.com/stats/
 ||taskulu.com/mtc/event
@@ -101357,7 +101372,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de
