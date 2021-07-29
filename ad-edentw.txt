@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ek6Qre/HVIR4E0g/A4B1oQ
+! Checksum: jEuWolEKFk7mbanMw4bR6Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107290811
-! Last Modified: 2021年07月29日 08:11
+! Version: 202107292003
+! Last Modified: 2021年07月29日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1217,8 +1217,11 @@ youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zo
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
 ! #CV-663
-/image/*/*ite-*.png^$domain=newser.com
-/image/*/*ite-*.jpg^$domain=newser.com
+/image/*/*-bob*.png^$domain=newser.com
+/image/*/*-bob*.jpg^$domain=newser.com
+newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(contains(@*,"content"))][not(contains(@*,"Grid"))]'
+grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//*[@*][string-length( text() ) > 47][contains(normalize-space(),"")][string-length(@class) >= 27]/preceding-sibling::*[1]/ancestor::*[3][@*]'
+newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(@id="contentBounds")][not(contains(@id,"Grid"))][not(@style)]'
 newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(@id )]'
 grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//*[@*][string-length(text())>47][contains(normalize-space(),"")][string-length(@class)>=27]/preceding-sibling::*/ancestor::*[3][@*]/*[not(@role)][not(contains(@*,"side"))][not(contains(@*,"ory_"))][not(contains(@*,"tainer"))][not(contains(@*,"lated-"))][not(contains(@*,"dsq-"))][not(contains(@*,"mh_"))][not(contains(@*,"wpd"))][not(contains(@*,"td_"))][not(contains(@*,"vere"))][not(contains(@*,"_html"))][not(contains(@*,"nal"))][not(contains(@*,"tent"))][not(contains(@*,"box"))][not(contains(@*,"mary"))][not(contains(@*,"main"))][not(@itemtype)][not(@role)][not(contains(@*,"ent"))][not(contains(@*,"uter"))]'
 newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(contains(@class,"tent"))][not(contains(@class,"div"))][not(contains(@class,"bkit"))][not(contains(@id,"div"))][not(contains(@id,"rid"))][not(contains(@id,"con"))][not(contains(@class,"sub"))]'
@@ -1562,6 +1565,7 @@ batporno.com#$#abort-on-property-read decodeURI
 jetanimes.co#$#abort-on-property-read atob
 vostfree.com#$#abort-on-property-write _pop
 *$popup,domain=strtapeadblock.me
+strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-691
 ebay.de#$#hide-if-contains-visible-text /Anzeige|ANZEIGE/ 'li.s-item' 'li.s-item span[role="text"]'
@@ -1807,7 +1811,7 @@ fancoiphim.net#$#override-property-read time_load_ads_1 0
 ! Popup/Popunder/Clickunder
 !xemphimgi.net#$#abort-current-inline-script jQuery /.preload-11bet-pc/
 motphimmoi.net#$#abort-on-property-read open; abort-on-property-write window.location.href
-fembed.com,femax20.com,zo3x.com,mrdhan.com#$#abort-on-property-read open
+fembed.com,femax20.com,zo3x.com,mrdhan.com,xemphimgi.net#$#abort-on-property-read open
 !fancoiphim.net#$#abort-current-inline-script JSON.parse /atob/
 tapmoi.net#$#abort-on-property-read SmartPopunder
 !lxhentai.com#$#abort-current-inline-script document.cookie
