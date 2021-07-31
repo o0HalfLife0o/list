@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uYoYCTbNNd1llirrB+6OXQ
+! Checksum: PBhJY8YBVQO0aKA0+LmjUw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202107310201
-! Last Modified: 2021年07月31日 02:01
+! Version: 202107310810
+! Last Modified: 2021年07月31日 08:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1638,10 +1638,6 @@ turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 dom.wp.pl,facet.wp.pl#?#.view-first:-abp-has(a[onclick*="var img = document.createElement('img');"])
 o2.pl,wp.pl#?#div:-abp-has(> script:-abp-contains(adsFirstRegisterSlot))
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
-gadzetomania.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl,kafeteria.pl#?#.insert:-abp-has(> script:-abp-contains(registerPlaceholder))
-gadzetomania.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl,kafeteria.pl#?#div:-abp-has(> script:-abp-contains(registerPlaceholder))
-gadzetomania.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl,kafeteria.pl#?#figure:-abp-has(> script:-abp-contains(registerPlaceholder))
-gadzetomania.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl,kafeteria.pl#?#article:-abp-has(> script:-abp-contains(registerPlaceholder))
 pudelek.pl,money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 parenting.pl#$#abort-on-property-read slot
 dom.wp.pl,wiadomosci.wp.pl,wawalove.wp.pl,turystyka.wp.pl,teleshow.wp.pl,opinie.wp.pl,gwiazdy.wp.pl,ksiazki.wp.pl,film.wp.pl,facet.wp.pl,kobieta.wp.pl,kuchnia.wp.pl,moto.wp.pl,tech.wp.pl,gry.wp.pl,finanse.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
