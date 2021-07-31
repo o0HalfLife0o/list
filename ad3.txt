@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cAmfUYP4XuvzYURfTGXx2g
+! Checksum: PetP6FM0ag3G6XnjfQKvtA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202107311403
-! Last Modified: 2021年07月31日 14:03
+! Version: 202107312001
+! Last Modified: 2021年07月31日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -31942,6 +31942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clnk.me/_t.gif?
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
+||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com
 ||cloudfront-labs.amazonaws.com^
 ||cloudfront.net*/keywee.min.js
 ||cloudfront.net*/sp.js|
@@ -34774,7 +34775,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/1/remote-weblab-triggers/
 ||amazon.com/empty.gif?$image
-||amazon.com^*/events/$domain=~aws.amazon.com
 ||amazon.com^*/impress.html
 ||americanexpress.com/beacon
 ||amnesty.org/collect/
@@ -46025,6 +46025,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
+@@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
