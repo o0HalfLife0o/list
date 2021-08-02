@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /7AWZ7WD0PTHJtq4Ohcp9w
+! Checksum: 0KlZGH7cjB3l5RRSbevEvA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108020812
-! Last Modified: 2021年08月02日 08:12
+! Version: 202108021401
+! Last Modified: 2021年08月02日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9018,6 +9018,7 @@ _yad_jsonp_
 ||bnmanhua.com/static/manhua/bd/
 ||bnmanhua.com^*/com2
 ||bnmanhua.com^*/com1
+||dada8828.com/js/aaa/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 ruanyifeng.com##A[href*=".kaikeba.com"]
@@ -16587,6 +16588,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||zhimeihui.fun^
 ||baskba.xyz^
 ||qq2img.com^
 ||skrmzl.cn^
@@ -34139,6 +34141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||devtribu.fr/t.php?
 ||e-pagerank.fr/bouton.gif?$third-party
 ||e.funnymel.com^$third-party
+||e.viously.com^
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
@@ -34146,12 +34149,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||jvc.gg^*/traffic.js
 ||leguide.com/js/lgtrk-*.js
 ||linguee.fr/white_pixel.gif
 ||m6web.fr/statsd/
 ||makazi.com/tracker-
+||marktplaats.net/identity/mid.js
 ||neteventsmedia.be/hit.cfm?
 ||netreviews.eu/index.php?action=act_access&$third-party
 ||nws.naltis.com^
@@ -44858,99 +44863,44 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
-||jppolid-track.trackprod.integration.jppol.dk^
 ||jv.dk/assets/statistics/
-||2ememain.be/metrics/
-||act.acotedemoi.com^
+||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||analytics.allovoisins.com^
-||arte.tv/includes/xiti/
-||autoplus.fr/st?
-||azurewebsites.net^*/mnr-mediametrie-tracking-
 ||batiactu.com/cap_
-||bigvoy.com/cft/view.php
-||bloguez.com/manager/compteurs/
-||c0011.boursorama.com^
-||cfcn.allocine.net^
-||clubic.com/editorial/publier_count.php?
 ||compteur.developpez.com^
 ||developpez.com/public/js/track.js
-||dm.commentcamarche.net^
-||dm.journaldunet.com^
-||dm.linternaute.com^
-||editeurjavascript.com/hit-parade.php
-||events.guesttoguest.com^
-||flake.formr.io/sp.js
 ||franceculture.fr/static/js/xtcore-
-||frandroid.com^*-prixtel-*&sp_id=
 ||fsm.lapresse.ca^
-||g.itespresso.fr^
-||galerieslafayette.com/c/
 ||gamergen.com/ajax/actualites/addVue
 ||ianimes.org/img/tracker.gif
-||iphdata.lequipe.fr^*/getInfapp.php?
-||iphonesoft.fr/js/analytics-
 ||jeu.net/hits.js
-||jeuxvideo.com/contenu/medias/video/countv.php?
 ||jscrambler.com^$script,domain=airfrance.fr
 ||k.kolplay.com^
-||kbn.korben.info^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
-||lecho.be/fb/?
-||lemde.fr^*/metrics/
-||lemde.fr^*/tracking/
-||leparking-moto.fr/*/tracker.js
-||leparking.fr/jsV038/tracker.js
+||lecho.be/fb2?
+||lecho.be/track/
+||leparking-moto.fr/jsV155/Tracker.js
+||leparking.fr/jsV155/Tracker.js
 ||liberation.fr/newsite/js/cmp/
-||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
-||marmiton.org/logpix.php
-||naturabuy.fr/xternalpixel.php?
 ||neko-san.fr/stats
-||nouvelobs.com/scripts/stats.php?
-||nouvelobs.com/tools/csrum.php
-||nouvelobs.com/trafiz-
-||numerama.com/ajax-postviews.php
-||orange.fr/front/report/probe
-||orange.fr/track?
-||p.kolplay.com^
 ||p.pagesjaunes.fr^
-||pagesjaunes.fr/assets/js/stats_
-||pagesjaunes.fr/bva/track.js
-||pagesjaunes.fr/crmmetrix/
-||pagesjaunes.fr/stats/
 ||pixel.ionos.fr^
-||pwa.telephoneannuaire.fr^
-||rtbf.be/log
-||rtl.be^*/trkfblk.js
-||rtl.fr/stats/
-||sa.tf1.fr^
-||sfr.fr/js/pent-stats.jsp
-||sgmnt.ticketswap.com^
-||shemsfm.net^*/setStats/
+||shemsfm.net/ar/setStats/
+||shemsfm.net/fr/setStats/
 ||stat.ouedkniss.com^
-||stat.webevolutis.com^
-||static.actu.fr/assets/js/smarttag5182.js
-||stats.grafikart.fr^
 ||stats.sexemodel.com^
-||stats1x1.kapaza.be^
 ||surace-jujitsu.fr/outils/compteur_php/
 ||t.blablacar.com^
-||tc.hometogo.net^
-||tesla.oscaro.com^
-||track.24heures.ch^
-||tracker-id.cdiscount.com^
-||tracker.cds-tracking.com^
+||tc2.hometogo.net^
 ||tracker.mspy.com^
 ||tracking.bd4travel.com^
-||tracking.ha.rueducommerce.fr^
 ||unblog.fr/cu.js
 ||wawacity.*/bypass
-||wbdds.allocine.fr^
 ||wstats.gameblog.fr^
+||wt.oscaro.com^
 ||yandex.fr/clck/click
-||zonecss.fr/images/stat_robocop.gif?
-||zonecss.fr/images/statscreen.gif?
 ||analytics.livehindustan.com^
 ||edmi.nextinpact.com^
 ||nextinpact.com/bundles/mtm
