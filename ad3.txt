@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0KlZGH7cjB3l5RRSbevEvA
+! Checksum: ZIcEc0XBBAL0sFmBHAEyJQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108021401
-! Last Modified: 2021年08月02日 14:01
+! Version: 202108022001
+! Last Modified: 2021年08月02日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16589,6 +16589,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||zhimeihui.fun^
+||goteacher.cn^
+||8776315.com^
+||kykmuyi.cn^
 ||baskba.xyz^
 ||qq2img.com^
 ||skrmzl.cn^
@@ -23110,6 +23113,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
+/dynatrace-
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -23251,6 +23255,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /events/capture?
 /events/counter?
 /Events/Impression?
+/events/page-viewed
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
@@ -23805,10 +23810,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /imgcount.php?
 /imgevent?
 /imgtracker.
-/imp.aspx?
-/imp.gif?
-/imp.php?
-/imp/ad_
 /imp/rtm?
 /imp/www.
 /imp2.js?
@@ -23821,32 +23822,25 @@ weibo.com##.apps_PCD_reco_detail_right
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
-/imppix/*
 /impr.gif?
-/impr.xlg?
 /impresion/zona/*
 /impress.php?
-/impress?*&sid=
 /impression.ashx
 /impression.gif?
 /impression.js?
 /impression.php?
 /impression.pl?
 /impression.track?
-/impression/*&ClickID=
 /impression/cmp2?
 /impression/inline?
 /impression/stream/*
 /impression/widget?
-/impression?*.loadAds&
 /impression?bid
 /impression?rkey=
 /impression_logging
 /impression_tracker.
 /impression_tracking.
 /impressioncount.
-/impressions/*/creative.png?
-/impressions/*/track
 /Impressions/aolukdp.imp?
 /impressions/log?
 /impressions/servlet/*
@@ -24118,7 +24112,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /log.php?id
 /log.php?owa_timestamp=
 /log/?pixel=
-/log/ad-
 /log/analytics
 /log/browser/event
 /log/collect/*
@@ -24235,10 +24228,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /logpstatus.
 /logpv.aspx?
 /LogRecorder.
-/logreferrer.php?*&referrer=
+/logreferrer.php?
 /Logs/ad?
 /Logs/discovery?
-/Logs/other?data=
 /logs/report_js_error
 /logserver-
 /logstat.
@@ -24316,9 +24308,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /metrics-backend/*
 /metrics-ga.
 /metrics-logger.
-/metrics-UGA.
-/metrics-VarysMetrics.
-/metrics.xml
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
@@ -24333,7 +24322,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/MetricsAjax^
 /metricsISCS.
 /metrika/*&ident=
 /metrika/*?ident=
@@ -24555,13 +24543,10 @@ weibo.com##.apps_PCD_reco_detail_right
 /omega?tceRow_
 /omgpixel.
 /omni-tracking.
-/omnidiggthis|
-/omnipagetrack.
 /omniture-app-measurement.
 /omniture-scode-prod.
 /omniture-visitorapi.
-/omniture.*&ref=
-/omniture.do;$image
+/omniture.do;
 /omniture/script.
 /omniture/sphere
 /omniture/tracking.
@@ -24640,7 +24625,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /page-events/trackclick/*
 /page-track.
 /page-view.gif?
-/page-viewed|
 /page.gif?p=
 /page/load?
 /page/page_view
@@ -24649,7 +24633,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /page_counter.
 /page_imp;
 /page_monitor_log?
-/page_view.*&ref=
 /pageaction/trackEvent
 /pagead/conversion_
 /PageCount.php?
@@ -24679,11 +24662,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageTrackerEvent.
 /pageTracking.js
 /pageTracking/*
-/pageView.act^
 /pageview.ashx
 /pageview.js
 /pageview;
-/pageview?*&referrer=
 /pageview?pageId=
 /pageview?pageviewId
 /pageview?user_guid=
@@ -24693,7 +24674,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
-/pap.swf?
 /parsely-events.
 /parsely.js
 /particles/analytics.
@@ -24738,8 +24718,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /pic.gif?m=
 /pic.gif?url=
 /piNctTracking.js
-/ping.*&referrer=
-/ping.*/ping.js
 /ping.gif?
 /ping.php?sid=
 /ping.png?session=
@@ -24754,7 +24732,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /ping?utm_
 /ping_g.jsp?
 /ping_hotclick.js
-/pingAlt.php?*&referrer=
 /pingAudience?
 /pingd?
 /pinger.cgi?
@@ -24765,12 +24742,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
-/piwik.*/ping?
-/piwik.js
-/piwik.php
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
-/piwik2.js
+/piwik2.
 /piwik_
 /piwikapi.js
 /piwikC_
@@ -24778,7 +24752,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /pix.fcg?
 /pix.fly/*
 /pix.gif?
-/pix/*&tracker=
 /pix_st.php?
 /pix_st_v2.php?
 /pixall.min.js
@@ -24803,9 +24776,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /Pixel.pl?
 /pixel.png?
 /pixel.swf?
-/pixel.track2?
-/pixel.track?
-/pixel/*?url=
+/pixel.track
 /pixel/?__tracker
 /pixel/?random_number=
 /pixel/conv/*
@@ -24915,7 +24886,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /prnx_track.
 /pro-ping.php?
 /probance_tracker.
-/process.php?ut=*&rf=
 /processUserCookie.htm?
 /processUserCookie?
 /prod-analytics.
@@ -25064,22 +25034,17 @@ weibo.com##.apps_PCD_reco_detail_right
 /referrer.php?*http
 /referrer_invisible.js?
 /referrer_tracking.
-/RefinedAdsTracker.swf
 /refresh_uid?$script
 /refstats.asp?
 /reftracker.
 /reg_stat.php?
 /register_pageview?
 /register_stats.php?
-/register_video_*&server=
 /registeradevent?
 /RegisterWebPageVisit.
 /RemoteTargetingService.
-/remoteTrackingManager.cfc?*trackPage&
 /render?trackingId=
 /renderTimingPixel.
-/repdata.*/b/ss/*
-/report-re.
 /report/click?
 /report/impression?
 /report?event_
@@ -25272,7 +25237,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /service/metrics/*
 /service/track?
 /service/tracking/*
-/services/?tid=
 /services/analytics/*
 /services/counter/*
 /services/counters/*
@@ -25361,13 +25325,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /sl.gif?1=
 /slimstat/*
 /sluurpy_track.js
-/small.gif?type
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartrack/*
 /smartserve-
 /smarttag-prod.
-/smarttag.*js
+/smartTag.bundle.
 /smarttag/smarttag-
 /smetrics.*/b/ss/*
 /smetrics.*/id?
@@ -25450,13 +25413,11 @@ weibo.com##.apps_PCD_reco_detail_right
 /stat/fe?
 /stat/inserthit.
 /stat/online-log
-/stat/track.php?mode=js
 /stat/track_
 /stat/tracker.
 /stat/uvstat?
 /stat2.aspx?
 /stat2.js
-/stat36/stat/track.php
 /stat?event=
 /stat?sid=
 /stat?SiteID=
@@ -25611,7 +25572,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /statsVisitesAnnonces?
 /stattracker-
 /status-beacon/*
-/status.gif?*=
 /StatV1?
 /stcollection.
 /stdlog?
@@ -25722,7 +25682,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /ThirdPartyTracking.
 /thixel.js
 /thuzianayltics.
-/ti.gif?slotid=
 /tiara/tracker/*
 /tide_stat.js
 /timeslog.
@@ -25733,9 +25692,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /tjx-tracking-
 /tmpstats.gif?
 /tms/metrics.
-/tmv11.
-/tnc.js?h=
-/tnc?_t=
 /tncms/tracking.js
 /tns_gallup/*
 /tnsCounter.
@@ -25803,7 +25759,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /track/count*js
 /track/event/*
 /track/hit.gif
-/track/imp/*?ur=$image
 /track/imp?
 /track/impression/*
 /track/impression?
@@ -25911,7 +25866,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /tracker/trackView?
 /tracker/visitor/*
 /tracker2.js
-/tracker?*=
 /tracker_activityStream.
 /tracker_article
 /tracker_async.
@@ -26123,7 +26077,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /trackpush.min.js
 /trackpush/*
 /trackpxl?
-/trackr.swf
 /TrackShopAnalytics.
 /tracksrk.
 /trackstats?
@@ -26246,7 +26199,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /us.gif?
 /user-agent-analyzer.
 /user-context?referrer=
-/userdata_n?*&uid=
+/userdata_n?
 /userfly.js
 /users/track?
 /UserTraceCookie?
@@ -31158,6 +31111,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cosmi.io^$third-party
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
+||datasign.co^$third-party
 ||deteql.net^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
@@ -31538,6 +31492,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addthiscdn.com/live/
 ||addthisedge.com/live/
 ||addtoany.com/menu/transparent.gif
+||adf.ly/js/link-converter.js
 ||adfox.yandex.ru^
 ||adlog.com.com^
 ||ads-trk.vidible.tv^
@@ -32314,6 +32269,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
 ||epl.paypal-communication.com^$script
+||epnt.ebay.com^
 ||epromote.co.za/track/
 ||erne.co/tags?
 ||errors.snackly.co^
@@ -34490,6 +34446,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||rlog.popin.cc^
+||s.dc-tag.jp^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/privacy/sando.js
@@ -34776,6 +34733,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
+||agoda.com/api/pixel/
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
@@ -35451,6 +35409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||substack.com/api/v1/firehose?
 ||t.9gag.com^
 ||t.allmodern.com^
+||t.appsflyer.com^
 ||t.av.st^
 ||t.birchlane.com^
 ||t.blinkist.com^
@@ -45306,7 +45265,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
 ||j1.ax.xrea.com^
-||jen.jiji.com^
+||jen.jiji.com/cookie.html
 ||ln.ameba.jp^
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
@@ -46040,6 +45999,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
+@@||getjad.io/library/$script,domain=gamestar.de
+@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de

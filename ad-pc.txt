@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5KS6vMMES/tQcv2B4dIxTg
+! Checksum: tRza4GhP7tC4HQitOkLQCg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108021401
-! Last Modified: 2021年08月02日 14:01
+! Version: 202108022001
+! Last Modified: 2021年08月02日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26484,6 +26484,7 @@ _popunder+$popup
 ##.homeadv
 ##.homeadwrapper
 ##.homefront468Ad
+##.homepage--sponsor-content
 ##.homepage-300-250-ad
 ##.homepage-ad
 ##.homepage-ad-block
@@ -45642,8 +45643,7 @@ menstennisforums.com#@#.top_ads
 ||gooblesdd.com^$third-party
 ||goodadvert.ru^$third-party
 ||goodtag.it^$third-party
-||googletagservices.com/tag/js/gpt_$third-party
-||googletagservices.com/tag/static/$third-party
+||googletagservices.com^$third-party
 ||googletrackmanager.com^$third-party
 ||goraps.com^$third-party
 ||goreleetren.com^$third-party
@@ -49554,10 +49554,6 @@ menstennisforums.com#@#.top_ads
 ||anonym.to/*findandtry.com
 ||any.gs/visitScript/$third-party
 ||ao-freegeoip.herokuapp.com^
-||aol.co.uk^*/cobrand.js
-||aolcdn.com/os/mapquest/marketing/promos/
-||aolcdn.com/os/mapquest/promo-images/
-||aolcdn.com/os/music/img/*-skin.jpg
 ||api.140proof.com^$third-party
 ||api.bitp.it^$third-party
 ||api.ticketnetwork.com/Events/TopSelling/$domain=nytimes.com
@@ -49592,8 +49588,6 @@ menstennisforums.com#@#.top_ads
 ||ball2win.com/Affiliate/
 ||bamstudent.com/files/banners/
 ||bankrate.com/jsfeeds/$third-party
-||bankrate.com^$subdocument,domain=yahoo.com
-||banman.isoftmarketing.com^$third-party
 ||banner.101xp.com^
 ||banner.titancasino.com^
 ||banner.titanpoker.com^$third-party
@@ -49610,7 +49604,6 @@ menstennisforums.com#@#.top_ads
 ||bee4.biz/banners/
 ||beget.tech/cpatracker/
 ||bemyapp.com/trk/$third-party
-||bergen.com^*/sponsoredby-
 ||besthosting.ua/banner/
 ||bestofmedia.com/ws/communicationSpot.php?
 ||bet-at-home.com/oddbanner.aspx?
@@ -49624,7 +49617,6 @@ menstennisforums.com#@#.top_ads
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bidorbuy.co.za/jsp/tradesearch/TradeFeedPreview.jsp?$third-party
 ||bids.concert.io^
-||bigcommerce.com^*/product_images/$domain=politicalears.com
 ||bigrock.in/affiliate/
 ||bijk.com^*/banners/
 ||binbox.io/public/img/promo/$third-party
@@ -49635,12 +49627,8 @@ menstennisforums.com#@#.top_ads
 ||bitcoindice.com/img/bitcoindice_$third-party
 ||bitcoinwebhosting.net/banners/$third-party
 ||bithostcoin.io/img/$third-party
-||bitshare.com^*/banner/
 ||bl.wavecdn.de^
 ||blacklistednews.com/contentrotator/
-||blindferret.com/images/*_skin_
-||blinkx.com/?i=*&adc_pub_id=$script,third-party
-||blinkx.com/f2/overlays/
 ||bliss-systems-api.co.uk^$third-party
 ||blissful-sin.com/affiliates/
 ||blogatus.com/images/banner/$third-party
@@ -49651,11 +49639,7 @@ menstennisforums.com#@#.top_ads
 ||bluesattv.net/bluesattvnet.gif
 ||bluesattv.net/gif.gif
 ||bluhostedbanners.blucigs.com^
-||boago.com^*_Takeover_
 ||bollyrulez.net/media/adz/
-||booking.com/images/partner/$third-party
-||booking.com^$subdocument,domain=ekathimerini.com
-||booking.com^*;tmpl=banner_
 ||bookingdragon.com^$subdocument,third-party
 ||bordernode.com/images/$third-party
 ||borrowlenses.com/affiliate/
@@ -49664,8 +49648,6 @@ menstennisforums.com#@#.top_ads
 ||bplaced.net/pub/
 ||brandpa.com/widgets/$third-party
 ||bravenet.com/cserv.php
-||break.com/break/html/$subdocument
-||break.com^*/partnerpublish/
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||broadbandgenie.co.uk/widget?$third-party
 ||bruteforceseo.com/affiliates/
@@ -49675,23 +49657,18 @@ menstennisforums.com#@#.top_ads
 ||btr.domywife.com^
 ||btrd.net/assets/interstitial$script
 ||bubbles-uk.com/banner/$third-party
-||bullguard.com^*/banners/
 ||burnside.dtcn.com^$third-party
 ||burst.net/aff/
 ||burstnet.akadns.net^$image
 ||businessnewswatch.ca/images/nnwbanner/
 ||butter.to^$subdocument,third-party
-||buy.com^*/affiliate/
 ||buyhatke.com/widgetBack/
-||buzznet.com^*/showpping-banner-$third-party
-||byzoo.org/script/tu*.js
 ||bza.co^$subdocument,third-party
 ||c.bannerflow.net^
 ||c.netu.tv^
 ||cache.sellwild.com^$third-party
 ||cachefly.net/cricad.html
 ||cactusvpn.com/images/affiliates/
-||camelmedia.net^*/banners/
 ||carbiz.in/affiliates-and-partners/
 ||careerjunction.co.za/widgets/$third-party
 ||careerjunction.co.za^*/widget?$third-party
@@ -49703,11 +49680,8 @@ menstennisforums.com#@#.top_ads
 ||cas.criteo.com^$third-party
 ||casalemedia.com/cygnus?
 ||cash.neweramediaworks.com^
-||cashmakingpowersites.com^*/banners/
 ||cashmyvideo.com/images/cashmyvideo_banner.gif
-||casinobonusdeal.com^$subdocument,domain=sportlemon.org|sportlemon.tv
 ||castasap.com/publi2.html
-||catholicweb.com^*/banners/
 ||caw.*.criteo.com^$third-party
 ||cbpirate.com/getimg.php?
 ||cccam.co/banner_big.gif
@@ -49721,29 +49695,21 @@ menstennisforums.com#@#.top_ads
 ||cdn.offcloud.com^$third-party
 ||cdn.sweeva.com/images/$third-party
 ||cdn.tech426.com/pub/
-||cdn.totalfratmove.com^$image,domain=postgradproblems.com
 ||cdn77.org/tags/
-||cdnpark.com/scripts/js3.js
-||cdnprk.com/scripts/js3.js
-||cdnprk.com/scripts/js3caf.js
 ||cdnpub.info^$subdocument,third-party,domain=~iqbroker.co|~iqbroker.com|~iqoption.co.th|~iqoption.com|~tr-iqoption.com
 ||cdnservices.net/megatag.js
-||centauro.net^*/banners/$third-party
-||centralmediaserver.com^*_side_bars.jpg
 ||centrora.com//store/image/$third-party
 ||cex.io/img/b/
 ||cex.io/informer/$third-party
 ||cfcdn.com/showcase_sample/search_widget/
 ||cgmlab.com/tools/geotarget/custombanner.js
 ||chacsystems.com/gk_add.html$third-party
-||challies.com^*/wtsbooks5.png$third-party
 ||charlestondealstoday.com/aux/ux/_component/ss_dealrail/$subdocument,third-party
 ||choices.truste.com^$third-party
 ||chriscasconi.com/nostalgia_ad.
 ||cimg.in/images/banners/
 ||citygridmedia.com/ads/
 ||clarity.abacast.com^
-||classistatic.com^*/sponsors/
 ||click.alibaba.com^$subdocument,third-party
 ||click.aliexpress.com^$subdocument,third-party
 ||click.eyk.net^
@@ -50158,37 +50124,21 @@ menstennisforums.com#@#.top_ads
 ||giantrealm.com/saj/
 ||giantsavings-a.akamaihd.net^$third-party
 ||giffgaff.com/banner/
+||glam.com/app/
 ||glam.com/gad/
-||glam.com/js/widgets/glam_native.act?
-||glam.com^*?affiliateid=
 ||goadv.com^*/ads.js
 ||gobankingrates.com/r/$subdocument,third-party
-||gogousenet.com^*/promo.cgi
-||gogousenet.com^*/promo2.cgi
 ||gold4rs.com/images/$third-party
 ||goldmoney.com/~/media/Images/Banners/$third-party
-||goo.gl^$image,domain=cracksfiles.com|indishare.org
-||goo.gl^$script,domain=transphoto.ru
-||goo.gl^$subdocument,domain=backin.net
 ||google.com/adsense/ad
 ||google.com/adsense/domains
 ||google.com/adsense/search/
 ||google.com/dp/ads
 ||google.com/pagead/
-||google.com/uds/afs?*adsense$subdocument
 ||googleadapis.l.google.com^$third-party
-||googleapis.com/xxx-mightyparty.appspot.com/$third-party,domain=~cuntwars.com|~nutaku.com|~nutaku.net
 ||googlesyndication.com/ddm/
-||googlesyndication.com/ima3vpaid?
 ||googlesyndication.com/pagead/
-||googlesyndication.com/sadbundle/
 ||googlesyndication.com/safeframe/
-||googlesyndication.com/simgad/
-||googlesyndication.com/sodar/
-||googlesyndication.com^*/click_to_buy/$object,third-party
-||googlesyndication.com^*/domainpark.cgi?
-||googlesyndication.com^*/simgad/
-||googletagservices.com/dcm/dcmads.js
 ||gopjn.com/b/$third-party
 ||gopjn.com/i/$third-party
 ||gotraffic.net^*/sponsors/
@@ -51953,7 +51903,7 @@ menstennisforums.com#@#.top_ads
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{1,}\/[a-z0-9]{4,9}\./$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{4,}\/[a-z0-9]{2,9}\./$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{4,}\/[a-z0-9\d\D]{2,9}\./$image,domain=techpowerup.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -53406,7 +53356,6 @@ healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
 luxury-insider.com##.adv-info
 audiobacon.net,ottverse.com,sundayworld.co.za##.adv-link
-ottverse.com##.livevideostack-ad
 vidstream.io##.adv-space
 motorauthority.com##.adv-spacer
 veoh.com##.adv-title
@@ -54190,6 +54139,7 @@ jpost.com##.line-one-row-before-and-after-container
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 gosearchresults.com##.listing-right
 researchgate.net##.lite-page__above
+ottverse.com##.livevideostack-ad
 goodgearguide.com.au,pcworld.co.nz,pcworld.idg.com.au##.lo-toppromos
 reverso.net##.locd-rca
 1071thepeak.com##.logo-scroll
@@ -55360,11 +55310,11 @@ bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
-instantfap.com###af
 xxerotica.com###XXXGirls
 swfchan.com###aaaa
 flyingjizz.com###adv_inplayer
 milffox.com###advertising
+instantfap.com###af
 pervclips.com###after-adv
 sexyandfunny.com###best-friends
 toppixxx.com###bottom
@@ -56379,14 +56329,14 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gamestar.de|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
@@ -73513,6 +73463,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||zhimeihui.fun^
+||goteacher.cn^
+||8776315.com^
+||kykmuyi.cn^
 ||baskba.xyz^
 ||qq2img.com^
 ||skrmzl.cn^
@@ -77790,6 +77743,7 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
+/dynatrace-
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -77931,6 +77885,7 @@ fqsousou.com,kengso.com#@#.user-share
 /events/capture?
 /events/counter?
 /Events/Impression?
+/events/page-viewed
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
@@ -78485,10 +78440,6 @@ fqsousou.com,kengso.com#@#.user-share
 /imgcount.php?
 /imgevent?
 /imgtracker.
-/imp.aspx?
-/imp.gif?
-/imp.php?
-/imp/ad_
 /imp/rtm?
 /imp/www.
 /imp2.js?
@@ -78501,32 +78452,25 @@ fqsousou.com,kengso.com#@#.user-share
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
-/imppix/*
 /impr.gif?
-/impr.xlg?
 /impresion/zona/*
 /impress.php?
-/impress?*&sid=
 /impression.ashx
 /impression.gif?
 /impression.js?
 /impression.php?
 /impression.pl?
 /impression.track?
-/impression/*&ClickID=
 /impression/cmp2?
 /impression/inline?
 /impression/stream/*
 /impression/widget?
-/impression?*.loadAds&
 /impression?bid
 /impression?rkey=
 /impression_logging
 /impression_tracker.
 /impression_tracking.
 /impressioncount.
-/impressions/*/creative.png?
-/impressions/*/track
 /Impressions/aolukdp.imp?
 /impressions/log?
 /impressions/servlet/*
@@ -78798,7 +78742,6 @@ fqsousou.com,kengso.com#@#.user-share
 /log.php?id
 /log.php?owa_timestamp=
 /log/?pixel=
-/log/ad-
 /log/analytics
 /log/browser/event
 /log/collect/*
@@ -78915,10 +78858,9 @@ fqsousou.com,kengso.com#@#.user-share
 /logpstatus.
 /logpv.aspx?
 /LogRecorder.
-/logreferrer.php?*&referrer=
+/logreferrer.php?
 /Logs/ad?
 /Logs/discovery?
-/Logs/other?data=
 /logs/report_js_error
 /logserver-
 /logstat.
@@ -78996,9 +78938,6 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics-backend/*
 /metrics-ga.
 /metrics-logger.
-/metrics-UGA.
-/metrics-VarysMetrics.
-/metrics.xml
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
@@ -79013,7 +78952,6 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
-/MetricsAjax^
 /metricsISCS.
 /metrika/*&ident=
 /metrika/*?ident=
@@ -79235,13 +79173,10 @@ fqsousou.com,kengso.com#@#.user-share
 /omega?tceRow_
 /omgpixel.
 /omni-tracking.
-/omnidiggthis|
-/omnipagetrack.
 /omniture-app-measurement.
 /omniture-scode-prod.
 /omniture-visitorapi.
-/omniture.*&ref=
-/omniture.do;$image
+/omniture.do;
 /omniture/script.
 /omniture/sphere
 /omniture/tracking.
@@ -79320,7 +79255,6 @@ fqsousou.com,kengso.com#@#.user-share
 /page-events/trackclick/*
 /page-track.
 /page-view.gif?
-/page-viewed|
 /page.gif?p=
 /page/load?
 /page/page_view
@@ -79329,7 +79263,6 @@ fqsousou.com,kengso.com#@#.user-share
 /page_counter.
 /page_imp;
 /page_monitor_log?
-/page_view.*&ref=
 /pageaction/trackEvent
 /pagead/conversion_
 /PageCount.php?
@@ -79359,11 +79292,9 @@ fqsousou.com,kengso.com#@#.user-share
 /pageTrackerEvent.
 /pageTracking.js
 /pageTracking/*
-/pageView.act^
 /pageview.ashx
 /pageview.js
 /pageview;
-/pageview?*&referrer=
 /pageview?pageId=
 /pageview?pageviewId
 /pageview?user_guid=
@@ -79373,7 +79304,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
-/pap.swf?
 /parsely-events.
 /parsely.js
 /particles/analytics.
@@ -79418,8 +79348,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pic.gif?m=
 /pic.gif?url=
 /piNctTracking.js
-/ping.*&referrer=
-/ping.*/ping.js
 /ping.gif?
 /ping.php?sid=
 /ping.png?session=
@@ -79434,7 +79362,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ping?utm_
 /ping_g.jsp?
 /ping_hotclick.js
-/pingAlt.php?*&referrer=
 /pingAudience?
 /pingd?
 /pinger.cgi?
@@ -79445,12 +79372,9 @@ fqsousou.com,kengso.com#@#.user-share
 /pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
-/piwik.*/ping?
-/piwik.js
-/piwik.php
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
-/piwik2.js
+/piwik2.
 /piwik_
 /piwikapi.js
 /piwikC_
@@ -79458,7 +79382,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pix.fcg?
 /pix.fly/*
 /pix.gif?
-/pix/*&tracker=
 /pix_st.php?
 /pix_st_v2.php?
 /pixall.min.js
@@ -79483,9 +79406,7 @@ fqsousou.com,kengso.com#@#.user-share
 /Pixel.pl?
 /pixel.png?
 /pixel.swf?
-/pixel.track2?
-/pixel.track?
-/pixel/*?url=
+/pixel.track
 /pixel/?__tracker
 /pixel/?random_number=
 /pixel/conv/*
@@ -79595,7 +79516,6 @@ fqsousou.com,kengso.com#@#.user-share
 /prnx_track.
 /pro-ping.php?
 /probance_tracker.
-/process.php?ut=*&rf=
 /processUserCookie.htm?
 /processUserCookie?
 /prod-analytics.
@@ -79744,22 +79664,17 @@ fqsousou.com,kengso.com#@#.user-share
 /referrer.php?*http
 /referrer_invisible.js?
 /referrer_tracking.
-/RefinedAdsTracker.swf
 /refresh_uid?$script
 /refstats.asp?
 /reftracker.
 /reg_stat.php?
 /register_pageview?
 /register_stats.php?
-/register_video_*&server=
 /registeradevent?
 /RegisterWebPageVisit.
 /RemoteTargetingService.
-/remoteTrackingManager.cfc?*trackPage&
 /render?trackingId=
 /renderTimingPixel.
-/repdata.*/b/ss/*
-/report-re.
 /report/click?
 /report/impression?
 /report?event_
@@ -79952,7 +79867,6 @@ fqsousou.com,kengso.com#@#.user-share
 /service/metrics/*
 /service/track?
 /service/tracking/*
-/services/?tid=
 /services/analytics/*
 /services/counter/*
 /services/counters/*
@@ -80041,13 +79955,12 @@ fqsousou.com,kengso.com#@#.user-share
 /sl.gif?1=
 /slimstat/*
 /sluurpy_track.js
-/small.gif?type
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartrack/*
 /smartserve-
 /smarttag-prod.
-/smarttag.*js
+/smartTag.bundle.
 /smarttag/smarttag-
 /smetrics.*/b/ss/*
 /smetrics.*/id?
@@ -80130,13 +80043,11 @@ fqsousou.com,kengso.com#@#.user-share
 /stat/fe?
 /stat/inserthit.
 /stat/online-log
-/stat/track.php?mode=js
 /stat/track_
 /stat/tracker.
 /stat/uvstat?
 /stat2.aspx?
 /stat2.js
-/stat36/stat/track.php
 /stat?event=
 /stat?sid=
 /stat?SiteID=
@@ -80291,7 +80202,6 @@ fqsousou.com,kengso.com#@#.user-share
 /statsVisitesAnnonces?
 /stattracker-
 /status-beacon/*
-/status.gif?*=
 /StatV1?
 /stcollection.
 /stdlog?
@@ -80402,7 +80312,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ThirdPartyTracking.
 /thixel.js
 /thuzianayltics.
-/ti.gif?slotid=
 /tiara/tracker/*
 /tide_stat.js
 /timeslog.
@@ -80413,9 +80322,6 @@ fqsousou.com,kengso.com#@#.user-share
 /tjx-tracking-
 /tmpstats.gif?
 /tms/metrics.
-/tmv11.
-/tnc.js?h=
-/tnc?_t=
 /tncms/tracking.js
 /tns_gallup/*
 /tnsCounter.
@@ -80483,7 +80389,6 @@ fqsousou.com,kengso.com#@#.user-share
 /track/count*js
 /track/event/*
 /track/hit.gif
-/track/imp/*?ur=$image
 /track/imp?
 /track/impression/*
 /track/impression?
@@ -80591,7 +80496,6 @@ fqsousou.com,kengso.com#@#.user-share
 /tracker/trackView?
 /tracker/visitor/*
 /tracker2.js
-/tracker?*=
 /tracker_activityStream.
 /tracker_article
 /tracker_async.
@@ -80803,7 +80707,6 @@ fqsousou.com,kengso.com#@#.user-share
 /trackpush.min.js
 /trackpush/*
 /trackpxl?
-/trackr.swf
 /TrackShopAnalytics.
 /tracksrk.
 /trackstats?
@@ -80926,7 +80829,7 @@ fqsousou.com,kengso.com#@#.user-share
 /us.gif?
 /user-agent-analyzer.
 /user-context?referrer=
-/userdata_n?*&uid=
+/userdata_n?
 /userfly.js
 /users/track?
 /UserTraceCookie?
@@ -85838,6 +85741,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cosmi.io^$third-party
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
+||datasign.co^$third-party
 ||deteql.net^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
@@ -86218,6 +86122,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||addthiscdn.com/live/
 ||addthisedge.com/live/
 ||addtoany.com/menu/transparent.gif
+||adf.ly/js/link-converter.js
 ||adfox.yandex.ru^
 ||adlog.com.com^
 ||ads-trk.vidible.tv^
@@ -86994,6 +86899,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
 ||epl.paypal-communication.com^$script
+||epnt.ebay.com^
 ||epromote.co.za/track/
 ||erne.co/tags?
 ||errors.snackly.co^
@@ -89170,6 +89076,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||rlog.popin.cc^
+||s.dc-tag.jp^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||sankei-digital.co.jp/log?
 ||sankei.co.jp/js/privacy/sando.js
@@ -89456,6 +89363,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
+||agoda.com/api/pixel/
 ||ai.iol.io^
 ||airbnb.*/tracking/
 ||airtable.com/internal/$xmlhttprequest
@@ -90131,6 +90039,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||substack.com/api/v1/firehose?
 ||t.9gag.com^
 ||t.allmodern.com^
+||t.appsflyer.com^
 ||t.av.st^
 ||t.birchlane.com^
 ||t.blinkist.com^
@@ -99986,7 +99895,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
 ||j1.ax.xrea.com^
-||jen.jiji.com^
+||jen.jiji.com/cookie.html
 ||ln.ameba.jp^
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
@@ -100720,6 +100629,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
+@@||getjad.io/library/$script,domain=gamestar.de
+@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
