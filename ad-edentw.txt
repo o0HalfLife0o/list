@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S82H0nuStBhpPuQ+KUIk6A
+! Checksum: 3IBE1UqMQdrylMXilUgrEg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108022001
-! Last Modified: 2021年08月02日 20:01
+! Version: 202108032002
+! Last Modified: 2021年08月03日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1767,11 +1767,6 @@ informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,zikua.tv,gorodkie
 ! marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 ! #CV-747
-rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath './/div[not(@id) and contains(@class," ") and string-length(@class)<17]/div[not(@id) and not(@style) and @class and @*[not(name() = 'class')]="" and string-length(@class)<10]'
-rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath './/div[@class][count(div[@class])>6]/div[(@class)][string-length(text())>60]/ancestor::div[@class][1]/preceding-sibling::div/div[(@class)][string-length(text())>10]/ancestor::div[@class][2]/preceding-sibling::div[contains(@class," ")]/ancestor::div[@class][2][contains(@class," ")]'
-rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
-rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>60]/ancestor::div[(@class)][1]/preceding-sibling::div//div[not(*) and not(normalize-space())]/following-sibling::div[(@class)][last()][string-length(text())>10]/ancestor::div[(@class)][4][contains(@class," ")]'
-rambler.ru,~mail.rambler.ru,~vp.rambler.ru,~kassa.rambler.ru,~top100.rambler.ru,~class.rambler.ru,~dating.rambler.ru,~images.rambler.ru,~rabota.rambler.ru,~help.rambler.ru,~org.rambler.ru,~developers.rambler.ru,~soft.rambler.ru,~nova.rambler.ru,motor.ru,rns.online,lenta.ru,gazeta.ru,passion.ru,quto.ru,eda.ru,letidor.ru,wmj.ru,championat.com#$#hide-if-matches-xpath '//div[text()[contains(.," ")]][not(@id)]/div[not(@id)][not(contains(@class,"-"))][not(@style)][not(*) and not(normalize-space())]/following-sibling::div[not(contains(@class,"-"))][not(@style)][not(@id)][not(*) and not(normalize-space())][not(following-sibling::*)]/ancestor::div[4][@class and @* and not (@id)][text()[contains(.," ")]]'
 ! #CV-694
 www.ukr.net#$#override-property-read Math.random trueFunc; hide-if-shadow-contains /./
 112ua.tv,24boxing.com.ua,4mama.ua,avtovod.com.ua,avtovod.org.ua,besplatka.ua,bilshe.com,buhgalter.com.ua,buhgalter911.com,businessua.com,censor.net,dengi.ua,enovosty.com,epravda.com.ua,eurointegration.com.ua,f1analytic.com,facenews.ua,football-ukraine.com,football24.ua,footballtransfer.com.ua,gismeteo.ua,gorod.dp.ua,hvylya.net,inforesist.org,internetua.com,kolobok.ua,kp.ua,kriminal.tv,lifedon.com.ua,mport.ua,nashamama.com,newsyou.info,nnovosti.info,okino.ua,ostro.org,perevod.i.ua,real-vin.com,segodnya.ua,sinoptik.ua,smak.ua,sportanalytic.com,toneto.net,tv.ua,tvgid.ua,u-news.com.ua,udoktora.net,vsetv.com,zdorovia.com.ua#$#override-property-read String.prototype.charCodeAt trueFunc
