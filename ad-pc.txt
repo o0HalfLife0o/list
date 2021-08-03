@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tP0ZzzsL4FF3GNh0aTksbg
+! Checksum: DhLo9oiFbSduvoJSjdHLxA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108032002
-! Last Modified: 2021年08月03日 20:02
+! Version: 202108040201
+! Last Modified: 2021年08月04日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -34663,6 +34663,7 @@ menstennisforums.com#@#.top_ads
 ||boodlewrite.com^
 ||bookingfreeze.com^
 ||boom-boom-vroom.com^
+||boosirad.net^
 ||boost-next.co.jp^
 ||boostcpm.su^
 ||bootstrap-framework.org^
@@ -36340,6 +36341,7 @@ menstennisforums.com#@#.top_ads
 ||earphonesvehicleexploded.com^
 ||earsagreenj.top^
 ||earthincomprehensibleintrepid.com^
+||easierblushingpicky.com^
 ||easiesttangle.com^
 ||easy-bars.com^
 ||easy2cnjuh34jb.com^
@@ -49587,6 +49589,7 @@ menstennisforums.com#@#.top_ads
 ||ad.wsod.com^
 ||adaptv.advertising.com^
 ||adfoc.us^$script,third-party
+||adform.net/banners/$third-party
 ||ads-sg.tiktok.com^
 ||ads.audio.thisisdax.com^
 ||ads.linkedin.com^$third-party
@@ -56307,8 +56310,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
+@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gamestar.de|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
@@ -58288,6 +58292,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xtdzkj.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -65870,6 +65875,7 @@ _yad_jsonp_
 ||yhdm.so/bar/
 ||pan.baidu.com/act/api/activityentry?
 ||yun.baidu.com/act/api/activityentry?
+||jsdelivr.net/gh/vip888vip/*960x80
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tie.163.com###top-banner
@@ -79962,6 +79968,7 @@ fqsousou.com,kengso.com#@#.user-share
 /softpage/stats_registerhit.asp?
 /solarcode.js
 /sometrics/*
+/somtag/loader/*
 /somtag/logs/*
 /sophus.js
 /sophus/logging.js
@@ -80110,6 +80117,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/?rt=
 /stats/add/*
 /stats/adonis_
+/stats/api/collect
 /stats/collect?
 /stats/collector.js
 /stats/common/*
@@ -99434,6 +99442,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wikipedia.de/tracking.js
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||ymprove.web.de^
+||zdf.de/atinternet/live/smarttag.js
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
@@ -99600,6 +99609,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
 ||msgsndr.com/funnel/event
+||mtrace.qq.com^
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||narutom.com/stat.js
@@ -100614,7 +100624,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||getjad.io/library/$script,domain=gamestar.de
-@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
@@ -100629,6 +100638,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
+@@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp

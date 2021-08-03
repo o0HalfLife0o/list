@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uFHbNKa2km9RIShmti3VVA
+! Checksum: PEe9AsSJzW+fB+6dzCOFCQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108032002
-! Last Modified: 2021年08月03日 20:02
+! Version: 202108040201
+! Last Modified: 2021年08月04日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1442,6 +1442,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xtdzkj.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9024,6 +9025,7 @@ _yad_jsonp_
 ||yhdm.so/bar/
 ||pan.baidu.com/act/api/activityentry?
 ||yun.baidu.com/act/api/activityentry?
+||jsdelivr.net/gh/vip888vip/*960x80
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tie.163.com###top-banner
@@ -25360,6 +25362,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /softpage/stats_registerhit.asp?
 /solarcode.js
 /sometrics/*
+/somtag/loader/*
 /somtag/logs/*
 /sophus.js
 /sophus/logging.js
@@ -25508,6 +25511,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats/?rt=
 /stats/add/*
 /stats/adonis_
+/stats/api/collect
 /stats/collect?
 /stats/collector.js
 /stats/common/*
@@ -44832,6 +44836,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wikipedia.de/tracking.js
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||ymprove.web.de^
+||zdf.de/atinternet/live/smarttag.js
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
@@ -44998,6 +45003,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
 ||msgsndr.com/funnel/event
+||mtrace.qq.com^
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||narutom.com/stat.js
@@ -46012,7 +46018,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||getjad.io/library/$script,domain=gamestar.de
-@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|radiorur.de|saturn.at|sport1.de|vox.de
@@ -46027,6 +46032,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
+@@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
