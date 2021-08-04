@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3tG5hq7UXq3ayPy9lu5lbA
+! Checksum: Bsp2rtNm69UsUl4pMxW5tA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108041401
-! Last Modified: 2021年08月04日 14:01
+! Version: 202108042002
+! Last Modified: 2021年08月04日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27071,6 +27071,7 @@ _mongo_stats/
 ||cloudwp.io^
 ||cxt.ms^
 ||e1e.io^
+||experianmatch.info^
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -32266,6 +32267,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dy2xcjk8s1dbz.cloudfront.net^
 ||dymlo6ffhj97l.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
+||dzbrr144kh0m6.cloudfront.net^
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
@@ -33821,8 +33823,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||opps.taboola.com^
 ||sync.taboola.com^
 ||taboola.com/?uid=
-||taboola.com/libtrc/impl.
-||taboola.com/libtrc/userx.
+||taboola.com/libtrc/
 ||taboola.com/tb?
 ||taboola.com^*/json?tim=
 ||taboola.com^*/log/
@@ -35165,6 +35166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||modanisa.com/al/j/analytics.js
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.channel4.com^
+||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
 ||msn.com/collect/
 ||msn.com/OneCollector/
 ||my.com/v1/hit/
@@ -35281,6 +35283,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rv.modanisa.com^$script
 ||s.infogram.com^
 ||scoot.co.uk/ajax/log_
+||search.aol.com/beacon/
 ||search.ch/audit/
 ||searchenginejournal.com/xcs0MhRsfxHG.js
 ||searchiq.co/api/tr?
@@ -35782,6 +35785,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||contentexchange.me^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||contentspread.net^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 ||cpx.to^$domain=quoka.de
+||criteo.com^$domain=spiegel.de
 ||crwdcntrl.net^$domain=disqus.com
 ||cxense.com^$domain=focus.de
 ||disqus.com/api/ping?$domain=autobild.de

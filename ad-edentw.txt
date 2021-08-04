@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u6/lw6VIPdFrn0dtxrzkIg
+! Checksum: thpOpD+0cGSFu63bCYCVbg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108040201
-! Last Modified: 2021年08月04日 02:01
+! Version: 202108042002
+! Last Modified: 2021年08月04日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1217,10 +1217,10 @@ youporn.com#$#abort-on-property-read zone_underplayer; abort-on-property-read zo
 pornhub.com#$#abort-on-property-read HTMLElement.prototype.attachShadow
 theyarehuge.com#$#abort-on-property-read Element.prototype.attachShadow
 ! #CV-663
-/image/*/*.png^$domain=newser.com
-/image/*/*.jpg^$domain=newser.com
-newser.com#$#hide-if-matches-xpath './/*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(@style)]/ancestor::*[3][not(@class="Footer")][not(@style)]/div[@*]/div[last()][name()="div"][not(@style="clear:both;")][not(following-sibling::*)]/*'
-grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath './/*[@* and @ci]/*[string-length( text() ) < 39][contains(normalize-space(),"")][string-length(@*) >= 27]/preceding-sibling::*[1]/ancestor::*[2]|.//*[@* and @ci]/*[string-length( text() ) < 39][contains(normalize-space(),"")]'
+/*image/*/*.png^$domain=newser.com
+/*image/*/*.jpg^$domain=newser.com
+newser.com#$#hide-if-matches-xpath './/*[@*]/*[@ci]/ancestor::*[1]|//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][string-length( text() ) <= 10][contains(normalize-space(),"")][string-length(@*) < 15]'
+grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath './/*[@* and @cid]/*[string-length( text() ) < 39][contains(normalize-space(),"")][string-length(@*) >= 27]/preceding-sibling::*[1]/ancestor::*[2]|.//*[@* and @cid]/*[string-length( text() ) < 39][contains(normalize-space(),"")]'
 newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(contains(@*,"content"))][not(contains(@*,"Grid"))]'
 grammarist.com,conservativefiringline.com,dcdirtylaundry.com,designbump.com,ipatriot.com,naturalblaze.com,beforeitsnews.com,videogamesblogger.com,rightwingtribune.com,madworldnews.com,clashdaily.com,tosavealife.com,allthingsvegas.com,dailylol.com,patriotnationpress.com,thedesigninspiration.com,survivalnation.com,vitamiiin.com,steadfastherald.com#$#hide-if-matches-xpath '//*[@*][string-length( text() ) > 47][contains(normalize-space(),"")][string-length(@class) >= 27]/preceding-sibling::*[1]/ancestor::*[3][@*]'
 newser.com#$#hide-if-matches-xpath '//*/following-sibling::*[contains(@*, " ")][contains(normalize-space(),"")][not(parent::li)][not(@style)]/ancestor::div[2][not(@class="FooterContent")][not(@id="contentBounds")][not(contains(@id,"Grid"))][not(@style)]'
@@ -1460,15 +1460,15 @@ adpop.me,amyscans.com,apurogol.net,aquipelis.net,arenavision.in,arenavision.us,a
 ! #CV-368
 kimcartoon.to#$#abort-on-property-read NativeAd
 ! Popup/Popunder/Clickunder
-strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,strtape.cloud,strtape.site,strtape.tech,rlslog.net,hclips.com,pornhat.com,dood.so,dood.to,dood.video,dood.watch,doodstream.com,vidstreaming.io,mstream.fun,xnxxvideo.pro,xvideosxporn.com,porndollz.com,hd-analporn.com,bigtitsxxxfree.com,perfectgirls.net,realgfporn.com,porn.com,hotmovs.com,rule34hentai.net,govid.me,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,iframe-secured.com,pandamovies.pw,configspc.com,onetouchtv.me#$#abort-on-property-read open
-baytorrent.eu.org,dood.so,dood.to,dood.video,dood.watch,doodstream.com,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,strcloud.club,strcloud.link,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,strtape.cloud,strtape.site,strtape.tech,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidshare.tv,youdbox.com#$#abort-on-property-write _pop
-strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,strtape.cloud,strtape.site,strtape.tech#$#abort-on-property-write _pao
+strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,rlslog.net,hclips.com,pornhat.com,dood.so,dood.to,dood.video,dood.watch,doodstream.com,vidstreaming.io,mstream.fun,xnxxvideo.pro,xvideosxporn.com,porndollz.com,hd-analporn.com,bigtitsxxxfree.com,perfectgirls.net,realgfporn.com,porn.com,hotmovs.com,rule34hentai.net,govid.me,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,iframe-secured.com,pandamovies.pw,configspc.com,onetouchtv.me,hxfile.co#$#abort-on-property-read open
+baytorrent.eu.org,dood.so,dood.to,dood.video,dood.watch,doodstream.com,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,strcloud.club,strcloud.link,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,strtape.cloud,strtape.site,strtape.tech,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidshare.tv,youdbox.com#$#abort-on-property-write _pop
+strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech#$#abort-on-property-write _pao
 xxxhdporno.net,indianpornvideo.org,hindixxxvideos.net,biter.tv#$#abort-on-property-read decodeURI
 xhamster.com#$#abort-on-property-read wig-popunder; abort-on-property-write wit-popunder
 xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write dataPopUnder
 marketrealist.com#$#abort-on-property-read adHandler.cmd.push
 ling.online,pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
-vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io#$#abort-on-property-read decodeURIComponent
+vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
 vidbem.com,upload4earn.org,uploadbyte.com#$#abort-on-property-read localStorage
 dood.so,dood.to,dood.video,dood.watch,doodstream.com#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
@@ -1477,7 +1477,7 @@ hclips.com#$#abort-on-property-read adver
 txxx.com#$#override-property-read skpPop true; abort-on-property-read ExoLoader; abort-on-property-read open
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
 *$popup,third-party,domain=streamega.com|123putlocker.club|openloadmovies.bz
-about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.com
+about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.com|strtapeadblock.me
 /favicon.ico$popup,domain=vidshare.tv|vudeo.net
 ||35.194.16.41^$popup
 ||gadsims.com^$popup
@@ -1852,8 +1852,6 @@ boerse-online.de#@#.social_wrapper
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=gamestar.de
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=gamestar.de
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=gamestar.de
-! FDA-2381, FDA-2382
-@@||cdn.optimizely.com$script,domain=sat1.de|prosieben.de
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
