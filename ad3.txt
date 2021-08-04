@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PEe9AsSJzW+fB+6dzCOFCQ
+! Checksum: RXiWnM2N/DcXWbZOUs8PVg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108040201
-! Last Modified: 2021年08月04日 02:01
+! Version: 202108040811
+! Last Modified: 2021年08月04日 08:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1442,6 +1442,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xwintop.top^
+||cycytea.cn^
 ||xtdzkj.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -34287,8 +34289,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||h.seznam.cz^
 ||hit.skrz.cz^
 ||i.imedia.cz^
+||log.cpex.cz^
 ||log.idnes.cz^
 ||pixel.cpex.cz^
+||r2b2.cz/events.php?
 ||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.ringier.cz^$third-party
@@ -35224,7 +35228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pornhublive.com/api/metrics
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
 ||priceline.com/pws/v1/ace/impression/
-||priceline.com/svcs/
+||priceline.com/svcs/mkt/tag/
 ||princetonreview.com/logging/
 ||privacy-api.9gag.com^
 ||privacyfriendly.netlify.app^
@@ -35263,7 +35267,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.kobo.com^
 ||rumble.com/l/
 ||rv.modanisa.com^$script
-||s.hoplon.pandora.com^
 ||s.infogram.com^
 ||scoot.co.uk/ajax/log_
 ||search.ch/audit/
