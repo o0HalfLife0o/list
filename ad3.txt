@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bsp2rtNm69UsUl4pMxW5tA
+! Checksum: lwKGY9DBGfjJeUftnA214g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108042002
-! Last Modified: 2021年08月04日 20:02
+! Version: 202108050201
+! Last Modified: 2021年08月05日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1444,6 +1444,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||91toon.com^$third-party
 ||xwintop.top^
 ||cycytea.cn^
 ||xtdzkj.cn^
@@ -9030,8 +9031,13 @@ _yad_jsonp_
 ||pan.baidu.com/act/api/activityentry?
 ||yun.baidu.com/act/api/activityentry?
 ||jsdelivr.net/gh/vip888vip/*960x80
+||9k9k.com/jscode/js/
 !------------------------Specific element hiding rules------------------------!
+hit180.com##.widget_ui_orbui:nth-child(-n+2)
+mp4er.com##div[onclick*="register"]
 szxx.com.cn###A0
+baidu.com##.recommend-goods-card
+dytt5.net##.fly-case-list
 tie.163.com###top-banner
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -35248,6 +35254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||privacyfriendly.netlify.app^
 ||privacypolicies.com/track/
 ||publish0x.com/www.google-analytics.com/analytics.js
+||pulsar.ebay.com^
 ||pulse.delta.com^
 ||pushsquare.com/blank.gif
 ||python.jacksellwood.com^
@@ -35628,7 +35635,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
-/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
@@ -35641,9 +35647,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
-||ebaystatic.com/rs/v/c1dlnarusayhflyyibse05hqqm2.js
-||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
-||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
+||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
 ||rottentomatoes.com/f-TJoC/
 ||rottentomatoes.com/hya7JT/
