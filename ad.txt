@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k8+nHcBW5Sapcqko0I0Amw
+! Checksum: gL2tv+/IRMXLnYOg4FcrSg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108051401
-! Last Modified: 2021年08月05日 14:01
+! Version: 202108052002
+! Last Modified: 2021年08月05日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1877,6 +1877,7 @@ _xiuno_com_ad/
 ##img[onclick*="/c7.net/"]
 ##img[onclick*="/statics/js/"]
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
+##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -9482,6 +9483,8 @@ _yad_jsonp_
 ||nanrenvip2021.com/old.html
 !------------------------Specific element hiding rules------------------------!
 bljiex.com###player_pause
+dytt5.net##BODY > DIV[style="overflow: hidden;"]:nth-child(3)
+dytt5.net##.detail-body > .fly-panel
 szxx.com.cn###A0
 daniao.org##.sponsor
 daniao.org##.tg-site
@@ -12130,7 +12133,6 @@ rrys2020.com##.float_middel_ad_bk
 pic.sogou.com##.floating
 107cine.com##.flow-other
 107cine.com##.flow_right > div[style="margin-top:20px;"]
-dytt5.net##.fly-case-list
 sojson.com##.fly-hezuo
 followme.cn##.fm-banner-social
 1fzw.com##.focus-bots
@@ -17061,6 +17063,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||jm166.cn^
+||9b0v.cn^
+||taobso.cn^
+||wangzhenzhi.cn^
+||luojianrong.cn^
 ||icefog.xyz^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
