@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MiH7Skgiq9NvFsLJfAnS1w
+! Checksum: xS47UuqXUUMWKUM+JFGD5g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108061401
-! Last Modified: 2021年08月06日 14:01
+! Version: 202108062002
+! Last Modified: 2021年08月06日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9039,8 +9039,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||3dmgame.com/tools/gamead?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.addvide300
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -23262,6 +23264,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event-log?
 /event-report?*&uid=
 /event-tracking.
+/event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
@@ -44927,6 +44930,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
 ||shemsfm.net/ar/setStats/

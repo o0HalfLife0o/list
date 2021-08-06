@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FvlNyrDyjcTBZsYiN3g2Rg
+! Checksum: DVIBrHEE6nrOMt3ngrpDhg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108061401
-! Last Modified: 2021年08月06日 14:01
+! Version: 202108062002
+! Last Modified: 2021年08月06日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22082,6 +22082,7 @@ _popunder+$popup
 ##.ads__header
 ##.ads__horizontal
 ##.ads__hyperleaderboard--hyperleaderboard
+##.ads__inline
 ##.ads__interstitial
 ##.ads__leaderboard--footer
 ##.ads__leaderboard--header
@@ -22092,6 +22093,9 @@ _popunder+$popup
 ##.ads__listing--small_center
 ##.ads__listing--small_left
 ##.ads__listing--small_right
+##.ads__midpage-fullwidth
+##.ads__native
+##.ads__right-rail-ad
 ##.ads__sidebar
 ##.ads__sidebar--home_column
 ##.ads__sidebar--sidebar_first
@@ -23726,6 +23730,7 @@ _popunder+$popup
 ##.article-google-adsense
 ##.article-grid__item--advert
 ##.article-header-ad
+##.article-header__railAd
 ##.article-inline-ad
 ##.article-mid-ad
 ##.article-news-videoad
@@ -32213,6 +32218,7 @@ _popunder+$popup
 ##.taboola-item
 ##.taboola-left-rail-wrapper
 ##.taboola-partnerlinks-ad
+##.taboola-placeholder
 ##.taboola-placement
 ##.taboola-single-asset-ads
 ##.taboola-unit
@@ -49586,6 +49592,7 @@ menstennisforums.com#@#.top_ads
 ||libedgolart.com^$popup
 ||lofv.xyz^$popup
 ||loltrk.com^$popup,third-party
+||lowtyroguer.com^$popup
 ||misspkl.com^$popup
 ||moradu.com^$popup
 ||mptentry.com^$popup
@@ -51692,8 +51699,8 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-/^https?:\/\/.*techpowerup\.com\/(?!.*images\/|img\/|gallery\/|review\/|forums\/).*/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|gallery\/|review\/|forums\/).*/$image,domain=techpowerup.com
+/^https?:\/\/.*techpowerup\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
@@ -56563,6 +56570,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pornhub.com/users/$xmlhttprequest
 @@||pornhub.com/video/$xmlhttprequest
 @@||pornhub.com/video_selector/$script,xmlhttprequest
+@@||pornhub.com/videocertify/paging$script,~third-party,xmlhttprequest
 @@||pornhub.com/videos/$media,other
 @@||pornhub.com/videouploading3/$xmlhttprequest
 @@||pornhub.com/www-static/flash/gate.swf$other
@@ -65629,8 +65637,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||3dmgame.com/tools/gamead?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.addvide300
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -77607,6 +77617,7 @@ fqsousou.com,kengso.com#@#.user-share
 /event-log?
 /event-report?*&uid=
 /event-tracking.
+/event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
@@ -99272,6 +99283,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
 ||shemsfm.net/ar/setStats/
