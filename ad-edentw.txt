@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VNPFM4pPHst4C3tEu1dvlw
+! Checksum: xt9OZ4VO8wXvIIG+dUQPVg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108062002
-! Last Modified: 2021年08月06日 20:02
+! Version: 202108070811
+! Last Modified: 2021年08月07日 08:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -129,6 +129,7 @@ shadbase.com##img[alt="adblock"]
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
+/wutime_adblock/*
 /SvgAdblockDetected/*
 _adblocker_detected
 _adblock_killer.
@@ -194,6 +195,7 @@ _adblock_killer.
 ###adbcontainer-popup
 ###adblock-alert
 ###adblock-box
+###adblock-honeypot
 ###adblock-modal
 ###adblock-msg
 ###adblock-notice
