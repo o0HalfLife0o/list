@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Izyv7uv0qA62ToBK2Vmxxg
+! Checksum: fuzikNF7hxrcQH6NqVOKCQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108081401
-! Last Modified: 2021年08月08日 14:01
+! Version: 202108082001
+! Last Modified: 2021年08月08日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51514,7 +51514,7 @@ menstennisforums.com#@#.top_ads
 ||tethered-realms.valorbuff.com^
 /^https?:\/\/.*techpowerup\.com\/(?!.*img\/|review\/|forums\/).*/$image,domain=techpowerup.com
 /^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
-||tpucdn.com/images/75willrunoutofdirssoon$image,domain=techpowerup.com
+||tpucdn.com/images/8ewillrunoutofdirssoon$image,domain=techpowerup.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
 ||jwplatform.com/libraries/tdeymorh.js
@@ -78922,6 +78922,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pageview.js
 /pageview;
 /pageview?client=
+/pageview?key=
 /pageview?pageId=
 /pageview?pageviewId
 /pageview?user_guid=
@@ -88435,6 +88436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.styria.hr^
 -logging.nextmedia.com^
 ||120.132.57.41/pjk/pag/ys.php
+||163.com/sn.gif?
 ||3.cn/cesu/r?
 ||360.cn/mapping_service?
 ||4gtv.tv/js/ga_
@@ -89727,7 +89729,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
 ||ted.dailymail.co.uk^
-||telegraph.co.uk/pageview?
 ||telemetry.api.playstation.com^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
@@ -99350,6 +99351,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||youku.com^*/click.php?
 ||yxdown.com/count.js
 ||zhihu-web-analytics.zhihu.com^
+||zhihu.com/zbst/events/
 ||zio.xcar.com.cn^
 ||zz.bdstatic.com^
 ||avaz.ba/update/hits/

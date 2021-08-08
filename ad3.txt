@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xcIbdOyRAzLFmjBGxYWgqQ
+! Checksum: o21z1Ne1RkD1Wu+64IH16g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108081401
-! Last Modified: 2021年08月08日 14:01
+! Version: 202108082001
+! Last Modified: 2021年08月08日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -24750,6 +24750,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageview.js
 /pageview;
 /pageview?client=
+/pageview?key=
 /pageview?pageId=
 /pageview?pageviewId
 /pageview?user_guid=
@@ -34263,6 +34264,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.styria.hr^
 -logging.nextmedia.com^
 ||120.132.57.41/pjk/pag/ys.php
+||163.com/sn.gif?
 ||3.cn/cesu/r?
 ||360.cn/mapping_service?
 ||4gtv.tv/js/ga_
@@ -35555,7 +35557,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||target.nejm.org^
 ||targeting.washpost.nile.works^
 ||ted.dailymail.co.uk^
-||telegraph.co.uk/pageview?
 ||telemetry.api.playstation.com^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
@@ -45178,6 +45179,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||youku.com^*/click.php?
 ||yxdown.com/count.js
 ||zhihu-web-analytics.zhihu.com^
+||zhihu.com/zbst/events/
 ||zio.xcar.com.cn^
 ||zz.bdstatic.com^
 ||avaz.ba/update/hits/
