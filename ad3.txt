@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mom6+ir7MZ0h1BmOKPzkQA
+! Checksum: oPbZgD9mEzFLkIEQr2agig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108101402
-! Last Modified: 2021年08月10日 14:02
+! Version: 202108110201
+! Last Modified: 2021年08月11日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1446,6 +1446,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ud831d4.com^
+/39mqfl/x-
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -32497,6 +32499,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||followistic.com/widget/stat/
 ||footballmedia.com/tracking/
 ||forms.aweber.com^*/displays.htm?id=
+||fotomoto.com/analytics/
 ||foureyes.io/fe-init.js
 ||fourmtagservices.appspot.com^
 ||foxcontent.com/tracking/
@@ -33225,6 +33228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
 ||refer.ccbill.com^
+||refer.wordpress.com^$third-party
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
 ||rejoiner.com/tracker/
@@ -45512,6 +45516,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||uai.com.br^*/analytics.js
 ||uol.com.br/stats?
 ||2ch.hk^*/tracker.js?
+||2gis.ru/_/log
+||2gis.ru/_/metrics
 ||3dnews.ru/track
 ||4pda.ru/stat/
 ||ad7.bigmir.net^
