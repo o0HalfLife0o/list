@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8AkTvIiZw7Xke5ncK/GpZw
+! Checksum: mom6+ir7MZ0h1BmOKPzkQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108100813
-! Last Modified: 2021年08月10日 08:13
+! Version: 202108101402
+! Last Modified: 2021年08月10日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16637,6 +16637,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||lv-xin.cn^
+||leyxue.cn^
+||h728.cn^
+||zdryg.com^
+||zwrj999.cn^
+||jhwt.shop^
+||rmipoz.com/dp.js
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -21855,6 +21862,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /__wsm.gif
 /_hcms/perf
 /_lib/ga.js
+/_log?ocid=
 /_owa.gif?
 /_sess/script.js
 /_stat/log/*
@@ -22627,6 +22635,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /bypassmajs|
 /bypasspiphp?
 /byside_webcare.
+/bz?*__comet_req=
 /c.gif?
 /c.php?r=
 /c.wrating.com/*
@@ -23206,7 +23215,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-
+/dynatrace-$domain=~dynatrace.com
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -24558,10 +24567,10 @@ weibo.com##.apps_PCD_reco_detail_right
 /newlog.php?
 /newrelic-google-
 /newrelic-gpt.
+/newrelic.browser.
 /newrelic.iframe.
 /newrelic.js
 /newrelic.min.js
-/newrelic/*
 /newrelicKpis-
 /newrelicKpisFooter-
 /newscount/*
@@ -24806,6 +24815,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pg_pixel?
 /pgtracking.
 /pgtrackingV3.
+/phenomtrack.
 /PhoenixGoogleAnalytics.
 /php-stats.js
 /php-stats.php?
@@ -26705,6 +26715,8 @@ weibo.com##.apps_PCD_reco_detail_right
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://segment-api.
+://segment-cdn.
 ://stats.*/index.js
 ://stats.*/script.js
 ://stats.*/stats.aspx
@@ -30616,6 +30628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tendertest.com^$third-party
 ||thirdrespect.com^$third-party
 ||thirstytwig.com^$third-party
+||thomastorch.com^
 ||ticklesign.com^$third-party
 ||toecircle.com^$third-party
 ||tranquilside.com^$third-party
@@ -31049,6 +31062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ipinyou.com^$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
+||jpush.cn^$third-party
 ||lndata.com^$third-party
 ||logly.co.jp^$third-party
 ||mediav.com^$third-party
@@ -32444,7 +32458,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com*/impression.php
 ||facebook.com/adnw_request?
 ||facebook.com/ai.php?
-||facebook.com/ajax/bz?*__comet_req=
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
@@ -32911,6 +32924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mozilla.org/page/*/open.gif$third-party
 ||mqs.ioam.de^
 ||mrf.io/statics/marfeel/chunks/metrics-
+||ms-trackingapi.phenompeople.com^
 ||msecnd.net/jscripts/HA-$script
 ||msecnd.net/next/$script
 ||msecnd.net/script/raptor-
@@ -33082,7 +33096,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
 ||pixel.safe-installation.com^
-||pixel.snapsmedia.io^
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
@@ -34377,6 +34390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toruk.tanx.com^
 ||tr.n2.hk^
 ||track.ra.icast.cn^
+||track.tomwx.net^
 ||tracking.cat898.com^
 ||union.360.cn/1899.js
 ||useg.nextdigital.com.hk^
@@ -35392,6 +35406,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||servedby.o2.co.uk^
 ||sexu.com/api/events
 ||sexu.com/api/ttrack
+||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||shopeemobile.com/ph/tr
 ||shopmetric.rediff.com^
@@ -44914,6 +44929,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ens.tagblatt.ch^
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
+||geoip.finanzen.net^
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||horizont.net/stats/
@@ -45009,6 +45025,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mosoah.com/analytics.js
 ||tags.aljazeera.net^
 ||tracking.alarabiya.net^
+||104.com.tw/log/
 ||17173.com/ping.js
 ||17173.com/pv?
 ||55bbs.com/east.html
@@ -45034,6 +45051,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
+||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eclick.baidu.com^
 ||event.csdn.net^
@@ -45044,6 +45062,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
 ||jcm.jd.com^$script,third-party
@@ -45099,15 +45118,18 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pvx.xcar.com.cn^
 ||qhimg.com/11.0.1.js$script
 ||qihucdn.com/11.0.1.js$script
+||qq.com/code.cgi?
 ||qq.com/kvcollect?
 ||qq.com/p?
 ||qq.com/qqcom/
+||qq.com/report.cgi?
+||qq.com/report/$image,xmlhttprequest
 ||qq.com/stdlog
 ||qreport.qunar.com^
+||qzone.qq.com/wspeed.qq.com^
 ||rcgi.video.qq.com^
 ||rec.udn.com^
 ||referer.pixplug.in^
-||report.qq.com^
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rgd.com.cn/counter/
@@ -45168,6 +45190,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||toutiao.com^*/user_log/
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
+||trace.qq.com^
 ||track.sohu.com^
 ||tracker.ai.xiaomi.com^
 ||trackjay.cool3c.com^
@@ -45182,6 +45205,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wenku.baidu.com/tongji/
 ||wkctj.baidu.com^
 ||wl.jd.com^
+||wspeed.qq.com^
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
 ||xiaomi.com/js/mstr.js?
