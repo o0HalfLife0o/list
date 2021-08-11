@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9qFhrVpe/m6BroVVhSM01Q
+! Checksum: tPc7oFVFoxpU5x7pdAbx8w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108110820
-! Last Modified: 2021年08月11日 08:20
+! Version: 202108111401
+! Last Modified: 2021年08月11日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7599,7 +7599,7 @@ tieba.baidu.com##.tuijian-wrap
 /wp-bannerize.
 /wp-bannerize/*
 /wp-banners.js
-/wp-banners/*
+/wp-banners/*$~image
 /wp-content/ads/*
 /wp-content/mbp-banner/*
 /wp-content/plugins/amazon-product-in-a-post-plugin/*
@@ -8635,7 +8635,7 @@ _prx/ba_$script
 /prebid_$script,third-party
 /prebid_v4.
 /prebidAdcall.
-/prebidjs/*$~image
+/prebidjs/*
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
@@ -50504,24 +50504,13 @@ menstennisforums.com#@#.top_ads
 ||sfm-offshore.com/images/banners/
 ||shareasale.com/image/$third-party
 ||shareflare.net/images/$third-party
-||shariahprogram.ca/banners/
-||sharingzone.net/images/banner$third-party
-||shawmediaauto.com/event/i/?size=$third-party
 ||shink.in/js/script.js$third-party
-||shop-top1000.com/images/
 ||shopbrazos.com/widgets/
-||shopilize.com^$third-party
 ||shorte.st/link-converter.min.js
 ||singlehop.com/affiliates/$third-party
 ||singlemuslim.com/affiliates/
-||sisters-magazine.com/iframebanners/$third-party
-||sitegiant.my/affiliate/$third-party
 ||siteground.com/img/affiliate/$third-party
 ||siteground.com/img/banners/$third-party
-||sitescout-video-cdn.edgesuite.net^
-||skydsl.eu/banner/$third-party
-||slickdeals.meritline.com^$third-party
-||slot.union.ucweb.com^
 ||slysoft.com/img/banner/$third-party
 ||smart.styria-digital.com^
 ||smartdestinations.com/ai/$third-party
@@ -50534,7 +50523,6 @@ menstennisforums.com#@#.top_ads
 ||splashpagemaker.com/images/$third-party
 ||sportsbetaffiliates.com.au^$third-party
 ||spot.im/yad/
-||sproutnova.com/serve.php$third-party
 ||squarespace.evyy.net^
 ||squirrels.getsquirrel.co^$third-party
 ||srv.dynamicyield.com^$third-party
@@ -50543,109 +50531,57 @@ menstennisforums.com#@#.top_ads
 ||ssl-images-amazon.com/images/*/MAsf-
 ||stargames.com/bridge.asp?$third-party
 ||static.tradetracker.net^$third-party
-||streaming.rtbiddingplatform.com^
-||supply.upjers.com^$third-party
-||supplyframe.com/partner/
+||supply.upjers.com^
 ||surf100sites.com/images/banner_
 ||survey.g.doubleclick.net^
 ||surveymonkey.com/jspop.aspx?$third-party
-||surveywriter.net^$script,third-party
-||swarmjam.com^$script,third-party
 ||sweetwater.com/feature/$third-party
 ||sweeva.com/images/banner250.gif
 ||syndicate.payloadz.com^$third-party
 ||syndication.jsadapi.com^
 ||taboola.com/vpaid/$third-party
 ||taboola.com^$domain=independent.co.uk|technobuffalo.com
-||tag.regieci.com^$third-party
+||tag.regieci.com^
 ||tags.sprizzy.com^
 ||tags2.adshell.net^$subdocument
-||tap.more-results.net^
 ||targeting.vdo.ai^
 ||tcadserver.rain-digital.ca^
-||tcmwebcorp.com/dtm/tc_global_dtm_delivery.js
 ||tech426.com/pub/
 ||techkeels.com/creatives/
 ||tedswoodworking.com/images/banners/
 ||textlinks.com/images/banners/
-||thatfreething.com/images/banners/
-||thebigchair.com.au^$subdocument,third-party
 ||thebloggernetwork.com/demandfusion.js
 ||thefreesite.com/nov99bannov.gif
 ||themify.me/banners/$third-party
-||themis-media.com^*/sponsorships/
 ||thereadystore.com/affiliate/
-||theseblogs.com/visitScript/
-||theseforums.com/visitScript/
-||theselfdefenseco.com/?affid=$third-party
 ||ti.tradetracker.net^
 ||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
-||timesinternet.in/ad/
-||tmbattle.com/images/promo_
 ||toksnn.com/ads/
 ||top5result.com/promo/
 ||topmedia.com/external/
-||topservers200.com/img/banners/
-||torguard.net/images/aff/
 ||torrindex.net/images/epv/
-||toysrus.com/graphics/promo/
-||traceybell.co.uk^$subdocument,third-party
 ||track.bcvcmedia.com^
 ||track.effiliation.com^$third-party
-||tradeboss.com/1/banners/
-||travel-assets.com/ads/
 ||travel.mediaalpha.com/js/serve.js$third-party
-||travelmail.traveltek.net^$third-party
-||treatme.co.nz/Affiliates/
 ||tremorhub.com/pubsync?
 ||trialfunder.com/banner/
-||trivago.co.uk/uk/srv/$third-party
 ||trvl-px.com/trvl-px/$third-party
-||tshirthell.com/img/affiliate_section/$third-party
-||ttgtmedia.com/Marketing/
-||ttt.co.uk/TMConverter/$third-party
-||turbobit.net/ref/$third-party
-||turbobit.net/refers/$third-party
-||turbotrafficsystem.com^*/banners/
 ||twinplan.com^
-||ubuntudeal.co.za^$subdocument,third-party
-||ukcast.tv/adds/
-||ultimedia.com/api/widget/$xmlhttprequest
-||unsereuni.at/resources/img/$third-party
-||upload2.com/upload2.html
 ||uploaded.net/img/public/$third-party
-||upsales.com^*/visit/v.js
-||urtig.net/scripts/js3caf.js
-||usfine.com/images/sty_img/usfine.gif
-||ussearch.com/preview/banner/
 ||utility.rogersmedia.com^
 ||va.sndcdn.com/audio/*.mp3
 ||valuechecker.co.uk/banners/$third-party
 ||vast.spotim.market^
 ||vast.videe.tv/vast-proxy/
-||vdownloader.com/pages/$subdocument,third-party
-||viagogo.co.uk/feeds/widget.ashx?
 ||vice-publishers-cdn.vice.com^
 ||vid.connatix.com^*/720_h264.mp4$media
 ||video-ads.a2z.com^
 ||vidible.tv/placement/vast/
 ||vidible.tv/prod/tags/
-||vidyoda.com/fambaa/chnls/ADSgmts.ashx?
-||vipfile.cc/images/$third-party
 ||viralize.tv/t-bid-opportunity/
 ||viralize.tv/vast/
 ||virool.com/widgets/$third-party
-||virtuagirl.com/ref.php?
-||virtuaguyhd.com/ref.php?
-||visitorboost.com/images/$third-party
-||vitabase.com/images/relationships/$third-party
-||vittgam.net/images/b/
-||vivads.net/banners/
-||vodp-e-streamingmagentamusic360.tls1.yospace.com^$third-party
-||vpnaffiliates.hidester.com^$third-party
-||vpnarea.com/affiliate/
-||vpntunnel.se/aff/$third-party
 ||vultr.com/media/banner
 ||vuukle.com/ads/
 ||warrantydirect.co.uk/widgets/
@@ -51875,6 +51811,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||bigcock.one/worker.js
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
 ||bit.ly^$script,domain=hayjav.com
+||blasensex.com/extras/
 ||boysfood.com/d5.html
 ||bravoteens.com/ta/
 ||bravotube.net/cc/
@@ -51882,6 +51819,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||bravotube.net^*/clickback.
 ||broncs.net/pub/pop_min.js
 ||bunnylust.com/sponsors/
+||buonaporno.com/extras/
 ||cambro.tv/popin-min.js
 ||camclips.cc/api/$image,script
 ||camclips.cc/npJDy
@@ -51953,6 +51891,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||jav.work/p.js
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
+||madchensex.com/extras/
 ||madmen.alastonsuomi.com^
 ||mansurfer.com/flash_promo/
 ||matureworld.ws/images/banners/
@@ -51966,6 +51905,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||mypornstarblogs.com/ads/
 ||mysexgames.com/pix/best-sex-games/
 ||mysexgames.com/plop.js
+||nackte.com/extras/
 ||niceyoungteens.com/ero-advertising
 ||nsfwalbum.com/efds435m432.js
 ||nudography.com/photos/banners/
@@ -73138,6 +73078,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||greenadoption.cn^
+||tryost.cn^
+||ruiy.shop^
+||kfweo2.com^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
