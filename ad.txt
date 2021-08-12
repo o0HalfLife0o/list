@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lHtmjhF71ipS9UUrqCIARQ
+! Checksum: mBI5Ze6SpVcK3qDbBZcaIQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108121402
-! Last Modified: 2021年08月12日 14:02
+! Version: 202108130201
+! Last Modified: 2021年08月13日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9501,6 +9501,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||igao17.com/need/h5.js
 ||molimao.top/jm/upload/vod/20210703-1/6602026046a3115288f5e131d17cb376.gif
+||guang1.zhakao.cn^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -15354,7 +15355,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|pcbeta.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -20763,6 +20764,7 @@ _box_ad_
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
 ||olevod.com/template/conch/asset/js/hlhtml.js
 ||iqiyi.com/js/common/mars_v.js
+||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.experience-card-bar-wrap
 ifeng.com###qrCode

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VxyI7i+8FOGINaNcBd4yDw
+! Checksum: vd878vNfqqZf0ki+13DXig
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202108122002
-! Last Modified: 2021年08月12日 20:02
+! Version: 202108130201
+! Last Modified: 2021年08月13日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -65297,6 +65297,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||igao17.com/need/h5.js
 ||molimao.top/jm/upload/vod/20210703-1/6602026046a3115288f5e131d17cb376.gif
+||guang1.zhakao.cn^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -71150,7 +71151,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 @@||countrygarden.com.cn/ad/
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|pcbeta.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
@@ -100996,6 +100997,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
 ||olevod.com/template/conch/asset/js/hlhtml.js
 ||iqiyi.com/js/common/mars_v.js
+||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.experience-card-bar-wrap
 ifeng.com###qrCode
