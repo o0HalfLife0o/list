@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oebX9mvYH+RCjPad0rMpAw
+! Checksum: An40otPhPSNmOG8Yotwm8Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108131401
-! Last Modified: 2021年08月13日 14:01
+! Version: 202108140201
+! Last Modified: 2021年08月14日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1446,6 +1446,9 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||fensifuligo.com^
+||gaomingbo.com^
+||qixedu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -7846,7 +7849,6 @@ _yad_jsonp_
 ||rsdown.cn/static/t/
 ||rtbs.cn/bi.js
 ||ruanyifeng.com/9he/
-||ruanyifeng.com/blog/checker.js
 ||rugao35.com/Public/config/Couplet/Index
 ||ruguoapp.com^$domain=aixiaoju.com
 ||ruian.com/img/2016/a1-6-1.gif
@@ -9055,8 +9057,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||serengeseba.com/static/view.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com###yxj_fmt_gg
+serengeseba.com##.content > LI > A[href^="http"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13753,7 +13758,7 @@ netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
 fun1shot.com##a[href^="https://kenio.cn/"]
 linux.cn##a[href^="https://linux.cn/go/"]
-423down.com##a[href^="https://mp.weixin.qq.com/"]
+423down.com##.content > .entry + H3
 github.com##a[href^="https://openwrite.cn/"]
 xblian.com##a[href^="https://page.pe/"]
 cjjjs.com,cnblogs.com,fastadmin.net##a[href^="https://promotion.aliyun.com/"]
@@ -16642,6 +16647,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||chinazhaoye.com^
+||zhihuizeyuan.com^
+||xddfsp.com^
+||9e0u.cn^
+||iynmloa.cn^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
@@ -26854,6 +26864,7 @@ cgi-bin/counter
 .app.returnpath.net/
 .awstrack.me/$image
 .backblaze.com/e2t/$image
+.bahn.de/op/$image
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .cmail19.com/t/$image
@@ -45564,7 +45575,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||drom.ru/dummy.
 ||fb.ru/stat/
 ||fotostrana.ru/start/
-||hh.ru/analytics
+||hh.ru/analytics^
 ||hh.ru/stat?
 ||irecommend.ru/collect/
 ||jetvis.ru/stat/
@@ -45813,11 +45824,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
+@@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||glenat.com^*/static/analytics.js$script,~third-party
 @@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
+@@||googletagmanager.com/gtm.js$domain=ads.spotify.com
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
