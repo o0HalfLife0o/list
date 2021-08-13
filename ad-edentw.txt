@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X6RQMRkGq90ir6tMSDqUjg
+! Checksum: te/wUybYGzW4zhk2cZ1t8w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108130201
-! Last Modified: 2021年08月13日 02:01
+! Version: 202108132002
+! Last Modified: 2021年08月13日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1451,7 +1451,8 @@ clicknupload.co#$#abort-on-property-read _qwprvw;
 revivelink.com#$#abort-on-property-read btoa;
 youdbox.com#$#abort-on-property-read encodeURIComponent
 nosteam.ro#$#abort-on-property-write jsPop21
-ww2.manganelo.tv#$#abort-on-property-read document.createElement _qtyitfcq
+manganelo.tv#$#abort-on-property-read document.createElement
+1piecemanga.com#$#abort-on-property-read document.createElement
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw#$#abort-on-property-write Fingerprint2
