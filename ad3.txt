@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2oCwPzfGDvKkTBRD5YBkzw
+! Checksum: 5FPsO3RXi5uIrUOx1ZVN4g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108141402
-! Last Modified: 2021年08月14日 14:02
+! Version: 202108142001
+! Last Modified: 2021年08月14日 20:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9059,10 +9059,10 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||dybz44.com/js/html
-||lkong.com/graphql
 ||jlc001.com/static/js/_pc.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+lkong.com##.lkong-ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16651,6 +16651,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0biquge.com|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.com|52biquge.com|5ccc.tw|777zw.la|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|faquge.com|fbxsw.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|huixsw.com|hybiquge.com|ibswtan.com|iddwx.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|sobiquge.com|soxscc.com|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||horselvxing.cn^
 ||canalandco.com^
 ||hicpic.net.cn^
 ||kefan.info^
@@ -22927,8 +22928,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /collect/stats?
 /collect/tracking.
 /collect/view?
-/collect?*&cid=
-/collect?*&tid=
 /collect?appName
 /collect?callback=
 /collect?d=
@@ -22944,7 +22943,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /collect_v3.
 /collection.php?data=
 /collector.php?
-/collector/*/*?*&euidl=*&url=
 /collector/beacon
 /collector/hit?
 /collector/pageview
@@ -23026,7 +23024,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /count.png?
 /count/?ad=
 /count/count.cgi?
-/count?*&url=
 /count?pid=
 /count?type=
 /count_DB/*
@@ -23206,7 +23203,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /dmp/pixel.js
 /dmpcollector.js
 /dmpmetrics.
-/dmtk.*_tag=
 /dmtracking2.
 /DNATracking.
 /dni_reporting.js
@@ -23219,7 +23215,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /dot.asp?
 /dot.gif?
 /dotmetrics.min.
-/dotn?*&pg=http
 /Dotomi.
 /dotomi_abandon.
 /dotomi_tracking/*
@@ -23331,9 +23326,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ent_counter?
 /entry_stats?
 /envoy.sb?sbaid
-/epf_v1_95.js
 /epvplytics.
-/error/*.gif?msg=
 /error/js/log?
 /est.pl?
 /estat.$domain=~estat.ly|~estat.stat.ee
@@ -23346,17 +23339,15 @@ weibo.com##.apps_PCD_reco_detail_right
 /etracker/*
 /etrackercode.
 /eu-survey.js
-/ev/co/*?eventid=
 /eva-analytics.
 /event-log/*
 /event-log?
-/event-report?*&uid=
+/event-report?
 /event-tracking.
 /event-tracking/*
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/*/*?*&euidl=*&url=
 /event/?ra=
 /event/beacon|
 /event/fingerprint
@@ -23375,8 +23366,8 @@ weibo.com##.apps_PCD_reco_detail_right
 /event?client=$websocket
 /event?eventType=
 /event?pmo=
+/event?ref=
 /event?stat_
-/event?t=*&__seed=
 /event?t=view&
 /event?token=
 /event?tub_id=
@@ -23385,14 +23376,11 @@ weibo.com##.apps_PCD_reco_detail_right
 /event_tracker?_
 /eventcnt.php?
 /EventhubStats.js
-/eventing/v1/*/current|
-/eventing/v1/*/session|
 /EventLog.axd?
 /eventlog.js
 /eventLogServlet?
 /events-collector.
 /events.gif?
-/events/*?event=
 /events/analytics/*
 /events/capture?
 /events/counter?
@@ -23401,8 +23389,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
-/events?*&referrer=
-/events?_trigger=
 /events?data=
 /events?rpId=
 /eventsBeacon?
@@ -23539,7 +23525,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /g2insights.
 /g=analytics&
 /g_track.php?
-/ga*.js?PID=
 /ga-affiliates.
 /ga-async-
 /ga-audiences?
@@ -23574,7 +23559,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /ga.php?$image
 /GA.swf?gaId=
 /ga.swf?gid=
-/ga/*.gif?
 /ga/trackevent.
 /ga/yap.js
 /ga1.js
@@ -23691,11 +23675,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /get-tracking-data
 /get?affid=$script
 /get_browser_info.
-/get_cdns?$third-party,xmlhttprequest
 /get_geoip?
-/get_site_data?*&cookie=
-/get_site_data?*&href=
-/get_statistics.php?screen_width=
 /get_tracking_id?
 /get_tracking_url.
 /getbglog.js
@@ -23706,7 +23686,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /getIbleStats?
 /getlog.gif?
 /getnortonsealimaget.js
-/getPixels?*&referer=
 /getPixelSso
 /getRemoteDomainCookies?
 /getsidpixeltag?sid=
@@ -23734,8 +23713,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /gn_analytics.
 /gn_tracking.
 /goAnalytics.
-/gomez.js
-/gomez/*$script
 /GomezTracking.
 /google-analyticator/*
 /google-analytics-$~image
@@ -23768,11 +23745,9 @@ weibo.com##.apps_PCD_reco_detail_right
 /GoogleAnalyticActionLib.
 /googleanalytics-
 /googleanalytics.js
-/GoogleAnalytics.swf
 /googleanalytics/*
 /googleAnalytics1.
 /googleAnalytics2.
-/GoogleAnalytics2|
 /GoogleAnalytics?utmac=
 /googleAnalytics_
 /googleAnalyticsBase_
@@ -23780,14 +23755,12 @@ weibo.com##.apps_PCD_reco_detail_right
 /googleAnalyticsBottom.
 /googleAnalyticsDataLayer.
 /googleanalyticsevents?
-/googleanalyticsmanagement.swf
 /GoogleAnalyticsModule.
 /googleAnalyticsOutgoingLinks.
 /GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
 /googleAnalyticsTracking.
 /GoogleAnalyticsTrackingProvider.js
-/GoogleAnalytics|
 /googleanalyze1.
 /googleanalyze2.
 /googleasynctrack.
@@ -23893,8 +23866,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /honeybadger.min.js$third-party
 /horizon-pageview?
 /horizon-track.
-/horizon.*/track?
-/horizon.*/watch?
 /horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
@@ -23912,8 +23883,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /i2a.js
 /i2yesCounter.js
 /i?_SB_stm=
-/i?e=*&page=*&cookie=
-/i?redir=*&page=*&cookie=
 /i?siteid=
 /i?stm=
 /ibeat.min.js
@@ -23993,7 +23962,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /impressions?
 /ImpressionsEvent.js
 /impressionTrackerV2.
-/in.cgi?*http
 /in.getclicky.com/*
 /in.gif?url=
 /in.php?*&referer=
@@ -24006,7 +23974,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /includes/tracking_
 /increment_page_counter.
 /incrementVisits_get?
-/index.php?_m=livesupport*&referrer=
 /index.track?
 /indextools.js
 /indraeventsapi.
@@ -24069,13 +24036,11 @@ weibo.com##.apps_PCD_reco_detail_right
 /ivw_analytics_
 /IVWAnalytics.
 /ivwbox/*
-/IVWTracker.swf
 /iwa.js
 /iwstat.js
 /j.gif?
 /javascript/Analytics.
 /javascript/analytics/*
-/javascript/ci/*landing.js$script
 /Javascript/ga.js
 /JavaScriptErrorCollector?
 /javascripts/ga.js
@@ -24184,8 +24149,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /krux-sass-helper.
 /krux.js
 /ktag/*
-/ktrace/ktrace$script
-/l1v.ly/*$third-party
 /landings-pixel?
 /LastClick/js?
 /layer_log.php?p=
@@ -24204,7 +24167,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /lib/ga.js
 /lib/snowplow-
 /lib/tracking/*
-/library/svy/*/broker.js
 /library/svy/broker.js
 /library_analytics.
 /librato-collector.
@@ -24278,7 +24240,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /log/ux_analytics^
 /log/web?
 /log2.php?
-/Log?*&adID=
 /Log?act=$image
 /log?action=
 /log?count=
@@ -24314,7 +24275,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /logactions.gif?
 /logadhit.
 /logAdv.
-/logAdvertisements|
 /logaholictracker.
 /logAjaxErr_
 /LogAnalysisTracker/*
@@ -24338,7 +24298,6 @@ weibo.com##.apps_PCD_reco_detail_right
 /logger.pageperf?
 /logger.performance?
 /logger.screensize?
-/logger/*&referer=
 /logger/?et=
 /logger/?referer=
 /logger?d=
@@ -26535,6 +26494,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wdg_tracking-
 /web-analytics.
 /web-api/log/*
+/web-vitals.
 /web-vitals/*
 /web.gif?*&referral_
 /web/analytics.$script
@@ -27203,6 +27163,7 @@ _mongo_stats/
 ||altopd.com^
 ||apxl.io^
 ||auriro.net^
+||azury.gg^
 ||bydst.com^
 ||cloudwp.io^
 ||cxt.ms^
@@ -27259,6 +27220,7 @@ _mongo_stats/
 ||r42tag.com^
 ||sbgsodufuosmmvsdf.info^
 ||site24x7rum.eu^
+||sjpf.io^
 ||tatpek.com^
 ||trackclicks.info^
 ||truffle.bid^
@@ -27776,6 +27738,7 @@ _mongo_stats/
 ||clickzs.com^$third-party
 ||clickzzs.nl^$third-party
 ||clientgear.com^$third-party
+||clipcentric.com^$third-party
 ||clixcount.com^$third-party
 ||clixgalore.com^$third-party
 ||clixpy.com^$third-party
@@ -35278,6 +35241,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kloth.net/images/pixel.gif
 ||kohls.com/mtFndb/
 ||kohls.com/test_rum_nv?
+||kompass.com/logAdvertisements
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -35591,6 +35555,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srtb.msn.com^
 ||ssc.api.bbc.com^
 ||stan.xing.com^
+||starfiles.co/analytics.php
 ||stat.pubhtml5.com^
 ||stat.tildacdn.com^
 ||stat.vulkanvegas.com^
