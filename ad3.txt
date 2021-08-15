@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +wz69Tb298HpVpqr91vwkA
+! Checksum: o96TkQV1ugv5BkHaGbJk3A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108151401
-! Last Modified: 2021年08月15日 14:01
+! Version: 202108152002
+! Last Modified: 2021年08月15日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23296,6 +23296,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /efxanalytics.js
 /ehcorp.tracking.
 /eheat.js
+/eht.js?site_id=
 /electrode/api/logger
 /elex.track.
 /eloqua.
@@ -33502,6 +33503,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tcheck.outbrainimg.com^
 ||te.supportfreecontent.com^
 ||technorati.com/technoratimedia-pixel.js
+||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
 ||telemetrics.klaviyo.com^
 ||telemetry.reembed.com^
@@ -34332,6 +34334,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitemaji.com/nownews.php?
 ||sobeycloud.com/Services/Stat.
 ||sohu.com/pvpb.gif?
+||sohu.com/stat/
 ||stargame.com/g.js
 ||stat.ws.126.net^
 ||statics.itc.cn^*/spm.js$script,domain=sohu.com
