@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SDYZwUPWog0Ckud73wwr4A
+! Checksum: otzNhadNvRM5sQyD+vGeOw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202108162007
-! Last Modified: 2021年08月16日 20:07
+! Version: 202108170201
+! Last Modified: 2021年08月17日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3325,7 +3325,6 @@ ubmcmm.baidustatic.com
 ||leturich.org^$third-party
 ||lezai.com^$third-party
 ||leztc.com^
-||lflable.com^
 ||lflili.com^
 ||lflucky.com^
 ||lhafy.com^
@@ -15098,6 +15097,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||cocomanhua.com/js/ad_/pic.png
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -19421,7 +19421,7 @@ ahzww.net##script + div[style]
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 !#onemanhua.com
 @@.com/js/*.js$domain=cocomanhua.com
-@@||cocomanhua.com^$generichide
+cocomanhua.com#@#.gg430
 ||cocomanhua.com/sw.js
 !#playno1.club
 @@||exosrv.com/ads-iframe-display.php$domain=getrelax.cc|sexylove.club
