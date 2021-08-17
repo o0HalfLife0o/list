@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VMWduHH6nmckE/RCYxFgxw
+! Checksum: /PPNMbvwHC6mA36XObS6GA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108170201
-! Last Modified: 2021年08月17日 02:01
+! Version: 202108172002
+! Last Modified: 2021年08月17日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1453,6 +1453,7 @@ youdbox.com#$#abort-on-property-read encodeURIComponent
 nosteam.ro#$#abort-on-property-write jsPop21
 manganelo.tv#$#abort-on-property-read document.createElement
 1piecemanga.com#$#abort-on-property-read document.createElement
+manga18fx.com#$#abort-on-property-read document.getElementsByTagName
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw#$#abort-on-property-write Fingerprint2
