@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zvXdU7paydhNbGcTDd5wcw
+! Checksum: xCeNKuXcsCZXIceMSzcr9g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202108192002
-! Last Modified: 2021年08月19日 20:02
+! Version: 202108200201
+! Last Modified: 2021年08月20日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8482,6 +8482,7 @@ _800x80_
 /afu.php?$popup
 /click.track?$popup
 /click?adv=$popup
+/links/popad$popup
 /open?shu=$popup
 /out?zoneId=$popup
 /pop-imp/*$popup
@@ -25646,6 +25647,7 @@ _800x80_
 ##.home-area3-adv-text
 ##.home-body-ads
 ##.home-features-ad
+##.home-module--advertisement
 ##.home-module_ad
 ##.home-sidebar-ad
 ##.home-sidebar-ad-300
@@ -28564,6 +28566,7 @@ _800x80_
 ##.singleAd
 ##.singleAdBox
 ##.singleAdsContainer
+##.singlePostAd
 ##.single_ad
 ##.single_ad_300x250
 ##.single_advert
@@ -36116,6 +36119,7 @@ menstennisforums.com#@#.top_ads
 ||ewedpinp.fun^
 ||ewetwitter.com^
 ||ewithjam.club^
+||ewomento.space^
 ||ewooe6df.com^
 ||ewrerew29w09.com^
 ||ewruuqe5p8ca.com^
@@ -41205,6 +41209,7 @@ menstennisforums.com#@#.top_ads
 ||rmedessents.club^
 ||rmlehtrdzfyonb.com^
 ||rmqygg2zv24y.com^
+||rnalismmin.biz^
 ||rndmusharnar.com^
 ||rndrx0rqwkb8.com^
 ||rndskittytor.com^
@@ -56545,6 +56550,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||cjgcedu.com^
+||liuwangmin.top^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -66490,7 +66496,8 @@ ygdy8.cc##.container > a[href^="/"]
 rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
-423down.com##.content > .entry + h3
+423down.com##.content > .entry + FONT[size]
+423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
@@ -88040,6 +88047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||justanswer.com/browsercheck/
 ||kayak.com/k/redirect/tracking?
 ||kayak.com/s/run/perf
+||kck.st/web/track
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
 ||kohls.com/mtFndb/
