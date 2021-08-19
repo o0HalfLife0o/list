@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j4PC/VKBZwF4Ig6eBQ3ykA
+! Checksum: Who3O4s2hFekEec1xmL+bQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108190810
-! Last Modified: 2021年08月19日 08:10
+! Version: 202108191401
+! Last Modified: 2021年08月19日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9052,6 +9052,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||webkaka.com/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 theporn.cc##div > div[align="center"]
@@ -23355,6 +23356,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event/pageviewgeodevice/*
 /event/rumdata?
 /event/track?
+/event/tracking
 /event/v3?
 /event/visit?
 /event?&event=
@@ -35182,6 +35184,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isharemetric.rediff.com^
 ||itweb.co.za/analytics/
 ||javhd.com/ascripts/gcu.js
+||jiji.co.ke/tag_event
 ||jumbo.zomato.com^
 ||juno.com/start/javascript.do?message=
 ||justanswer.com/browsercheck/
@@ -35255,7 +35258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msn.com/OneCollector/
 ||my.com/v1/hit/
 ||myanimelist.net/static/logging.html
-||mybbc-analytics.files.bbci.co.uk^
+||mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-
 ||myspace.com/beacon/
 ||n26-trusted.n26.com^
 ||namethatporn.com/assets/imgs/1x1.gif
@@ -45291,7 +45294,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fanpage.it/views/
 ||freeonline.org/sito_track?
 ||gazzetta.it^*/stats.php?
-||ilsole24ore.com/static/js/track.js?
 ||insights.cdt.ch^
 ||joka.it/inquiero/isapi/csf.dll?
 ||la7.it/js-live/nielsen1.js
@@ -45761,6 +45763,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
