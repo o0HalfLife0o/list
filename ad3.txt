@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iFDVSolUOEGkpSeWnVE4Iw
+! Checksum: 7LNjHmUDZNt636pQlgFd6w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108221401
-! Last Modified: 2021年08月22日 14:01
+! Version: 202108222002
+! Last Modified: 2021年08月22日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -34038,6 +34038,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sealserver.trustwave.com^$third-party
 ||secure.trust-guard.com^$third-party
 ||securitymetrics.com^$third-party
+||shield.sitelock.com^$third-party
 ||shopperapproved.com^$third-party
 ||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^$third-party
@@ -34699,6 +34700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trrsf.com.br/metrics/
 ||webstats.sapo.pt^
 ||xl.pt/api/stats.ashx?
+||enginey.altex.ro/events/
 ||onnetwork.tv/cnt/
 ||profiling.avandor.com^
 ||t5.ro/static/$third-party
@@ -35187,6 +35189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groupondata.com/tracky
 ||gsght.com/twizards.js
 ||gurgle.pcmag.com^
+||hanaana.socialblade.com^
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
 ||healthline.com/api/metrics
@@ -35781,6 +35784,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
+techxplore.com##.embed-responsive-trendmd
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
