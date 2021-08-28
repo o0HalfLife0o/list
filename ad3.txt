@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JgLsFSxPGZkpfGWegVi4Qg
+! Checksum: 5Lr02u6k6j2QOkGeP2h+ng
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202108282002
-! Last Modified: 2021年08月28日 20:02
+! Version: 202108290201
+! Last Modified: 2021年08月29日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9113,6 +9113,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bttzyw68.com/Runtime/js/psData.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16692,6 +16693,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||dj930.cn^
+||huojub.com^
 ||gouwupianyi.cn^
 ||wwzw.cc/img/
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
@@ -32029,6 +32031,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.yesware.com/t/$third-party
 ||appdynamics.com/geo/$third-party
 ||appinthestore.com/click/
+||apple.com/hvr/mw/v1/spile
+||apple.com/mw/v1/reportAnalytics
 ||apple.www.letv.com^
 ||appliedsemantics.com/images/x.gif
 ||appmifile.com^*/stat/
