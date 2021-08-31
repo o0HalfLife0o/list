@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /wgV+PFT1psWe6ZJ9d7wdg
+! Checksum: 2hQV98YSO838wd81txUidQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202108272002
-! Last Modified: 2021年08月27日 20:02
+! Version: 202108312003
+! Last Modified: 2021年08月31日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -542,6 +542,7 @@ blackdesert-info.ru##div[class][style*="z-index"][style*="999999;"][style*="back
 freerutor.com,imgrutor.com,playtor.tv##div[class^="adblock-warning"]
 game2day.ru##div[class^="adblock_"]
 lostfilm.tv##div[class^="alarm"]
+rutab.net##div[class^="ggmodale"]
 gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 finfront.ru##div[class^="swal2"]
 tsn.ua##div[data-picture-placeholder*="/placeholders/premium-"]
@@ -1815,6 +1816,12 @@ boerse-online.de#@#.social_wrapper
 @@||taboola.com/computerbild/*/json?$domain=computerbild.de
 @@||taboola.com/libtrc/$domain=bz-berlin.de|computerbild.de
 @@||taboola.com/bzde/trc/3/json?$domain=bz-berlin.de
+! FDA-2424
+@@||cookielaw.org^$domain=politico.com
+politico.com#@##onetrust-consent-sdk
+politico.com#@##onetrust-banner-sdk
+politico.com#@#.grecaptcha-badge
+politico.com#@#.social-tools
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
