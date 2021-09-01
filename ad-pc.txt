@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DDilRN2dIb8n3nUz1kMAVw
+! Checksum: DZhIbNzY755g5aQ9TwL4kw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109010201
-! Last Modified: 2021年09月01日 02:01
+! Version: 202109010813
+! Last Modified: 2021年09月01日 08:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13736,6 +13736,7 @@ _800x80_
 ###dfp-article-mpu
 ###dfp-article-related-mpu
 ###dfp-atf
+###dfp-banner
 ###dfp-billboard1
 ###dfp-btf
 ###dfp-footer-desktop
@@ -26620,6 +26621,7 @@ _800x80_
 ##.mailAdElem
 ##.mailad
 ##.main-ad
+##.main-ad-728x90-container
 ##.main-ad-container
 ##.main-add-sec
 ##.main-ads
@@ -27738,6 +27740,7 @@ _800x80_
 ##.profile_ad_bottom
 ##.profile_ad_top
 ##.proftopad
+##.programmatic-ad
 ##.promo-ad
 ##.promo-box--ad
 ##.promo-box--leaderboard-ad
@@ -40585,6 +40588,7 @@ tf2r.com#@#.adverts
 ||qn-5.com^
 ||qngqlrxscxlvh.com^
 ||qnsr.com^
+||qocvicklgcgr.com^
 ||qogbgxne.com^
 ||qoredi.com^
 ||qozveo.com^
@@ -42006,6 +42010,7 @@ tf2r.com#@#.adverts
 ||sxcwycsbhte.com^
 ||syjuyyfi.xyz^
 ||sylewhywhe.com^
+||sylotepu.xyz^
 ||symphoneupcom.site^
 ||syncwowsails.com^
 ||synsads.com^
@@ -46421,6 +46426,7 @@ tf2r.com#@#.adverts
 ||theloungenet.com^$third-party
 ||themoneytizer.com^$third-party
 ||thenlathettors.pro^$third-party
+||thepopads.com^$third-party
 ||therubiqube.com^$third-party
 ||theverlalinglac.info^$third-party
 ||thewebgemnetwork.com^$third-party
@@ -87641,6 +87647,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lolwot.com/B5xaqzSGvMTM.js
 ||ma.redhat.com^
 ||mailing.enews.extremetech.com^$image
+||mapquest.com/logger
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
 ||mcloud.to/log/
