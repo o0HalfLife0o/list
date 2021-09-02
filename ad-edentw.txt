@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o4cTk42nSKivwx659pMAbg
+! Checksum: Q5Ak6Eq72uwHv4uMZLEKxg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109022002
-! Last Modified: 2021年09月02日 20:02
+! Version: 202109030201
+! Last Modified: 2021年09月03日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1265,6 +1265,8 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
 facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی"]/ancestor::div[@data-pagelet[starts-with(normalize-space(),"FeedUnit_")]]'
+facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@role="link"]/span[@aria-labelledby]/ancestor::div[8][not(@id)][starts-with(@class,"_")]'
+facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی"]/ancestor::div[9][@class][not(@id)]'
 facebook.com#$#hide-if-labelled-by /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ a>span [data-pagelet^="FeedUnit_"]
 facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][target="_blank"][tabindex="0"]
 ! #CV-241
