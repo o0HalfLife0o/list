@@ -132,7 +132,7 @@ jobs:
           git remote set-url --add origin "https://${{ secrets.GITEE_ACCOUNT }}:${{ secrets.GITEE_PASSWORD }}@gitee.com/${{ secrets.GITEE_NAME }}/list.git"
           git remote set-url --add origin "https://${{ secrets.CODING_ACCOUNT }}:${{ secrets.CODING_PASSWORD }}@e.coding.net/${{ secrets.CODING_NAME }}/list.git"
           git fetch --unshallow origin
-          git push -u origin master
+          git push -f -u origin master
 
       - name: Purge jsdelivr cache
         if: steps.diffResult.outputs.status == 'success'
@@ -145,7 +145,7 @@ jobs:
           fi
           
       - name: Git push assets to gitee & coding
-        if: steps.diffResult.outputs.status == 'success'
+        if: steps.diffResult.outputs.status == 'success' && steps.diffResult.outputs.status == 'success'
         run: |
           rm -rf .git/
           git init
@@ -156,5 +156,5 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ secrets.GITEE_ACCOUNT }}:${{ secrets.GITEE_PASSWORD }}@gitee.com/${{ secrets.GITEE_NAME }}/list.git"
           git remote set-url --add origin "https://${{ secrets.CODING_ACCOUNT }}:${{ secrets.CODING_PASSWORD }}@e.coding.net/${{ secrets.CODING_NAME }}/list.git"
-          #git fetch --unshallow origin
+          git fetch --unshallow origin
           git push -u -f origin master
