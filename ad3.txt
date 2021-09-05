@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eEtbMW4/kI93W5x3YNEoqQ
+! Checksum: Z7ZnwnaQvS8yMx9gtCJ21g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109050813
-! Last Modified: 2021年09月05日 08:13
+! Version: 202109051210
+! Last Modified: 2021年09月05日 12:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9072,8 +9072,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||liwupuba.com/livead/
+||lunhua5.com/images/more.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+xiazai.zol.com.cn#?#.tanceng:-abp-contains(高速)
+xiazai.zol.com.cn###downBoxGaosu > .clearfix:first-child
+xiazai.zol.com.cn##.down-btn-yd + div[class]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14419,7 +14424,7 @@ pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
-gdot.me,sc115.com,wnacg.com,wnacg.org##script + a
+gdot.me,sc115.com,wnacg.com,wnacg.org,wnacgs.com##script + a
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
@@ -20136,7 +20141,6 @@ _box_ad_
 ||meiqia.com^$third-party
 ||miduoke.net^$third-party
 ||mylikechat.com^$third-party
-||ntalker.com^
 ||pop800.com^$third-party
 ||soperson.com^$third-party
 ||tawk.to^$third-party
@@ -20512,6 +20516,11 @@ _box_ad_
 ||pcbeta.com/data/cache/bdglpqryAOTW.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
+zuoyebang.com##div[class*="moreDialog_"]
+zuoyebang.com##div[class^="answerAnalyzeAd_"]
+zuoyebang.com##img[class^="bottomBanner_"]
+zuoyebang.com##DIV[class^="questionQRCodeWrap_"]
+zuoyebang.com##div[class^="adCard_"]
 baidu.com##.app-side-banner
 sg169.com##.Mappdiv
 sg169.com##.jy-pos-3
@@ -29546,7 +29555,6 @@ _mongo_stats/
 ||sitetagger.co.uk^$third-party
 ||sitetracker.com^$third-party
 ||sitetraq.nl^$third-party
-||skimresources.com^$third-party
 ||skyglue.com^$third-party
 ||sl-ct5.com^$third-party
 ||slingpic.com^$third-party
@@ -31842,11 +31850,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||activengage.com/overwatch/
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
-||ad.atdmt.com/c/
-||ad.atdmt.com/e/
-||ad.atdmt.com/i/
-||ad.atdmt.com/m/
-||ad.atdmt.com/s/
 ||addthis.com/at/
 ||addthis.com/live/
 ||addthiscdn.com/live/
@@ -32051,10 +32054,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||asterpix.com/tagcloudview/
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
-||atdmt.com/action/
-||atdmt.com/iaction/
-||atdmt.com/jaction/
-||atdmt.com/mstag/
 ||atlassian.net/rest/collectors/
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv^*/dtag.js
@@ -32413,7 +32412,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
 ||cws.conviva.com^
-||cx.atdmt.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
 ||d10gj7yjsfriaj.cloudfront.net^
@@ -33532,11 +33530,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shoplocal.com/it.ashx?
 ||shopnetic.com^$third-party
 ||shorthand.com/analytics/
-||sig.atdmt.com^
 ||sinajs.cn/open/analytics/
 ||sitebooster.com/sb/wix/p?$third-party
 ||sitefinity.com/collect/
-||skimresources.com/api/ref-banners.js
 ||skysa.com/tracker/
 ||slgnt.us/track
 ||sli-spark.com/b.png$third-party
