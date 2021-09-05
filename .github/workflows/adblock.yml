@@ -145,7 +145,7 @@ jobs:
           fi
           
       - name: Git push assets to gitee & coding
-        if: steps.diffResult.outputs.status == 'success' && steps.diffResult.outputs.status == 'false'
+        if: steps.diffResult.outputs.status == 'success'
         run: |
           rm -rf .git/
           git init
