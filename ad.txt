@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sFOQ2nO/nT1Sw/DAS1Ecbg
+! Checksum: n96i7qSB+UlJyXrQ9DJhZQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109051401
-! Last Modified: 2021年09月05日 14:01
+! Version: 202109051805
+! Last Modified: 2021年09月05日 18:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1561,7 +1561,7 @@ _xiuno_com_ad/
 ##.main-ad-r + .topad
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.maomi-content > #main-container > .row.mob40 + .row
-##.maomi-content > #section-menu
+##.maomi-content > .section-menu > .row > A[target="_blank"]
 ##.maomi-content > .section-banner
 ##.maomi-content > a[target="_blank"]
 ##.mediav-newsfeed-listitem-type-1
@@ -1911,6 +1911,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||alexanberton.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9521,6 +9522,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||liwupuba.com/livead/
 ||lunhua5.com/images/more.gif
+||91rb.net/fc/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 xiazai.zol.com.cn#?#.tanceng:-abp-contains(高速)
@@ -17096,6 +17098,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||mapxiongan.cn^
 ||zijuejueta.com^
+||x18a1fmq74.cn^
+||b32lx7qjk0.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
