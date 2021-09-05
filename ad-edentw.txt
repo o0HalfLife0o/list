@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: djVvN+husJIQoqh8Du8fDA
+! Checksum: wc2SFc8wnHQved+Ac41Gzg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109051805
-! Last Modified: 2021年09月05日 18:05
+! Version: 202109052003
+! Last Modified: 2021年09月05日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1483,7 +1483,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-663
 letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
 mamieastuce.com#$#freeze-element #sidebar abort .widget_text
@@ -1565,6 +1565,8 @@ walla.co.il,sheee.co.il##a[on^="tap:exit-api.exit(target='landingPage',_googClic
 walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indian.txt ***
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/a[@aria-label]/span/span/b[text()="प्रायोजित"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-741
 ! jvpnews.com#$#abort-current-inline-script atob TextDecoder
 ! #CV-669
