@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RbTjl4JiNWXdx7r7ZGqmKA
+! Checksum: cTspDOZtUhxwieFxeYgxWg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109061401
-! Last Modified: 2021年09月06日 14:01
+! Version: 202109062008
+! Last Modified: 2021年09月06日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1908,9 +1908,11 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/yhbet50.vip"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||666666666666.site^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -5440,7 +5442,6 @@ _yad_jsonp_
 ||aichuangfu.cn/jquery/
 ||aifei0755.net/123/
 ||ainunu.*/vad.js
-||ainuody.com/wp-content/uploads/2017/07/%E5%85
 ||aipp99.com/haose/
 ||airav.cc/AirADPic/
 ||airav.cc/iframe/
@@ -6448,7 +6449,6 @@ _yad_jsonp_
 ||dytt8.net/jsd/app.js
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
-||dzimg.cn^$domain=2fzdao.com
 ||dzwww.com/data/js/asp_$script
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
@@ -7298,7 +7298,6 @@ _yad_jsonp_
 ||jiaoyu.baidu.com/tieba/
 ||jiasule.com/static/js/http_error.js
 ||jiayu.net/comiis_ad/
-||jiecao12.com/guanggao
 ||jiegeng.com/static/json/jg_topFixed.
 ||jiejueba.com/templets/16img/*.js
 ||jiemian.com/static/jmw/js/adBase_
@@ -7622,7 +7621,6 @@ _yad_jsonp_
 ||logoquan.com/upload/prd/
 ||loldyttw.com/blr.js
 ||loldyttw.com/skin/lol/js/ds.js
-||loldyttw1.com/jds
 ||loli.io^$domain=kisssub.org
 ||loli.net/2018/09/01/5b8ab2b61cec4.jpg
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
@@ -9523,8 +9521,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sogoucdn.com/app/a/100540022/2021012518561139502233.png
+||olevod.com/upload/site/20210906-1/05052051368e2e65af936b819fbb688d.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mtrend.cn##.daogou-foot
+mtrend.cn##.hongbaotips
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10012,7 +10014,7 @@ cbber.com,you85.net###diy2
 chiphell.com###diy2 + div
 gpshk.cc,oneplusbbs.com,wstx.com,xiaot.com###diy4
 cbber.com,xiaot.com###diy_chart
-2fzd.com,2fzdao.com###diy_cmn1
+2fzd.com,3fzd.com###diy_cmn1
 chinafix.com###diy_col_1-3
 elecfans.com###diy_company
 5imx.com###diy_mxad02
@@ -10735,7 +10737,6 @@ ifeng.com###sideBar[class^="box_"]
 2345.com###sideCat
 hao.360.com###sidebar
 xc6b.com###sidebar > .box-b img
-ainuody.com###sidebar > .widget:nth-child(-n+6)
 appinn.com###sidebar > .widget_text:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 fuliba.net###sidebar > div:first-child
@@ -12212,7 +12213,6 @@ ytbbs.com##.ftop_ad_2016
 windows7en.com##.fu-welcome
 duowan.com##.full-banner
 suxzp.com##.full-screen-cover
-ainuody.com##.full-width
 guancha.cn##.full_nav1
 gamme.com.tw##.fullad_ad
 962.net##.g-962-ad
@@ -14040,7 +14040,7 @@ v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
-52movieba.com,5dm.tv,acglala.net,ainuody.com,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,5dm.tv,acglala.net,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 rouman5.com##a[href*=".tapdb.net"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,chinalawedu.com,douyu.com,dzbhdm.com,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
@@ -14139,7 +14139,6 @@ xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 cjw123.com##a[href="http://tb.cjw123.com"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 playtv.com.cn##a[href="http://www.sdhanrui.cn/"]
-ainuody.com##a[href="http://www.zhuzhuquan.com.cn"]
 zhaohuangpian.net##a[href="https://galaxymedia.xyz/app/"]
 autohome.com.cn##a[href="https://m.autohome.com.cn/activity/special/autohome29.html"]
 github.com##a[href="https://start.aliyun.com/"]
@@ -14291,11 +14290,9 @@ pinggu.org##a[target="_blank"][href*=".cda.cn"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
-ainuody.com##a[title*="红包"]
 creaders.net##a[title^="www.136888.com/"]
 gameinns.com##a[url^="/api/ads?"]
 duba.com##a[w="topad"]
-ainuody.com#?#.post:-abp-has(> .article > .entry_post > p:-abp-contains(/红包|淘宝/))
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 idanmu.im##aside > div[class="widget "]
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
@@ -14698,7 +14695,6 @@ youku.com##div[style="position:relative;"]:first-child > a[style*="z-index:5; di
 lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
-2fzdao.com##div[style="width: 100%;position: relative;margin-top:5px  ;  height: 60px;"]
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 hz66.com##div[style="width: 300px; height: 250px; float: left; position: relative;"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
@@ -17100,6 +17096,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bayno.cn^
 ||jsdelivr.net/gh/diyibanzhu/
 ||unimr0k7em.cn^
+||dhipc.cn^
+||13owamwp6c.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -20973,6 +20971,7 @@ _box_ad_
 ||pcbeta.com/data/cache/bdglpqryAOTW.js
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.school-promotion-pop-wrap
 zuoyebang.com##div[class*="moreDialog_"]
 zuoyebang.com##div[class^="answerAnalyzeAd_"]
 zuoyebang.com##img[class^="bottomBanner_"]
