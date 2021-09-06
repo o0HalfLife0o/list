@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Eiw913+kx4PjP9USM63jGA
+! Checksum: XkcHLGYGFYCi6H8Ovzbg0g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109060201
-! Last Modified: 2021年09月06日 02:01
+! Version: 202109060816
+! Last Modified: 2021年09月06日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -616,7 +616,7 @@ akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com
 ! gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/chinese.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="下載" or text()="來去逛逛"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="下載" or text()="來去逛逛" or text()="說這粉絲專頁讚" or text()="立即申請" or text()="發送訊息" or text()="瞭解詳情" or text()="觀看更多"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
@@ -1568,7 +1568,7 @@ walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?z
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indian.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/a[@aria-label]/span/span/b[text()="प्रायोजित"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/a[@aria-label]/span/span//b[text()="प्रायोजित"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-741
 ! jvpnews.com#$#abort-current-inline-script atob TextDecoder
 ! #CV-669
@@ -1604,7 +1604,7 @@ tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")
 iltalehti.fi#$#hide-if-matches-xpath '//span[contains(text(),"Kaupallinen yhteistyö")]/../../../..'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/polish.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Zainteresowany(a)" or text()="Wyślij wiadomość" or text()="Wyślij wniosek" or text()="Pobierz" or text()="Polub stronę" or text()="Zarejestruj się" or text()="Kup teraz" or text()="Więcej informacji"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Zainteresowany(a)" or text()="Wyślij wiadomość" or text()="Wyślij wniosek" or text()="Pobierz" or text()="Polub stronę" or text()="Zarejestruj się" or text()="Kup teraz" or text()="Więcej informacji" or text()="Zdobądź bilety"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-705
 !www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
