@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mZ06ljdewdachRfwiGJ4mA
+! Checksum: wv2bgHdxpeJN9TvoybmzYQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109062008
-! Last Modified: 2021年09月06日 20:08
+! Version: 202109070201
+! Last Modified: 2021年09月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23136,6 +23136,7 @@ _800x80_
 ##.bgcolor_ad
 ##.bgnavad
 ##.bgr_adv_div
+##.bh-ads
 ##.bh_ad_container
 ##.bi-ads-300x250
 ##.bi-ads-desktop
@@ -29423,6 +29424,7 @@ _800x80_
 ##.topRailAdSlot
 ##.topRightAd
 ##.top_Ad
+##.top__ad
 ##.top_ad
 ##.top_ad-tw
 ##.top_ad1
@@ -35562,6 +35564,7 @@ tf2r.com#@#.adverts
 ||ewruuqe5p8ca.com^
 ||examinerprospectsbutton.com^
 ||excdnrdsu.com^
+||exceedinglydiscovered.com^
 ||excellenceads.com^
 ||exceptingfivesnake.com^
 ||exceptionimageknife.com^
@@ -35577,6 +35580,7 @@ tf2r.com#@#.adverts
 ||exhaustedannulmentaccredited.com^
 ||exhaustedgemini.com^
 ||exi8ef83z9.com^
+||existsobey.com^
 ||exitjunction.com^
 ||exlpor.com^
 ||exlusepolly.com^
@@ -36797,6 +36801,7 @@ tf2r.com#@#.adverts
 ||hiddenbucks.com^
 ||hiddenlocationpredicate.com^
 ||hidupsoo.com^
+||higherdebateplume.com^
 ||highlightextrahydrogen.com^
 ||highmaidfhr.com^
 ||highnessbackwardsyuri.com^
@@ -47907,6 +47912,7 @@ tf2r.com#@#.adverts
 ||yourcommonfeed.com^$popup
 ||yourfreshposts.com^$popup
 ||z5x.net^$popup
+||zbest.in^$popup
 ||zedo.com^$popup
 ||zeroredirect1.com^$popup
 ||zlink2.com^$popup
@@ -53087,6 +53093,7 @@ rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgpro
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr###nav-swmslot
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr###sponsoredProducts2_feature_div
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.a-link-normal[href*="&adId="]
+amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.s-result-item > span[cel_widget_id^="MAIN-CARDS-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.sbv-video-single-product
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##[cel_widget_id="multi-brand-creative-desktop_loom-desktop-brand-footer-slot_40"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_SponsoredProducts"]
@@ -53098,7 +53105,6 @@ amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_wid
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[data-ad-id]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[id^="sp_detail"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
-amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[data-cel-widget="MAIN-CARDS-6"]
 newseveryday.com###vplayer_large
 dexerto.com##.jwplayer
 ##.section-subheader > .section-hotel-prices-header
@@ -55741,6 +55747,10 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ynslvyou.com^
+||wshlcgj.com^
+||cnco.me^$third-party
+||kaiguangdou.com^
 ||666666666666.site^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -70926,6 +70936,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jsdelivr.net/gh/diyibanzhu/
 ||unimr0k7em.cn^
 ||dhipc.cn^
+||clzgd.com^
+||ynsyly.com^
+||zcoolfc.com^
 ||13owamwp6c.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
@@ -78123,6 +78136,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track?cb=
 /track?data=
 /track?event=
+/track?event_id=
 /track?eventKey=
 /track?events=
 /track?name=

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cTspDOZtUhxwieFxeYgxWg
+! Checksum: maGb+/ePhHlZb6ZV7k/y9g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109062008
-! Last Modified: 2021年09月06日 20:08
+! Version: 202109070201
+! Last Modified: 2021年09月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1912,6 +1912,10 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ynslvyou.com^
+||wshlcgj.com^
+||cnco.me^$third-party
+||kaiguangdou.com^
 ||666666666666.site^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -17097,6 +17101,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jsdelivr.net/gh/diyibanzhu/
 ||unimr0k7em.cn^
 ||dhipc.cn^
+||clzgd.com^
+||ynsyly.com^
+||zcoolfc.com^
 ||13owamwp6c.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
