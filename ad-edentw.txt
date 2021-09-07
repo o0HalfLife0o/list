@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R7Y7YMM8cnXPvOiuFj4EZg
+! Checksum: 0azyVrnMpEgVqQrl+m+kLw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109072002
-! Last Modified: 2021年09月07日 20:02
+! Version: 202109080201
+! Last Modified: 2021年09月08日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1273,13 +1273,8 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains(text(),"Patrocinado") or contains(text(),"Sponsa") or contains(text(),"Bersponsor") or contains(text(),"Commandité") or contains(text(),"Ditaja") or contains(text(),"Được tài trợ") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Patrocinado") or contains(text(),"Publicidad") or contains(text(),"Sponsa") or contains(text(),"Sponset") or contains(text(),"Sponsored") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizat") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorlu") or contains(text(),"Sponsorowane") or contains(text(),"Реклама") or contains(text(),"ממומן") or contains(text(),"تمويل شوي") or contains(text(),"دارای پشتیبانی مالی") or contains(text(),"سپانسرڈ") or contains(text(),"مُموَّل") or contains(text(),"प्रायोजित") or contains(text(),"সৌজন্যে") or contains(text(),"ได้รับการสนับสนุน") or contains(text(),"内容") or contains(text(),"贊助") or contains(text(),"Sponsoroitu")]/ancestor::span[2]'
-facebook.com#$#hide-if-matches-xpath './/span[@class]/span[@id]/span[@class]/following-sibling::a[@aria-label="label"][@class]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
-facebook.com#$#hide-if-labelled-by /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן|Sponsoroitu$/ 'a>span>span' [data-pagelet^="FeedUnit_"]
-facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی" or @aria-label="Sponsoroitu"]/ancestor::div[@data-pagelet[starts-with(normalize-space(),"FeedUnit_")]]'
 facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
-facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی" or @aria-label="Sponsoroitu"]/ancestor::div[9][@class][not(@id)]'
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Sponsored" or text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Sponsored" or text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time" or text()="Donate Now" or text()="Send Message"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][target="_blank"][tabindex="0"]
 ! #CV-241
 swatchseries.to#$#abort-on-property-read zfgloadednative
@@ -1573,6 +1568,8 @@ walla.co.il,sheee.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
 walla.co.il,sheee.co.il##a[on^="tap:exit-api.exit(target='landingPage',_googClickLocation="]
 walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
+! CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Hirdetés" or text()="További információ" or text()="Letöltés" or text()="Játék indítása" or text()="Regisztráció" or text()="Jelentkezés most" or text()="Tetszik az oldal" or text()="Érdekel" or text()="Üzenet küldése" or text()="Bolt felkeresése" or text()="Foglalás most" or text()="Jegyek"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indian.txt ***
 ! #CV-761
 facebook.com#$#hide-if-matches-xpath './/a[@aria-label]/span/span//b[text()="प्रायोजित"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
@@ -1583,6 +1580,8 @@ newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
 ! Popup/Popunder/Clickunder
 ! xxx-indian-porn.com#$#abort-current-inline-script popunder
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indonesian.txt ***
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Berlangganan" or text()="Penawaran" or text()="Bersponsor" or text()="Daftar" or text()="Selengkapnya" or text()="Daftar Sekarang" or text()="Pesan Sekarang" or text()="Tonton Lainnya" or text()="Hubungi Kami" or text()="Unduh" or text()="Sukai Halaman"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-667
 ! citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
@@ -1655,7 +1654,7 @@ naekranie.pl#$#abort-on-property-read adQueue
 !filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/portuguese.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora" or text()="Obter oferta" or text()="Obter ingressos" or text()="Reservar agora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-741
 diariodocentrodomundo.com.br#$#abort-on-property-read TextDecoder
 ! #CV-692
