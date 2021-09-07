@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D5Q3ZdoLDvJ/SB/7izz9FA
+! Checksum: R7Y7YMM8cnXPvOiuFj4EZg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109070812
-! Last Modified: 2021年09月07日 08:12
+! Version: 202109072002
+! Last Modified: 2021年09月07日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -633,6 +633,8 @@ iyingshi9.tv#$#override-property-read YZM.ads.state false
 ! #CV-667
 ! hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/czech.txt ***
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Sponzorováno" or text()="Stáhnout" or text()="Přihlásit odběr"  or text()="Požádat" or text()="Další informace" or text()="Získat nabídku" or text()="Získat cenovou nabídku" or text()="Zaregistrovat se" or text()="Hrát hru" or text()="Rezervovat"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-655
 idnes.cz,expres.cz#$#hide-if-matches-xpath './/*[string-length(@class) < 50]/following-sibling::div[@class]/div[string-length(@id) > 30]/ancestor::div[string-length(@class) > 43]|.//*[string-length(@class) < 50][@style="margin: auto;"]/div[2]/ancestor::*[1]'
 idnes.cz#$#hide-if-matches-xpath '//div/a[string-length(@href) > 500]//img[string-length(@src) > 80]/ancestor::div[@class][2]'
@@ -1201,6 +1203,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ! #CV-660
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Gesponsord" or text()="Shoppen" or text()="Nu luisteren" or text()="Nu boeken" or text()="Meer informatie" or text()="Pagina leuk vinden" or text()="Nu aanvragen" or text()="Volgen" or text()="Geïnteresseerd" or text()="Registreren"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt ***
 ! #CV-717
 yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
@@ -1488,7 +1492,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant" or text()="Nous contacter"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-663
 letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
 mamieastuce.com#$#freeze-element #sidebar abort .widget_text
@@ -1554,7 +1558,7 @@ vostfree.com#$#abort-on-property-write _pop
 strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Abonnieren"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Abonnieren" or text()="Angebot einholen"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-691
 ebay.de#$#hide-if-contains-visible-text /Anzeige|ANZEIGE/ 'li.s-item' 'li.s-item span[role="text"]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
@@ -1666,6 +1670,8 @@ filmesonlinegratis.com#$#abort-on-property-read atob
 ! #CV-667
 ! 4bac.ro,cinemasfera.com,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/russian.txt ***
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Подать заявку" or text()="Подробнее" or text()="Скачать" or text()="В магазин" or text()="Связаться с нами"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-244
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_small"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr#$#hide-if-matches-xpath '//div[@class="feed__item _size_big"][@id]/div[string-length(@class) > 200][contains(@class," ")]'
@@ -1789,6 +1795,8 @@ gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 !jkanime.net#$#abort-current-inline-script Math break
 !animefenix.com#$#abort-current-inline-script document.createElement _yzvesi
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
+! #CV-761
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Teklifi Al" or text()="Sayfayı Beğen" or text()="Daha Fazla Bilgi Al" or text()="Şimdi Başvur" or text()="Kaydol" or text()="Şimdi Alışveriş Yap"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-717
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
 ! #CV-667
