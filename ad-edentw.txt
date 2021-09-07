@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JPhzFGl3DA+BemgtLSK3HQ
+! Checksum: D5Q3ZdoLDvJ/SB/7izz9FA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109070201
-! Last Modified: 2021年09月07日 02:01
+! Version: 202109070812
+! Last Modified: 2021年09月07日 08:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1275,7 +1275,7 @@ facebook.com#$#hide-if-labelled-by /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|
 facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی" or @aria-label="Sponsoroitu"]/ancestor::div[@data-pagelet[starts-with(normalize-space(),"FeedUnit_")]]'
 facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
 facebook.com#$#hide-if-matches-xpath './/a[@aria-label="Sponsorlu" or @aria-label="Sponsored" or @aria-label="Gesponsert" or @aria-label="Patrocinado" or @aria-label="Sponsorisé" or @aria-label="Commandité" or @aria-label="Gesponsord" or @aria-label="Sponsorowane" or @aria-label="Реклама" or @aria-label="Sponsa" or @aria-label="Sponset" or @aria-label="Sponsorizat" or @aria-label="Bersponsor" or @aria-label="Ditaja" or @aria-label="Sponsorizzato" or @aria-label="贊助" or @aria-label="赞助内容" or @aria-label="ได้รับการสนับสนุน" or @aria-label="प्रायोजित" or @aria-label="সৌজন্যে" or @aria-label="مُموَّل" or @aria-label="ממומן" or @aria-label="سپانسرڈ" or @aria-label="تمويل شوي" or @aria-label="دارای پشتیبانی مالی" or @aria-label="Sponsoroitu"]/ancestor::div[9][@class][not(@id)]'
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Sponsored" or text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Send Message" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Sponsored" or text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][target="_blank"][tabindex="0"]
 ! #CV-241
 swatchseries.to#$#abort-on-property-read zfgloadednative
@@ -1488,7 +1488,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Envoyer un message" or text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-663
 letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
 mamieastuce.com#$#freeze-element #sidebar abort .widget_text
@@ -1554,7 +1554,7 @@ vostfree.com#$#abort-on-property-write _pop
 strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Nachricht senden" or text()="Abonnieren"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Abonnieren"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-691
 ebay.de#$#hide-if-contains-visible-text /Anzeige|ANZEIGE/ 'li.s-item' 'li.s-item span[role="text"]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
@@ -1583,7 +1583,7 @@ newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
 ! citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Iscriviti" or text()="Richiedi subito" or text()="Invia un messaggio" or text()="Guarda di più" or text()="Scopri di più" or text()="Prenota subito" or text()="Scarica" or text()="Ottieni i biglietti" or text()="Acquista ora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Iscriviti" or text()="Richiedi subito" or text()="Guarda di più" or text()="Scopri di più" or text()="Prenota subito" or text()="Scarica" or text()="Ottieni i biglietti" or text()="Acquista ora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-667
 ! mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 ! Popup/Popunder
@@ -1607,7 +1607,7 @@ tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")
 iltalehti.fi#$#hide-if-matches-xpath '//span[contains(text(),"Kaupallinen yhteistyö")]/../../../..'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/polish.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Zainteresowany(a)" or text()="Wyślij wiadomość" or text()="Wyślij wniosek" or text()="Pobierz" or text()="Polub stronę" or text()="Zarejestruj się" or text()="Kup teraz" or text()="Więcej informacji" or text()="Zdobądź bilety"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Zainteresowany(a)" or text()="Wyślij wniosek" or text()="Pobierz" or text()="Polub stronę" or text()="Zarejestruj się" or text()="Kup teraz" or text()="Więcej informacji" or text()="Zdobądź bilety"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-705
 !www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
@@ -1651,7 +1651,7 @@ naekranie.pl#$#abort-on-property-read adQueue
 !filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/portuguese.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Mensagem" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Saber mais" or text()="Saiba mais" or text()="Gostar da Página" or text()="Curtir Página" or text()="Baixar" or text()="Cadastre-se" or text()="Solicitar agora" or text()="Assistir mais" or text()="Comprar agora"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-741
 diariodocentrodomundo.com.br#$#abort-on-property-read TextDecoder
 ! #CV-692
@@ -1769,7 +1769,7 @@ www.ukr.net#$#override-property-read Math.random trueFunc; hide-if-shadow-contai
 112ua.tv,24boxing.com.ua,4mama.ua,avtovod.com.ua,avtovod.org.ua,besplatka.ua,bilshe.com,buhgalter.com.ua,buhgalter911.com,businessua.com,censor.net,dengi.ua,enovosty.com,epravda.com.ua,eurointegration.com.ua,f1analytic.com,facenews.ua,football-ukraine.com,football24.ua,footballtransfer.com.ua,gismeteo.ua,gorod.dp.ua,hvylya.net,inforesist.org,internetua.com,kolobok.ua,kp.ua,kriminal.tv,lifedon.com.ua,mport.ua,nashamama.com,newsyou.info,nnovosti.info,okino.ua,ostro.org,perevod.i.ua,real-vin.com,sinoptik.ua,smak.ua,sportanalytic.com,toneto.net,tv.ua,tvgid.ua,u-news.com.ua,udoktora.net,vsetv.com,zdorovia.com.ua#$#override-property-read String.prototype.charCodeAt trueFunc
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
 ! #CV-761
-facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Obtener acceso" or text()="Más información" or text()="Comprar" or text()="Postularte" or text()="Descargar" or text()="Ver boletos" or text()="Registrarte" or text()="Reservar" or text()="Contactarnos" or text()="Patrocinado" or text()="Ver más" or text()="Enviar mensaje" or text()="Me gusta esta página" or text()="Publicidad"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Obtener acceso" or text()="Más información" or text()="Comprar" or text()="Postularte" or text()="Descargar" or text()="Ver boletos" or text()="Registrarte" or text()="Reservar" or text()="Contactarnos" or text()="Patrocinado" or text()="Ver más" or text()="Me gusta esta página" or text()="Publicidad"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-667
 !envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current-inline-script Math zfgloaded
 ! #9272
