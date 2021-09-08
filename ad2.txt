@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1r1RqgZYrRt9SHGv0yDAqA
+! Checksum: LZcycENa5o3AucEe9OF87A
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202109081401
-! Last Modified: 2021年09月08日 14:01
+! Version: 202109082003
+! Last Modified: 2021年09月08日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9081,6 +9081,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.Gmaeinfobtn_tab > .tab2
+3dmgame.com##.newdow_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16632,6 +16634,8 @@ _muytrf.js$script,third-party
 _NYTEF.js
 MoBi*.baidu.js$script,third-party
 xhtml?%22+$script,third-party
+/vbvb_*_pmpm.js
+/1skwwd.
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 @@||dushu.ru^$script,domain=bhshu.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
@@ -16658,6 +16662,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||f8ij9.life^
 ||wuxiap.xyz^
 ||jiangjinghe.top^
+||gt9m0fs.cn^
+||o4h0np7.cn^
+||uater.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode

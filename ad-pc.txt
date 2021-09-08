@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eiPA4uhk5zd0SiDd1ZrRPQ
+! Checksum: iYAU34DF5EfvJ7a3kRAsqw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109081401
-! Last Modified: 2021年09月08日 14:01
+! Version: 202109082003
+! Last Modified: 2021年09月08日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7756,6 +7756,8 @@ takeover_banner_
 ||online.*/promoredirect?key=
 ||ox-d.*^auid=
 ||serve.*/promoload?
+/cmbdv2.js
+/cmbv2.js
 /contents/other/player/*
 /2market.php?
 ://rs-stripe.wsj.com/stripe/image?
@@ -24707,8 +24709,10 @@ _800x80_
 ##.ezAdsWidget
 ##.ezAdsense
 ##.ezmob-footer
+##.ezmob-footer-desktop
 ##.ezo_ad
 ##.ezoic-ad
+##.ezoic-ad-adaptive
 ##.ezoic-floating-bottom
 ##.f-ad
 ##.f-item-ad
@@ -25995,6 +25999,7 @@ _800x80_
 ##.insertAd_Rectangle
 ##.insertAd_TextAdBreak
 ##.insert_ad
+##.insert_ad_column
 ##.insert_advertisement
 ##.insert_text_body_ad_prod
 ##.insertad
@@ -35761,7 +35766,6 @@ tf2r.com#@#.adverts
 ||eyzu80g9xcxa.com^
 ||ezexfzek.com^
 ||ezhefg9gbhgh10.com^
-||ezoic.net^
 ||ezojs.com^
 ||ezpuqqahvr.com^
 ||ezrvmxshalr.com^
@@ -41699,7 +41703,6 @@ tf2r.com#@#.adverts
 ||skillpropulsion.com^
 ||skilyake.net^
 ||skimegcolder.com^
-||skimresources.com^
 ||skinchmanfred.com^
 ||skinnyfinnishhi.com^
 ||sknkwpvrkz.com^
@@ -49371,6 +49374,7 @@ tf2r.com#@#.adverts
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
 ||rubylife.go2cloud.org^
+||s.skimresources.com^
 ||s1.wp.com^$subdocument,third-party
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
@@ -53006,6 +53010,7 @@ techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
 audioz.download##[src*="/promo/"]
 brmangas.com##[src="https://manjiroinflu.com/streams.php"]
+webcamtests.com##[src^="/MyShowroom/view.php?medium="]
 manganelo.com##[src^="/ads/"]
 ice.hockey##[src^="/images/banners/"]
 linuxtopia.org##[src^="/includes/index.php/?img="]
@@ -63531,6 +63536,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.Gmaeinfobtn_tab > .tab2
+3dmgame.com##.newdow_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71082,6 +71089,8 @@ _muytrf.js$script,third-party
 _NYTEF.js
 MoBi*.baidu.js$script,third-party
 xhtml?%22+$script,third-party
+/vbvb_*_pmpm.js
+/1skwwd.
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 @@||dushu.ru^$script,domain=bhshu.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
@@ -71108,6 +71117,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||f8ij9.life^
 ||wuxiap.xyz^
 ||jiangjinghe.top^
+||gt9m0fs.cn^
+||o4h0np7.cn^
+||uater.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -87677,6 +87689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||retargeting.vistaprint.com^
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
+||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^
 ||rss-loader.com/track/
 ||rt.newswire.ca^
