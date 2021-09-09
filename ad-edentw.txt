@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HQyu/MKx05KfCuy0c9DJ1w
+! Checksum: MJemACUda7jbL1feXONl8A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109090813
-! Last Modified: 2021年09月09日 08:13
+! Version: 202109092003
+! Last Modified: 2021年09月09日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -611,6 +611,8 @@ egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.c
 ! arabseed.me,baramjak.com,egynow.live,hawak.net,movizland.com,movizland.online,egyanime.com,egydead.com#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/
 ! #CV-754
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
+A: #CV-761
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="تعرف على المزيد" or text()="تقديم طلب الآن" or text()="إرسال رسالة" or text()="تسوق الآن" or text()="الحصول على العرض" or text()="تبرّع الآن" or text()="تسجيل"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
 ! #CV-667
 ! gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
@@ -1277,6 +1279,8 @@ www.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pa
 www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time" or text()="Donate Now" or text()="Send Message" or text()="Listen Now"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][target="_blank"][tabindex="0"]
 www.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains(text(),"Patrocinado") or contains(text(),"Sponsa") or contains(text(),"Bersponsor") or contains(text(),"Commandité") or contains(text(),"Ditaja") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Patrocinado") or contains(text(),"Publicidad") or contains(text(),"Sponsa") or contains(text(),"Sponset") or contains(text(),"Sponsored") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizat") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorlu") or contains(text(),"Sponsorowane") or contains(text(),"Реклама") or contains(text(),"ממומן") or contains(text(),"تمويل شوي") or contains(text(),"دارای پشتیبانی مالی") or contains(text(),"سپانسرڈ") or contains(text(),"مُموَّل") or contains(text(),"प्रायोजित") or contains(text(),"সৌজন্যে") or contains(text(),"ได้รับการสนับสนุน") or contains(text(),"内容") or contains(text(),"贊助") or contains(text(),"Sponsoroitu") or text()="May Sponsor" or text()="Được tài trợ"]/ancestor::span[2]'
+! Filipino
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Mag-apply Na" or text()="Mag-sign Up" or text()="Mamili Na" or text()="Mag-book Na" or text()="Alamin Pa" or text()="Kontakin Kami"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-241
 swatchseries.to#$#abort-on-property-read zfgloadednative
 ! #CV-661
@@ -1583,7 +1587,7 @@ newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
 ! xxx-indian-porn.com#$#abort-current-inline-script popunder
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indonesian.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Berlangganan" or text()="Penawaran" or text()="Bersponsor" or text()="Daftar" or text()="Selengkapnya" or text()="Daftar Sekarang" or text()="Pesan Sekarang" or text()="Tonton Lainnya" or text()="Hubungi Kami" or text()="Unduh" or text()="Sukai Halaman"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Berlangganan" or text()="Penawaran" or text()="Daftar" or text()="Selengkapnya" or text()="Daftar Sekarang" or text()="Pesan Sekarang" or text()="Tonton Lainnya" or text()="Hubungi Kami" or text()="Unduh" or text()="Sukai Halaman"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-667
 ! citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
