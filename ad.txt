@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TZdfYIdVNb9WX64DPQ+2NA
+! Checksum: gE7JqrjgxGeBTtlYiYEGtg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109092003
-! Last Modified: 2021年09月09日 20:03
+! Version: 202109100201
+! Last Modified: 2021年09月10日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9537,6 +9537,10 @@ _yad_jsonp_
 ||3dmgame.com/page/hlbt/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vpsmm.com###uc
+vpsmm.com###media
+vpsmm.com###featured1
+landian.vip##.content-gg
 lusongsong.com###main > CENTER
 dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
@@ -17127,6 +17131,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shua66.vip^
 ||iscreen.top^
 ||weiweitop.top^
+||leejongsuk.top^
+||altao.xyz^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode

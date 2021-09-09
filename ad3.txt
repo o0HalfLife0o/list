@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9dbhS6aPzpPsoUE/W9Drpw
+! Checksum: AdxOvTt0VqMq4+sFxWeKzQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109092003
-! Last Modified: 2021年09月09日 20:03
+! Version: 202109100201
+! Last Modified: 2021年09月10日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9090,6 +9090,10 @@ _yad_jsonp_
 ||3dmgame.com/page/hlbt/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+vpsmm.com###uc
+vpsmm.com###media
+vpsmm.com###featured1
+landian.vip##.content-gg
 lusongsong.com###main > CENTER
 dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
@@ -16680,6 +16684,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shua66.vip^
 ||iscreen.top^
 ||weiweitop.top^
+||leejongsuk.top^
+||altao.xyz^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -24079,7 +24085,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /headupstats.gif?
 /healthanalytics.js
 /heatmap_log.js
-/HeatmapSessionRecording/*
+/HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /hg?hc=&hb=*&vjs=
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
@@ -28043,7 +28049,6 @@ _mongo_stats/
 ||conduze.com^$third-party
 ||config.parsely.com^$third-party
 ||confirmational.com^$third-party
-||confirmit.com^$third-party
 ||connectif.cloud^$third-party
 ||contactmonkey.com^$third-party
 ||contemporaryceremonies.ca^$third-party
@@ -32002,6 +32007,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.erepublic.com^
 ||analytics.facebook.com^$third-party
 ||analytics.favcy.com^
+||analytics.firespring.com^
 ||analytics.foresee.com^
 ||analytics.google.com^$third-party
 ||analytics.groupe-seb.com^
@@ -32377,6 +32383,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
 ||confiant-integrations.global.ssl.fastly.net^
+||confirmit.com/wix/inline.aspx?
 ||connect.bolt.com/v1/log
 ||connect.facebook.net/signals/$third-party
 ||connect.facebook.net^*/fbds.js$third-party
@@ -46392,14 +46399,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||high.auriro.net/http/600x400/$image,domain=afterdawn.com|hardware.fi
-@@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
+@@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=kauppahalli24.fi
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
-@@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
+@@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 !---------- Hebrew ----------
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
