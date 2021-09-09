@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FWZ2pIGjGh/z/tjlbKC3Fw
+! Checksum: T34qNJwl3cSAkaeLzlICWA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109090813
-! Last Modified: 2021年09月09日 08:13
+! Version: 202109091403
+! Last Modified: 2021年09月09日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1909,6 +1909,10 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.bjxhf
+##.qzdhf
+##.opt > A[target="_blank"] > IMG[src*=".360buyimg.com"]
+##.video-holder > A[target="_blank"] > IMG[src*=".360buyimg.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -9531,7 +9535,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
+hao.360.cn##.hot-word
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
@@ -17111,6 +17117,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||rtrete.store^
+||hswfj.cn^
+||venber.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -21011,7 +21019,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-||pcbeta.com/data/cache/bdglpqryAOTW.js
+/\/data\/cache\/(?!(common|forum|home|portal))[a-zA-Z]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.school-promotion-pop-wrap

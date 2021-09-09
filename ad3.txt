@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0ZwHtbSpsSLzXjSawll2cg
+! Checksum: VRcwnFSAZ0NojeXUsYfQyg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109090813
-! Last Modified: 2021年09月09日 08:13
+! Version: 202109091403
+! Last Modified: 2021年09月09日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1462,6 +1462,10 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.bjxhf
+##.qzdhf
+##.opt > A[target="_blank"] > IMG[src*=".360buyimg.com"]
+##.video-holder > A[target="_blank"] > IMG[src*=".360buyimg.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -9084,7 +9088,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dzbhdm.com##A[href^="https://www.dzbhdm.com/news/"] > IMG[src^="https://www.dzbhdm.com/"]
 szxx.com.cn###A1
+hao.360.cn##.hot-word
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
@@ -16664,6 +16670,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||rtrete.store^
+||hswfj.cn^
+||venber.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -20564,7 +20572,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-||pcbeta.com/data/cache/bdglpqryAOTW.js
+/\/data\/cache\/(?!(common|forum|home|portal))[a-zA-Z]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.school-promotion-pop-wrap
@@ -25146,11 +25154,13 @@ weibo.com##.apps_PCD_reco_detail_right
 /pixel/email/*$image
 /pixel/ga-
 /pixel/gtm-
+/pixel/host/?
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
 /pixel/sbs?
 /Pixel/Script/Behavior?
+/pixel/stats/?
 /pixel/stream/*
 /pixel/view?
 /pixel/visit?
@@ -27454,6 +27464,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||glimr.io^
 ||i218435.net^
 ||impactcdn.com^
 ||irs01.com^
@@ -45740,6 +45751,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||uecdn.es/js/pbmu.js
 ||wssgmstats.vibbo.com^
 ||wsstats.coches.net^
+||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||ai.idg.se^
 ||analytics.elx.cloud^
 ||ax.idg.se^
@@ -45909,6 +45921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 @@||live.house.gov/js/analytics.$script,~third-party
