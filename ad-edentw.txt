@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F/LZ+vn2+f/36X6yDwVvmw
+! Checksum: P7W2hVO2rodjiginBZY5MQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109102002
-! Last Modified: 2021年09月10日 20:02
+! Version: 202109120201
+! Last Modified: 2021年09月12日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1275,8 +1275,9 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
+facebook.com#$#hide-if-matches-xpath '//a/span/span/span[contains( "Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad", concat(./span[not(self::node()[contains(@style,"absolute")])][1],./span[not(self::node()[contains(@style,"absolute")])][2],./span[not(self::node()[contains(@style,"absolute")])][3],./span[not(self::node()[contains(@style,"absolute")])][4],./span[not(self::node()[contains(@style,"absolute")])][5],./span[not(self::node()[contains(@style,"absolute")])][6],./span[not(self::node()[contains(@style,"absolute")])][7],./span[not(self::node()[contains(@style,"absolute")])][8],./span[not(self::node()[contains(@style,"absolute")])][9],./span[not(self::node()[contains(@style,"absolute")])][10],./span[not(self::node()[contains(@style,"absolute")])][11],./span[not(self::node()[contains(@style,"absolute")])][12],./span[not(self::node()[contains(@style,"absolute")])][13],./span[not(self::node()[contains(@style,"absolute")])][14]))][count(./span[not(self::node()[contains(@style,"absolute")])]) > 6]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
+facebook.com#$#hide-if-matches-xpath '//a/span/span/b[contains("Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad", concat(./b[not(self::node()[contains(@style,"none")])][1],./b[not(self::node()[contains(@style,"none")])][2],./b[not(self::node()[contains(@style,"none")])][3],./b[not(self::node()[contains(@style,"none")])][4],./b[not(self::node()[contains(@style,"none")])][5],./b[not(self::node()[contains(@style,"none")])][6],./b[not(self::node()[contains(@style,"none")])][7],./b[not(self::node()[contains(@style,"none")])][8],./b[not(self::node()[contains(@style,"none")])][9],./b[not(self::node()[contains(@style,"none")])][10],./b[not(self::node()[contains(@style,"none")])][11],./b[not(self::node()[contains(@style,"none")])][12],./b[not(self::node()[contains(@style,"none")])][13],./b[not(self::node()[contains(@style,"none")])][14]))][count(./b[not(self::node()[contains(@style,"none")])]) > 6]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time" or text()="Donate Now" or text()="Sell Now" or text()="Listen Now" or text()="Play Now" or text()="Donate" or text()="Buy Now"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 www.facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains(text(),"Patrocinado") or contains(text(),"Sponsa") or contains(text(),"Bersponsor") or contains(text(),"Commandité") or contains(text(),"Ditaja") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Patrocinado") or contains(text(),"Publicidad") or contains(text(),"Sponsa") or contains(text(),"Sponset") or contains(text(),"Sponsored") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizat") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorlu") or contains(text(),"Sponsorowane") or contains(text(),"Реклама") or contains(text(),"ממומן") or contains(text(),"تمويل شوي") or contains(text(),"دارای پشتیبانی مالی") or contains(text(),"سپانسرڈ") or contains(text(),"مُموَّل") or contains(text(),"प्रायोजित") or contains(text(),"সৌজন্যে") or contains(text(),"ได้รับการสนับสนุน") or contains(text(),"内容") or contains(text(),"贊助") or contains(text(),"Sponsoroitu") or text()="May Sponsor" or text()="Được tài trợ"]/ancestor::span[2]'
 ! Filipino
@@ -1492,7 +1493,6 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant" or text()="Nous contacter" or text()="Faire un don" or text()="J’aime la Page" or text()="S’abonner"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-663
 letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
 mamieastuce.com#$#freeze-element #sidebar abort .widget_text
@@ -1558,7 +1558,6 @@ vostfree.com#$#abort-on-property-write _pop
 strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Abonnieren" or text()="Angebot einholen" or text()="Spielen" or text()="Jetzt spenden" or text()="Jetzt verkaufen"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-691
 ebay.de#$#hide-if-contains-visible-text /Anzeige|ANZEIGE/ 'li.s-item' 'li.s-item span[role="text"]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
@@ -1781,7 +1780,6 @@ www.ukr.net#$#override-property-read Math.random trueFunc; hide-if-shadow-contai
 112ua.tv,24boxing.com.ua,4mama.ua,avtovod.com.ua,avtovod.org.ua,besplatka.ua,bilshe.com,buhgalter.com.ua,buhgalter911.com,businessua.com,censor.net,dengi.ua,enovosty.com,epravda.com.ua,eurointegration.com.ua,f1analytic.com,facenews.ua,football-ukraine.com,football24.ua,footballtransfer.com.ua,gismeteo.ua,gorod.dp.ua,hvylya.net,inforesist.org,internetua.com,kolobok.ua,kp.ua,kriminal.tv,lifedon.com.ua,mport.ua,nashamama.com,newsyou.info,nnovosti.info,okino.ua,ostro.org,perevod.i.ua,real-vin.com,sinoptik.ua,smak.ua,sportanalytic.com,toneto.net,tv.ua,tvgid.ua,u-news.com.ua,udoktora.net,vsetv.com,zdorovia.com.ua#$#override-property-read String.prototype.charCodeAt trueFunc
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath './/span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Obtener acceso" or text()="Más información" or text()="Comprar" or text()="Postularte" or text()="Descargar" or text()="Ver boletos" or text()="Registrarte" or text()="Reservar" or text()="Contactarnos" or text()="Patrocinado" or text()="Ver más" or text()="Me gusta esta página" or text()="Publicidad" or text()="Jugar" or text()="Enviar solicitud" or text()="Ver horarios" or text()="Seguir" or text()="Vender ahora" or text()="Donar" or text()="Ver funciones" or text()="Suscribirte"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_")]'
 ! #CV-667
 !envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current-inline-script Math zfgloaded
 ! #9272
