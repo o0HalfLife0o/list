@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9kGgl3bF7Srpi8wapTC3lA
+! Checksum: gDXoTiH4EIbeJqmSrxgSHQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109121401
-! Last Modified: 2021年09月12日 14:01
+! Version: 202109122002
+! Last Modified: 2021年09月12日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -7340,7 +7340,7 @@ _yad_jsonp_
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/JOELEO/*.js
 ||mima.club/tuijian/speedtest/
-||mimeitv.com/skin/js/dny.
+||3bmmmesj.life/skin/js/dny.
 ||mini.hao123.com^
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
@@ -32577,7 +32577,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||daq0d0aotgq0f.cloudfront.net^
 ||dash.getsitecontrol.com^
 ||data.alexa.com^
-||data.beop.io^
 ||data.circulate.com^
 ||data.gosquared.com^$third-party
 ||data.imakenews.com^$third-party
@@ -32816,6 +32815,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
+||gecko.space/count.js
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
 ||gem.com/api/o/$image,third-party
@@ -34071,7 +34071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.pinterest.com^$third-party
 ||xp.apple.com^$~ping
 ||yandexadexchange.net^
-/^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
+||fast.appcues.com^$script,third-party
 ||am-vid-events.taboola.com^
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -46537,6 +46537,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
+@@||fast.appcues.com^$script,domain=initial.inc
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com

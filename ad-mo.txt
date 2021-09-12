@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 54XqIgPRyx2uhjOA3t1HwQ
+! Checksum: d8TEDBPE3lX2qoFDA2MDcQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109121401
-! Last Modified: 2021年09月12日 14:01
+! Version: 202109122002
+! Last Modified: 2021年09月12日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51031,6 +51031,7 @@ audioreview.com###bottom-leaderboard
 nytimes.com,nytimes3xbfgragh.onion###bottom-wrapper
 funkypotato.com###bottom_banner_wrapper
 jamaicaobserver.com###bottom_leaderboard
+bleedingcool.com###bottom_medium_rectangle
 flashscore.com,livescore.in###box-over-content-a
 planetminecraft.com###box_300atf
 planetminecraft.com###box_300btf
@@ -51244,6 +51245,7 @@ ostatic.com###media_partner_gallery
 cgchannel.com###mediumRectangle
 newburyportnews.com###mediumRectangle_atf
 thepiratebay.org###meta-right
+bleedingcool.com###middle_medium_rectangle
 trackingthepros.com###mini-containerr
 pch.com###minipath_panel
 myjoyonline.com###mjo-article-left_rectangle_mid
@@ -51458,7 +51460,8 @@ mautofied.com###topLeaderboard
 forum.wordreference.com###topSupp
 sportsclimax.com###top_banner
 caribpress.com###top_banner_container
-jamaicaobserver.com###top_leaderboard
+bleedingcool.com,jamaicaobserver.com###top_leaderboard
+bleedingcool.com###top_medium_rectangle
 imdb.com###top_rhs
 repeatmyvids.com,w3newspapers.com###topads
 scorespro.com###topban
@@ -51942,6 +51945,7 @@ physicsworld.com##.corporate-partners
 kiss-anime.asia,kissanime.mobi##.countdown.btn
 wolfstream.tv##.cover2
 thesimsresource.com##.crtv-top-wrapper
+irishtimes.com##.cs-teaser
 c-span.org##.cspan-ad-still-wrapper
 healthline.com##.css-0 + div:not([class]):last-of-type
 healthline.com##.css-12efcmn
@@ -52526,6 +52530,7 @@ eitb.eus##.publicidad_robapaginas
 dailymail.co.uk##.puff_pastel
 the18.com##.push-downv
 2conv.com##.push-offer
+bleedingcool.com##.pw-in-article
 giantfreakinrobot.com##.pw-leaderboard-atf-container
 giantfreakinrobot.com##.pw-leaderboard-btf-container
 giantfreakinrobot.com##.pw-med-rect-atf-container
@@ -52637,6 +52642,7 @@ stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 news.am,viva.co.nz##.side-banner
 gfycat.com##.side-slot
 pr0gramm.com##.side-wide-skyscraper
+freeseotoolbox.net##.sideXd
 panarmenian.net##.side_panner
 tutorialrepublic.com##.sidebar
 computing.co.uk##.sidebar-block
@@ -53156,8 +53162,10 @@ rlslog.net##div[style*="z-index:"]:first-child
 filesharingtalk.com##div[style="background-color: white; border-width: 2px; border-style: dashed; border-color: white;"]
 fansshare.com##div[style="background-image:url(http://img23.fansshare.com/media/img/advertisement.png);width:335px;height:282px;"]
 hints.macworld.com##div[style="border-bottom: 2px solid #7B7B7B; padding-bottom:8px; margin-bottom:5px;"]
+askdifference.com##div[style="color: #aaa"]
 sentinelnews.com,theandersonnews.com##div[style="height:620px;width:279px;margin:auto;margin-top:5px;background-color:#eaeaea;"]
 gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
+askdifference.com##div[style="min-height:280px;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
 rlslog.net##div[style="padding-left:40px;"]
@@ -61784,7 +61792,7 @@ _yad_jsonp_
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/JOELEO/*.js
 ||mima.club/tuijian/speedtest/
-||mimeitv.com/skin/js/dny.
+||3bmmmesj.life/skin/js/dny.
 ||mini.hao123.com^
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
@@ -84754,7 +84762,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||daq0d0aotgq0f.cloudfront.net^
 ||dash.getsitecontrol.com^
 ||data.alexa.com^
-||data.beop.io^
 ||data.circulate.com^
 ||data.gosquared.com^$third-party
 ||data.imakenews.com^$third-party
@@ -84993,6 +85000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
+||gecko.space/count.js
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
 ||gem.com/api/o/$image,third-party
@@ -86248,7 +86256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.pinterest.com^$third-party
 ||xp.apple.com^$~ping
 ||yandexadexchange.net^
-/^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
+||fast.appcues.com^$script,third-party
 ||am-vid-events.taboola.com^
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -98714,6 +98722,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
+@@||fast.appcues.com^$script,domain=initial.inc
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
