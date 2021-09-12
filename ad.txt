@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CH3ensur/sYx7baEdlHETg
+! Checksum: 3YR1FC2znlzxQwRPS6oI1A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109122002
-! Last Modified: 2021年09月12日 20:02
+! Version: 202109130201
+! Last Modified: 2021年09月13日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4539,7 +4539,6 @@ $image,domain=ip.cn
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
-$script,third-party,xmlhttprequest,domain=btsow.digital
 $websocket,domain=5nj.com|cechi8.com
 .194007.com/4058.gif
 .gif|$domain=7mshipin.org|viidii.info|xgan.cn
@@ -5103,8 +5102,6 @@ _yad_jsonp_
 ||591hx.com/js/sy.js
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
-||5dm.tv/html/das.jpg
-||5dm.tv/html/popop.jpg
 ||5dmail.net/image/$object
 ||5dmail.net/image/ad_
 ||5dmail.net/image/ORF_1000.gif
@@ -14004,7 +14001,6 @@ duonaolive.com##[onclick^="track"]
 duodada.com##[style*="position: fixed; left: 0px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
-5dm.tv##a > img[src*=".sinaimg."]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
@@ -14071,7 +14067,7 @@ v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
-52movieba.com,5dm.tv,acglala.net,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.net,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mikuclub.org,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 rouman5.com##a[href*=".tapdb.net"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,chinalawedu.com,douyu.com,dzbhdm.com,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
@@ -14143,7 +14139,6 @@ solarbe.com##a[href*="redirect"] > img[width^="3"]
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 dzbhdm.com##a[href*="sourl.cn"]
 dapenti.com##a[href*="sq.cc"]
-5dm.tv##a[href*="suo.im"]
 mtrend.cn##a[href*="taomoubao.com"]
 jinti.com##a[href*="tempurchina.com"]
 58.com##a[href*="to8to.com"]
@@ -14193,7 +14188,6 @@ ziyuanba.com##a[href^="/ago."]
 liuli.pw##a[href^="/gg2/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
-5dm.tv##a[href^="/sina/"]
 fx112.com##a[href^="/union."]
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
@@ -14704,7 +14698,6 @@ matongwu.com.cn##div[style="height:90px;clear:both;"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
-btring.com##div[style="margin: 10px 0px;"]
 plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
 lanyes.org##div[style="margin:0 auto 10px;height:76px;overflow:hidden"]
@@ -14821,7 +14814,6 @@ nicemoe13.com##img[src*=".sinaimg."][style="width:100%;margin-top:0px;"]
 bccn.net##img[src*="data:"]
 3yan.cn##img[style*="300px"]
 jiangjunzy.com##img[style="height:75px;width: 100%"]
-btring.com##img[style="width: 25%"]
 scsn.cn##img[style^="height:70px;width:"]
 hall123.com,hi.people.com.cn,xizi.com##img[width="1000"]
 jmbbs.com##img[width="1100"]
@@ -17131,6 +17123,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||dycxkj.cn^
 ||dazhi360.cn^
+||sxouyada.cn^
+||haidongqing.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -19936,7 +19930,7 @@ ghxi.com#@#.social-item
 cowtransfer.com#@#.socialButton
 storm.mg#@#.social_btn
 ali213.net#@#.subscribe-container
-5dm.app,5dm.tv#@#.tm-share-this
+5dm.app#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
 @@-social-bar.$domain=mobi.yahoo.com
@@ -21059,7 +21053,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(common|forum|home|portal|seditor|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
