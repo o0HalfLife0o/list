@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IwVVtlJhONsv9/Q57RsOdg
+! Checksum: ZRUxD7Ef9FURYK3dihsedQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109131401
-! Last Modified: 2021年09月13日 14:01
+! Version: 202109132003
+! Last Modified: 2021年09月13日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9359,8 +9359,8 @@ _yad_jsonp_
 ||yxad.com/yxad/
 ||yxbao.com/js/bt_
 ||yxdd.com^$subdocument
-||yxdm.me/js/*_
-||yxdm.me/js/gad.js
+||yxdm.org/js/*_
+||yxdm.org/js/gad.js
 ||yxdown.com/cj/
 ||yxdown.com/pc/news/js/news
 ||yxdown.com/zt/zt/js/zt.js
@@ -11424,14 +11424,14 @@ wed114.cn##.adtwo
 114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 xmfish.com##.adv-760
 xmfish.com##.adv-960
-yxdm.me##.adv-bt
+yxdm.org##.adv-bt
 xinhuanet.com##.adv-column2
 wdzj.com##.adv-img
-yxdm.me##.adv0
+yxdm.org##.adv0
 shouji56.com##.adv01 + a
 qq.com##.adv1000
-kdhome.net,yxdm.me##.adv2
-kdhome.net,xinhuanet.com,yxdm.me##.adv3
+kdhome.net,yxdm.org##.adv2
+kdhome.net,xinhuanet.com,yxdm.org##.adv3
 myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
@@ -17126,8 +17126,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kplanet.cn^
 ||hxian.vip^
 bxwx3.org###addiv3
+||bsaq5.cn^
+||chrjkn.cn^
 bxwx3.org###bdstatic
 55shuba.com###botDiv
+||whrhzz.com^
+||xuyangwl.cn^
+||zzssywh.cn^
+||apsxm.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -20089,7 +20095,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.me
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.org
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||soufunimg.com/count/uvbforpc.js
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
