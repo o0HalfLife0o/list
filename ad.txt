@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZRUxD7Ef9FURYK3dihsedQ
+! Checksum: 9+715Sozx4IRzIkYmBOZVA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109132003
-! Last Modified: 2021年09月13日 20:03
+! Version: 202109140201
+! Last Modified: 2021年09月14日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1916,6 +1916,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||shengminsy.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -17134,6 +17135,11 @@ bxwx3.org###bdstatic
 ||xuyangwl.cn^
 ||zzssywh.cn^
 ||apsxm.cn^
+||theroads.cn^
+||ecai.info^
+||bqsm.com.cn^
+||me99.club^
+||wjyhyl.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -19715,9 +19721,6 @@ qq.com#@#.side_ad
 ||*^sdtfrom=^$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 !#Rewrite filters
-!#Rjno1.com
-rjno1.com##div[style="display:none"]
-||rjno1.com^$csp=script-src 'self' *;style-src
 !#Sejie.com
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > br
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
