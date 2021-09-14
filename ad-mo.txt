@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HQhXRlcR61Acu2V4H275cA
+! Checksum: 0t8LWrGoIxwoxj2zsOXw6g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109141401
-! Last Modified: 2021年09月14日 14:01
+! Version: 202109142005
+! Last Modified: 2021年09月14日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51067,7 +51067,7 @@ cheese.com,investorplace.com###bottom-banner
 audioreview.com###bottom-leaderboard
 nytimes.com,nytimes3xbfgragh.onion###bottom-wrapper
 funkypotato.com###bottom_banner_wrapper
-jamaicaobserver.com###bottom_leaderboard
+bleedingcool.com,jamaicaobserver.com###bottom_leaderboard
 bleedingcool.com###bottom_medium_rectangle
 flashscore.com,livescore.in###box-over-content-a
 planetminecraft.com###box_300atf
@@ -51185,6 +51185,7 @@ sourceforge.jp###gpt-sf_dev_300
 indianexpress.com###gpt_ad_IE_ROS_BUDGET_BAND
 proboards.com###gravity-stories-1
 spellcheck.net###grmrl_one
+streamingrant.com###hb-strip
 castanet.net###hdad
 flashgot.net###head a[target="_blаnk"]
 inventorspot.com,mothering.com,wordfind.com,yokogames.com###header
@@ -52924,7 +52925,7 @@ chtupdate.net##.widget_media_image.widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
-screenbinge.com##.widget_sp_image-image-link
+screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 lostintechnology.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 helpnetsecurity.com##.widgetized_wrapper
@@ -55964,6 +55965,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||asleyty.com^
+||azttxs.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -63583,8 +63586,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||s1-a1.dnvodcdn.me^*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com###J_gul_yglist
+2345.com###J_gul_yg + .mod
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71166,6 +71172,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||myz11111.cn^
 ||mrclown.cn^
 ||woquwaimai.vip^
+||shangzhe.vip^
+||aspaz.cn^
+||fkdwz.cn^
+||ahhwy.com^
+/js/pfad.js
+||astyk.cn^
+||wordisgod.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -98175,6 +98188,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
+@@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||api.cxense.com/public/widget/data?$domain=marketwatch.com|wsj.com
@@ -99405,7 +99419,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|seditor|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
