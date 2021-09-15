@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HK0I+YVE/TvFPpktWhBbFQ
+! Checksum: RFprbpte9H97jnxodCCrLA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109151401
-! Last Modified: 2021年09月15日 14:01
+! Version: 202109152004
+! Last Modified: 2021年09月15日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1914,9 +1914,15 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##DIV[id^="a"] > A[target="_blank"][style="margin-top:3px;"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||3332855.com^
+||3338675.com^
+||aonecomd.com^
+||crfrf.com^
+||7krvbn.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9540,6 +9546,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||hellocenter.xyz^*.mp4$rewrite=abp-resource:blank-mp4,domain=localmv1.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17131,6 +17138,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yaxinfushi.com.cn^
 ||sxsui.cn^
 ||xyhkj.vip^
+||zzshzg.cn^
+||hsdianqi.vip^
+||qpdyb.cn^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
