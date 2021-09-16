@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wd59jDug+vZWnY0YlVzniQ
+! Checksum: OAMUr2ne61XnB/AHHN6uJw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109160813
-! Last Modified: 2021年09月16日 08:13
+! Version: 202109161401
+! Last Modified: 2021年09月16日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16687,7 +16687,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||5atxt.com/js/mm
 .com/js/wap_billing.js
+###asdw3 + img + :not(div)
+###asdw3
 ||wjlzs.cn^
+||hxfree.vip^
+||duier.top^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -22226,6 +22230,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /?sentry_key=
 /?sentry_version=
 /?swift-performance-tracking
+/@adshield/*
 /_/lite/performance/*
 /__analytics/*
 /__dam.gif?
@@ -22376,6 +22381,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ads_tracker.
 /ads_tracking.
 /adsct?
+/adshield-
 /adstat.
 /adstatistics/*
 /adstats.
@@ -25952,6 +25958,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats.php?format=
 /stats.php?type=
 /stats.php?uri=
+/stats.wp.com/*
 /stats/*?category=$image
 /stats/?js
 /stats/?ref=
@@ -27565,6 +27572,7 @@ _mongo_stats/
 ||mt48.net^
 ||nxakpj4ac8gkd53.info^
 ||pdflive.org^
+||progmxs.com^
 ||propeller-tracking.com^
 ||r42tag.com^
 ||sbgsodufuosmmvsdf.info^
@@ -33623,6 +33631,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.tattermedia.com^
 ||statistics.wibiya.com^
 ||statm.the-adult-company.com^
+||stats-bq.stylight.net^
 ||stats-messages.gifs.com^
 ||stats-newyork1.bloxcms.com^
 ||stats.big-boards.com^
@@ -33910,6 +33919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackjs.com/usage.gif?
 ||trackla.stackla.com^
 ||tradablebits.com/pixels/
+||trading24.io/erwrtyo8blqeyz4$xmlhttprequest,domain=op.gg
 ||traffic.acwebconnecting.com^
 ||traffic.prod.cobaltgroup.com^
 ||traffic.shareaholic.com^
@@ -35574,6 +35584,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixiedust.buzzfeed.com^
 ||planetradio.co.uk/crystal/log
 ||plausible.nuqu.org^
+||plausible.omgapi.org^
 ||player-telemetry.vimeo.com^
 ||pocket-lint.com/media/pf304.js
 ||poki.com/observer/
@@ -36028,6 +36039,7 @@ techxplore.com##.embed-responsive-trendmd
 ||foodpanda.ro/lJuB4eTB/init.js
 ||foodpanda.sg/lJuB4eTB/init.js
 ||foursquare.com/0UqK4c76/init.js
+||freepeople.com/tN88Q85M/init.js
 ||hotpads.com/xOR1K5b6/init.js
 ||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
