@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bw/PeCQOBjmLHIrXpOfF+w
+! Checksum: JwugNAuJPAKb6m7s+SychQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109161401
-! Last Modified: 2021年09月16日 14:01
+! Version: 202109162002
+! Last Modified: 2021年09月16日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24535,6 +24535,7 @@ _800x80_
 ##.editor_ad
 ##.editorial-adsense
 ##.editors-ads
+##.eg-ad
 ##.eg-custom-ad
 ##.eg_guides_sidebar_ad
 ##.ehs-adbridge
@@ -54699,6 +54700,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+/js/sjgg.js
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -56028,6 +56030,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*=".5599722.com"]
+##A[href*=".d2mzb.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -71252,6 +71256,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wjlzs.cn^
 ||hxfree.vip^
 ||duier.top^
+||cehbs.com^
+||baojiada.vip^
+||jwmfxp.xyz^
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###content > div[style="padding:10px!important;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -99525,6 +99532,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
+||to8to.com/to8to_pc/common/modules/bottom_up_slide/
+||pconline.com.cn/global/footer/index.html
 !------------------------Specific element hiding rules------------------------!
 finance.sina.com.cn##DIV[class*="game"]
 ssuip.com###mask

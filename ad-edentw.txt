@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XfdZUaHN+SKWlEMRN/n3DA
+! Checksum: oW+MQSehXAnjrjweRMftGQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109160813
-! Last Modified: 2021年09月16日 08:13
+! Version: 202109162002
+! Last Modified: 2021年09月16日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1750,6 +1750,7 @@ liveforums.ru#$#abort-on-property-read tnAdditionalParams
 tagaev.com#$#abort-on-property-read PUM
 web-shpargalka.ru#$#abort-on-property-read Date.prototype.toUTCString
 musify.club#$#abort-on-property-read get_ya_browser
+kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
 ! Popup/popunder/clickunder
 serialfilm.ru,freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,zloekino.su,zloekino.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,zloekino.com#$#abort-on-property-read open
 hdkinoteatr.com#$#abort-on-property-read cuec
@@ -1814,7 +1815,7 @@ fancoiphim.net#$#override-property-read time_load_ads_1 0
 truyen4u.net#$#abort-on-property-read document.body
 ! Popup/Popunder/Clickunder
 !xemphimgi.net#$#abort-current-inline-script jQuery /.preload-11bet-pc/
-motphimmoi.net,biphimtv.net#$#abort-on-property-read open; abort-on-property-write window.location.href
+motphimmoi.net,biphimtv.net,rphangs.net#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.com,mrdhan.com,xemphimgi.net,lxhentai.com#$#abort-on-property-read open
 !fancoiphim.net#$#abort-current-inline-script JSON.parse /atob/
 tapmoi.net#$#abort-on-property-read SmartPopunder
