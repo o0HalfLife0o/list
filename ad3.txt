@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RWsJw5Lxy3k1sTDbSeV/6w
+! Checksum: kns9J8XZBavp7b0/zBqaVw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109171401
-! Last Modified: 2021年09月17日 14:01
+! Version: 202109172003
+! Last Modified: 2021年09月17日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16694,6 +16694,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||597txt1.com^*.php
 ||bizhub-cloud.cn^
 ||abjjsc.cn^
+||ye-n-universitiy.xyz^
+||ccioo.vip^
+||duofulai.vip^
+||jiasheng-china.cn^
+||jmhai.com^
+||jinyingbaozhuang.com^
+||qiyix.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -22376,6 +22383,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /adobe/VisitorAPI-
 /adobeAnalytics/*
 /AdobeAnalyticsAndTargetOverwrites.
+/AdobeAnalyticsBundle.
 /AdobeAnalyticsEvent.
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
@@ -30726,6 +30734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||absorbingcorn.com^$third-party
 ||absorbingprison.com^$third-party
 ||abstractedamount.com^$third-party
+||abstractedauthority.com^
 ||absurdapple.com^$third-party
 ||acidpigs.com^$third-party
 ||acridtwist.com^$third-party
@@ -30864,6 +30873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||homelycrown.com^$third-party
 ||honorableland.com^$third-party
 ||horsenectar.com^$third-party
+||hystericalcloth.com^
 ||immensehoney.com^$third-party
 ||importedincrease.com^$third-party
 ||importedinsect.com^$third-party
@@ -32089,6 +32099,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chegg.com^
 ||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
+||analytics.cmn.com^
 ||analytics.codigo.se^
 ||analytics.cohesionapps.com^
 ||analytics.convertlanguage.com^
