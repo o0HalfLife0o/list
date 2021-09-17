@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5++iLOKVaA2L+nUxQvfl4g
+! Checksum: +T/ZRrR+XSHFUfEK/EbFlA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109172003
-! Last Modified: 2021年09月17日 20:03
+! Version: 202109180201
+! Last Modified: 2021年09月18日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5587,7 +5587,7 @@ _yad_jsonp_
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=1024x9.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|55yyy.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
+||alicdn.com^$domain=1024kv.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|55yyy.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alicdn.com^*_!!3361094544.
@@ -8188,9 +8188,9 @@ _yad_jsonp_
 ||qhdlz.net/uploads/glxs/980x120.jpg
 ||qhimg.com/ssl/20212c7594890e1c.js
 ||qhimg.com/static/*/common/seed.js
-||qhimg.com^$domain=1024x9.com|hero3g.com
+||qhimg.com^$domain=1024kv.com|hero3g.com
 ||qhimgs1.com/t029762bc960d5104ef.jpg
-||qhmsg.com^$domain=1024x9.com
+||qhmsg.com^$domain=1024kv.com
 ||qhnews.com/tupian/
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
@@ -8788,7 +8788,7 @@ _yad_jsonp_
 ||touimg.com/u/20200510/2142*.gif
 ||touimg.com/u/20200703/18570683.gif
 ||touimg.com^$domain=dyzd1.com
-||toutiaoimg.com^$domain=1024x9.com
+||toutiaoimg.com^$domain=1024kv.com
 ||tp.sgcn.com^
 ||tq121.com.cn/j/ad/
 ||trafficjam.cn^$third-party
@@ -9552,6 +9552,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||imomoe.la/pic/222.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -10292,7 +10293,7 @@ hao123.com###headJoke
 tbxt.com###headad2
 solidot.org###headads
 159i.com###header + div > style + div[class]
-1024x9.com###header > center
+1024kv.com###header > center
 houdao.com###header-ban
 maxthon.cn###header-float-promote
 2345.com###header-img-new
@@ -12737,7 +12738,7 @@ duba.com,newduba.cn##.left_slidebar_con
 bt.cn##.left_wrap:nth-child(3)
 hkwb.net##.leftadv2
 hao123.com##.leftbanner
-1024x9.com##.leftd
+1024kv.com##.leftd
 muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 2dfan.com,galge.fun##.leftside-bg
@@ -13530,7 +13531,7 @@ suizhoushi.com##.sznew_ad_top
 17yy.com##.t2_3
 17yy.com##.t2r_3
 suopao.org##.t5[style^="margin-top:8px;"]
-1024x9.com##.t[style="margin-top:8px"]
+1024kv.com##.t[style="margin-top:8px"]
 bbs.fobshanghai.com##.t_infoline
 555dy.fun##.tab-content + .col-pd
 douyu.com##.tab-content.promote
@@ -14490,7 +14491,7 @@ weishangshijie.cn##div[class^="news_a"]
 wasu.cn##div[class^="play_ads"]
 ifeng.com##div[class^="pplive"]
 ifeng.com##div[class^="ppx_wrap-"]
-1024x9.com,99syy1.com##div[class^="ps_"]
+1024kv.com,99syy1.com##div[class^="ps_"]
 tophub.today##div[class^="qc"]
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 sogou.com##div[class^="rt-gameright"]

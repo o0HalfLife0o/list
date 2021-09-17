@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OG4QU/qobCV5fQLUJ6EpUw
+! Checksum: Hp84BU6YkqAorvMnaHEQsA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109172003
-! Last Modified: 2021年09月17日 20:03
+! Version: 202109180201
+! Last Modified: 2021年09月18日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -42504,6 +42504,7 @@ tf2r.com#@#.adverts
 ||thansendmaterial-14.live^
 ||thatitgivesm.biz^
 ||thaudray.com^
+||thautsie.net^
 ||thaveksi.net^
 ||theapple.site^
 ||theationopo.club^
@@ -48942,6 +48943,7 @@ tf2r.com#@#.adverts
 ||koncbabae.com^
 ||koradu.com^
 ||libedgolart.com^
+||maldini.xyz^
 ||melvillet.pro^
 ||nebadu.com^
 ||nkmsite.com^
@@ -49965,6 +49967,7 @@ tf2r.com#@#.adverts
 ||serve.williamhillcasino.com^$popup
 ||skipvideoads.com^$popup
 ||smartblocker.org^$popup
+||streamblocked.com^$popup
 ||torrent-protection.com^$popup
 ||unibet.co.uk/*affiliate$popup
 ||vid-adblocker.com^$popup
@@ -51112,7 +51115,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
-/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|fantasti.cc|fapality.com|freeporn8.com|gfsvideos.com|hellporno.com|iceporn.com|katestube.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|sexytorrents.info|shameless.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxxdessert.com|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|fantasti.cc|fapality.com|fapnado.com|freeporn8.com|gfsvideos.com|hellporno.com|iceporn.com|katestube.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|sexytorrents.info|shameless.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxxdessert.com|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.tv
 /^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
 $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
@@ -59821,7 +59824,7 @@ _yad_jsonp_
 ||alicdn.com/tfscom/*.sina.
 ||alicdn.com/tps/*-950-90.
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
-||alicdn.com^$domain=1024x9.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|55yyy.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
+||alicdn.com^$domain=1024kv.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|55yyy.cc|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|tv4.cc|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
 ||alicdn.com^*.gif$domain=hmog.me
 ||alicdn.com^*.jpg$domain=hmog.me
 ||alicdn.com^*_!!3361094544.
@@ -62422,9 +62425,9 @@ _yad_jsonp_
 ||qhdlz.net/uploads/glxs/980x120.jpg
 ||qhimg.com/ssl/20212c7594890e1c.js
 ||qhimg.com/static/*/common/seed.js
-||qhimg.com^$domain=1024x9.com|hero3g.com
+||qhimg.com^$domain=1024kv.com|hero3g.com
 ||qhimgs1.com/t029762bc960d5104ef.jpg
-||qhmsg.com^$domain=1024x9.com
+||qhmsg.com^$domain=1024kv.com
 ||qhnews.com/tupian/
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
@@ -63022,7 +63025,7 @@ _yad_jsonp_
 ||touimg.com/u/20200510/2142*.gif
 ||touimg.com/u/20200703/18570683.gif
 ||touimg.com^$domain=dyzd1.com
-||toutiaoimg.com^$domain=1024x9.com
+||toutiaoimg.com^$domain=1024kv.com
 ||tp.sgcn.com^
 ||tq121.com.cn/j/ad/
 ||trafficjam.cn^$third-party
@@ -63786,6 +63789,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||imomoe.la/pic/222.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -64526,7 +64530,7 @@ hao123.com###headJoke
 tbxt.com###headad2
 solidot.org###headads
 159i.com###header + div > style + div[class]
-1024x9.com###header > center
+1024kv.com###header > center
 houdao.com###header-ban
 maxthon.cn###header-float-promote
 2345.com###header-img-new
@@ -66971,7 +66975,7 @@ duba.com,newduba.cn##.left_slidebar_con
 bt.cn##.left_wrap:nth-child(3)
 hkwb.net##.leftadv2
 hao123.com##.leftbanner
-1024x9.com##.leftd
+1024kv.com##.leftd
 muzhi.baidu.com##.leftnest
 ifeng.com##.leftpopad
 2dfan.com,galge.fun##.leftside-bg
@@ -67764,7 +67768,7 @@ suizhoushi.com##.sznew_ad_top
 17yy.com##.t2_3
 17yy.com##.t2r_3
 suopao.org##.t5[style^="margin-top:8px;"]
-1024x9.com##.t[style="margin-top:8px"]
+1024kv.com##.t[style="margin-top:8px"]
 bbs.fobshanghai.com##.t_infoline
 555dy.fun##.tab-content + .col-pd
 douyu.com##.tab-content.promote
@@ -68724,7 +68728,7 @@ weishangshijie.cn##div[class^="news_a"]
 wasu.cn##div[class^="play_ads"]
 ifeng.com##div[class^="pplive"]
 ifeng.com##div[class^="ppx_wrap-"]
-1024x9.com,99syy1.com##div[class^="ps_"]
+1024kv.com,99syy1.com##div[class^="ps_"]
 tophub.today##div[class^="qc"]
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 sogou.com##div[class^="rt-gameright"]
@@ -79998,6 +80002,7 @@ _mongo_stats/
 ||glimr.io^
 ||i218435.net^
 ||impactcdn.com^
+||innerskinresearch.com^
 ||irs01.com^
 ||ldnlyap.com^
 ||liveyield.com^
@@ -84726,6 +84731,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bmrg.reflected.net^
 ||bobparsons.com/image.aspx?
 ||bolt.com/v1/log?
+||botdetection.hbrsd.com^
 ||bpath.com/count.dll?
 ||branch.io^$third-party
 ||brandcdn.com/pixel/
@@ -85040,7 +85046,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
+||d36u3psykfwy91.cloudfront.net^
+||d36upaw912d02q.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
+||d3bj8nkfly20uo.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3hb14vkzrxvla.cloudfront.net/health-check
@@ -85053,6 +85062,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
+||d3qfdthu9f51gu.cloudfront.net^
 ||d3qxef4rp70elm.cloudfront.net/m.js
 ||d3qxwzhswv93jk.cloudfront.net^
 ||d3r7h55ola878c.cloudfront.net^
@@ -85289,6 +85299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
 ||futurecdn.net^*/abp.js
+||futurehybrid.tech^$third-party
 ||fw.tv/embed/impressions
 ||fwcdn1.com/js/fwn.js
 ||fwix.com/ref.js
@@ -85967,6 +85978,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.azioncdn.net^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
+||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
