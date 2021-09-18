@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u78DgVm+w8Ipw9SrHIIEIw
+! Checksum: UchiurwHB3JJsTUWjXnunA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109180812
-! Last Modified: 2021年09月18日 08:12
+! Version: 202109182002
+! Last Modified: 2021年09月18日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1275,7 +1275,7 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
-www.facebook.com#$#hide-if-matches-xpath '//a[starts-with(@href,"https://l.facebook.com/")][@aria-label]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
+www.facebook.com#$#hide-if-matches-xpath '//*[@aria-label="Apply Now" or @aria-label="Shop Now" or @aria-label="Sign Up" or @aria-label="Get Offer" or @aria-label="Learn More" or @aria-label="Book Now" or @aria-label="Sign Up" or @aria-label="Download" or @aria-label="Subscribe" or @aria-label="Get Directions" or @aria-label="Watch More" or @aria-label="Get Quote" or @aria-label="Support Now" or @aria-label="Get Tickets" or @aria-label="Contact Us" or @aria-label="Play Game" or @aria-label="Like Page" or @aria-label="Request Time" or @aria-label="Donate Now" or @aria-label="Sell Now" or @aria-label="Listen Now" or @aria-label="Donate" or @aria-label="Buy Now"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]//span[@class][not(@style) and not(@id)][text()="Apply Now" or text()="Shop Now" or text()="Sign Up" or text()="Get Offer" or text()="Learn More" or text()="Book Now" or text()="Sign Up" or text()="Download" or text()="Subscribe" or text()="Get Directions" or text()="Watch More" or text()="Get Quote" or text()="Support Now" or text()="Get Tickets" or text()="Contact Us" or text()="Play Game" or text()="Like Page" or text()="Request Time" or text()="Donate Now" or text()="Sell Now" or text()="Listen Now" or text()="Donate" or text()="Buy Now"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 www.facebook.com#$#hide-if-matches-xpath './/span[@class][not(self::node()[@id])][count(./span)=0][self::node()[contains(@style,"absolute")]]'
 www.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-visualcompletion="ignore-late-mutation"] span[class]:not([id])
 www.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-pagelet^="FeedUnit_"] span[class]:not([id])
@@ -1495,6 +1495,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
+www.facebook.com#$#hide-if-matches-xpath '//*[@aria-label="Voir d’autres vidéos" or @aria-label="Inscrivez-vous dès maintenant" or @aria-label="S’inscrire" or @aria-label="En savoir plus" or @aria-label="Acheter" or @aria-label="Réserver" or @aria-label="Obtenir un devis" or @aria-label="Postuler maintenant" or @aria-label="Profiter de l’offre" or @aria-label="Aimer la Page" or @aria-label="Ça m’intéresse" or @aria-label="Télécharger" or @aria-label="Recevoir l’offre" or @aria-label="Obtenir des billets" or @aria-label="Réserver maintenant" or @aria-label="Nous contacter" or @aria-label="Faire un don" or @aria-label="J’aime la Page" or @aria-label="S’abonner"]//span[text()="Voir d’autres vidéos" or text()="Inscrivez-vous dès maintenant" or text()="S’inscrire" or text()="En savoir plus" or text()="Acheter" or text()="Réserver" or text()="Obtenir un devis" or text()="Postuler maintenant" or text()="Profiter de l’offre" or text()="Aimer la Page" or text()="Ça m’intéresse" or text()="Télécharger" or text()="Recevoir l’offre" or text()="Obtenir des billets" or text()="Réserver maintenant" or text()="Nous contacter" or text()="Faire un don" or text()="J’aime la Page" or text()="S’abonner"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 ! #CV-663
 letocard.fr#$#freeze-element .nav-menu abort [id^="menu-item-"]
 mamieastuce.com#$#freeze-element #sidebar abort .widget_text
@@ -1783,6 +1784,7 @@ www.ukr.net#$#override-property-read Math.random trueFunc; hide-if-shadow-contai
 112ua.tv,24boxing.com.ua,4mama.ua,avtovod.com.ua,avtovod.org.ua,besplatka.ua,bilshe.com,buhgalter.com.ua,buhgalter911.com,businessua.com,censor.net,dengi.ua,enovosty.com,epravda.com.ua,eurointegration.com.ua,f1analytic.com,facenews.ua,football-ukraine.com,football24.ua,footballtransfer.com.ua,gismeteo.ua,gorod.dp.ua,hvylya.net,inforesist.org,internetua.com,kolobok.ua,kp.ua,kriminal.tv,lifedon.com.ua,mport.ua,nashamama.com,newsyou.info,nnovosti.info,okino.ua,ostro.org,perevod.i.ua,real-vin.com,sinoptik.ua,smak.ua,sportanalytic.com,toneto.net,tv.ua,tvgid.ua,u-news.com.ua,udoktora.net,vsetv.com,zdorovia.com.ua#$#override-property-read String.prototype.charCodeAt trueFunc
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
 ! #CV-761
+www.facebook.com#$#hide-if-matches-xpath '//*[@aria-label="Obtener oferta" or @aria-label="Hacer donación" or @aria-label="Obtener acceso" or @aria-label="Más información" or @aria-label="Comprar" or @aria-label="Postularte" or @aria-label="Descargar" or @aria-label="Ver boletos" or @aria-label="Registrarte" or @aria-label="Reservar" or @aria-label="Contactarnos" or @aria-label="Patrocinado" or @aria-label="Ver más" or @aria-label="Me gusta esta página" or @aria-label="Publicidad" or @aria-label="Jugar" or @aria-label="Enviar solicitud" or @aria-label="Ver horarios" or @aria-label="Seguir" or @aria-label="Vender ahora" or @aria-label="Donar" or @aria-label="Ver funciones" or @aria-label="Suscribirte"]//span[@class][@dir="auto"]/span[@class][not(@style) and not(@id)][text()="Obtener acceso" or text()="Más información" or text()="Comprar" or text()="Postularte" or text()="Descargar" or text()="Ver boletos" or text()="Registrarte" or text()="Reservar" or text()="Contactarnos" or text()="Patrocinado" or text()="Ver más" or text()="Me gusta esta página" or text()="Publicidad" or text()="Jugar" or text()="Enviar solicitud" or text()="Ver horarios" or text()="Seguir" or text()="Vender ahora" or text()="Donar" or text()="Ver funciones" or text()="Suscribirte" or text()="Hacer donación" or text()="Obtener oferta"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 ! #CV-667
 !envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current-inline-script Math zfgloaded
 ! #9272
