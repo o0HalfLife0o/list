@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GltxEOZ9ByAXPe5fHKTdsw
+! Checksum: u78DgVm+w8Ipw9SrHIIEIw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109172003
-! Last Modified: 2021年09月17日 20:03
+! Version: 202109180812
+! Last Modified: 2021年09月18日 08:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1275,6 +1275,7 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
+www.facebook.com#$#hide-if-matches-xpath '//a[starts-with(@href,"https://l.facebook.com/")][@aria-label]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 www.facebook.com#$#hide-if-matches-xpath './/span[@class][not(self::node()[@id])][count(./span)=0][self::node()[contains(@style,"absolute")]]'
 www.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-visualcompletion="ignore-late-mutation"] span[class]:not([id])
 www.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-pagelet^="FeedUnit_"] span[class]:not([id])
