@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UchiurwHB3JJsTUWjXnunA
+! Checksum: LSAyiGq+RjN+hPtvyy2MMQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109182002
-! Last Modified: 2021年09月18日 20:02
+! Version: 202109190201
+! Last Modified: 2021年09月19日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1284,6 +1284,8 @@ www.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[
 www.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
 www.facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
+! experimental
+www.facebook.com#$#hide-if-matches-xpath '//span[count(child::span) >= 29][count(child::span) <= 35]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]//*[contains(@aria-label," ")]//div[@class]//span[@class][contains(text()," ")]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 ! #CV-241
 swatchseries.to#$#abort-on-property-read zfgloadednative
 ! #CV-661
@@ -1561,6 +1563,7 @@ vostfree.com#$#abort-on-property-write _pop
 strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
 ! #CV-761
+www.facebook.com#$#hide-if-matches-xpath '//*[@aria-label="Seite gefällt mir" or @aria-label="Weitere Infos" or @aria-label="Herunterladen" or @aria-label="Weitere ansehen" or @aria-label="Jetzt bewerben" or @aria-label="Jetzt kaufen" or @aria-label="Jetzt buchen" or @aria-label="Registrieren" or @aria-label="Angebot beanspruchen" or @aria-label="Tickets" or @aria-label="Kontaktiere uns" or @aria-label="Abonnieren" or @aria-label="Angebot einholen" or @aria-label="Spielen" or @aria-label="Jetzt spenden" or @aria-label="Jetzt verkaufen"]//span[text()="Seite gefällt mir" or text()="Weitere Infos" or text()="Herunterladen" or text()="Weitere ansehen" or text()="Jetzt bewerben" or text()="Jetzt kaufen" or text()="Jetzt buchen" or text()="Registrieren" or text()="Angebot beanspruchen" or text()="Tickets" or text()="Kontaktiere uns" or text()="Abonnieren" or text()="Angebot einholen" or text()="Spielen" or text()="Jetzt spenden" or text()="Jetzt verkaufen"]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_") or (@data-visualcompletion="ignore-late-mutation")]'
 ! #CV-691
 ebay.de#$#hide-if-contains-visible-text /Anzeige|ANZEIGE/ 'li.s-item' 'li.s-item span[role="text"]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
