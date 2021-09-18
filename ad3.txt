@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E5BBBIRfZeI2sFCyFjNzwg
+! Checksum: RxrxFFFeDf0NgXEDCjvgeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109180812
-! Last Modified: 2021年09月18日 08:12
+! Version: 202109181402
+! Last Modified: 2021年09月18日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1472,9 +1472,17 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A > IMG[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
+##A[href*=".3366722.com"]
+##A[target="_blank"] > IMG[src*=".bitautoimg.com/"][src$=".gif"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||imgpipi.xyz^
+||imglele.xyz^
+||tttppp.oss-cn-guangzhou.aliyuncs.com^
+||wootwood.com^
+||imglolo.xyz^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9108,6 +9116,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zhongyao1.com/ad580.jpg
+||ebioweb.com/newsf/js/news_top_banner.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16696,6 +16705,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cuhzsx.xyz^
 ||ccxhpipe.cn^
 ||qiuchuanling.cn^
+||gsb9.cn^
+||yzjihang.cn^
+||zgctig.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -27614,6 +27626,7 @@ _mongo_stats/
 ||tatpek.com^
 ||the-ozone-project.com^
 ||trackclicks.info^
+||trkbc.com^
 ||truffle.bid^
 ||wknd.ai^
 ||z0uolej1qnxzub1.info^
@@ -32855,6 +32868,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedify.net/thirdparty/json/track/
 ||filament-stats.herokuapp.com^
 ||filesonic.com/referral/$third-party
+||fiorenetwork.com/aparatvast/log.php?
 ||firebaselogging-pa.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
 ||fitanalytics.com/metrics/
@@ -33907,6 +33921,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.americaneagle.com^
 ||tracking.badgeville.com^$third-party
 ||tracking.brandmentions.com^
+||tracking.buygoods.com^
 ||tracking.cerdmann.com^
 ||tracking.customerly.io^
 ||tracking.drsfostersmith.com^$third-party
@@ -35541,6 +35556,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||messari.io/js/wutangtrack.js
+||messiah.id/api/event
+||messiah.id/js/script.js
 ||metacrawler.com/pingback
 ||metrics.bangbros.com^
 ||metrics.hackerrank.com^
