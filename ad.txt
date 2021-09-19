@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Xdu3KkvCWFbv4eySNuShfQ
+! Checksum: oiIxffmZJKMC04LrH+rEEA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109190814
-! Last Modified: 2021年09月19日 08:14
+! Version: 202109191401
+! Last Modified: 2021年09月19日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9563,8 +9563,14 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||4gamers.com.tw/ads-
+||4gamers.com.tw/site/iframe-aols/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+4gamers.com.tw##.scroller-ads-wrapper
+4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
+4gamers.com.tw##.mobile-bottom-ads
+4gamers.com.tw##.interstitial-ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17147,6 +17153,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ningmengshenhuo.com^
 ||zzbbjh.cn^
 ||guigankj.cn^
+||xhmybanjia.cn^
+||qpzsh.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
