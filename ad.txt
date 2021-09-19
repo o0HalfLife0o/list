@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oiIxffmZJKMC04LrH+rEEA
+! Checksum: 6h1tiKMidgGEeFgjX8LAfg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109191401
-! Last Modified: 2021年09月19日 14:01
+! Version: 202109192002
+! Last Modified: 2021年09月19日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17155,6 +17155,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||guigankj.cn^
 ||xhmybanjia.cn^
 ||qpzsh.cn^
+||schicksalnvi.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -20008,7 +20009,7 @@ baidu.com,youdao.com,yun.cn#@#.share-content
 youdao.com#@#.share-icon
 baidu.com#@#.share-line
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
-baidu.com,meidebi.com,weicaixun.com#@#.share-list
+meidebi.com,weicaixun.com#@#.share-list
 kuaishou.com#@#.share-page
 189.cn#@#.share-panel
 youdao.com#@#.share-text

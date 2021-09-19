@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G4n9O1Hu29ze5qi3ENOmQg
+! Checksum: YksTdjJWfmCU6gOksBlHYA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109191401
-! Last Modified: 2021年09月19日 14:01
+! Version: 202109192002
+! Last Modified: 2021年09月19日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16708,6 +16708,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||guigankj.cn^
 ||xhmybanjia.cn^
 ||qpzsh.cn^
+||schicksalnvi.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -19561,7 +19562,7 @@ baidu.com,youdao.com,yun.cn#@#.share-content
 youdao.com#@#.share-icon
 baidu.com#@#.share-line
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
-baidu.com,meidebi.com,weicaixun.com#@#.share-list
+meidebi.com,weicaixun.com#@#.share-list
 kuaishou.com#@#.share-page
 189.cn#@#.share-panel
 youdao.com#@#.share-text
@@ -24657,6 +24658,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /log?tag=
 /log?track_
 /log?type=
+/log?uuid=
 /log_agent.
 /log_beacon.
 /log_e.php?id=
@@ -32919,7 +32921,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fresh.inlinkz.com^$third-party
 ||fs-client-logger.herokuapp.com^
 ||ftimg.net/js/log.js?
-||fullstory.com/s/fs.js$third-party
 ||future-fie-assets.co.uk^
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
@@ -33043,7 +33044,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hubspot.com/cs/loader-v2.js
 ||hubspot.com/tracking/
 ||hypercomments.com/widget/*/analytics.html
-||i-amlg-prod.appspot.com/display?
 ||i.compendium.com^
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.viafoura.co^
@@ -33339,7 +33339,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||musvc2.net/e/c?
 ||mutinyhq.com/impressions/
 ||mv.treehousei.com^
-||mx.technolutions.net^
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
 ||myfinance.com/widget/
@@ -33549,7 +33548,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pxchk.net/b/s
 ||pxt.daz3d.com^
 ||qcloud.com/report.go?
-||qq.com/code.cgi?
 ||qq.com/collect?
 ||qq.com/dataimport/
 ||qq.com/heatmap/
@@ -33671,7 +33669,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sli-spark.com/b.png$third-party
 ||slidedeck.com^$image,third-party
 ||smartertravel.com/ext/pixel/
-||smetrics.centurylink.com^
 ||smg.com/Etrack/
 ||smrt.as^
 ||snapkit.com/v1/sdk/metrics/
@@ -33834,6 +33831,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||targeting.*.arcpublishing.com^
 ||tcheck.outbrainimg.com^
 ||te.supportfreecontent.com^
+||technolutions.net/ping?
 ||technorati.com/technoratimedia-pixel.js
 ||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
@@ -33876,7 +33874,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tr1.mailperformance.com^
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||traccoon.intellectsoft.net^
-||trace.qq.com^$third-party
 ||track.99acres.com^
 ||track.addevent.com^
 ||track.atgstores.com^$third-party
@@ -34026,7 +34023,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||try.abtasty.com^
 ||ts.tradetracker.net^
 ||tvpage.com^*/__tvpa.gif?
-||twitter.com/i/jot
 ||twitter.com/jot.html
 ||twitter.com/oct.js
 ||twitter.com/scribe/
@@ -34119,7 +34115,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webstats.motigo.com^$third-party
 ||webstats.thaindian.com^
 ||websuccess-data.com/tracker.js
-||webterren.com/webdig.js?
 ||webtracker.apicasystem.com^
 ||webvoo.com/wt/Track.aspx
 ||webvoo.com^*/logtodb.
@@ -35479,7 +35474,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hqq.tv/cdn-cgi/trace
 ||html5games.com/event/
 ||hulkshare.com/ajax/tracker.php
-||hulu.com/api/v1/page-hit
 ||hulu.com/metricsconfig
 ||i.pokernews.com^
 ||ibt.com/front/js/counter.js
@@ -35526,7 +35520,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||juno.com/start/javascript.do?message=
 ||justanswer.com/browsercheck/
 ||kayak.com/k/redirect/tracking?
-||kayak.com/s/run/perf
 ||kck.st/web/track
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
@@ -35669,7 +35662,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixelzirkus.gameforge.com^
 ||pixiedust.buzzfeed.com^
 ||planetradio.co.uk/crystal/log
-||plausible.nuqu.org^
 ||plausible.omgapi.org^
 ||player-telemetry.vimeo.com^
 ||pocket-lint.com/media/pf304.js
@@ -35753,7 +35745,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slipstream.skyscanner.net^
 ||smallcapnetwork.com/zfbp/viewtracker/
 ||smassets.net/assets/anonweb/anonweb-click-
-||smetrics.delta.com^
 ||snapchat.com/web/metrics
 ||solvusoft.com^*/scripts/visitor.js
 ||soundcloud.com^$ping
@@ -35881,7 +35872,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.dnaindia.com^
 ||stats.fs.com^
 ||stats.ibtimes.co.in^
-||stats.nrcaknights.com^
 ||stats.pandora.com^
 ||stats.paste2.org^
 ||stats.pstream.net^
@@ -41943,15 +41933,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tc.airfrance.com^
 ||tcdata.fnac.com^
 ||data.cofinoga.fr^
-||data.ouigo.com^
 ||sales.disneylandparis.com^
 ||tag.boulanger.fr^
 ||favor1.fractal.jp^
-||i.image-ad.jp^
 ||j.bg.adresult-sp.jp^
-||j.image-ad.jp^
 ||d.image-ad.jp^
-||j.bg.adresult-sp.jp^
 ||i.image-ad.jp^
 ||j.image-ad.jp^
 ||newssuite.sony.net^
@@ -46019,6 +46005,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics.163.com^
 ||analytics.oneplus.cn^
 ||analytics.shop.hisense.com^
+||api.baike.sogou.com/dr/p1.gif?
 ||applog.yiche.com^
 ||autohome.com.cn/deliver?
 ||autohome.com.cn/impress?
@@ -46045,6 +46032,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||funshion.com/interface/
 ||gia.jd.com^
 ||hdslb.com/images/isptrack.js
+||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
 ||i-cable.com/ci/tracking/
