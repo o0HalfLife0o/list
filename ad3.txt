@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6M5i8vw29VP4rbrEfOSnmw
+! Checksum: C1NLtbRUtbU9Yj82J+bvkw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109202002
-! Last Modified: 2021年09月20日 20:02
+! Version: 202109210202
+! Last Modified: 2021年09月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9123,6 +9123,7 @@ _yad_jsonp_
 ||53shop.com/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+85tube.com##.player + .sponsor
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14722,6 +14723,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||85tube.com^$generichide
+@@||85tube.com/player/player_ads.html
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -27018,6 +27021,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wp-powerstat/*
 /wp-rum/*
 /wp-slimstat/*
+/wp-statistics/v2/hit?
 /wp-useronline/useronline.
 /wp.gif?wpi
 /wp_stat.php?

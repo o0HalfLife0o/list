@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: onb04JNO4HmiADB0wc5wGg
+! Checksum: B7yXzFa5hyWlBEQIVXQP8Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109202002
-! Last Modified: 2021年09月20日 20:02
+! Version: 202109210202
+! Last Modified: 2021年09月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6610,6 +6610,7 @@ tieba.baidu.com##.tuijian-wrap
 /textads-
 /textads.
 /textads/*
+/textads?
 /textads_
 /textadspromo_
 /tfs-ad.
@@ -21839,6 +21840,7 @@ _800x80_
 ##.adthrive
 ##.adthrive-ad
 ##.adthrive-header
+##.adthrive-header-container
 ##.adthx
 ##.adtile
 ##.adtips
@@ -22987,6 +22989,7 @@ _800x80_
 ##.articles-ad-block
 ##.artist-ad-wrapper
 ##.artnet-ads-ad
+##.artstyle__advertisement
 ##.as-admedia
 ##.as_ad
 ##.as_social_footer
@@ -34583,6 +34586,7 @@ tf2r.com#@#.adverts
 ||copyrightmournfulsalon.com^
 ||copysign.link^
 ||corateencountry.pro^
+||corebelbyrri.com^
 ||corkysound.com^
 ||cornerbut.com^
 ||cornfloweramnesty.com^
@@ -35651,6 +35655,7 @@ tf2r.com#@#.adverts
 ||elessecsta.top^
 ||elfcoexistbird.com^
 ||elfirkelk.com^
+||elizaguarapo.com^
 ||elkbahtax.com^
 ||ellenince.biz^
 ||elliotfoodauditioning.com^
@@ -36850,6 +36855,7 @@ tf2r.com#@#.adverts
 ||govertedlice.club^
 ||goym93w5e7jz.com^
 ||gpcdreunite.casa^
+||gpneofgeo.com^
 ||gprofessiv.top^
 ||gqsgcdcxsmxw.com^
 ||gqtffirr.com^
@@ -37685,6 +37691,7 @@ tf2r.com#@#.adverts
 ||interst12.com^
 ||interstitial-07.com^
 ||intervalssuggested.com^
+||intimidatepropel.com^
 ||intimidatewearisomespecialist.com^
 ||intimidatingclinchwily.com^
 ||intimidatinggodlessketchup.com^
@@ -37759,6 +37766,7 @@ tf2r.com#@#.adverts
 ||itineraryupper.com^
 ||itllnww6x277.com^
 ||itnuzleafan.com^
+||itphanpytor.club^
 ||ittorchicer.com^
 ||itweepinbelltor.com^
 ||iu16wmye.com^
@@ -40197,6 +40205,7 @@ tf2r.com#@#.adverts
 ||outseeltor.com^
 ||outsimfat.site^
 ||outslang.com^
+||outsliggooa.com^
 ||outsmoke-niyaxabura.com^
 ||outtunova.com^
 ||ouzoadru.net^
@@ -40864,6 +40873,7 @@ tf2r.com#@#.adverts
 ||princedrainclearance.com^
 ||princided.club^
 ||pringed.space^
+||printmeantime.com^
 ||prioritybeforehand.com^
 ||priorityinvaderinflation.com^
 ||prisedeluge.com^
@@ -43491,6 +43501,7 @@ tf2r.com#@#.adverts
 ||unattractivefrigilityfrigility.com^
 ||unclemaidenprecise.com^
 ||uncooleserine.cam^
+||uncurstcrumbs.com^
 ||undayblogg.club^
 ||undedfracted.club^
 ||under2given.com^
@@ -44609,6 +44620,7 @@ tf2r.com#@#.adverts
 ||yincreate.top^
 ||yiopse.com^
 ||yiuilserianaus.club^
+||yiydtredbofv.com^
 ||yjaobumyovp.com^
 ||yjnqrbfnocy.com^
 ||yjyjnolllezo.com^
@@ -48936,6 +48948,7 @@ tf2r.com#@#.adverts
 ||bebadu.com^
 ||bonertraffic14.info^
 ||briggbrought.pro^
+||bugleczmoidgxo.com^
 ||camschat.net^
 ||cebadu.com^
 ||clickbigo.com^
@@ -48970,6 +48983,7 @@ tf2r.com#@#.adverts
 ||joredi.com^
 ||joredii.com^
 ||jsmpsi.com^
+||jygotubvpyguak.com^
 ||koncbabae.com^
 ||koradu.com^
 ||libedgolart.com^
@@ -49613,6 +49627,7 @@ tf2r.com#@#.adverts
 ||thefreesite.com/nov99bannov.gif
 ||ti.tradetracker.net^
 ||tillertag-a.akamaihd.net^
+||torrindex.net/static/tinysort.min.js
 ||track.effiliation.com^
 ||travel.mediaalpha.com/js/serve.js
 ||tremorhub.com/pubsync?
@@ -52821,6 +52836,7 @@ mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
 reverso.net##.rcacontent
 just-dice.com##.realcontent
+bettycrocker.com##.recipeAd
 nypost.com,pagesix.com##.recirc
 wallpapers-room.com##.recommendations-468x60
 biblegateway.com##.recommendations-header-column
@@ -53705,6 +53721,7 @@ pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pintere
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
 porn-w.org#?#.row:-abp-contains(Promotion Bot)
 radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
+reddit.com#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
 mtgarena.pro#?##root > div > div:-abp-has( > .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
@@ -63886,6 +63903,7 @@ _yad_jsonp_
 ||53shop.com/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+85tube.com##.player + .sponsor
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -69485,6 +69503,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||85tube.com^$generichide
+@@||85tube.com/player/player_ads.html
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -79512,6 +79532,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wp-powerstat/*
 /wp-rum/*
 /wp-slimstat/*
+/wp-statistics/v2/hit?
 /wp-useronline/useronline.
 /wp.gif?wpi
 /wp_stat.php?

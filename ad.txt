@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6eELoFEbt0mKIBrKSRaRzg
+! Checksum: E2cPYukFE9tINilTiAe/kw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109202002
-! Last Modified: 2021年09月20日 20:02
+! Version: 202109210202
+! Last Modified: 2021年09月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9570,6 +9570,7 @@ _yad_jsonp_
 ||53shop.com/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+85tube.com##.player + .sponsor
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15169,6 +15170,8 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||85tube.com^$generichide
+@@||85tube.com/player/player_ads.html
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
