@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qQOk1HAlPNQa7N4ptN5/Nw
+! Checksum: sRysT9Z8nfJFTye36Nr1Tg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109200813
-! Last Modified: 2021年09月20日 08:13
+! Version: 202109201401
+! Last Modified: 2021年09月20日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9118,6 +9118,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||inray.cn/template/conch/asset/js/atop.js
+||inray.cn/template/conch/asset/js/gglms.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16703,6 +16705,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||shweiwen.cn^
+||zjcxyh.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -27565,17 +27569,29 @@ _mongo_stats/
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ||adnext.co^
+||advertising.com^
 ||affvantage.com^
 ||altopd.com^
+||analysis.fi^
 ||apxl.io^
 ||auriro.net^
 ||azury.gg^
+||bfmio.com^
+||bidswitch.net^
+||bounceexchange.com^
 ||bydst.com^
 ||cloudwp.io^
+||cxense.com^
 ||cxt.ms^
+||demdex.net^
+||districtm.io^
+||dm-event.net^
 ||e1e.io^
+||emxdgt.com^
 ||enthusiastgaming.net^
+||everesttech.net^
 ||experianmatch.info^
+||ezodn.com^
 ||faster-trk.com^
 ||g2178927685.co^
 ||g2377012020.co^
@@ -27615,33 +27631,51 @@ _mongo_stats/
 ||g8913795075.co^
 ||g9111879410.co^
 ||glimr.io^
+||go-mpulse.net^
+||googletagmanager.com^
 ||i218435.net^
+||id5-sync.com^
 ||impactcdn.com^
+||imrworldwide.com^
 ||innerskinresearch.com^
 ||irs01.com^
+||krxd.net^
 ||ldnlyap.com^
+||lijit.com^
 ||liveyield.com^
 ||lltrck.com^
 ||loloclicks.biz^
 ||mors22.com^
 ||mt48.net^
 ||nxakpj4ac8gkd53.info^
+||omappapi.com^
+||omtrdc.net^
+||p2r14.com^
 ||pdflive.org^
+||permutive.app^
 ||pixrealm.com^
 ||progmxs.com^
 ||propeller-tracking.com^
+||quantserve.com^
 ||r42tag.com^
+||rezync.com^
+||s-onetag.com^
 ||sbgsodufuosmmvsdf.info^
 ||seoab.io^
 ||site24x7rum.eu^
 ||sjpf.io^
+||solutionshindsight.net^
 ||stat.ovh^
+||summerhamster.com^
 ||syteapi.com^
 ||tatpek.com^
 ||the-ozone-project.com^
 ||trackclicks.info^
 ||trkbc.com^
 ||truffle.bid^
+||tvpixel.com^
+||ugdturner.com^
+||videoplayerhub.com^
 ||wknd.ai^
 ||z0uolej1qnxzub1.info^
 ||zqtk.net^
@@ -27778,7 +27812,6 @@ _mongo_stats/
 ||advanced-web-analytics.com^$third-party
 ||advangelists.com^$third-party
 ||advconversion.com^$third-party
-||advertising.com^$third-party
 ||adways.com^$third-party
 ||adwstats.com^$third-party
 ||adxadtracker.com^$third-party
@@ -27965,13 +27998,11 @@ _mongo_stats/
 ||betarget.com^$third-party
 ||bettermetrics.co^$third-party
 ||beusable.net^$third-party
-||bfmio.com^$third-party
 ||bfoleyinteractive.com^$third-party
 ||bgpng.me^$third-party
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
-||bidswitch.net^$third-party
 ||bigcattracks.com^$third-party
 ||bigmir.net^$third-party
 ||bigreal.org^$third-party
@@ -28012,7 +28043,6 @@ _mongo_stats/
 ||boomtrain.com^$third-party
 ||botman.ninja^$third-party
 ||botsvisit.com^$third-party
-||bounceexchange.com^$third-party
 ||bouncepilot.com^$third-party
 ||bouncex.com^$third-party
 ||bp01.net^$third-party
@@ -28262,7 +28292,6 @@ _mongo_stats/
 ||customerlabs.co^$third-party
 ||cux.io^$third-party
 ||cvtr.io^$third-party
-||cxense.com^$third-party
 ||cya2.net^$third-party
 ||cybermonitor.com^$third-party
 ||cytoclause.com^$third-party
@@ -28303,7 +28332,6 @@ _mongo_stats/
 ||defacto-analytics.net^$third-party
 ||dejavu.mlapps.com^$third-party
 ||demandbase.com^$third-party
-||demdex.net^$third-party
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
 ||devatics.com^$third-party
@@ -28328,9 +28356,7 @@ _mongo_stats/
 ||displaymarketplace.com^$third-party
 ||distiltag.com^$third-party
 ||distralytics.com^$third-party
-||districtm.io^$third-party
 ||djers.com^$third-party
-||dm-event.net^$third-party
 ||dmanalytics1.com^$third-party
 ||dmclick.cn^$third-party
 ||dmd53.com^$third-party
@@ -28405,7 +28431,6 @@ _mongo_stats/
 ||emediatrack.com^$third-party
 ||emjcd.com^$third-party
 ||emltrk.com^$third-party
-||emxdgt.com^$third-party
 ||enecto.com^$third-party
 ||engageclick.com^$third-party
 ||engagemaster.com^$third-party
@@ -28449,7 +28474,6 @@ _mongo_stats/
 ||europuls.eu^$third-party
 ||europuls.net^$third-party
 ||everestjs.net^$third-party
-||everesttech.net^$third-party
 ||evergage.com^$third-party
 ||evisitanalyst.com^$third-party
 ||evyy.net^$third-party
@@ -28473,7 +28497,6 @@ _mongo_stats/
 ||eyein.com^$third-party
 ||eyereturn.com^$third-party
 ||ezec.co.uk^$third-party
-||ezodn.com^$third-party
 ||ezytrack.com^$third-party
 ||f92j5.com^$third-party
 ||fabricww.com^$third-party
@@ -28640,7 +28663,6 @@ _mongo_stats/
 ||globel.co.uk^$third-party
 ||globetrackr.com^$third-party
 ||gnpge.com^$third-party
-||go-mpulse.net^$third-party
 ||go2link.net^$third-party
 ||goadservices.com^$third-party
 ||goatcounter.com^$third-party
@@ -28654,7 +28676,6 @@ _mongo_stats/
 ||googleadservices.com^$third-party
 ||googleoptimize.com^$third-party
 ||googlerank.info^$third-party
-||googletagmanager.com^$third-party
 ||gooo.al^$third-party
 ||gopjn.com^$third-party
 ||gostats.com^$third-party
@@ -28765,7 +28786,6 @@ _mongo_stats/
 ||ics0.com^$third-party
 ||icstats.nl^$third-party
 ||id-visitors.com^$third-party
-||id5-sync.com^$third-party
 ||ideoclick.com^$third-party
 ||idio.co^$third-party
 ||idtargeting.com^$third-party
@@ -28781,7 +28801,6 @@ _mongo_stats/
 ||impactradius-event.com^$third-party
 ||impression.link^$third-party
 ||imrtrack.com^$third-party
-||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
 ||inboxtag.com^$third-party
 ||incentivesnetwork.net^$third-party
@@ -28943,7 +28962,6 @@ _mongo_stats/
 ||kontagent.net^$third-party
 ||kopsil.com^$third-party
 ||kqzyfj.com^$third-party
-||krxd.net^$third-party
 ||ksyrium0014.com^$third-party
 ||ktxtr.com^$third-party
 ||l2.io^$third-party
@@ -28984,7 +29002,6 @@ _mongo_stats/
 ||lexity.com^$third-party
 ||lfov.net^$third-party
 ||liadm.com^$third-party
-||lijit.com^$third-party
 ||linezing.com^$third-party
 ||link-smart.com^$third-party
 ||linkconnector.com^$third-party
@@ -29284,13 +29301,11 @@ _mongo_stats/
 ||ojrq.net^$third-party
 ||okt.to^$third-party
 ||oktopost.com^$third-party
-||omappapi.com^$third-party
 ||omarsys.com^$third-party
 ||ometria.com^$third-party
 ||omguk.com^$third-party
 ||omkt.co^$third-party
 ||omniconvert.com^$third-party
-||omtrdc.net^$third-party
 ||omtvxcle.com^$third-party
 ||onaudience.com^$third-party
 ||ondu.ru^$third-party
@@ -29343,7 +29358,6 @@ _mongo_stats/
 ||p-td.com^$third-party
 ||p.raasnet.com^$third-party
 ||p0.raasnet.com^$third-party
-||p2r14.com^$third-party
 ||pa-oa.com^$third-party
 ||pagefair.com^$third-party
 ||pages05.net^$third-party
@@ -29377,7 +29391,6 @@ _mongo_stats/
 ||perimeterx.net^$third-party
 ||perion.com^$third-party
 ||perljs.com^$third-party
-||permutive.app^$third-party
 ||permutive.com^$third-party
 ||personalicanvas.com^$third-party
 ||personyze.com^$third-party
@@ -29501,7 +29514,6 @@ _mongo_stats/
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
 ||quantcount.com^$third-party
-||quantserve.com^$third-party
 ||quantummetric.com^$third-party
 ||quartic.pl^$third-party
 ||qubitproducts.com^$third-party
@@ -29587,7 +29599,6 @@ _mongo_stats/
 ||revolvermaps.com^$third-party
 ||rewardtv.com^$third-party
 ||reztrack.com^$third-party
-||rezync.com^$third-party
 ||rfihub.com^$third-party
 ||rfksrv.com^$third-party
 ||rfr-69.com^$third-party
@@ -29640,7 +29651,6 @@ _mongo_stats/
 ||rumpelstiltskinhead.com^$third-party
 ||runtnc.net^$third-party
 ||rztrkr.com^$third-party
-||s-onetag.com^$third-party
 ||s3s-main.net^$third-party
 ||s7target.ru^$third-party
 ||safe-click.net^$third-party
@@ -29810,7 +29820,6 @@ _mongo_stats/
 ||sokrati.com^$third-party
 ||sol-data.com^$third-party
 ||solosegment.com^$third-party
-||solutionshindsight.net^$third-party
 ||sometrics.com^$third-party
 ||sophi.io^$third-party
 ||sophus3.com^$third-party
@@ -29897,7 +29906,6 @@ _mongo_stats/
 ||submitnet.net^$third-party
 ||successfultogether.co.uk^$third-party
 ||sugodeku.com^$third-party
-||summerhamster.com^$third-party
 ||sumo.com^$third-party
 ||sumologic.com^$third-party,domain=~sumologic.net
 ||sumome.com^$third-party
@@ -30090,7 +30098,6 @@ _mongo_stats/
 ||tuinfra.com^$third-party
 ||tunnl.com^$third-party
 ||turn.com^$third-party
-||tvpixel.com^$third-party
 ||tw.cx^$third-party
 ||twcount.com^$third-party
 ||twopointo.io^$third-party
@@ -30106,7 +30113,6 @@ _mongo_stats/
 ||ubertracking.info^$third-party
 ||uciservice.com^$third-party
 ||udkcrj.com^$third-party
-||ugdturner.com^$third-party
 ||umbel.com^$third-party
 ||unblockia.com^$third-party
 ||unicaondemand.com^$third-party
@@ -30166,7 +30172,6 @@ _mongo_stats/
 ||verticalsearchworks.com^$third-party
 ||vertster.com^$third-party
 ||video.oms.eu^$third-party
-||videoplayerhub.com^$third-party
 ||videos.oms.eu^$third-party
 ||videostat.com^$third-party
 ||vilynx.com^$third-party
@@ -31008,7 +31013,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||satisfycork.com^$third-party
 ||savoryorange.com^$third-party
 ||scaredsnake.com^$third-party
-||scientificshirt.com^$third-party
+||scientificshirt.com^
 ||scintillatingscissors.com^$third-party
 ||scintillatingsilver.com^
 ||scintillatingspace.com^$third-party
@@ -31116,7 +31121,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
 ||amunx.de^$third-party
-||analysis.fi^$third-party
 ||analytics.rechtslupe.org^
 ||andyhoppe.com^$third-party
 ||anormal-tracker.de^$third-party
@@ -32141,7 +32145,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.clickpathmedia.com^
 ||analytics.cmn.com^
 ||analytics.codigo.se^
-||analytics.cohesionapps.com^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
@@ -32634,7 +32637,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1wirc5qsdb1y5.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
-||d1z2jf7jlzjs58.cloudfront.net^$third-party
+||d1z2jf7jlzjs58.cloudfront.net^
 ||d20kffh39acpue.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^
 ||d21y75miwcfqoq.cloudfront.net^
@@ -33254,7 +33257,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mail.ru/grstat?
 ||mail.ru/k?
 ||makantime.tv/analytics.js
-||make.cohesionapps.com^
 ||mandrillapp.com/track/
 ||maptrackpro.com/track/
 ||marketingautomation.services/koi
@@ -34274,8 +34276,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fastly.net/plw.js
 ||fastly.net/sp.js
 ||vwonwkaqvq-a.global.ssl.fastly.net^
-||cloudfront.net./script.js$script,third-party
-||cloudfront.net/script.js$script,third-party
+||cloudfront.net./script.js
+||cloudfront.net/script.js
 ||beyondsecurity.com^$third-party
 ||cyveillance.com^$third-party
 ||howsmyssl.com^$third-party
@@ -36031,7 +36033,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xfinity.com/z8ufpC5q/
 ||xhcdn.com/js/track.
 ||xing.com/logjam/
-||xoxo6-eng.spankbang.com^
+||xoxo8-eng.spankbang.com^
 ||xstats.evoload.io^
 ||yahoo.com/beacon/
 ||yahoo.net/pixel.gif
