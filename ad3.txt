@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sRysT9Z8nfJFTye36Nr1Tg
+! Checksum: 6M5i8vw29VP4rbrEfOSnmw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109201401
-! Last Modified: 2021年09月20日 14:01
+! Version: 202109202002
+! Last Modified: 2021年09月20日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9120,6 +9120,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||inray.cn/template/conch/asset/js/atop.js
 ||inray.cn/template/conch/asset/js/gglms.js
+||53shop.com/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16707,6 +16708,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||shweiwen.cn^
 ||zjcxyh.cn^
+||letong.xyz^
+||fhnhkt.cn^
+||029mxhs.cn^
+||hnsykly.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -27134,6 +27139,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
+://matomo.
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -27578,9 +27584,12 @@ _mongo_stats/
 ||azury.gg^
 ||bfmio.com^
 ||bidswitch.net^
+||bkrtx.com^
+||bluekai.com^
 ||bounceexchange.com^
 ||bydst.com^
 ||cloudwp.io^
+||crwdcntrl.net^
 ||cxense.com^
 ||cxt.ms^
 ||demdex.net^
@@ -27593,6 +27602,7 @@ _mongo_stats/
 ||experianmatch.info^
 ||ezodn.com^
 ||faster-trk.com^
+||fn-pz.com^
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -27630,9 +27640,12 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||geoedge.be^
 ||glimr.io^
 ||go-mpulse.net^
 ||googletagmanager.com^
+||hs-analytics.net^
+||hsadspixel.net^
 ||i218435.net^
 ||id5-sync.com^
 ||impactcdn.com^
@@ -27641,6 +27654,7 @@ _mongo_stats/
 ||irs01.com^
 ||krxd.net^
 ||ldnlyap.com^
+||liadm.com^
 ||lijit.com^
 ||liveyield.com^
 ||lltrck.com^
@@ -27659,6 +27673,8 @@ _mongo_stats/
 ||quantserve.com^
 ||r42tag.com^
 ||rezync.com^
+||rkdms.com^
+||rlcdn.com^
 ||s-onetag.com^
 ||sbgsodufuosmmvsdf.info^
 ||seoab.io^
@@ -27678,6 +27694,7 @@ _mongo_stats/
 ||videoplayerhub.com^
 ||wknd.ai^
 ||z0uolej1qnxzub1.info^
+||zdbb.net^
 ||zqtk.net^
 ||0emm.com^$third-party
 ||103bees.com^$third-party
@@ -28013,7 +28030,6 @@ _mongo_stats/
 ||bizo.com^$third-party
 ||bizspring.net^$third-party
 ||bjcathay.com^$third-party
-||bkrtx.com^$third-party
 ||bkvtrack.com^$third-party
 ||blaick.com^$third-party
 ||blockbreaker.io^$third-party
@@ -28030,7 +28046,6 @@ _mongo_stats/
 ||bluecava.com^$third-party
 ||blueconic.net^$third-party
 ||bluecore.com^$third-party
-||bluekai.com^$third-party
 ||blvdstatus.com^$third-party
 ||bm23.com^$third-party
 ||bm324.com^$third-party
@@ -28281,7 +28296,6 @@ _mongo_stats/
 ||crowdtwist.com^$third-party
 ||crsspxl.com^$third-party
 ||crtx.info^$third-party
-||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||ctnsnet.com^$third-party
 ||cttracking02.com^$third-party
@@ -28545,7 +28559,6 @@ _mongo_stats/
 ||flxpxl.com^$third-party
 ||flyingpt.com^$third-party
 ||flyspy.co^$third-party
-||fn-pz.com^$third-party
 ||followercounter.com^$third-party
 ||footprintdns.com^$third-party
 ||footprintlive.com^$third-party
@@ -28622,7 +28635,6 @@ _mongo_stats/
 ||genieesspv.jp^$third-party
 ||geo-targetly.com^$third-party
 ||geobytes.com^$third-party
-||geoedge.be^$third-party
 ||geoip-db.com^$third-party
 ||geoip-js.com^$third-party
 ||geojs.io^$third-party
@@ -28759,8 +28771,6 @@ _mongo_stats/
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
-||hs-analytics.net^$third-party
-||hsadspixel.net^$third-party
 ||hscta.net^$third-party
 ||htlbid.com^$third-party
 ||hubvisor.io^$third-party
@@ -29001,7 +29011,6 @@ _mongo_stats/
 ||levexis.com^$third-party
 ||lexity.com^$third-party
 ||lfov.net^$third-party
-||liadm.com^$third-party
 ||linezing.com^$third-party
 ||link-smart.com^$third-party
 ||linkconnector.com^$third-party
@@ -29610,10 +29619,8 @@ _mongo_stats/
 ||rightmoveanalytics.co.uk^$third-party
 ||ritecounter.com^$third-party
 ||rivrai.com^$third-party
-||rkdms.com^$third-party
 ||rktch.com^$third-party
 ||rktu.com^$third-party
-||rlcdn.com^$third-party
 ||rlets.com^$third-party
 ||rmtag.com^$third-party
 ||rnengage.com^$third-party
@@ -30352,7 +30359,6 @@ _mongo_stats/
 ||zanox-affiliate.de^$third-party
 ||zanox.com^$third-party
 ||zarget.com^$third-party
-||zdbb.net^$third-party
 ||zdtag.com^$third-party
 ||zedwhyex.com^$third-party
 ||zeerat.com^$third-party
@@ -34015,7 +34021,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trib.al^$image,third-party
 ||triggers.wfxtriggers.com^
 ||trinitymedia.ai/api/collect?
-||trk*.vidible.tv^
 ||trk.techtarget.com^
 ||tru.webelapp.com^
 ||trustarc.com/log?
@@ -34070,6 +34075,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||videoevents.outbrain.com^
 ||videoly.co^*/event/
 ||videopress.com/plugins/stats/
+||vidible.tv/trk/
 ||vidstream.pro/log/
 ||viglink.com/api/ping$third-party
 ||vimeocdn.com/add/player-stats?
@@ -46819,6 +46825,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=butterfieldonline.com|uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
+@@||cdn.segment.com/analytics.js/$script,domain=fender.com
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
