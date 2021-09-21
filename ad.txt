@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hzwq2zykJwZeSQ/N1Ik4Mg
+! Checksum: ex+rYgkegsSrYE/3PlKKAg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109212002
-! Last Modified: 2021年09月21日 20:02
+! Version: 202109220201
+! Last Modified: 2021年09月22日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -588,6 +588,7 @@ xz6d.com
 -90mh-gg.
 .bid/ads/
 .blog/ads/
+/jsui/ads/*
 .cam/ads/
 .cc/ad/
 .cc/js/ads/
@@ -1923,10 +1924,27 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/x5092.com"]
+##A[href*="/t4078.com:"]
+##A[href$="/hg6ee.com"]
+##A[href$="/88hjd7.com"]
+##A[href$="/aa8a1j.com"]
+##A[href$="/xh8k.vip"]
+##A[href$="/244017.cc"]
 ##A[href*=".madeqr.com/"] > IMG[src*=".pstatp.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||761f1b3960.com^
+||113o.com^
+||3332219.com^
+||123456img.com^
+||qiyijiazhuangshi.com^
+||3332218.com^
+||3332655.com^
+||78dx8t.com^
+||hangoutairbags.com^
+||kevinhewu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9569,8 +9587,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jsdelivr.net/gh/cloud-files/imgs/adamkoo-
+||51cdn.club:453/hf85/960x
+||ae-ap.com/template/web/images/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com###min_ad_con
 pornbest.org,ptt.sex###links
 pornbest.org,ptt.sex##.btn-group + .row
 szxx.com.cn###A1
@@ -17162,6 +17184,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bxwx00.com|00ksw
 ||tinkshop.cn^
 ||ccymzg.cn^
 ||woxts.cn^
+||hongdejituan.vip^
+||lxlx.shop^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -21174,6 +21198,8 @@ _box_ad_
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.bottom-right-dsp-ad-wrap
+epinv.com##A[href="http://www.epinv.com/post/10450.html"]
 finance.sina.com.cn##DIV[class*="game"]
 ssuip.com###mask
 baidu.com##.school-promotion-pop-wrap

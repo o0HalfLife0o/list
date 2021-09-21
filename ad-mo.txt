@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FqYZqjLvmX6s2kK6wvnlqA
+! Checksum: IzzOGbGLtA1xtUCJfiNbiQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109212002
-! Last Modified: 2021年09月21日 20:02
+! Version: 202109220201
+! Last Modified: 2021年09月22日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22001,6 +22001,7 @@ _800x80_
 ##.adv_x_1
 ##.adv_x_2
 ##.advads-5
+##.advads-close-button
 ##.advads-sticky
 ##.advads-widget
 ##.advads_ad_widget-11
@@ -30807,6 +30808,7 @@ _800x80_
 ##a[href^="https://fakelay.com/"]
 ##a[href^="https://farm.plista.com/pets"]
 ##a[href^="https://fast-redirecting.com/"]
+##a[href^="https://fertilitycommand.com/"]
 ##a[href^="https://fileboom.me/pr/"]
 ##a[href^="https://financeads.net/tc.php?"]
 ##a[href^="https://fleshlight.sjv.io/"]
@@ -33180,6 +33182,7 @@ tf2r.com#@#.adverts
 ||asuydisi.com^
 ||aswfs.xyz^
 ||asxemfnwbrmpdp.com^
+||asxvawth.com^
 ||atadserver.com^
 ||ataijeeg.net^
 ||atas.io^
@@ -34602,6 +34605,7 @@ tf2r.com#@#.adverts
 ||collectorearnammonia.com^
 ||collectrom.com^
 ||collectrum.com^
+||colletsopelu.cam^
 ||colliersads.com^
 ||colonialismresolute.com^
 ||colonistnobilityheroic.com^
@@ -36339,6 +36343,7 @@ tf2r.com#@#.adverts
 ||fergetson.site^
 ||fermolo.info^
 ||fernthumbjoin.com^
+||fertilitycommand.com^
 ||fertilizeranaemiaupcoming.com^
 ||fertilizermessyshortcut.com^
 ||fessmegilscha.info^
@@ -37368,6 +37373,7 @@ tf2r.com#@#.adverts
 ||heyad.xyz^
 ||hf18yg8q.com^
 ||hfc195b.com^
+||hfmvtjpcd.com^
 ||hfqclrllll.com^
 ||hfwmgail.com^
 ||hg-bn.com^
@@ -38399,6 +38405,7 @@ tf2r.com#@#.adverts
 ||knubbyknit.com^
 ||knujamgz.com^
 ||knutenegros.pro^
+||knxntpsd.com^
 ||koacojus.net^
 ||koaptooh.net^
 ||koertf.com^
@@ -38474,7 +38481,6 @@ tf2r.com#@#.adverts
 ||labeldollars.com^
 ||labloamyaim.icu^
 ||labwarehousepicturesque.com^
-||lacerta.space^
 ||lacingbiron.com^
 ||ladbrokesaffiliates.com.au^
 ||laddergrandma.com^
@@ -39235,6 +39241,7 @@ tf2r.com#@#.adverts
 ||midasatlas.com^
 ||midastouchrt.com^
 ||middleimpetuous.com^
+||midnightimpressionperception.com^
 ||midnightnosebleeddoorway.com^
 ||midootib.net^
 ||midpopedge.com^
@@ -47193,6 +47200,7 @@ tf2r.com#@#.adverts
 ||bedorm.com^$popup
 ||beklefkiom.com^$popup
 ||belwrite.com^$popup
+||bemachopor.com^$popup
 ||bemobtrcks.com^$popup
 ||bemobtrk.com^$popup
 ||benoopto.com^$popup
@@ -51373,6 +51381,7 @@ designtaxi.com###in-news-link-1
 designtaxi.com###in-news-link-2
 wsj.com###in_ad_col_b
 thefastmode.com###inarticlemodule
+datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###inline-top
 krnb.com###inner-footer
 booklife.com###interstitial
 osbot.org###ipsLayout_footer
@@ -51591,6 +51600,7 @@ saharareporters.com###stage-header
 geekwire.com###startup-resources-sidebar
 newcartestdrive.com###static-asset-placeholder-2
 newcartestdrive.com###static-asset-placeholder-3
+datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sticky-bottom
 coincodex.com###sticky-footerCCx4
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
@@ -52253,6 +52263,7 @@ w3techs.com##.feat
 mumbrella.com.au##.featureBanner
 ar12gaming.com,geekwire.com##.featured-sponsor
 fandom.com##.featured-video__wrapper
+motor1.com##.featured__apb
 whitepages.ae##.featured_companies_bg_main
 nagpurtoday.in##.film-right-s
 proprofs.com##.firstadd
@@ -54844,6 +54855,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -90mh-gg.
 .bid/ads/
 .blog/ads/
+/jsui/ads/*
 .cam/ads/
 .cc/ad/
 .cc/js/ads/
@@ -56179,10 +56191,27 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##A[href*="/x5092.com"]
+##A[href*="/t4078.com:"]
+##A[href$="/hg6ee.com"]
+##A[href$="/88hjd7.com"]
+##A[href$="/aa8a1j.com"]
+##A[href$="/xh8k.vip"]
+##A[href$="/244017.cc"]
 ##A[href*=".madeqr.com/"] > IMG[src*=".pstatp.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||761f1b3960.com^
+||113o.com^
+||3332219.com^
+||123456img.com^
+||qiyijiazhuangshi.com^
+||3332218.com^
+||3332655.com^
+||78dx8t.com^
+||hangoutairbags.com^
+||kevinhewu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -63825,8 +63854,12 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jsdelivr.net/gh/cloud-files/imgs/adamkoo-
+||51cdn.club:453/hf85/960x
+||ae-ap.com/template/web/images/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com###min_ad_con
 pornbest.org,ptt.sex###links
 pornbest.org,ptt.sex##.btn-group + .row
 szxx.com.cn###A1
@@ -71418,6 +71451,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bxwx00.com|00ksw
 ||tinkshop.cn^
 ||ccymzg.cn^
 ||woxts.cn^
+||hongdejituan.vip^
+||lxlx.shop^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -99872,6 +99907,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||pataks.pl/core,_assets$script,~third-party
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
+@@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
 !---------- Portuguese ----------
@@ -100442,6 +100478,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.bottom-right-dsp-ad-wrap
+epinv.com##A[href="http://www.epinv.com/post/10450.html"]
 finance.sina.com.cn##DIV[class*="game"]
 ssuip.com###mask
 baidu.com##.school-promotion-pop-wrap
