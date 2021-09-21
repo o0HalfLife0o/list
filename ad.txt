@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E2cPYukFE9tINilTiAe/kw
+! Checksum: FOpSjuJKWLVgk8gdOGCdDA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109210202
-! Last Modified: 2021年09月21日 02:02
+! Version: 202109210812
+! Last Modified: 2021年09月21日 08:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5099,6 +5099,7 @@ _yad_jsonp_
 ||52zy.com/other/js/
 ||5328t.com/js/jquery.js
 ||53shop.com/ime/*.js
+||53shop.com/img/*.js
 ||53shop.com/js/dun.js
 ||543et.com/detail/
 ||5442tu.com/style/ads5442.js
@@ -7217,6 +7218,8 @@ _yad_jsonp_
 ||inhe.net/Uploadfiles/inhegg2016/
 ||inlishui.com/index.php?m=poster&
 ||inoreader.com/adv/$domain=inoreader.com
+||inray.cn/template/conch/asset/js/atop.js
+||inray.cn/template/conch/asset/js/gglms.js
 ||inszu.com/js/qian/
 ||inte.sogou.com^
 ||iocoder.cn/alert/js/alert.js
@@ -9565,12 +9568,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||inray.cn/template/conch/asset/js/atop.js
-||inray.cn/template/conch/asset/js/gglms.js
-||53shop.com/img/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-85tube.com##.player + .sponsor
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13115,6 +13114,7 @@ kaifu.com##.play_fmt
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.play_list_panel
 ifeng.com##.playad
 gimy.tv##.playadbox
+85tube.com##.player + .sponsor
 league-funny.com##.player_bb
 qq.com##.player_bg_ad
 acc39.com##.player_ggw
@@ -15170,8 +15170,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||85tube.com^$generichide
-@@||85tube.com/player/player_ads.html
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -15309,6 +15307,8 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||75.125.41.29:8080/*/
 @@||85po.com^$generichide
 @@||85porn.net^$generichide
+@@||85tube.com/player/player_ads.html
+@@||85tube.com^$generichide
 @@||88box.com/images/ad_images/
 @@||930mh.com/js/config.js
 @@||939394.org/ad-blocker.js
@@ -17156,12 +17156,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||shweiwen.cn^
-||zjcxyh.cn^
-||letong.xyz^
-||fhnhkt.cn^
-||029mxhs.cn^
-||hnsykly.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17256,6 +17250,7 @@ smjb.net##div[style*="height: 50%"]
 xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||01tn.cn^
 ||027whht.com^
+||029mxhs.cn^
 ||0511qsfhknvz.xyz^
 ||0517kongyaji.com^
 ||0518dfgwert.xyz^
@@ -17982,6 +17977,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||ffupiiv.cn^
 ||ffyyfy.top^
 ||fhlong2000.xyz^
+||fhnhkt.cn^
 ||findx2.info^
 ||fintechpi.com^
 ||first11.cn^
@@ -18219,6 +18215,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||hnhgw.cn^
 ||hnjcdjx.com^
 ||hnkuangshan.cn^
+||hnsykly.cn^
 ||hntiantai.cn^
 ||hnwjlhg.cn^
 ||hnxahz.com^
@@ -18542,6 +18539,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||lerenzx.cn^
 ||lesanmo.top^
 ||leslieyu.com.cn^
+||letong.xyz^
 ||lexph.com^
 ||leyxue.cn^
 ||lezengxin.com^
@@ -19035,6 +19033,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||shufan.club^
 ||shumilou.co/style/html5.js
 ||shunxinyuancaiwu.cn^
+||shweiwen.cn^
 ||signstu.top^
 ||simon184.cn^
 ||sinabuy.cn^
@@ -19700,6 +19699,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||zixun8.com^
 ||ziyeaiying.com^
 ||zizcy.com^
+||zjcxyh.cn^
 ||zjjrlx4.com^
 ||zjksgl.com^
 ||zjlfqf.com^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FNS0FclX51bMHMV2fumjFg
+! Checksum: 94HTEEIRivGV62F1TZf53A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202109210202
-! Last Modified: 2021年09月21日 02:02
+! Version: 202109210812
+! Last Modified: 2021年09月21日 08:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1464,6 +1464,7 @@ filecrypt.cc,filecrypt.co#$#abort-on-property-read isAdblock
 hclips.com#$#abort-on-property-read adver
 txxx.com#$#override-property-read skpPop true; abort-on-property-read ExoLoader; abort-on-property-read open
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
+srsone.top#$#override-property-read googlecx noopFunc
 *$popup,third-party,domain=streamega.com|123putlocker.club|openloadmovies.bz
 about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.com|strtapeadblock.me
 /favicon.ico$popup,domain=vidshare.tv|vudeo.net
