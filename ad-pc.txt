@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l01svsoByIbxQ0SflsDcQw
+! Checksum: JO5g0B1hjAANa8k4UI8thQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109222002
-! Last Modified: 2021年09月22日 20:02
+! Version: 202109230201
+! Last Modified: 2021年09月23日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31043,6 +31043,7 @@ _800x80_
 ##a[href^="https://track.afftck.com/"]
 ##a[href^="https://track.bruceads.com/"]
 ##a[href^="https://track.clickmoi.xyz/"]
+##a[href^="https://track.effiliation.com/servlet/effi.redir?"]
 ##a[href^="https://track.healthtrader.com/"]
 ##a[href^="https://track.interactivegf.com/"]
 ##a[href^="https://track.themadtrcker.com/"]
@@ -33273,6 +33274,7 @@ tf2r.com#@#.adverts
 ||assetshortestinherited.com^
 ||assignedlikecrawford.com^
 ||assimilatesmartlyawfully.com^
+||assisteggs.com^
 ||assumptivestation.com^
 ||assurancemercysneak.com^
 ||assuremath.com^
@@ -33399,6 +33401,7 @@ tf2r.com#@#.adverts
 ||awbbcre.com^
 ||awbbjmp.com^
 ||awbbsat.com^
+||awcpcpetb.com^
 ||awdigit.info^
 ||awebotchunto.work^
 ||awecr.com^
@@ -34138,6 +34141,7 @@ tf2r.com#@#.adverts
 ||bxkxzjdjxeexi.com^
 ||bxsfvqhzj.com^
 ||byaronan.com^
+||bybastiodoner.com^
 ||bycixeba.com^
 ||byduthacho.com^
 ||bypathaivr.com^
@@ -50978,7 +50982,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||topeuropix.site/svop4/$popup
 ||vpnfortorrents.*?$popup
 ||waaw.to/out.php$popup
-/about:blank#.*/$popup,domain=22pixx.xyz|9anime.to|animepahe.com|bitporno.com|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|flashx.net|fmovies.to|gowatchseries.bz|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
+/about:blank#.*/$popup,domain=22pixx.xyz|9anime.to|animepahe.com|bitporno.com|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|flashx.net|fmovies.to|gowatchseries.bz|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=2embed.ru|5movies.fm|9anime.to|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|flashx.net|fmovies.to|fmovies.world|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 ||18porn.sex/ptr18.js
 ||3movs.com/sd3/
@@ -59043,8 +59047,8 @@ $websocket,domain=5nj.com|cechi8.com
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/content/1436/*$domain=chineseinla.com
-/images/masha*.$domain=imoutolove.me|level-plus.net|south-plus.org|spring-plus.net|white-plus.net
-/images/sgcrwj*.$domain=imoutolove.me|level-plus.net|south-plus.org|spring-plus.net|white-plus.net
+/images/masha*.$domain=snow-plus.net|imoutolove.me|level-plus.net|south-plus.org|spring-plus.net|white-plus.net
+/images/sgcrwj*.$domain=snow-plus.net|imoutolove.me|level-plus.net|south-plus.org|spring-plus.net|white-plus.net
 /img/skin/*_bg.$domain=firefox.com.cn|firefoxchina.cn
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
 /modules/video/player/nuevo/midroll.php?
@@ -60499,7 +60503,6 @@ _yad_jsonp_
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgfdjz.net/xia.js
 ||cgown.com^*/peiyinquan
-||cgown.com^*/peiyinquan.
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
@@ -69597,6 +69600,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=ulifestyle.com.hk
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -71593,6 +71597,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huaisq.com^
 ||nbtree.cn^
 ||taf2.cn^
+||midenterprise.com^
+||k2215.cn^
+||minzhouxinxi.cn^
+||nongjingly.com^
+||qivuu.cn^
+||meiyuedu.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -74448,7 +74458,7 @@ cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 softblog.tw#@#.dshare
 carousell.com#@#.fb-b
 sui.com#@#.fb-btn
-bilibili.com,douyu.com,oschina.net#@#.follow-btn
+douyu.com,oschina.net#@#.follow-btn
 bilibili.com#@#.follow-wrapper
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 gamersky.com#@#.like2
@@ -74498,7 +74508,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdstatic.com/po/??*,*,*,
-@@||bdstatic.com^*/share_
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 @@||cgmodel.com/plugin/share/
 @@||chuangkit.com^$generichide
@@ -74528,7 +74537,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||wancaibb.com/share/js/share.min.js
 @@||weibo.com/share/share.php$generichide
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
-@@||yimg.com^*/react-share-buttons.
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
@@ -85618,6 +85626,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.techtarget.com^$image,xmlhttprequest
 ||go.toutapp.com^$third-party
 ||goadv.com^*/track.js
+||goaffpro.com/track
 ||goaww.com/stats.php
 ||godaddy.com/js/gdwebbeacon.js
 ||gomoxie.solutions^*/events
@@ -100624,6 +100633,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
+||ali213.net/news/kx/ali213-kx-data.js
 !------------------------Specific element hiding rules------------------------!
 baidu.com##.bottom-right-dsp-ad-wrap
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
