@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7kCC4r6X1Pc/8FHRoSuTNg
+! Checksum: qfx900SnjnSAfZAb7eGP+Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109230813
-! Last Modified: 2021年09月23日 08:13
+! Version: 202109231402
+! Last Modified: 2021年09月23日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16402,6 +16402,7 @@ _800x80_
 ###sponsored-footer
 ###sponsored-inline
 ###sponsored-links
+###sponsored-links-alt
 ###sponsored-links-container
 ###sponsored-links-list
 ###sponsored-links-media-ads
@@ -30407,6 +30408,7 @@ _800x80_
 ##[href^="http://homemoviestube.com/"]
 ##[href^="http://join.hardcoreshemalevideo.com/"]
 ##[href^="http://join.michelle-austin.com/"]
+##[href^="http://join.rodneymoore.com/"]
 ##[href^="http://join.shemale.xxx/"]
 ##[href^="http://join.shemalepornstar.com/"]
 ##[href^="http://join.shemalesfromhell.com/"]
@@ -30416,11 +30418,13 @@ _800x80_
 ##[href^="http://stvkr.com/"]
 ##[href^="http://www.star-clicks.com/"]
 ##[href^="https://affect3dnetwork.com/track/"]
+##[href^="https://awbbjmp.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://dooloust.net/"]
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://join.girlsoutwest.com/"]
 ##[href^="https://join.playboyplus.com/track/"]
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://mylead.global/stl/"] > img
@@ -30433,7 +30437,7 @@ _800x80_
 ##[href^="https://reactads.engine.adglare.net/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
-##[href^="https://shiftnetwork.infusionsoft.com/go/"]
+##[href^="https://shiftnetwork.infusionsoft.com/go/"] > img
 ##[href^="https://shrugartisticelder.com"]
 ##[href^="https://stvkr.com/"]
 ##[href^="https://track.fiverr.com/visit/"] > img
@@ -46810,6 +46814,7 @@ tf2r.com#@#.adverts
 ||speeb.com^$third-party
 ||speednetwork14.com^$third-party
 ||speedshiftmedia.com^$third-party
+||sphdigital.com^$third-party
 ||spinbox.freedom.com^$third-party
 ||spinbox.net^$third-party
 ||splinky.com^$third-party
@@ -54089,6 +54094,7 @@ japan-whores.com##.js-advConsole
 freeones.com##.js-track-event
 ts-tube.net##.js-uvb-spot
 porndig.com##.js_footer_partner_container_wrapper
+xxxymovies.com##.kt_imgrc
 hqpornstream.com##.lds-hourglass
 thehun.net##.leaderboard
 xxxpicss.com##.left-banners
@@ -54123,7 +54129,7 @@ hentaistream.com##.othercontent
 empflix.com##.pInterstitialx
 bigtitslust.com,sortporn.com##.pignr.item
 boundhub.com##.pl2ace
-camvideos.tv,rare-videos.net##.place
+camvideos.tv,jizzoncam.com,rare-videos.net##.place
 vivud.com,zmovs.com##.player-aside-banners
 ok.xxx,pornhat.com,xxxonxxx.com##.player-bn
 blogbugs.org,tallermaintenancar.com,zuzandra.com##.player-right
@@ -56340,6 +56346,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||shijixinrui.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -71591,6 +71598,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||wskei.cn^
+||mcfpsn.xyz^
+||zhipet.cn^
+||zzgyly.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -87863,6 +87873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
 ||apnews.com/logger
 ||appanalysis.banggood.com^
@@ -88296,6 +88307,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pexa.realestate.com.au^
 ||pf.newegg.com^
 ||phar.gu-web.net^
+||phonearena.com/_track.php
 ||pi.feedsportal.com^
 ||ping.hashnode.com^
 ||ping.hungama.com^
@@ -98672,7 +98684,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
-||csdnimg.cn/common/csdn-report/$domain=csdn.net
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/web/prd/jump_tracker.js
@@ -99865,6 +99876,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
+@@||g.csdnimg.cn^*/trackad.js$script,domain=csdn.net
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||hk.on.cc/js/v4/urchin.js
 @@||tianxun.com^*/js/tracker.js

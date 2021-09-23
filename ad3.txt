@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L1Vs/hDW3nRcR0DzRiXWNw
+! Checksum: MaCc5b8EwjO8ZTjsJ+qEsw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109230813
-! Last Modified: 2021年09月23日 08:13
+! Version: 202109231402
+! Last Modified: 2021年09月23日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1488,6 +1488,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||shijixinrui.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -16739,6 +16740,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||wskei.cn^
+||mcfpsn.xyz^
+||zhipet.cn^
+||zzgyly.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -35283,6 +35287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
 ||apnews.com/logger
 ||appanalysis.banggood.com^
@@ -35716,6 +35721,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pexa.realestate.com.au^
 ||pf.newegg.com^
 ||phar.gu-web.net^
+||phonearena.com/_track.php
 ||pi.feedsportal.com^
 ||ping.hashnode.com^
 ||ping.hungama.com^
@@ -46092,7 +46098,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
-||csdnimg.cn/common/csdn-report/$domain=csdn.net
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/web/prd/jump_tracker.js
@@ -47285,6 +47290,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
+@@||g.csdnimg.cn^*/trackad.js$script,domain=csdn.net
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||hk.on.cc/js/v4/urchin.js
 @@||tianxun.com^*/js/tracker.js
