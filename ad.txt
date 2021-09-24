@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PDNWW4H2z6KhrLmGz3EGIg
+! Checksum: S6QOHYi3MP7d4pv8znkpiQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202109240813
-! Last Modified: 2021年09月24日 08:13
+! Version: 202109241401
+! Last Modified: 2021年09月24日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1339,7 +1339,6 @@ _xiuno_com_ad/
 ###taotaole
 ###textggs
 ###timedfuo
-###to_top + #wp.pt-70 > div[id]:first-child
 ###top-gg-container
 ###topNavad
 ###top_ads0
@@ -1937,6 +1936,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||heshun365.cn^
+||7g9m3r.com^
+||xiaoxiangmovie.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9602,6 +9603,7 @@ _yad_jsonp_
 ||kanjuba1.com/js/bbk/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weav.xyz###wp > DIV[id]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17195,6 +17197,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||hnylb8.cn^
 ||rvlmpo.xyz^
+||shiruru.cn^
+||5807807.com^
+||hnhbx8.cn^
+||jncacp.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
