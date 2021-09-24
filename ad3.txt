@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nNtEZYnSFYjUlDAV0tYUew
+! Checksum: WGnHQai8aIAOboCWWy0/eA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109241401
-! Last Modified: 2021年09月24日 14:01
+! Version: 202109242003
+! Last Modified: 2021年09月24日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9156,6 +9156,8 @@ _yad_jsonp_
 ||kanjuba1.com/js/bbk/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.downl_L > STYLE + DIV
+3dmgame.com##.tab.downsd
 weav.xyz###wp > DIV[id]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -16724,6 +16726,7 @@ _1MObaudu.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 _NYTEF.js
+/bbhd_*_kkis.js
 MoBi*.baidu.js$script,third-party
 xhtml?%22+$script,third-party
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
@@ -16754,6 +16757,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||5807807.com^
 ||hnhbx8.cn^
 ||jncacp.cn^
+||fzffj.cn^
+||jiemeichike.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -27659,6 +27664,7 @@ _mongo_stats/
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ||adnext.co^
+||adrtx.net^
 ||affvantage.com^
 ||altopd.com^
 ||analysis.fi^
@@ -27758,6 +27764,7 @@ _mongo_stats/
 ||rlcdn.com^
 ||s-onetag.com^
 ||sbgsodufuosmmvsdf.info^
+||seadform.net^
 ||seoab.io^
 ||site24x7rum.eu^
 ||sjpf.io^
@@ -30931,6 +30938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||colorfulafterthought.com^$third-party
 ||colossalcoat.com^$third-party
 ||complextoad.com^$third-party
+||conditionchange.com^
 ||conditioncrush.com^$third-party
 ||confesschairs.com^$third-party
 ||consciouschairs.com^$third-party
@@ -32327,6 +32335,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ziftsolutions.com^
 ||analyze.full-marke.com^
 ||ancestrycdn.com/tao/at/
+||ao-freegeoip.herokuapp.com^
 ||aol.com/ping?
 ||aolanswers.com/wtrack/
 ||aolcdn.com/js/mg2.js
@@ -46171,6 +46180,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mp.weixin.qq.com/mp/jsmonitor?
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
+||msg.qy.net^
 ||msgsndr.com/funnel/event
 ||mtrace.qq.com^
 ||music.163.com/weapi/feedback/weblog
