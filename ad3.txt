@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z3493ZmFJ6mDAcc6xPB1hw
+! Checksum: 3ceusEudpwg2ruBe3THFMg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109260814
-! Last Modified: 2021年09月26日 08:14
+! Version: 202109261401
+! Last Modified: 2021年09月26日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16765,6 +16765,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||guofuhaohua.club^
 ||31du.wang^
 ||zxucii.com^
+||hnjinruda.xyz^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -23688,6 +23689,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /device-fingerprint.
 /dfp-gpt.
 /dfpsvc?
+/DG/DEFAULT/rest/*
 /di-tealium.
 /Diagnostics?hit=
 /didna-pixel-
@@ -36212,6 +36214,7 @@ techxplore.com##.embed-responsive-trendmd
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
@@ -47322,7 +47325,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=voici.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
