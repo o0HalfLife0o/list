@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: i/ZtHtriLGD8CdyFRYShkw
+! Checksum: cEpbZW1/EEA7cdVqnWhSKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109270813
-! Last Modified: 2021年09月27日 08:13
+! Version: 202109271402
+! Last Modified: 2021年09月27日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16757,6 +16757,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||ikxcep.xyz^
+||weifengi.xyz^
+||novaleafgroup.cn^
+||tiantianwl.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -27283,6 +27287,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?[AQB]&ndh=1&t=
 ?act=counter&
 ?action=event&
+?action=impression&
 ?action=log_promo_impression
 ?action=statsjs&
 ?action=track_visitor&
@@ -30025,6 +30030,7 @@ _mongo_stats/
 ||tagstaticx.com^$third-party
 ||tagtray.com/api^$third-party
 ||tamgrt.com^$third-party
+||tapad.app^$third-party
 ||tapad.com^$third-party
 ||tapfiliate.com^$third-party
 ||taplytics.com^$third-party
@@ -31998,7 +32004,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
 ||metrika-informer.com^$third-party
-||mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mokuz.ru^$third-party
 ||more-data.ru^$third-party
 ||musiccounter.ru^$third-party
