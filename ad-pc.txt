@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FokUzZgbCWJekY7I4lJ1jw
+! Checksum: tmLk+UYSKMn+tbaiUfWZPg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109271402
-! Last Modified: 2021年09月27日 14:02
+! Version: 202109272003
+! Last Modified: 2021年09月27日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1216,7 +1216,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-indicator-
 /ad-inject/*
 /ad-injection/*
-/ad-inserter-pro/*
 /ad-inserter/*
 /ad-int-
 /ad-invalid-
@@ -3593,7 +3592,7 @@ tieba.baidu.com##.tuijian-wrap
 /advertpro/*
 /advertrail.
 /advertright.
-/adverts.$domain=~adverts.ie|~adverts.org.ua
+/adverts.$~script,domain=~adverts.ie|~adverts.org.ua
 /adverts/*
 /adverts_
 /advertserve.
@@ -5069,7 +5068,6 @@ tieba.baidu.com##.tuijian-wrap
 /images/ad2/*
 /images/adds/*
 /images/ads-$domain=~ads.com
-/images/ads.
 /images/ads/*$domain=~oppdrettstorget.no
 /images/ads_
 /images/adv-
@@ -33149,6 +33147,7 @@ tf2r.com#@#.adverts
 ||ancestorcomposition.com^
 ||ancheonyo.fun^
 ||ancienslogoi.com^
+||ancientsend.com^
 ||ancjmfycf.com^
 ||andantask.online^
 ||andcanbere.fun^
@@ -33392,6 +33391,7 @@ tf2r.com#@#.adverts
 ||atjigglypuffor.com^
 ||atmalinks.com^
 ||atmetagrossan.com^
+||atmnjcinews.pro^
 ||ato.mx^
 ||atoescruffy.fun^
 ||atomex.net^
@@ -34430,6 +34430,7 @@ tf2r.com#@#.adverts
 ||celeb-ads.com^
 ||celeritascdn.com^
 ||celiberald.xyz^
+||cellswallpaperstatements.com^
 ||cenceevent.club^
 ||cennter.com^
 ||censusarminnocence.com^
@@ -34706,6 +34707,7 @@ tf2r.com#@#.adverts
 ||clickwedkeys.com^
 ||clickwinks.com^
 ||clickxchange.com^
+||clientsviolet.com^
 ||climbingdivertshabby.com^
 ||cliquesteria.net^
 ||clixsense.com^
@@ -35323,6 +35325,7 @@ tf2r.com#@#.adverts
 ||decknetwork.net^
 ||deckthroughout.com^
 ||deckulre.com^
+||declarationextra.com^
 ||declinedisobey.com^
 ||decoctionembedded.com^
 ||decordingaudied.site^
@@ -35857,6 +35860,7 @@ tf2r.com#@#.adverts
 ||eaboutvth.biz^
 ||eac0823ca94e3c07.com^
 ||eacdn.com^
+||eachuniverse.com^
 ||eads.to^
 ||eae5daf052d2673b.com^
 ||eagerlydenote.com^
@@ -36668,6 +36672,7 @@ tf2r.com#@#.adverts
 ||flatepicbats.com^
 ||flatlyforensics.com^
 ||flaxseedssoenrh4372ojd.com^
+||fleckbest.com^
 ||fleckspoken.com^
 ||flewfirescommunication.com^
 ||flewssyzygia.casa^
@@ -37625,6 +37630,7 @@ tf2r.com#@#.adverts
 ||highnets.com^
 ||highperformancecpm.com^
 ||highperformancecpmnetwork.com^
+||highperformancedformats.com^
 ||highperformancedisplaycontent.com^
 ||highprofitnetwork.com^
 ||highrevenuecpm.com^
@@ -41849,6 +41855,7 @@ tf2r.com#@#.adverts
 ||questionsunpleasantaborigines.com^
 ||qugdtlps.com^
 ||quickads.net^
+||quicklesvad.xyz^
 ||quicklisti.com^
 ||quickorange.com^
 ||quidachieve.com^
@@ -42067,6 +42074,7 @@ tf2r.com#@#.adverts
 ||registrybrotherinlawdots.com^
 ||registrytensesuffocate.com^
 ||reglistigru.com^
+||regrcurie.com^
 ||regrisaillerais.site^
 ||regulationprivilegescan.top^
 ||rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes^
@@ -42144,6 +42152,7 @@ tf2r.com#@#.adverts
 ||resadvantco.info^
 ||resalag.com^
 ||reschedulewizards.com^
+||rescuephrase.com^
 ||resentmentveneering.com^
 ||reservehearingmissing.com^
 ||reservoircourthouse.com^
@@ -42680,6 +42689,7 @@ tf2r.com#@#.adverts
 ||seepsocu.net^
 ||seeptauw.net^
 ||seeptoag.net^
+||seerunplent.xyz^
 ||seestiku.com^
 ||sefh.xyz^
 ||sefowaid.com^
@@ -44461,6 +44471,7 @@ tf2r.com#@#.adverts
 ||vianoivernom.com^
 ||viapizza.online^
 ||viatepigan.com^
+||victoriousbanker.com^
 ||vid.me^
 ||vidalak.com^
 ||vidcpm.com^
@@ -47379,6 +47390,7 @@ tf2r.com#@#.adverts
 ||amata-syb.com^$popup
 ||amatrck.com^$popup
 ||ammankeyan.com^$popup
+||ancientsend.com^$popup
 ||angege.com^$popup
 ||annualinternetsurvey.com^$popup
 ||answered-questions.com^$popup
@@ -47774,6 +47786,7 @@ tf2r.com#@#.adverts
 ||highmaidfhr.com^$popup
 ||highperformancecpm.com^$popup
 ||highperformancecpmnetwork.com^$popup
+||highperformancedformats.com^$popup
 ||hikyceti.pro^$popup
 ||hilltopads.net^$popup
 ||hiltonbett.com^$popup
@@ -48323,6 +48336,7 @@ tf2r.com#@#.adverts
 ||swagtraffcom.com^$popup
 ||symkashop.ru^$popup
 ||syncedvision.com^$popup
+||syrsple2se8nyu09.com^$popup
 ||systemleadb.com^$popup
 ||t2lgo.com^$popup
 ||tagsd.com^$popup
@@ -48457,6 +48471,7 @@ tf2r.com#@#.adverts
 ||vpnfortorrents.cc^$popup
 ||vpnfortorrents.com^$popup
 ||vpnlist.to^$popup
+||vpnoffers.biz^$popup
 ||vpnoffers.cc^$popup
 ||vpnoffers.info^$popup
 ||vpnoffers.net^$popup
@@ -49852,6 +49867,7 @@ tf2r.com#@#.adverts
 ||d1ybdlg8aoufn.cloudfront.net^
 ||d1zgderxoe1a.cloudfront.net^
 ||d20903hof2l33q.cloudfront.net^
+||d20l1z9qfxwqa3.cloudfront.net^
 ||d213cc9tw38vai.cloudfront.net^
 ||d21f25e9uvddd7.cloudfront.net^
 ||d21rudljp9n1rr.cloudfront.net^
@@ -51015,9 +51031,10 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||topeuropix.site/svop4/$popup
+||vidxhot.net/out.php$popup
 ||vpnfortorrents.*?$popup
 ||waaw.to/out.php$popup
-/about:blank#.*/$popup,domain=22pixx.xyz|9anime.to|animepahe.com|bitporno.com|cdnqq.net|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|flashx.net|fmovies.to|gowatchseries.bz|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
+/about:blank#.*/$popup,domain=22pixx.xyz|9anime.to|animepahe.com|bitporno.com|cdnqq.net|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|flashx.net|fmovies.to|gowatchseries.bz|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidxhot.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=2embed.ru|5movies.fm|9anime.to|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|cmovies.ac|cricfree.live|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|flashx.net|fmovies.to|fmovies.world|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 ||18porn.sex/ptr18.js
 ||3movs.com/sd3/
@@ -53679,6 +53696,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##div[id^="sp_detail"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 newseveryday.com###vplayer_large
+sfgate.com##.inline-iframe
 dexerto.com##.jwplayer
 ##.section-subheader > .section-hotel-prices-header
 mail.yahoo.com###slot_LREC
@@ -71642,6 +71660,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||weifengi.xyz^
 ||novaleafgroup.cn^
 ||tiantianwl.cn^
+||xaqdf.com^
+||bozhu.shop^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -85342,6 +85362,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
 ||d2r1yp2w7bby2u.cloudfront.net^
+||d2r7bmv6l6bnd1.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
