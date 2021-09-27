@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tAASpYrGmL7BYbS4LyCpLg
+! Checksum: 4vNazS51yTQ0UbYZhHcfYA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109272003
-! Last Modified: 2021年09月27日 20:03
+! Version: 202109280202
+! Last Modified: 2021年09月28日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13528,6 +13528,7 @@ _800x80_
 ###dfp-btf
 ###dfp-footer-desktop
 ###dfp-global_top
+###dfp-header
 ###dfp-header-container
 ###dfp-home_after-headline_leaderboard
 ###dfp-interstitial
@@ -24575,6 +24576,7 @@ _800x80_
 ##.element_contentad3
 ##.element_contentad4
 ##.element_contentad5
+##.elementor-widget-wp-widget-advads_ad_widget
 ##.em-ad
 ##.em-ads-widget
 ##.em-adv-container
@@ -36532,6 +36534,7 @@ tf2r.com#@#.adverts
 ||fistcartyped.casa^
 ||fistofzeus.com^
 ||fitbxtqgneq.com^
+||fitcenterz.com^
 ||fitenanews.com^
 ||fitfulrigorous.com^
 ||fiwhibse.com^
@@ -37842,6 +37845,7 @@ tf2r.com#@#.adverts
 ||imageadvantage.net^
 ||imasdk.googleapis.com^
 ||imbetan.info^
+||imcpqxmtlapagng.com^
 ||imediarevenue.com^
 ||imembe.com^
 ||imgfeedget.com^
@@ -45311,6 +45315,7 @@ tf2r.com#@#.adverts
 ||yxkobelxlljv.com^
 ||yy9s51b2u05z.com^
 ||yydtbpms8tf4.com^
+||yyibqpcg.com^
 ||yyjvimo.com^
 ||yyltlwtic.com^
 ||yzlwuuzzehjh.com^
@@ -45331,6 +45336,7 @@ tf2r.com#@#.adverts
 ||zayac2volk11.com^
 ||zazerygu.pro^
 ||zbdvvwpia.com^
+||zctibmvmbmev.com^
 ||zdajdudqfq.com^
 ||zdaptrksg.com^
 ||zdcuivnen.com^
@@ -47579,6 +47585,7 @@ tf2r.com#@#.adverts
 ||firescorrelationprodigy.com^$popup
 ||firsstudtog.cam^$popup
 ||firstclass-download.com^$popup
+||fitcenterz.com^$popup
 ||flewssyzygia.casa^$popup
 ||flixcontentshop.com^$popup
 ||flopinclose.com^$popup
@@ -47710,6 +47717,7 @@ tf2r.com#@#.adverts
 ||ifilez.org^$popup
 ||ijjiii.is^$popup
 ||imbetan.info^$popup
+||imcpqxmtlapagng.com^$popup
 ||impactserving.com^$popup
 ||imsnp.com^$popup
 ||inabsolor.com^$popup
@@ -52067,6 +52075,7 @@ practicalpainmanagement.com##.block-oas
 kaotic.com##.block-toplist
 worldtimebuddy.com##.block2
 macmusic.org##.block440Adv
+betaseries.com##.blockPartner
 myrealgames.com##.block_adv_mix_top2
 gametracker.com##.blocknewnopad
 simkl.com##.blockplacecente
@@ -71550,6 +71559,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tiantianwl.cn^
 ||xaqdf.com^
 ||bozhu.shop^
+||angelbaby.store^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -74666,9 +74676,8 @@ fqsousou.com,kengso.com#@#.user-share
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
+@@||bokecc.com/flash/playlog?
 !---------------------------------Temporary-----------------------------------!
-@@||csdnimg.cn/??asdf/1.1.3/trackad.js
-@@||g.csdnimg.cn/common/csdn-report/report.js
 ! EasyPrivacy
 !-----------------General tracking systems-----------------!
 &action=confection_send_data&
