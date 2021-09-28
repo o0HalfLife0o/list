@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q/8rXGP2/gy4zM6CeKHKQA
+! Checksum: XnCYBnLXm1lAPbS0YvP+UQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202109281401
-! Last Modified: 2021年09月28日 14:01
+! Version: 202109282003
+! Last Modified: 2021年09月28日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1486,6 +1486,8 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##A[href$="/q522p.com"]
+##A[href$="/xhg23.com"]
 ##style + .vdgdo
 ##A[href*=".xxmh667.com/"]
 ##A[href*="/3400com-o15.com/"]
@@ -6725,7 +6727,7 @@ _yad_jsonp_
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
 ||ih336.com^*a.js
-||iid97.com/bdbd/
+||iid97.com/bdgo/
 ||iimh.net/skin/footer.js
 ||iimh.net/skin/iymbl-app.js
 ||iis7.com/ys/css2018/ggw.js
@@ -10617,7 +10619,8 @@ qhnews.com###xwyc
 alu.cn###xxxhuangjinzhanwei
 onlinedown.net###xzbtn1 + #xzbtn1
 51xiazai.cn###xzbtn1:nth-child(2)
-drv5.cn###xzqq > ul
+drv5.cn###xzq
+drv5.cn##.gaosu
 redocn.com###yc_adv_1_2
 house.qq.com###yf
 starbaby.cn###yindex_ads
@@ -11991,7 +11994,9 @@ owyb1688.com##.gray-show
 bioon.com##.grid_6
 newyx.net,veryhuo.com##.gs
 veryhuo.com##.gs2
-wanyx.com##.gs_box
+wanyx.com##.gs_down
+wanyx.com##.gx_box
+wanyx.com##.zx_box
 sci-hub.org.cn##.gs_r[data-cid=""]
 sci-hub.org.cn##.gs_red[style="color:#EB7F00"]
 32r.com##.gsabtn

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tXxFIPS3NHwZQEEPtkZ/Xg
+! Checksum: PBnSpL8xpY/oUCBCx1AVJw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202109281401
-! Last Modified: 2021年09月28日 14:01
+! Version: 202109282003
+! Last Modified: 2021年09月28日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1078,6 +1078,7 @@ tieba.baidu.com##.tuijian-wrap
 .popup_im.
 .popupvideoad.
 .propellerads.$domain=~propellerads.com
+.prtrackings.com%
 .pw/ads/
 .refit.ads.
 .refreshAds.
@@ -8348,6 +8349,7 @@ _800x80_
 .co/ads/$popup
 .com/ads?$popup
 .net/adx.php?$popup
+.prtrackings.com$popup
 /?placement=*&redirect$popup
 /?redirect&placement=$popup
 /?zoneid=*&timeout=$popup
@@ -32429,6 +32431,7 @@ tf2r.com#@#.adverts
 ||achievablecpmrevenue.com^
 ||achyrepeatitchy.com^
 ||acidlikenessdejected.com^
+||acinuf.com^
 ||acirtpkh.com^
 ||ackcdn.net^
 ||acknowledgenightsabstain.com^
@@ -33473,6 +33476,7 @@ tf2r.com#@#.adverts
 ||autopsyglossy.com^
 ||autoremerciez.xyz^
 ||autsaubs.net^
+||auuayepftovx.com^
 ||auwoojuh.net^
 ||auxml.com^
 ||av20trk.com^
@@ -34912,6 +34916,7 @@ tf2r.com#@#.adverts
 ||conduit-banners.com^
 ||conduit-services.com^
 ||conferencesing.com^
+||confirmlyr.xyz^
 ||confiscatecardboard.com^
 ||conflictslashact.com^
 ||conflictwhatcrew.com^
@@ -35425,6 +35430,7 @@ tf2r.com#@#.adverts
 ||denbeigemark.com^
 ||dendrito.name^
 ||denetsuk.com^
+||denety.com^
 ||denis-pj0823031-491201b.com^
 ||denouncetenantequipment.com^
 ||dentalsadness.com^
@@ -35449,6 +35455,7 @@ tf2r.com#@#.adverts
 ||derler.pro^
 ||derliesnot.club^
 ||derowalius.com^
+||dersindical.xyz^
 ||descrepush.com^
 ||descz.ovh^
 ||desembobelinons.site^
@@ -36084,6 +36091,7 @@ tf2r.com#@#.adverts
 ||ekoatchooze.com^
 ||ekoocmujairt.com^
 ||ekufogow.xyz^
+||elaojsiaff.com^
 ||elasticad.net^
 ||elasticrosy.com^
 ||elathalobolo.com^
@@ -37029,6 +37037,7 @@ tf2r.com#@#.adverts
 ||gammae.com^
 ||gandrad.org^
 ||gangidance.com^
+||gangrelnougats.com^
 ||gangsstowapps.com^
 ||gangstsurv.club^
 ||gannett.gcion.com^
@@ -37593,6 +37602,7 @@ tf2r.com#@#.adverts
 ||hcg82f2b.com^
 ||hcrhymydx.com^
 ||hcwaxejunyzvxt.com^
+||hczkduimaipr.com^
 ||hd100546b.com^
 ||hd149026b.com^
 ||hdacode.com^
@@ -40829,6 +40839,7 @@ tf2r.com#@#.adverts
 ||pacifoos.net^
 ||pacoaniy.net^
 ||pactendsmalt.icu^
+||paddlepole.com^
 ||paddocsweek.com^
 ||padma-fed.com^
 ||padpitnon.site^
@@ -42579,6 +42590,7 @@ tf2r.com#@#.adverts
 ||rtrlseqbudrzfd.com^
 ||rtserversp.fun^
 ||rtymarvingp.top^
+||rtzkyxtfwo.com^
 ||ruamupr.com^
 ||rubbishmilliondelightful.com^
 ||rubcomplaintdimly.com^
@@ -42993,6 +43005,7 @@ tf2r.com#@#.adverts
 ||shugrefufe.com^
 ||shukriya90.com^
 ||shunguts.com^
+||shuptiwywhu.com^
 ||shusacem.net^
 ||shweflix.com^
 ||shyama-jay.com^
@@ -44528,6 +44541,7 @@ tf2r.com#@#.adverts
 ||valueclickmedia.com^
 ||valuethemarkets.info^
 ||vamprumbasfear.com^
+||vamyceka.com^
 ||vanderebony.pro^
 ||vanderlisten.pro^
 ||vanenow.com^
@@ -51058,6 +51072,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||amazon-adsystem.com^$popup,domain=twitch.tv
 ||animesuge.io/?$popup
 ||bit.ly^$popup,domain=dexerto.com|elitepvpers.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
+||bitcoins-update.blogspot.com^$popup,domain=lineageos18.com
 ||bitly.com^$popup,domain=elitepvpers.com
 ||cdnqq.net/out.php$popup
 ||embed.mystream.to^$popup
@@ -53059,6 +53074,7 @@ nextofwindows.com##.rtsidebar-cm
 itweb.co.za##.s-logos
 hope1032.com.au##.s-supported-by
 aniwatcher.com##.sa
+nodejs.libhunt.com##.saashub-ad
 9gag.com##.salt-container
 softonic.com##.sam-slot
 beermoneyforum.com,geekdoing.com,studentdoctor.net##.samBannerUnit
@@ -55036,6 +55052,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||reastatic.net/150x200-$domain=realestate.com.au
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
+@@||accounts.google.com^$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/$popup
@@ -55068,8 +55085,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||vk.com/ads?$popup,domain=vk.com
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||youtube.com/ads/preferences/$popup
-@@||accounts.google.com/o/oauth2/$popup
-@@||accounts.google.com/signin/$popup
 @@||3movs.com/sd3/s/s/js/m/pr-before.js$script,~third-party
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||iafd.com/graphics/headshots/thumbs/th_iafd_ad.gif$~third-party
@@ -56430,6 +56445,8 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##A[href$="/q522p.com"]
+##A[href$="/xhg23.com"]
 ##style + .vdgdo
 ##A[href*=".xxmh667.com/"]
 ##A[href*="/3400com-o15.com/"]
@@ -61669,7 +61686,7 @@ _yad_jsonp_
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
 ||ih336.com^*a.js
-||iid97.com/bdbd/
+||iid97.com/bdgo/
 ||iimh.net/skin/footer.js
 ||iimh.net/skin/iymbl-app.js
 ||iis7.com/ys/css2018/ggw.js
@@ -65561,7 +65578,8 @@ qhnews.com###xwyc
 alu.cn###xxxhuangjinzhanwei
 onlinedown.net###xzbtn1 + #xzbtn1
 51xiazai.cn###xzbtn1:nth-child(2)
-drv5.cn###xzqq > ul
+drv5.cn###xzq
+drv5.cn##.gaosu
 redocn.com###yc_adv_1_2
 house.qq.com###yf
 starbaby.cn###yindex_ads
@@ -66935,7 +66953,9 @@ owyb1688.com##.gray-show
 bioon.com##.grid_6
 newyx.net,veryhuo.com##.gs
 veryhuo.com##.gs2
-wanyx.com##.gs_box
+wanyx.com##.gs_down
+wanyx.com##.gx_box
+wanyx.com##.zx_box
 sci-hub.org.cn##.gs_r[data-cid=""]
 sci-hub.org.cn##.gs_red[style="color:#EB7F00"]
 32r.com##.gsabtn
@@ -99493,7 +99513,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|schwab.com
-@@||googletagmanager.com/gtm.js$domain=atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|easternbank.com|fortune.com|nflgamepass.com|nordvpn.com|pioneer.eu|royalbank.com|scotsman.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|nflgamepass.com|nordvpn.com|pioneer.eu|royalbank.com|scotsman.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
