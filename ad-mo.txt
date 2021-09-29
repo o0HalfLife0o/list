@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cJ+6CrVUcmmmbcHSTdPCpA
+! Checksum: vkqt7g4oiAqmXeEwCh1naQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109291401
-! Last Modified: 2021年09月29日 14:01
+! Version: 202109292003
+! Last Modified: 2021年09月29日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4605,6 +4605,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /full/ads/*
 /fullad.
 /fulladbazee.
+/funcript*.php?pub=
 /fuseads/*
 /fwadmanager.
 /gadgets/ad/*
@@ -34304,6 +34305,7 @@ tf2r.com#@#.adverts
 ||cbleads.com^
 ||cbmawvknxwgxqd.com^
 ||cbpsdvozwsbf.com^
+||cbuacategic.xyz^
 ||cc-dt.com^
 ||cc380535d9ca0.com^
 ||ccalgf.com^
@@ -38876,6 +38878,7 @@ tf2r.com#@#.adverts
 ||leukemiatwinklesagacious.com^
 ||leveloped.club^
 ||leveryone.club^
+||lewritishma.space^
 ||lfendascra.club^
 ||lfg5jnbi.com^
 ||lfstmedia.com^
@@ -38900,6 +38903,7 @@ tf2r.com#@#.adverts
 ||lichtpass.com^
 ||licichoshy.com^
 ||lickmechanicalbasis.com^
+||liddid.com^
 ||lidjetsyak.com^
 ||lie2anyone.com^
 ||liersmagne.club^
@@ -40843,6 +40847,7 @@ tf2r.com#@#.adverts
 ||pateablyace.com^
 ||paternalhumiliate.com^
 ||patgsrv.com^
+||pathsinvestor.com^
 ||patientlyrequisite.com^
 ||patiskcontentdelivery.info^
 ||patithatspartal.pro^
@@ -41987,6 +41992,7 @@ tf2r.com#@#.adverts
 ||rawasy.com^
 ||rawoarsy.com^
 ||razdvabm.com^
+||razuphyju.com^
 ||rbnt.org^
 ||rbnwacsf.com^
 ||rcblkkhfvrxyn.com^
@@ -42320,6 +42326,7 @@ tf2r.com#@#.adverts
 ||rikobisti.com^
 ||rilelogicbuy.com^
 ||rilesticks.com^
+||rilins.com^
 ||riluaneth.com^
 ||riminghoggoofy.com^
 ||rincegath.fun^
@@ -45229,6 +45236,7 @@ tf2r.com#@#.adverts
 ||xgrwjbui.top^
 ||xgubafscfsf.com^
 ||xhrxmbqixobk.com^
+||xhuwypebxqlt.com^
 ||xhzugaqnqo.com^
 ||xibadupty.com^
 ||xidx.org^
@@ -54450,6 +54458,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dailymotion.com/embed/*?ads_params=$subdocument
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
+@@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
@@ -54948,6 +54957,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||reastatic.net/150x200-$domain=realestate.com.au
+@@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||accounts.google.com^$popup
@@ -54996,6 +55006,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+/91porny/jiuselu/wenming/*
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -56354,6 +56365,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||080cbfe.cn^
+||e7ymqu6.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -64030,8 +64042,10 @@ _yad_jsonp_
 ||meijucang.com/js/pop/
 ||360buyimg.com^$domain=1024my.com
 ||wnacg.*/data/game/
+||di2y21.top/jian/jiansshu.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+91porny.com##.jsv-g1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71634,6 +71648,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||erop.store^
+||abhabh.club^
+||bupt.info^
+||mageti.cn^
+||lntx.shop^
+||jianchajingmk.net^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -74762,6 +74782,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||jianshu.com/asimov/ab_test/info
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyPrivacy
@@ -100520,6 +100541,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pconline.com.cn/global/footer/index.html
 ||ali213.net/news/kx/ali213-kx-data.js
 !------------------------Specific element hiding rules------------------------!
+edrawsoft.cn###bottom-banner-activity-md
 baidu.com##.bottom-right-dsp-ad-wrap
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
 finance.sina.com.cn##DIV[class*="game"]
