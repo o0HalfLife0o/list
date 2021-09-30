@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LrM0p4z3+07m8XP/dSoC7Q
+! Checksum: UccRISWoh8KbTRsVEGLrRQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202109302006
-! Last Modified: 2021年09月30日 20:06
+! Version: 202110010201
+! Last Modified: 2021年10月01日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -137,6 +137,7 @@ xz6d.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+.club/adv/
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -9176,6 +9177,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zmk.pw/zfb.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -19922,6 +19924,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyList Lite

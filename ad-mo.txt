@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CYjPzGN2sjXJmj4SAo+YAg
+! Checksum: QPs7LiHR8bZNt3oEQoY4BA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202109302006
-! Last Modified: 2021年09月30日 20:06
+! Version: 202110010201
+! Last Modified: 2021年10月01日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2990,6 +2990,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsfooter
 /adsforwp-
 /adsframe.
+/adsframework/*
 /adsfull/*
 /adsfuse-
 /adsgame.
@@ -18061,6 +18062,7 @@ _800x80_
 ##.ad-banner-container
 ##.ad-banner-content
 ##.ad-banner-image
+##.ad-banner-inlisting
 ##.ad-banner-label
 ##.ad-banner-leaderboard
 ##.ad-banner-placeholder
@@ -18604,6 +18606,7 @@ _800x80_
 ##.ad-post300X250
 ##.ad-postText
 ##.ad-poster
+##.ad-posterad-inlisting
 ##.ad-preloader-container
 ##.ad-prevent-jump
 ##.ad-primary
@@ -37603,6 +37606,7 @@ tf2r.com#@#.adverts
 ||homelessfunkenclose.com^
 ||homemadebarricadedialogue.com^
 ||homesicktitanic.com^
+||hometownlow.com^
 ||homeyloanedmes.work^
 ||honeycombastrayabound.com^
 ||honeycombdoggie.com^
@@ -54713,6 +54717,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+.club/adv/
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -63752,6 +63757,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zmk.pw/zfb.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -74498,6 +74504,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyPrivacy
