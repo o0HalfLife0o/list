@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: z6TIVS5/Cd0Rsm+dxgN7tQ
+! Checksum: 7VWsoJIWlI7OMS0PtEhumw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110010814
-! Last Modified: 2021年10月01日 08:14
+! Version: 202110012004
+! Last Modified: 2021年10月01日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1194,7 +1194,6 @@ titulky.com#$#abort-current-inline-script adblfetected
 csfd.cz#$#abort-current-inline-script $ completeAdsObject
 ! Popup/Popunder
 dlouha-videa.cz#$#abort-on-property-read _0x4c29
-*$popup,third-party,domain=expres.cz|idnes.cz
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/dutch.txt ***
 ! #CV-660
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
@@ -1797,13 +1796,13 @@ ucoz.club,yaminecraft.ru,dva-kolesa.my1.ru,nintendo.moy.su,kino-v-dome.net,psxwo
 kinogo.eu,gidonline.eu#$#abort-on-property-read target_script
 radikal.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-read ads_script; abort-on-property-read atob; abort-on-property-read loaded_blocks_directadvert; abort-on-property-read utarget_script
 ! #CV-742
-vesti.ua#$#abort-current-inline-script document.createElement atob
+vesti.ua,lrepacks.net#$#abort-current-inline-script document.createElement atob
 ! #CV-685
 vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
 ! CV-715
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,zikua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 ! #CV-716
-grad.ua,kolizhanka.com.ua,nakanune.ru,ngp-ua.info,mycompplus.ru,chas.cv.ua,procherk.info,prm.ua,vgolos.com.ua,begemot-media.com,portal.lviv.ua,4studio.com.ua,moirebenok.ua,mi100.info,gorodkiev.com.ua,radiosvoboda.org,glavpost.ua,volynua.com,profootball.ua,sport-kr.com.ua,risu.ua,telekritika.ua,day.kyiv.ua,vsviti.com.ua,praktika-vlasti.com.ua,westnews.info,iz.com.ua,khersonline.net,rivnenews.com.ua,greenpost.ua,politnavigator.net,golosinfo.com.ua,wworld.com.ua,tverigrad.ru,novynarnia.com,apnews.com.ua,cn.ua,podpricelom.com.ua,begemot.media,beauty.ua,tvoymalysh.com.ua,superdom.ua,viva.ua,edinstvennaya.ua,ratel.kz,ekovolga.com,mind.ua,itechua.com,argumentiru.com,forpost.media,gov.ua,ternopillive.com.ua,te.ua,uanews.org.ua,fraza.com,uainfo.org,economistua.com,odessa-life.od.ua,autotheme.info,volnorez.com.ua,newsoneua.tv,expert.in.ua,pg11.ru,tverisport.ru,novavlada.info,zikua.tv,rusjev.net,uatv.ua,dyvys.info,cheline.com.ua,sud.ua,asiaplustj.info,wpristav.ru,poltava365.com,unn.com.ua,1news.com.ua,365news.biz,4mama.ua,7days-ua.com,cikavosti.com,comments.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,fedpress.ru,glavnoe.ua,glavnoe24.ru,inforpost.com,kurskcity.ru,liga.net,narodna-pravda.ua,pingvin.pro,pl.com.ua,real-vin.com,russianshowbiz.info,semobile.com.ua,vchaspik.ua,versii.if.ua,volyninfo.com,womo.ua,volynpost.com#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
+1news.com.ua,365news.biz,4mama.ua,4studio.com.ua,7days-ua.com,apnews.com.ua,argumentiru.com,asiaplustj.info,autotheme.info,beauty.ua,begemot-media.com,begemot.media,chas.cv.ua,cheline.com.ua,cikavosti.com,cn.ua,comments.ua,day.kyiv.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,dyvys.info,economistua.com,edinstvennaya.ua,ekovolga.com,expert.in.ua,fedpress.ru,forpost.media,fraza.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,gov.ua,grad.ua,greenpost.ua,inforpost.com,itechua.com,iz.com.ua,khersonline.net,kolizhanka.com.ua,krymr.com,kurskcity.ru,liga.net,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,narodna-pravda.ua,nashbryansk.ru,newsoneua.tv,ngp-ua.info,novavlada.info,novynarnia.com,odessa-life.od.ua,pg11.ru,pingvin.pro,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,praktika-vlasti.com.ua,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,risu.ua,rivnenews.com.ua,rusjev.net,russianshowbiz.info,semobile.com.ua,sport-kr.com.ua,sud.ua,superdom.ua,te.ua,telekritika.ua,ternopillive.com.ua,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,volnorez.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wpristav.ru,wworld.com.ua,zikua.tv#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
 marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 ! #CV-667
 empireg.ru#$#abort-current-inline-script Math zfgloaded

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rdeh9CyAJ3t+9DwQaHN2Kw
+! Checksum: vZ+pjnoSOESC86Uy6Sg/tQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110011401
-! Last Modified: 2021年10月01日 14:01
+! Version: 202110012004
+! Last Modified: 2021年10月01日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1495,9 +1495,11 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+###gg_url
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||888888888888.online^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -16795,6 +16797,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||caiwuwang.ltd^
 ||ygtnn.cn^
 ||zhonglitz.cn^
+||1234567sg.xyz^
+||yuyinqs.com^
+||ilczz.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -24778,6 +24783,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /livestats.js
 /livestats.php?
 /livezilla/server.php?request=track&
+/ljcounter/*
 /llbmetrics.
 /llntrack.
 /load.gif?
@@ -26871,6 +26877,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /tunestats.
 /turn-proxy.html?
 /tw-track.js
+/TWDC-DTCI/*
 /TwitterTracking.
 /tynt.js
 /tzr.fcgi?
@@ -35666,7 +35673,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linktr.ee/events
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
-||livejournal.com/ljcounter/?
+||livejournal.com/log?
 ||liveperson.net/hc/*/?visitor=
 ||local.ch/track/
 ||log-api.newrelic.com^
