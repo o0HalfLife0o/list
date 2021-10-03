@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2ASZ6A5/ZZ40q3apu5B3iQ
+! Checksum: aQiKtN2qa43KHlIgf4nsgQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110032002
-! Last Modified: 2021年10月03日 20:02
+! Version: 202110040201
+! Last Modified: 2021年10月04日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -40902,6 +40902,7 @@ tf2r.com#@#.adverts
 ||pc-ads.com^
 ||pc180101.com^
 ||pc1ads.com^
+||pc20160301.com^
 ||pc2ads.com^
 ||pcdnlt.com^
 ||pcdodues.com^
@@ -44115,6 +44116,7 @@ tf2r.com#@#.adverts
 ||tureabstra.fun^
 ||turkeybossbare.com^
 ||turmoilexcessivetranslating.com^
+||turmoilragcrutch.com^
 ||turnstilerecruit.com^
 ||turtlesootheongoing.com^
 ||tushihymi.com^
@@ -50070,6 +50072,7 @@ tf2r.com#@#.adverts
 ||cdn.optmd.com^$popup
 ||chaturbate.com/affiliates/$popup
 ||cyberprivacy.pro^$popup
+||download-step1.com^$popup
 ||eatcells.com/landing/$popup
 ||error-alerts.com^$popup
 ||evanetwork.com^$popup
@@ -63982,8 +63985,11 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||b4dg.life/love/
+||lancdn.com^*/hnc_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+paopaoche.net###gaosuxiazai
+paopaoche.net##.down_btn2.green
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71592,6 +71598,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chenqi.vip^
 ||haoanfang.cn^
 ||guruguru.cn^
+||wangxingkui.online^
+||olayz.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -98511,6 +98519,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||space-blogs.net/include/counter/
 ||stat.ouedkniss.com^
 ||stats.sexemodel.com^
+||stats.wawacity.one^
 ||surace-jujitsu.fr/outils/compteur_php/
 ||t.blablacar.com^
 ||tc2.hometogo.net^
