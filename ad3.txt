@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v4xqrVN0UYjhegsBn5nkCw
+! Checksum: LNlD0yDH/3xGzL86JLcU2Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110030815
-! Last Modified: 2021年10月03日 08:15
+! Version: 202110031401
+! Last Modified: 2021年10月03日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1499,6 +1499,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||rou1.xyz^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9183,6 +9184,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||b4dg.life/love/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16791,6 +16793,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||chenqi.vip^
+||haoanfang.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -22748,6 +22751,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytic/pageview
 /analytic?publisher
 /analytic_data_
+/analyticcdn.
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
 /analytics-2.
@@ -27788,6 +27792,8 @@ _mongo_stats/
 ||analysis.fi^
 ||apxl.io^
 ||auriro.net^
+||ayc0zsm69431gfebd.info^
+||ayc0zsm69431gfebd.xyz^
 ||azury.gg^
 ||bfmio.com^
 ||bidswitch.net^
@@ -27800,6 +27806,7 @@ _mongo_stats/
 ||crsspxl.com^
 ||crwdcntrl.net^
 ||cxt.ms^
+||czx5eyk0exbhwp43ya.biz^
 ||demdex.net^
 ||dm-event.net^
 ||dmpxs.com^
@@ -28516,7 +28523,6 @@ _mongo_stats/
 ||cya2.net^$third-party
 ||cybermonitor.com^$third-party
 ||cytoclause.com^$third-party
-||czx5eyk0exbhwp43ya.biz^$third-party
 ||d-1.co^$third-party
 ||d41.co^$third-party
 ||dacounter.com^$third-party
@@ -30394,6 +30400,7 @@ _mongo_stats/
 ||vmmpxl.com^$third-party
 ||voicefive.com^$third-party
 ||volantix.com^$third-party
+||volument.com^$third-party
 ||votistics.com^$third-party
 ||vprza.com^$third-party
 ||vtracker.net^$third-party
@@ -30978,7 +30985,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||awesomeagreement.com^
 ||awzbijw.com^$third-party
 ||axiomaticalley.com^$third-party
-||ayc0zsm69431gfebd.info^$third-party
 ||bagbeam.com^$third-party
 ||bandborder.com^$third-party
 ||basketballbelieve.com^$third-party
@@ -33081,7 +33087,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foureyes.io/fe-init.js
 ||fourmtagservices.appspot.com^
 ||foxcontent.com/tracking/
-||fp-cdn.azureedge.net/prod/
+||fp-cdn.azureedge.net^
 ||freecurrencyrates.com/statgif.
 ||freedom.com^*/analytic/
 ||freedom.com^*/analytics/
