@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YZCsHl8p4y6DVVdpktfNkg
+! Checksum: apBBgwJy2yAKrY2hTnx7xA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202110040814
-! Last Modified: 2021年10月04日 08:14
+! Version: 202110041401
+! Last Modified: 2021年10月04日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -7065,7 +7065,7 @@ _yad_jsonp_
 ||k99.cc^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kajila.cn/ad.html
-||kakadm.com/js/loadjs/jquery
+||kakadm.*/js/loadjs/jquery
 ||kalvin.cn/page/img/
 ||kan-ju.net/cr.gif
 ||kan98.com/images/*.gif
@@ -16796,6 +16796,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||better-better.com.cn^
 ||tryst.net.cn^
+||yuesenshangmao.cn^
+||9860775.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5htscYlMmBkYJP4g6NuI7w
+! Checksum: vEuPULR4E/4im+ceD53gOw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110040814
-! Last Modified: 2021年10月04日 08:14
+! Version: 202110041401
+! Last Modified: 2021年10月04日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7985,15 +7985,12 @@ _atblockdetector/
 -468x60.
 -468x60/
 -468x60_
--468x60px-
--468x60px.
 -468x70.
 -468x80-
 -468x80.
 -468x80/
 -468x80_
 -468x90.
--480x120.
 -480x60-
 -480x60.
 -480x60/
@@ -8002,14 +7999,11 @@ _atblockdetector/
 -500x100.
 -600x70.
 -600x90-
--700-200.
--720x120-
 -720x90-
 -720x90.
 -728-90-
 -728-90.
 -728.90.
--728x90&
 -728x90-
 -728x90.
 -728x90/
@@ -8049,15 +8043,10 @@ _atblockdetector/
 /120x600.
 /120x600/*
 /120x600_
-/125x240/*
-/125x300_
-/125x400/*
 /125x600-
 /125x600_
 /130x600-
 /130x600.
-/150-500.
-/150_500.
 /150x200-
 /150x300_
 /150x600_
@@ -8112,9 +8101,6 @@ _atblockdetector/
 /468x60.$~script
 /468x60/*
 /468x60_
-/468x60a.
-/468x60a_
-/468x60b.
 /468x70-
 /468x72.
 /468x72_
@@ -8122,8 +8108,6 @@ _atblockdetector/
 /468x80.
 /468x80/*
 /468x80_
-/468x80b.
-/468x80g.
 /470x030_
 /480x030.
 /480x030_
@@ -8149,8 +8133,6 @@ _atblockdetector/
 /700_100_
 /700_200.
 /700x100.
-/700x120.
-/700x250.
 /700x90.
 /728-90-
 /728-90.
@@ -8161,18 +8143,10 @@ _atblockdetector/
 /728_90.
 /728_90/*
 /728_90_
-/728_90n.
-/728by90_
-/728x15.
-/728x180-
-/728x79_
 /728x90-
 /728x90.
 /728x90/*
-/728x90?
 /728x90_
-/728x90b.
-/728x90b/*
 /750-100.
 /750x100.
 /760x120.
@@ -8184,7 +8158,6 @@ _atblockdetector/
 /800x160/*
 /800x90.
 /80x468_
-/950_250.
 /960_60_
 /980x90.
 =120x600,
@@ -8218,7 +8191,6 @@ _120x500.
 _120x600-
 _120x600.
 _120x600_
-_120x600a.
 _125x600_
 _128x600.
 _140x600.
@@ -8227,7 +8199,6 @@ _150x700_
 _160-600.
 _160_600.
 _160_600_
-_160x290.
 _160x300.
 _160x300_
 _160x350.
@@ -8238,25 +8209,17 @@ _160x600-
 _160x600.
 _160x600/
 _160x600_
-_160x600b.
 _300-250-
 _300_250.
-_300_250_
-_300_60_
 _300x250&
 _300x250-
 _300x250.
 _300x250_
-_300x250a_
-_300x250b.
 _300x600.
 _300x600_
 _320x250_
 _323x120_
 _336x120.
-_336x280&
-_336x280_
-_336x850.
 _350_100.
 _350_100_
 _350x100.
@@ -8303,22 +8266,9 @@ _480x60/
 _480x60_
 _486x60.
 _486x60_
-_490-90_
-_540_70.
-_540_70_
-_550x150.
-_580x100.
-_600-90.
-_600x120_
-_600x160&
-_600x160.
-_600x180.
-_600x80.
-_600x90.
 _700_100_
 _700_150_
 _700_200_
-_700x200.
 _720_90.
 _720x90.
 _720x90_
@@ -8326,21 +8276,14 @@ _728-90.
 _728-90_
 _728_90.
 _728_90_
-_728by90_
-_728x-90.
 _728x150.
 _728x60.
-_728x90&
 _728x90-
 _728x90.
 _728x90/
 _728x90_
-_745_90.
 _750x100.
 _760x100.
-_760x90_
-_764x70.
-_764x70_
 _768x90_
 _800x100.
 _800x80_
@@ -33368,6 +33311,7 @@ tf2r.com#@#.adverts
 ||askaspalb.online^
 ||askewpatienceblameless.com^
 ||asklots.com^
+||asksexually.com^
 ||aslaironer.com^
 ||aslaprason.com^
 ||asmodeusfields.com^
@@ -33495,6 +33439,7 @@ tf2r.com#@#.adverts
 ||autsaubs.net^
 ||auuayepftovx.com^
 ||auwoojuh.net^
+||auxaltkft.xyz^
 ||auxml.com^
 ||av20trk.com^
 ||avads.co.uk^
@@ -34471,6 +34416,7 @@ tf2r.com#@#.adverts
 ||cdrvrs.com^
 ||cdsbnrs.com^
 ||cdwcdny.com^
+||cdynxqqckkxof.com^
 ||ce62e0d222bc5aca.com^
 ||cea53c4833.com^
 ||cebadu.com^
@@ -34577,6 +34523,7 @@ tf2r.com#@#.adverts
 ||cheerysequelhoax.com^
 ||cheetieaha.com^
 ||cheewait.net^
+||cheewhoa.net^
 ||chekaksam.com^
 ||cheksoam.com^
 ||chelaxeshi.com^
@@ -35178,6 +35125,7 @@ tf2r.com#@#.adverts
 ||cuculf.name^
 ||cucumbersdespitebristle.com^
 ||cueyetwee.site^
+||cuhoxiphi.com^
 ||cuisineenvoyadvertise.com^
 ||culpritwatchmanhostile.com^
 ||culreelt.com^
@@ -35197,6 +35145,7 @@ tf2r.com#@#.adverts
 ||curlsrare.com^
 ||currentlyclash.com^
 ||curriculture.com^
+||currietory.xyz^
 ||curtisfrierson.com^
 ||curveconjure.com^
 ||custodyabsolutiondrawback.com^
@@ -36622,6 +36571,7 @@ tf2r.com#@#.adverts
 ||feverhappyjack.com^
 ||fewrfie.com^
 ||ff5bd8d9f8df.com^
+||ffbrfjnhhf.com^
 ||fferencebr.space^
 ||ffhwzaenzoue.com^
 ||ffkdxymyji.com^
@@ -36705,6 +36655,7 @@ tf2r.com#@#.adverts
 ||fjbatbqiwpxydg.com^
 ||fjfpeqgeyp.com^
 ||fjioh.com^
+||fjiruslmc.xyz^
 ||fkbwtoopwg.com^
 ||fkreylsnefmepi.com^
 ||fl-ads.com^
@@ -36859,6 +36810,7 @@ tf2r.com#@#.adverts
 ||franeski.net^
 ||franklybundlecarver.com^
 ||franklyclapmaggot.com^
+||franklysleazymaintain.com^
 ||franticallyfranklydecember.com^
 ||franticallyseptember.com^
 ||franticdivergemindless.com^
@@ -36945,6 +36897,7 @@ tf2r.com#@#.adverts
 ||fwnowvgk.com^
 ||fwrrcnkzn5ik.com^
 ||fxdepo.com^
+||fyhishushe.com^
 ||fykmahfa.com^
 ||fythavoshu.com^
 ||fz5akngy5o6r.com^
@@ -37598,6 +37551,7 @@ tf2r.com#@#.adverts
 ||hearewe.com^
 ||hearfromyou.biz^
 ||hearsedbedolt.casa^
+||heartachecustomary.com^
 ||heartbrokendilapidation.com^
 ||heartbrokenscallion.com^
 ||hearthcoronation.com^
@@ -38114,6 +38068,7 @@ tf2r.com#@#.adverts
 ||inhumenesokia.com^
 ||inigusyou.fun^
 ||ininmacerad.pro^
+||initiallogical.com^
 ||initiateplayed.com^
 ||initiateshaky.com^
 ||injuredcandy.com^
@@ -38549,6 +38504,7 @@ tf2r.com#@#.adverts
 ||kamnebo.info^
 ||kanoodle.com^
 ||kantarmedia.com^
+||kaollpuhcfl.com^
 ||kappalinks.com^
 ||kaptytypso.com^
 ||katatalkenna.com^
@@ -39205,6 +39161,7 @@ tf2r.com#@#.adverts
 ||m968kpz550cx.com^
 ||ma2gs3wne3gfej70osium.com^
 ||machings.com^
+||machogodynamis.com^
 ||madadsmedia.com^
 ||madcpms.com^
 ||madmanbears.com^
@@ -40776,6 +40733,7 @@ tf2r.com#@#.adverts
 ||pageconditiongrub.com^
 ||pagejunky.com^
 ||paginw.com^
+||paginx.com^
 ||pagiwp.com^
 ||pagne4cham4hrobl.com^
 ||pagnookr.net^
@@ -41349,6 +41307,7 @@ tf2r.com#@#.adverts
 ||praesumes.xyz^
 ||praganytu.club^
 ||praght.tech^
+||prahfoleruna.com^
 ||praiserevision.com^
 ||pramdishevelledsquare.com^
 ||prankmechanics.com^
@@ -41988,6 +41947,7 @@ tf2r.com#@#.adverts
 ||rbnt.org^
 ||rbnwacsf.com^
 ||rcblkkhfvrxyn.com^
+||rconand.club^
 ||rcurn.com^
 ||rcvlink.com^
 ||rcvlinks.com^
@@ -43286,6 +43246,7 @@ tf2r.com#@#.adverts
 ||stepkeydo.com^
 ||stepmotherembroidery.com^
 ||stepmotherillegaldepressing.com^
+||steppedandelion.com^
 ||steppevegetationforefather.com^
 ||steroidparentconstruct.com^
 ||steroidtypesconviction.com^
@@ -43742,6 +43703,7 @@ tf2r.com#@#.adverts
 ||thudywhamy.com^
 ||thughighjackcheesy.com^
 ||thugtowardhindsight.com^
+||thurag.com^
 ||thurnflfant.com^
 ||thursdayfeeemployee.com^
 ||thygrepuwo.pro^
@@ -43804,6 +43766,7 @@ tf2r.com#@#.adverts
 ||tjzetzjqodjj.com^
 ||tkbo.com^
 ||tkickhhylnvm.com^
+||tkonyrkc.com^
 ||tkxiavegstgq.com^
 ||tl2go.com^
 ||tlccqcko.com^
@@ -43852,6 +43815,7 @@ tf2r.com#@#.adverts
 ||tommyperseverance.com^
 ||tomrigdabih.com^
 ||tonightsuppressedgrocery.com^
+||tonnection.xyz^
 ||toodlepork.com^
 ||tookawie.com^
 ||toonikab.com^
@@ -44060,6 +44024,7 @@ tf2r.com#@#.adverts
 ||tulecheja.pro^
 ||tulipinventpins.com^
 ||tuliprejoice.com^
+||tulplrtsra.xyz^
 ||tumbleractedblunder.com^
 ||tummiarunzpf.com^
 ||tumri.net^
@@ -45115,6 +45080,7 @@ tf2r.com#@#.adverts
 ||wutipupi.xyz^
 ||wvahelphpfnhyx.com^
 ||wvekalpmn.com^
+||wvmvgqvmbobxb.xyz^
 ||wvpkoyjoq.com^
 ||wvs3bmct6mkz.com^
 ||wwnrdqxo.com^
@@ -45361,7 +45327,6 @@ tf2r.com#@#.adverts
 ||yhhbtavgpuo.com^
 ||yhmceakev.com^
 ||yiatelychur.top^
-||yield.app^
 ||yieldads.com^
 ||yieldadvert.com^
 ||yieldbuild.com^
@@ -48092,6 +48057,7 @@ tf2r.com#@#.adverts
 ||nextoptim.com^$popup
 ||nextyourcontent.com^$popup
 ||nfqglptm47uc.com^$popup
+||nitrogenpleahierarchy.com^$popup
 ||noblefun.net^$popup
 ||nocdnrlly.xyz^$popup
 ||nodecrisp.com^$popup
@@ -50062,6 +50028,7 @@ tf2r.com#@#.adverts
 ||vpnfortorrents.best^$popup
 ||vpnfortorrents.org^$popup
 ||whataboutnews.com^$popup,third-party
+||yield.app^*utm_source=$popup
 ||18onlygirls.tv/wp-content/banners/
 ||4fcams.com/in/?track=$subdocument,third-party
 ||4tube.com/iframe/$third-party
@@ -50131,6 +50098,7 @@ tf2r.com#@#.adverts
 ||feeds.videosz.com^
 ||fleshlight.com/images/banners/
 ||fpcplugs.com/do.cgi?widget=
+||free.srcdn.xyz^
 ||fuegodevida.com^$third-party
 ||gateway-banner.eravage.com^
 ||geo.frtya.com^
@@ -50943,8 +50911,6 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||18porn.sex/ptr18.js
 ||3movs.com/sd3/
 ||3naked.com/nb/
-||4kporn.xxx/gYXx2Q9.js
-||4kporn.xxx/ZmtVYw1.js
 ||4tube.com/assets/abpe-
 ||4tube.com/assets/adf-
 ||4tube.com/assets/adn-
@@ -50960,14 +50926,13 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||adultasianporn.com/puty3s/
 ||adultdeepfakes.com/banners?
 ||adultfilmdatabase.com/graphics/porndude.png
-||adultwork.com/ci/MB/directchat_banner.gif
+||adultwork.com/ci/MB/vouchers_banner.gif
 ||affiliates.goodvibes.com^
 ||alrincon.com/nbk/
 ||analsexstars.com^$subdocument
 ||anybunny.tv/js/main.ex.js
 ||anyporn.com/aa/
 ||anysex.com/*/serv
-||anysex.com/2-2-temparoryp/
 ||assfuck.xxx/uploads/banners/
 ||assfuck.xxx/uploads/provider-banners/
 ||atescorts.com/img-banners/
@@ -50991,8 +50956,6 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||bravoteens.com/ta/
 ||bravotube.net/cc/
 ||bravotube.net/js/clickback.js
-||bravotube.net^*/abbs.
-||broncs.net/pub/pop_min.js
 ||bunnylust.com/sponsors/
 ||buonaporno.com/extras/
 ||cambro.tv/popin-min.js
@@ -53993,7 +53956,7 @@ gotporn.com##.image-group-vertical
 vivud.com##.in_stream_banner
 cocoimage.com##.inner_right
 vivud.com##.inplayer_banners
-anyporn.com,bravoteens.com##.inplb
+anyporn.com,bravoteens.com,bravotube.net##.inplb
 bravotube.net##.inplb3x2
 playvids.com,pornflip.com##.invideoBlock
 e-hentai.org##.itd[colspan="4"]
@@ -61819,7 +61782,7 @@ _yad_jsonp_
 ||k99.cc^$third-party
 ||kaixin001.com.cn/js/cpm-
 ||kajila.cn/ad.html
-||kakadm.com/js/loadjs/jquery
+||kakadm.*/js/loadjs/jquery
 ||kalvin.cn/page/img/
 ||kan-ju.net/cr.gif
 ||kan98.com/images/*.gif
@@ -71550,6 +71513,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||better-better.com.cn^
 ||tryst.net.cn^
+||yuesenshangmao.cn^
+||9860775.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
