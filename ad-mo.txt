@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y8DNWwkBkVZuFiYA+LagQw
+! Checksum: 20BCp/Ps70gJ2ng8F9FgqQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110050814
-! Last Modified: 2021年10月05日 08:14
+! Version: 202110051401
+! Last Modified: 2021年10月05日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32449,6 +32449,7 @@ tf2r.com#@#.adverts
 ||adnigma.com^
 ||adnimo.com^
 ||adnoble.com^
+||adnxs-simple.com^
 ||adnxs.com^
 ||adnxs.net^
 ||adnxs1.com^
@@ -36038,6 +36039,7 @@ tf2r.com#@#.adverts
 ||englingedrxa.club^
 ||englishheadlight.com^
 ||enhancereviewpacket.com^
+||enhichej.xyz^
 ||enhucherions.xyz^
 ||eniousirre.top^
 ||enjoyingbind.com^
@@ -37606,6 +37608,7 @@ tf2r.com#@#.adverts
 ||hmonstabb.fun^
 ||hmyjpt.com^
 ||hnpvnnhzazkl.com^
+||hnqhdnryukqko.com^
 ||hoanoola.net^
 ||hobbyatticnickname.com^
 ||hobfadbig.com^
@@ -38064,6 +38067,7 @@ tf2r.com#@#.adverts
 ||inviteadvancenuisance.com^
 ||invitesuperstitiousadmire.com^
 ||invraisemblable.com^
+||inwgamacuuv.xyz^
 ||iociley.com^
 ||ioheiy.com^
 ||ioiylgyf.com^
@@ -38211,6 +38215,7 @@ tf2r.com#@#.adverts
 ||jeclittrecheckrep.info^
 ||jecqhvrclrxe.com^
 ||jectsinteredse.info^
+||jecumapu.com^
 ||jeehathu.com^
 ||jeejujou.net^
 ||jeerszitstoke.com^
@@ -39516,6 +39521,7 @@ tf2r.com#@#.adverts
 ||moapteeg.net^
 ||moapuwhe.com^
 ||moatads.com^
+||moawdrnfjh.com^
 ||mob1ledev1ces.com^
 ||mobalert.net^
 ||mobatori.com^
@@ -40289,6 +40295,7 @@ tf2r.com#@#.adverts
 ||ofdittor.com^
 ||ofexmskz.com^
 ||offerimage.com^
+||officular.xyz^
 ||officultpolicit.pro^
 ||offoonguser.com^
 ||offsetdamn.com^
@@ -44346,6 +44353,7 @@ tf2r.com#@#.adverts
 ||vattingbalak.com^
 ||vaultwrite.com^
 ||vawhigufi.com^
+||vax-now.com^
 ||vbeas.xyz^
 ||vbrw.xyz^
 ||vbtrax.com^
@@ -50732,38 +50740,33 @@ $webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepir
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 ||thepiratebay.*/static/$subdocument
 ||thepiratebay10.org/static/js/UYaf3EPOVwZS3PP.js
-/^https?:\/\/(.+?\.)?allthingsvegas\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?aupetitparieur\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?allthingsvegas\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?aupetitparieur\.com[\/]{1,}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?canadafreepress\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?canadafreepress\.com\/images\/uploads\/[a-zA-Z]{6,15}\-.*/
-/^https?:\/\/(.+?\.)?concomber\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?conservativefiringline\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?dailyheadlines\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?dailyheadlines\.net\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?dailylol\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?dailylol\.com\/wp-content\/uploads\/.*[a-zA-Z]{4,9}\-/
-/^https?:\/\/(.+?\.)?dcdirtylaundry\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?gamersheroes\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?grammarist\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?ipatriot\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?concomber\.com[\/]{1,}.*[a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/$image
+/^https?:\/\/(.+?\.)?conservativefiringline\.com[\/]{1,}.*[a-zA-Z0-9]{7,9}\/[a-zA-Z0-9]{10,}\/.*/
+/^https?:\/\/(.+?\.)?dailylol\.com[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?dailylol\.com\/wp-content\/uploads\/.*[a-zA-Z]{7,}\-[a-z0-9]{8,}\-/
+/^https?:\/\/(.+?\.)?dcdirtylaundry\.com[\/]{1,}.*[a-zA-Z0-9]{9,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?grammarist\.com[\/]{1,}.*[a-zA-Z0-9]{9,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?ipatriot\.com[\/]{1,}.*[a-zA-Z0-9]{9,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?letocard\.fr[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?letocard\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?lovezin\.fr\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?mamieastuce\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?meilleurpronostic.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?menrec\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?naturalblaze\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?newser\.com\/[a-zA-Z0-9]{2,4}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?patriotnationpress\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?lovezin\.fr[\/]{1,}.*[a-zA-Z0-9]{7,9}\/[a-zA-Z0-9]{10,}\/.*/
+/^https?:\/\/(.+?\.)?mamieastuce\.com[\/]{1,}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?meilleurpronostic\.fr\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?menrec\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?naturalblaze\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{14,}\.*/
+/^https?:\/\/(.+?\.)?newser\.com[\/]{1,}.*[a-zA-Z0-9]{5,}\/[a-zA-Z0-9]{5,}\/.*/
+/^https?:\/\/(.+?\.)?patriotnationpress\.com[\/][\/a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{4,}\/.*/
 /^https?:\/\/(.+?\.)?reviveusa\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?rightwingnews\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?survivalnation\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?thinkamericana\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?rightwingnews\.com[\/]{1,9}.*[a-zA-Z0-9]{8,}\/[a-zA-Z0-9]{6,}\/.*/$image
+/^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{6,}\/[a-zA-Z0-9]{3,}\/.*/
 /^https?:\/\/(.+?\.)?toptenz\.net\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?tosavealife\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?videogamesblogger\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?vitamiiin\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
-/^https?:\/\/(.+?\.)?writerscafe\.org\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/
+/^https?:\/\/(.+?\.)?vitamiiin\.com\/[\/][\/a-zA-Z0-9]{3,}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?writerscafe\.org[\/]{1,}.*[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
 $webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|convertcase.net|csgolounge.com|dispatch.com|fastplay.to|go4up.com|gounlimited.to|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|videowood.tv|vidtodo.com|yts.gs|yts.mx
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
@@ -71465,6 +71468,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|266ks.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge.tv|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugego.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxs0.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|v63xs.com|vipsk.org|wanwenhui.com|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||xury02.top^
+||hhqqkk.top^
+||oshrs.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
