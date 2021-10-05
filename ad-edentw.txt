@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BuIWzNcOQwNIs0QvMeKsQA
+! Checksum: Oyqdve8Li+HKNyi1cGz40g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110050201
-! Last Modified: 2021年10月05日 02:01
+! Version: 202110050814
+! Last Modified: 2021年10月05日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1699,7 +1699,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
-echo.msk.ru#$#abort-on-property-read Object.prototype.onRender; abort-on-property-read yaContextCb
+echo.msk.ru#$#abort-on-property-read Object.prototype.onRender; abort-on-property-read Ya
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 sdamgia.ru#$#abort-on-property-read Object.prototype.adSessionId
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
@@ -1744,7 +1744,7 @@ agroportal.ua#$#abort-on-property-read abn
 facenews.ua,molitvy.guru,nizhny.ru,svadba.expert#$#abort-on-property-read XMLHttpRequest
 kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
-nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#abort-current-inline-script Math.random
+nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#prevent-listener load appendChild
 vestivrn.ru#$#abort-on-property-read video.preroll
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 paratechnik.ru#$#abort-current-inline-script decodeURIComponent
