@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XqqbtYdOPuz1UJ3oqjJWPQ
+! Checksum: jt4KHL1RZ8Nh00EjadFE/Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110051401
-! Last Modified: 2021年10月05日 14:01
+! Version: 202110052003
+! Last Modified: 2021年10月05日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9639,6 +9639,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+avgle.com###nft
+nfxhd.com##A[href*=".fa510.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15002,7 +15004,8 @@ pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
-gdot.me,sc115.com,wnacg.com,wnacg.org,wnacgs.com##script + a
+gdot.me,sc115.com##script + a
+wnacg.com,wnacg.org,wnacgs.com##script + a > div
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
@@ -17249,6 +17252,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xury02.top^
 ||hhqqkk.top^
 ||oshrs.cn^
+||yaaci.cn^
+||yongyaoxiong.cn^
+||70fp7880qz.cn^
+||yggkzs.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
