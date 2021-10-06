@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: edx0P85pCqQBtlP1IQ/4mA
+! Checksum: 2uT7wCQTJKkb9+/p1TaW7g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110060201
-! Last Modified: 2021年10月06日 02:01
+! Version: 202110060813
+! Last Modified: 2021年10月06日 08:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1275,7 +1275,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_fee
 www.facebook.com,web.facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[@aria-label="label"][@role="link"][@href="#"][not(descendant::b[text()="0" or text()="1" or text()="2" or text()="3" or text()="4" or text()="5" or text()="6" or text()="7" or text()="8" or text()="9"]) and not(descendant::span[text()="0" or text()="1" or text()="2" or text()="3" or text()="4" or text()="5" or text()="6" or text()="7" or text()="8" or text()="9"])]/span[(count(descendant::b) > 28) or (count(descendant::span) > 30)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[@aria-label="label"][@role="link"][@href="#"][not(descendant::b[text()[contains(., "0") or contains(., "1") or contains(., "2") or contains(., "3") or contains(., "3") or contains(., "4") or contains(., "5") or contains(., "6") or contains(., "7") or contains(., "8") or contains(., "9")]]) and not(descendant::span[text()[contains(., "0") or contains(., "1") or contains(., "2") or contains(., "3") or contains(., "3") or contains(., "4") or contains(., "5") or contains(., "6") or contains(., "7") or contains(., "8") or contains(., "9")]])]/span[(count(descendant::b) > 28) or (count(descendant::span) > 30)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 ! #CV-241
 swatchseries.to#$#abort-on-property-read zfgloadednative
 ! #CV-661
