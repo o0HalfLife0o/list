@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PO3KyBFbr002XBETsusE3Q
+! Checksum: n8P66uwYXbs3SZUlIWtpOA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110071401
-! Last Modified: 2021年10月07日 14:01
+! Version: 202110072003
+! Last Modified: 2021年10月07日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1498,6 +1498,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.gg_pc
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -14810,6 +14811,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||bchangtai.vip/static/ad/main.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -20959,7 +20961,12 @@ _box_ad_
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 ||ali213.net/news/kx/ali213-kx-data.js
+||cnki.com.cn/cnki/js/adimgdetail.js
+||cnki.com.cn/cnki/js/adrightdetail.js
 !------------------------Specific element hiding rules------------------------!
+cnki.com.cn##.adList
+cnki.com.cn##.ad-right-default
+cnki.com.cn##.mainboxconbanner
 edrawsoft.cn##.publicity-entrance
 edrawsoft.cn##.new-year__cn__master
 9game.cn##.guide-app-fix
@@ -22906,6 +22913,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /analytics/initSession
 /analytics/js$script
 /analytics/klaviyo_
+/analytics/layer
 /analytics/liferay-
 /analytics/listeners/*
 /analytics/logging
@@ -28229,7 +28237,6 @@ _mongo_stats/
 ||autoaudience.com^$third-party
 ||autoid.com^$third-party
 ||autoline-top.com^$third-party
-||automizely.com^$third-party
 ||avantlink.com^$third-party
 ||avapartner.com^$third-party
 ||avastats.com^$third-party

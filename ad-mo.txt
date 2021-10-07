@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z+42QoO67OijyB9Anwrr1Q
+! Checksum: N5+bysAP9sFFuqAXBvdbMA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110071401
-! Last Modified: 2021年10月07日 14:01
+! Version: 202110072003
+! Last Modified: 2021年10月07日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31149,6 +31149,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+##[href^="https://freecourseweb.com/"] > .sitefriend
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ###mplayer-embed
@@ -52900,6 +52901,9 @@ slickdeals.net##.rightRailBannerModule
 softicons.com##.right_ga
 talksms.com##.righttd
 songlyrics.com##.ringtone-matcher
+rocket-league.com##.rlg-footer-ads-container
+rocket-league.com##.rlg-trading-ad
+rocket-league.com##.rlg-trading-spacer
 indiatimes.com##.rmfp
 realitytea.com##.roadblock
 surinenglish.com##.roba
@@ -54362,6 +54366,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||basinnow.com/upload/settings/advertise-img.jpg
 @@||bbc.co.uk^*/adverts.js
 @@||bbc.gscontxt.net^$script,domain=bbc.com
+@@||betterads.org/hubfs/$image,~third-party
 @@||bigfishaudio.com/banners/$image,~third-party
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
@@ -56290,6 +56295,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.gg_pc
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -69602,6 +69608,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||bchangtai.vip/static/ad/main.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -75421,6 +75428,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/initSession
 /analytics/js$script
 /analytics/klaviyo_
+/analytics/layer
 /analytics/liferay-
 /analytics/listeners/*
 /analytics/logging
@@ -80744,7 +80752,6 @@ _mongo_stats/
 ||autoaudience.com^$third-party
 ||autoid.com^$third-party
 ||autoline-top.com^$third-party
-||automizely.com^$third-party
 ||avantlink.com^$third-party
 ||avapartner.com^$third-party
 ||avastats.com^$third-party
@@ -100590,7 +100597,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||pconline.com.cn/global/footer/index.html
 ||ali213.net/news/kx/ali213-kx-data.js
+||cnki.com.cn/cnki/js/adimgdetail.js
+||cnki.com.cn/cnki/js/adrightdetail.js
 !------------------------Specific element hiding rules------------------------!
+cnki.com.cn##.adList
+cnki.com.cn##.ad-right-default
+cnki.com.cn##.mainboxconbanner
 edrawsoft.cn##.publicity-entrance
 edrawsoft.cn##.new-year__cn__master
 9game.cn##.guide-app-fix
