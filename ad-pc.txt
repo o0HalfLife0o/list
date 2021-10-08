@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VnW26i9z62z4BiBX58sPKA
+! Checksum: k1tua+TWBIyxHD8M3sJMpg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110081401
-! Last Modified: 2021年10月08日 14:01
+! Version: 202110082003
+! Last Modified: 2021年10月08日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -534,7 +534,6 @@ tieba.baidu.com##.tuijian-wrap
 -ad-marker.
 -ad-master/
 -ad-pixel-
--ad-plugin-
 -ad-random/
 -ad-refresh.
 -ad-refresh/
@@ -721,11 +720,9 @@ tieba.baidu.com##.tuijian-wrap
 -games/ads/
 -gif-advert.
 -google-ad.
--google-ads-
 -google-ads.
 -google-ads/
 -google-adsense.
--google2-ad-
 -gpt-ad-$~xmlhttprequest
 -header_ads/
 -housead-
@@ -7705,7 +7702,6 @@ _skyscraper160x600.
 _slider_ad.
 _Slot_Adv_
 _small_ad.
-_smartads_
 _sponsor/css/
 _sponsor_banners/
 _sponsor_logic.
@@ -54520,6 +54516,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
+@@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
 @@||canadianlisted.com/img/ad_img/$~third-party
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
@@ -71756,6 +71753,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||d2robot.com.cn^
 ||fx2lh9m.cn^
 ||ytlkmy.cn^
+||imengyoujia.xyz^
+||dgchengyu.xyz^
+||usst.store^
+||suigeng.shop^
+||zuirengou.shop^
+||mmlala.com^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -88107,7 +88110,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
-||auth3-eng.spankbang.com^
+||auth4-eng.spankbang.com^
 ||avitop.com/aviation/hitlist.asp
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -89054,6 +89057,9 @@ techxplore.com##.embed-responsive-trendmd
 ||cmp.telerama.fr^
 ||commsvc.stern.de^
 ||d.sourcepoint.capitalfm.com^
+||eurogamer-it.eurogamer.it^
+||eurogamer-pl.eurogamer.pl^
+||eurogamer-pt.eurogamer.pt^
 ||fuse.forbes.com^
 ||h-bid.com^$third-party
 ||isgprivacy.cbsi.com^
@@ -89068,6 +89074,7 @@ techxplore.com##.embed-responsive-trendmd
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twus-mms.theweek.com^
+||usgamer-us.usgamer.net^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 /misites/*
 /yozons-lib/*
