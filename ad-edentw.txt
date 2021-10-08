@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LQgYtK5GicIim9cqrOz7qw
+! Checksum: qGEqzCjXXFqiB4bSA4x1Kg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110072003
-! Last Modified: 2021年10月07日 20:03
+! Version: 202110080814
+! Last Modified: 2021年10月08日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1698,7 +1698,7 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
 liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
-echo.msk.ru#$#abort-on-property-read Object.prototype.PARSE_LINK_ELEMENT
+echo.msk.ru#$#abort-on-property-read getCodeVersion
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 sdamgia.ru#$#abort-on-property-read Object.prototype.adSessionId
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
