@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HPCmPTkVjWthUlVzzGLOwA
+! Checksum: ChBeTA5OSLQz93CFSV1LLA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202110092001
-! Last Modified: 2021年10月09日 20:01
+! Version: 202110100201
+! Last Modified: 2021年10月10日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1502,6 +1502,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ah58tc.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -6831,8 +6832,8 @@ _yad_jsonp_
 ||inhe.net/Uploadfiles/inhegg2016/
 ||inlishui.com/index.php?m=poster&
 ||inoreader.com/adv/$domain=inoreader.com
-||inray.cn/template/conch/asset/js/atop.js
-||inray.cn/template/conch/asset/js/gglms.js
+||inray.cn^*/js/gglms.js
+||inray.cn^*/js/atop.js
 ||inszu.com/js/qian/
 ||inte.sogou.com^
 ||iocoder.cn/alert/js/alert.js
@@ -16815,6 +16816,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jzwp.fun^
 ||duojixing.com^
 ||99mc.xyz^
+||winingcpi.cn^
+||wscn.site^
+||xiaoniu166.wang^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
