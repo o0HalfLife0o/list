@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aefv5SFUv9XvmxnusOS7FQ
+! Checksum: ugM5bS2xa1M6v+NOwOk/kA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110101401
-! Last Modified: 2021年10月10日 14:01
+! Version: 202110102003
+! Last Modified: 2021年10月10日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1949,7 +1949,11 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||wdswgjn.cn^
+||iyodoctor.com^
+||xiangzhengjinshu.com^
 ||kc-valves.com^
+||yirendajiankang.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9643,8 +9647,12 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||guli21.com/PNEW/
 ||guli21.com/js/ggdm
+||u3c3.com^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+u3c3.com,u3c3.org,c9e9.com##DIV[id^="em"]
+llss.bz###secondary IMG:not(.avatar)
+llss.bz##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10831,7 +10839,6 @@ baidu.com###search_bottomad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
 ruten.com.tw###search_u_970x90
 gaoqingw.com###searchform > label > span
-liuli.pw###secondary img:not(.avatar)
 iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
@@ -12960,7 +12967,7 @@ cnool.net##.meilai_box
 qq.com##.member_ads
 libaclub.com##.merchant-link
 cnbeta.com##.meta > .fr
-galacg.me,llss.li,usnewsexpress.com##.metaslider
+galacg.me,usnewsexpress.com##.metaslider
 so.com##.mh-sad
 hexieshe.com,hexieshe.xyz,xxshe.info##.mh-sidebar img
 hexieshe.com,hexieshe.xyz,xxshe.info,xxshe.xyz##.mh-widget > .textwidget > p > a[href^="http"]:not([href*="she."]):first-child:last-child
@@ -14192,7 +14199,7 @@ v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
-52movieba.com,acglala.net,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,liuli.pw,malimali.cc,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.net,awaker.cn,bimiacg2.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.com,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.im,jitapu.com,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,malimali.cc,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 rouman5.com##a[href*=".tapdb.net"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,chinalawedu.com,douyu.com,dzbhdm.com,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
@@ -14310,7 +14317,6 @@ xd0.com##a[href^="/ad."]
 x6d.com##a[href^="/ad.php?"]
 vk922.com##a[href^="/ad/"]
 ziyuanba.com##a[href^="/ago."]
-liuli.pw##a[href^="/gg2/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
@@ -16079,8 +16085,6 @@ ck101.com,gamer.com.tw,papalah.com,pili.com.tw#@#.text_ads
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $webrtc,domain=avgle.com
 @@||avgle.com/embed/$genericblock,generichide
-@@||avgle.com/video/$genericblock,generichide
-@@||avgle.com/video/$popup
 ||adxxx.info^$domain=avgle.com
 ||avgle.topgirlsdating.com^$domain=avgle.com
 ||jads.co^$domain=avgle.com
@@ -17263,6 +17267,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jianbuxing.cn^
 ||sf-ifc.cn^
 ||luochengwen.vip^
+||taiquandao1.cn^
+||lianruntang.cn^
+||williamsun.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -21443,6 +21450,7 @@ _box_ad_
 ||cnki.com.cn/cnki/js/adimgdetail.js
 ||cnki.com.cn/cnki/js/adrightdetail.js
 !------------------------Specific element hiding rules------------------------!
+meijumi.net##.couplet_app
 cnki.com.cn##.adList
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.mainboxconbanner
@@ -21453,7 +21461,7 @@ csdn.net##.passport-login-mark
 edrawsoft.cn###bottom-banner-activity-md
 baidu.com##.bottom-right-dsp-ad-wrap
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
-finance.sina.com.cn##DIV[class*="game"]
+sina.com.cn##.side-btns-game2021
 ssuip.com###mask
 baidu.com##.school-promotion-pop-wrap
 zuoyebang.com##div[class*="moreDialog_"]
