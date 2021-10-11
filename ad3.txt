@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0cHxjCt3bJtXrjokWpTTfA
+! Checksum: zJ479udiML9ffRM9GjltYg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110112002
-! Last Modified: 2021年10月11日 20:02
+! Version: 202110120201
+! Last Modified: 2021年10月12日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16836,6 +16836,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sjhxy.cn^
 ||wisesoftsh.com.cn^
 ||listinsteats.cn^
+||jjli87.life^
+||u98l6o.online^
+||07568592222.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -33111,7 +33114,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||epimg.net/js/gdt/
 ||epl.paypal-communication.com^$script
-||epnt.ebay.com^
 ||epromote.co.za/track/
 ||erne.co/tags?
 ||errors.snackly.co^
@@ -35505,7 +35507,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
-||auth4-eng.spankbang.com^
 ||avitop.com/aviation/hitlist.asp
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
@@ -35797,6 +35798,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.cmo.com.au^
 ||intent.goodgearguide.com.au^
 ||intent.pcworld.idg.com.au^
+||internal-ana.spankbang.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuitcdn.net/analytics/
