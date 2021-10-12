@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V3Eg9ShK1hQIbjUM+OvTDg
+! Checksum: qFykQvbSkzYy2yzaoxcayg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110122003
-! Last Modified: 2021年10月12日 20:03
+! Version: 202110130201
+! Last Modified: 2021年10月13日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23896,6 +23896,7 @@ _800x80_
 ##.container-adrotate
 ##.container-advMoreAbout
 ##.container-adwords
+##.container-first-ads
 ##.container-lower-ad
 ##.container-rectangle-ad
 ##.container-top-adv
@@ -25941,6 +25942,7 @@ _800x80_
 ##.jsMPUSponsor
 ##.jsOneAd
 ##.js_adContainer
+##.js_ad_wrapper
 ##.js_contained-ad-container
 ##.js_deferred-ad
 ##.js_movable_ad_slot
@@ -30666,6 +30668,7 @@ _800x80_
 ##a[href^="https://dediseedbox.com/clients/aff.php?"]
 ##a[href^="https://deliver.ptgncdn.com/"]
 ##a[href^="https://deliver.tf2www.com/"]
+##a[href^="https://delivery.porn.com/"]
 ##a[href^="https://dianches-inchor.com/"]
 ##a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="]
 ##a[href^="https://dltags.com/"]
@@ -30731,12 +30734,14 @@ _800x80_
 ##a[href^="https://landing.brazzersnetwork.com/"]
 ##a[href^="https://landing.brazzersplus.com/"]
 ##a[href^="https://landing1.brazzersnetwork.com"]
+##a[href^="https://leg.xyz/?track="]
 ##a[href^="https://look.utndln.com/"]
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://mcdlks.com/"]
 ##a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"]
 ##a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"]
 ##a[href^="https://medleyads.com/"]
+##a[href^="https://meet-sex-here.com/?u="]
 ##a[href^="https://meet-sexhere.com/"]
 ##a[href^="https://meet-to-fuck.com/tds"]
 ##a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="]
@@ -30755,6 +30760,7 @@ _800x80_
 ##a[href^="https://offers.refchamp.com/"]
 ##a[href^="https://ovb.im/"]
 ##a[href^="https://partners.fxoro.com/click.php?"]
+##a[href^="https://pcm.bannerator.com/"]
 ##a[href^="https://playuhd.host/"]
 ##a[href^="https://porndeals.com/?track="]
 ##a[href^="https://porngames.adult/?SID="]
@@ -30845,6 +30851,7 @@ _800x80_
 ##a[href^="https://www.camsoda.com/enter.php?id="]
 ##a[href^="https://www.chngtrack.com/"]
 ##a[href^="https://www.clicktraceclick.com/"]
+##a[href^="https://www.dollps.com/?track="]
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://www.firstload.com/affiliate/"]
 ##a[href^="https://www.friendlyduck.com/AF_"]
@@ -30937,6 +30944,7 @@ _800x80_
 ##div[class^="largeRectangleAd_"]
 ##div[class^="lifeOnwerAd"]
 ##div[class^="local-feed-banner-ads"]
+##div[class^="native-ad-"]
 ##div[class^="pane-adsense-managed-"]
 ##div[class^="pane-google-admanager-"]
 ##div[class^="proadszone-"]
@@ -37683,6 +37691,7 @@ tf2r.com#@#.adverts
 ||icdirect.com^
 ||iceberganthemglanced.com^
 ||icedewear.site^
+||icepey.com^
 ||icgrohbeory.com^
 ||ichimaip.net^
 ||iciclefilament.com^
@@ -38255,6 +38264,7 @@ tf2r.com#@#.adverts
 ||junotherome.com^
 ||jupaubsa.com^
 ||jupozbjmq.com^
+||jurehi.com^
 ||juricts.xyz^
 ||juroptyne.com^
 ||juroudaw.com^
@@ -43996,6 +44006,7 @@ tf2r.com#@#.adverts
 ||txcmjo.com^
 ||txgakrasgns.com^
 ||txpodqjhabos.com^
+||txrzhshxdtn.com^
 ||txyhadai.com^
 ||txzvtgkthjq.com^
 ||tyboyyli.xyz^
@@ -44068,6 +44079,7 @@ tf2r.com#@#.adverts
 ||uhqpnhorurueku.com^
 ||uhsmmaq4l2n5.com^
 ||uhxdsplo.com^
+||uhzjdfpccxtne.com^
 ||uieoogjarimcey.com^
 ||uigruwtql.com^
 ||uilsplentialde.top^
@@ -49158,6 +49170,7 @@ tf2r.com#@#.adverts
 ||ero-advertising.com^$popup
 ||eroge.com^$popup
 ||ertya.com^$popup
+||ezofferz.com^$popup
 ||fderty.com^$popup
 ||flagads.net^$popup
 ||flndmyiove.net^$popup
@@ -49165,10 +49178,13 @@ tf2r.com#@#.adverts
 ||freecamsexposed.com^$popup
 ||freewebcams.com^$popup,third-party
 ||frtyi.com^$popup,third-party
+||gambol.link^$popup
 ||gettraff.com^$popup
 ||girls.xyz^$popup
 ||girlsoncam.info^$popup
+||global-trk.com^$popup
 ||go-route.com^$popup
+||goaffmy.com^$popup
 ||grtyv.com^$popup
 ||hizlireklam.com^$popup
 ||hookhub.webcam^$popup
@@ -49192,6 +49208,7 @@ tf2r.com#@#.adverts
 ||mptentry.com^$popup
 ||needlive.com^$popup
 ||njmaq.com^$popup
+||notimoti.com^$popup
 ||nyetm2mkch.com^$popup
 ||ophistler.pro^$popup
 ||passtechusa.com^$popup
@@ -50945,6 +50962,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 ||creatives.pichunter.com^
 ||daftporn.com/nb_
 ||definebabe.com/sponsor_
+||delivery.porn.com^
 ||dixyporn.com/include/
 ||dragonthumbs.com/adcode.js
 ||drtuber.com/footer_
@@ -51229,7 +51247,7 @@ picfont.com###block_a
 publish0x.com###bm-block
 smbc-comics.com###boardleader
 priceonomics.com###book-island
-cheese.com,investorplace.com###bottom-banner
+cheese.com,investorplace.com,warcraftlogs.com###bottom-banner
 audioreview.com###bottom-leaderboard
 nytimes.com,nytimes3xbfgragh.onion###bottom-wrapper
 funkypotato.com###bottom_banner_wrapper
@@ -51658,7 +51676,7 @@ nanoreview.net###the-app > .mb
 mma-core.com###tlbrd
 technewsworld.com###tnavad
 accuweather.com,iconeye.com,phonescoop.com###top
-cheese.com,coingecko.com,foodlovers.co.nz,foodnetwork.ca,investorplace.com,kurocore.com,skift.com,thedailywtf.com,theportugalnews.com###top-banner
+cheese.com,coingecko.com,foodlovers.co.nz,foodnetwork.ca,investorplace.com,kurocore.com,skift.com,thedailywtf.com,theportugalnews.com,warcraftlogs.com###top-banner
 missingremote.com###top-bar
 dotesports.com###top-billboard
 capetownmagazine.com###top-leader-wrapper
@@ -53418,6 +53436,7 @@ news18.com##div[style*="min-height:250px"]
 vaughn.live##div[style*="min-height:90px"]
 9gag.com##div[style*="width: 500px; height: 281px;"]
 datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
+clover.fm##div[style*="width:975px; height:90px;"]
 rlslog.net##div[style*="z-index:"]:first-child
 filesharingtalk.com##div[style="background-color: white; border-width: 2px; border-style: dashed; border-color: white;"]
 fansshare.com##div[style="background-image:url(http://img23.fansshare.com/media/img/advertisement.png);width:335px;height:282px;"]
@@ -63948,6 +63967,7 @@ _yad_jsonp_
 ||waipian1.com/statics/recommend/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+meijutt.tv###weixin_clos
 9ku.com##.youFix
 uzshare.com###left-panel
 szxx.com.cn###A1
