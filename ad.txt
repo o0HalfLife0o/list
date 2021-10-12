@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hoic668Hq1D0aIIXxnzgMg
+! Checksum: rDFq45ASW7kwl4+L3+WOoQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110121401
-! Last Modified: 2021年10月12日 14:01
+! Version: 202110122003
+! Last Modified: 2021年10月12日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1951,6 +1951,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||16m.cc^
+||lm335.com^
 ||govyunfu.cn^
 ||botsforger.com.cn^
 .cc/s.php?id=$script,third-party
@@ -12112,7 +12114,6 @@ chineseinla.com##.deal_discount
 pan.baidu.com##.decrease-active
 xianshuabao.com##.demand-dialog
 xianshuabao.com##.demand-fixed
-czjx8.com##.desc
 sm.ms##.detail-advert
 dytt5.net##.detail-body > .fly-panel
 17qingsong.com##.detail-gads
@@ -13287,7 +13288,6 @@ baobao.baidu.com##.qb-relate-box
 qidian.com##.qd-game
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-czjx8.com##.qktz
 717dyi.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 htcui.com##.qqanimate
@@ -17285,6 +17285,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dongdm.cn^
 ||xianxhwy.com^
 ||ocexikc.cn^
+||dianyingmi1.cn^
+||cloudassistant.vip^
+||liuyansha.vip^
+||shuazili.wang^
+||ccgtime-gn.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -20405,7 +20410,7 @@ fqsousou.com,kengso.com#@#.user-share
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
-@@/beacon.min.js$domain=tianqi.qq.com
+@@/beacon.min.js$domain=qq.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
@@ -21481,7 +21486,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(bbcode|common|editor|forum|home|portal|seditor|smilies))[a-zA-Z]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js
@@ -21490,7 +21495,11 @@ _box_ad_
 ||ali213.net/news/kx/ali213-kx-data.js
 ||cnki.com.cn/cnki/js/adimgdetail.js
 ||cnki.com.cn/cnki/js/adrightdetail.js
+||mydrivers.com^*/xianshitehui.png
+||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+mydrivers.com##.ab
+mydrivers.com##.bb
 meijumi.net##.couplet_app
 cnki.com.cn##.adList
 cnki.com.cn##.ad-right-default
