@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nfZWpIqk9+adqFm1W/N08Q
+! Checksum: hoic668Hq1D0aIIXxnzgMg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110120814
-! Last Modified: 2021年10月12日 08:14
+! Version: 202110121401
+! Last Modified: 2021年10月12日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1946,10 +1946,12 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.myui-vodlist__thumb[data-original*=".pstatp.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||govyunfu.cn^
 ||botsforger.com.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -9656,9 +9658,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||pstatp.com/origin/pgc-image/bb1f8fa973424b948956ac92c0360f75
+||pstatp.com/origin/pgc-image/97847e640bfc4e548b7e191286f72a05
+||waipian1.com/statics/recommend/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-o8tv.com##A[href^="http"] > IMG[src*="pstatp.com"]
+9ku.com##.youFix
+uzshare.com###left-panel
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16830,7 +16836,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||pic1.dianshu119.com^
 ||pic50.pingguolv.com^
 ||pincai.com^$third-party
-||pinlue.com/style/js/banlike.js
+||pinlue.com/error/bangolike.js
 ||pjcn.org^$third-party
 ||pkk1.zuimeiniwo.com^
 ||q1.yyxwzx.com^
@@ -17275,6 +17281,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||mamababu.cn^
+||bangxin.xyz^
+||dongdm.cn^
+||xianxhwy.com^
+||ocexikc.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
