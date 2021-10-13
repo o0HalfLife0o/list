@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nH7W8Wlh3xNN79T9IL9LRQ
+! Checksum: 3AyVESx/xTtTMRzV+2pLyg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110132003
-! Last Modified: 2021年10月13日 20:03
+! Version: 202110140201
+! Last Modified: 2021年10月14日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7129,7 +7129,7 @@ _yad_jsonp_
 ||hur.cn/AhurD/*.gif
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxsame.hexun.com$domain=~quote.hexun.com
-||hxsxw.com/hxsxw666/
+||hxsxw.com/hx8899/
 ||hxsxw.com/js/float.js
 ||hy5.com.cn/admin/
 ||hybbs.com/i/$image,object
@@ -17281,6 +17281,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cehbf.com^
 ||zhaoanhu.vip^
 ||zishahh.com^
+||xianweidang.cc^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

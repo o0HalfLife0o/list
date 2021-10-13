@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bivb/HAx5i9pfYSBHEpbKA
+! Checksum: 8SCYQHKu9fMh3rPL4uU5Jg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110132003
-! Last Modified: 2021年10月13日 20:03
+! Version: 202110140201
+! Last Modified: 2021年10月14日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10286,6 +10286,7 @@ _800x80_
 ###ad_box_top
 ###ad_branding
 ###ad_bs_area
+###ad_bsb_cont
 ###ad_btmslot
 ###ad_bucket_med_rectangle_1
 ###ad_bucket_med_rectangle_2
@@ -12515,6 +12516,7 @@ _800x80_
 ###basket-adContainer
 ###bbContentAds
 ###bb_ad_container
+###bb_top_ad
 ###bbadwrap
 ###bbccom_leaderboard
 ###bbccom_leaderboard_container
@@ -17708,6 +17710,8 @@ _800x80_
 ##.ad--article-top
 ##.ad--articlemodule
 ##.ad--b
+##.ad--banner
+##.ad--banner2
 ##.ad--billboard
 ##.ad--bottom
 ##.ad--bottom-label
@@ -17754,6 +17758,7 @@ _800x80_
 ##.ad--overlayer
 ##.ad--panorama
 ##.ad--placeholder
+##.ad--pubperform
 ##.ad--pushdown
 ##.ad--rail
 ##.ad--rectangle
@@ -17765,6 +17770,7 @@ _800x80_
 ##.ad--section
 ##.ad--showmob
 ##.ad--sidebar
+##.ad--sky
 ##.ad--skyscraper
 ##.ad--slider
 ##.ad--slot
@@ -17772,6 +17778,7 @@ _800x80_
 ##.ad--square-rectangle
 ##.ad--sticky
 ##.ad--stripe
+##.ad--stroeer
 ##.ad--stroer
 ##.ad--subcontainer
 ##.ad--tabletDesktop
@@ -17779,6 +17786,9 @@ _800x80_
 ##.ad--top-label
 ##.ad--top-leaderboard
 ##.ad--top-slot
+##.ad--topmobile
+##.ad--topmobile2
+##.ad--topmobile3
 ##.ad--wallpaper
 ##.ad--widget
 ##.ad--wrapper
@@ -18884,6 +18894,7 @@ _800x80_
 ##.ad.bottom_article_leaderboard
 ##.ad.bottomrect
 ##.ad.card
+##.ad.center
 ##.ad.desktop-970x250
 ##.ad.element
 ##.ad.gallery
@@ -25786,6 +25797,7 @@ _800x80_
 ##.in_content_ad_container
 ##.in_content_advert
 ##.in_up_ad_game
+##.inc-ad
 ##.incontentAd
 ##.incontent_ads
 ##.indEntrySquareAd
@@ -27020,6 +27032,8 @@ _800x80_
 ##.nfy-col-ad
 ##.ng-ad-banner
 ##.ng-ad-container-300-250
+##.ngart__ad-col
+##.ngart__side-ad
 ##.ngs-adv-async
 ##.ninemsn-footer-ad
 ##.ninth-box-ad
@@ -34686,6 +34700,7 @@ tf2r.com#@#.adverts
 ||commandspockets.com^
 ||commencerons.xyz^
 ||commentaryharm.com^
+||commercialdamagingmuffin.com^
 ||commercialvalue.org^
 ||commission-junction.com^
 ||commissionkings.ag^
@@ -42477,6 +42492,7 @@ tf2r.com#@#.adverts
 ||runghollow.com^
 ||runmewivel.com^
 ||runnersgunpowder.com^
+||runnyamowt.com^
 ||runtnc.net^
 ||rusenov.com^
 ||rushcostscomparison.com^
@@ -44218,6 +44234,7 @@ tf2r.com#@#.adverts
 ||ulcerselfservice.com^
 ||ulngtppm.com^
 ||ulourgaz.net^
+||ultimowraxle.com^
 ||ulukaris.com^
 ||uluswozzel.info^
 ||umannwig.com^
@@ -61548,7 +61565,7 @@ _yad_jsonp_
 ||hur.cn/AhurD/*.gif
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxsame.hexun.com$domain=~quote.hexun.com
-||hxsxw.com/hxsxw666/
+||hxsxw.com/hx8899/
 ||hxsxw.com/js/float.js
 ||hy5.com.cn/admin/
 ||hybbs.com/i/$image,object
@@ -71700,6 +71717,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cehbf.com^
 ||zhaoanhu.vip^
 ||zishahh.com^
+||xianweidang.cc^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
