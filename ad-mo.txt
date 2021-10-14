@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sW0kaBetYcXSfvtnjSgM7A
+! Checksum: qLZHSdhMyrYfsam+bQ2TAQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110142002
-! Last Modified: 2021年10月14日 20:02
+! Version: 202110150201
+! Last Modified: 2021年10月15日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24152,6 +24152,7 @@ _800x80_
 ##.desktop-in-content-native-ad
 ##.desktop-lazy-ads
 ##.desktop-postcontentad-wrapper
+##.desktop-sidebar-ad-wrapper
 ##.desktop-top-ad-wrapper
 ##.desktop.ad
 ##.desktopAd
@@ -32864,6 +32865,7 @@ tf2r.com#@#.adverts
 ||anerqdd.ga^
 ||anet.tradedoubler.com^
 ||angege.com^
+||angeleswouldnt.com^
 ||anglended.club^
 ||anglishreasts.site^
 ||angprobinsyano.su^
@@ -42242,6 +42244,7 @@ tf2r.com#@#.adverts
 ||rndrx0rqwkb8.com^
 ||rndskittytor.com^
 ||rnigait.com^
+||rnkasjneejw.xyz^
 ||rnmd.net^
 ||rnorlexanderly.info^
 ||ro7s8wo57qnb.com^
@@ -45459,6 +45462,7 @@ tf2r.com#@#.adverts
 ||yzus09by.com^
 ||z3dmbpl6309s.com^
 ||z5x.net^
+||z7yru.com^
 ||zabanit.xyz^
 ||zagvee.com^
 ||zagxgmzmiledvh.com^
@@ -48339,6 +48343,7 @@ tf2r.com#@#.adverts
 ||sidebyz.com^$popup
 ||sifuglie.com^$popup
 ||significantlyentering.com^$popup
+||similedy.xyz^$popup
 ||simplyjmp.com^$popup
 ||singlesexdates.com^$popup
 ||sistacked.com^$popup
@@ -48604,6 +48609,7 @@ tf2r.com#@#.adverts
 ||yourcommonfeed.com^$popup
 ||yourfreshposts.com^$popup
 ||z5x.net^$popup
+||z7yru.com^$popup
 ||zbest.in^$popup
 ||zedo.com^$popup
 ||zeroredirect1.com^$popup
@@ -50055,7 +50061,6 @@ tf2r.com#@#.adverts
 ||mydiethub.com^$popup
 ||paid.outbrain.com^$popup
 ||profitsurvey365.live^$popup
-||promo.stormgain.com^$popup
 ||record.affiliatelounge.com^$popup
 ||saucepanstream.com^$popup
 ||serve.prestigecasino.com^$popup
@@ -51988,7 +51993,7 @@ gayexpress.co.nz##.backstretch
 izismile.com##.ban_top
 lexico.com##.banbox
 lexico.com##.banbox-mini
-alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
+alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 onlineradiobox.com##.banner--vertical
 dailynewsegypt.com##.banner-250
 schoolguide.co.za##.banner-bar
@@ -64006,6 +64011,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+porn87.com##.pc_instant
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71112,7 +71118,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ll38.com^
 ||lm.ijq.tv^
 ||lm1.tuliu.com^
-||lm1.wzpcw.com^
+||lm1.wkpcw.cn^
 ||lraa.xiaoniutui.com^
 ||luolikong.net^$third-party
 ||lv.myapks.com^
@@ -71630,6 +71636,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rng1812.top^
 ||hqycr.cn^
 ||dss8l0f.cn^
+||axqpn.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -86577,6 +86584,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
 ||stats.clickability.com^
+||stats.cloudwp.io^
 ||stats.cmcigroup.com^
 ||stats.datahjaelp.net^
 ||stats.edicy.com^
