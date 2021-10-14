@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 28beBz0Y40b4luZhjLog8Q
+! Checksum: gWa28kNlPfnjON/X3L/6jQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110140813
-! Last Modified: 2021年10月14日 08:13
+! Version: 202110141402
+! Last Modified: 2021年10月14日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -71596,6 +71596,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sjjz8.cn^
 ||lknad215.top^
 ||zunchengmaoyi.cn^
+||wcknxoy.cn^
+||xianglong360.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -99919,6 +99921,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=novatv.bg
 @@||zavedenia.com/resources/js/angularytics.min.js$script,~third-party
 !---------- Chinese ----------
+@@||10086.cn/framework/modules/sdc.js$script,~third-party
 @@||360buyimg.com/item/unite/$script,domain=item.jd.com
 @@||360buyimg.com^*/components/default/$script,domain=jd.com
 @@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
