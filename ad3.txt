@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wHpSLo13lEl/eZcAIgwGxg
+! Checksum: eIxpDkbZOwBfn1pP9b1aKg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110141402
-! Last Modified: 2021年10月14日 14:02
+! Version: 202110142002
+! Last Modified: 2021年10月14日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16827,6 +16827,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zunchengmaoyi.cn^
 ||wcknxoy.cn^
 ||xianglong360.cn^
+||umbrella.asia^
+||rng1812.top^
+||hqycr.cn^
+||dss8l0f.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -46975,7 +46979,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
-@@||api.cxense.com/public/widget/data?$domain=marketwatch.com|wsj.com
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au|speedcheck.ky
@@ -47002,7 +47006,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
-@@||cdn.cxense.com^$script,domain=marketwatch.com
+@@||cdn.cxense.com^$script,domain=bizjournals.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
