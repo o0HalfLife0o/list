@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uosn94VNLH0gblBxa4/2zA
+! Checksum: vBFU5aznq9af2K6H31Ywzg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110142002
-! Last Modified: 2021年10月14日 20:02
+! Version: 202110152003
+! Last Modified: 2021年10月15日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -534,6 +534,7 @@ tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua,music.yandex.uz##body > div[style^="min-height"] > .notify
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua,music.yandex.uz##body > div[style^="min-height"] > .notify *
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
+sdamgia.ru##body > div[style^="text-align: left; position: fixed; bottom: 0px; left: 0px; z-index: 10000"]
 sdamgia.ru##center[style="color:red; border: 0px solid black; font-size:16px"]
 sdamgia.ru##div[class$="-BlockDetect"]
 www.qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
