@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vBFU5aznq9af2K6H31Ywzg
+! Checksum: YPzfeFa+bgMaRZMjRP4SXQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110152003
-! Last Modified: 2021年10月15日 20:03
+! Version: 202110160201
+! Last Modified: 2021年10月16日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1706,9 +1706,9 @@ zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 kakprosto.ru#$#abort-current-inline-script document.createElement String.fromCharCode; abort-on-property-write window.yaProxy; abort-on-property-write Object.defineProperty
-liveinternet.ru#$#abort-on-property-read Object.prototype.parseResponseData
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$header=content-type=application/json
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
-sdamgia.ru#$#abort-on-property-read Object.prototype.adSessionId
+||sdamgia.ru/$header=content-type=text/javascript
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
 razlozhi.ru,24smi.org,auto.ru,drive2.ru,gorodrabot.ru,kinopoisk.ru#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
