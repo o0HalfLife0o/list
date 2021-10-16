@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9JdpLPhQUTdY6OmKMhiw1A
+! Checksum: qzoPhvAiCQ5AQy/TCSg0+g
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110160815
-! Last Modified: 2021年10月16日 08:15
+! Version: 202110162006
+! Last Modified: 2021年10月16日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -340,6 +340,7 @@ usgang.ch###rectangle-wrapper
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_latvian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_romanian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_russian.txt ***
+##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal

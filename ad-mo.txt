@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pVowgmOH0hGR5VpNpX1qNA
+! Checksum: nbIuC0TyGpAqostgTXna1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110161401
-! Last Modified: 2021年10月16日 14:01
+! Version: 202110162006
+! Last Modified: 2021年10月16日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30931,6 +30931,7 @@ _800x80_
 ##div[class^="AdCard_"]
 ##div[class^="AdEmbeded__AddWrapper"]
 ##div[class^="AdItem-"]
+##div[class^="AdSlot__container"]
 ##div[class^="Ad__adContainer"]
 ##div[class^="Ad__bigBox"]
 ##div[class^="Ad__container"]
@@ -32699,6 +32700,7 @@ tf2r.com#@#.adverts
 ||airsoubs.com^
 ||aissoksu.net^
 ||aiwhamti.com^
+||aiwhebey.com^
 ||aixcdn.com^
 ||aj1052.online^
 ||aj1090.online^
@@ -33684,6 +33686,7 @@ tf2r.com#@#.adverts
 ||blastcahs.com^
 ||blazingswatstated.com^
 ||blbhqqdfmvfsu.com^
+||bleinu.com^
 ||blessgarments.com^
 ||blessingpudding.com^
 ||blinkadr.com^
@@ -35251,6 +35254,7 @@ tf2r.com#@#.adverts
 ||dfdybylchujl.com^
 ||dfgbalon.com^
 ||dfgchcnqsa.com^
+||dftvhvapqxs.xyz^
 ||dgafgadsgkjg.top^
 ||dgmatix.com^
 ||dgmaustralia.com^
@@ -36916,6 +36920,7 @@ tf2r.com#@#.adverts
 ||ggsfq.com^
 ||ggunauhe.com^
 ||ghargh.com^
+||gharnt.com^
 ||ghcncwmm.com^
 ||ghsmfmjcicgup.com^
 ||giantaffiliates.com^
@@ -37310,6 +37315,7 @@ tf2r.com#@#.adverts
 ||hairdosslitter.casa^
 ||hairdressercommentarydown.com^
 ||hairsthoughtfulgovernor.com^
+||hairwqxnpkxfphd.xyz^
 ||haithoaz.net^
 ||halfcharitable.com^
 ||halfpriceozarks.com^
@@ -38187,6 +38193,7 @@ tf2r.com#@#.adverts
 ||jenicdntc.com^
 ||jeperdee.net^
 ||jeqixokniyny.com^
+||jeravagy.com^
 ||jerrcotch.com^
 ||jerredsite.pro^
 ||jessieflown.com^
@@ -40028,6 +40035,7 @@ tf2r.com#@#.adverts
 ||noawhupt.net^
 ||noblefun.net^
 ||noblemagnition.com^
+||noblemanscramblemoderately.com^
 ||noclef.com^
 ||nodecrisp.com^
 ||nodowd.com^
@@ -43191,6 +43199,7 @@ tf2r.com#@#.adverts
 ||srukdxvsk.com^
 ||srvtrck.com^
 ||srxy.xyz^
+||ssers.xyz^
 ||ssionsupre.fun^
 ||sskmnews.pro^
 ||ssl-services.com^
@@ -50779,8 +50788,7 @@ tf2r.com#@#.adverts
 ||zdnet.com/leadgen/
 /^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|fun|website|biz|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|downloadpirate.com|flashx.net|flashx.tv|powvideo.net|powvldeo.me|slreamplay.cc|steanplay.cc|streanplay.cc|videobin.co
 /^https?:\/\/[0-9a-z]{8,29}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|cloudvideo.tv|dood.watch|flashx.net|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
-/^https?:\/\/.*\.[0-9a-z]{3,6}\.xyz\/_.*/$script,third-party
-/^https?:\/\/[0-9a-z]{3,6}\.xyz\/_.*/$script,third-party
+/^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||dotabuff.com/a.js
 ||elder-dragon.tracklol.com^
 ||magic-stick.trackdota.com^
@@ -52444,7 +52452,7 @@ transfermarkt.com##.fniNGHn
 gamespot.com##.followBuy__body
 radiozindagi.com##.foot_top
 donegaltv.ie,emergencyemail.org##.footer
-scientificamerican.com##.footer-banner
+allthatsinteresting.com,scientificamerican.com##.footer-banner
 tribuna.com##.footer-helper__min-height-after-header
 supercars.com##.footer-promo
 skidrowcodexreloaded.com##.footer-sticky
@@ -52627,7 +52635,7 @@ techrepublic.com,thepcguild.com##.leader
 zdnet.com##.leader-bottom
 zdnet.com##.leader-top
 techadvisor.com##.leaderBoardHolder
-agcanada.com,allmusic.com,autoaction.com.au,autos.ca,ballstatedaily.com,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
 edarabia.com##.leaderboard-728
 edarabia.com##.leaderboard-970
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
@@ -52734,6 +52742,7 @@ transfermarkt.com##.nENxsZD
 google.com##.nH.MC
 mail.google.com##.nH.PS
 nascar.com##.nascar-ad-container
+allthatsinteresting.com##.native-box
 seura.fi##.nativead:not(.list)
 thetechpoint.org##.navigation-banner
 majorgeeks.com##.navigation-light
@@ -71690,6 +71699,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nq42.com^
 ||lsxc.shop^
 ||fanghua2.cn^
+||rng1912.top^
+||yp333.top^
+||zhihuirenjia.xyz^
+||kanshu5.net/js/index.js
+||tcmsp.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
