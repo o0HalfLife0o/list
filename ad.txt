@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HfYh8wwg55z2kM8o9GB23g
+! Checksum: cmbU7uzQW029Y4ER2GF4KQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110181407
-! Last Modified: 2021年10月18日 14:07
+! Version: 202110182002
+! Last Modified: 2021年10月18日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8867,7 +8867,7 @@ _yad_jsonp_
 ||toolfk.com/common/cp.js
 ||toolfk.com/common/other/11.png
 ||toolfk.com/common/other/elm.png
-||toolfk.com/common/zfb.jpg
+||toolfk.com/common/zfb
 ||toolfk.com/tools/images/vps/
 ||toolnb.com/Public/aliyun/900x60.png
 ||topmba.mobi/ad/
@@ -9635,8 +9635,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ax1x.com^$domain=zzvips.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com##.downl_L > SPAN[style="display:none;"] + DIV[class]
+3dmgame.com##.Gmaeinfobtn_tab > A[class][onclick]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17218,6 +17221,7 @@ _1MObaudu.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 _NYTEF.js
+/aa_*_a1.js$script,third-party
 MoBi*.baidu.js$script,third-party
 xhtml?%22+$script,third-party
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
@@ -17242,6 +17246,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||52lty.store^
 ||axfvv.cn^
 ||lszwj.top^
+||eduszft.cn^
+||aliweimeng.top^
+||dblcs.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
