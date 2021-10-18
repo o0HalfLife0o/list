@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: exQ1Ck2Gc4g6dnimiUK8CQ
+! Checksum: HfYh8wwg55z2kM8o9GB23g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110180201
-! Last Modified: 2021年10月18日 02:01
+! Version: 202110181407
+! Last Modified: 2021年10月18日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9637,7 +9637,6 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-olevod.com##DIV[class^="ad"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14525,7 +14524,7 @@ ali213.net##div[class^="GG"]
 weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 theporn.cc##div[class^="_"]
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
-~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
+~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,news.cnyes.com,olevod.com,pchome.net,rznews.cn##div[class^="ad"]
 chengdu.cn,oeeee.com,ofweek.com##div[class^="ad-"]
 cq.qq.com##div[class^="ad-box"]
 iqiyi.com##div[class^="ad-piclist-"]
@@ -17240,12 +17239,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||123su.top^
-||a7lrf.xyz^
-||zhonghuachuanmeikeji.cn^
-||wangyeshij.top^
-||juechenghuanbao.top^
-||sxhdth.cn^
+||52lty.store^
+||axfvv.cn^
+||lszwj.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17371,6 +17367,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||1214bdk.xyz^
 ||1221dhb.xyz^
 ||1234567sg.xyz^
+||123su.top^
 ||1314sss.top^
 ||13owamwp6c.cn^
 ||1494.top^
@@ -17525,6 +17522,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||9y88.com^
 ||a3pz36.cn^
 ||a3vy69.cn^
+||a7lrf.xyz^
 ||a8cd.com^
 ||aa.wenxue6.com^
 ||aa13.cloud^
@@ -18619,6 +18617,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||jswnuq.cn^
 ||jsyjwj.com^
 ||jtwlj.cn^
+||juechenghuanbao.top^
 ||juhuandian.com^
 ||julitenj.com^
 ||jullycn.com^
@@ -19354,6 +19353,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||sxcysmyxgs.top^
 ||sxdech.cn^
 ||sxehny.cn^
+||sxhdth.cn^
 ||sxjxhg.com^
 ||sxljldh.top^
 ||sxmdxy.com^
@@ -19573,6 +19573,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||wangqing7.top^
 ||wangtianci.cn^
 ||wangxingkui.online^
+||wangyeshij.top^
 ||wangyuekun.xyz^
 ||wangzhenzhi.cn^
 ||wangzibo.top^
@@ -19996,6 +19997,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||zhixianghuibao.com^
 ||zhmyq.cn^
 ||zhongfujiaoyu.cn^
+||zhonghuachuanmeikeji.cn^
 ||zhonglitz.cn^
 ||zhongwangmy.cn^
 ||zhongxiangjin.vip^
