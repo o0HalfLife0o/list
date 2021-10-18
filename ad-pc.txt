@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YcENIws/jMo5KrwtYFFSTA
+! Checksum: x6XUr2FMBIPJCZoZsG8wcg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110182002
-! Last Modified: 2021年10月18日 20:02
+! Version: 202110190201
+! Last Modified: 2021年10月19日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27578,6 +27578,7 @@ _800x80_
 ##.pro_ad_system_ad_container
 ##.pro_ad_zone
 ##.prod_grid_ad
+##.product-ad
 ##.product-ads
 ##.product-bar-ads
 ##.product-inlist-ad
@@ -30285,6 +30286,7 @@ _800x80_
 ##[data-freestar-ad]
 ##[href*=".adcampo.com/"]
 ##[href*=".afftracks.online/"]
+##[href*=".engine.adglare.net/"]
 ##[href*=".grtya.com/"]
 ##[href*=".jetx.info/"]
 ##[href*=".ltroute.com/"]
@@ -30327,7 +30329,6 @@ _800x80_
 ##[href^="https://pulsetrack.biz/"]
 ##[href^="https://r.kraken.com/"]
 ##[href^="https://rapidgator.net/article/premium/ref/"]
-##[href^="https://reactads.engine.adglare.net/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
 ##[href^="https://shiftnetwork.infusionsoft.com/go/"] > img
@@ -34550,6 +34551,7 @@ tf2r.com#@#.adverts
 ||cleanbrowser.network^
 ||cleaneryelded.site^
 ||cleanmediaads.com^
+||cleanupcokesunny.com^
 ||clear-request.com^
 ||clearac.com^
 ||clearadnetwork.com^
@@ -43238,6 +43240,7 @@ tf2r.com#@#.adverts
 ||soza6rsz3ezi.com^
 ||spaderonium.com^
 ||spagat.space^
+||spamvariationswithin.com^
 ||spanhamweb.com^
 ||spankswindlewatchman.com^
 ||spannerfragileredhead.com^
@@ -44338,6 +44341,7 @@ tf2r.com#@#.adverts
 ||uganod.com^
 ||ugdhsrhcq.com^
 ||ughhimtoy.com^
+||ugishdff.xyz^
 ||uglycotsjade.casa^
 ||ugmovxfikvhct.com^
 ||ugoupams.com^
@@ -50962,7 +50966,7 @@ tf2r.com#@#.adverts
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?*adunit$~third-party
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|cryptobriefing.com|eztv.io|eztv.tf|eztv.yt|fmovies.taxi|fmovies.world|limetorrents.info|megaup.net|mrunlock.kim|newser.com|sendit.cloud|torlock.com|uiz.io|userscloud.com|vev.red|vidbull.tv|vidop.icu|vidup.io|yourbittorrent2.com
-/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|123proxy.biz|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|mp3-convert.org|newser.com|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
+/^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|123proxy.biz|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|mp3-convert.org|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
 $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -51574,8 +51578,8 @@ adtunes.com###div-inline-right-336x280
 sentinelnews.com,theandersonnews.com###div-promo
 howtogeek.com###div-thetop1
 newsmax.com###divArticleSpecialLinks
-newser.com###divRightRail > div:first-child
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
+newser.com###divWhizzcoRightRail
 rednationonline.ca###dnn_BannerPane
 apkwhale.com###download > div
 ghacks.net###download-widget
@@ -53683,6 +53687,7 @@ kisshentai.net##div[id^="ad"]
 timeout.com##div[id^="ad-promo-"]
 timeout.com##div[id^="ad-side-"]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
+ebay.co.uk,ebay.com,ebay.com.au##div[id^="ad_html_"]
 javacodegeeks.com##div[id^="adngin-"]
 amgreatness.com##div[id^="ag-front-"]
 hellomagazine.com##div[id^="div-hola-slot-"]
@@ -64220,6 +64225,8 @@ _yad_jsonp_
 ||ax1x.com^$domain=zzvips.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ouyaoxiazai.com##.ad_show_1
+ouyaoxiazai.com##DIV[id^="cs_"]
 3dmgame.com##.downl_L > SPAN[style="display:none;"] + DIV[class]
 3dmgame.com##.Gmaeinfobtn_tab > A[class][onclick]
 szxx.com.cn###A1
@@ -71831,6 +71838,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||eduszft.cn^
 ||aliweimeng.top^
 ||dblcs.cn^
+||haite.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -100000,7 +100008,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
