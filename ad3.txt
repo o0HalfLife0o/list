@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: avvrXEscwGsdmV99RY/csA
+! Checksum: yhK02YTtj0kQVPq5JwGZSQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110180201
-! Last Modified: 2021年10月18日 02:01
+! Version: 202110180814
+! Last Modified: 2021年10月18日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27557,6 +27557,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ?action=event&
 ?action=impression&
 ?action=log_promo_impression
+?action=saveViewStat&
 ?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
@@ -29902,6 +29903,7 @@ _mongo_stats/
 ||quintesse.io^$third-party
 ||quitsnap-blue.com^$third-party
 ||qzlog.com^$third-party
+||r2b2.io^$third-party
 ||r7ls.net^$third-party
 ||radarstats.com^$third-party
 ||radarurl.com^$third-party
@@ -33329,6 +33331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||getkudos.me/a?$image
 ||getpos.de/ext/
 ||getrockerbox.com/pixel?
+||gi-client-tracking.goodgamestudios.com^
 ||gigya.com^*/cimp.gif?
 ||giosg.com^*/public/trace/
 ||glam.com/cece/agof/
@@ -35925,6 +35928,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs.naukri.com^
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
+||lookawoman.com/t/
 ||ma.redhat.com^
 ||mailing.enews.extremetech.com^$image
 ||mapquest.com/logger
@@ -36247,6 +36251,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.wordpress.com^
 ||stats.wwitv.com^
 ||streamstats.prd.dlive.tv^
+||streamta.pe/stat/
+||streamtape.com/stat/
 ||strtapeadblock.club/stat/
 ||stubhub.com/bfx/api/logging
 ||substack.com/api/v1/firehose?
@@ -36286,6 +36292,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thedailybeast.com/static/js/thirdparty.
 ||thefreedictionary.com/_/tr.ashx?
+||thetimes.co.uk/track?
 ||thriftbooks.com/scripts/sp.js
 ||tiktok.com/captcha/report
 ||tilanalytics.timesinternet.in^
