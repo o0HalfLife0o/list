@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PmooEilY3sn0jnLzNTk2Fg
+! Checksum: Yu1SVQX3hNe7x0HSclTRZg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110191401
-! Last Modified: 2021年10月19日 14:01
+! Version: 202110192005
+! Last Modified: 2021年10月19日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1949,6 +1949,9 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||teresacd.cn^
+||zhisuyunonline.cn^
+||lm665.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -15248,6 +15251,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+gameflier.com#@#.adbanner
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -17249,6 +17253,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||iklda.cn^
 ||youtome.xyz^
 ||uaxyutpxh.xyz^
+||jufengputao.com^
+||meiweipub.cn^
+||xsspt.vip^
+||getsgroup.cn^
+||chenqinghui.xyz^
+||cnjiudao.cn^
+||cx0001.cn^
+||mnyh.fun^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
