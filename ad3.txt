@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mc5RlHdrDA2yYcnq7WRYfQ
+! Checksum: WocDA8SpI/YopFpefXfnuw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110190201
-! Last Modified: 2021年10月19日 02:01
+! Version: 202110190814
+! Last Modified: 2021年10月19日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -23708,6 +23708,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /collect-*/pageview|
 /collect.gif?
 /collect.php?data=
+/collect.php?tid=
 /collect/?dp=
 /collect/kf?
 /collect/pageview?
@@ -27425,6 +27426,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /wpengine-analytics/*
 /wprum.
 /wpstatistics/*
+/wrapper/metrics/*
 /Wrappers?cmd=
 /WRb.js
 /wreport.js
@@ -28738,6 +28740,7 @@ _mongo_stats/
 ||datamind.ru^$third-party
 ||dataperforma.com^$third-party
 ||datasteam.io^$third-party
+||dataunlocker.com^$third-party
 ||dataxpand.com^$third-party
 ||datazoom.io^$third-party
 ||datvantage.com^$third-party
@@ -35050,6 +35053,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v.emedia.cn^
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
+||web-trace.ksapisrv.com^
 ||whhd.gov.cn^$script,third-party
 ||yigouw.com/c.js
 ||tracking.vid4u.org^
@@ -36645,7 +36649,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
 ||primate.dmarcdigests.com^
+||creative-banana.tk^
+||funny-morning.tk^
 ||kick-lake.ga^
+||smartproxy.dataunlocker.com^
+||welcoming-carpets.tk^
 ||a8.01cloud.jp^
 ||a8.cyclemarket.jp^
 ||a8.denwa-hikari.com^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l+yykXGXrIEBN1Y5QQ3E9Q
+! Checksum: q/ir42ua67jr16jiw+iA2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110190201
-! Last Modified: 2021年10月19日 02:01
+! Version: 202110190814
+! Last Modified: 2021年10月19日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21585,6 +21585,7 @@ _800x80_
 ##.adunit-300-250
 ##.adunit-active
 ##.adunit-container
+##.adunit-container_sitebar_1
 ##.adunit-middle
 ##.adunit-parent
 ##.adunit-purch
@@ -24320,8 +24321,12 @@ _800x80_
 ##.dmRosAdBody
 ##.dmRosMBAdBox
 ##.dm_ad
+##.dm_ad-billboard
 ##.dm_ad-container
 ##.dm_ad-halfpage
+##.dm_ad-leaderboard
+##.dm_ad-link
+##.dm_ad-skyscraper
 ##.dm_ad300x620
 ##.dmco_advert_iabrighttitle
 ##.dmpu-ad
@@ -33636,6 +33641,7 @@ tf2r.com#@#.adverts
 ||bigchoicegroup.com^
 ||bigprizesonline.com^
 ||bihamcurchef.cam^
+||bihexoipaomfjie.xyz^
 ||bikesmodestnotoriety.com^
 ||bikesopden.com^
 ||bikesseafoodchewing.com^
@@ -34852,6 +34858,7 @@ tf2r.com#@#.adverts
 ||cqxgtafgnc.com^
 ||cqyirsc.com^
 ||cr-brands.net^
+||cradleton.xyz^
 ||cragbrasyeps.com^
 ||crakbanner.com^
 ||crakcash.com^
@@ -36978,6 +36985,7 @@ tf2r.com#@#.adverts
 ||glaksads.net^
 ||glamourgreek.com^
 ||glandtest.com^
+||glaptevaphy.com^
 ||glareart.com^
 ||glaresling.com^
 ||glargoun.uk^
@@ -39416,6 +39424,7 @@ tf2r.com#@#.adverts
 ||microscoperestriction.com^
 ||microscopeundertakingprowl.com^
 ||microsoftaffiliates.net^
+||microusconvilla.xyz^
 ||midasatlas.com^
 ||midastouchrt.com^
 ||middleimpetuous.com^
@@ -40138,6 +40147,7 @@ tf2r.com#@#.adverts
 ||nowadaysluciusfilch.com^
 ||nowfastcrew.online^
 ||nowlooking.net^
+||nowrs.xyz^
 ||nowspots.com^
 ||noy-95.com^
 ||npcad.com^
@@ -41949,6 +41959,7 @@ tf2r.com#@#.adverts
 ||rcvlinks.com^
 ||rddywd.com^
 ||rditatehapp.top^
+||rdowulajr.xyz^
 ||rdrceting.com^
 ||rdrtrk.com^
 ||rdsb2.club^
@@ -42776,6 +42787,7 @@ tf2r.com#@#.adverts
 ||sg2rgnza7k9t.com^
 ||sgcsuscnyw.com^
 ||sgftrrs.com^
+||sgifuqjieq.xyz^
 ||sgswuesocfr.com^
 ||shadeslonesome.com^
 ||shadowlegends.pro^
@@ -44516,6 +44528,7 @@ tf2r.com#@#.adverts
 ||vatname.info^
 ||vattingbalak.com^
 ||vaultwrite.com^
+||vaureept.com^
 ||vawhigufi.com^
 ||vax-now.com^
 ||vbeas.xyz^
@@ -52893,7 +52906,7 @@ barnesandnoble.com##.product-commentary-advertisement
 pbs.org##.production-and-funding
 nymag.com##.products-package
 nymag.com##.products-package_single
-filehippo.com##.program-actions-header
+filehippo.com##.program-actions-header__promo
 filehippo.com##.program-description__slot
 gokunming.com##.prom
 apps.opera.com,babynamegenie.com,ecaytrade.com,nbcbayarea.com,nwherald.com,planetsourcecode.com,sciagaj.org,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
@@ -54514,6 +54527,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
 @@||developers.google.com/ad-manager/$~third-party
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
+@@||dilbert.com/assets/ad-vendor-$script,~third-party
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
@@ -76344,6 +76358,7 @@ fqsousou.com,kengso.com#@#.user-share
 /collect-*/pageview|
 /collect.gif?
 /collect.php?data=
+/collect.php?tid=
 /collect/?dp=
 /collect/kf?
 /collect/pageview?
@@ -80061,6 +80076,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wpengine-analytics/*
 /wprum.
 /wpstatistics/*
+/wrapper/metrics/*
 /Wrappers?cmd=
 /WRb.js
 /wreport.js
@@ -81374,6 +81390,7 @@ _mongo_stats/
 ||datamind.ru^$third-party
 ||dataperforma.com^$third-party
 ||datasteam.io^$third-party
+||dataunlocker.com^$third-party
 ||dataxpand.com^$third-party
 ||datazoom.io^$third-party
 ||datvantage.com^$third-party
@@ -87686,6 +87703,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||v.emedia.cn^
 ||videostats.kakao.com^
 ||w3t.cn^*/fx.js
+||web-trace.ksapisrv.com^
 ||whhd.gov.cn^$script,third-party
 ||yigouw.com/c.js
 ||tracking.vid4u.org^
@@ -89281,7 +89299,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
 ||primate.dmarcdigests.com^
+||creative-banana.tk^
+||funny-morning.tk^
 ||kick-lake.ga^
+||smartproxy.dataunlocker.com^
+||welcoming-carpets.tk^
 ||a8.01cloud.jp^
 ||a8.cyclemarket.jp^
 ||a8.denwa-hikari.com^
