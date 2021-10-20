@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yJgCk9G8HdZW0eMA+6eD7A
+! Checksum: o5DzvvqsJt+4ImPR0V8nKQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110200201
-! Last Modified: 2021年10月20日 02:01
+! Version: 202110200815
+! Last Modified: 2021年10月20日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -112,6 +112,7 @@ shadbase.com##img[alt="adblock"]
 /adblock_gate/images/animated.gif?
 /adblock_notify.js
 /adblocker-detected.
+/adblocker-feature?
 /adblocker/modal.
 /adblocker_message_
 /AdblockMessage.
@@ -124,6 +125,7 @@ shadbase.com##img[alt="adblock"]
 /google-adblock.
 /inc/antiblock.
 /nonAdBlock/*
+/popup/adblocker
 /testAB.bundle.
 /wdbloogablock.js
 /wp-content/plugins/ad-block-defender/*
@@ -271,6 +273,7 @@ _adblock_killer.
 ##.adblock_floating_message
 ##.adblockalert
 ##.adblocker-message
+##.adblocker-root
 ##.adblocker-wrap
 ##.ads-block-warning
 ##.adsblocked
@@ -295,6 +298,7 @@ _adblock_killer.
 ##.svg-adblock-full--box
 ##.test-adblock-overlay
 ##.top-bar-adblock
+##.wp_adblock_detect
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##adblock-detect
 ##adblock-modal-component
