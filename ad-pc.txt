@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0bHmNL93nmd07N/HasHNmQ
+! Checksum: reDaRrl6y20P2pu9YVj6vg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110211402
-! Last Modified: 2021年10月21日 14:02
+! Version: 202110212003
+! Last Modified: 2021年10月21日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -53021,6 +53021,7 @@ techadvisor.com##.outer-wrapper
 golfweather.com##.ox300x250
 beermoneyforum.com##.p-body-sidebar
 worldoftanks-wot.com##.p2small
+phonearena.com##.pa-sticky-container
 islamicfinder.org##.pad-xs.box.columns.large-12
 republicworld.com##.pad3010.txtcenter
 republicworld.com##.padtop10.padright10.padleft10.minheight90
@@ -56633,6 +56634,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||stgowan.com^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -69397,7 +69399,7 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.com,u3c3.org##div[id^="em"]
+c9e9.com,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -71943,6 +71945,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||rjigj.cn^
+||58zj.cc^
+||hdypw.com^
+||sjhl.club^
+||srmdz.vip^
+||youwenzhi.xyz^
+||ynevxkx.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
