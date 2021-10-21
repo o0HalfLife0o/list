@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ssY6C3xXw9TPPm5z0PqjjQ
+! Checksum: 0ZxglfVeL3VKGa6Wfj2qig
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110210201
-! Last Modified: 2021年10月21日 02:01
+! Version: 202110210817
+! Last Modified: 2021年10月21日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -49502,6 +49502,8 @@ tf2r.com#@#.adverts
 ||cooch.tv^$popup,third-party
 ||cpng.be.^$popup
 ||cpng.be^$popup
+||cpng.ch.^$popup
+||cpng.ch^$popup
 ||cpng.click^$popup
 ||cpng.lol.^$popup
 ||cpng.lol^$popup
@@ -52793,7 +52795,7 @@ duckduckgo.com##.highlight_sponsored
 skins.be##.hint
 highwayradio.com##.hiway-widget
 bizarrepedia.com##.holder
-pcgamingwiki.com##.home-search-examples
+pcgamingwiki.com##.home-gamesplanet-promo
 newagebd.net##.homeSlideRightSecTwo
 pbs.org##.home__logo-pond
 geekwire.com##.home_listing
@@ -87346,6 +87348,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vmweb.net/identity.min.js
 ||vo.msecnd.net/api/beYableJSv2.js
 ||vooxe.com/analytics.js
+||vortex.data.microsoft.com^
 ||voxmedia.com/beacon-min.js
 ||vpoweb.com/counter.php?
 ||vs4.com/impr.php?
@@ -87359,7 +87362,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wco.crownpeak.com^
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
-||web.vortex.data.microsoft.com^
 ||web1.51.la^
 ||webedia.fr/js/gs.js
 ||weblog.livesport.eu^
