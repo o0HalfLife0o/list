@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wKR3SZ5cNqoi4sqcZCMvCQ
+! Checksum: AO2eKjciqVvDabcWv1r8HQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110221402
-! Last Modified: 2021年10月22日 14:02
+! Version: 202110222002
+! Last Modified: 2021年10月22日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9648,6 +9648,11 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cpnn.com.cn###myimg
+cpnn.com.cn##.leftewm
+cpnn.com.cn##.leftgg
+cpnn.com.cn##.rightewm
+cpnn.com.cn##.rightgg
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15993,15 +15998,15 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
 ||17ce.com^*_$image
 !#18comic.org
-18comic.org,18comic.vip,18comic1.art###guide-modal
-18comic.org,18comic.vip,18comic1.art##.modal-backdrop
+18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
+18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
-18comic.org,18comic.vip,18comic1.art##a[href*=".taobao.com"]
-18comic.org,18comic.vip,18comic1.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art##div[data-height="250"][data-width="300"]
-18comic.org,18comic.vip,18comic1.art##div[data-height="264"][data-width="956"]
-18comic.org,18comic.vip,18comic1.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,18comic1.art##img[style*="300px"]
+18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
+18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
+18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
+18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,18comic1.art,18comic2.art##img[style*="300px"]
 ||18comic.*/iframe
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/168/
@@ -17264,6 +17269,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||yybnk.cn^
+||lyytc.cn^
+||lhyang.top^
+||northbase.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
