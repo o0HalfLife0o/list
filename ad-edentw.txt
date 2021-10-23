@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1+I8hEkScxRWa9DABE0s2A
+! Checksum: N5ZSvkcXFS+exc894gLfvQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110210201
-! Last Modified: 2021年10月21日 02:01
+! Version: 202110230813
+! Last Modified: 2021年10月23日 08:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -423,7 +423,7 @@ kubik3.ru##.adbs
 ideya-biznesa.ru##.admania_adblock_detector
 cofp.ru##.admitad-checker-popup
 24video.xxx##.adt
-rusrek.com##.alert
+nonameno.com,rusrek.com##.alert
 vk.barkov.net##.alert-danger
 2ip.me,2ip.ua##.alert-mess > .row
 stroi-help.ru##.alert_warn
@@ -1274,6 +1274,7 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[@aria-label="label"][@role="link"]/span[not (@*)]/span/span[count(child::span) >= 29][count(child::span) <= 40]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@class]/a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Patrocinado" or .="Publicidad" or .="Sponsa" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
