@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CyPEW6rgh8um529hunoBUQ
+! Checksum: eyDxnJnErQBmJY+fjLA/4g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110232231
-! Last Modified: 2021年10月23日 22:31
+! Version: 202110240201
+! Last Modified: 2021年10月24日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -572,7 +572,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 agefans.*##+js(noeval-if, devtoolsDetector)
-||pstatp.com/origin/$image,domain=agefans.*|88kan.tv|mgtv1.cc
+||pstatp.com/origin/$image,domain=agefans.*|mgtv1.cc
 dililitv.*,lzvod.net##+js(aeld,dblclick,dp.fullScreen.request)
 ||www.dililitv.cc/*.php?ad=$script
 js.dilidd.com
@@ -9693,6 +9693,7 @@ _yad_jsonp_
 ||maxthonimg.com/v6/festival/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wenxuecity.com##.topbannerw
 maxthon.cn##.top-right-pop-wrapper
 maxthon.cn###festival-skin-link
 szxx.com.cn###A1
