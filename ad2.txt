@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GdZRmxPS7llegJ/1Q1ql5w
+! Checksum: wD/BMR6gtcK3aAjeN1oQVQ
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202110231401
-! Last Modified: 2021年10月23日 14:01
+! Version: 202110232002
+! Last Modified: 2021年10月23日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -16840,6 +16840,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||9j1y.cn^
 ||qmdllqv.cn^
 ||vluvpdf.cn^
+||syxwj.cn^
+||fengzhilu.cn^
+||9j3a.cn^
+||7caidai.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -19987,7 +19991,6 @@ zol.com.cn##span[class^="jisu-down"]
 ||sohu999.com^
 ||tcmdz.com^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
-dota2.com.cn#@##bdshare
 eastday.com#@##leftShare
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox

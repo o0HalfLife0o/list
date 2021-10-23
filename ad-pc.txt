@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ENxb0o4/onUUfqse2bSW1A
+! Checksum: pom88d/o30CgWkuAIZEFLw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110231401
-! Last Modified: 2021年10月23日 14:01
+! Version: 202110232002
+! Last Modified: 2021年10月23日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20228,7 +20228,6 @@ _800x80_
 ##.adarticle
 ##.adb-728x90
 ##.adb-bottom-outer
-##.adb-top
 ##.adbTrkWt
 ##.adback
 ##.adbadge
@@ -30082,6 +30081,7 @@ _800x80_
 ##.widget_text_adsense
 ##.widget_themoneytizer_widget
 ##.widget_thesun_dfp_ad_widget
+##.widget_tpd_ad_widget
 ##.widget_uds-ads
 ##.widget_vb_sidebar_ad
 ##.widget_viral_advertisement
@@ -47299,6 +47299,7 @@ tf2r.com#@#.adverts
 ||snack-media.com^$third-party
 ||snap.com^$third-party
 ||sndkorea.co.kr^$third-party
+||sni.ps^$third-party
 ||snigelweb.com^$third-party
 ||so-excited.com^$third-party
 ||soagitet.net^$third-party
@@ -50027,7 +50028,6 @@ tf2r.com#@#.adverts
 ||smartdestinations.com/ai/
 ||smbulk.com/assets/images/banner-
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
-||sni.ps/snips_widget.js
 ||socialmonkee.com/images/
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
@@ -51091,7 +51091,7 @@ tf2r.com#@#.adverts
 ||channelexco.com/player/$third-party
 ||connatix.com^$script,third-party
 ||embed.sendtonews.com^$script,third-party
-||jwpcdn.com^$script,domain=dexerto.com
+||jwpcdn.com^$script,domain=bgr.com|dexerto.com
 ||live.primis.tech^$third-party
 ||play.anyclip.com^$script,third-party
 ||play.springboardplatform.com^
@@ -52037,6 +52037,7 @@ searchenginejournal.com###spcat_ifr
 fastseduction.com###splash
 downloads.codefi.re###spo
 downloads.codefi.re###spo2
+firmwarefile.com###spon
 progressillinois.com###sponsor
 meteocentrale.ch###sponsor-info
 fastseduction.com,geekwire.com,landreport.com,whenitdrops.com###sponsors
@@ -52348,6 +52349,7 @@ dailyvoice.com##.b-banner
 revelist.com##.b-container
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,search.frontier.com,searchguide.level3.com##.b-links
+digitaltrends.com##.b-placard
 geekflare.com##.b-sticky-sidebar-wrapper-simple
 bizcommunity.com##.b-topbanner
 scorespro.com##.b160_600
@@ -53989,6 +53991,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 realclearpolitics.com###realclear_jwplayer_container
 newseveryday.com###vplayer_large
+digitaltrends.com##.dtvideos-container
 sfgate.com##.inline-iframe
 dexerto.com##.jwplayer
 ##.section-subheader > .section-hotel-prices-header
@@ -72030,6 +72033,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||9j1y.cn^
 ||qmdllqv.cn^
 ||vluvpdf.cn^
+||syxwj.cn^
+||fengzhilu.cn^
+||9j3a.cn^
+||7caidai.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -75177,7 +75184,6 @@ zol.com.cn##span[class^="jisu-down"]
 ||sohu999.com^
 ||tcmdz.com^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
-dota2.com.cn#@##bdshare
 eastday.com#@##leftShare
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
