@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G4yPmPCjPPDtYUsuPWo+EQ
+! Checksum: jmu6swU2DrhCcb+vaLGzZg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110230813
-! Last Modified: 2021年10月23日 08:13
+! Version: 202110231401
+! Last Modified: 2021年10月23日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7692,6 +7692,7 @@ takeover_banner_
 /ext/prebid
 /gpt_and_prebid/*
 /gptprebidnative/*
+/hbid_prebid/*
 /jppolPrebid.
 /js/prebid-
 /newPrebid.
@@ -13577,6 +13578,7 @@ _800x80_
 ###dsk-banner-ad-a
 ###dsk-banner-ad-b
 ###dsk-box-ad-d
+###dsk-box-ad-f
 ###dsk-box-ad-g
 ###dv-gpt-ad-bigbox-wrap
 ###dvAd1Data
@@ -29491,6 +29493,7 @@ _800x80_
 ##.tp-ad-label
 ##.tp_ads
 ##.tpd-banner-ad-container
+##.tpd-banner-desktop
 ##.tpd-box-ad-d
 ##.tpd-box-ad-e
 ##.tr-ad-adtech
@@ -45897,6 +45900,7 @@ tf2r.com#@#.adverts
 ||360yield.com^$third-party
 ||365sbaffiliates.com^$third-party
 ||4affiliate.net^$third-party
+||4cinsights.com^$third-party
 ||4dsply.com^$third-party
 ||7search.com^$third-party
 ||888media.net^$third-party
@@ -45998,6 +46002,7 @@ tf2r.com#@#.adverts
 ||adgrid.io^$third-party
 ||adgroups.com^$third-party
 ||adgrx.com^$third-party
+||adhaven.com^$third-party
 ||adhese.be^$third-party
 ||adhese.com^$third-party
 ||adhese.net^$third-party
@@ -46191,6 +46196,7 @@ tf2r.com#@#.adverts
 ||adtecc.com^$third-party
 ||adtech.de^$third-party
 ||adtechium.com^$third-party
+||adtechjp.com^$third-party
 ||adtechus.com^$third-party
 ||adtegrity.net^$third-party
 ||adtelligent.com^$third-party
@@ -46294,6 +46300,7 @@ tf2r.com#@#.adverts
 ||arcadebannerexchange.org^$third-party
 ||arcadebanners.com^$third-party
 ||arcadechain.com^$third-party
+||artsai.com^$third-party
 ||assoc-amazon.ca^$third-party
 ||assoc-amazon.co.uk^$third-party
 ||assoc-amazon.com^$third-party
@@ -46474,6 +46481,7 @@ tf2r.com#@#.adverts
 ||clicktripz.com^$third-party
 ||clixco.in^$third-party
 ||clixtrac.com^$third-party
+||cnnx.io^$third-party
 ||cogocast.net^$third-party
 ||coguan.com^$third-party
 ||coinmedia.co^$third-party
@@ -46830,6 +46838,7 @@ tf2r.com#@#.adverts
 ||mediaffiliation.com^$third-party
 ||mediaforce.com^$third-party
 ||mediafuse.com^$third-party
+||mediaiqdigital.com^$third-party
 ||medialand.ru^$third-party
 ||mediatarget.com^$third-party
 ||mediatraffic.com^$third-party
@@ -47245,6 +47254,7 @@ tf2r.com#@#.adverts
 ||swelen.com^$third-party
 ||switchadhub.com^$third-party
 ||swoop.com^$third-party
+||swpsvc.com^$third-party
 ||symbiosting.com^$third-party
 ||syndicatedsearchresults.com^$third-party
 ||tabunder.com^$third-party
@@ -49882,7 +49892,6 @@ tf2r.com#@#.adverts
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
 ||rubylife.go2cloud.org^
-||s.skimresources.com^
 ||s1.wp.com^$subdocument,third-party
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
@@ -49901,10 +49910,12 @@ tf2r.com#@#.adverts
 ||shorte.st/link-converter.min.js
 ||siteground.com/img/affiliate/
 ||siteground.com/img/banners/
+||skimresources.com^$script,subdocument,third-party
 ||slysoft.com/img/banner/
 ||smartdestinations.com/ai/
 ||smbulk.com/assets/images/banner-
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
+||sni.ps/snips_widget.js
 ||socialmonkee.com/images/
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
@@ -54664,6 +54675,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|physicianspractice.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
+@@||embed.sendtonews.com^$domain=si.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||experienceleague.adobe.com^$~third-party
 @@||experienceleague.corp.adobe.com^$~third-party
@@ -55203,6 +55215,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/2048/aps/*_pc.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -64270,8 +64283,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||maxthonimg.com/v6/festival/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+maxthon.cn##.top-right-pop-wrapper
+maxthon.cn###festival-skin-link
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71894,6 +71910,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||jsqhh.cn^
+||ai256.top^
+||b6vgame.xyz^
+||23taoke.xyz^
+||b2xy4m.xyz^
+||9j1y.cn^
+||qmdllqv.cn^
+||vluvpdf.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -81176,6 +81200,7 @@ _mongo_stats/
 ||api64.com^$third-party
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
+||apolloprogram.io^$third-party
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
 ||appn.center^$third-party
@@ -81480,6 +81505,7 @@ _mongo_stats/
 ||cogmatch.net^$third-party
 ||cognativex.com^$third-party
 ||cognitivematch.com^$third-party
+||cognitivlabs.com^$third-party
 ||cohesionapps.com^$third-party
 ||coll2onf.com^$third-party
 ||collarity.com^$third-party
@@ -81712,6 +81738,7 @@ _mongo_stats/
 ||enquisite.com^$third-party
 ||ensighten.com^$third-party
 ||enticelabs.com^$third-party
+||entravision.com^$third-party
 ||eolcdn.com^$third-party
 ||ep4p.com^$third-party
 ||eperfectdata.com^$third-party
@@ -82148,6 +82175,7 @@ _mongo_stats/
 ||ipv6monitoring.eu^$third-party
 ||iqdata.ai^$third-party
 ||iqfp1.com^$third-party
+||iqm.com^$third-party
 ||ironbeast.io^$third-party
 ||ist-track.com^$third-party
 ||istrack.com^$third-party
@@ -82207,6 +82235,7 @@ _mongo_stats/
 ||klldabck.com^$third-party
 ||km-sea.net^$third-party
 ||kmtx.io^$third-party
+||knorex.com^$third-party
 ||knowledgevine.net^$third-party
 ||koddi.com^$third-party
 ||koji-analytics.com^$third-party
@@ -83477,6 +83506,7 @@ _mongo_stats/
 ||webiqonline.com^$third-party
 ||webleads-tracker.com^$third-party
 ||webmasterplan.com^$third-party
+||weborama.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
 ||websiteonlinecounter.com^$third-party
@@ -85648,7 +85678,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^$third-party
 ||checkout.com/logger/
-||chicoryapp.com/widget_v2/
+||chicoryapp.com^$third-party
 ||choicestream.com^*/pixel/
 ||chtah.com/a/*/spacer-0.gif$third-party
 ||chtah.com^*/1x1.gif
@@ -89269,6 +89299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||windy.com/sedlina/ga/
 ||wolfram.com/common/javascript/wal/
 ||wscdn.com/analytics/
+||wsj.com/asset/amt.js
 ||wstats.e-wok.tv^
 ||wtk.db.com^
 ||xfinity.com/event/
@@ -98988,6 +99019,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
 ||gia.jd.com^
+||gk.sina.cn^
 ||hdslb.com/images/isptrack.js
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
@@ -99013,7 +99045,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||log.flight.qunar.com^
 ||log.kuwo.cn^
 ||log.m.sm.cn^
+||log.sina.cn^
 ||log1.17173.com^
+||log2.sina.cn^
 ||loginlog.sdo.com^
 ||logs.51cto.com^
 ||logstat.caixin.com^
