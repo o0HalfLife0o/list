@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JVIkGVRmqjqZQnsZsss5vQ
+! Checksum: wg6PHr0eZ1RGwQNb1soOVA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110240815
-! Last Modified: 2021年10月24日 08:15
+! Version: 202110241401
+! Last Modified: 2021年10月24日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54752,6 +54752,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||api.paymentwall.com^$domain=adguard.com
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apmebf.com/ad/$domain=betfair.com
+@@||archive.org/BookReader/$image,~third-party,xmlhttprequest
+@@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
@@ -64402,6 +64404,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mingpao.com###photo_transition
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72026,6 +72029,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||log57.top^
+||axcdt.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -78529,6 +78533,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pageview?key=
 /pageview?pageId=
 /pageview?pageviewId
+/pageview?t=
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
@@ -80202,6 +80207,7 @@ fqsousou.com,kengso.com#@#.user-share
 /visit/record.gif?
 /visit/record?
 /visit?id=
+/visit_log.js
 /visit_pixel?
 /visit_tracking.
 /VisitCounter.
@@ -80913,7 +80919,6 @@ _sdcTrackingCode.
 ||gstatic.com/gen_204?
 ,adb=*&referer=
 -logabpstatus.
-/ab_test/*
 /ab_track.
 /adb.policy.js
 /adblock?action=
@@ -85606,6 +85611,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/collect
 ||appspot.com/display?
 ||appspot.com/stats?
+||appspot.com/take?
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
@@ -86520,6 +86526,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lijit.com/blog_wijits?*=trakr&
 ||lijit.com/ip.php?
 ||lijit.com/res/images/wijitTrack.gif
+||limbik.com/static/tracking-script.js
 ||lingows.appspot.com/page_data/?
 ||link.cosmopolitan.com^$image
 ||link.indiegogo.com/img/

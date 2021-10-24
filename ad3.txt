@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DQgoAn3QNvMTDRanwVkoeA
+! Checksum: kwzFBmF1S/60uTfxmDXxMA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110240815
-! Last Modified: 2021年10月24日 08:15
+! Version: 202110241401
+! Last Modified: 2021年10月24日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9246,6 +9246,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mingpao.com###photo_transition
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16870,6 +16871,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||log57.top^
+||axcdt.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -25659,6 +25661,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pageview?key=
 /pageview?pageId=
 /pageview?pageviewId
+/pageview?t=
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
@@ -27332,6 +27335,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /visit/record.gif?
 /visit/record?
 /visit?id=
+/visit_log.js
 /visit_pixel?
 /visit_tracking.
 /VisitCounter.
@@ -28043,7 +28047,6 @@ _sdcTrackingCode.
 ||gstatic.com/gen_204?
 ,adb=*&referer=
 -logabpstatus.
-/ab_test/*
 /ab_track.
 /adb.policy.js
 /adblock?action=
@@ -32736,6 +32739,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/collect
 ||appspot.com/display?
 ||appspot.com/stats?
+||appspot.com/take?
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
@@ -33650,6 +33654,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lijit.com/blog_wijits?*=trakr&
 ||lijit.com/ip.php?
 ||lijit.com/res/images/wijitTrack.gif
+||limbik.com/static/tracking-script.js
 ||lingows.appspot.com/page_data/?
 ||link.cosmopolitan.com^$image
 ||link.indiegogo.com/img/
