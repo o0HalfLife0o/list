@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1GEaNGgbxzGgIpKSh8Q5Qg
+! Checksum: jSmlynOtcE4lPKss8nWC5A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110242003
-! Last Modified: 2021年10月24日 20:03
+! Version: 202110250201
+! Last Modified: 2021年10月25日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1598,7 +1598,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad_bsb.
 /ad_button.
 /ad_cache/*
-/ad_campaign/*
 /ad_campaign?
 /ad_campaigns/*
 /ad_caption.
@@ -1921,7 +1920,6 @@ tieba.baidu.com##.tuijian-wrap
 /adcall.$domain=~adcall.cz
 /adcall?
 /adcalloverride.
-/adcampaigns/*
 /adcase.$domain=~adcase.ru
 /adcash-
 /adcash.$domain=~adcash.com
@@ -3411,7 +3409,6 @@ tieba.baidu.com##.tuijian-wrap
 /adv.png
 /adv/?rad_$domain=~rakuten.co.jp
 /adv/adriver
-/adv/adv_
 /adv/background/*
 /adv/banner/*
 /adv/banner1/*
@@ -3546,7 +3543,6 @@ tieba.baidu.com##.tuijian-wrap
 /advertisement?zoneid=
 /advertisement_$~script
 /advertisements-
-/advertisements/*$domain=~ellefanningfan.net
 /advertisements?
 /advertisements_
 /advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
@@ -5064,7 +5060,6 @@ tieba.baidu.com##.tuijian-wrap
 /images.ads.
 /images.adv/*
 /images/ad-$domain=~slimjet.com
-/images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ad2/*
 /images/adds/*
@@ -5947,7 +5942,6 @@ tieba.baidu.com##.tuijian-wrap
 /previews/ad/*
 /printad.
 /printad/*
-/printads/*
 /prism_ad/*
 /private-ads-
 /PRNAd300x150.
@@ -56708,6 +56702,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||hongruikt.com^
+||xinyansaas.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -64402,6 +64398,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/pos_js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 junshidao.com###rb_wap
@@ -72038,6 +72035,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||n258.cc^
 ||tszhongtianshiji.com^
 ||guangzhengtwo.top^
+||z-xiao.xyz^
+||hxf1688.xyz^
+||huaxiaozhang.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

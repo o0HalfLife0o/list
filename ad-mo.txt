@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ddCvBy6Peceb/A/559lBsg
+! Checksum: imfWadIkKsUCiwXgB79MTw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110242003
-! Last Modified: 2021年10月24日 20:03
+! Version: 202110250201
+! Last Modified: 2021年10月25日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1486,7 +1486,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad_bsb.
 /ad_button.
 /ad_cache/*
-/ad_campaign/*
 /ad_campaign?
 /ad_campaigns/*
 /ad_caption.
@@ -1809,7 +1808,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcall.$domain=~adcall.cz
 /adcall?
 /adcalloverride.
-/adcampaigns/*
 /adcase.$domain=~adcase.ru
 /adcash-
 /adcash.$domain=~adcash.com
@@ -3299,7 +3297,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adv.png
 /adv/?rad_$domain=~rakuten.co.jp
 /adv/adriver
-/adv/adv_
 /adv/background/*
 /adv/banner/*
 /adv/banner1/*
@@ -3434,7 +3431,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /advertisement?zoneid=
 /advertisement_$~script
 /advertisements-
-/advertisements/*$domain=~ellefanningfan.net
 /advertisements?
 /advertisements_
 /advertiser/*$domain=~admin.exoclick.com|~ads.microsoft.com|~ads.pinterest.com|~ads.tiktok.com|~advertiser.flossbank.com|~affili.net|~affiliprint.com|~bingads.microsoft.com|~linkpizza.com|~mediance.com|~mobileapptracking.com|~trialpay.com
@@ -4952,7 +4948,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /images.ads.
 /images.adv/*
 /images/ad-$domain=~slimjet.com
-/images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ad2/*
 /images/adds/*
@@ -5835,7 +5830,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /previews/ad/*
 /printad.
 /printad/*
-/printads/*
 /prism_ad/*
 /private-ads-
 /PRNAd300x150.
@@ -56596,6 +56590,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda|$script,third-party
 .8ox.cn
+||hongruikt.com^
+||xinyansaas.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -64290,6 +64286,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||winwin7.com/statics/js/pos_js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 junshidao.com###rb_wap
@@ -71926,6 +71923,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||n258.cc^
 ||tszhongtianshiji.com^
 ||guangzhengtwo.top^
+||z-xiao.xyz^
+||hxf1688.xyz^
+||huaxiaozhang.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
