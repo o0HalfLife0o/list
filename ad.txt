@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eyDxnJnErQBmJY+fjLA/4g
+! Checksum: AHhd8I9t8ty9Q7xpgmGBQg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110240201
-! Last Modified: 2021年10月24日 02:01
+! Version: 202110240815
+! Last Modified: 2021年10月24日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -630,7 +630,6 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
-/2048/aps/*_pc.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -755,6 +754,7 @@ youle55.com
 /1982/java/static/js/*headad.js
 /1linbAte_mplatk/*
 /2016v2/js/adm2.js
+/2048/aps/*_pc.js
 /21kknb.php
 /31M/btjav.gif
 /500ad/*
@@ -7892,6 +7892,7 @@ _yad_jsonp_
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
+||maxthonimg.com/v6/festival/
 ||mbd.baidu.com^$domain=xiaoyun.com
 ||mcncc.com/yeyou/*.htm
 ||me680.com/js/*.js
@@ -9690,12 +9691,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||maxthonimg.com/v6/festival/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-wenxuecity.com##.topbannerw
-maxthon.cn##.top-right-pop-wrapper
-maxthon.cn###festival-skin-link
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10262,6 +10259,7 @@ hao.360.com###festival-firework
 maxthon.cn###festival-fix-bottom
 hao.360.cn,hao.360.com###festival-logoskin
 maxthon.cn###festival-rain-wrapper
+maxthon.cn###festival-skin-link
 hao.360.cn###festival-theme > .left-entry
 hao.360.cn###festival-theme > .right-entry-wrap
 hao.360.cn###festival_baijian
@@ -13825,6 +13823,7 @@ baidu.com##.top-banner-ad-wrap
 taihainet.com##.top-info
 2345.com##.top-lvy
 eelly.com##.top-picture
+maxthon.cn##.top-right-pop-wrapper
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 ettoday.net##.top-sky
 hao123.com##.top-test
@@ -13858,6 +13857,7 @@ qz828.com##.topadv
 itavcn.com##.topadvzone
 dayanzai.me##.topban
 21ic.com,pyccoo.cn,qq.com,wdzj.com##.topbanner
+wenxuecity.com##.topbannerw
 kocpc.com.tw##.topbarad
 chromecj.com##.topblock
 uzzf.com##.topdown
@@ -17316,19 +17316,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||jsqhh.cn^
-||ai256.top^
-||b6vgame.xyz^
-||23taoke.xyz^
-||b2xy4m.xyz^
-||9j1y.cn^
-||qmdllqv.cn^
-||vluvpdf.cn^
-||syxwj.cn^
-||fengzhilu.cn^
-||9j3a.cn^
-||7caidai.xyz^
-||ydgege.xyz^
+||log57.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17469,6 +17457,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||23qb.net/ak
 ||23qb.net/skin/style
 ||23qb.net/skin/xiu.js
+||23taoke.xyz^
 ||23uuw3.com^
 ||24kwx.cc^$csp=script-src 'self' * 'unsafe-inline'
 ||256k.xyz^
@@ -17561,6 +17550,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||73cm.com^
 ||76xs.com^
 ||7b6l2j.cn^
+||7caidai.xyz^
 ||7dmf7zl.cn^
 ||7ez4.cn^
 ||7j7jv5.cn^
@@ -17598,6 +17588,8 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||9c1k.cn^
 ||9d6k.cn^
 ||9e0u.cn^
+||9j1y.cn^
+||9j3a.cn^
 ||9ucm.com^
 ||9xwk68.cn^
 ||9y88.com^
@@ -17645,6 +17637,7 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||ahwczn.cn^
 ||ahylong.cn^
 ||ahzhongzhan.cn^
+||ai256.top^
 ||aibangzs.com^
 ||aifenka.cn^
 ||aiggkj.cn^
@@ -17735,8 +17728,10 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||axuns.com^
 ||ayun.ltd^
 ||b2b5.net^
+||b2xy4m.xyz^
 ||b32lx7qjk0.cn^
 ||b5mc3.life^
+||b6vgame.xyz^
 ||b6yule.xyz^
 ||bahu.xyz^
 ||baidu2img.com^
@@ -18134,6 +18129,12 @@ xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||eiasia.ltd^
 ||eidsign.com.cn^
 ||ejd3q.life^
+||fengzhilu.cn^
+||jsqhh.cn^
+||qmdllqv.cn^
+||syxwj.cn^
+||vluvpdf.cn^
+||ydgege.xyz^
 !||ejee.xyz^
 ||ejeenews.com^
 ||ekhdplgv.cn^
