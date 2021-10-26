@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2b/eDARVLLohiuNoUuB3JQ
+! Checksum: D3MCPPkoM0hmSsQwXXksgg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202110260201
-! Last Modified: 2021年10月26日 02:01
+! Version: 202110260814
+! Last Modified: 2021年10月26日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18482,6 +18482,7 @@ _800x80_
 ##.ad-roadblock
 ##.ad-root
 ##.ad-rotation
+##.ad-rotator
 ##.ad-row
 ##.ad-row-viewport
 ##.ad-s
@@ -25282,6 +25283,7 @@ _800x80_
 ##.header-ad-holder
 ##.header-ad-new-wrap
 ##.header-ad-region
+##.header-ad-row
 ##.header-ad-slot
 ##.header-ad-space
 ##.header-ad-wrap
@@ -29633,6 +29635,7 @@ _800x80_
 ##.vertical_ads
 ##.verticalad
 ##.verysmallads
+##.vf-ad-comments
 ##.vidadtext
 ##.video-about-ad
 ##.video-ad
@@ -31078,7 +31081,9 @@ _800x80_
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ###mplayer-embed
+##.js-widget-send-to-news
 ##.pbs__player
+##.send-to-news
 ##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ##a[href*="get-express-vpn.xyz"]
@@ -32395,6 +32400,7 @@ tf2r.com#@#.adverts
 ||adservon.com^
 ||adservr.de^
 ||adservrs.com^
+||adsessionserv.com^
 ||adsfac.eu^
 ||adsfac.net^
 ||adsfac.us^
@@ -38656,7 +38662,7 @@ tf2r.com#@#.adverts
 ||kqimuhkxnh.xyz^
 ||kqpcfthouivgvs.com^
 ||kqpkigli.com^
-||kqzyfj.com^
+||kqzyfj.com^$image,script
 ||kragr.com^
 ||krakeshlaja.com^
 ||krdmqluvudizq.com^
@@ -43276,7 +43282,6 @@ tf2r.com#@#.adverts
 ||speop.com^
 ||sperans-beactor.com^
 ||spermparticipation.com^
-||sphdigital.com^
 ||spherediary.com^
 ||sphorical.site^
 ||spicedeceived.com^
@@ -50774,6 +50779,7 @@ tf2r.com#@#.adverts
 ||insideyork.co.uk/assets/images/sponsors/
 ||investing.com/jp.php
 ||irishdev.com/files/banners/
+||islandecho.co.uk/wp-content/uploads/*Island-$image
 ||italiangenealogy.com/images/banners/
 ||itweb.co.za/sponsored_
 ||itweb.co.za/static/misc/toolbox/
@@ -52094,7 +52100,7 @@ gadgets.ndtv.com##._ad
 pirateiro.com##._br9is
 afro.com##.a-215.g-single
 rumble.com##.a-break
-locklab.com##.a-single
+islandecho.co.uk,locklab.com##.a-single
 abcya.com##.a-skyscraper
 krebsonsecurity.com##.a-statement
 tellymix.co.uk##.a-text
@@ -52163,7 +52169,7 @@ ansamed.info,baltic-course.com,futbol24.com,jetphotos.com,karger.com,maritimejob
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
-audiobacon.net,ottverse.com,sundayworld.co.za##.adv-link
+audiobacon.net,bhamnow.com,ottverse.com,sundayworld.co.za##.adv-link
 motorauthority.com##.adv-spacer
 worldarchitecture.org##.adv1WA1440
 futbol24.com##.adv2
@@ -52315,6 +52321,7 @@ greenwichtime.com,mysanantonio.com,newstimes.com,sfchronicle.com,sfgate.com##.be
 aiscore.com##.bet365
 biblegateway.com##.bga
 overclock3d.net##.bglink
+bhamnow.com##.bhamn-adlabel
 viva.co.nz##.big-banner
 hotnewhiphop.com##.big-banner-placeholder-content
 newzit.com##.big_WcxYT
@@ -52669,7 +52676,7 @@ ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,moviemaker.com,nondoc.com,one.com.mt,sammobile.com,thegolfnewsnet.com##.g
 gayexpress.co.nz##.g-col > .gofollow
 gayexpress.co.nz##.g-dyn
-businessofapps.com##.g-single
+businessofapps.com,islandecho.co.uk##.g-single
 yellowise.com##.g-widget-block
 titantv.com##.gAd
 distractify.com##.gXgoom.sc-1ugiigr-0
@@ -52829,7 +52836,7 @@ techrepublic.com,thepcguild.com##.leader
 zdnet.com##.leader-bottom
 zdnet.com##.leader-top
 techadvisor.com##.leaderBoardHolder
-agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
 edarabia.com##.leaderboard-728
 edarabia.com##.leaderboard-970
 arabiaweather.com,bloomberg.com,gamesindustry.biz,news957.com,newscientist.com##.leaderboard-container
@@ -54014,6 +54021,8 @@ ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#?#.s-item:-abp-has(span[class^="s-item__title--tagblock__SPONSORED"])
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
+geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
+geekzone.co.nz#?#.container:-abp-has(a[title="Affiliate link"])
 ggrecon.com#?#.artSideWrapBox:-abp-contains(Advertisement)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"] > div.UzWqLb)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
@@ -54918,6 +54927,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||brighteon.com^$generichide
 @@||cwtv.com^$generichide
 @@||destinationamerica.com^$generichide
+@@||geekzone.co.nz^$generichide
 @@||history.com^$generichide
 @@||sciencechannel.com^$generichide
 @@||smallseotools.com^$generichide
@@ -71927,6 +71937,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.la|81book.com|81zw.me|877zw.com|99mk.com|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|shuquge.com|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||etfuxd.cn^
+||wn052ucd.online^
+||powerchase.online^
+||ke94.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -100260,6 +100274,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
+@@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 !---------- Finnish ----------
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
