@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Renlcqgd5gbjIRnKgvRSaA
+! Checksum: buHsuJoHzQV4z6e96ZmZhw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110260814
-! Last Modified: 2021年10月26日 08:14
+! Version: 202110261401
+! Last Modified: 2021年10月26日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1552,6 +1552,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||honhon.top^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -9255,6 +9256,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qmia.cn##.vod-gd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16886,6 +16888,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wn052ucd.online^
 ||powerchase.online^
 ||ke94.com^
+||sgaga.xyz^
+||jdiaveu.cn^
+||jyigozm.cn^
+||dfggb.cc^
+||topdoctor.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -34049,6 +34056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||publicbroadcasting.net/analytics/
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
+||pushpro.io/api/logging/
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
 ||pv.pjtsu.com^
@@ -34123,6 +34131,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.perfops.net^
 ||rum.uptime.com^
 ||run.app/data.log?
+||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.beop.io^
 ||s.clickability.com^
@@ -46271,6 +46280,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||eastmoney.com/web/prd/jump_tracker.js
 ||eclick.baidu.com^
 ||event.csdn.net^
+||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
@@ -46340,6 +46350,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pinkoi.com/_log/
 ||pptv.com/stg/add?
 ||pptv.com/webdelivery/
+||pressplay.cc/marketing/event
 ||pv.ltn.com.tw^
 ||pv.udn.com^
 ||pv.xcar.com.cn^
@@ -47155,7 +47166,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
-@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|schwab.com
+@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
 @@||googletagmanager.com/gtm.js$domain=atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|nflgamepass.com|nordvpn.com|pioneer.eu|royalbank.com|scotsman.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -47256,7 +47267,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
@@ -47795,6 +47806,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
+@@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||segundamano.mx^*/tealium.js

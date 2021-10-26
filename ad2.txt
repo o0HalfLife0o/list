@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2ldMmkUkLd5mZo2lvI9SYA
+! Checksum: i5+FgZM8O6/gJt6Jm/AXGA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202110260814
-! Last Modified: 2021年10月26日 08:14
+! Version: 202110261401
+! Last Modified: 2021年10月26日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1552,6 +1552,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||honhon.top^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -9255,6 +9256,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qmia.cn##.vod-gd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16886,6 +16888,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wn052ucd.online^
 ||powerchase.online^
 ||ke94.com^
+||sgaga.xyz^
+||jdiaveu.cn^
+||jyigozm.cn^
+||dfggb.cc^
+||topdoctor.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
