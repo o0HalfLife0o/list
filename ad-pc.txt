@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pU1Z/zMH1A3PPz3bTVX8zg
+! Checksum: WHRAcUdS2VNNYr3OmEfTSA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110272003
-! Last Modified: 2021年10月27日 20:03
+! Version: 202110280201
+! Last Modified: 2021年10月28日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -37092,6 +37092,7 @@ tf2r.com#@#.adverts
 ||gharnt.com^
 ||ghcncwmm.com^
 ||ghsmfmjcicgup.com^
+||ghyklxvleas.xyz^
 ||giantaffiliates.com^
 ||gibeleftyeuro.com^
 ||giddinessdefensivesubject.com^
@@ -39248,6 +39249,7 @@ tf2r.com#@#.adverts
 ||luxupcdnc.com^
 ||luxuriouspickpocketsmuggle.com^
 ||lvecygampj.com^
+||lvjvremluuej.com^
 ||lvntekpejrmtb.com^
 ||lvodomo.info^
 ||lvqnychauf.com^
@@ -39439,6 +39441,7 @@ tf2r.com#@#.adverts
 ||mb57.com^
 ||mbctxigml.com^
 ||mbermorn.top^
+||mbiizkzics.com^
 ||mblgcaczvm.com^
 ||mblink.in^
 ||mblkunfd.com^
@@ -41269,6 +41272,7 @@ tf2r.com#@#.adverts
 ||plaintfarrel.com^
 ||plainwrk.name^
 ||plandiscriminationtakeout.com^
+||planetheldpiggy.com^
 ||planktab.com^
 ||planneddeference.com^
 ||planneradministratorsignify.com^
@@ -44183,6 +44187,7 @@ tf2r.com#@#.adverts
 ||touglesy.net^
 ||toukeedo.com^
 ||touphipt.com^
+||touroumu.com^
 ||towardadvised.com^
 ||towboiledscallop.com^
 ||townsdatabasekidding.com^
@@ -45349,6 +45354,7 @@ tf2r.com#@#.adverts
 ||wizhumpgyros.com^
 ||wizliebeg.com^
 ||wizwarsum.site^
+||wjjsskhcqrsbg.com^
 ||wkcuhilbg.com^
 ||wkfdymfxmyckr.com^
 ||wkll7glfazgp.com^
@@ -48209,6 +48215,7 @@ tf2r.com#@#.adverts
 ||heratheacle.com^$popup
 ||hetaint.com^$popup
 ||hetapus.com^$popup
+||hetaruwg.com^$popup
 ||hh-btr.com^$popup
 ||hhourtrk2.com^$popup
 ||hibids10.com^$popup
@@ -48339,6 +48346,7 @@ tf2r.com#@#.adverts
 ||ligatus.com^$popup
 ||liliy9aydje10.com^$popup
 ||linknotification.com^$popup
+||linkonclick.com^$popup
 ||littercipher.com^$popup
 ||liveadexchanger.com^$popup
 ||livechatflirt.com^$popup
@@ -48544,6 +48552,7 @@ tf2r.com#@#.adverts
 ||pipsol.net^$popup
 ||pixellitomedia.com^$popup
 ||pixelsfighting.co^$popup
+||planetheldpiggy.com^$popup
 ||plantinscription.com^$popup
 ||playboymethod.com^$popup
 ||pleasantpartiallyerrors.com^$popup
@@ -48968,6 +48977,7 @@ tf2r.com#@#.adverts
 ||windychinese.com^$popup
 ||winfreeprize.online^$popup
 ||witalfieldt.com^$popup
+||withoughdv.xyz^$popup
 ||wonderlandads.com^$popup
 ||wwsearch.click^$popup
 ||wwwpromoter.com^$popup
@@ -64466,6 +64476,7 @@ _yad_jsonp_
 ||5118.com/g/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/mclick?"]
 szxx.com.cn###A1
 booom.net##.tmall_tab
 szxx.com.cn###A2
@@ -72109,6 +72120,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hqwrr.cc^
 ||hbggcm.com^
 ||hhfhgf.cc^
+||wangbo.group^
+||wecmaym.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 100SR77guCkVH0CfHmOMfw
+! Checksum: f+dQykxzyfSKkV+ab3ninQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202110262003
-! Last Modified: 2021年10月26日 20:03
+! Version: 202110280201
+! Last Modified: 2021年10月28日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1445,6 +1445,8 @@ vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort
 nosteam.ro#$#abort-on-property-write jsPop21
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
+bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
+spankbang.com#$#abort-on-property-write window.open
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1695,6 +1697,8 @@ anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
 ||torcidatricolor.tv/*.gif$image
 kastream.biz#$#abort-on-property-write open
 filmesonlinegratis.com#$#abort-on-property-read atob
+multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
+cinevision.online#$#abort-on-property-write atob
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/romanian.txt ***
@@ -1877,6 +1881,7 @@ lxhentai.com#$#abort-current-inline-script document.cookie
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 beeng.org#$#abort-current-inline-script $ .wrapper
 phimlau.online#$#abort-current-inline-script atob /Y1/
+sexphimhd.net#$#abort-current-inline-script Math
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
