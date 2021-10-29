@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Cu2834Y9dkCpOyNgpElUiQ
+! Checksum: kh4O/uzCgsM3y+dJJKYc2g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110292003
-! Last Modified: 2021年10月29日 20:03
+! Version: 202110300201
+! Last Modified: 2021年10月30日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9258,6 +9258,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||juapp5.com/geek_image/chaopai.jpeg
+||pexels.com^*/sponsored_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16896,6 +16897,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wuzefei.top^
 ||cxzgdse.cn^
 ||xzcvfdwe.cn^
+||kbtsogi.cn^
+||taoyouhuiquan.top^
+||khuokpj.cn^
+||zkczbti.cn^
+||qq163com.cn^
+||rhxshop.com^
+||mgnb.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -36520,7 +36528,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.adobe.io^
 ||telemetry.api.playstation.com^
 ||telemetry.tradingview.com^
-||teleport-*.spankbang.com^
 ||tellerreport.com/react/pixel
 ||tgt.maep.ibm.com^
 ||thdstatic.com/data-collection/$domain=homedepot.com
@@ -36536,6 +36543,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.eharmony.ca^
 ||tnaflix.com/stats.php
 ||tongji.meizu.com^
+||tool*.spankbang.com^
 ||top.gg/api/auctions/impression
 ||top.wn.com^
 ||touch.myntra.com^
