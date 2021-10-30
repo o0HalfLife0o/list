@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l3EO1cEEQQRPp7M5D5vTFw
+! Checksum: bOwbGBEAHmw/yJY40L6lAw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110301401
-! Last Modified: 2021年10月30日 14:01
+! Version: 202110302003
+! Last Modified: 2021年10月30日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9261,6 +9261,9 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hao123.com##.guess-recommend
+huya.com###huya-ab-fixed
+2dfan.com,galge.fun###index_bg_box
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16891,6 +16894,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||aiyalife365.cn^
 ||91eto.xyz^
+||tp992.top^
+||msiqhvl.cn^
+||65daishua.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -35795,6 +35801,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.designspiration.com^
 ||analytics.ecosia.org^
 ||analytics.faceitanalytics.com^
+||analytics.feedly.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
@@ -46510,6 +46517,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tmall.com/add?
 ||tmall.com^*/vdata.htm?
 ||tongji.mafengwo.cn^
+||tongji.xinmin.cn^
 ||tongji2.vip.duba.net/__infoc.gif?
 ||top.baidu.com/js/nsclick.js
 ||toutiao.com/action_log/
