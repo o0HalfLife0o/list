@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 469d4k4nomaWI/qC5W9B/A
+! Checksum: n6HlETDiq9DoGJ1jE82FhA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202110312003
-! Last Modified: 2021年10月31日 20:03
+! Version: 202111010201
+! Last Modified: 2021年11月01日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1999,6 +1999,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||heaplap.com^
 ||000123456789.site^
 ||tyjnwj.top^
 .cc/s.php?id=$script,third-party
@@ -9710,6 +9711,10 @@ _yad_jsonp_
 ||dinggling.com/gmifr_lei.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+18av.pro##.video-server > .inplayer
+jpsub.com##.floatbar_div
+lenovo.com.cn##.adver-bg
+lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 smallpopo.com##.fabox
@@ -15344,6 +15349,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+ilive.lenovo.com.cn#@#.adTop
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -17352,6 +17358,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||d-star.xyz^
 ||xdfgrew.cn^
 ||xxw777.cn^
+||engpeng.cn^
+||zongjiangd.top^
+||myyuye.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

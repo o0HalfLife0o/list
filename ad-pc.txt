@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1aQbsx3fNa2dCQoftD8Ipw
+! Checksum: f+OTEJ38d2NxPDURrc4LhA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202110312003
-! Last Modified: 2021年10月31日 20:03
+! Version: 202111010201
+! Last Modified: 2021年11月01日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30971,6 +30971,7 @@ _800x80_
 ##a[href^="https://syndication.dynsrvtbg.com/splash.php?"]
 ##a[href^="https://syndication.exoclick.com/splash.php?"]
 ##a[href^="https://syndication.optimizesrv.com/splash.php?"]
+##a[href^="https://t.adating.link/"]
 ##a[href^="https://t.grtyi.com/"]
 ##a[href^="https://t.hrtye.com/"]
 ##a[href^="https://t.hrtyj.com/"]
@@ -31010,6 +31011,7 @@ _800x80_
 ##a[href^="https://uncensored3d.com/"]
 ##a[href^="https://unreshiramor.com/"]
 ##a[href^="https://usenetxs.website/"]
+##a[href^="https://vlnk.me/"]
 ##a[href^="https://vo2.qrlsx.com/"]
 ##a[href^="https://vod09197d7.club/"]
 ##a[href^="https://wantopticalfreelance.com/"]
@@ -45125,6 +45127,7 @@ tf2r.com#@#.adverts
 ||vkjmljhcdn.com^
 ||vknrfwwxhxaxupqp.pro^
 ||vlitag.com^
+||vlnk.me^
 ||vloudsze.com^
 ||vlrzhoueyoxw.com^
 ||vltwox7zl7h1wv.com^
@@ -50106,6 +50109,7 @@ tf2r.com#@#.adverts
 ||gamesports.net/monkey_
 ||gamingjobsonline.com/images/banner/
 ||gateway.fortunelounge.com^
+||geobanner.friendfinder.com^$third-party
 ||get.cryptobrowser.site^
 ||get.davincisgold.com^
 ||get.paradise8.com^
@@ -51924,6 +51928,7 @@ inquirer.net###billboard_article
 chilltracking.com###blink
 seganerds.com###block-3
 seganerds.com###block-4
+cryptofeeds.news###block-8
 wionews.com###block-adv
 webosnation.com###block-block-21
 slideme.org###block-block-31
@@ -54252,6 +54257,8 @@ bcmagazine.net##img[style^="width:300px;"]
 abpclub.co.uk##img[width="118"]
 howtogermany.com##img[width="120"]
 elitepvpers.com,lyngsat-logo.com,lyngsat-maps.com,lyngsat-stream.com,lyngsat.com,newswireni.com,webhostingtalk.com##img[width="160"]
+cryptofeeds.news##img[width="160"][height="600"]
+cryptofeeds.news##img[width="200"][height="600"]
 fashionpulis.com##img[width="250"]
 afrivibes.net,airplaydirect.com,bigeye.ug,breakingbelizenews.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,forexmt4indicators.com,freedomhacker.net,gameplayinside.com,goodcarbadcar.net,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,onislandtimes.com,portugaldailyview.com,punchng.com,radiobiz.co.za,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,thenationonlineng.net,theolivepress.es,therep.co.za,thewillnigeria.com,wantedinafrica.com,wantedinrome.com##img[width="300"]
 boxthislap.org##img[width="300px"]
@@ -57025,6 +57032,7 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||heaplap.com^
 ||000123456789.site^
 ||tyjnwj.top^
 .cc/s.php?id=$script,third-party
@@ -64736,6 +64744,10 @@ _yad_jsonp_
 ||dinggling.com/gmifr_lei.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+18av.pro##.video-server > .inplayer
+jpsub.com##.floatbar_div
+lenovo.com.cn##.adver-bg
+lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 smallpopo.com##.fabox
@@ -70370,6 +70382,7 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+ilive.lenovo.com.cn#@#.adTop
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -72378,6 +72391,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||d-star.xyz^
 ||xdfgrew.cn^
 ||xxw777.cn^
+||engpeng.cn^
+||zongjiangd.top^
+||myyuye.club^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
