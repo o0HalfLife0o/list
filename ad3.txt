@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /vxg3Fo2tDqy1IhVXSjmNw
+! Checksum: /fXqCKoDOTrMrUhRqdGAQw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110311401
-! Last Modified: 2021年10月31日 14:01
+! Version: 202110312003
+! Last Modified: 2021年10月31日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1552,6 +1552,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||000123456789.site^
+||tyjnwj.top^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9261,6 +9263,8 @@ _yad_jsonp_
 ||dinggling.com/gmifr_lei.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sd.ifeng.com##div[data-title*="广告位"]
+sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 smallpopo.com##.fabox
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -16896,6 +16900,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||sxzchs.cn^
 ||yumingdan.top^
+||umis.top^
+||chenvq.cn^
+||d-star.xyz^
+||xdfgrew.cn^
+||xxw777.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -26059,6 +26068,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /pv/?aid=
 /pv/code.asp?
 /pv/new?
+/pv2.gif?
 /pv?fe=*&elg=
 /pv?place=
 /pv?token=
@@ -30353,6 +30363,7 @@ _mongo_stats/
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
 ||shoelace.com^$third-party
+||shoplytics.com^$third-party
 ||shoptimally.com^$third-party
 ||showheroes.com^$third-party
 ||showroomlogic.com^$third-party
@@ -36900,7 +36911,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||primate.dmarcdigests.com^
 ||042qge73l5aw.app.polymersearch.com^
 ||161.35.245.96^
-||164fi5kesvt.www.usa-corporate.com^
 ||1796kpkzuwj.www.hawpar.com^
 ||1kpv4njzilv.community.intersystems.com^
 ||1q6ck0lrhrr.www.newsinside.org^
@@ -36911,23 +36921,28 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||3wn3w3skxpym.round.t3.gg^
 ||4ntug5jhu0t8.furucombo.app^
 ||64.225.81.20^
+||8n8rarw7yjvy.www.cybernetman.com^
 ||8p0kiyq5mq1d.flex.team^
 ||9kkjfywjz50v.www.eventus.io^
 ||b5j6itccyluq.nofluffjobs.com^
+||bj5gprgxq6y7.franchiseplus.nl^
 ||c5ai4b502b.www.chandlerorchards.com^
 ||creative-banana.tk^
 ||crystal-toxic.cf^
 ||ddns.dataunlocker.com^
 ||dz0969r6p006.www.botcomics.com^
 ||fp84rw0jinz7.blanc.ru^
+||friendly-community.tk^
 ||funny-morning.tk^
+||gbg22hfdkdip.www.logology.co^
 ||gl5g98t0vfjb.panprices.com^
-||i0gx8avj0e5r.www.cybernetman.com^
+||grxkwphx0yk5.stoic.ai^
+||h5nmx7qrncrp.mailfloss.com^
 ||kick-lake.ga^
 ||lh3pvljbkong.www.nookgaming.com^
 ||ok2691lw4w3g.www.word.com.au^
+||ooyk93cxdqv8.www.usa-corporate.com^
 ||ouc82i67pytg.www.emanualonline.com^
-||p7qebe2odmlm.franchiseplus.nl^
 ||p9jhxqlkmn.miniso.com.gr^
 ||qt5jl7r111h7.allesvoormijnvakantie.nl^
 ||qwcp5tza48tt.xpollinate.io^
@@ -36937,7 +36952,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||smartproxy.dataunlocker.com^
 ||u7eij7sroji7.fjlaboratories.com^
 ||umhadn49kldc.www.jeddd.com^
-||vzpe9y8ru2e0.www.logology.co^
 ||welcoming-carpets.tk^
 ||x2l5lsn8rvsq.li.finance^
 ||xlvvy4msxr.coolinastore.com^
