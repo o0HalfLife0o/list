@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MWgcpqE/7P/qGW1GOAwI/w
+! Checksum: owAVALg5bpdd60MLrbh32g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111011402
-! Last Modified: 2021年11月01日 14:02
+! Version: 202111012004
+! Last Modified: 2021年11月01日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1997,10 +1997,13 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+###td_tpc > .ads
+##.AD_TAC_BOX
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 ||trisn.top^
+||ai36588.com^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -5736,8 +5739,6 @@ _yad_jsonp_
 ||alicdn.com/kf/Uc565e19948944fdb860e6847fb145811t.jpg
 ||alicdn.com/kf/Ucdaf8165ce43491681d63dc26ecf5d75l.jpg
 ||alicdn.com/kf/Ucdb60470db0f4e2ca6a52706ec252313S.jpg
-||alicdn.com/kf/Ue69786430095482ba55b38ae31ee44e7I.jpg
-||alicdn.com/kf/Ufb1c57128ee14e7d88841812d0d280abo.gif
 ||alicdn.com/kf/UTB8tVxYvbPJXKJkSafS5jaqUXXac.gif
 ||alicdn.com/openad/dsp-front-booth/
 ||alicdn.com/tfs/TB1fwaTDhD1gK0jSZFyXXciOVXa-800-450.jpg
@@ -6786,7 +6787,6 @@ _yad_jsonp_
 ||fenxiangdashi.com/Res/js/detail_
 ||ff.meikanguo.com^
 ||fh21.com.cn/partners/
-||fijipic.xyz/bit20/upload/image/20200721/72100040886.gif
 ||file.cloud.sogou.com/*/superzone/
 ||file.ws.126.net/house/nj/*.swf
 ||files.jb51.net/image/
@@ -7596,7 +7596,6 @@ _yad_jsonp_
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
 ||jzb.com/website/fe/pub_js/dbclickshow.js
-||jzs001.cn/group1/M00/01/54/ZxcuGGCNKm2Aejx5AGgOUcHJXW4978.gif
 ||k.youku.com/player/getFlvPath/sid/*&vl=
 ||k99.cc^$third-party
 ||kaixin001.com.cn/js/cpm-
@@ -7812,15 +7811,9 @@ _yad_jsonp_
 ||loldyttw.com/blr.js
 ||loldyttw.com/skin/lol/js/ds.js
 ||loli.io^$domain=kisssub.org
-||loli.net/2018/09/01/5b8ab2b61cec4.jpg
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||loli.net/2020/06/17/gpRx7AzGwI4kQmV.gif
 ||loli.net/2020/06/17/vGALJ4mQx26T75u.gif
-||loli.net/2020/07/10/wMqf6ivLVZc92UY.png
-||loli.net/2020/07/13/b1gRsV4OutfYhvp.gif
-||loli.net/2020/07/25/pRqtQvjgE74SzaW.gif
-||loli.net/2020/08/31/j6NV3wFeIxCtnBX.gif
-||loli.net/2020/09/04/Wx3MdOVvsTPwIlE.gif
 ||loli.net/2020/10/26/cSHbJifFgNoyaz8.png
 ||loli.net^$domain=1090ys2.com|520film.net|9kanqq.com|acglover.me|beiwodi.com|hdsky.me|magnet2048.com|nulltm.com|xydai.cn
 ||lolmp4.com/template/lolmp4/images/jquery.
@@ -8274,8 +8267,6 @@ _yad_jsonp_
 ||pics.xgo-img.com.cn^
 ||picsuperfast.xyz/imageUpload/images/*.gif
 ||picsuperfast.xyz/imageUpload/images/*AD_
-||picuphost.com/2016/upload/image/20170422/42206436302.gif
-||picuphost.com/imghost/upload/image/20171226/122600098149.gif
 ||picuphost.com^$domain=mmload.info
 ||picyq.com/index.php/Home/run/get_ad/
 ||piimg.com/508806/d53a8d13a40f814d.gif
@@ -8644,15 +8635,12 @@ _yad_jsonp_
 ||sinaimg.cn/large/*.gif$domain=mp4ba.la
 ||sinaimg.cn/large/005EuLLtgw1eji5kzbgvlg30r801ogpy.gif
 ||sinaimg.cn/large/006CZIQPgy1fbziwpw0b8g306y06yq7w.gif
-||sinaimg.cn/large/006CZIQPgy1fbzjg10emag30ka02in2s.gif
 ||sinaimg.cn/large/006CZIQPgy1fh2jcc14tog30l402iahm.gif
 ||sinaimg.cn/large/006CZIQPgy1fsc8y98k8mg30jg01odi6.gif
-||sinaimg.cn/large/006ZdrOOgy1flbruaukyxg30l401o444.gif
 ||sinaimg.cn/large/006ZdrOOgy1flbrubi93eg30m801oaff.gif
 ||sinaimg.cn/large/006ZdrOOgy1flbrum925hg30pu01o0z0.gif
 ||sinaimg.cn/large/006ZdrOOly1fld3ezu0n2g304g0godo9.gif
 ||sinaimg.cn/large/007cYCbaly1ftdqurgyj4g30hs02iaaq.gif
-||sinaimg.cn/large/007hXlMJgy1fuyt7uoe5lg30l401o444.gif
 ||sinaimg.cn/large/007X8olVly1g8cwhgh1img30qo02igm2.gif
 ||sinaimg.cn/large/008dqLKply1gtj305hxwnj308c0bnwfs.jpg
 ||sinaimg.cn/large/5431d036ly1fh6gmu6gxmg20tg02i3yr.gif
@@ -8682,7 +8670,6 @@ _yad_jsonp_
 ||skads.gxsky.com^$script
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
-||skviap.xyz/files/photo/2021/05/06/8866b41ccb09402b9ff3a0d8032e3f6d.gif
 ||slit.cn/slimages/
 ||smqzj.com/seo.js
 ||smzy.com/sucai/cqsf.gif
@@ -8953,7 +8940,6 @@ _yad_jsonp_
 ||touimg.com/u/20200306/12094716.gif
 ||touimg.com/u/20200419/18431854.gif
 ||touimg.com/u/20200510/2142*.gif
-||touimg.com/u/20200703/18570683.gif
 ||touimg.com^$domain=dyzd1.com
 ||toutiaoimg.com^$domain=1024wc.com
 ||tp.sgcn.com^
@@ -9053,11 +9039,6 @@ _yad_jsonp_
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||usnewsexpress.com/wp-content/uploads/*ad-
-||usxpic.com/bit2019/upload/image/20191125/11251039541.gif
-||usxpic.com/bit2019/upload/image/20191125/11251039542.gif
-||usxpic.com/bit2019/upload/image/20200305/3050011663.gif
-||usxpic.com/btimg/upload/image/20181018/101806323369.png
-||usxpic.com/u/20200629/12340838.gif
 ||uugtv.com/x/app/videoSpread?
 ||uulucky.com/show-
 ||uumtu.com/js/lqbz.js
@@ -9557,8 +9538,7 @@ _yad_jsonp_
 ||yzpsb.net/js/jquery.
 ||yzpsb.net/js/shang.js
 ||yzpsb.net/js/system.js
-||yzs.com/d/file/p/*.swf
-||yzs.com/d/file/p/2016/12/06/61e15b92a4a2a7cec4910f1d9ea79fb2.jpg
+||yzs.com/d/file/2020/06/21/5358e14b4556663a91f145f0635f95de.jpg
 ||yzz.cn/global_gg/
 ||z.nowscore.com^
 ||z4bbs.com/adst/
@@ -9595,7 +9575,6 @@ _yad_jsonp_
 ||zhenbuka.com/loading.html
 ||zhengjie.com/a_d?
 ||zhenjiang365.cn/*/ad_
-||zhenjiang365.cn/bbsatt/day_120827/1208271004af7c25b6e3d4fa1d.gif
 ||zhev.com.cn/file/weixin/
 ||zhibo.me/js/fd.js
 ||zhibo.me/js/kh.js
@@ -9715,6 +9694,7 @@ _yad_jsonp_
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+start.firefoxchina.cn##.mod-delay-resource
 ilxdh.com##.show-container
 ilxdh.com##.v-modal
 ilxdh.com##.double-eleven-container
@@ -17364,6 +17344,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||aliyunwang.top^
 ||ki74.com^
 ||xinyuanzszy.com^
+||jbdz.shop^
+||caicj.club^
+||zongjiangc.top^
+||tework.cn^
+||k7ab5n4.cn^
+||remehealth.net^
+||mjzsw.vip^
+||895cje7.cn^
+||mnsd.xyz^
+##a[href*="/hxzfcz.com/"]
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
