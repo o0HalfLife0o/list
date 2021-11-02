@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pglPmHJnQeNvJq7kXqObNA
+! Checksum: gYRS1P2nzi0H8d2y/3vRgg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111021402
-! Last Modified: 2021年11月02日 14:02
+! Version: 202111022004
+! Last Modified: 2021年11月02日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -771,8 +771,7 @@ youle55.com
 /91_banner/*
 /91ad.
 /91ad_
-/91porny/jiuse@main/ad/*
-/91porny/jiuselu/wenming/*
+/91porny/*/wenming/*
 /993dy_new//gg123/*
 /9CCMSPC/images/*.gif
 /A-duoduo/Add-
@@ -1999,12 +1998,16 @@ _xiuno_com_ad/
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
+##.themepark_advertisement
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 ||mojing.xyz^
+||keeearl.top^
+||1615792.com^
 .8ox.cn
+||wenqiche.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -9697,8 +9700,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||580bk.com/ceshi/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+91porny.com##.container-fluid.p-0[class*="mb-"]
+hao.360.com###left-float-animation
 24kplus.com###custom_html-3
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -13773,7 +13779,6 @@ firefoxchina.cn##.theme-side-bar-couplet
 firefox.com.cn,firefoxchina.cn##.theme-side-bar-priority
 firefox.com.cn,firefoxchina.cn##.theme-side-bar[trace-key="ad_theme_skin_link"]
 dlemm.cn,isiyuan.net,xiaodigufz.com##.themead
-yusuan123.com##.themepark_advertisement
 cnool.net##.third-banner
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_dir_ad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_local_58
@@ -17357,6 +17362,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kanglaijd.cn^
 ||lofe.shop^
 ||bjark.com.cn^
+||qingyulin.top^
+||baiyongbei.xyz^
+||ccfa.vip^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
