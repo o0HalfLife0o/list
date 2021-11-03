@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mb3/dA3NETczfga5khPA+g
+! Checksum: zMMcZViuCH0YdigyNLWNew
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111031402
-! Last Modified: 2021年11月03日 14:02
+! Version: 202111032009
+! Last Modified: 2021年11月03日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9705,6 +9705,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hexun.com/hxpage_jrtj2020/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com#?#span[class]:-abp-has(> div[class]:-abp-contains(高速下载))
+423down.com###text-2
+423down.com###text-3
+423down.com##.content > a
 hexun.com###bottom_extension
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -12075,7 +12079,6 @@ rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
-423down.com##.content > .entry + font[size]
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
@@ -15361,7 +15364,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/ad-close.png$domain=ch.com
-@@/ad/images/*$domain=37-express.com
+@@/ad/images/*$domain=37-express.com|vnnox.com
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
 @@/adaffiliate_$image,domain=ipfs-lab.com
@@ -16397,6 +16400,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||80juqing.com^
 ||8131.qizhihaotian.cn^
 ||8961.jianbihua.com^
+||olive.ergeapp.com^
 ||91friend.com^$third-party
 ||94ab.com^$third-party
 ||999d.com^$third-party
@@ -17366,6 +17370,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiaoxiaoyd.cn^
 ||hnpxsm.com.cn^
 ||woniu1314520.vip^
+||weixisiwang.com^
+||yjwl.ltd^
+||076lvz.xyz^
+||jiujiinc.top^
+||g1kb9u.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]

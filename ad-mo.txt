@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rXGQRvVIU+civoF5/mn74w
+! Checksum: Ls/HVMwg5Sgd570BxgGIhQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111031402
-! Last Modified: 2021年11月03日 14:02
+! Version: 202111032009
+! Last Modified: 2021年11月03日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18052,8 +18052,10 @@ _800x80_
 ##.ad-container-dk
 ##.ad-container-embedded
 ##.ad-container-header
+##.ad-container-inthread
 ##.ad-container-leaderboard
 ##.ad-container-left
+##.ad-container-m
 ##.ad-container-medium-rectangle
 ##.ad-container-multiple
 ##.ad-container-pave
@@ -47020,6 +47022,7 @@ tf2r.com#@#.adverts
 ||h12-media.com^$third-party
 ||havetohave.com^$third-party
 ||headbidder.net^$third-party
+||headerbiddr.net^$third-party
 ||headerlift.com^$third-party
 ||healthaffiliatesnetwork.com^$third-party
 ||healthcarestars.com^$third-party
@@ -52045,7 +52048,6 @@ designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 energyforecastonline.co.za###endorsers
 geekwire.com###engineering-centers-sidebar
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com###expanding-articles
 jigzone.com###fH
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
@@ -52159,7 +52161,6 @@ gpsreview.net###lead
 steroid.com###lead_area_opener
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
 thepostmillennial.com###leader-mot
-agriland.ie,ballitonews.co.za,blackburnnews.com,football-talk.co.uk,irishpost.co.uk,mobiletoday.co.uk,morningledger.com,pcgamerhub.com,soccersouls.com,thenextmiami.com,todaysgeneralcounsel.com,urbanmecca.net,youngzimbabwe.com###leader-wrapper
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
 bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
@@ -53212,6 +53213,7 @@ inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
 bab.la##.info-panel
 bestlifeonline.com,eatthis.com##.inline
+engadget.com##.inline-emphasis
 pcgamesn.com,theloadout.com##.inlinerail
 nintendolife.com##.insert
 flixboss.com##.instream-dynamic
@@ -53561,7 +53563,6 @@ w3newspapers.com##.rads
 mydorpie.com##.rbancont
 forebet.com##.rbannerDiv
 reverso.net##.rcacontent
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com##.read-more-container
 just-dice.com##.realcontent
 bettycrocker.com##.recipeAd
 nypost.com,pagesix.com##.recirc
@@ -53581,7 +53582,6 @@ al-monitor.com##.region--header-banner
 eneuro.org,jneurosci.org#@#.region-ad-top
 middleeasteye.net##.region-before-navigation
 futbol24.com##.rek
-gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,toptenreviews.com##.related-articles-wrap
 4shared.com##.remove-rekl
 keengamer.com##.reserved-970
 guru99.com##.responsive-guru99-mobile-devices
@@ -53840,7 +53840,7 @@ spectrum.ieee.org##.top-leader-container
 1071thepeak.com,gpfans.com##.top-leaderboard
 speedtest.net##.top-placeholder
 playbuzz.com##.top-stickyplayer-container
-globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
+ada.org,globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 pcworld.com##.topDeals
 tutorviacomputer.com##.topMargin15
 click2houston.com,clickondetroit.com,clickorlando.com,news4jax.com##.topWrapper
@@ -53922,6 +53922,7 @@ screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 lostintechnology.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 helpnetsecurity.com##.widgetized_wrapper
+ign.com##.wiki-bobble
 wethegeek.com##.win
 windowsloop.com##.wl-prakatana
 warontherocks.com##.wotr_top_lbjspot
@@ -54343,6 +54344,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 realclearpolitics.com###realclear_jwplayer_container
 newseveryday.com###vplayer_large
+techwalla.com##.component-article-section-jwplayer-wrapper
 digitaltrends.com##.dtvideos-container
 dexerto.com##.jwplayer
 ##.section-subheader > .section-hotel-prices-header
@@ -64770,6 +64772,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hexun.com/hxpage_jrtj2020/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com#?#span[class]:-abp-has(> div[class]:-abp-contains(高速下载))
+423down.com###text-2
+423down.com###text-3
+423down.com##.content > a
 hexun.com###bottom_extension
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -67140,7 +67146,6 @@ rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 91porny.com##.container-fluid.p-0[class*="mb-"]
-423down.com##.content > .entry + font[size]
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
 cnbeta.com##.content > p:last-child > a[href]
@@ -70426,7 +70431,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/ad-close.png$domain=ch.com
-@@/ad/images/*$domain=37-express.com
+@@/ad/images/*$domain=37-express.com|vnnox.com
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
 @@/adaffiliate_$image,domain=ipfs-lab.com
@@ -71462,6 +71467,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||80juqing.com^
 ||8131.qizhihaotian.cn^
 ||8961.jianbihua.com^
+||olive.ergeapp.com^
 ||91friend.com^$third-party
 ||94ab.com^$third-party
 ||999d.com^$third-party
@@ -72431,6 +72437,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiaoxiaoyd.cn^
 ||hnpxsm.com.cn^
 ||woniu1314520.vip^
+||weixisiwang.com^
+||yjwl.ltd^
+||076lvz.xyz^
+||jiujiinc.top^
+||g1kb9u.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
