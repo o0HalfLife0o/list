@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S6bb47m3s3VGsUmXRKoDlQ
+! Checksum: Qlnz/Nn0QqZeQfcBphBB1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111061401
-! Last Modified: 2021年11月06日 14:01
+! Version: 202111062002
+! Last Modified: 2021年11月06日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24376,6 +24376,7 @@ _800x80_
 ##.dn-ad-small
 ##.dn-ad-wide
 ##.dod_ad
+##.dotcom-ad
 ##.double-ad
 ##.double-ads
 ##.double-click-ad
@@ -43111,6 +43112,7 @@ tf2r.com#@#.adverts
 ||sextubeweb.com^
 ||sf9yvla26s5t.com^
 ||sffsdvc.com^
+||sfhyojoctcry.com^
 ||sfixretarum.com^
 ||sflywdvzyh.com^
 ||sftapi.com^
@@ -44172,6 +44174,7 @@ tf2r.com#@#.adverts
 ||tightsaturdayi.com^
 ||tightslowingpredictable.com^
 ||tiglesoshi.pro^
+||tilkcrpmtqg.com^
 ||tillatingmer.fun^
 ||tiller.co^
 ||tilltucked.com^
@@ -50192,6 +50195,7 @@ tf2r.com#@#.adverts
 ||pacontainer.s3.amazonaws.com^
 ||pagead2.googlesyndication.com^
 ||partner.e-conomic.com^
+||partner.linkfire.com^
 ||partners.autotrader.co.uk^
 ||partners.betus.com^
 ||partners.dogtime.com^
@@ -52571,7 +52575,7 @@ surfwap.com##.ahblock2
 onlineradious.com##.ai-placement
 uploadvr.com##.ai-sticky-widget
 androidpolice.com,constructionreviewonline.com##.ai-track
-unfinishedman.com##.ai-viewport-1
+thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,constructionreviewonline.com,windowslatest.com##.ai_widget
 net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
@@ -52616,6 +52620,7 @@ audiobacon.net##.audio-widget.et_pb_widget
 mbl.is##.augl
 theblueoceansgroup.com##.av-label
 thehackernews.com##.av-side-box
+kisscenter.net,kissorg.net##.avm
 gameplanet.co.nz##.avt-mr
 gameplanet.co.nz##.avt-placement
 whatsondisneyplus.com##.awac-wrapper
@@ -52827,7 +52832,7 @@ cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
 iotwreport.com##.code-block
 cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
-getdroidtips.com,patriotfetch.com##.code-block-13
+getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
 getdroidtips.com##.code-block-15
 mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,geekspin.co,kanonitv.net,mikeprg.com##.code-block-2
@@ -52848,6 +52853,7 @@ nycgo.com##.colBBox
 jamendo.com##.col_extra
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 hltv.org##.column-ASdvuasdr123Gazx-box
+rateyourmusic.com##.column_filler
 2pass.co.uk##.column_right
 arcadebomb.com##.colunit1
 knowyourmeme.com##.combo-wrapper
@@ -53374,6 +53380,7 @@ carsales.com.au,technobuffalo.com##.page-header
 oversixty.co.nz##.page-heading-wrap
 krcrtv.com,ktxs.com,wcti12.com,wcyb.com##.pageHeaderRow1
 military.com##.page__top
+rateyourmusic.com##.page_creative_frame
 nzcity.co.nz##.page_skyscraper
 calculatorsoup.com##.pages
 livejournal.com##.pagewide-wrapper
@@ -54157,6 +54164,8 @@ timeout.com##div[id^="ad-side-"]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
 ebay.co.uk,ebay.com,ebay.com.au##div[id^="ad_html_"]:not(#ad_html_101224)
 javacodegeeks.com##div[id^="adngin-"]
+apkonline.net##div[id^="adxx"]
+apkonline.net##div[id^="adzz"]
 amgreatness.com##div[id^="ag-front-"]
 hellomagazine.com##div[id^="div-hola-slot-"]
 gadgetsnow.com##div[id^="div-u-id-"]
@@ -54398,6 +54407,7 @@ sonichits.com###right-ad
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tads[aria-label]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###tadsb[aria-label]
 sonichits.com###top-ad-outer
+geekzone.co.nz##.adsbygoogle
 tweaktown.com##.center-tag-rightad
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs > div[jscontroller="YD5eo"]
@@ -54414,6 +54424,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##button[jsaction="pane.adBanner.whyThisAdClick"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div#main > div.D1fz0e
+geekzone.co.nz##div.cornered.box > center
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[aria-label="Ads"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-crl="true"][data-id^="CarouselPLA-"]
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
@@ -54446,6 +54457,7 @@ ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
+modthesims.info#?#.postbit:-abp-has(#adslot-showthread)
 moonastro.com#?#div[style^="background-color:"]:-abp-contains(Advertisement)
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
@@ -54997,6 +55009,7 @@ totsantcugat.info##center > [href="http://totsantcugat.info/wp-content/video.php
 redtube.com##div > iframe
 motherless.com##div > table[style][border]
 publicflashing.me##div.hentry
+xxxdl.net##div.in_thumb.thumb
 redtube.com##div[class*="display: block; height:"]
 hpjav.top##div[class^="happy-"]
 cumlouder.com##div[class^="resumecard__banner"]
@@ -57046,6 +57059,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.btn[href*="/viphktv.com/"]
+##.btn[href*=".xxmh779.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -61701,9 +61716,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dytt.com/oj.js
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
-||dytt8.net/js1/
 ||dytt8.net/js2/
-||dytt8.net/jsd/app.js
+||dytt8.net/jsd
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
@@ -64752,8 +64766,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##a[href*=".henghost.com"]
+2345.com###leftPacketBox
 jiegeng.com##.l_div
 jiegeng.com##.r_div
 jiegeng.com##.picBt
@@ -72407,6 +72424,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||axfvc.cn^
 ||nmgpd.com^
 ||atuehome.cn^
+||jiuji.ltd^
+||sssyao.cn^
+||jzuyfp8.cn^
+||pcshijie.cn^
+||dwr0.cn^
+||thechosen1.cn^
+||qzgs99.cn^
+||sherrycha.cn^
+||mineral-water.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -79868,6 +79894,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stat/fe?
 /stat/inserthit.
 /stat/online-log
+/stat/rt/js?
 /stat/track_
 /stat/tracker.
 /stat/uvstat?
@@ -81612,6 +81639,7 @@ _mongo_stats/
 ||mdhv.io^
 ||mors22.com^
 ||mt48.net^
+||n0909.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
@@ -81646,6 +81674,7 @@ _mongo_stats/
 ||trkbc.com^
 ||tru.am^
 ||truffle.bid^
+||tryzens-analytics.com^
 ||tvpixel.com^
 ||ugdturner.com^
 ||videoplayerhub.com^
@@ -87241,6 +87270,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.getvitals.io^
+||metrics.pico.tools^
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
 ||metrix.emagister.com^
@@ -89098,6 +89128,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||adguard.com/-/event/
+||adobe.io/system/log
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^
@@ -101732,6 +101763,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+sina.com.cn##A[href="https://touzi.sina.com.cn/"]
+finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
@@ -102683,7 +102716,7 @@ m.56.com##a[data-statkey="newad_banner"]
 loldk.com##a[href$=".html?from=video_right"]
 ifeng.com##a[href*=".app"]
 163.com##a[href*=".kaola.com"]:first-child:last-child
-sina.com.cn##a[href="https://finance.sina.com.cn/mobile/comfinanceweb.shtml"]
+sina.com.cn##A[href*="/comfinanceweb."]
 crsky.com##a[href^="http://count."][href$=".exe"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5oNAoMYjYN9rt3qtHitpTw
+! Checksum: A5Vik4d8Hk7MOMLmuDTd+w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111061401
-! Last Modified: 2021年11月06日 14:01
+! Version: 202111062002
+! Last Modified: 2021年11月06日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1556,6 +1556,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.btn[href*="/viphktv.com/"]
+##.btn[href*=".xxmh779.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -6211,9 +6213,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dytt.com/oj.js
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
-||dytt8.net/js1/
 ||dytt8.net/js2/
-||dytt8.net/jsd/app.js
+||dytt8.net/jsd
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
@@ -9262,8 +9263,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##a[href*=".henghost.com"]
+2345.com###leftPacketBox
 jiegeng.com##.l_div
 jiegeng.com##.r_div
 jiegeng.com##.picBt
@@ -16917,6 +16921,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||axfvc.cn^
 ||nmgpd.com^
 ||atuehome.cn^
+||jiuji.ltd^
+||sssyao.cn^
+||jzuyfp8.cn^
+||pcshijie.cn^
+||dwr0.cn^
+||thechosen1.cn^
+||qzgs99.cn^
+||sherrycha.cn^
+||mineral-water.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -21414,6 +21427,8 @@ _box_ad_
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+sina.com.cn##A[href="https://touzi.sina.com.cn/"]
+finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
@@ -22365,7 +22380,7 @@ m.56.com##a[data-statkey="newad_banner"]
 loldk.com##a[href$=".html?from=video_right"]
 ifeng.com##a[href*=".app"]
 163.com##a[href*=".kaola.com"]:first-child:last-child
-sina.com.cn##a[href="https://finance.sina.com.cn/mobile/comfinanceweb.shtml"]
+sina.com.cn##A[href*="/comfinanceweb."]
 crsky.com##a[href^="http://count."][href$=".exe"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
@@ -26669,6 +26684,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stat/fe?
 /stat/inserthit.
 /stat/online-log
+/stat/rt/js?
 /stat/track_
 /stat/tracker.
 /stat/uvstat?
@@ -28413,6 +28429,7 @@ _mongo_stats/
 ||mdhv.io^
 ||mors22.com^
 ||mt48.net^
+||n0909.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
@@ -28447,6 +28464,7 @@ _mongo_stats/
 ||trkbc.com^
 ||tru.am^
 ||truffle.bid^
+||tryzens-analytics.com^
 ||tvpixel.com^
 ||ugdturner.com^
 ||videoplayerhub.com^
@@ -34042,6 +34060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.getvitals.io^
+||metrics.pico.tools^
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
 ||metrix.emagister.com^
@@ -35899,6 +35918,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||adguard.com/-/event/
+||adobe.io/system/log
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^

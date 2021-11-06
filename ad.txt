@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WN4coW4eT2SjxDfuKJPTQw
+! Checksum: 6ghNJB5bwFuT2nqwlbDW5Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111061401
-! Last Modified: 2021年11月06日 14:01
+! Version: 202111062002
+! Last Modified: 2021年11月06日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2003,6 +2003,8 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.btn[href*="/viphktv.com/"]
+##.btn[href*=".xxmh779.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -6658,9 +6660,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dytt.com/oj.js
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
-||dytt8.net/js1/
 ||dytt8.net/js2/
-||dytt8.net/jsd/app.js
+||dytt8.net/jsd
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
@@ -9709,8 +9710,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##a[href*=".henghost.com"]
+2345.com###leftPacketBox
 jiegeng.com##.l_div
 jiegeng.com##.r_div
 jiegeng.com##.picBt
@@ -17364,6 +17368,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||axfvc.cn^
 ||nmgpd.com^
 ||atuehome.cn^
+||jiuji.ltd^
+||sssyao.cn^
+||jzuyfp8.cn^
+||pcshijie.cn^
+||dwr0.cn^
+||thechosen1.cn^
+||qzgs99.cn^
+||sherrycha.cn^
+||mineral-water.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -21861,6 +21874,8 @@ _box_ad_
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+sina.com.cn##A[href="https://touzi.sina.com.cn/"]
+finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
@@ -22812,7 +22827,7 @@ m.56.com##a[data-statkey="newad_banner"]
 loldk.com##a[href$=".html?from=video_right"]
 ifeng.com##a[href*=".app"]
 163.com##a[href*=".kaola.com"]:first-child:last-child
-sina.com.cn##a[href="https://finance.sina.com.cn/mobile/comfinanceweb.shtml"]
+sina.com.cn##A[href*="/comfinanceweb."]
 crsky.com##a[href^="http://count."][href$=".exe"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
