@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2gMZerX+bSY2stx9v1ALiQ
+! Checksum: 5oNAoMYjYN9rt3qtHitpTw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111060814
-! Last Modified: 2021年11月06日 08:14
+! Version: 202111061401
+! Last Modified: 2021年11月06日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9264,6 +9264,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jiegeng.com##.l_div
+jiegeng.com##.r_div
+jiegeng.com##.picBt
+jiegeng.com##.picLf
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14899,9 +14903,11 @@ andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+vaptcha.com#@#.adsbygoogle
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vaptcha.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -16905,6 +16911,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.net|81book.com|81zw.me|877zw.com|99mk.com|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|shuquge.com|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||rt354.cn^
+||zjwldq.cn^
+||ih740.cn^
+||axfvc.cn^
+||nmgpd.com^
+||atuehome.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -28735,7 +28747,6 @@ _mongo_stats/
 ||baynote.net^$third-party
 ||baztrack.com^$third-party
 ||bbthat.com^$script,third-party
-||bc0a.com^$third-party
 ||bdash-cloud.com^$third-party
 ||beacon.kmi-us.com^$third-party
 ||beaconstreetservices.com^$third-party
@@ -32870,6 +32881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.dev.htmedia.in^
 ||analytics.dev.springboardvideo.com^
 ||analytics.developer.riotgames.com^
+||analytics.digitalpfizer.com^
 ||analytics.disneyinternational.com^
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
@@ -33045,6 +33057,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bazaarvoice.com^*/magpie.js
 ||bc.geocities.
 ||bc.marfeelcache.com^
+||bc0a.com/api/
+||bc0a.com/autopilot/
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.errorception.com^
@@ -33236,6 +33250,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnzz.com/stat.
 ||cod.bitrec.com^
 ||coinbase.com/assets/application-*.js$third-party
+||collect-ap2.attraqt.io^
+||collect-eu.attraqt.io^
 ||collect.*.miui.com^
 ||collect.igodigital.com^$script
 ||collect.iteam-dress.com^
@@ -47750,6 +47766,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||assets.adobedtm.com^$script,domain=mtvuutiset.fi
 @@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||certona.net^*/resonance.js$domain=zooplus.fi
+@@||collectandgo.be^*/utag.sync.js
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
 @@||dynamicyield.com/api/$script,domain=gigantti.fi
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=lily.fi|meillakotona.fi|terve.fi
