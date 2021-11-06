@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6ghNJB5bwFuT2nqwlbDW5Q
+! Checksum: oM02rHcEnke8lGbkRzp4sg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111062002
-! Last Modified: 2021年11月06日 20:02
+! Version: 202111070201
+! Last Modified: 2021年11月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -481,6 +481,7 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link
+qq.com##+js(set, Beacon.prototype.fail, null)
 v.qq.com,sports.qq.com,new.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
@@ -2009,6 +2010,8 @@ _xiuno_com_ad/
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||xinerdact.com^
+||fujincenter.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -5359,11 +5362,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||70.86.24.120:8060/
 ||70822.com/agfile/
 ||7160.com/js/tiaozhuanquanju.js
-||717dyi.com/js/dh
-||717dyi.com/js/dibu.js
-||717dyi.com/js/head.js
-||717dyi.com/js/zb
-||717dyi.com/Public/js/zbhf/
+||717dyw.com/js/dh
+||717dyw.com/js/dibu.js
+||717dyw.com/js/head.js
+||717dyw.com/js/zb
+||717dyw.com/Public/js/zbhf/
 ||71xe.com/image/zguancun/
 ||71xe.com/one/
 ||71xe.com/prevent/
@@ -13346,7 +13349,7 @@ baobao.baidu.com##.qb-relate-box
 qidian.com##.qd-game
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-717dyi.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
+717dyw.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 htcui.com##.qqanimate
 phpvar.com##.qrcode-swiper-container
@@ -14211,9 +14214,9 @@ sinolub.com##[id^="xker"]
 32r.com##[onclick*="@"]
 zhangxinxu.com##[onclick*="Ad"]
 42xz.com##[onclick*="godownload"]
-1stchina.net,717dyi.com,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
+1stchina.net,717dyw.com,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
 duonaolive.com##[onclick^="track"]
-6090ba.com,717dyi.com,duodada.com##[ontouchstart]
+6090ba.com,717dyw.com,duodada.com##[ontouchstart]
 duodada.com##[style*="position: fixed; left: 0px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
@@ -17377,6 +17380,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qzgs99.cn^
 ||sherrycha.cn^
 ||mineral-water.cn^
+||pj16t.cn^
+||y0764.cn^
+||c3y1oja.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
