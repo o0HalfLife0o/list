@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pXILl5YZld5fta668Pb4yQ
+! Checksum: XG8ryaFShHjROv7tMmPueQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111071403
-! Last Modified: 2021年11月07日 14:03
+! Version: 202111072006
+! Last Modified: 2021年11月07日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10229,6 +10229,8 @@ yahoo.com###my-adsHPSPON
 yahoo.com###my-adsMBAR
 pianhd.com###myCarousel
 pianyuan.org###myModal
+ifenpaidy.com###myModal
+ifenpaidy.com##.modal-backdrop
 qqjia.com###myadsL
 xiaoz.me###mygg
 cpnn.com.cn###myimg
@@ -14619,7 +14621,7 @@ ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
-lenovo.com.cn#?#.imgText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
+lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 yahoo.com##li[class^="gemini-ad-"]
@@ -16920,6 +16922,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jmdardu.cn^
 ||kjhzwvq.cn^
 ||sxgbwlkjkj.xyz^
+||b00.xyz^
+||yuanwei.ltd^
+||2312s.cn^
+||hbscjh.cn^
+||freemovie.vip^
+||iprpe.cn^
+||vnlaqu.site^
+||rcjww9.xyz^
+||dasongti.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -47286,7 +47297,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
-@@||ampproject.org/v0/amp-geo-$script,domain=9to5google.com|9to5mac.com|dronedj.com|electrek.co|napavalleyregister.com|pantagraph.com|spaceexplored.com|tasty.co
+@@||ampproject.org/v0/amp-geo-$script,domain=9to5google.com|9to5mac.com|dronedj.com|electrek.co|forbes.com|napavalleyregister.com|pantagraph.com|spaceexplored.com|tasty.co
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
@@ -47321,7 +47332,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
-@@||cdn.cxense.com^$script,domain=bizjournals.com|marketwatch.com
+@@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
@@ -47861,6 +47872,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||repstatic.it/minify/sites/common/config_webtrekk_$script,domain=video.repubblica.it
 @@||repstatic.it^*/Nielsen.js
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
+@@||service.maxymiser.net^$script,domain=enigaseluce.com
 @@||synlab.it^*/angular-google-analytics.js
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
