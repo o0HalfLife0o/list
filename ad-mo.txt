@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8XsxHMM/UQanYRYc5FLx/Q
+! Checksum: kT4IKhshCrVlrW+QVeqQ1A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111101402
-! Last Modified: 2021年11月10日 14:02
+! Version: 202111102005
+! Last Modified: 2021年11月10日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -51311,6 +51311,7 @@ tf2r.com#@#.adverts
 ||republicmonitor.com/images/lundy-placeholder.jpeg
 ||richardroeper.com/assets/banner/
 ||s.radioreference.com/sm/$image
+||s1.reutersmedia.net/resources/r/$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
 ||scoot.co.uk/delivery.php
@@ -53254,6 +53255,7 @@ carmag.co.za##.homepage-300x250-banner
 smallbusiness.co.uk##.homepage-banner-container
 designspiration.com##.homepageBanner
 lushstories.com##.horizhide
+getmyuni.com##.horizontalRectangle
 dailyrecord.co.uk##.hotjobs
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
@@ -53841,6 +53843,7 @@ pocket-lint.com##.sqr_p
 ftvlive.com##.sqs-block-image-link
 nutritioninsight.com##.squarblk
 autoaction.com.au##.square
+getmyuni.com##.squareDiv
 ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 searchenginejournal.com##.ss_slot
 searchenginejournal.com##.sss_slot
@@ -53864,6 +53867,7 @@ siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 siasat.com##.stream-item-inline-post
 todayuknews.com##.stream-item-top-wrapper
+hardwaretimes.com##.stream-item-widget
 ycuniverse.com##.subheader_container
 monocle.com##.super-leaderboard
 express.co.uk,msn.com##.superbanner
@@ -55401,6 +55405,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tractorshed.com/photoads/upload/$~third-party
 @@||translate.google.*/translate_*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
+@@||trustprofile.com/banners/$image
 @@||ukbride.co.uk/css/*/adverts.css
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||usgamer.net/static/scripts/AdsLoad.js$script,~third-party
@@ -55811,6 +55816,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+/mbjs/shipinneiyexia.
+/mbjs/shipinshang.
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -57186,6 +57193,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||lm245.com^
+||oddsds.com^
 ||tyjnwa.top^
 .8ox.cn
 .cc/s.php?id=$script,third-party
@@ -64894,6 +64903,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||whsir.com/image/2021600x100.png
+||gtimg.com/newsapp_ls/0/13971120264/0
+||mydrivers.com/news/*jd.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tgys.tv###bottommob
@@ -72566,6 +72577,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||3-2g38cfo0l.cn^
 ||w25e.top^
 ||ya1vg3w.cn^
+||cdmcgw.cn^
+||9qusw7f.cn^
+||zrwba.cn^
+||baodc.com^
+||yanliang.vip^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -76158,6 +76174,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||viu.com^*/tracking/tracking.js
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
+@@||jpush.cn^$domain=jiguang.cn
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /Nd6ulC9UPqsHDj6YNhJBQ
+! Checksum: 5OpZJs7hEhPU6EBJaQ+kYA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111101402
-! Last Modified: 2021年11月10日 14:02
+! Version: 202111102005
+! Last Modified: 2021年11月10日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -635,6 +635,8 @@ youle55.com
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+/mbjs/shipinneiyexia.
+/mbjs/shipinshang.
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -2010,6 +2012,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||lm245.com^
+||oddsds.com^
 ||tyjnwa.top^
 .8ox.cn
 .cc/s.php?id=$script,third-party
@@ -9718,6 +9722,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||whsir.com/image/2021600x100.png
+||gtimg.com/newsapp_ls/0/13971120264/0
+||mydrivers.com/news/*jd.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 tgys.tv###bottommob
@@ -17390,6 +17396,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||3-2g38cfo0l.cn^
 ||w25e.top^
 ||ya1vg3w.cn^
+||cdmcgw.cn^
+||9qusw7f.cn^
+||zrwba.cn^
+||baodc.com^
+||yanliang.vip^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -20982,6 +20993,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||viu.com^*/tracking/tracking.js
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
+@@||jpush.cn^$domain=jiguang.cn
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
