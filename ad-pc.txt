@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 65dEQFwvlHlIWjXw6fhCjw
+! Checksum: 5fnNM3jH8sUMswsig1vXgQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111100814
-! Last Modified: 2021年11月10日 08:14
+! Version: 202111101402
+! Last Modified: 2021年11月10日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -51542,7 +51542,7 @@ tf2r.com#@#.adverts
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||channelexco.com/player/$third-party
 ||connatix.com^$script,third-party
-||embed.sendtonews.com^$script,third-party
+||embed.sendtonews.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
 ||fwcdn2.com^$third-party
@@ -53804,6 +53804,7 @@ newstrackindia.com##.rt-add336x280
 nextofwindows.com##.rtsidebar-cm
 itweb.co.za##.s-logos
 hope1032.com.au##.s-supported-by
+nydailynews.com##.s2nPlayer
 aniwatcher.com##.sa
 nodejs.libhunt.com##.saashub-ad
 9gag.com##.salt-container
@@ -57293,6 +57294,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##a[href*=".ex068.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -65003,8 +65005,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||whsir.com/image/2021600x100.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tgys.tv###bottommob
+1kkk.com###lb-win
+lenovo.com.cn##.ad-calender
+coderutil.com##.head-recommend-adv
+coderutil.com##.search-module + a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72661,6 +72669,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xjjkxcg.cn^
 /jun0120211102193659.
 ||jl1130.com^
+||mhtky.cn^
+||cz0758.cn^
+||djiybut.cn^
+||yaznkj.cn^
+||baowt.com^
+||benfkw.cn^
+||3-2g38cfo0l.cn^
+||w25e.top^
+||ya1vg3w.cn^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -72671,7 +72688,7 @@ bxwx333.org###bdstatic
 ###downdiv > .downcode
 ###gudingweiDiv
 ###htmlContent > div[style="padding:10px;border-radius:10px;background-color:green;"]
-$domain=119.23.145.154|120.25.149.196|120.76.202.85
+/140.html?android=hx140&_$csp=script-src
 bisowu.com##.a-row
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
@@ -76828,6 +76845,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics.google.js
 /analytics.html?
 /analytics.init.js
+/analytics.js.gz
 /analytics.js/v1/*
 /analytics.js?
 /analytics.json?
@@ -83482,7 +83500,6 @@ _mongo_stats/
 ||nakanohito.jp^$third-party
 ||nalook.com^$third-party
 ||nanovisor.io^$third-party
-||narrativ.com^$third-party
 ||natero.com^$third-party
 ||native.ai^$third-party
 ||natpal.com^$third-party
@@ -87830,6 +87847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rapidspike.com/rum/
 ||raygun.io/events?
 ||rbl.ms/res/users/tracking/
+||reach-id.orbit.tm-awx.com^
 ||readcube.com/assets/track_
 ||realm.hearst3pcc.com^
 ||recart.com/tracking/
@@ -100767,11 +100785,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
-@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com
+@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
+@@||adobedtm.com/extensions/$script,domain=apple.com|foodnetwork.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
-@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
-@@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
@@ -102065,6 +102082,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cnki.com.cn/cnki/js/adrightdetail.js
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
+||ydstatic.com/fanyi/fanyi-ad-place/
 !------------------------Specific element hiding rules------------------------!
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
 finance.sina.com.cn##DIV[class*="game"]

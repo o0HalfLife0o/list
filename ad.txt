@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: S7JZP07tsx/n3hFCqxQxFg
+! Checksum: /Nd6ulC9UPqsHDj6YNhJBQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111100814
-! Last Modified: 2021年11月10日 08:14
+! Version: 202111101402
+! Last Modified: 2021年11月10日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2006,6 +2006,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##a[href*=".ex068.com"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
@@ -9716,8 +9717,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||whsir.com/image/2021600x100.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tgys.tv###bottommob
+1kkk.com###lb-win
+lenovo.com.cn##.ad-calender
+coderutil.com##.head-recommend-adv
+coderutil.com##.search-module + a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17374,6 +17381,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xjjkxcg.cn^
 /jun0120211102193659.
 ||jl1130.com^
+||mhtky.cn^
+||cz0758.cn^
+||djiybut.cn^
+||yaznkj.cn^
+||baowt.com^
+||benfkw.cn^
+||3-2g38cfo0l.cn^
+||w25e.top^
+||ya1vg3w.cn^
 bxwx333.org###addiv3
 ###asdw3
 ###asdw3 + img + :not(div)
@@ -17384,7 +17400,7 @@ bxwx333.org###bdstatic
 ###downdiv > .downcode
 ###gudingweiDiv
 ###htmlContent > div[style="padding:10px;border-radius:10px;background-color:green;"]
-$domain=119.23.145.154|120.25.149.196|120.76.202.85
+/140.html?android=hx140&_$csp=script-src
 bisowu.com##.a-row
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
@@ -21930,6 +21946,7 @@ _box_ad_
 ||cnki.com.cn/cnki/js/adrightdetail.js
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
+||ydstatic.com/fanyi/fanyi-ad-place/
 !------------------------Specific element hiding rules------------------------!
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
 finance.sina.com.cn##DIV[class*="game"]
