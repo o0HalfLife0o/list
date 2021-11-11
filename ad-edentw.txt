@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VIjhtWXmosdliE+ZsBjVYA
+! Checksum: +4pmPjlYhXdIqW6wyDrAVA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202111100201
-! Last Modified: 2021年11月10日 02:01
+! Version: 202111110815
+! Last Modified: 2021年11月11日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1810,7 +1810,7 @@ cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@cl
 cq.ru#$#abort-on-property-read CQ.routes.getAds
 shanson320.ru,lrepacks.net#$#abort-current-inline-script document.createElement atob
 ! Popup/popunder/clickunder
-serialfilm.ru,freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,zloekino.su,zloekino.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,zloekino.com#$#abort-on-property-read open
+freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,anicat.ru#$#abort-on-property-read open
 piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
 hdkinoteatr.com#$#abort-on-property-read cuec
 fapreactor.com,pornreactor.cc#$#abort-current-inline-script Math decodeURIComponent
@@ -1866,7 +1866,7 @@ gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|
 jkanime.net#$#abort-current-inline-script Math break
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi
 pelisplus.so#$#abort-on-property-write _zoxxpiee
-iputitas.net#$#abort-on-property-read afScript
+iguarras.com,iputitas.net#$#abort-on-property-read afScript
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
 ! #CV-717
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
