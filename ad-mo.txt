@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NxOHPzcWb0CROtmAxFnsIA
+! Checksum: T7D7CcvP0A39Dk4Cv5pv0A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111111405
-! Last Modified: 2021年11月11日 14:05
+! Version: 202111111856
+! Last Modified: 2021年11月11日 18:56
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -47747,6 +47747,13 @@ tf2r.com#@#.adverts
 ||zeropark.com^$third-party
 ||ziffdavis.com^$third-party
 ||zwaar.org^$third-party
+||ad.lgappstv.com^
+||ad.nettvservices.com^
+||ads.samsung.com^
+||gpm.samsungqbe.com^
+||lgad.cjpowercast.com.edgesuite.net^
+||lgsmartad.com^
+||samsungacr.com^
 /(https?:\/\/)\w{30,}.me\/\w{30,}\./$script,third-party
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
@@ -53107,6 +53114,7 @@ topminecraftservers.org##.grey-section
 sportingnews.com##.grid-aside
 teamrock.com##.grid-container-300x250
 groovypost.com##.groov-adlabel
+saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 cnx-software.com##.gtoobad
 animenewsnetwork.com##.gutter
@@ -55721,6 +55729,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+.com/adv1/?q=
 .bid/ads/
 .blog/ads/
 .cam/ads/
@@ -56982,6 +56991,8 @@ _xiuno_com_ad/
 ##a[href*="/hth107.com/"]
 ##a[href*="/hth377.com/"]
 ##a[href*="/hth567.cn"]
+##a[href*="/rg200.com/"]
+##a[href*="/7699j.com:"]
 ##a[href*="/hth678.cn"]
 ##a[href*="/hth907.com"]
 ##a[href*="/hth908.com"]
@@ -57098,6 +57109,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||fcheng.top^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -72473,6 +72485,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jinyihui.vip^
 ||3d9obb7.cn^
 ||cz0nm0sg-hk.cn^
+||jgrkjp.cn^
+||baotf.com^
+||nvrkw.cn^
+||zhpfl.cn^
+||enihongo.cn^
+||tengxunwang.top^
+||rh447.cn^
+||whhepyd.cn^
+||qyjzleh.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -84970,6 +84991,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flockflame.com^$third-party
 ||forecasttiger.com^$third-party
 ||frailoffer.com^$third-party
+||friendwool.com^
 ||futuristicapparatus.com^
 ||futuristicfifth.com^$third-party
 ||fuzzybasketball.com^
