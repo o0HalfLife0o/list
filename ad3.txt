@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +qYa82YQscLaDZprhLJw8g
+! Checksum: nr8bws+kAcNx1Xf6Sljm5Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111121402
-! Last Modified: 2021年11月12日 14:02
+! Version: 202111122004
+! Last Modified: 2021年11月12日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9288,6 +9288,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mydrivers.com/news/*/aly
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16959,6 +16960,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lsebez.cn^
 ||kszhmzp.cn^
 ||baisb.com^
+||leqfgnb.cn^
+||ens-sh.cn^
+||baizb.com^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -25295,6 +25299,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /ists.tag?
 /item/tracking/*
 /ItemStats.ajax?
+/itgdtracksdk.
 /itmdp_code.
 /itrack.php?
 /iva_analytics.
@@ -27010,6 +27015,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /t/event?
 /t?referer=
 /t?tcid=
+/tab_impression_logging/*
 /tablytics.
 /tacoda.
 /tacoda_
@@ -33431,6 +33437,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contactatonce.com/VisitorContext.aspx?
 ||container.pepperjam.com^$third-party
 ||content.cpcache.com^*/js/ga.js
+||contentdriver.com/api/impression
 ||contentpass.net/stats?$third-party
 ||contents-tracking.beop.io^
 ||control.cityofcairns.com^$third-party
@@ -36367,6 +36374,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||harryrosen.com/analytics/
 ||healthline.com/api/metrics
+||heap.drop.com^
 ||hilton.com/zJbufaUX/
 ||hindustantimes.com/res/images/one-pixel.png
 ||hltv.org/scripts/hltv-tracking.js
