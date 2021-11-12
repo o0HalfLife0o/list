@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TtjNL8ltPfu6H1driqRv8A
+! Checksum: MpyA30LL9WJfAquHjWoZnw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111122004
-! Last Modified: 2021年11月12日 20:04
+! Version: 202111130202
+! Last Modified: 2021年11月13日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4929,7 +4929,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||119xiazai.com^$subdocument
 ||11img.com/ad/
 ||11kkzz.com/se/wf/
-||11px.cn/Style/ag/
 ||120.27.*.html
 ||120.27.34.156^
 ||120askimages.com/ask/js/askfrom.js
@@ -9736,8 +9735,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||mydrivers.com/news/*/aly
+||peise.net/Skin/js/global.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+17gameworld.com##.fabox
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11587,7 +11588,6 @@ duba.com,uu114.cn##.adfixed
 1kkk.com,dm5.com,dm5.hk##.adform_1
 1kkk.com,dm5.com,dm5.hk##.adform_2
 xineurope.com##.adft
-11px.cn##.adg
 92wy.com##.adhengfu
 jxdbg.com##.adindex
 huanqiu.com##.adindexList
@@ -11690,7 +11690,6 @@ dav01.com##.adwraper
 gamme.com.tw##.adwrpt
 jdbbs.com##.adyihifi
 baidu.com##.afd-item
-11px.cn##.ag
 weiyun001.com##.agency-list
 13mv.com##.aggd
 33lc.org##.ags
@@ -12181,8 +12180,8 @@ bbs.it168.com##.daoh2 + .bor8
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
-11px.cn##.date
-11px.cn##.date_nr
+11px.cn##.zz
+11px.cn##.zz_nr
 qinbing.cn##.day
 ggcj.com##.dbxf
 games.qq.com##.dc-kf_list
@@ -17410,6 +17409,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||leqfgnb.cn^
 ||ens-sh.cn^
 ||baizb.com^
+||ovdolnb.cn^
+||nh738.cn^
+||nxums.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
