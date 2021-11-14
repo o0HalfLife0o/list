@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4/9CkQXnb53y1PKY3lAAcw
+! Checksum: IsOT/sGFKDUeeNQopqWoKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111141402
-! Last Modified: 2021年11月14日 14:02
+! Version: 202111142002
+! Last Modified: 2021年11月14日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1482,6 +1482,7 @@ _xiuno_com_ad/
 ##a[href*="/rg200.com/"]
 ##a[href*="/t4078.com:"]
 ##a[href*="/t4741.com"]
+##a[href*=".open0317.top/"]
 ##a[href*="/tg.602.com/"]
 ##a[href*="/uuzb50.cc/"]
 ##a[href*="/x5092.com"]
@@ -9874,7 +9875,7 @@ hao.360.cn###festival_baijian
 hao.360.cn,hao.360.com###festival_balloon
 hao.360.cn###festival_fly
 hao.360.cn###festival_fly + .couten
-nicotv.me###ff-slide
+nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg
 6665.com###fgdiy01
 6665.com###fgdiy09
 ysw191.com###fix
@@ -16972,6 +16973,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dltenjy.cn^
 ||ndfdwrg.cn^
 ||beitd.com^
+||banfk.com^
+||onpta.cn^
+||nbpyfog.cn^
+||tuzufsi.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -47729,7 +47734,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
