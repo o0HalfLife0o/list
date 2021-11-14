@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hXSR4GRtPU+vmljisPzXLg
+! Checksum: 6E/Ee52AkA6kXIKKtAu5Lw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111142002
-! Last Modified: 2021年11月14日 20:02
+! Version: 202111150201
+! Last Modified: 2021年11月15日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13106,7 +13106,6 @@ www.sina.com.cn##.mod-01
 qq.com##.mod-ad-full
 yitaifang.com##.mod-da
 start.firefoxchina.cn##.mod-delay-resource
-start.firefoxchina.cn##.mod-delay-resource:nth-child(4)
 image.baidu.com##.mod-promo
 sdo.com##.mod-public-ads
 2345.com##.mod-serchright
@@ -14902,7 +14901,6 @@ oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
 jsr9.com##div[onclick*="location"]
-nfmovies.com##div[onclick="openurl()"]
 qq.com,sogou.com##div[pbflag="bt_newsb_ad"]
 qq.com,sogou.com##div[pbflag="coolsitefeed_ad"]
 psdhtml.cn##div[role^="structure_"]
@@ -15280,7 +15278,6 @@ dpp.org.tw#@##ad_small
 tt1069.com#@##adbrite
 abbao.cn,tt1069.com,xietui.com#@##adcontent
 nfmovies.com#@##adright
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,ugediao.com,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
 wenku8.net#@##adtop
 union.58.com#@##advertise
@@ -15379,7 +15376,6 @@ douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
 petrochina.com.cn#@#.ggbox
 1090ys2.com,bbt.tv,btbt.tv,mmiyue.com,nixingle.com#@#.google-ad
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
 apk.tw#@#.google_ad
 adbug.cn#@#.google_ads
 mobile01.com#@#.googlead
@@ -16860,7 +16856,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||js.263y.com^
 ||js.9136.com^
 ||js.92aliyun.com^
-||js.98158.com^
 ||js.chetan.com^
 ||js.jianbihuadq.com^
 ||js.kt250.com^
@@ -17424,6 +17419,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||onpta.cn^
 ||nbpyfog.cn^
 ||tuzufsi.cn^
+||ntppyc.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -20772,8 +20768,8 @@ webkaka.com#?#:-abp-has(>[href*="100/"])
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 !#wnacg.com
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com#@##google-ads
-hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com#@#.google-ads
+hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@##adsbox
+hentaicomic.org,wnacg.com,wnacg.org,wnacg4.com,wnacgs.com#@#.google-ads
 wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
