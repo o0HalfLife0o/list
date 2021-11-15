@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: g30qwk/VUlrmllLXSht4EQ
+! Checksum: F11I/hzx9C1h6PyuRuQcPA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111152005
-! Last Modified: 2021年11月15日 20:05
+! Version: 202111160201
+! Last Modified: 2021年11月16日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26022,6 +26022,7 @@ _800x80_
 ##.iqadlinebottom
 ##.iqadmarker
 ##.is-mpu
+##.is-preload-ad
 ##.is-sponsored
 ##.is-sticky-ad
 ##.is24-adplace
@@ -27401,6 +27402,7 @@ _800x80_
 ##.partial-ad
 ##.partner-ad
 ##.partner-ads-container
+##.partner-ads-list
 ##.partner-adsonar
 ##.partner-overlay-top-ad
 ##.partnerAd
@@ -34241,6 +34243,7 @@ tf2r.com#@#.adverts
 ||bumblecash.com^
 ||bummershindigeavesdropping.com^
 ||buncoswosh.com^
+||bundhammam.com^
 ||bunnymediaserver.com^
 ||bupatp.com^
 ||bupserge.com^
@@ -37037,6 +37040,7 @@ tf2r.com#@#.adverts
 ||friesel-mustin.com^
 ||frightfuljourney.com^
 ||frillsretore.casa^
+||froala.com^
 ||frogrugby.com^
 ||frogwokshive.com^
 ||frolicpan.com^
@@ -38735,6 +38739,7 @@ tf2r.com#@#.adverts
 ||jtigctkh.com^
 ||jtinssutynyf.com^
 ||jtjsevmr.com^
+||jtubvaewvijfk.xyz^
 ||jua05myfbe.com^
 ||jubnaadserve.com^
 ||jubsouth.com^
@@ -45878,6 +45883,7 @@ tf2r.com#@#.adverts
 ||wusths.com^
 ||wutaszsuib.com^
 ||wutipupi.xyz^
+||wuueqejuratzdz.com^
 ||wvekalpmn.com^
 ||wvmvgqvmbobxb.xyz^
 ||wvpkoyjoq.com^
@@ -50962,6 +50968,7 @@ tf2r.com#@#.adverts
 ||mackeeperaffiliates.com^$popup
 ||mydiethub.com^$popup
 ||paid.outbrain.com^$popup
+||premium-news-for.me^$popup
 ||profitsurvey365.live^$popup
 ||quantumadblocker.com^*&trackingdomain=$popup
 ||record.affiliatelounge.com^$popup
@@ -50970,6 +50977,7 @@ tf2r.com#@#.adverts
 ||serve.williamhillcasino.com^$popup
 ||skipvideoads.com^$popup
 ||smartblocker.org^$popup
+||special-offers.online^$popup
 ||streamblocked.com^$popup
 ||superblackfriday.deals^$popup
 ||torrent-protection.com^$popup
@@ -51627,7 +51635,7 @@ tf2r.com#@#.adverts
 ||youtube.com/ad_companion
 ||youtube.com/pagead/
 ||zdnet.com/leadgen/
-/^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|me|casa|top|one|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=123movies-one.com|123proxy.biz|2embed.ru|baomay01.com|bdupload.asia|databasegdriveplayer.co|desiupload.co|dood.la|dood.to|dood.watch|dood.ws|downloadpirate.com|embedstream.me|filmesviatorrents.tv|flashx.net|flashx.tv|gogoplay1.com|moviepapa.sbs|pkcast123.me|powvideo.net|powvldeo.me|slreamplay.cc|sportsbayk.xyz|steanplay.cc|streamtape.com|streanplay.cc|vidembed.cc|videobin.co|yseries.tv
+/^https?:\/\/.*.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|me|casa|top|one|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=123movies-one.com|123proxy.biz|2embed.ru|baomay01.com|bdupload.asia|databasegdriveplayer.co|desiupload.co|dood.la|dood.to|dood.watch|dood.ws|downloadpirate.com|embedstream.me|filmesviatorrents.tv|flashx.net|flashx.tv|moviepapa.sbs|pkcast123.me|powvideo.net|powvldeo.me|slreamplay.cc|sportsbayk.xyz|steanplay.cc|streamtape.com|streanplay.cc|vidembed.cc|videobin.co|yseries.tv
 /^https?:\/\/[0-9a-z]{8,29}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.asia|cloudvideo.tv|dood.watch|flashx.net|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||dotabuff.com/a.js
@@ -57446,6 +57454,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
+||mltp.com^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -65174,6 +65183,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||dymmt.com/skin/mzitu/js/foot.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -72845,6 +72855,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||epzpzmg.cn^
 ||yougouquanqiu.xyz^
 ||banfz.com^
+||beiwm.com^
+||betylife.com^
+||mcix.cn^
+||kershop.ren^
+||ngogmbe.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -76039,9 +76054,8 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zzssywh.cn^
 ||zzxhx.com^
 !LikeNovels
-@@||meizitu.net/mfiles/m.js$domain=m.mzitu.com
-|http:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
-|https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
+|http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
+|https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad1.js$domain=cocomanga.com|cocomanhua.com
