@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L04DjE+VcT/wARqV2qDVyA
+! Checksum: VEw5BRFEDXR9BTu+BPhK0w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111160201
-! Last Modified: 2021年11月16日 02:01
+! Version: 202111160814
+! Last Modified: 2021年11月16日 08:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1567,7 +1567,6 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
-||mltp.com^
 .8ox.cn
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -3218,6 +3217,7 @@ ubmcmm.baidustatic.com
 ||mjx123.com^
 ||mlddvji.cn^
 ||mlt01.com^
+||mltp.com^
 ||mm-cgnews.com^
 ||mngjrn.cn^
 ||mnxtu.com^
@@ -6230,6 +6230,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dyguo.com/pc/*0.js
 ||dyguo.com/pc/nr336.js
 ||dyjqd.com/images/js/dyjqd.js
+||dymmt.com/skin/mzitu/js/foot.
 ||dysitecdn.com/gg
 ||dysitecdn.com^*.php
 ||dytt.com/oj.js
@@ -9296,7 +9297,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||dymmt.com/skin/mzitu/js/foot.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16961,18 +16961,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.net|18xs.org|1biqu.com|1kanshu.org|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30syy.com|33yq.org|37shuwu.net|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.net|81book.com|81zw.me|877zw.com|99mk.com|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biduoxs.com|bimiwuu.com|biqiugege8.com|biqudu.tv|biquge.lu|biquge11.com|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqusan.com|bixia.org|bodekang.net|boluoxs.com|botaodz.com|bqktxt.com|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|day66.com|ddxsku.com|dushuge.org|faquge.com|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybiquge.com|ibiquta.com|ibswtan.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.com|shu008.com|shuhaiwu.com|shumil.co|shuquge.com|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiqugecc.com|xbiquke.com|xbiquwx.la|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yanqing888.org|yikanxiaoshuoa.com|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||yushuha.com^
-||46rib.cn^
-||kkpqhqu.cn^
-||picbfnc.cn^
-||epzpzmg.cn^
-||yougouquanqiu.xyz^
-||banfz.com^
-||beiwm.com^
-||betylife.com^
-||mcix.cn^
-||kershop.ren^
-||ngogmbe.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17170,6 +17158,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||3dshoppingwall.com^
 ||3hbox.com^
 ||3yai2u.cn^
+||46rib.cn^
 ||4excel.cn^
 ||4ggame8.com^
 ||4htixb.cn^
@@ -17450,6 +17439,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||baiyongbei.xyz^
 ||baizb.com^
 ||banfk.com^
+||banfz.com^
 ||bangdu2.com^
 ||bangxin.xyz^
 ||banma51.cn^
@@ -17483,6 +17473,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||bei7.clewx.com^
 ||beifmu.com^
 ||beitd.com^
+||beiwm.com^
 ||beizhoujt.cn^
 ||benfkw.cn^
 ||bentengcn.com^
@@ -17490,6 +17481,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||benybw.cn^
 ||betohomeall.com^
 ||better-better.com.cn^
+||betylife.com^
 ||bgtrtv.top^
 ||bhyddc.com^
 ||bian123.icu^
@@ -17882,6 +17874,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||engpeng.cn^
 ||enihongo.cn^
 ||ens-sh.cn^
+||epzpzmg.cn^
 ||eq984.cn^
 ||etfuxd.cn^
 ||etongxs.com/mb/meng/
@@ -17953,11 +17946,13 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||kanglaijd.cn^
 ||kbtsogi.cn^
 ||ke94.com^
+||kershop.ren^
 ||khuokpj.cn^
 ||ki47.com^
 ||ki74.com^
 ||kjhzwvq.cn^
 ||kjtol.cn^
+||kkpqhqu.cn^
 ||koooa.net^
 ||kszhmzp.cn^
 ||kukulm.com^
@@ -17975,6 +17970,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||m5xy0v.cn^
 ||maclwangluokeji.cn^
 ||maoxilucai.cn^
+||mcix.cn^
 ||mgnb.xyz^
 ||mhtky.cn^
 ||mineral-water.cn^
@@ -17987,6 +17983,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||n258.cc^
 ||nbpyfog.cn^
 ||ndfdwrg.cn^
+||ngogmbe.cn^
 ||nh738.cn^
 ||nmgpd.com^
 ||none-test.com^
@@ -18004,6 +18001,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||p09diw3.cn^
 ||pcshijie.cn^
 ||pflhnpu.cn^
+||picbfnc.cn^
 ||pj16t.cn^
 ||poedlov.cn^
 ||powerchase.online^
@@ -18106,8 +18104,10 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||yingxunkeji.net^
 ||yjwl.ltd^
 ||yncjsc.cn^
+||yougouquanqiu.xyz^
 ||yuanwei.ltd^
 ||yumingdan.top^
+||yushuha.com^
 ||z-xiao.xyz^
 ||zcmnffq.cn^
 ||zdzk0371.cn^
@@ -34816,7 +34816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
 ||tl.tradetracker.net^
-||tm-awx.com/felix.min.js
+||tm-awx.com/pageview
 ||tm.tradetracker.net^
 ||tm.vendemore.com^
 ||tms.fmm.io^
@@ -36275,6 +36275,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cstats.sankakucomplex.com^
 ||cultofmac.com/djrxqhzkbsgf.js
 ||d.cdngeek.com^$domain=edugeek.net
+||d.getpocket.com^
 ||d.skk.moe^
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
@@ -36635,6 +36636,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.archive.is^
 ||pixel.archive.ph^
 ||pixel.archive.vn^
+||pixel.archivecaslytosk.onion^
+||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
 ||pixel.convertize.io^
 ||pixel.digitalspy.co.uk^
 ||pixel.facebook.com^
