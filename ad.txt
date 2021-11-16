@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aFq9KPeRGM5eqjT+pihI2A
+! Checksum: fhDtKAAzreppLkcnZWlzrQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111161402
-! Last Modified: 2021年11月16日 14:02
+! Version: 202111162006
+! Last Modified: 2021年11月16日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8088,12 +8088,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mydrivers.com/images/hongbao
 ||mydrivers.com/images/icon/gg_
 ||mydrivers.com/m/apptuijian.
-||mydrivers.com/news/*/aly
+||mydrivers.com^*/aly11
 ||mydrivers.com/news/*843x80.
 ||mydrivers.com/news/*jd.png
 ||mydrivers.com/news/2017/db_
 ||mydrivers.com/news/2018/contentfoot.png
-||mydrivers.com/news/2018/wangluodianshi.gif
 ||mydrivers.com/news/taobao_tab.jpg
 ||mydrivers.com/www/gg_
 ||mydrivers.com^*/hb/m_tm
@@ -17417,6 +17416,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||banxf.com^
 ||s1utu5g.cn^
 ||haojun.info^
+||best-eye.cn^
+||katelin.top^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -22065,6 +22066,9 @@ _box_ad_
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 ||ydstatic.com/fanyi/fanyi-ad-place/
 !------------------------Specific element hiding rules------------------------!
+360kuai.com###task__modal__container
+360kuai.com##.taskbar
+bjd.com.cn##.screenad
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
 finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
@@ -22182,6 +22186,7 @@ xdf.cn##.popup-wrap
 sina.com.cn##.redPacketCont
 offcn.com###offcn_yx
 3dmgame.com##.modAD
+csdn.net##.passport-login-container
 csdn.net###passportbox
 csdn.net##.login-mark
 21ic.com##.appxb
