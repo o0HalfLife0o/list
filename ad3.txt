@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 09WcGQW+mHLOcMhVUVApYg
+! Checksum: 4TaFHf5guevz97sWoDuvTg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111171402
-! Last Modified: 2021年11月17日 14:02
+! Version: 202111172003
+! Last Modified: 2021年11月17日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -10762,7 +10762,7 @@ weather.com.cn###ytc
 eastday.com###yxxf_area
 iqiyi.com###zbsp
 weather.com.cn###zdl
-cccpan.com,ys168.com###zdy_wz0
+cccpan.com,ys168.com,ysepan.com###zdy_wz0
 gzmama.com###zone_banner_1_new
 gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
@@ -16971,6 +16971,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tangxue.me^
 ||banzd.com^
 ||nggdwfz.cn^
+||gdshuotai.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -33261,6 +33262,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||audioeye.com/frame/cookieStorage.html
 ||audit.303br.net^
 ||audit.median.hu^
+||aurora-d3.herokuapp.com^
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
 ||avo.app^*/track
@@ -33923,6 +33925,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ga.webdigi.co.uk^
 ||gamegecko.com/gametrack?
 ||gannettdigital.com/capture_logger/
+||ganon.yahoo.com^
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
@@ -34763,6 +34766,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sunset.com/tia/
 ||survey.interquest.com^
 ||survey.io/log?
+||surveymonkey.com/resp/api/metrics
 ||surveywall-api.survata.com^$third-party
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
@@ -36590,6 +36594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metacrawler.com/pingback
 ||metrics.bangbros.com^
 ||metrics.hackerrank.com^
+||metrics.roblox.com^
 ||metrics.spkt.io^
 ||metricsishare.rediff.com^
 ||metro.co.uk/base/rta/
