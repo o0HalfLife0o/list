@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6yCej5tix6U5Fcl1C6SATQ
+! Checksum: ljekFHG5/vkNjfqxzV47Og
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111180815
-! Last Modified: 2021年11月18日 08:15
+! Version: 202111181402
+! Last Modified: 2021年11月18日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -44648,7 +44648,6 @@ tf2r.com#@#.adverts
 ||tsyndicate.com^
 ||tsztzjvpex.com^
 ||ttgmjfgldgv9ed10.com^
-||ttinet.com^
 ||ttnrd.com^
 ||ttoc8ok.com^
 ||ttoyourteam.biz^
@@ -53130,6 +53129,7 @@ drivespark.com##.cmscontent-left-article
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
 iotwreport.com##.code-block
+conservativebrief.com##.code-block > span
 cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
 getdroidtips.com##.code-block-15
@@ -54037,7 +54037,7 @@ cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
-caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,timeslive.co.za##.sponsored
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,timeslive.co.za##.sponsored
 washingtontimes.com##.sponsored-heading
 hellomagazine.com##.sponsored-news
 coinmarketcap.com##.sponsoredMark
@@ -54079,6 +54079,7 @@ indiatoday.in##.stradds
 siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 siasat.com##.stream-item-inline-post
+conservativebrief.com##.stream-item-mag
 todayuknews.com##.stream-item-top-wrapper
 hardwaretimes.com##.stream-item-widget
 ycuniverse.com##.subheader_container
@@ -54265,6 +54266,7 @@ namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
+woot.com##[data-test-ui^="advertisementLeaderboard"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
@@ -55032,6 +55034,7 @@ sunporno.com##.close-invid
 fyptt.to,japaneseasmr.com##.code-block
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
 playvids.com##.col-lg-6.col-xl-4
+whoreshub.com##.col-second
 totsantcugat.info##.col-sm-6 > [href="http://totsantcugat.info/wp-content/video.php"]
 perfectgirls.net##.container + div + .additional-block-bg
 watchmygf.me##.content-footer
@@ -72825,6 +72828,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||mjdnarks.cn^
 ||6667778882021.site^
+||hhnvrht.cn^
+||rjhtrjb.cn^
+||gdmjskjx.com^
+||whusihgq.cn^
+||ilyjmpg.cn^
+||klakwvw.cn^
+||pokcykb.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -89932,6 +89942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||error-collector.ted.com^
 ||error.fc2.com^
 ||et.nytimes.com^
+||et.tidal.com^
 ||etsy.com/bcn/beacon
 ||etui.fs.ml.com^
 ||etx.indiatimes.com^
@@ -100244,6 +100255,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||track.noz.de^
 ||track.rundschau-online.de^
 ||tracking.finanzen.net^
+||tracking.fupa.net^
 ||tracking.krone.at^
 ||tracking.noen.at^
 ||tracking.oe24.at^
@@ -101122,6 +101134,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
@@ -101629,6 +101642,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Hungarian ----------
 @@||argep.hu/googleanalytics.js
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
+@@||dtp.tv3cloud.com/amc/beacon?$domain=telekomtvgo.hu
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
 @@||rtl.hu/javascripts/UserTracking.js
 @@||rtl.hu^*/gemius_id.js?
