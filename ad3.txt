@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j7rCHSeGlUSXoVhBfCBThg
+! Checksum: U0+/h5F6ixQq3uh1n0X8gA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111180201
-! Last Modified: 2021年11月18日 02:01
+! Version: 202111180815
+! Last Modified: 2021年11月18日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16966,6 +16966,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||mjdnarks.cn^
+||6667778882021.site^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -28911,7 +28912,6 @@ _mongo_stats/
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
 ||appn.center^$third-party
-||appsflyer.com^$third-party
 ||aprtn.com^$third-party
 ||aprtx.com^$third-party
 ||apsis1.com^$third-party
@@ -35107,6 +35107,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webedia.fr/js/gs.js
 ||weblog.livesport.eu^
 ||weblogger-dynamic-lb.playdom.com^
+||websdk.appsflyer.com^
 ||webservices.websitepros.com^
 ||webstats.motigo.com^$third-party
 ||webstats.thaindian.com^
@@ -37206,7 +37207,6 @@ techxplore.com##.embed-responsive-trendmd
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
-||sourcepoint.theguardian.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twus-mms.theweek.com^
