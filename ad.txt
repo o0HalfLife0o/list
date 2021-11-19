@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +vMR6vnDGlFWIHWRU1jstA
+! Checksum: cmj8M9sXj6IAdZEBSBOfQQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111190815
-! Last Modified: 2021年11月19日 08:15
+! Version: 202111191402
+! Last Modified: 2021年11月19日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2169,6 +2169,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||lm685.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -7446,7 +7447,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iqiyi.com/player/cupid/*/pageer.swf
 ||iqiyi.com/player/cupid/common/flash980100.swf
 ||iqiyi.com/show2?cb=
-||iqiyi.com/show2?e=$domain=~m.iqiyi.com
 ||iqshw.com/d/js/m/thea
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
@@ -9745,6 +9745,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
+itdog.cn##.div-gg
 szxx.com.cn###A2
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
@@ -17463,6 +17464,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||xcgcwfc.cn^
 ||wknniyu.cn^
+||tndiltm.cn^
+||lapwlbz.cn^
+||szmjskjx.com^
+||cfvapda.cn^
+||vcsoat.cn^
+||pazppsim.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
