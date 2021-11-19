@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sPuaIAjm2yRH51Vyz2JVgA
+! Checksum: EJWmve6l0AFHt1DZsEqL1w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111192003
-! Last Modified: 2021年11月19日 20:03
+! Version: 202111200201
+! Last Modified: 2021年11月20日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2167,8 +2167,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##A[href*="/htt331.com"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||dslenggui.com^
+||jljspx.com^
 ||lm685.com^
 ||00-gov.cn^
 ||000123456789.site^
@@ -17477,6 +17480,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zqqifh.cn^
 ||shproud.com^
 ||bjzglwj.cn^
+||baizbw.cn^
+||hvzlgyi.cn^
+||jcxcvqc.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv

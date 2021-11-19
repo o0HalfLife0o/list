@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +7SSmVxEJLASQEs/CVp/WA
+! Checksum: 8n1Bk+y2kuRZ6Vxg7K8sNw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111192003
-! Last Modified: 2021年11月19日 20:03
+! Version: 202111200201
+! Last Modified: 2021年11月20日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -38545,6 +38545,7 @@ tf2r.com#@#.adverts
 ||jellyclick.com^
 ||jemmgroup.com^
 ||jenicdntc.com^
+||jennyunfit.com^
 ||jeopardyloo.com^
 ||jeperdee.net^
 ||jeperm.com^
@@ -38598,6 +38599,7 @@ tf2r.com#@#.adverts
 ||jkgrczjllhq.com^
 ||jkha742.xyz^
 ||jksdcwgjfm.xyz^
+||jlklnwmj.com^
 ||jltzknvw.com^
 ||jmnvxpgmcbrk.xyz^
 ||jmoiubqzzrsugm.com^
@@ -39901,6 +39903,7 @@ tf2r.com#@#.adverts
 ||mjsyqwpqnjbgua.com^
 ||mk1lyl406xmp.com^
 ||mkhoj.com^
+||mkjopsvjorjkw.top^
 ||mkjsqrpmxqdf.com^
 ||mkomrzsizvjdg.com^
 ||ml0z14azlflr.com^
@@ -40773,6 +40776,7 @@ tf2r.com#@#.adverts
 ||ofhypnoer.com^
 ||ofigraiw.net^
 ||ofixwedjbtjc.com^
+||ofmoppeuap.com^
 ||ofnumeltor.com^
 ||ofphanpytor.com^
 ||ofreadingand.biz^
@@ -44068,6 +44072,7 @@ tf2r.com#@#.adverts
 ||sxcwycsbhte.com^
 ||sxuunews.pro^
 ||sydneygfpink.com^
+||syduzothu.pro^
 ||sylewhywhe.com^
 ||sylotepu.xyz^
 ||symphoneupcom.site^
@@ -44666,6 +44671,7 @@ tf2r.com#@#.adverts
 ||tswmel.com^
 ||tsyndicate.com^
 ||tsztzjvpex.com^
+||ttaqsrkkmcc.xyz^
 ||ttgmjfgldgv9ed10.com^
 ||ttnrd.com^
 ||ttoc8ok.com^
@@ -44908,6 +44914,7 @@ tf2r.com#@#.adverts
 ||universityofinternetscience.com^
 ||unkingdiabeth.club^
 ||unknowncarp.com^
+||unkuljyhrpjhn.top^
 ||unlessorolii.xyz^
 ||unlikebenignityeyeshadow.com^
 ||unlimitate.club^
@@ -46208,6 +46215,7 @@ tf2r.com#@#.adverts
 ||ypmadserver.com^
 ||yppreudkgmya.xyz^
 ||ypreferred.com^
+||yprocedent.co^
 ||ypuxlzxa.com^
 ||ypwpzgld.com^
 ||ypymsisnwv.com^
@@ -48740,6 +48748,7 @@ tf2r.com#@#.adverts
 ||jaxxenpro.com^$popup
 ||jdtracker.com^$popup
 ||je8fn.com^$popup
+||jennyunfit.com^$popup
 ||joeputa.xyz^$popup
 ||jomtingi.net^$popup
 ||joyschema13.live^$popup
@@ -49246,6 +49255,7 @@ tf2r.com#@#.adverts
 ||surveyspaid.com^$popup
 ||susm0q6jys.com^$popup
 ||swagtraffcom.com^$popup
+||syduzothu.pro^$popup
 ||symkashop.ru^$popup
 ||syncedvision.com^$popup
 ||syrsple2se8nyu09.com^$popup
@@ -54818,7 +54828,7 @@ ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored)
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#?#.s-item:-abp-has(span[class^="s-item__title--tagblock__SPONSORED"])
-etsy.com#?#li.wt-grid__item-xs-6:-abp-has(p[aria-label^="Ad from"])
+etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="&plkey="])
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
@@ -57619,8 +57629,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##A[href*="/htt331.com"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||dslenggui.com^
+||jljspx.com^
 ||lm685.com^
 ||00-gov.cn^
 ||000123456789.site^
@@ -72929,6 +72942,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zqqifh.cn^
 ||shproud.com^
 ||bjzglwj.cn^
+||baizbw.cn^
+||hvzlgyi.cn^
+||jcxcvqc.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
