@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RJ8Wsk2lkqg5I9MXxATpeg
+! Checksum: gidSE5/czY47hRs2REvjLg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111222004
-! Last Modified: 2021年11月22日 20:04
+! Version: 202111230202
+! Last Modified: 2021年11月23日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2175,6 +2175,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||govguangxi.cn^
 ||w8sg6.xyz^
+||98765432100.site^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -7415,8 +7416,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||imgur.com^$domain=560996.com|histock.tw|wgun.net
 ||imgur.com^*.gif$domain=18p2p.com
 ||imgxr.com^$domain=xiuren.org
-||imomoe.la/pic/111.jpeg
-||imomoe.la/pic/222.png
 ||imooc.com/open/courselistrandjs
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
@@ -9758,6 +9757,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jialingmm.net/img/gdw.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 baidu.com##.tb-threadlist__item.tb-banner
