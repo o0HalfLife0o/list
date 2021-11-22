@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hv+eafAe2V+EE6Ky30pKsw
+! Checksum: p5EqIWiYjJcr8pJlzyXgSQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111221402
-! Last Modified: 2021年11月22日 14:02
+! Version: 202111222004
+! Last Modified: 2021年11月22日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1723,9 +1723,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##A[href*="/kst6632.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||govguangxi.cn^
+||w8sg6.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9311,6 +9313,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.tb-threadlist__item.tb-banner
+baidu.com##.banner-wrapper-defensive
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17043,6 +17047,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ksvftk.cn^
 ||pgeuxfs.cn^
 ||ivchui.cn^
+||ayazsth.cn^
+||gdhyoa.cn^
+||beift.com^
+||jingshenhaixian.cn^
+||lindasys.xyz^
+||vaxgyly.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -34053,6 +34063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apester.com/event^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
+||api.autopilothq.com^
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
 ||api.carrottrack.io^$third-party
@@ -35440,6 +35451,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/data.log?
 ||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
+||s.autopilotapp.com^
 ||s.beop.io^
 ||s.clickability.com^
 ||s.clickiocdn.com^

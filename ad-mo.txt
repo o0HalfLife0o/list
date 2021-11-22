@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fP0xM7hqe2ci8TncykDrCg
+! Checksum: fYs8o1kW0zJ1V5aYMOqA4g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111221402
-! Last Modified: 2021年11月22日 14:02
+! Version: 202111222004
+! Last Modified: 2021年11月22日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -33369,7 +33369,6 @@ tf2r.com#@#.adverts
 ||automatedtraffic.com^
 ||automateyourlist.com^
 ||automoc.net^
-||autopilothq.com^
 ||autopsyglossy.com^
 ||autoremerciez.xyz^
 ||autsaubs.net^
@@ -46640,6 +46639,7 @@ tf2r.com#@#.adverts
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
 ||actpx.com^$third-party
+||ad-slot.ru^$third-party
 ||ad-sponsor.com^$third-party
 ||ad-stir.com^$third-party
 ||ad.style^$third-party
@@ -48134,6 +48134,7 @@ tf2r.com#@#.adverts
 ||webgains.com^$third-party
 ||weborama.fr^$third-party
 ||weborama.io^$third-party
+||webtrafic.ru^$third-party
 ||webwap.org^$third-party
 ||whizzco.com^$third-party
 ||widgetly.com^$third-party
@@ -48156,6 +48157,7 @@ tf2r.com#@#.adverts
 ||yllix.com^$third-party
 ||youlamedia.com^$third-party
 ||ypaletdevelspe.info^$third-party
+||ypiads.com^$third-party
 ||zampad.com^$third-party
 ||zanox-affiliate.de/ppv/$third-party
 ||zanox.com/ppv/$third-party
@@ -57815,9 +57817,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##A[href*="/kst6632.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||govguangxi.cn^
+||w8sg6.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -65403,6 +65407,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.tb-threadlist__item.tb-banner
+baidu.com##.banner-wrapper-defensive
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -73135,6 +73141,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ksvftk.cn^
 ||pgeuxfs.cn^
 ||ivchui.cn^
+||ayazsth.cn^
+||gdhyoa.cn^
+||beift.com^
+||jingshenhaixian.cn^
+||lindasys.xyz^
+||vaxgyly.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -87847,6 +87859,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apester.com/event^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
+||api.autopilothq.com^
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
 ||api.carrottrack.io^$third-party
@@ -89234,6 +89247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/data.log?
 ||run.app/metrics/
 ||s-microsoft.com/mscc/$~stylesheet
+||s.autopilotapp.com^
 ||s.beop.io^
 ||s.clickability.com^
 ||s.clickiocdn.com^
