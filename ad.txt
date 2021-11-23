@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LEIxoEBauvk1HSchG3wMQA
+! Checksum: VYQCgD58jdVzSOSBh8SdYw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111231401
-! Last Modified: 2021年11月23日 14:01
+! Version: 202111232003
+! Last Modified: 2021年11月23日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -631,6 +631,8 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/shangyk1z5o3o.js
+/dibun5nodnbmp.js
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -2173,6 +2175,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||lcttty.top^
+||samantharegina.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -2215,7 +2219,6 @@ ubmcmm.baidustatic.com
 ||107.183.137.18^
 ||107.187.122.172^
 ||110160.com^$third-party
-||111.175.219.*.js
 ||11111fs.com^
 ||1133.cc^$third-party
 ||113o.com^
@@ -17495,6 +17498,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dzctkjj.cn^
 ||ocznxv.cn^
 ||elvfdnj.cn^
+||57577.live^$csp=script-src
+||shanhaibb.cn^
+||lyedssj.cn^
+||tjcghyy.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21222,6 +21229,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||fengkongcloud.com/fpv2.js
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyList Lite

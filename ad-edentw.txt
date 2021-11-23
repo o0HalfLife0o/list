@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K+VtZB4l+004xvLzwfPjcg
+! Checksum: Ek22/qjjJ9FJgVbDZJ5KXQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202111230202
-! Last Modified: 2021年11月23日 02:02
+! Version: 202111232003
+! Last Modified: 2021年11月23日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1278,7 +1278,6 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||facebook.com/tr$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//*[@aria-label][string-length(@class) >= 225][(count(descendant::*) > 32)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor::div[5][not(@data-pagelet)]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//*[@aria-label][string-length(@class) >= 225][(count(descendant::*) > 8)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_1")]'
 www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 123456789 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"123456789")]/ancestor::div[@class]/div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-pagelet^="FeedUnit_"] span

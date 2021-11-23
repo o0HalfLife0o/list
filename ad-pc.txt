@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oxg7baGdZYRBX/TPaAQotA
+! Checksum: /4CrKV/X4mDKHCIdQJunaw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111231401
-! Last Modified: 2021年11月23日 14:01
+! Version: 202111232003
+! Last Modified: 2021年11月23日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -39515,6 +39515,7 @@ tf2r.com#@#.adverts
 ||lmepskqkrrya.com^
 ||lmmcyfkmktnoel.com^
 ||lmn-pou-win.com^
+||lmntcjtrhcjrlc.top^
 ||lmsdgxbtrzvd.com^
 ||lmyiwaakn.com^
 ||lndjj.com^
@@ -45771,6 +45772,7 @@ tf2r.com#@#.adverts
 ||wboux.com^
 ||wcdny.com^
 ||wciivrou.com^
+||wcjlsohd.com^
 ||wcmcs.net^
 ||wct.link^
 ||wcyrjlszoo.com^
@@ -50754,6 +50756,7 @@ tf2r.com#@#.adverts
 ||media.librabet.com/renderimage.aspx?$third-party
 ||media.netrefer.com^
 ||mediaplex.com/ad/
+||memesng.com/ads
 ||metroland.com/wagjag/
 ||missnowmrs.com/images/banners/
 ||mmosale.com/baner_images/
@@ -51802,6 +51805,7 @@ tf2r.com#@#.adverts
 ||onlineshopping.co.za/expop/
 ||optics.org/banners/
 ||ownedcore.com/forums/ocpbanners/
+||pastemagazine.com/common/js/ads-
 ||pengenanu.files.im^
 ||persianleague.com/images/banners/
 ||phuketwan.com/img/b/
@@ -53030,7 +53034,7 @@ mautofied.com###topLeaderboard
 forum.wordreference.com###topSupp
 sportsclimax.com###top_banner
 caribpress.com###top_banner_container
-bleedingcool.com,jamaicaobserver.com###top_leaderboard
+bleedingcool.com,jamaicaobserver.com,pastemagazine.com###top_leaderboard
 bleedingcool.com###top_medium_rectangle
 imdb.com###top_rhs
 repeatmyvids.com,w3newspapers.com###topads
@@ -53605,7 +53609,7 @@ eurogamer.net##.desktop-mpu
 tiermaker.com##.desktop-sticky
 hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
-theonion.com##.dfp
+pastemagazine.com,theonion.com##.dfp
 dailyfx.com##.dfx-article__sidebar
 govevents.com,protipster.com##.display
 israelnationalnews.com##.div300
@@ -53671,6 +53675,9 @@ themoviedb.org##.fanhattan
 might.net##.fat-container
 smarter.com##.favboxmiddlesearch
 thepointsguy.com##.favorite-cards
+filmdaily.co##.fd-article-sidebar-ad
+filmdaily.co##.fd-article-top-banner
+filmdaily.co##.fd-home-sidebar-inline-rect
 ebay.com##.fdad1
 w3techs.com##.feat
 mumbrella.com.au##.featureBanner
@@ -53885,6 +53892,7 @@ restaurants.com##.latad
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__background
 racingtv.com##.layout__promotion
 mytempsms.com##.layui-col-md12
+filmdaily.co##.lazyloaded.aligncenter
 duplichecker.com##.ldo6uv2f
 justjared.com,justjaredjr.com##.lead_shell
 techrepublic.com,thepcguild.com##.leader
@@ -54561,7 +54569,7 @@ fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 miniclip.com##.widget-mpu
 wplift.com##.widget_bsa
-cnx-software.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
+cnx-software.com,filmdaily.co,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
@@ -56416,6 +56424,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/shangyk1z5o3o.js
+/dibun5nodnbmp.js
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -57958,6 +57968,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||lcttty.top^
+||samantharegina.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -58000,7 +58012,6 @@ ubmcmm.baidustatic.com
 ||107.183.137.18^
 ||107.187.122.172^
 ||110160.com^$third-party
-||111.175.219.*.js
 ||11111fs.com^
 ||1133.cc^$third-party
 ||113o.com^
@@ -73280,6 +73291,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dzctkjj.cn^
 ||ocznxv.cn^
 ||elvfdnj.cn^
+||57577.live^$csp=script-src
+||shanhaibb.cn^
+||lyedssj.cn^
+||tjcghyy.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -77007,6 +77022,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||fengkongcloud.com/fpv2.js
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyPrivacy
@@ -81033,6 +81049,7 @@ fqsousou.com,kengso.com#@#.user-share
 /stats/add/*
 /stats/adonis_
 /stats/api/collect
+/stats/article?
 /stats/collect?
 /stats/collector.js
 /stats/common/*
@@ -89774,6 +89791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.fits.me^$third-party
 ||tracking.g2crowd.com^
 ||tracking.godatafeed.com^
+||tracking.graphly.io^
 ||tracking.hivecloud.net^
 ||tracking.hyros.com^
 ||tracking.interweave.com^$third-party
