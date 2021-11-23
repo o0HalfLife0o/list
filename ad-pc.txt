@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /4CrKV/X4mDKHCIdQJunaw
+! Checksum: zioj+ABYy8dQpcP6jyZlCA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111232003
-! Last Modified: 2021年11月23日 20:03
+! Version: 202111240202
+! Last Modified: 2021年11月24日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25089,6 +25089,7 @@ _800x80_
 ##.game-ads
 ##.game-category-ads
 ##.game-right-ad-container
+##.game-spotlight-advertising
 ##.game-usps__display-ad
 ##.gameAd
 ##.gameBottomAd
@@ -32432,7 +32433,6 @@ tf2r.com#@#.adverts
 ||ad-indicator.com^
 ||ad-m.asia^
 ||ad-mapps.com^
-||ad-maven.com^
 ||ad-nex.com^
 ||ad-recommend.com^
 ||ad-server.co.za^
@@ -35162,6 +35162,7 @@ tf2r.com#@#.adverts
 ||cornerbut.com^
 ||cornfloweramnesty.com^
 ||correspondencecellularstudious.com^
+||corridorfiremanhauled.com^
 ||corruptegypttook.com^
 ||cortegefutwa.casa^
 ||corwrite.com^
@@ -38785,6 +38786,7 @@ tf2r.com#@#.adverts
 ||jinxexaminesketch.com^
 ||jioer.pro^
 ||jistaumt.com^
+||jistenbefor.space^
 ||jistvotestabl.space^
 ||jisyzysy.com^
 ||jitdknclhdpfzyvkio.bid^
@@ -38878,6 +38880,7 @@ tf2r.com#@#.adverts
 ||jsmjmp.com^
 ||jsmpsi.com^
 ||jsnaktyxljsohwp.xyz^
+||jsontdsexit.com^
 ||jsretra.com^
 ||jssearch.net^
 ||jstatic.org^
@@ -40250,6 +40253,7 @@ tf2r.com#@#.adverts
 ||mortalunacceptable.com^
 ||mortantameron.club^
 ||mosece.com^
+||mosquedestitute.com^
 ||mosslagoonbookcase.com^
 ||mossyitalian.com^
 ||mostaboutm.biz^
@@ -46764,6 +46768,7 @@ tf2r.com#@#.adverts
 ||actiondesk.com^$third-party
 ||activedancer.com^$third-party
 ||actpx.com^$third-party
+||ad-maven.com^$third-party
 ||ad-slot.ru^$third-party
 ||ad-sponsor.com^$third-party
 ||ad-stir.com^$third-party
@@ -49339,6 +49344,7 @@ tf2r.com#@#.adverts
 ||prfdesk.pro^$popup
 ||prickutmostperjury.com^$popup
 ||prime-vpnet.com^$popup
+||primerprizezone.life^$popup
 ||privilegesurround.com^$popup
 ||prjcq.com^$popup
 ||prmtracking.com^$popup
@@ -49428,6 +49434,7 @@ tf2r.com#@#.adverts
 ||rndhaunteran.com^$popup
 ||rndmusharnar.com^$popup
 ||roadmapcredulousfang.com^$popup
+||rockcarbest.top^$popup
 ||rollmeout.xyz^$popup
 ||rosafun.com^$popup
 ||rothoglyro.pro^$popup
@@ -55538,6 +55545,7 @@ hentaistream.com##.othercontent
 beemtube.com##.overspot
 javtiful.com##.p-0[style="margin-top: 0.45rem !important"]
 empflix.com##.pInterstitialx
+xfantazy.com##.partwidg1
 vxxx.com##.pgyytpktyka
 bigtitslust.com,sortporn.com##.pignr.item
 boundhub.com##.pl2ace
@@ -57970,6 +57978,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||lcttty.top^
 ||samantharegina.com^
+||98765432100.online^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -101565,6 +101574,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
+||ouedkniss.com/static/alexa.js
+||ouedkniss.com/static/pixel.js
 ||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
