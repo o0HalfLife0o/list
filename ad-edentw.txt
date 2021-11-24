@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0TGnmDoZxnV8uddq9Y7Dgw
+! Checksum: 2ZbOQd+ocphOEo5qu3tSZg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202111240202
-! Last Modified: 2021年11月24日 02:02
+! Version: 202111250202
+! Last Modified: 2021年11月25日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -625,6 +625,8 @@ gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
 ! #CV-767
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
+baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
+baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
 ! MISC
 torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12

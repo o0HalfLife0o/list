@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5oKdzuaWJWZbi4UKQCmp1g
+! Checksum: Ud98NqC/FRZSm+3CFtWLtg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111242002
-! Last Modified: 2021年11月24日 20:02
+! Version: 202111250202
+! Last Modified: 2021年11月25日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1727,6 +1727,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##A[href*="/2486090.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||guanjiabo.net^
@@ -9324,6 +9325,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||py.cn/src/img/pyy/
 ||pixabay.com/static/img/publisher/*_ad_
 ||jitashe.org/template/jitashe/image/bc/3
+||baidu.com/api/wikiui/directad?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 jitashe.org##.bc_side_250
@@ -17077,6 +17079,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cfbnink.cn^
 ||xiaolipc.cn^
 ||swjrzk.cn^
+||iipbuas.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -49164,7 +49167,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
-@@||hit.gemius.pl/redataredir?$domain=ing.pl
+@@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||iwa.iplsc.com/iwa.js$script
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||login.ingbank.pl^*/satelliteLib-$script
