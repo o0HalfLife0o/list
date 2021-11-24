@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KUaLbR/BPVZi2TSHCXQoyQ
+! Checksum: KAKmbAN1a4Oxg7O1Hbbg7g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111241402
-! Last Modified: 2021年11月24日 14:02
+! Version: 202111242002
+! Last Modified: 2021年11月24日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1964,6 +1964,7 @@ ubmcmm.baidustatic.com
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##DIV[style=" max-width:1000px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
@@ -9766,8 +9767,22 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||domp4.cc/Style/*/images/640200.gif
 ||jsdelivr.net/npm/@bootcss/*/assets/img/aliyun
+||py.cn/static/images/advert/
+||py.cn/src/img/pyy/
+||pixabay.com/static/img/publisher/*_ad_
+||jitashe.org/template/jitashe/image/bc/3
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jitashe.org##.bc_side_250
+jitashe.org##A[href*=".makeding.com/"]
+jitashe.org##A[href*=".taobao.com"]
+pixabay.com##div[class*="sponsoredWithResults"]
+py.cn##.index-advert
+pixabay.com##.carbon-ad
+py.cn##.right-pops
+avgle.com###avyc
+unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
+unikoshardware.com##.elementor-popup-modal
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16260,6 +16275,7 @@ $webrtc,domain=avgle.com
 ||jads.co^$domain=avgle.com
 ||olmsoneenh.info^$domain=avgle.com
 !#BaiduPromotion
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
@@ -17506,6 +17522,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fitpbc.cn^
 ||baixkw.cn^
 ||cfbnink.cn^
+||xiaolipc.cn^
+||swjrzk.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22209,6 +22227,8 @@ _box_ad_
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 ||ydstatic.com/fanyi/fanyi-ad-place/
+||feedou.com/nzq/style/pc/js/popbig.js
+||feedou.com/nzq/style/pc/js/zt_bottom.js
 !------------------------Specific element hiding rules------------------------!
 360kuai.com###task__modal__container
 360kuai.com##.taskbar
