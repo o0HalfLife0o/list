@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: W43+qss+3tlavtKxjLLP5A
+! Checksum: KUaLbR/BPVZi2TSHCXQoyQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111240815
-! Last Modified: 2021年11月24日 08:15
+! Version: 202111241402
+! Last Modified: 2021年11月24日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2175,6 +2175,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||guanjiabo.net^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9763,6 +9764,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||domp4.cc/Style/*/images/640200.gif
+||jsdelivr.net/npm/@bootcss/*/assets/img/aliyun
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16257,6 +16260,7 @@ $webrtc,domain=avgle.com
 ||jads.co^$domain=avgle.com
 ||olmsoneenh.info^$domain=avgle.com
 !#BaiduPromotion
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
@@ -17495,6 +17499,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wuyoudan.cn^
 ||gzz123.com^
 ||zjqhyx.cn^
+||baihbw.cn^
+||boostiv.cn^
+||tjhzsrqq.cn^
+||bbbazlp.cn^
+||fitpbc.cn^
+||baixkw.cn^
+||cfbnink.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
