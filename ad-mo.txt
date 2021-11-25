@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0sSOXxHTN9FgcOcbEiLWGw
+! Checksum: y71LFFn+zAbDt6iZkteC0g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111250815
-! Last Modified: 2021年11月25日 08:15
+! Version: 202111251403
+! Last Modified: 2021年11月25日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18498,6 +18498,7 @@ _800x80_
 ##.ad-rectangle-wide
 ##.ad-rectangle-xs
 ##.ad-rectangle2
+##.ad-rectanglemed
 ##.ad-refresh
 ##.ad-region
 ##.ad-region-delay-load
@@ -23862,6 +23863,7 @@ _800x80_
 ##.cmg-ads-wrapper
 ##.cmi-content-3ads-horizontal
 ##.cms-Advert
+##.cms-ad
 ##.cms-magazine-rightcol-adtag
 ##.cms_ad_contentad
 ##.cn24-ads
@@ -52576,7 +52578,7 @@ robloxhackscripts.com###custom_html-23
 mostlyblogging.com,sarkarideals.com###custom_html-3
 colombiareports.com,filmschoolrejects.com,hongkongfp.com,phoneia.com,sarkarideals.com###custom_html-6
 kanonitv.net###custom_html-7
-filmschoolrejects.com,reneweconomy.com.au###custom_html-8
+filmschoolrejects.com,reneweconomy.com.au,theteche.com###custom_html-8
 dailycaller.com###dailycaller_top
 urbandictionary.com###dark_top
 dictionary.com###dcomHomeTop-728x90
@@ -57933,6 +57935,7 @@ ubmcmm.baidustatic.com
 ##a[href^="http://pic.gunqiu.com/"]
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ##a[href^="https://hi.potvpn.com/?from="]
+##img[onclick*=".dxsdkw.cn"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".hth390.com"]
 ##img[onclick*="/2e9c9aa9.com"]
@@ -73280,6 +73283,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bjjdboai.cn^
 ||jttcbj.cn^
 ||abwang.xyz^
+||maiaim.cn^
+||stbaolin.cn^
+||banfzw.cn^
+||wlmhdk.cn^
+||beifb.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
