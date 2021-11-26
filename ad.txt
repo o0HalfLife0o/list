@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P0pIN9ig+rqC3a0YcQ43Zw
+! Checksum: FFeeOKr1pLWjVFHZUZI9JA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202111261403
-! Last Modified: 2021年11月26日 14:03
+! Version: 202111262002
+! Last Modified: 2021年11月26日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2180,6 +2180,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||microsser.cn^
 ||laoyg.com^
+||milecctv.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9783,6 +9784,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+itdog.cn##.thanks
 itdog.cn##.do_not_block_thanks
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 szxx.com.cn###A1
@@ -17529,6 +17531,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beifz.com^
 ||oivxuct.cn^
 ||ziaxlx.cn^
+||jyrwen.cn^
+||csjs.ltd^
+||grggkas.cn^
+||3932161.xyz^
+||jlc001.com^
+||pzdlfww.cn^
+||tjhjtoyy.cn^
+||zcsdbj.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
