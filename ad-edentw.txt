@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /4G1ECUKlLJUxL5sS2uq+Q
+! Checksum: RvgIemI/c4ZbPgCxdGJ4qQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202111262002
-! Last Modified: 2021年11月26日 20:02
+! Version: 202111270202
+! Last Modified: 2021年11月27日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -420,6 +420,7 @@ zakon.kz##.adblock_alert
 tassbiz.ru##.adblock_notif
 ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
+telesputnik.ru##.adbPopup
 kubik3.ru##.adbs
 ideya-biznesa.ru##.admania_adblock_detector
 cofp.ru##.admitad-checker-popup
@@ -1282,9 +1283,9 @@ y2mate.com#$#abort-on-property-read dispatchEvent
 ||connect.facebook.net^*/fbds.js$third-party
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[aria-posinset] span
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@aria-posinset or @aria-describedby or @aria-labelledby]//span[@class][not(@style) and not(@id)][contains("|Apply Now|Shop Now|Sign Up|Get Offer|Learn More|Book Now|Sign Up|Download|Subscribe|Get Directions|Watch More|Get Quote|Support Now|Get Tickets|Contact Us|Play Game|Like Page|Request Time|Donate Now|Sell Now|Listen Now|Donate|Get Showtimes|Buy Now|Sponzorováno|Stáhnout|Přihlásit odběr|Požádat|Další informace|Získat nabídku|Získat cenovou nabídku|Zaregistrovat se|Hrát hru|Rezervovat|Gesponsord|Shoppen|Nu luisteren|Nu boeken|Meer informatie|Pagina leuk vinden|Nu aanvragen|Volgen|Geïnteresseerd|Registreren|Voir d’autres vidéos|Inscrivez-vous dès maintenant|S’inscrire|En savoir plus|Acheter|Réserver|Obtenir un devis|Postuler maintenant|Profiter de l’offre|Aimer la Page|Ça m’intéresse|Télécharger|Recevoir l’offre|Obtenir des billets|Réserver maintenant|Nous contacter|Faire un don|J’aime la Page|S’abonner|Seite gefällt mir|Weitere Infos|Herunterladen|Weitere ansehen|Jetzt bewerben|Jetzt kaufen|Jetzt buchen|Registrieren|Angebot beanspruchen|Tickets|Kontaktiere uns|Abonnieren|Angebot einholen|Spielen|Jetzt spenden|Jetzt verkaufen|Hirdetés|További információ|Letöltés|Játék indítása|Regisztráció|Jelentkezés most|Tetszik az oldal|Érdekel|Üzenet küldése|Bolt felkeresése|Foglalás most|Jegyek|Berlangganan|Penawaran|Daftar|Selengkapnya|Daftar Sekarang|Pesan Sekarang|Tonton Lainnya|Hubungi Kami|Unduh|Sukai Halaman|Iscriviti|Richiedi subito|Guarda di più|Scopri di più|Prenota subito|Scarica|Ottieni i biglietti|Acquista ora|Zainteresowany(a)|Wyślij wniosek|Pobierz|Polub stronę|Zarejestruj się|Kup teraz|Więcej informacji|Zdobądź bilety|Zarezerwuj teraz|Saber mais|Saiba mais|Gostar da Página|Curtir Página|Baixar|Cadastre-se|Solicitar agora|Assistir mais|Comprar agora|Obter oferta|Obter ingressos|Reservar agora|Doar agora|Assinar|Ver mais|Jogar|Enviar mensagem|Obtener acceso|Más información|Comprar|Postularte|Descargar|Ver boletos|Registrarte|Reservar|Contactarnos|Patrocinado|Ver más|Me gusta esta página|Publicidad|Jugar|Enviar solicitud|Ver horarios|Seguir|Vender ahora|Donar|Ver funciones|Suscribirte|Hacer donación|Obtener oferta|", concat("|", text(), "|"))]/ancestor-or-self::div[@aria-posinset="2"]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//*[@aria-label="label"][string-length(@class) >= 224][(count(descendant::*) > 8)]/span[(count(descendant::*) > 40)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_1")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//*[@aria-label][string-length(@class) >= 225][(count(descendant::*) > 8)]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]/ancestor::div[starts-with(@data-pagelet,"FeedUnit_1")]'
-www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 123456789 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"123456789")]/ancestor::div[@class]/div[@aria-posinset or @aria-describedby or @aria-labelledby]'
+www.facebook.com,web.facebook.com#$#json-override 'data.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text data.viewer.news_feed.edges.0.node.comet_sections.context_layout.story.comet_sections.metadata.0.story.ghl_label.text' 14213549526573598 '' /SPONSORED/; hide-if-matches-xpath '//*[contains(text(),"14213549526573598")]/ancestor::div[@class]/div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|'May Sponsor'|'Được tài trợ'|贊助|赞助内容|ได้รับการสนับสนุน|प्रायोजित|'دارای پشتیبانی مالی'|'تمويل شوي'|সৌজন্যে|مُموَّل|سپانسرڈ|ממומן$/ div[data-pagelet^="FeedUnit_"] span
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@class]/a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Patrocinado" or .="Publicidad" or .="Sponsa" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
 @@||www.facebook.com^$generichide
