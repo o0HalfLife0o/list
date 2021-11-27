@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YZW6A18QVn7x873Z3F0tUg
+! Checksum: qsvWO0bdE+XomrrKqbyaPA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111270814
-! Last Modified: 2021年11月27日 08:14
+! Version: 202111271402
+! Last Modified: 2021年11月27日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -65752,6 +65752,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
+92sucai.com##.adtg2
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -66337,6 +66338,7 @@ hao.360.cn###festival_fly + .couten
 ysw191.com###fix
 elecfans.com###fix-tdkad
 ofweek.com###fixedADWrap
+1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.mediago-ad-wrapper
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_daoliu
 comic.qq.com###fixed_right > div
@@ -73494,6 +73496,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||knaxfbg.cn^
+||tjhmsdd.cn^
+||vtlddz.cn^
+||bdzxdyff.cn^
+||xinym1.xyz^
+||jmqxbeo.cn^
+||eovrti.cn^
+||grksvub.cn^
+||9405876.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -74494,7 +74504,6 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jiuji.ltd^
 ||jiujiinc.top^
 ||jl1130.com^
-||jlc001.com^
 ||jmdardu.cn^
 ||jngapkf.cn^
 ||jnxiacha.cn^
