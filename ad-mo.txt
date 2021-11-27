@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MclrZW9MV3jehEEMLOi4vA
+! Checksum: 5YAMtD5QHzoiM17UgjGlsw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111272002
-! Last Modified: 2021年11月27日 20:02
+! Version: 202111280201
+! Last Modified: 2021年11月28日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -33760,6 +33760,7 @@ tf2r.com#@#.adverts
 ||beklefkiom.com^
 ||belamicash.com^
 ||belaya2shu1ba1.com^
+||belexglokmpld.com^
 ||belgradualuna.site^
 ||belgrekblackad.com^
 ||belickitungchan.com^
@@ -45248,6 +45249,7 @@ tf2r.com#@#.adverts
 ||urnawareflan.com^
 ||urokcwwzno.com^
 ||urotenukna.xyz^
+||urqrduklwgvyy.top^
 ||ursegreatm.fun^
 ||urt7bpvfz4am.com^
 ||urtirepor.com^
@@ -45680,6 +45682,7 @@ tf2r.com#@#.adverts
 ||vuxoxmdgdkhrkrs.top^
 ||vvavhrepu.com^
 ||vvcharuaxlsazx.com^
+||vvqknwws.com^
 ||vvyhhrjigq.com^
 ||vwgilkky.com^
 ||vwkkkpjk.top^
@@ -46179,6 +46182,7 @@ tf2r.com#@#.adverts
 ||xad.com^
 ||xadcentral.com^
 ||xadsmart.com^
+||xafcgsfxkhavry.top^
 ||xaholica.com^
 ||xamaptapsu.com^
 ||xameleonads.com^
@@ -46517,6 +46521,7 @@ tf2r.com#@#.adverts
 ||yqqlupkasbhmdj.xyz^
 ||yqsoxyhmumnn.com^
 ||yr9n47004g.com^
+||yrhnlyshnnataoa.top^
 ||ysdtcdnoox.com^
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
@@ -65660,6 +65665,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 92sucai.com##.adtg2
+hao4k.cn##.lineC_right
+sokankan51.cc##.item > .item > a[target="_blank"]
+speedtest.cn##.speed-top-ads
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -73414,6 +73422,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||52pipaxing.com^
 ||tsai.ltd^
 ||ebsxlpv.cn^
+||htds.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -101855,6 +101864,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
+||cstm.baidu.com^
 ||dcard.tw/v1/events
 ||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
