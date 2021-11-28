@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TDAzzRdJ+qf+74IDfI2Y1Q
+! Checksum: o6edlEEGaVSAw8ylKgjmtw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111281402
-! Last Modified: 2021年11月28日 14:02
+! Version: 202111282004
+! Last Modified: 2021年11月28日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9339,6 +9339,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+itdog.cn##.top_contents
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17089,6 +17090,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rsftjj.cn^
 ||kiiqnnx.cn^
 ||xmouxe.cn^
+||cmbzqtf.cn^
+||95wvb.xyz^
+||wxkouem.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -37275,6 +37279,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||atrack.allposters.com^
 ||ats.alot.com^
 ||avitop.com/aviation/hitlist.asp
+||b.wal.co/rum.js$domain=samsclub.com
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
 ||bandcamp.com/api/tracker/
@@ -37288,6 +37293,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
 ||bdt.123rf.com^
+||beacon.samsclub.com^
 ||beacon.shazam.com^
 ||beacon.shutterfly.com^
 ||beacon.walmart.com^
@@ -37642,6 +37648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lookawoman.com/t/
 ||ma.redhat.com^
 ||mailing.enews.extremetech.com^$image
+||mangadex.org/p.js
 ||mapquest.com/logger
 ||marketing.alibaba.com^
 ||marketing.dropbox.com^
@@ -38230,6 +38237,7 @@ techxplore.com##.embed-responsive-trendmd
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
 ||priceline.com/9aTjSd0n/init.js
+||samsclub.com/px/PXsLC3j22K/init.js
 ||seekingalpha.com/xgCxM9By/init.js
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
