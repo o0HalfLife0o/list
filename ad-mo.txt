@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U7jS5eGt9mAU/LH4lRvNHA
+! Checksum: 11E1IA2UT4i9CAwMhtyeDQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202111280816
-! Last Modified: 2021年11月28日 08:16
+! Version: 202111281402
+! Last Modified: 2021年11月28日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4316,7 +4316,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /discuss_ad/*
 /DispAd_
 /display-ad/*
-/display-ads-
+/display-ads-$domain=~google.co.uk|~google.com|~google.com.au
 /display-ads/*
 /display.ad.
 /display/ads/*
@@ -19882,6 +19882,7 @@ _800x80_
 ##.ad_leaderboard
 ##.ad_leaderboard_atf
 ##.ad_leaderboard_top
+##.ad_left
 ##.ad_left_cell
 ##.ad_left_column
 ##.ad_lft
@@ -53101,6 +53102,7 @@ kuklaskorner.com###ultimate
 my.juno.com###usWorldTile
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
+forums.tomsguide.com###video_ad
 yahoo.com###viewer-LREC2-iframe
 gumtree.com###vipBanner
 playstationtrophies.org###vnt-lb-a
@@ -73414,6 +73416,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhxkzss.cn^
 ||lailer.cn^
 ||rsftjj.cn^
+||kiiqnnx.cn^
+||xmouxe.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -91300,6 +91304,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||baidu.com^*/mwb2.gif?
 ||baidu.com^*/wb.gif?
 ||bandcamp.com/api/tracker/
+||bandcamp.com/stat_record
 ||banggood.com/collectBanner?
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
@@ -91648,6 +91653,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.genyt.net^
 ||log.hypebeast.com^
 ||log.mappy.net^
+||log.mgtv.com^
 ||log.optimizely.com^
 ||log.quora.com^
 ||log.snapdeal.com^
