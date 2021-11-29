@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: usU46hu5V9ZkBuUrPUJzdQ
+! Checksum: bulyfOq8u17YgaylU58C5Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202111282004
-! Last Modified: 2021年11月28日 20:04
+! Version: 202111292005
+! Last Modified: 2021年11月29日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1892,13 +1892,15 @@ truyen3s.com#$#abort-current-inline-script document.createElement _zepaf
 motphimmoi.net,biphimtv.net,rphangs.net,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn#$#abort-on-property-read open
 phimgii.net#$#abort-current-inline-script jQuery /preload-11bet/
-fancoiphim.net,khophimhd.net#$#abort-current-inline-script JSON.parse /atob/
+fancoiphim.net,khophimhd.net,downloadsachmienphi.com#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
 lxhentai.com#$#abort-current-inline-script document.cookie
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
 phimlau.online#$#abort-current-inline-script atob /Y1/
 sexphimhd.net#$#abort-current-inline-script Math
 360thethao.net#$#abort-current-inline-script onload /puURL/
+xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
+xnxx-sex-videos.com#$#override-property-read user_out false
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
