@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: it4RqwsffoO3M4PWq6orTQ
+! Checksum: rRKCVyWpL68K7T3YqoeeTg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202111300202
-! Last Modified: 2021年11月30日 02:02
+! Version: 202111300815
+! Last Modified: 2021年11月30日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27216,6 +27216,7 @@ _800x80_
 ##.nw-ad
 ##.nw-ad-468x60
 ##.nw-ad-label
+##.nw-c-leaderboard-ad
 ##.nw-top-ad
 ##.nzs-ads
 ##.o-ad-banner-top
@@ -37989,6 +37990,7 @@ tf2r.com#@#.adverts
 ||hdvcode.com^
 ||he3mero6calli4s.com^
 ||he7ll.com^
+||heaamajo.one^
 ||headedtamhemp.com^
 ||headlinemoment.com^
 ||headlinesnetwork.com^
@@ -44821,6 +44823,7 @@ tf2r.com#@#.adverts
 ||tithephustu.com^
 ||tithewtog.com^
 ||titoaktop.com^
+||tivetrainin.one^
 ||tivibyca.com^
 ||tiznmktqel.com^
 ||tjgasbjinlx.xyz^
@@ -50735,7 +50738,7 @@ tf2r.com#@#.adverts
 ||ak.imgaft.com^
 ||alpsat.com/banner/
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$script,subdocument,xmlhttprequest,domain=downloadpirate.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
+||amazonaws.com^$script,subdocument,xmlhttprequest,domain=downloadpirate.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
 ||api.140proof.com^
@@ -51384,6 +51387,7 @@ tf2r.com#@#.adverts
 ||dlvds9i67c60j.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
 ||dm7gsepi27zsx.cloudfront.net^
+||dmeq7blex6x1u.cloudfront.net^
 ||dmkdtkad2jyb9.cloudfront.net^
 ||dmmzkfd82wayn.cloudfront.net^
 ||dn3uy6cx65ujf.cloudfront.net^
@@ -52150,7 +52154,7 @@ tf2r.com#@#.adverts
 ||youtube.com/pagead/
 ||ytcache.fun/jquery.js
 ||zdnet.com/leadgen/
-/^https?:\/\/.*\.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|casa|top|one|space|network|live|systems|ml|world|life|co)\/.*/$third-party,domain=123movies-one.com|123proxy.biz|2embed.ru|baomay01.com|bdupload.asia|clipconverter.cc|desiupload.co|dood.la|dood.to|dood.watch|dood.ws|downloadpirate.com|embedstream.me|extreme-down.plus|fclecteur.com|filmesviatorrents.tv|flashx.net|flashx.tv|gdtot.top|gospeljingle.com|moviepapa.sbs|noob4cast.com|pkcast123.me|powvideo.net|powvldeo.me|slreamplay.cc|steanplay.cc|streamtape.com|streanplay.cc|vidembed.cc|vidembed.io|videobin.co|vidoo.org|vipbox.lc|wawacity.work
+/^https?:\/\/.*\.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|casa|top|one|space|network|live|systems|ml|world|life|co)\/.*/$third-party,domain=123movies-one.com|123proxy.biz|2embed.ru|baomay01.com|bdupload.asia|clipconverter.cc|desiupload.co|dood.la|dood.to|dood.watch|dood.ws|downloadpirate.com|embedstream.me|extreme-down.plus|fclecteur.com|filmesviatorrents.tv|flashx.net|flashx.tv|gdtot.top|gospeljingle.com|krunkercentral.com|moviepapa.sbs|noob4cast.com|pkcast123.me|powvideo.net|powvldeo.me|slreamplay.cc|steanplay.cc|streamtape.com|streanplay.cc|vidembed.cc|vidembed.io|videobin.co|vidoo.org|vipbox.lc|wawacity.work
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$third-party,domain=9xmovies.app|9xupload.asia|cloudvideo.tv|dood.watch|flashx.net|gaybeeg.info|mixdrop.co|mixdrop.sx|mixdrop.to|mystream.to|ovagames.com|playtube.ws|strcloud.in|strtape.cloud|strtape.tech|strtapeadblock.club|supervideo.tv|uproxy.to|upstream.to|vidlox.me|vivo.sx|voe.sx|vupload.com|wowlive.info
 /^https?:\/\/cdn\.[0-9a-z]{3,6}\.xyz\/[a-z0-9]{8,}\.js$/$script,third-party
 ||dotabuff.com/a.js
@@ -89585,6 +89589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics-api.librato.com^
 ||metrics-logger.spot.im^
 ||metrics.api.drift.com^
+||metrics.beyondwords.io^
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.getvitals.io^
@@ -90907,6 +90912,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.taobao.com^$script
 ||cms.grandcloud.cn^$third-party
 ||cnzz.com/c.php?
+||collector2c.zhihuishu.com^
 ||counter.pixplug.in^
 ||cpro.baidustatic.com^$script,domain=sohu.com
 ||cri.cn/js/a1.js
@@ -92258,6 +92264,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tagger.ope.scmp.com^
 ||tags.aljazeera.com^
 ||tags.news.com.au^$script
+||taiwanplus.com/api/video/startVideo
 ||takealot.com^*/collect
 ||target.nationwide.com^
 ||target.nejm.org^
@@ -102258,6 +102265,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stats.autohome.com.cn^
 ||stats.yinyuetai.com^
 ||steamchina.com/events/
+||sugar.zhihu.com^
 ||tbskip.taobao.com^$script
 ||tf.360.cn^
 ||tianxun.com/ajax_website_statistics.
