@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ukpItlixd9hnEs9hIt+mWg
+! Checksum: uB1l6NOkShd+UAZ4TO5n8g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112010817
-! Last Modified: 2021年12月01日 08:17
+! Version: 202112011402
+! Last Modified: 2021年12月01日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -461,7 +461,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 -ad/source/
 -ad0.
 -ad03.
--ad1.$domain=~oraclecloudapps.com
+-ad1.$domain=~b-cdn.net|~oraclecloudapps.com
 -ad2.
 -ad2_
 -ad3.
@@ -58176,6 +58176,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||mdffun.cn^
+||98765432100.site^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -65654,6 +65656,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||localau.vip/tccenter/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
+141jj.com#?#li:-abp-contains(贊助)
+141jj.com##.moboad + .webad
 gw54.com#?#li:-abp-has(>.ads)
 gw54.com##.index-ad
 szxx.com.cn###A1
@@ -73412,6 +73417,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bt-xd.com^
 ||sanyoon.cn^
 ||ychbgss.cn^
+||gwmaajp.cn^
+||qijiandian.xyz^
+||qqqmmm.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -89599,6 +89607,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.yabidos.com^
 ||pixel.yola.com^
 ||pixels.afcdn.com^
+||pixlee.com/assets/fp.js
 ||pixlee.com/assets/pixlee_events.js
 ||platform.iteratehq.com^
 ||platform.twitter.com/impressions.js

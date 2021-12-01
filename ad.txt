@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U9Rijj7E5VmBOCzCP1Yu8A
+! Checksum: cdyjpRQNGxWqPDiDfFT9yw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112010817
-! Last Modified: 2021年12月01日 08:17
+! Version: 202112011402
+! Last Modified: 2021年12月01日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2178,6 +2178,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||mdffun.cn^
+||98765432100.site^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9656,6 +9658,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||localau.vip/tccenter/ad/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
+141jj.com#?#li:-abp-contains(贊助)
+141jj.com##.moboad + .webad
 gw54.com#?#li:-abp-has(>.ads)
 gw54.com##.index-ad
 szxx.com.cn###A1
@@ -17414,6 +17419,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bt-xd.com^
 ||sanyoon.cn^
 ||ychbgss.cn^
+||gwmaajp.cn^
+||qijiandian.xyz^
+||qqqmmm.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
