@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VKxi2LVbgjVlDOPqA6/eAA
+! Checksum: Y2hCfw3uFo059WT11/cSJw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202112010202
-! Last Modified: 2021年12月01日 02:02
+! Version: 202112010817
+! Last Modified: 2021年12月01日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -16962,6 +16962,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||uqjflmw.cn^
 ||51teach.club^
+||czxym168.cn^
+||manggo.fun^
+||bt-xd.com^
+||sanyoon.cn^
+||ychbgss.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -20795,7 +20800,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||tmall.com/add?
 @@||tracklog.58.com/referrer$~third-party
 @@||udn.com/mall/images/spacer.gif?
-@@||viu.com^*/tracking/tracking.js
+@@||viu.com^*/tracking/
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
