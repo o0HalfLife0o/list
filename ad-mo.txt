@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z2nChm3aVuDkVvemo9plGg
+! Checksum: AVlKxqegn7m0TbSVtx7PDg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112020202
-! Last Modified: 2021年12月02日 02:02
+! Version: 202112020815
+! Last Modified: 2021年12月02日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31564,6 +31564,7 @@ isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-t
 job.inshokuten.com#@#.ad-title
 lifeinvader.com,spanishdict.com#@#.ad-wrapper
 leffatykki.com#@#.ad728x90
+cw.com.tw#@#.adActive
 thoughtcatalog.com#@#.adChoicesLogo
 dailymail.co.uk,namesecure.com#@#.adHolder
 hdfcbank.com#@#.adLink
@@ -31711,6 +31712,7 @@ tf2r.com#@#.adverts
 ||006a039c957c142bb.com^
 ||00aaa2d81c1d174.com^
 ||0127538a552.com^
+||0210bb49cd.com^
 ||0265331.com^
 ||02aa19117f396e9.com^
 ||0346420d60.com^
@@ -32234,6 +32236,7 @@ tf2r.com#@#.adverts
 ||a4mt150303tl.com^
 ||a5020fec1701e9f3.com^
 ||a5e04df959f1af34.com^
+||a5e2ef28b5.com^
 ||a5ee094155.com^
 ||a63t9o1azf.com^
 ||a67z.com^
@@ -52330,7 +52333,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 :text^$popup,domain=zippyshare.com
 ||123moviesfree.world/hd-episode/$popup
 ||amazon-adsystem.com^$popup,domain=twitch.tv
-||animesuge.io/?$popup
+||animesuge.to/?$popup
 ||b.link^$popup,domain=hltv.org
 ||bit.ly^$popup,domain=dexerto.com|elitepvpers.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||bitcoins-update.blogspot.com^$popup,domain=lineageos18.com
@@ -53781,6 +53784,7 @@ publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
+sbs.com.au##.dNXvOT
 counter.dev,lindaikejisblog.com##.da
 arabianindustry.com##.da-leaderboard
 webuser.co.uk##.dart-tag
@@ -55143,7 +55147,8 @@ whatmobile.com.pk##div[style^="height:610px"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
 add0n.com,wccftech.com##div[style^="min-height:90px"]
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
-integral-calculator.com,passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
+live365.com##div[style^="width: 300px;"]
+integral-calculator.com,live365.com,passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
 thejournal-news.net##div[style^="width:300px; height:250px;"]
 napuzba.com##div[style^="width:336px"]
 jwire.com.au##div[style^="width:468px;"]
@@ -55409,6 +55414,7 @@ rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 reddit.com#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
 mtgarena.pro#?##root > div > div:-abp-has( > .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
+sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
@@ -91437,6 +91443,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||canstockphoto.com/monitor/
 ||canstockphoto.com/server.php?rqst=track
 ||capitalone.com/collector/
+||caremark.com/tnadstlinj.js
 ||cbc.ca/g/stats/
 ||cbsimg.net/js/cbsi/dw.js
 ||cc-api-data.adobe.io^
@@ -92344,6 +92351,7 @@ techxplore.com##.embed-responsive-trendmd
 ||foursquare.com/0UqK4c76/init.js
 ||freepeople.com/tN88Q85M/init.js
 ||hotpads.com/xOR1K5b6/init.js
+||jimmyjohns.com/Abo2Yc8X/init.js
 ||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
 ||kickstarter.com/Uy3R669N/init.js
@@ -102861,7 +102869,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
 @@||editorx.com/_api/*count?type$~third-party
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
