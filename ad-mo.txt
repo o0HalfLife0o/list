@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9ox1T1rd7MPACIeKgqF5nw
+! Checksum: gxcuEO45T2FbLS/xCaAQ9Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112030202
-! Last Modified: 2021年12月03日 02:02
+! Version: 202112030815
+! Last Modified: 2021年12月03日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56227,6 +56227,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||photofunia.com/effects/$image,~third-party
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
+@@||player.avplayer.com^$script,domain=explosm.net
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
 @@||pntrs.com/b/$image,domain=extrarebates.com
@@ -78541,6 +78542,7 @@ fqsousou.com,kengso.com#@#.user-share
 /clickheat.js
 /clickheat^
 /clicklog.
+/clicklog/*
 /clicklog4pc.
 /clicklog_
 /clickLogger?
@@ -78780,6 +78782,7 @@ fqsousou.com,kengso.com#@#.user-share
 /counter/views/*
 /counter1.gif?
 /counter5.min.js
+/counter?action=
 /counter?id=
 /counter_1.php
 /counter_2.php?
@@ -102016,6 +102019,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.qq.com^
 ||btrace.qq.com^
 ||cherry.le.com^
+||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
 ||cmstool.youku.com^
 ||collect.tianya.cn^
