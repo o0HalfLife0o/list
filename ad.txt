@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mGjpBxcZ8m0BWpJ8RlOc0w
+! Checksum: ecc5cOPLBNPAi5fqPdHEBQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112051402
-! Last Modified: 2021年12月05日 14:02
+! Version: 202112052003
+! Last Modified: 2021年12月05日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -631,6 +631,7 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/js/gg123/*
 /banner/alma2.jpg
 -90mh-gg.
 .bid/ads/
@@ -2178,8 +2179,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[href*=".6291lu.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||dibaiweiai.com^
+||qianfengwang.top^
+||yongjiu7.net^
+||rhlxm.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9662,6 +9668,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jxtest.bolecdn.com/player/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17410,6 +17417,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kmrcewt.cn^
 ||beiztw.cn^
 ||blcobmv.cn^
+||bah8g3.cn^
+||hxclove.club^
+||zpairql.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -17433,6 +17443,7 @@ duanwenxue.com##.qgzdwx
 @@||230book.com/images/bqg.js$domain=230book.net
 @@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 jx.la##[onclick*="apk"]
+##a[href*=".xxmh727.com/"]
 52biquge.com##[onclick*="app"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
