@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rbvjktu/RZZ5fwAC4zgobQ
+! Checksum: zKiZ5omrnpN3hQ4PU2sB2Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112030202
-! Last Modified: 2021年12月03日 02:02
+! Version: 202112062006
+! Last Modified: 2021年12月06日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1818,7 +1818,7 @@ rsload.net#$#abort-current-inline-script window.addEventListener load
 web-shpargalka.ru#$#abort-on-property-read Date.prototype.toUTCString
 musify.club#$#abort-on-property-read get_ya_browser
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
-cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@class][string-length(@src) > 70]/ancestor::div[@class][2]'
+cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@class][string-length(@src) > 70]/ancestor::div[@class][1]'
 cq.ru#$#abort-on-property-read CQ.routes.getAds
 shanson320.ru,lrepacks.net#$#abort-current-inline-script document.createElement atob
 ! Popup/popunder/clickunder
