@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IlxtXF3Og6DDBdFurf/mjw
+! Checksum: ViWZABMl+j82rELlquOfww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112071403
-! Last Modified: 2021年12月07日 14:03
+! Version: 202112072006
+! Last Modified: 2021年12月07日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16995,6 +16995,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||benwtw.cn^
 ||dohnxnn.cn^
 ||zhonglutang.group^
+||adgtx.club^
+||jyzaw.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -48130,6 +48132,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||vatrack.hinet.net^
 ||vipstatic.com/mars/
 ||weather.com.cn/a1.js
+||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
@@ -48741,7 +48744,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
+@@||cloudmaestro.com^$script,domain=overtone.co
 @@||community.brave.com/t/$xmlhttprequest
+@@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
