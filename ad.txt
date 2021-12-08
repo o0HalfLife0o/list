@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Yin+Xk/syi78AgtkhKJK+A
+! Checksum: y2mgxxcx42v6RmOJZPjTdA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112082005
-! Last Modified: 2021年12月08日 20:05
+! Version: 202112090202
+! Last Modified: 2021年12月09日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9689,8 +9689,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||bixingjia.com/js/hf.
+||duote.com/duoteimg/dtnew_assets/pc/js/tech/chaping.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+lenovo.com.cn##.coffee-top
+qwerwrrt.one##div[class^="show-text"]
 cchvc.net##.myui-player__acc
 so.com##a[data-log*="cpc"]
 so.com##li[data-cpc_query]
@@ -13935,7 +13938,7 @@ hao123.com##.treasure-item
 megatime.com.tw,pchome.com.tw##.tripplead
 ts.cn##.tsggding
 huya.com##.tt[style*="1200px"]
-7060.la,bimiacg2.net,dodoge.me##.tuiguang
+7060.la,bimiacg2.net,dodoge.me,bimiacg4.net##.tuiguang
 m.hao123.com##.tuizhan
 meizhou.cn##.tuwengg
 qq.com##.txp_ad_link
