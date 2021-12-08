@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9VVl/2sDqYXfbiXmg/kvAQ
+! Checksum: mu+bnYz2D8Wiroxb7W/8Lw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112080202
-! Last Modified: 2021年12月08日 02:02
+! Version: 202112080816
+! Last Modified: 2021年12月08日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3182,7 +3182,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsyndication.
 /adsyndication/*
 /adsynth-
-/adsys.
+/adsys.$domain=~adsys.in
 /adsys/*
 /adsystem.
 /adsystem/*
@@ -23981,6 +23981,7 @@ _800x80_
 ##.component--google-ad-manager
 ##.component-ad-leiki
 ##.component-adincontent
+##.component-ar-horizontal-bar-ad
 ##.component-header-sticky-ad
 ##.component-sponsored-links
 ##.component__ad__ad-box
@@ -26987,6 +26988,7 @@ _800x80_
 ##.navad
 ##.navadbox
 ##.navbar-ad-container
+##.navbar-ads
 ##.navbar-header-ad
 ##.navcommercial
 ##.navi_ad300
@@ -53452,6 +53454,7 @@ azernews.az##.banner-block
 irishnews.com,nscreenmedia.com##.banner-container
 soccerway.com##.banner-content
 411mania.com##.banner-homebottom-all
+security.org##.banner-img-container
 wireshark.org##.banner-img-downloads
 timesofisrael.com##.banner-placeholder
 tweakreviews.com##.banner-placement__article
@@ -56135,7 +56138,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|tdn.com|truvid.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|tdn.com|truvid.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -81268,6 +81271,7 @@ fqsousou.com,kengso.com#@#.user-share
 /snowplow.js$script,third-party
 /snowplow/*$script
 /snowplow_$script
+/snowplowjs.
 /social_tracking.
 /socialButtonTracker.
 /SocialSharingTracking.
@@ -101987,6 +101991,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||geoip.finanzen.net^
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
+||hokuspokus.tarnkappe.info^
 ||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
