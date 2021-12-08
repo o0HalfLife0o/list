@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X6CbqRTZL3RAQZIW0p6qaw
+! Checksum: Yin+Xk/syi78AgtkhKJK+A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112081402
-! Last Modified: 2021年12月08日 14:02
+! Version: 202112082005
+! Last Modified: 2021年12月08日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1854,6 +1854,7 @@ ubmcmm.baidustatic.com
 ##.top-read-ad
 ##.topSponsor
 ##.top_ad_ban
+##.playtop.col-pd
 ##.top_box > #foot
 ##.top_box > #indextop
 ##.top_box > #news
@@ -1869,6 +1870,8 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+###QEff1
+###QEff2
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -2130,6 +2133,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
+##a[href*=".wuyichunqiu.com/"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/od005.cn"]
@@ -2155,6 +2159,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/yigeyuming3880.top"]
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
 ##a[href*="itoon.app"]
+##a[href*="/xmkgc.com/"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="http://hqbet2191.com"]
@@ -2182,10 +2187,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##a[href*=".lacquermall.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||sudahj.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9681,8 +9688,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bixingjia.com/js/hf.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cchvc.net##.myui-player__acc
 so.com##a[data-log*="cpc"]
 so.com##li[data-cpc_query]
 so.com###e_map_idea_detail_lists
@@ -11662,7 +11671,7 @@ caibaojian.com##.aliyun-inner
 cnfol.com##.allAd
 bkill.com##.alliance-ad
 pilifx.com##.alltop
-18board.com,18p2p.com##.altbg2 > td[width="33%"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
 gugeys.cc##.am-g
 maguays.cc##.animate-bounce-up
 gufengmh.com##.animated
@@ -14538,11 +14547,11 @@ chchzhan.com,xxizhan.com##a[style^="position:fixed;z-index:"]
 libvio.com,nfstar.net##a[target="_blank"] > .img-responsive
 1090ys2.com##a[target="_blank"] > img[src*="alicdn.com"]
 aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
-18board.com,18p2p.com##a[target="_blank"] > img[width="320"]
-18board.com,18p2p.com##a[target="_blank"] > img[width="330"]
-18board.com,18p2p.com##a[target="_blank"] > img[width="900"]
-18board.com,18p2p.com##a[target="_blank"] > img[width="920"]
-18board.com,18p2p.com##a[target="_blank"] > img[width^="72"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="320"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="330"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="900"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
@@ -17442,6 +17451,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vytxocb.cn^
 ||jovfwgr.cn^
 ||ahqhhvg.cn^
+||jyzae.cn^
+||benwzw.cn^
+||kusol.club^
+||mpzls.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
