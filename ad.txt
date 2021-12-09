@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yeGEjSzOSO3U/ulcNH4rCw
+! Checksum: pF5dhktYDPkSrDy3yqTMEg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112092004
-! Last Modified: 2021年12月09日 20:04
+! Version: 202112100202
+! Last Modified: 2021年12月10日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -579,7 +579,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 agefans.*##+js(noeval-if, devtoolsDetector)
-||pstatp.com/origin/$image,domain=agefans.*|mgtv1.cc
+||toutiaoimg.com/origin/$image,domain=agefans.*|mgtv1.cc
 hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
 dyjihe2.com##.tempWrap
 haitum.com##.dplayer-web-fullscreen-fix .float-box, .dplayer-web-fullscreen-fix header
@@ -2202,6 +2202,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||hzyouhejia.com^
 ||qweewq2021.site^
+||saimone.com^
+||jrrxbz.net^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17467,6 +17469,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bantb.com^
 ||shadamu2.com^
 ||bamcsfm.com^
+||jyzaj.cn^
+||plants.ink^
+||wojv.club^
+||jyzce.cn^
+||adbeuch.cn^
+||chaoge.club^
+||nuanqipian.pw^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22369,7 +22378,7 @@ _box_ad_
 ||jsdelivr.net/gh/huang545/huang1111@1.0/bottom.png
 ||pstatp.com/origin/137370002e7fbe11b296a
 ||qcjycg.com/template/conch/asset/js/hl
-/\/data\/cache\/(?!(common|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common\.|common_extra\.|forum|home\.|portal|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||sinaimg.cn/finance/stock/hq/src/popuptoapp.js

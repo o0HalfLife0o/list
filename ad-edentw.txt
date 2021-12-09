@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pjL8DrFJLBj1LZig3MA3dg
+! Checksum: R7TARIPA1m/rlHjtUKPwug
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112092004
-! Last Modified: 2021年12月09日 20:04
+! Version: 202112100202
+! Last Modified: 2021年12月10日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1510,7 +1510,7 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 /favicon.ico$popup,domain=vidshare.tv|vudeo.net
 ||35.194.16.41^$popup
 ||gadsims.com^$popup
-videojav.com,pornpapa.com#$#abort-on-property-read document.querySelectorAll
+videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
 4kporn.xxx#$#override-property-read flashvars.popunder_url null
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
