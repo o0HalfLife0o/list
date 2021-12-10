@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pdRrk7JGGhb7a8Db+FyMGA
+! Checksum: nVeChoSeRBx9OkPQdX5psw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112100202
-! Last Modified: 2021年12月10日 02:02
+! Version: 202112100815
+! Last Modified: 2021年12月10日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -901,7 +901,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .name/ads/
 .nativeads.
 .net/_adv/
-.net/ad-
 .net/ad2/$~xmlhttprequest
 .net/ad_
 .net/adj;
@@ -51770,6 +51769,7 @@ tf2r.com#@#.adverts
 ||darkreader.org/elements/backers-side.js
 ||darkreader.org/elements/support-us.js
 ||datum.blockchair.io^
+||datum0.blockchair.io^
 ||delivery.smashing.services^
 ||designtaxi.com/i-combine.php
 ||designtaxi.com/js/dt-seo.js
@@ -52600,7 +52600,7 @@ $popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loa
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|chikiporn.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornchimp.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
-/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|hellporno.com|iceporn.com|imx.to|katestube.com|lustypuppy.com|maturetubehere.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxxdessert.com|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$image,script,subdocument,domain=4tube.com|alotporn.com|alrincon.com|anyporn.com|anysex.com|badjojo.com|bdsmstreak.com|bigtitslust.com|bravotube.net|cockmeter.com|daftporn.com|erome.com|exoav.com|fantasti.cc|fapality.com|fapnado.com|fetishshrine.com|freeporn8.com|gfsvideos.com|hellporno.com|iceporn.com|imx.to|katestube.com|lustypuppy.com|maturetubehere.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|rule34.art|sexytorrents.info|shameless.com|sleazyneasy.com|smutty.com|sortporn.com|stileproject.com|str8ongay.com|tnaflix.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xxxdessert.com|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.tv
 /^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
 $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
@@ -53590,6 +53590,7 @@ southerntimesafrica.com##.body-header-banner
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au,interiordesign.net##.boombox
 etherscan.io##.border-top
+blockchair.com##.bottom--buttons-container
 pixxxels.cc##.bottom-a
 kaskus.co.id##.bottom-frame
 reverso.net##.bottom-horizontal
@@ -53729,6 +53730,7 @@ spoonyexperiment.com##.cont_adv
 redditsave.com##.container > center
 marketwatch.com##.container--sponsored
 miniclip.com##.container-300x250
+mangakakalot.com##.container-chapter-reader > div
 font-generator.com##.container-home-int > .text-center
 ina.fr##.container-pubcarre
 thejournal-news.net##.container.lightblue
@@ -54225,6 +54227,7 @@ google.com##.nH.MC
 mail.google.com##.nH.PS
 nascar.com##.nascar-ad-container
 allthatsinteresting.com##.native-box
+blockchair.com##.native-sentence
 seura.fi##.nativead:not(.list)
 thetechpoint.org##.navigation-banner
 majorgeeks.com##.navigation-light
@@ -54721,6 +54724,7 @@ euobserver.com##.top
 artistdirect.com##.top-add
 automotive-fleet.com,businessfleet.com,cfl.ca,fleetfinancials.com,government-fleet.com,howsecureismypassword.net,ncaa.com,schoolbusfleet.com##.top-banner
 gptoday.net##.top-banner-leaderboard
+blockchair.com##.top-buttons-wrap
 foodrenegade.com##.top-cta
 debka.com##.top-full-width-sidebar
 reverso.net##.top-horizontal
@@ -56575,6 +56579,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||velet.jp/images/adv/$image,~third-party
 @@||wikiwiki.jp^*/plus/adv.png$~third-party
+@@||wp.com/www.datahjelperne.no^*/annonser.png$image,domain=datahjelperne.no
 @@||yads.c.yimg.jp/js/yads-async.js$domain=yahoo.co.jp
 @@||zinro.net/m/end.php?$~third-party
 @@||www.facebook.com/ads/$generichide
