@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R7TARIPA1m/rlHjtUKPwug
+! Checksum: Jt0ng7O24KjuvldFxyEOpw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112100202
-! Last Modified: 2021年12月10日 02:02
+! Version: 202112101402
+! Last Modified: 2021年12月10日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1137,7 +1137,7 @@ karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target
 ||www.karaoketexty.cz/*/*.png$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
 ||www.karaoketexty.cz/*/*.jpg$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
 novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
-horoskopy.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][1][not(starts-with(@class,"twitter"))]'
+horoskopy.cz,novinky.cz,seznamzpravy.cz#$#hide-if-matches-xpath '//iframe[@src][@id]/parent::div[@class]/ancestor-or-self::div[@class][3]'
 ! #CV-780
 .cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mobilmania.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 =autapay/*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mobilmania.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -1510,8 +1510,7 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 /favicon.ico$popup,domain=vidshare.tv|vudeo.net
 ||35.194.16.41^$popup
 ||gadsims.com^$popup
-videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
-4kporn.xxx#$#override-property-read flashvars.popunder_url null
+videojav.com,pornpapa.com#$#abort-on-property-read document.querySelectorAll
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
@@ -1898,7 +1897,7 @@ blog.abit.vn#$#abort-on-property-read document.cookie
 ! Popup/Popunder/Clickunder
 motphimmoi.net,biphimtv.net,rphangs.net,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn#$#abort-on-property-read open
-phimgii.net,phimhdvns.net#$#abort-current-inline-script jQuery popurl
+phimgii.net#$#abort-current-inline-script jQuery /preload-11bet/
 fancoiphim.net,khophimhd.net,downloadsachmienphi.com#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
 lxhentai.com#$#abort-current-inline-script document.cookie
