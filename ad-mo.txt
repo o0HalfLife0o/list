@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v1Izjzcw1w7q7JOrbXyZgw
+! Checksum: OGDLIp2XA+KShpzbuAGpUQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112111402
-! Last Modified: 2021年12月11日 14:02
+! Version: 202112112006
+! Last Modified: 2021年12月11日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12774,6 +12774,7 @@ _800x80_
 ###browsead
 ###bsaadvert
 ###bsap_aplink
+###bt-ad
 ###btfAdNew
 ###btm_ad
 ###btm_ads
@@ -25971,6 +25972,7 @@ _800x80_
 ##.iqadmarker
 ##.is-mpu
 ##.is-preload-ad
+##.is-script-ad
 ##.is-sponsored
 ##.is-sticky-ad
 ##.is24-adplace
@@ -52762,6 +52764,7 @@ cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootball
 whoscored.com###billboard-container
 inquirer.net###billboard_article
 chilltracking.com###blink
+appleworld.today###block-26
 systutorials.com###block-3
 systutorials.com###block-4
 systutorials.com###block-5
@@ -54546,6 +54549,7 @@ scotsman.com##.sc-igwadP
 distractify.com##.sc-jcwofb
 independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
 independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
+sankakucomplex.com##.scad
 newindianexpress.com##.scc
 readmng.com##.scroll_target_top
 9anime.to##.sda
@@ -54855,7 +54859,7 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-deshdoaba.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
+appleworld.today,deshdoaba.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
 chtupdate.net##.widget_media_image.widget
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
@@ -58345,6 +58349,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jiujigroup.top^
+||fxyjmp.top^
+||adx01.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -65856,6 +65862,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gw54.com##.dad
+99kubo.tv##TABLE[width^="9"][height="90"]
+99kubo.tv##a[href*="bit.ly"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -68109,7 +68118,7 @@ kuaihou.com##.bz
 52pk.com##.bzClick
 downyi.com##.bzYouDao
 xz7.com##.bzxz
-ucbug.com##.bzxz1
+ucbug.com##.bzxz128
 mgtv.com##.c-95060-top
 sm.cn##.c-container > div[data-sc*="etao"]
 baidu.com##.c-container.ec-container
@@ -68708,8 +68717,7 @@ veryhuo.com##.gs2
 wanyx.com##.gs_down
 sci-hub.org.cn##.gs_r[data-cid=""]
 sci-hub.org.cn##.gs_red[style="color:#EB7F00"]
-32r.com##.gsabtn
-32r.com##.gsaxzdz > ul > dt
+32r.com##.gsxzdz > UL > DT
 32r.com##.gsbbtn
 32r.com,xue51.com##.gsbtn
 32r.com##.gscbtn
@@ -73620,6 +73628,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||houmei.ren^
 ||pvxymnz.cn^
 ||ahfrhub.cn^
+||b84.xyz^
+||imspecial.club^
+||lxiu.shop^
+||hycra.cn^
+||wangl903.com^
+||yabqg.cn^
+||banwb.com^
+||jlbz.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
