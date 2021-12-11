@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: TDAtKGKgiMjrmivo2rG1gQ
+! Checksum: MTRGv5gynEQsgnpFBNZ9Ow
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112110814
-! Last Modified: 2021年12月11日 08:14
+! Version: 202112111402
+! Last Modified: 2021年12月11日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, RTCPeerConnection, undefined)
-qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner,div.youku-layer-logo
 v.youku.com##+js(aeld,dblclick,ykplayer.switchFullscreen)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -36,8 +36,8 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link
-qq.com##+js(no-xhr-if, /\b(b?trace|beacon)\./)
-qq.com##+js(no-fetch-if, /\b(b?trace|beacon)\./)
+v.qq.com,sports.qq.com,new.qq.com##+js(no-xhr-if, /\b(b?trace|beacon)\./)
+v.qq.com,sports.qq.com,new.qq.com##+js(no-fetch-if, /\b(b?trace|beacon)\./)
 v.qq.com,sports.qq.com,new.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
@@ -56,7 +56,6 @@ scorecardresearch.com
 tencentmind.com
 xtgreat.com
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
-bilibili.com#@#+js(ra, target, a[target][href^="/"])
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
@@ -110,7 +109,6 @@ xelements.cn
 yoyi.com.cn
 zhiziyun.com
 le.com##.min_pause_img
-www.douyu.com##+js(no-xhr-if, sdkapi.douyucdn.cn/p2p)
 www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 www.douyu.com##+js(set, RTCPeerConnection.prototype.addStream, noopFunc)
 www.douyu.com##+js(set, webkitRTCPeerConnection.prototype.addStream, noopFunc)
@@ -1757,6 +1755,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jiujigroup.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17027,6 +17026,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||nlrpfpq.cn^
 ||timy.ink^
+||youpeng.pw^
+||funlove.pw^
+||houmei.ren^
+||pvxymnz.cn^
+||ahfrhub.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25965,6 +25969,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /log/ux_analytics^
 /log/web?
 /log2.php?
+/log204?
 /Log?act=$image
 /log?action=
 /log?count=
@@ -36014,6 +36019,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.cfjump.com^
 ||t.clic2buy.com^
 ||t.dgm-au.com^$third-party
+||t.irtyc.com^
 ||t.jobsyn.org^
 ||t.mail.sony-europe.com/r/?
 ||t.menepe.com^
@@ -48066,6 +48072,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ems.youku.com/event?
 ||err.ifengcloud.ifeng.com^
 ||event.csdn.net^
+||fclog.baidu.com^
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
