@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G6kMvVXieGaWNP5kaHph7A
+! Checksum: KLxug8FOk4IZpGttLYLtiQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112121401
-! Last Modified: 2021年12月12日 14:01
+! Version: 202112122003
+! Last Modified: 2021年12月12日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9725,6 +9725,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ettoday.net/ad/*_action.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -13447,6 +13448,7 @@ tiexue.net##.reloadCont > div:first-child
 hoteastday.com##.reloadMedia1
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
 baidu.com##.result-op[tpl="pc-education-fs"]
+baidu.com##.result-op[tpl="sp_hot_sale"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
 tbtdg.com##.reveal-modal-bg
 rfidworld.com.cn##.rfidADClass
@@ -17494,6 +17496,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||opbtc.cn^
 ||cqnpfyb.cn^
 ||banwt.com^
+||hbhdyn.club^
+||banfs.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
