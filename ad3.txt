@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LyGRJvLIbIu9r6/el6NpWg
+! Checksum: 2maq5dxYy5F0e8IdLsM+lQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112122003
-! Last Modified: 2021年12月12日 20:03
+! Version: 202112130201
+! Last Modified: 2021年12月13日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -55,6 +55,7 @@ reachmax.cn
 scorecardresearch.com
 tencentmind.com
 xtgreat.com
+mail.qq.com,bilibili.com#@#+js(ra, target, a[target][href^="/"])
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
