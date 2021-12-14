@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xLZ4iE+/BioflDEboYp9zA
+! Checksum: u8COfMZErxIgmKr4iwSVcw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112142005
-! Last Modified: 2021年12月14日 20:05
+! Version: 202112150202
+! Last Modified: 2021年12月15日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2207,6 +2207,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||lm213.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -14405,7 +14406,7 @@ guilinlife.com##a[href*="adclicks&"]
 159i.com##a[href*="ai69"]
 v.qq.com##a[href*="amway.com.cn"]
 kanqiuba.net##a[href*="bet"]
-99kubo.tv,jumi.tv,r3sub.com##a[href*="bit.ly"]
+99kubo.tv,jumi.su,r3sub.com##a[href*="bit.ly"]
 dapenti.com##a[href*="cashier.iqiyi.com"]
 cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
