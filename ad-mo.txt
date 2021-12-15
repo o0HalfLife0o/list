@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tQvEhpu1Fd6cOGJwUM8PxQ
+! Checksum: sTM856/z5h27hVudsQ5FDg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112150202
-! Last Modified: 2021年12月15日 02:02
+! Version: 202112150816
+! Last Modified: 2021年12月15日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -713,7 +713,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .ad.final.
 .ad.footer.
 .ad.page.
-.ad.php
 .ad.premiere.
 .ad.wrapper.
 .ad/tag.
@@ -811,9 +810,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 .co/ads?
 .com/?ad=
 .com/?wid=
-.com/a?network
 .com/a?pagetype
-.com/a?size
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
 .com/ad1/
 .com/ad2/
@@ -821,7 +818,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .com/ad?
 .com/adclk?
 .com/adds/
-.com/adgallery
 .com/adinf/
 .com/adlib/
 .com/ads-
@@ -909,7 +905,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 .net/ads_
 .net/adt?
 .net/bnr/
-.net/flashads
 .net/gads/
 .net/noidadx/
 .net/pfadj/
@@ -2974,7 +2969,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adsfix.
 /adsfloat.
 /adsfolder/*
-/adsfooter
 /adsforwp-
 /adsframe.
 /adsframework/*
@@ -4444,7 +4438,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /exads/*
 /excellence/ads/*
 /exchange_banner_
-/exit_popup
 /exitpop.
 /exitpopunder.
 /exitpopunder_
@@ -4596,6 +4589,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /gam_ad_
 /gam_ads.
 /gamads/*
+/gdpr-ad-script.
 /geminivideoads/*
 /gen-ad-
 /gen_ads_
@@ -6421,6 +6415,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /systemad_
 /t-ads.$domain=~t-ads.org
 /tabads/*
+/taboola-footer.
+/taboola-header.
 /tag-adv.
 /tag_adv/*
 /tag_oas.
@@ -20270,6 +20266,7 @@ _800x80_
 ##.adboxes
 ##.adboxesrow
 ##.adboxid
+##.adboxlarge
 ##.adboxlong
 ##.adboxo
 ##.adboxtop
@@ -20300,7 +20297,10 @@ _800x80_
 ##.adcode
 ##.adcode-widget
 ##.adcode2
+##.adcode300x250
+##.adcode728x90
 ##.adcode_container
+##.adcodetextwrap300x250
 ##.adcodetop
 ##.adcol1
 ##.adcol2
@@ -50809,7 +50809,7 @@ tf2r.com#@#.adverts
 ||ak.imgaft.com^
 ||alpsat.com/banner/
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$script,subdocument,xmlhttprequest,domain=1337x.to|1337xx.to|daddylive.click|downloadpirate.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
+||amazonaws.com^$domain=1337x.to|1337xx.to|daddylive.click|downloadpirate.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentmac.net|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
 ||any.gs/visitScript/
 ||api.140proof.com^
@@ -54514,6 +54514,7 @@ thetowner.com##.powered
 theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
+foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
 flobzoo.com,onlyfungames.com,yokogames.com##.preview2bannerspot
@@ -54575,6 +54576,8 @@ surinenglish.com##.publiTop
 catholic.net##.publicidad
 eitb.eus##.publicidad_robapaginas
 dailymail.co.uk##.puff_pastel
+speedtest.net##.pure-u-custom-ad-rectangle
+speedtest.net##.pure-u-custom-ad-skyscraper
 the18.com##.push-downv
 2conv.com##.push-offer
 bleedingcool.com##.pw-in-article
@@ -55588,7 +55591,6 @@ outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
-wikiprocedure.com##div:-abp-contains(/^Advertisement$/)
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
@@ -55646,6 +55648,7 @@ twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Pr
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+wikiprocedure.com#?#div:-abp-contains(/^Advertisement$/)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
@@ -56396,7 +56399,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|tdn.com|truvid.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|tdn.com|truvid.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -58486,6 +58489,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||lm213.com^
+||lzljhs.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -73779,6 +73783,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||whatisupman.site^
 ||abczlnycba.icu^
 ||cfpl.online^
+||codez.cloud^
+||soquan.xyz^
+||bensxw.cn^
+||720fly.club^
+||pandan.love^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -89840,6 +89849,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
 ||jsdelivr.net/gh/sensitiveio/sbtracker@master/
+||jsdelivr.net^*/fp.min.js
 ||jsrdn.com/s/1.js
 ||k.keyade.com^
 ||k.streamrail.com^
