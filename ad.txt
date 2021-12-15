@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mIlwJVZUIiLiR9Za1rmDMA
+! Checksum: Qjbw4K96rVV1gmtnmlDOHQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112150816
-! Last Modified: 2021年12月15日 08:16
+! Version: 202112152004
+! Last Modified: 2021年12月15日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2209,6 +2209,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||lm213.com^
 ||lzljhs.com^
+||govshenzhen.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9735,8 +9736,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||aliyuncs.com/huijiad/huijiad.js?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sina.com.cn##div[class*="game"]
+sina.com.cn##div[class*="farmpop"]
+acglala.me##a[href*=".taobao.com"]
+acglala.me##a[href*=".tmall.com"]
+acglala.me##a[href*=".h-ero.games"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17507,6 +17514,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bensxw.cn^
 ||720fly.club^
 ||pandan.love^
+||uqakkye.cn^
+||oelco.cn^
+||fenkang.tech^
+||aysccnn.cn^
+||oey53uw-1ye.cn^
+||rjnjjin.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
