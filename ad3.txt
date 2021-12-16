@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LmOpmH04rSIfdVltO7h5rg
+! Checksum: fZ3HH4UkGyN1g6Z3GG2yUw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112161402
-! Last Modified: 2021年12月16日 14:02
+! Version: 202112162006
+! Last Modified: 2021年12月16日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1760,6 +1760,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||qqq123987.site^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17056,6 +17057,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||xiaokeji.club^
 ||moxiaoqihuoguo.com^
+||vciayrf.cn^
+||charleslee.cc^
+||homfen.me^
+||beisb.com^
+||sltcp.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -36408,6 +36414,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||virgingames.com/tracker/
 ||virginmedia.com^*/analytics/
 ||virtueworldwide.com/ga-test/
+||virtuoussoftware.com/tracker/
 ||visa.com/logging/logEvent$third-party
 ||visit.geocities.com^
 ||visit.webhosting.yahoo.com^
@@ -48995,6 +49002,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
+@@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca/weblx/static/optimizely.$script
