@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tv3TemCuXU8a4WhKdqnxfw
+! Checksum: yUHePM4iJpL7VK31ZQ59kQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112171402
-! Last Modified: 2021年12月17日 14:02
+! Version: 202112172002
+! Last Modified: 2021年12月17日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -41762,6 +41762,7 @@ tf2r.com#@#.adverts
 ||paymentsweb.org^
 ||payslipsprolong.com^
 ||payslipsscowl.com^
+||pazashevy.com^
 ||pbcde.com^
 ||pbhrxxcuobz.com^
 ||pbterra.com^
@@ -73978,6 +73979,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xqtzp.cn^
 ||ybnndud.cn^
 ||vvsbt.cn^
+||1v1.ink^
+||beiyicc.cn^
+||beiwh.com^
+||sylvia.cloud^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -83459,6 +83464,7 @@ cgi-bin/counter
 /shoutout.wix.com/*$image
 /sptracking.
 /ss/o/*.gif
+/t.ifly.southwest.com/*$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /track/open.php?
