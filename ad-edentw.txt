@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hUKhm5s7cVTB8vhOV8V6aw
+! Checksum: f4TLWTCwU2SXGsvmz3NK4w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112170202
-! Last Modified: 2021年12月17日 02:02
+! Version: 202112170816
+! Last Modified: 2021年12月17日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -531,6 +531,7 @@ factorio.su##body > div[id][class][style*="background"][style*="visible"]
 gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 gta.com.ua##body > div[id][style*="background"][style*="visible"]
 daz3d.ru,portfel.info##body > div[id][style="display: block;"]
+painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 igorchernomoretz.com##body > div[id^="ab"]
 igorchernomoretz.com##body > div[id^="ab"] + div[style*="cursor"]
 gisher.org##body > div[id^="ban"][style]
