@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +4IyQqlxYkv5yeoAXVdE2g
+! Checksum: rLNrDvDjUZvc5l2s/bZGJw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112181402
-! Last Modified: 2021年12月18日 14:02
+! Version: 202112182002
+! Last Modified: 2021年12月18日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11422,6 +11422,7 @@ _800x80_
 ###adsense-header
 ###adsense-letterbox
 ###adsense-link
+###adsense-links
 ###adsense-middle
 ###adsense-module-bottom
 ###adsense-new
@@ -25395,6 +25396,7 @@ _800x80_
 ##.gpt-ad-container
 ##.gpt-ads
 ##.gpt-billboard
+##.gpt-breaker-container
 ##.gpt-container
 ##.gpt-leaderboard-banner
 ##.gpt-mpu-banner
@@ -28016,6 +28018,7 @@ _800x80_
 ##.rev-content-sponsored
 ##.rev_square_side_door
 ##.revcontent-main-ad
+##.revcontent-slot
 ##.review-ad
 ##.reviewMidAdvertAlign
 ##.review_ad1
@@ -28702,6 +28705,7 @@ _800x80_
 ##.site-ads
 ##.site-footer__ad-area
 ##.site-head-ads
+##.site-header--sponsored
 ##.site-header-ad-notification
 ##.site-header__advert-container
 ##.site-nav-ad-inner
@@ -28843,6 +28847,7 @@ _800x80_
 ##.spansored-item
 ##.spc-ads-leaderboard
 ##.spc-ads-sky
+##.speakol-widget
 ##.specialAd175x90
 ##.specialAdsContent
 ##.specialAdsLabel
@@ -52472,6 +52477,7 @@ tf2r.com#@#.adverts
 ||fwcdn1.com/js/storyblock.js
 ||fwcdn2.com^$third-party
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
+||jwplayer.com/players/$script,domain=ginx.tv
 ||live.primis.tech^$third-party
 ||play.anyclip.com^$script,third-party
 ||play.springboardplatform.com^
@@ -53099,6 +53105,7 @@ publish0x.com###bm-block
 smbc-comics.com###boardleader
 priceonomics.com###book-island
 cheese.com,investorplace.com,warcraftlogs.com###bottom-banner
+000webhost.com###bottom-banner-with-counter-holder-desktop
 audioreview.com###bottom-leaderboard
 publish0x.com###bottom-right-banner
 nytimes.com,nytimes3xbfgragh.onion###bottom-wrapper
@@ -53241,6 +53248,7 @@ gptoday.net###gptoday_ros_echo_leaderboard-billboard
 gptoday.net###gptoday_ros_echo_rectangle-halfpage
 proboards.com###gravity-stories-1
 spellcheck.net###grmrl_one
+girlswithmuscle.com###hb-banner-outer
 streamingrant.com###hb-strip
 castanet.net###hdad
 flashgot.net###head a[target="_blаnk"]
@@ -54364,7 +54372,9 @@ ausbt.com.au##.halfpage-homepage
 anime-planet.com##.halo
 whistleout.com.au##.has-hover
 twitter.com##.has-profile-promoted-tweet
+girlswithmuscle.com##.hb-static-banner-div
 screenbinge.com##.hb-strip
+girlswithmuscle.com##.hb-video-ad
 zeefood.in##.hbanner2
 trendhunter.com##.hcamp
 webtoolhub.com##.hdShade > div
@@ -54541,6 +54551,7 @@ racgp.org.au##.mb-1.small
 gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
 themoscowtimes.com##.mb-4.py-3
+techbone.net##.mb-5.bg-light
 helpnetsecurity.com##.mbw
 thestar.com.my##.med-rec
 gamezone.com##.med-rect-ph
@@ -55250,6 +55261,7 @@ greatist.com,psychcentral.com##[data-empty]
 phoneia.com##[data-index]
 namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
+ginx.tv##[data-ref]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
@@ -55674,6 +55686,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
+ginx.tv###ginx-floatingvod-containerspacer
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
@@ -58708,6 +58721,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xc7789.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -74018,6 +74032,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qfxdvti.cn^
 ||aiptu.cn^
 ||beiwf.com^
+||mrwen.xyz^
+||btser.cn^
+||jyzap.cn^
+||jyzae.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85904,6 +85922,7 @@ _mongo_stats/
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
 ||singlefeed.com^$third-party
+||sirdata.io^$third-party
 ||site24x7rum.com^$third-party
 ||siteanaliz.org^$third-party
 ||siteapps.com^$third-party

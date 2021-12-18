@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EQCDRiSbPGReAyVtpc7N+g
+! Checksum: oVWdU0VouT74xsz9Fe7dYA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112181402
-! Last Modified: 2021年12月18日 14:02
+! Version: 202112182002
+! Last Modified: 2021年12月18日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1762,6 +1762,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xc7789.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17072,6 +17073,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qfxdvti.cn^
 ||aiptu.cn^
 ||beiwf.com^
+||mrwen.xyz^
+||btser.cn^
+||jyzap.cn^
+||jyzae.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -31261,6 +31266,7 @@ _mongo_stats/
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
 ||singlefeed.com^$third-party
+||sirdata.io^$third-party
 ||site24x7rum.com^$third-party
 ||siteanaliz.org^$third-party
 ||siteapps.com^$third-party
