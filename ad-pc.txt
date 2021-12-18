@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7dqkYlu7kUnSSMcIy05Rsw
+! Checksum: jZdqv0OqlpPzZUF1KoCjhQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112180202
-! Last Modified: 2021年12月18日 02:02
+! Version: 202112180816
+! Last Modified: 2021年12月18日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16874,6 +16874,7 @@ _800x80_
 ###vz_im_ad
 ###wTopAd
 ###wXcds12-ad
+###waldo-sticky-footer-wrapper
 ###wallAd
 ###wall_advert
 ###wallpaper-ad-link
@@ -18895,6 +18896,7 @@ _800x80_
 ##.ad-wall-top
 ##.ad-wallpaper-container
 ##.ad-wallpaper-panorama-container
+##.ad-wap
 ##.ad-warning
 ##.ad-warp
 ##.ad-watermark
@@ -22749,6 +22751,7 @@ _800x80_
 ##.after_post_ad
 ##.afterpostadbox
 ##.afw_ad
+##.age_default
 ##.aggads-ad
 ##.agi-adsaleslinks
 ##.agi-adtop
@@ -30051,6 +30054,8 @@ _800x80_
 ##.wa_adsbottom
 ##.wahAd
 ##.wahAdRight
+##.waldo-display-unit
+##.waldo-placeholder
 ##.wall-ads-control
 ##.wall-ads-right
 ##.wallAd
@@ -31227,7 +31232,6 @@ _800x80_
 ##a[href^="https://www.xvinlink.com/?a_fid="]
 ##a[href^="https://zononi.com/"]
 ##a[id^="ads_banner_"]
-##a[onclick*="//m.economictimes.com/etmack/click.htm"]
 ##a[onmousedown^="this.href='/wp-content/embed-ad-content/"]
 ##a[src^="https://www.utherverse.com/net/"]
 ##ad-desktop-sidebar
@@ -41774,6 +41778,7 @@ tf2r.com#@#.adverts
 ||pbcde.com^
 ||pbhrxxcuobz.com^
 ||pbterra.com^
+||pbxai.com^
 ||pc-ads.com^
 ||pc180101.com^
 ||pc1ads.com^
@@ -51580,6 +51585,7 @@ tf2r.com#@#.adverts
 ||d3hitamb7drqut.cloudfront.net^
 ||d3hj4iyx6t1waz.cloudfront.net^
 ||d3hs51abvkuanv.cloudfront.net^
+||d3hyoy1d16gfg0.cloudfront.net^
 ||d3ithbwcmjcxl7.cloudfront.net^
 ||d3j3yrurxcqogk.cloudfront.net^
 ||d3j7esvm4tntxq.cloudfront.net^
@@ -53075,6 +53081,7 @@ cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootball
 whoscored.com###billboard-container
 inquirer.net###billboard_article
 chilltracking.com###blink
+getthetechnow.com###block-24
 appleworld.today###block-26
 systutorials.com###block-3
 systutorials.com###block-4
@@ -53707,6 +53714,7 @@ allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.c
 allscrabblewords.com,mpog100.com##.ad3
 khaama.com##.ad8
 ndtv.com##.adBg
+m.economictimes.com##.adContainer
 interestingengineering.com##.adW
 auto-data.net##.ad_incar
 tellymix.co.uk##.adb_top
@@ -53895,6 +53903,7 @@ theportugalnews.com##.banners-250
 propertyfinderph.com##.banners-wrapper
 rt.com##.banners__border
 unixmen.com##.banners_home
+m.economictimes.com##.bannerwrapper
 barrons.com##.barrons-body-ad-placement
 euronews.com##.base-leaderboard
 teamfortress.tv##.bau
@@ -81742,6 +81751,7 @@ fqsousou.com,kengso.com#@#.user-share
 /rum/id?
 /rum/performance
 /rum_cmp?
+/rumcdn.
 /rumstat.
 /rumtag.
 /run/perf
