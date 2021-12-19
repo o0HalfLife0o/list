@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4op1rAil3RTk/mqPtEbP5Q
+! Checksum: TPT/nFB/TRow/0/K9X2ysg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112190817
-! Last Modified: 2021年12月19日 08:17
+! Version: 202112191402
+! Last Modified: 2021年12月19日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -634,6 +634,7 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/attachment/freeaddon_banner/*
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -9177,7 +9178,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wanyx.com/Public/js/cqby.swf
 ||wanyx.com/Public/js/fan.js
 ||wbzol.com/swf/352X76.swf
-||wcjbb.com/data/attachment/freeaddon_banner/
 ||wdjm.com.cn/index.php?m=poster&
 ||wdstatic.cn/tg/v2ex/
 ||wdzj.com/wdzj/images/hezuo/

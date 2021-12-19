@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dem2oOBrubO6J1FpEa2shg
+! Checksum: rDP9ujhHEkTZryX/Mutf0Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112190817
-! Last Modified: 2021年12月19日 08:17
+! Version: 202112191402
+! Last Modified: 2021年12月19日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17657,6 +17657,7 @@ _800x80_
 ##.WideAdTile
 ##.WideAdsLeft
 ##.WidgetAdvertiser
+##.WidthAd
 ##.WikiaTopAds
 ##.WiredWidgetsDartAds
 ##.WiredWidgetsGoogleAds
@@ -25545,6 +25546,7 @@ _800x80_
 ##.header-ads-wrap
 ##.header-ads-wrapper
 ##.header-adsense
+##.header-adslot-container
 ##.header-adv
 ##.header-advert
 ##.header-advert-container
@@ -51715,6 +51717,7 @@ tf2r.com#@#.adverts
 ||dzv1ekshu2vbs.cloudfront.net^
 ||googleapis.com/qmftp/$script
 ||trust.zone^$third-party
+||anti-adblock.herokuapp.com^
 ||noadblock.net^$third-party
 ||onfocus.io^$third-party
 ||secretmedia.com^$third-party
@@ -54410,6 +54413,7 @@ knowyourmeme.com##.header-unit-wrapper
 maketecheasier.com##.header-widget
 hd-trailers.net##.header-win
 thelakewoodscoop.com##.headerPromo
+manofmany.com##.header_banner_wrap
 thenewslens.com##.help-tnl-container-300_250
 thenewslens.com##.help-tnl-container-970_250
 igorslab.de##.herald-sidebar
@@ -54588,7 +54592,7 @@ cryptoreporter.info,palestinechronicle.com##.mh-header-widget-2
 investing.com##.midHeader
 newsday.com##.midPg
 edutourism.in##.middMain
-scanwith.com##.middle-banner
+manofmany.com,scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 thefastmode.com##.middlebanner
@@ -57165,6 +57169,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/attachment/freeaddon_banner/*
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -65708,7 +65713,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wanyx.com/Public/js/cqby.swf
 ||wanyx.com/Public/js/fan.js
 ||wbzol.com/swf/352X76.swf
-||wcjbb.com/data/attachment/freeaddon_banner/
 ||wdjm.com.cn/index.php?m=poster&
 ||wdstatic.cn/tg/v2ex/
 ||wdzj.com/wdzj/images/hezuo/
@@ -82364,6 +82368,7 @@ fqsousou.com,kengso.com#@#.user-share
 /third-party-analitycs/*
 /third-party-stats/*
 /third-party/tracking.
+/thirdparty/fp.min.js
 /thirdpartyCookie.
 /thirdPartyPixel.
 /thirdPartyTags.js
@@ -89119,6 +89124,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/prod/report-only
 ||amazonaws.com/production_beacon
 ||amazonaws.com/searchdiscovery-satellite-production/
+||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amp-error-reporting.appspot.com^
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
@@ -89614,6 +89620,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||csp-collector.appspot.com^
 ||csp.archant.co.uk^
 ||csr.onet.pl^
+||ct.corpusapp.com^
 ||ct.eid.co.nz^$third-party
 ||ct.itbusinessedge.com^$third-party
 ||ct.needlive.com^
@@ -92629,6 +92636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/test_rum_nv?
 ||kompass.com/logAdvertisements
 ||l.usaa.com/e/v1/
+||l9bjkkhaycw6f8f4.soundcloud.com^
 ||lastminute.com/ose/tracking/
 ||lastminute.com/service/track/
 ||lastminute.com^*/metrics
@@ -92730,6 +92738,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nordstrom.com/log
 ||norton.com/service/norton/head?
 ||novelcool.com/files/js/yh_tj.js
+||nwuoxwthvak3.stoic.ai^
 ||nypost.com/blaize/
 ||nysun.com/tracker.js
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
@@ -92795,6 +92804,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pulsar.ebay.com^
 ||pulse.delta.com^
 ||pushsquare.com/blank.gif
+||pwt.soundcloud.com^
 ||python.jacksellwood.com^
 ||quibids.com/marketing/pixels/
 ||quickmeme.com/tracker/
@@ -93228,6 +93238,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||halifax-online.co.uk/scripts/16c9d93d/
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tilt.bankofamerica.com^
+||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
 ||bloomberg.com/8FCGYgk4/init.js
@@ -103481,6 +103492,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||seedr.ru^*/stats/
 ||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
+||stat.5-tv.ru^
 ||stat.api.2gis.ru^
 ||stat.bankiros.ru^
 ||stat.pravmir.ru^
