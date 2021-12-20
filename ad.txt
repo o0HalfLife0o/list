@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oHZgEv4tgx4yg/jeO8HkcA
+! Checksum: wIWih0lVmJaYuRhrnDFmlg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112201402
-! Last Modified: 2021年12月20日 14:02
+! Version: 202112202007
+! Last Modified: 2021年12月20日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9744,8 +9744,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/ndcore/interface/searchTop?
+||swoole.com/_images/kundian
+||toutiaoyule.com/n/dspshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+swoole.com##.swoole-resource
+swoole.com##.wiki-resource
 mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
 mengzhan123.com##.ad
 szxx.com.cn###A1
@@ -15414,7 +15419,7 @@ jd.com#@#.ads-item
 gsxt.gov.cn#@#.ads-right
 159i.com,movieffm.net,techroomage.com,zhaopin.com#@#.adsBox
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
-android-doc.com,apk.tw,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,reh.tw,shenfendaquan.com,tingfm.com,vaptcha.com,yabook.org#@#.adsbygoogle
+android-doc.com,apk.tw,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,moa.tw,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com,yabook.org#@#.adsbygoogle
 qq.com#@#.adside
 ruten.com.tw#@#.adslot
 gdmm.com,gkstk.com,youquba.net#@#.adtop
@@ -15542,7 +15547,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn
 @@_cpm_cpa_$domain=52xkdy.com
 @@u-ads.adap.tv*youku.$domain=youku.com
-@@|http*://$image,script,subdocument,third-party,xmlhttprequest,domain=tingfm.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
@@ -17516,6 +17520,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||umhfrtu.cn^
 ||qilinwh.cn^
+||beiwt.com^
+||baobf.com^
+||gh1024.xyz^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -22583,13 +22590,15 @@ _box_ad_
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
 ||423down.com^$csp=script-src 'self' * 'unsafe-inline'
 !------------------------Specific element hiding rules------------------------!
+jingyan.baidu.com##.task-panel-entrance
+jingyan.baidu.com##.wgt-cms-banner
+jingyan.baidu.com##.activity-entrance
 luogu.com.cn##.side > div:last-child
 sonkwo.hk##.store-ad-waist
 360kuai.com###task__modal__container
 360kuai.com##.taskbar
 bjd.com.cn##.screenad
 sina.com.cn##A[href="https://touzi.sina.com.cn/"]
-finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
