@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wIWih0lVmJaYuRhrnDFmlg
+! Checksum: Ke2pLyceJzMJvJZQ4jqlvQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112202007
-! Last Modified: 2021年12月20日 20:07
+! Version: 202112210202
+! Last Modified: 2021年12月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2209,10 +2209,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##a[href*=".91lu001.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||chuxi888.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -7606,7 +7608,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jsdelivr.net/gh/voocdn/static/www/QlZ2twef.js
 ||jsdelivr.net/gh/yaociyuan/
 ||jsdelivr.net/gh/yaofa88/bifa@main/*960
-||jsdelivr.net/npm/@bootcss/*/assets/img/aliyun
+||jsdelivr.*/npm/@bootcss/*/assets/img/aliyun
 ||json.cn/js/aliWindow.js
 ||jswz8.com/images/
 ||jsyefc.com^
@@ -9749,6 +9751,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||toutiaoyule.com/n/dspshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+oeeee.com###adImg
+oeeee.com##.homeAD
 swoole.com##.swoole-resource
 swoole.com##.wiki-resource
 mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
@@ -17523,6 +17527,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beiwt.com^
 ||baobf.com^
 ||gh1024.xyz^
+||hpygame.com^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
