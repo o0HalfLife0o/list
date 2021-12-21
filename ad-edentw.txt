@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SEeLxRwPsj66Aw3foWlXLg
+! Checksum: Ktpwz6a7gV+SoQXYt+FM5Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202112210202
-! Last Modified: 2021年12月21日 02:02
+! Version: 202112212006
+! Last Modified: 2021年12月21日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1501,6 +1501,7 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 ||gadsims.com^$popup
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
 4kporn.xxx#$#override-property-read flashvars.popunder_url null
+livesexporn.net#$#abort-current-inline-script window.onload atob
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
