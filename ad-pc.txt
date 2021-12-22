@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LKJMciMMkvubqHDjHhTOkg
+! Checksum: GfH0vXDHAEAsNJBQ5/R8fA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112220202
-! Last Modified: 2021年12月22日 02:02
+! Version: 202112220818
+! Last Modified: 2021年12月22日 08:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48816,9 +48816,7 @@ tf2r.com#@#.adverts
 ||6kup12tgxx.com^$popup
 ||72b8869dfc34690.com^$popup
 ||87159d7b62fc885.com^$popup
-||888games.com^$popup,third-party
 ||888media.net^$popup,third-party
-||888poker.com^$popup,third-party
 ||888promos.com^$popup,third-party
 ||8baf7ae42000024.com^$popup
 ||900bets10.com^$popup
@@ -55401,6 +55399,7 @@ unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 goldprice.org,silverprice.org##[href^="https://www.jmbullion.com/"] img
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 mql5.com##[href^="https://www.mql5.com/fz/"]
+perezhilton.com##[href^="https://www.mytrue10.com/"]
 weberblog.net##[href^="https://www.neox-networks.com/"]
 ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/cb.php"]
@@ -55625,6 +55624,7 @@ news18.com##div[style="margin-bottom: 15px; background: rgb(230, 230, 230); heig
 news18.com##div[style="margin-bottom:15px;background:#e6e6e6;height:300px"]
 gsmarena.com##div[style="margin-left: -10px; margin-top: 30px; height: 145px;"]
 gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
+nohat.cc##div[style="min-height:250px"]
 askdifference.com##div[style="min-height:280px;"]
 bulbagarden.net##div[style="min-height:315px;"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
@@ -58812,6 +58812,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||qgqxzs.net^
+||l-kingmall.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -79564,10 +79566,11 @@ fqsousou.com,kengso.com#@#.user-share
 /collect.php?data=
 /collect.php?tid=
 /collect/?dp=
+/collect/kasupport
 /collect/kf?
 /collect/pageview?
 /collect/pv?
-/collect/sdk?
+/collect/sdk?$domain=~iugu.com
 /collect/stats?
 /collect/tracking.
 /collect/view?
@@ -104003,7 +104006,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.com
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
 @@||innovelsolutions.com^*/tracking/$~third-party
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
