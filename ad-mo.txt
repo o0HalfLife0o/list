@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GW1WMh36crUtBbyf40UzWA
+! Checksum: nCYI2wcPu1UcWwMFIW4gew
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112230202
-! Last Modified: 2021年12月23日 02:02
+! Version: 202112230817
+! Last Modified: 2021年12月23日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -26085,6 +26085,7 @@ _800x80_
 ##.js-stream-ad
 ##.js-stream-featured-ad
 ##.js-toggle-ad
+##.js-underplayerAd
 ##.jsAdSlot
 ##.jsMPUSponsor
 ##.jsOneAd
@@ -28071,6 +28072,7 @@ _800x80_
 ##.rolloverad
 ##.roof-ad
 ##.rot_ads
+##.rotatead-container
 ##.rotating-ad
 ##.rotating-ads
 ##.rotatingAdvertisement
@@ -29742,6 +29744,7 @@ _800x80_
 ##.under-header-ad
 ##.under-player-ads
 ##.under_ads
+##.underplayerAd
 ##.underplayer__ad
 ##.undertimyads
 ##.uniAdBox
@@ -35346,6 +35349,7 @@ tf2r.com#@#.adverts
 ||cuckooretire.com^
 ||cuculf.name^
 ||cucumbersdespitebristle.com^
+||cuewbsmpk.top^
 ||cueyetwee.site^
 ||cugylkeqvdfrwi.xyz^
 ||cuhoxiphi.com^
@@ -35770,6 +35774,7 @@ tf2r.com#@#.adverts
 ||dilutionjavelinexterminator.com^
 ||dilvehoammp.com^
 ||dimedontisar.cam^
+||dimensionhatefulstricken.com^
 ||dimeromaean.com^
 ||dimessing-parker.com^
 ||dimfarlow.com^
@@ -37025,6 +37030,7 @@ tf2r.com#@#.adverts
 ||flashclicks.com^
 ||flashingactshrs.com^
 ||flashinginvolvementmatches.com^
+||flashymass.com^
 ||flatcapspriggy.cam^
 ||flatepicbats.com^
 ||flatlyforensics.com^
@@ -38648,6 +38654,7 @@ tf2r.com#@#.adverts
 ||instrumentatlasjacket.com^
 ||insumber.com^
 ||inswebt.com^
+||intellectualcontradictstuck.com^
 ||intellibanners.com^
 ||intelligenceadx.com^
 ||intellipopup.com^
@@ -42186,6 +42193,7 @@ tf2r.com#@#.adverts
 ||powerain.biz^
 ||powerfulrumbleshrewd.com^
 ||powermelting.com^
+||powferads.com^
 ||poxa.xyz^
 ||poxaharap.com^
 ||poxeemso.com^
@@ -46014,6 +46022,7 @@ tf2r.com#@#.adverts
 ||w00ur5z9jy3a.com^
 ||w3exit.com^
 ||w4.com^
+||wabobkoirw.top^
 ||wackeerd.com^
 ||wackotracko.com^
 ||waddlegrammind.com^
@@ -46896,6 +46905,7 @@ tf2r.com#@#.adverts
 ||yyjvimo.com^
 ||yyltlwtic.com^
 ||yysvzaodorhv.com^
+||yyxirksdsnru.top^
 ||yzlwuuzzehjh.com^
 ||yzus09by.com^
 ||z3dmbpl6309s.com^
@@ -48046,6 +48056,7 @@ tf2r.com#@#.adverts
 ||mobday.com^$third-party
 ||mobfox.com^$third-party
 ||mobile-10.com^$third-party
+||mobiletracking.ru^$third-party
 ||mokonocdn.com^$third-party
 ||monetizer101.com^$third-party
 ||monsoonads.com^$third-party
@@ -49219,6 +49230,7 @@ tf2r.com#@#.adverts
 ||firstclass-download.com^$popup
 ||fitcenterz.com^$popup
 ||flashinginvolvementmatches.com^$popup
+||flashymass.com^$popup
 ||flewssyzygia.casa^$popup
 ||flixcontentshop.com^$popup
 ||flopinclose.com^$popup
@@ -49540,6 +49552,7 @@ tf2r.com#@#.adverts
 ||mob1ledev1ces.com^$popup
 ||mobileoffers-al-download.com^$popup
 ||mobileraffles.com^$popup
+||mobiletracking.ru^$popup,third-party
 ||mobilevq.com^$popup
 ||mobipromote.com^$popup
 ||mobreach.com^$popup
@@ -49730,6 +49743,7 @@ tf2r.com#@#.adverts
 ||predirect.net^$popup
 ||premium-members.com^$popup
 ||premium4kflix.top^$popup
+||premiumbros.com^$popup
 ||prfdesk.pro^$popup
 ||prickutmostperjury.com^$popup
 ||prime-vpnet.com^$popup
@@ -50771,6 +50785,7 @@ tf2r.com#@#.adverts
 ||adultadworld.com^$popup,third-party
 ||alobby-x.eu^$popup
 ||axp9.com^$popup
+||axp9.net.^$popup
 ||banners.cams.com^$popup
 ||bxgjpocfz1g1jiwb.pro^$popup
 ||c4tracking01.com^$popup
@@ -78700,7 +78715,6 @@ fqsousou.com,kengso.com#@#.user-share
 /amp/log.json
 /amp/pingback?
 /amp_ping/*
-/amplitude-*.js$script,domain=~amplitude.com
 /ampmetrics.
 /amptrack.
 /amunglite.
