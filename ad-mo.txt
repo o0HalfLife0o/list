@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zvM0YVAIlrkMhWQxvKoiDg
+! Checksum: 3I5Pkk8zzJMNWW5NMSWAxw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112231403
-! Last Modified: 2021年12月23日 14:03
+! Version: 202112232006
+! Last Modified: 2021年12月23日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12565,6 +12565,7 @@ _800x80_
 ###blox-halfpage-ad
 ###blox-tile-ad
 ###blox-tower-ad
+###bm-HeaderAd
 ###bn_ad
 ###bnr-300x250
 ###bnr-468x60
@@ -54198,6 +54199,7 @@ crash.net##.dmpu-container
 allrecipes.com##.docking-leaderboard-container
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
+thesun.co.uk##.dpa-slot
 duplichecker.com##.dpn
 kickasstorrents.to##.dssdffds
 designtaxi.com##.dt_rcjs
@@ -54509,6 +54511,7 @@ latestly.com##.lhs_adv_970x90_div
 gumtree.com.au##.liberty-container-1001
 op.gg##.life-owner
 mobygames.com##.lifesupport-header
+iheartradio.ca##.lightbox-wrapper
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
 babynamegenie.com,forless.com,worldtimeserver.com##.links
@@ -58202,6 +58205,7 @@ ubmcmm.baidustatic.com
 ##.asb-post
 ##.assort-ad
 ##.aub-post
+##.ayx[style="display:block;"]
 ##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
 ##.baiduad
 ##.banner-ad-section
@@ -66298,6 +66302,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||shui5.cn^*/ima/gg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -78275,7 +78280,7 @@ fqsousou.com,kengso.com#@#.user-share
 -ga-tracking/
 -gatracker.
 -geoIP.js
--google-analytics-$domain=~wordpress.org
+-google-analytics-$script,domain=~wordpress.org
 -google-analytics.
 -google-analytics/$domain=~wordpress.org
 -heatmaps-analytics/
@@ -102991,6 +102996,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||al.autohome.com.cn^
 ||alarm.youku.com/api/sendAlarm
 ||alicdn.com/f/pcdn/i.php?
+||analytics-gw.games.wanmei.com^
 ||analytics.126.net^
 ||analytics.163.com^
 ||analytics.oneplus.cn^
@@ -103199,6 +103205,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||v.blog.sohu.com/dostat.do?
 ||vatrack.hinet.net^
 ||vipstatic.com/mars/
+||wanmei.com/public/js/stat.js
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
