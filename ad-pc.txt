@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gF+8Yepl5tTPDAcjUPlJ0Q
+! Checksum: 2vaJx250Mi82lgOPlxxxGA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112242005
-! Last Modified: 2021年12月24日 20:05
+! Version: 202112250202
+! Last Modified: 2021年12月25日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48411,6 +48411,7 @@ tf2r.com#@#.adverts
 ||revenuegiants.com^$third-party
 ||reyden-x.com^$third-party
 ||rhombusads.com^$third-party
+||richaudience.com^$third-party
 ||roirocket.com^$third-party
 ||rotaban.ru^$third-party
 ||salvador24.com^$third-party
@@ -58898,6 +58899,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||uscdn.top^
+||maccms.info^
+||nnocsin.cn^
+||agnezanna.com^
 ||akmhw.com^
 ||ycych.com^
 ||00-gov.cn^
@@ -72255,7 +72260,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn
-@@_cpm_cpa_$domain=52xkdy.com
+@@_cpa_adview_$domain=52xkdy.com
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
@@ -74229,6 +74234,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||lpwx.xyz^
+||wangyasen.link^
+||hbyjrspyxgs.site^
+||jscvalves.me^
 ||easyjz.com.cn^
 ||yuegepiano.cn^
 ||dashuaibi.icu^
@@ -86069,7 +86078,6 @@ _mongo_stats/
 ||rhinoseo.com^$third-party
 ||riastats.com^$third-party
 ||richard-group.com^$third-party
-||richaudience.com^$third-party
 ||richmetrics.com^$third-party
 ||rightmoveanalytics.co.uk^$third-party
 ||ritecounter.com^$third-party
