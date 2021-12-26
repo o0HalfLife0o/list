@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J6OFMenxzqwFl7UB6e7Y8g
+! Checksum: R7qTb/+uSVgwpm8XDq93Xg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112261403
-! Last Modified: 2021年12月26日 14:03
+! Version: 202112262007
+! Last Modified: 2021年12月26日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31721,6 +31721,7 @@ wegotads.co.za#@#.ad-source
 isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 job.inshokuten.com#@#.ad-title
 lifeinvader.com,spanishdict.com#@#.ad-wrapper
+postimees.ee#@#.ad01
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
 thoughtcatalog.com#@#.adChoicesLogo
@@ -58907,6 +58908,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*=".asada-kairyo.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -66472,6 +66474,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||d1net.com/index.php?m=poster&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+life.tw###fbFixedAd
+kkbox.com##.google-ad-manager
 familydoctor.com.cn##.global-top-links-wrap
 d1net.com##div[style="width:1000px;height:90px;margin:15px auto 15px auto;"]
 szxx.com.cn###A1
@@ -104103,9 +104107,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=butterfieldonline.com|uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
-@@||cdn.segment.com/analytics-next/$domain=givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=fender.com|givingassistant.org
-@@||cdn.segment.com/v1/projects/$domain=benchling.com|givingassistant.org
+@@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org
+@@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
+@@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
+@@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
