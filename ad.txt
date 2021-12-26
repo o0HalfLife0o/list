@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IaB+5yy36HM8AS/zn3ZdPA
+! Checksum: 0J5KSX+xaKORwQyAD+wi/A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112262007
-! Last Modified: 2021年12月26日 20:07
+! Version: 202112270202
+! Last Modified: 2021年12月27日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2210,6 +2210,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||90158js.com^
+||ylbb-vipjs.com^
 ||ilaohuyou.xyz^
 ||00-gov.cn^
 ||000123456789.site^
@@ -17565,6 +17567,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shsdw.cn^
 ||bslnb.cn^
 ||gfncg.cn^
+||szzd.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21268,7 +21271,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 !#onemanhua.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/ad1.js$domain=cocomanga.com|cocomanhua.com
+@@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
 cocomanga.com,cocomanhua.com#@#.gg430
