@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rVpZCjzP4+4fyvDXhIr76Q
+! Checksum: ypgq6VHonQ7P43p18CmV2w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112260201
-! Last Modified: 2021年12月26日 02:01
+! Version: 202112260818
+! Last Modified: 2021年12月26日 08:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31706,6 +31706,7 @@ memytutaj.pl#@##top-ad
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
+hach.de#@#.ad-active
 job.inshokuten.com#@#.ad-area
 job.inshokuten.com,sexgr.net#@#.ad-box
 livedoorblogstyle.jp#@#.ad-center
@@ -57029,6 +57030,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adf.ly/ad/banner/*=$xmlhttprequest
 @@||adf.ly^$generichide
 @@||adtng.com/get/$subdocument,domain=hanime.tv
+@@||ask4movie.io^$generichide
 @@||avforums.com/*ad$script
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
@@ -81214,6 +81216,7 @@ fqsousou.com,kengso.com#@#.user-share
 /m1x1.jpg
 /m360lib.js
 /ma.gif?cc=
+/madAnalytics.js
 /magiq-
 /mail_tracking-cg.php
 /mail_tracking.php
