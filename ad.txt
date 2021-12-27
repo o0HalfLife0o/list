@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Hfy2UlKvUHYIQ7fXgtFlTQ
+! Checksum: XImUh2XnSvbJnNveR7iJmw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112270817
-! Last Modified: 2021年12月27日 08:17
+! Version: 202112271403
+! Last Modified: 2021年12月27日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -636,6 +636,7 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/js/ads/hf*.js
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -9772,8 +9773,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jable.tv/assets/images/*-slider.
+||jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
+||cnprint.org/bbs/images/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jable.tv###jimds-slider
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15501,9 +15506,11 @@ tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
+chaojizhibo.net#@#.adsbygoogle
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -17557,6 +17564,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||zl856.cn^
+||bcjxwlkj.com^
+||jiucaishuo.cn^
+||bsjxwlkj.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
