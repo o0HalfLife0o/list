@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XImUh2XnSvbJnNveR7iJmw
+! Checksum: N1K081jqKGr5txQfBHmltw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112271403
-! Last Modified: 2021年12月27日 14:03
+! Version: 202112272011
+! Last Modified: 2021年12月27日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -635,6 +635,7 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/css/gg.js
 -880-80-4.jpg
 /js/ads/hf*.js
 -90mh-gg.
@@ -2211,6 +2212,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||qygzbxpt.com^
+||bigbrainker.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9038,8 +9041,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui.gtimg.com//res/
 ||tuicool.com/images/upload/aliyun
-||tujigu.com/css/gg.js
-||tujigu.net/css/gg.js
 ||tupian55.com^*.gif
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
@@ -9776,8 +9777,17 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jable.tv/assets/images/*-slider.
 ||jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
 ||cnprint.org/bbs/images/gg/
+||bolecdn.com/button/txt.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+foodmate.net##.ad1
+foodmate.net##.ad2
+foodmate.net##.ad3
+foodmate.net##.ad4
+foodmate.net##.ad5
+foodmate.net##.ad6
+foodmate.net##.ad7
+foodmate.net##.zx_ad
 jable.tv###jimds-slider
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17568,6 +17578,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bcjxwlkj.com^
 ||jiucaishuo.cn^
 ||bsjxwlkj.com^
+||tjhxv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

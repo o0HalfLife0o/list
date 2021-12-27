@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ErsJFLvn+78dPbc1fADBgA
+! Checksum: ju6BGxD8W/NmFBhd/FdMkw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112271403
-! Last Modified: 2021年12月27日 14:03
+! Version: 202112272011
+! Last Modified: 2021年12月27日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -188,6 +188,7 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/css/gg.js
 -880-80-4.jpg
 /js/ads/hf*.js
 -90mh-gg.
@@ -1764,6 +1765,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||qygzbxpt.com^
+||bigbrainker.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -8591,8 +8594,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tudouui.com/tspecial/assets/PauseContainer.swf
 ||tui.gtimg.com//res/
 ||tuicool.com/images/upload/aliyun
-||tujigu.com/css/gg.js
-||tujigu.net/css/gg.js
 ||tupian55.com^*.gif
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
@@ -9329,8 +9330,17 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jable.tv/assets/images/*-slider.
 ||jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
 ||cnprint.org/bbs/images/gg/
+||bolecdn.com/button/txt.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+foodmate.net##.ad1
+foodmate.net##.ad2
+foodmate.net##.ad3
+foodmate.net##.ad4
+foodmate.net##.ad5
+foodmate.net##.ad6
+foodmate.net##.ad7
+foodmate.net##.zx_ad
 jable.tv###jimds-slider
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17121,6 +17131,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bcjxwlkj.com^
 ||jiucaishuo.cn^
 ||bsjxwlkj.com^
+||tjhxv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -49257,6 +49268,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
+@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca/weblx/static/optimizely.$script
