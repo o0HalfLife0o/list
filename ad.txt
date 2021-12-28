@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wGAAoAJZVC3Vx+6bgECDxg
+! Checksum: b80yE1cGGy6xNA5+RVuxNw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112282006
-! Last Modified: 2021年12月28日 20:06
+! Version: 202112290202
+! Last Modified: 2021年12月29日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4716,6 +4716,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||coconutsumptuousreseptivereseptive.com^$popup
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
@@ -9476,7 +9477,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
 ||yatu.tv/m/images/*300_100
-||ybbs.ca/index/js/advReplay_
 ||yccz.net/xml/
 ||yczbb.*/ggimg/
 ||ydss.cn/static/js/autoAd.js
@@ -9553,7 +9553,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
-||yorkbbs.ca/yorkads/
 ||you85.net/ck2/
 ||youaima.com/rest/
 ||youaima.com/zz/
@@ -9783,8 +9782,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||2114.com/zb_users/script/advertise.js
+||yorkbbs.ca/crm/section/v1/get/list/open
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+router.houzi-blog.top##.img
+v2rayssr.com###gg-box
 bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 szxx.com.cn###A1
@@ -13885,7 +13887,6 @@ chineseinla.com##.text-ads-col
 baidu.com##.text-advertise
 fastadmin.net##.text-center > .carousel
 baidu.com##.text-link-ads
-yorkbbs.ca##.textNewsBorder
 auto-online.com.tw##.text_links_h
 jiyingw.net##.textwidget > p > a > img
 maomaomom.com##.textwidget > table[width="1050"]
@@ -17583,6 +17584,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kuangbang.ltd^
 ||thjxwlkj.com^
 ||trueskincare.tech^
+||wzzb.club^
+||xihua.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21559,9 +21562,7 @@ zol.com.cn##span[class^="jisu-down"]
 eastday.com#@##leftShare
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
-sogou.com#@##shareContent
 189.cn,zdzdm.com#@##share_list
-harrynull.tech#@##sharelist
 hotjob.cn#@#.SOCIAL
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 storm.mg#@#.btn_fb
@@ -21570,9 +21571,7 @@ softblog.tw#@#.dshare
 carousell.com#@#.fb-b
 sui.com#@#.fb-btn
 douyu.com,oschina.net#@#.follow-btn
-bilibili.com#@#.follow-wrapper
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
-gamersky.com#@#.like2
 readmoo.com#@#.navbar-social
 youdao.com#@#.open-share
 music.163.com#@#.p-share
@@ -21693,7 +21692,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||autoimg.cn/bi/common/pvevent_all_
 @@||bagehd.com/iplookup.
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.$domain=clgod.com
 @@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
