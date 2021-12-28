@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sRbhxBuw6a1rmqw+gY6BHg
+! Checksum: s8E1D9GSY8Y+Hu/qDm6DNA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202112281402
-! Last Modified: 2021年12月28日 14:02
+! Version: 202112282006
+! Last Modified: 2021年12月28日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14823,6 +14823,7 @@ _800x80_
 ###menubanner-ad-content
 ###menubarad
 ###mgid-container
+###mgid_iframe
 ###mhheader_ad
 ###mi_story_assets_ad
 ###microAdDiv
@@ -74205,6 +74206,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yini.link^
 ||kuangbang.ltd^
 ||thjxwlkj.com^
+||trueskincare.tech^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
