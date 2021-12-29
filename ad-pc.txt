@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CLMr6t+3FSq9V2QH+u4B3w
+! Checksum: X4mxuRsIgVwh1VAfs4YLlA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112292006
-! Last Modified: 2021年12月29日 20:06
+! Version: 202112300202
+! Last Modified: 2021年12月30日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12601,6 +12601,7 @@ _800x80_
 ###block-googleads3
 ###block-googleads3-2
 ###block-ibtimestv-player-companion-ad
+###block-leaderboard-ad-channel
 ###block-localcom-localcom-ads
 ###block-ltadvertising-ltadvertising
 ###block-nst-googledfp-site-takeover
@@ -26445,6 +26446,7 @@ _800x80_
 ##.lg-ads-skin-container
 ##.lgRecAd
 ##.lg_ad
+##.liberty-ad-renderer-iframe
 ##.liboxads
 ##.ligatus
 ##.lightad
@@ -58988,6 +58990,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||xiaodongjun.com^
+||qzi-ggjsyuming.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -66560,8 +66563,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
 ||yc58.com/tencent
+||kisssub.*/public/imgbed/gg/
+||91hs005.xyz/p/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hsex.men###container > div:not([class])
 36kr.com##.home-ad-flow-banner
 36kr.com##.kr-ad-home-flow-banner
 yc58.com###contain1
@@ -74371,6 +74377,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tg876.cn^
 ||zyezhz.cn^
 ||hugvr.cn^
+||carlseb.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
