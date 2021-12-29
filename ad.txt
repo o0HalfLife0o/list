@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TuB2Tpaim2ddYzGWhBBWtQ
+! Checksum: WqurAKlrSSmPaCegLcydrw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112290816
-! Last Modified: 2021年12月29日 08:16
+! Version: 202112291403
+! Last Modified: 2021年12月29日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9783,8 +9783,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||eccn.com/js/gg.js
+||eccn.com/js/popupad_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+eccn.com###sem_online
+doupocangqiong1.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15483,7 +15487,6 @@ htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
 zalora.com.hk#@#.advertisement-block
 lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
-8maple.ru,gamer.com.tw,pron777.com#@#.afs_ads
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
 10.10.5.12#@#.banner_ad
@@ -17572,6 +17575,17 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||midy.me^
+||myfengyi.xyz^
+||zgxieshou.com^
+||lyjxwlkj.com^
+||m8tu2.online^
+||psl93qx.site^
+||jao38.xyz^
+||c40.xyz^
+||mfagqah.cn^
+||ws-expo.cn^
+||tg876.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
