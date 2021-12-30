@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p/9rmqBJmkuQxP7otqKizA
+! Checksum: aHvxZhEvy8UpoKpHmOjE1Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112301402
-! Last Modified: 2021年12月30日 14:02
+! Version: 202112302006
+! Last Modified: 2021年12月30日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17148,6 +17148,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ncgywud.cn^
 ||fengyiwc.xyz^
 ||tong.pub^
+||yancy.fun^
+||spjxwlkj.com^
+||gengsang.me^
+||dainifei3.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29371,6 +29375,7 @@ _mongo_stats/
 ||g12281228770.co^
 ||g12479313105.co^
 ||g1584674682.co^
+||g1782759015.co^
 ||g1782759016.co^
 ||g1980843350.co^
 ||g2178927685.co^
@@ -29383,6 +29388,7 @@ _mongo_stats/
 ||g8715710740.co^
 ||g8913795075.co^
 ||g9111879410.co^
+||g990421675.co^
 ||g990421676.co^
 ||gbqofs.com^
 ||geoedge.be^
@@ -37909,7 +37915,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||canstockphoto.com/monitor/
 ||canstockphoto.com/server.php?rqst=track
 ||capitalone.com/collector/
-||caremark.com/tnadstlinj.js
 ||cbc.ca/g/stats/
 ||cbsimg.net/js/cbsi/dw.js
 ||cc-api-data.adobe.io^
@@ -38209,7 +38214,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kohls.com/test_rum_nv?
 ||kompass.com/logAdvertisements
 ||l.usaa.com/e/v1/
-||l9bjkkhaycw6f8f4.soundcloud.com^
 ||lastminute.com/ose/tracking/
 ||lastminute.com/service/track/
 ||lastminute.com^*/metrics
@@ -38307,6 +38311,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nflshop.com/api/track
 ||nhk.jp^*/bc.gif?
 ||nm.newegg.com^
+||no9pldds1lmn3.soundcloud.com^
 ||noodle.backmarket.io^
 ||nordstrom.com/log
 ||norton.com/service/norton/head?
@@ -38696,6 +38701,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimedia.com/deliver/statistiques/
 ||umami.wakarimasen.moe^
 ||uniqlo.com/us/elgnisolqinu.js
+||unsplash.com/a/third-party/snow-
+||unsplash.com/nmetrics
 ||upi.com/story/stat/
 ||ups.com/img/icp.gif
 ||urs.metacritic.com^
@@ -38979,6 +38986,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
+||d28n7yywqog3r7.cloudfront.net^
+||eventgateway.soundcloud.com^
 ||primate.dmarcdigests.com^
 ||161.35.245.96^
 ||1796kpkzuwj.www.hawpar.com^
@@ -49455,7 +49464,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
-@@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch
+@@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
