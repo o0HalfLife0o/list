@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aHvxZhEvy8UpoKpHmOjE1Q
+! Checksum: ySi0idNFCYKVLhCq+PWazw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112302006
-! Last Modified: 2021年12月30日 20:06
+! Version: 202112310202
+! Last Modified: 2021年12月31日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9345,6 +9345,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+zol.com.cn##a#downloader_main
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17152,6 +17153,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||spjxwlkj.com^
 ||gengsang.me^
 ||dainifei3.com^
+||gvwan.cn^
+||baobaopicture.space^
+||mzwfu.xyz^
+||xgzdys.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29426,6 +29431,7 @@ _mongo_stats/
 ||omappapi.com^
 ||omtrdc.net^
 ||ostrichesica.com^
+||p-analytics.life^
 ||p2r14.com^
 ||pdflive.org^
 ||permutive.app^
@@ -49350,7 +49356,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
-@@||browser.sentry-cdn.com^$domain=doconcall.com.my|eco-clobber.co.uk
+@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
