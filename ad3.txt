@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /i1+WV2+5eB9Sn4zCHDHiA
+! Checksum: 8siVmsgT0YshKD9TY2U7mg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112311402
-! Last Modified: 2021年12月31日 14:02
+! Version: 202112312006
+! Last Modified: 2021年12月31日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17149,6 +17149,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||qv566.cn^
 ||jljxwlkjw.com^
+||tguomcq.cn^
+||myline1.club^
+||zgyso.cn^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
@@ -24948,6 +24951,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /client.rum.
 /client_pathlog.asp?
 /clientdatacollector/*
+/clientele/reports/*
 /clientEventLog/*
 /clientlib-analytics-
 /clientlibs/analytics.
@@ -38877,6 +38881,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||seekingalpha.com/xgCxM9By/init.js
 ||simon.com/46SCNLxs/init.js
 ||skechers.com/dL6GOSf9/init.js
+||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||therealreal.com/ev56mY37/init.js
 ||tumi.com/4i06uv8M/init.js
@@ -49791,6 +49796,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||wishpost.cn/api/tracking/
 !---------- Czech ----------
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
+@@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
