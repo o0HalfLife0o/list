@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tuHInwGJrAXcPf7e+bQHYg
+! Checksum: +NSdRiadJcy2YNz9HnE56Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112310817
-! Last Modified: 2021年12月31日 08:17
+! Version: 202112311402
+! Last Modified: 2021年12月31日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -52655,6 +52655,7 @@ tf2r.com#@#.adverts
 ||theispguide.com/premiumisp.html
 ||thepeninsulaqatar.com/images/front/cads/
 ||thephuketnews.com/photo/banner/
+||thepm.media/tpm/motlib.js
 ||theseoultimes.com/ST/banner/
 ||thisgengaming.com/Scripts/widget2.aspx
 ||thisismoney.co.uk/i/pix/partner/
@@ -54917,6 +54918,7 @@ moodiedavittreport.com##.notice
 mlsbd.shop##.notice-board
 computing.co.uk##.notice-slot-full-below-header
 mondoweiss.net##.notrack
+pcgamebenchmark.com##.nova_wrapper
 zimbio.com##.npd-video-break
 designtaxi.com##.nt-text
 nplusonemag.com##.nurble
@@ -54994,7 +54996,7 @@ filmibeat.com##.photos-add
 webmd.com##.physician-outer
 locklab.com##.picwrap
 redgifs.com##.placard-wrapper
-dallasobserver.com,houstonpress.com,streetcheck.co.uk,zerohedge.com##.placement
+dallasobserver.com,houstonpress.com,pcgamebenchmark.com,streetcheck.co.uk,zerohedge.com##.placement
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
 diglloyd.com,windinmyface.com##.placementTR
@@ -55209,6 +55211,7 @@ mbauniverse.com##.shriresume-logo
 scriptinghelpers.org##.shvertise-skyscraper
 gaming.uefa.com##.si-ucl--head-bandSprLogo
 stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
+pcgamebenchmark.com##.side
 news.am,viva.co.nz##.side-banner
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
@@ -59065,8 +59068,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||xfei.top^
-||wxjj94.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -61217,6 +61218,7 @@ ubmcmm.baidustatic.com
 ||wwwlongjiekejijishu.com^
 ||wxbdfm.com^
 ||wxiansen.cn^
+||wxjj94.top^
 ||wxs666.cn^
 ||wxxfqc.com^
 ||wxyun168.xyz^
@@ -61246,6 +61248,7 @@ ubmcmm.baidustatic.com
 ||xdcqcyp.com^
 ||xdwan.com^$third-party
 ||xe2c.com^$third-party
+||xfei.top^
 ||xgxq518.com^
 ||xhbqczl.com^
 ||xhmrv.com^
@@ -62996,6 +62999,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
+||bku3.com/js/cctv-bf.js
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -66645,6 +66649,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -67801,7 +67806,7 @@ antdv.com###right-bottom
 cnbeta.com###right1
 hbzhan.com###rightAdv
 jiaodong.net###rightBanner
-cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
+ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
 zimushe.com###rightFixed
 2345.com###rightXieCheng
@@ -67903,6 +67908,7 @@ cjn.cn###slidelr
 526bt.com###slider
 tiantianzhibo.com###sliderb_container
 popart.hk###slideshow
+ca168.com###slideshow_wrapper
 pconline.com.cn###smallHB1
 eol.cn###small_adleft
 eol.cn###small_adright
@@ -68521,6 +68527,7 @@ fzdao.cn##.adlan
 jsphp.net##.adleft-wrap
 cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
+ca168.com##.admarket
 mobile01.com##.admicrobtn
 ccoo.cn,gw54.com,hackhome.com,vipcn.com##.adn
 zj.com##.adnav
@@ -71193,7 +71200,6 @@ programmer-club.com.tw##A[href*="/ADRedirect."]
 24en.com##A[href*="/ClickAd?"]
 020job.com##A[href^="/Click.aspx?AdPageID="]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
-huya.com#?##J_spbg:-abp-has( > .J_hot > .drag-elem[data-href*=".360.cn"])
 cnxz.cn##[class*="-ad"]
 zhangxinxu.com##[class*="_block-"]
 zhangxinxu.com##[class*="bottom_"]
@@ -71578,7 +71584,6 @@ cnbeta.com#?#.item:-abp-has(> dL > a[href^="https://ad.doubleclick.net/"])
 cnbeta.com#?#.item:-abp-has(> dl > dt > a[href*=".greatroma.com"])
 cnbeta.com#?#.item:-abp-has(> dl > dt > a[href^="http://click.aliyun.com/"])
 cnbeta.com#?#.items-area > .item:-abp-has(> dl > dt > a[href^="http"]:not([href*="cnbeta."]))
-6parknews.com#?##d_list > ul > li:-abp-has( > a[href^="http"]:not([href*="6parknews"]))
 steamcn.com##div > a[href*=".taobao.com"]
 theporn.cc##div > div[align="center"]
 bitauto.com##div > ins[data-type="ad_play"]
@@ -74443,6 +74448,33 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||qv566.cn^
+||jljxwlkjw.com^
+bxwx333.org###addiv3
+bxwx333.org###bdstatic
+55shuba.com###botDiv
+bisowu.com##.a-row
+.lu/js/wap_billing.js
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+yemancomic.com##.ncl_img > :not(#cp_img)
+duanwenxue.com##.qgzdwx
+.wap.x4399.com^
+.wap.yb3.cc^
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
+jx.la##[onclick*="apk"]
+52biquge.com##[onclick*="app"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -74462,39 +74494,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".yixing-hb.com"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
-.lu/js/wap_billing.js
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-.wap.x4399.com^
-.wap.yb3.cc^
-52biquge.com##[onclick*="app"]
-52biquge.com##a[href^="http://html.350.com/"]
-55shuba.com###botDiv
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-ah123z.com##script + div[style]
-biqugee.com##div[style="width:976px;"]
-bisowu.com##.a-row
-bixia.org##dd[style*="bottom:"]
 bookrb.com##a[href="/rmtj.html"]
-bxwx333.org###addiv3
-bxwx333.org###bdstatic
-duanwenxue.com##.qgzdwx
-jx.la##[onclick*="apk"]
-piaotian5.net##script + div[style="padding:15px;"]
-smjb.net##div[style*="height: 50%"]
+52biquge.com##a[href^="http://html.350.com/"]
+bixia.org##dd[style*="bottom:"]
 xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
-yemancomic.com##.ncl_img > :not(#cp_img)
+smjb.net##div[style*="height: 50%"]
+biqugee.com##div[style="width:976px;"]
+piaotian5.net##script + div[style="padding:15px;"]
+ah123z.com##script + div[style]
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -75368,6 +75375,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dedayuntong.com^
 ||dehuaguanyin.com^
 ||deskt.cn^
+||desky.xyz^
 ||deyidesign.com^
 ||dfggb.cc^
 ||dfjbgfldsjdsnldksjalld1235.cn^
@@ -75533,6 +75541,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||goldenwind.icu^
 ||gongshangwang.top^
 ||gongxifc.com^
+||goodsky.shop^
 ||greensprite.top^
 ||grggkas.cn^
 ||grksvub.cn^
@@ -76121,6 +76130,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zfw.me^
 ||zgxieshou.com^
 ||zgystsd.com^
+||zhangjianlong.xyz^
 ||zhangtiantian.cc^
 ||zhenxinchicken.xyz^
 ||zhifoujiaoyu.xyz^
@@ -90496,6 +90506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gubagoo.io/track/
 ||h2porn.com/new-hit/?
 ||happen.spkt.io^
+||harpocrates.ethyca.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
 ||hb.vhsrv.com^
@@ -93016,6 +93027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebay.com^*/customer_image_service?
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||ednetz.de/api/public/socialmediacounter.
+||eec.crunchyroll.com^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||ekg.riotgames.com^
@@ -93980,8 +93992,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
-||d28n7yywqog3r7.cloudfront.net^
-||eventgateway.soundcloud.com^
 ||primate.dmarcdigests.com^
 ||161.35.245.96^
 ||1796kpkzuwj.www.hawpar.com^
