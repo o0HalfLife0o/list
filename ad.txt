@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oT/pXaymvHiFh8bbOLlZPg
+! Checksum: Lp+q34cBatC2DdvC+qBTKw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202112312006
-! Last Modified: 2021年12月31日 20:06
+! Version: 202201010201
+! Last Modified: 2022年01月01日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2159,6 +2159,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/od005.cn"]
 ##a[href*="/od005.com"]
+##a[href*=".chicagospy.com/"]
 ##a[href*="/od005.net"]
 ##a[href*="/od005.tv"]
 ##a[href*="/od005.vip"]
@@ -9793,8 +9794,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||dingdangsheji.com^*/%E7%94%BB%E6%9D%BF-
+||dingdangsheji.com^*/%E5%9B%BE%E6%80%AA%E5%85%BD
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+my0511.com###toplmad
+my0511.com###shiyonggjad
+dingdangsheji.com##.modown-ad
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -15622,6 +15628,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_ads_cpc_$domain=90lover.cn
 @@_cpa_adview_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn
+@@_cpc_cpm_$domain=youranshare.com
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
@@ -17599,6 +17606,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tguomcq.cn^
 ||myline1.club^
 ||zgyso.cn^
+||xaxdwz.xyz^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
