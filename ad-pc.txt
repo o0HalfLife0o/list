@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r+0sKLnWftxQQCv6QRRMYw
+! Checksum: tuHInwGJrAXcPf7e+bQHYg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202112310202
-! Last Modified: 2021年12月31日 02:02
+! Version: 202112310817
+! Last Modified: 2021年12月31日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17766,6 +17766,12 @@ _800x80_
 ##.ad--noscroll
 ##.ad--object
 ##.ad--overlayer
+##.ad--p1
+##.ad--p2
+##.ad--p3
+##.ad--p4
+##.ad--p6
+##.ad--p7
 ##.ad--panorama
 ##.ad--placeholder
 ##.ad--pubperform
@@ -20416,6 +20422,7 @@ _800x80_
 ##.adcontainer2
 ##.adcontainer300x250l
 ##.adcontainer300x250r
+##.adcontainer_footer
 ##.adcontent_box
 ##.adcontenttop
 ##.adcontn
@@ -25031,6 +25038,7 @@ _800x80_
 ##.fusionAd
 ##.fusionAdLink
 ##.future_dfp-inline_ad
+##.fuv_sidebar_ad_widget
 ##.fw-mod-ad
 ##.fwAdTags
 ##.fw_ad
@@ -25543,6 +25551,7 @@ _800x80_
 ##.header-advert-wrapper
 ##.header-advertise
 ##.header-advertisement
+##.header-ama-ad
 ##.header-and-footer--banner-ad
 ##.header-article-ads
 ##.header-banner-ad
@@ -26582,6 +26591,7 @@ _800x80_
 ##.m-sidebar-ad
 ##.m-sidebar-ad--slot
 ##.m-sponsored
+##.m1-header-ad
 ##.m2n-ads-slot
 ##.m4-adsbygoogle
 ##.mTopAd
@@ -29182,6 +29192,7 @@ _800x80_
 ##.ss-ad-tower
 ##.ss-ad_mrec
 ##.ss_advertising
+##.st-adunit
 ##.stProAd
 ##.stack-ad-container
 ##.stack-ad-placeholder
@@ -32048,6 +32059,7 @@ tf2r.com#@#.adverts
 ||2dbd87c7a091b.com^
 ||2g6gj3aojcrj.com^
 ||2hisnd.com^
+||2htg.com^
 ||2kl08cd74f.com^
 ||2lwlh385os.com^
 ||2mdn.info^
@@ -43968,6 +43980,7 @@ tf2r.com#@#.adverts
 ||selectserialcage.com^
 ||selfbiological.com^
 ||selfevidentpotsfertility.com^
+||selfishsnake.com^
 ||selflessaboriginessweetness.com^
 ||selfpuc.com^
 ||selfswayjay.com^
@@ -48550,6 +48563,7 @@ tf2r.com#@#.adverts
 ||sedodna.com^$third-party
 ||sedoparking.com^$third-party
 ||seductionprofits.com^$third-party
+||seedtag.com^$third-party
 ||seekads.net^$third-party
 ||seethisinaction.com^$third-party
 ||selectablemedia.com^$third-party
@@ -51584,6 +51598,7 @@ tf2r.com#@#.adverts
 ||torrindex.net/static/tinysort.min.js
 ||track.effiliation.com^$image,script
 ||travel.mediaalpha.com/js/serve.js
+||trendads.reactivebetting.com^
 ||trvl-px.com/trvl-px/
 ||uploaded.net/img/public/$third-party
 ||utility.rogersmedia.com/wrapper.js
@@ -59050,6 +59065,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xfei.top^
+||wxjj94.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -66628,7 +66645,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-zol.com.cn##a#downloader_main
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71210,6 +71226,7 @@ fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+zol.com.cn##a#downloader_main
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
@@ -74426,20 +74443,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||artisan-digital.cn^
-||dhejr.cn^
-||ma716.cn^
-||ncgywud.cn^
-||fengyiwc.xyz^
-||tong.pub^
-||yancy.fun^
-||spjxwlkj.com^
-||gengsang.me^
-||dainifei3.com^
-||gvwan.cn^
-||baobaopicture.space^
-||mzwfu.xyz^
-||xgzdys.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -74858,6 +74861,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||arhat.io^
 ||arkn81.com^
 ||aroudy.cn^
+||artisan-digital.cn^
 ||arts-cloud.net^
 ||asai77.top^
 ||asdead24.club^
@@ -74948,6 +74952,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||banzd.com^
 ||banzdw.cn^
 ||banzf.com^
+||baobaopicture.space^
 ||baobf.com^
 ||baodc.com^
 ||baogames.cn^
@@ -75325,6 +75330,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dafawl.cn^
 ||dailiq.cn^
 ||daima.dsxdn.com^
+||dainifei3.com^
 ||daizhangguanjia.com.cn^
 ||dajean.com^
 ||dake.net.cn^
@@ -75373,6 +75379,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dgmjskjx.com^
 ||dgxzwj.com^
 ||dhdgkj.com^
+||dhejr.cn^
 ||dhipc.cn^
 ||dhxuiho.cn^
 ||diandongchetoukui.com^
@@ -75484,6 +75491,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||fangjieshi.club^
 ||fdfgf.cc^
 ||febao.xyz^
+||fengyiwc.xyz^
 ||fengzhilu.cn^
 ||fenkang.tech^
 ||fileinput.xyz^
@@ -75513,6 +75521,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gdshuotai.cn^
 ||gdzxsoft.cn^
 ||genfar.club^
+||gengsang.me^
 ||gfncg.cn^
 ||gh1024.xyz^
 ||gjohvhf.cn^
@@ -75531,6 +75540,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||guangzhengtwo.top^
 ||guolvhbb.cn^
 ||guyun03.cn^
+||gvwan.cn^
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
@@ -75712,6 +75722,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||lzjc.shop^
 ||m5xy0v.cn^
 ||m8tu2.online^
+||ma716.cn^
 ||maclwangluokeji.cn^
 ||maiaim.cn^
 ||maicv.cn^
@@ -75749,8 +75760,10 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||myfengyi.xyz^
 ||myqip.icu^
 ||myyuye.club^
+||mzwfu.xyz^
 ||n258.cc^
 ||nbpyfog.cn^
+||ncgywud.cn^
 ||ndfdwrg.cn^
 ||neudata.cloud^
 ||nggdwfz.cn^
@@ -75895,6 +75908,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||soorbka.cn^
 ||soquan.xyz^
 ||soulshape.cn^
+||spjxwlkj.com^
 ||spscwlw.cn^
 ||sqmydhk.cn^
 ||ssjxwlkj.com^
@@ -75943,6 +75957,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||tjtsfhh.cn^
 ||tndiltm.cn^
 ||to335.cn^
+||tong.pub^
 ||toolgirl.cn^
 ||topdoctor.vip^
 ||tp992.top^
@@ -76032,6 +76047,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||xdwqq.cn^
 ||xfvbs.cn^
 ||xgsnjl.com^
+||xgzdys.com^
 ||xhfya.cn^
 ||xianka.cloud^
 ||xiaofashi.top^
@@ -76064,6 +76080,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ya1vg3w.cn^
 ||yabqg.cn^
 ||yahekby.cn^
+||yancy.fun^
 ||yanliang.vip^
 ||yaznkj.cn^
 ||ybnndud.cn^
@@ -89559,7 +89576,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intrastats.com^$third-party
 ||mabaya.com^$third-party
 ||micodigo.com^$third-party
-||seedtag.com^$third-party
 ||adsettings.com^$third-party
 ||adten.eu^$third-party
 ||adtlgc.com^$third-party
