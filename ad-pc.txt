@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UH26w6kU95vTHlRA7tuC4Q
+! Checksum: KuKWYccw8zUV/TwbVaafIg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201010201
-! Last Modified: 2022年01月01日 02:01
+! Version: 202201010817
+! Last Modified: 2022年01月01日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6026,6 +6026,7 @@ tieba.baidu.com##.tuijian-wrap
 /redirect/?spot_id=
 /redirect?tid=
 /redirect_awe.
+/redpop_ads/*
 /refads/*
 /refreshads-
 /reklam-ads2.
@@ -9060,6 +9061,7 @@ _800x80_
 ###ad-banner_atf-label
 ###ad-bar
 ###ad-base
+###ad-bb-content
 ###ad-beauty
 ###ad-before-comment
 ###ad-below-content
@@ -9099,6 +9101,7 @@ _800x80_
 ###ad-boxATF
 ###ad-boxes
 ###ad-br-container
+###ad-break
 ###ad-bs
 ###ad-btf-bot
 ###ad-btm
@@ -9250,6 +9253,7 @@ _800x80_
 ###ad-links-content
 ###ad-list-row
 ###ad-lrec
+###ad-m-rec-content
 ###ad-main
 ###ad-main-bottom
 ###ad-main-top
@@ -18020,6 +18024,7 @@ _800x80_
 ##.ad-banners
 ##.ad-banr
 ##.ad-bar
+##.ad-bb
 ##.ad-before-header
 ##.ad-below
 ##.ad-below-images
@@ -18097,6 +18102,7 @@ _800x80_
 ##.ad-boxtop
 ##.ad-brdr-btm
 ##.ad-break
+##.ad-break-item
 ##.ad-breaker
 ##.ad-breakout
 ##.ad-browse-rectangle
@@ -18431,6 +18437,7 @@ _800x80_
 ##.ad-lrec
 ##.ad-m-banner
 ##.ad-m-mrec
+##.ad-m-rec
 ##.ad-mad
 ##.ad-main
 ##.ad-manager-ad
@@ -53911,7 +53918,7 @@ ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
-bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tucsonweekly.com##.Ad
+bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
 stadiumastro.com##.Ads
 audizine.com##.AdvallyTag
 tvnz.co.nz##.Advert
@@ -54765,6 +54772,7 @@ paycalculator.com.au##.jss336
 calorieking.com##.jss356
 paycalculator.com.au##.jss546
 essentiallysports.com##.jsx-4249843366
+theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 standard.co.uk##.keAOyd
 trustedreviews.com##.keystone-single-widget
@@ -55301,6 +55309,8 @@ imdb.com##.slot_wrapper
 bikeexif.com##.small
 tbs.com##.smallBanners
 startup.ch##.smallbanner
+food.com##.smart-aside-inner
+food.com##.smart-rail-inner
 u.today##.something--fixed
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
@@ -91695,6 +91705,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||worldztool.com^*/dotraceuser.php
 ||wowza.com/v1/analytics
 ||wp.com/i/mu.gif$image
+||wp.com/wp-content/js/bilmur.min.js
 ||wren.condenastdigital.com^
 ||ws.audioeye.com^
 ||ws.sharethis.com^$script
