@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bBxCd64df1OgZYZkE85Nig
+! Checksum: nLAeQS/7UW2SsE3LuG4mWw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201011407
-! Last Modified: 2022年01月01日 14:07
+! Version: 202201012007
+! Last Modified: 2022年01月01日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4777,7 +4777,6 @@ tieba.baidu.com##.tuijian-wrap
 /glam_ads.
 /global-ads_
 /global/ad/*
-/global/ads.
 /global/ads/*
 /global_advs.
 /globalad.$domain=~globalad.com.br
@@ -47614,6 +47613,7 @@ tf2r.com#@#.adverts
 ||adreactor.com^$third-party
 ||adready.com^$third-party
 ||adreadytractions.com^$third-party
+||adrealclick.com^$third-party
 ||adrecord.com^$third-party
 ||adrecover.com^$third-party
 ||adrelayer.com^$third-party
@@ -49084,6 +49084,7 @@ tf2r.com#@#.adverts
 ||adplxmd.com^$popup
 ||adpool.bet^$popup
 ||adport.io^$popup
+||adrealclick.com^$popup
 ||adright.co^$popup
 ||adro.pro^$popup
 ||adrunnr.com^$popup
@@ -74428,6 +74429,9 @@ $image,third-party,domain=258zw.com
 /xxgg/gzh.js
 /xxgg/pv.js
 /xxgg/xsggs.js
+/xxgg/pfad.js
+/xxgg/dj1.js
+/xxgg/dj2.js
 :4433/hm/cdn/static/jq_
 MoBi*.baidu.js$script,third-party
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -74481,6 +74485,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yinan.tech^
 ||b49.xyz^
 ||ccjxwlkj.com^
+||bs987.cn^
+##a[href*="/nomvzs.com/"]
+||mafengow.club^
+||ygtx.mobi^
+||artbluesea.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
