@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nfPP5fkLDeiALlbxnUBmkg
+! Checksum: 5laKO5lkE2nNsaY9anfRpA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201022004
-! Last Modified: 2022年01月02日 20:04
+! Version: 202201030201
+! Last Modified: 2022年01月03日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2221,6 +2221,9 @@ ubmcmm.baidustatic.com
 ||baidutuapi.com^
 ||zglecc.com^
 ||xhzmjs.com^
+||szfhl99.com^
+||qqqwww987.online^
+||d11hjbdxxtogg5.cloudfront.net^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9806,6 +9809,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
+baidu.com##.businessvip-wrapper
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11002,7 +11007,6 @@ baidu.com###search_bottomad
 ruten.com.tw###search_u_970x90
 gaoqingw.com###searchform > label > span
 llss.bz###secondary img:not(.avatar)
-iplaysoft.com###section_event
 youku.com###seebuyGuide
 youku.com###seebuyhome
 eccn.com###sem_online
@@ -11034,8 +11038,6 @@ appinn.com###sidebar > .widget_text:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
-iplaysoft.com###sidebar > ul > .widget:first-child
-iplaysoft.com###sidebar > ul > .widget:nth-child(3)
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 mpyit.com###sidebar a > img
@@ -11049,7 +11051,6 @@ elecfans.com###sidebar-firstad
 gaoqing.la###sidebar-follow
 runoob.com###sidebar-right-re
 vikilife.com###sidebar-tab[style^="height:"]
-iplaysoft.com###sidebar_scroll_bdad
 2345.com###sidel_lvy
 2345.com###sidenav > .activity-trig
 douyu.com###sign_p_1
@@ -12258,7 +12259,6 @@ tigtag.com##.custom-box02
 boke112.com##.custom-html-widget > div[style="margin-bottom: -7px;"]
 51wangdai.com##.cx_ad
 51wangdai.com##.cx_xx_lis_c01_right_lis_c_ad
-iplaysoft.com##.d250
 iplaysoft.com##.d250x90
 hackhw.com##.d336
 hackhw.com##.d336x2
@@ -14201,7 +14201,6 @@ hao123.com##.widget-topbanner
 didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;line-height: 30px;"]
 97hj.net##.widget-zfb
 doubibackup.com##.widgetRoller
-iplaysoft.com##.widget[style]
 fulibl.com##.widget_banner
 hackhw.com##.widget_content_b
 fuliba2021.net##.widget_custom_html
@@ -15073,9 +15072,7 @@ huarenjie.net##div[style*="top: 50px;"]
 book118.com##div[style*="width: 252px;height: 260px;"]
 kkj.cn,mydrivers.com##div[style*="width:1"][style*="height:90px;"]
 proginn.com##div[style*="width:1000px;height: 250px;"]
-iplaysoft.com##div[style*="width:3"][style*="height:2"]
 divcss5.com##div[style*="width:336px;height:280px;"]
-iplaysoft.com##div[style*="width:6"][style*="height:1"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
@@ -15103,7 +15100,7 @@ bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
 plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
-iplaysoft.com##div[style="margin:-10px 0 0 0;overflow:hidden"]
+iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
 lanyes.org##div[style="margin:0 auto 10px;height:76px;overflow:hidden"]
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
 xcmh.cc##div[style="margin:0 auto 12px; adding:0;width:980px;height:250px;overflow:hidden;"]
@@ -17630,6 +17627,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||smsk.site^
 ||yummycuisine.club^
 ||365cf.vip^
+||eoidr.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
