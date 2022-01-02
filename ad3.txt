@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PeCaS6RJ8OTYEuVZlQ0ing
+! Checksum: ITvJLx6cLoovOT5Z8o8lmA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201021403
-! Last Modified: 2022年01月02日 14:03
+! Version: 202201022004
+! Last Modified: 2022年01月02日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1773,6 +1773,7 @@ ubmcmm.baidustatic.com
 ||haoyundmn.com^
 ||baidutuapi.com^
 ||zglecc.com^
+||xhzmjs.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17173,6 +17174,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fengyigc.xyz^
 ||dtpqhwk.cn^
 ||qian-tao.xyz^
+||rd926.cn^
+||yema.shop^
+||bsytjc.com^
+||nzsknxo.cn^
+||huofayu.com^
+||rctxubn.cn^
+||smsk.site^
+||yummycuisine.club^
+||365cf.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -38674,6 +38684,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t2.hulu.com^
 ||tagger.ope.scmp.com^
 ||tags.aljazeera.com^
+||tags.johnlewis.com^
 ||tags.news.com.au^$script
 ||taiwanplus.com/api/video/startVideo
 ||takealot.com^*/collect
@@ -38889,6 +38900,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||crunchbase.com/rw7M6iAV/init.js
 ||drupal.org/VnPBBfwe/init.js
 ||fiverr.com/px/client/PXK3bezZfO/main.min.js
+||flixcart.com/px/gNtTli3A/init.js
 ||flooranddecor.com/v1HqbVho/init.js
 ||foodora.fi/lJuB4eTB/init.js
 ||foodora.se/lJuB4eTB/init.js
