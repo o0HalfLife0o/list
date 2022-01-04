@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m6qrsNbef3LMbmaier6E3A
+! Checksum: dI3jzkvEkhcnw+1AGAMlcw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201040202
-! Last Modified: 2022年01月04日 02:02
+! Version: 202201041403
+! Last Modified: 2022年01月04日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -482,7 +482,7 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link
+qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video
 qq.com##+js(no-xhr-if, /\b(b?trace|beacon)\./)
 qq.com##+js(no-fetch-if, /\b(b?trace|beacon)\./)
 qq.com##+js(json-prune,ad,vinfo)
@@ -17612,6 +17612,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||ntpr.xyz^
+||haogame.me^
+||vl665.cn^
+||rctxiqx.cn^
+||qscwdv.top^
+||58tx.xyz^
+||aau8.xyz^
+||dnsri.com^
+||asdsdvd4.com^
+||zqofhft.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

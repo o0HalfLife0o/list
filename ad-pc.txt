@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: d6oxD0/yEzHpj0j9KdMVnw
+! Checksum: fF9+WYZU7hjcWSWRpaJb3Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201040816
-! Last Modified: 2022年01月04日 08:16
+! Version: 202201041403
+! Last Modified: 2022年01月04日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24778,6 +24778,7 @@ _800x80_
 ##.fc_splash_ad
 ##.fd-ad
 ##.fd-display-ad
+##.fd-tile-ad
 ##.fdDisplayAdGrid
 ##.fdc_ad
 ##.fe-blogs__desktop-ad
@@ -30668,6 +30669,7 @@ _800x80_
 ##a[href*="adzerk.net"]
 ##a[href*="deliver.trafficfabrik.com"]
 ##a[href*="delivery.trafficfabrik.com"]
+##a[href*="friendlyduck.com/"]
 ##a[href*="n47adshostnet.com/"]
 ##a[href*="onclkds."]
 ##a[href*="pussl3.com"]
@@ -32087,7 +32089,6 @@ tf2r.com#@#.adverts
 ||2dbd87c7a091b.com^
 ||2g6gj3aojcrj.com^
 ||2hisnd.com^
-||2htg.com^
 ||2kl08cd74f.com^
 ||2lwlh385os.com^
 ||2mdn.info^
@@ -33047,6 +33048,7 @@ tf2r.com#@#.adverts
 ||afk-i.com^
 ||aflrm.com^
 ||afordi.com^
+||afpkldhacnf.com^
 ||africaewgrhdtb.com^
 ||africawin.com^
 ||afriflatry.co^
@@ -41120,6 +41122,7 @@ tf2r.com#@#.adverts
 ||nization.com^
 ||njavespitful.casa^
 ||njfqnenfifdy.com^
+||njijavxhkio.top^
 ||njmeldkr.top^
 ||njzheqkcyr.com^
 ||nk26uvjrz0tt.com^
@@ -46668,6 +46671,7 @@ tf2r.com#@#.adverts
 ||wma.io^
 ||wmbdevcydmthac.xyz^
 ||wmkxtilkib.xyz^
+||wmlleyjtj.com^
 ||wmnejndvberrd.com^
 ||wmonthsaft.biz^
 ||wmruzfvtg.com^
@@ -47418,6 +47422,7 @@ tf2r.com#@#.adverts
 ||123date.me^$third-party
 ||152media.com^$third-party
 ||2beon.co.kr^$third-party
+||2htg.com^$third-party
 ||2leep.com^$third-party
 ||33across.com^$third-party
 ||360ads.com^$third-party
@@ -53026,6 +53031,7 @@ $popup,third-party,domain=apl100.me|apl96.me|assia2.com|cloudvideo.tv|fembed-hd.
 ||amazon-adsystem.com^$popup,domain=twitch.tv
 ||animesuge.to/?$popup
 ||b.link^$popup,domain=hltv.org
+||binance.com^$popup,domain=live7v.com|usagoals.sx
 ||bit.ly^$popup,domain=dexerto.com|elitepvpers.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||bitcoins-update.blogspot.com^$popup,domain=lineageos18.com
 ||bitly.com^$popup,domain=elitepvpers.com
@@ -53051,7 +53057,7 @@ $popup,third-party,domain=apl100.me|apl96.me|assia2.com|cloudvideo.tv|fembed-hd.
 ||waaw.to/out.php$popup
 |about:blank#$popup,domain=22pixx.xyz|9anime.to|adblockstrtape.link|animepahe.com|bitporno.com|cdnqq.net|clipconverter.cc|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|fcdn.stream|flashx.net|fmovies.to|gdtot.top|gospeljingle.com|gowatchseries.online|hqq.tv|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.bz|mixdrop.co|mixdrop.sx|mp4upload.com|mstream.xyz|onlystream.tv|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamzz.to|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblock.me|strtpe.link|tapecontent.net|upstream.to|uptostream.com|userload.co|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidxhot.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 /^https?:\/\/.*\.(club|net|xyz|top|casa)\//$popup,domain=123moviesme.online|9anime.to|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|fmovies.ps|fmovies.to|fmovies.world|fplayer.info|gdtot.top|gogoanimes.tv|gogoplay1.com|mixdrop.co|redirect-ads.com|strtpe.link|wawacity.work
-/^https?:\/\/.*\.(jpg|gif|png|php|html|svg|ico|js|txt)/$popup,domain=123movies.net|123moviesme.online|123proxy.biz|2embed.ru|5movies.fm|9anime.to|adblockstrtape.link|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|clipconverter.cc|cloudvideo.tv​|cmovies.online|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|eplayvid.com|eplsite.uk|europixhd.net|extreme-down.plus|fcdn.stream|filmesviatorrents.tv|flashx.net|fmovies.to|fmovies.world|fplayer.info|gdtot.top|gogoanimes.tv|gogoplay1.com|gospeljingle.com|gowatchseries.online|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mixdrop.sx|mlsbd.shop|mp4upload.com|mystream.to|olympicstreams.me|pahe.ph|playemulator.online|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|upornia.com|upstream.to|upvid.co|vidembed.cc|videovard.sx|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.im|vipleague.tv|viprow.me|voe.sx|vumoo.to|watchserieshd.tv|wawacity.work|yseries.tv|ytanime.tv
+/^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt)/$popup,domain=123movies.net|123moviesme.online|123proxy.biz|2embed.ru|5movies.fm|9anime.to|adblockstrtape.link|adf.ly|animepahe.com|asianload.me|bunnycdn.ru|clipconverter.cc|cloudvideo.tv|cmovies.online|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|eplayvid.com|eplsite.uk|europixhd.net|extreme-down.plus|fcdn.stream|filmesviatorrents.tv|flashx.net|fmovies.to|fmovies.world|fplayer.info|gdtot.top|gogoanimes.tv|gogoplay1.com|gospeljingle.com|gowatchseries.online|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mixdrop.sx|mlsbd.shop|mp4upload.com|mystream.to|olympicstreams.me|pahe.ph|playemulator.online|player.cineflixtv.com|putlockers.fm|putlockers.gs|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|streamzz.to|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|upornia.com|upstream.to|upvid.co|usagoals.sx|vidembed.cc|videovard.sx|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.im|vipleague.tv|viprow.me|voe.sx|vumoo.to|watchserieshd.tv|wawacity.work|yseries.tv|ytanime.tv
 ||18porn.sex/ptr18.js
 ||3movs.com/sd3/
 ||3naked.com/nb/
@@ -55391,6 +55397,7 @@ tbs.com##.smallBanners
 startup.ch##.smallbanner
 food.com##.smart-aside-inner
 food.com##.smart-rail-inner
+dailyevergreen.com##.sno-hac-desktop-1
 u.today##.something--fixed
 songfacts.com##.songfacts-song-inline-ads
 freeonlineapps.net##.sp
@@ -56101,6 +56108,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.nl,amazon.sg##span[cel_widget_id^="MAIN-loom-desktop-top-slot_hsa-id-CARDS-"]
 usnews.com###ac-lre-player-ph
 ginx.tv###ginx-floatingvod-containerspacer
+engadget.com###outstreamPlayer-inArticle
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
@@ -74575,6 +74583,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||ntpr.xyz^
+||haogame.me^
+||vl665.cn^
+||rctxiqx.cn^
+||qscwdv.top^
+||58tx.xyz^
+||aau8.xyz^
+||dnsri.com^
+||asdsdvd4.com^
+||zqofhft.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79532,6 +79550,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/v2/*
 /analytics/v3/*
 /analytics/video_$domain=~twitch.tv
+/analytics/view
 /analytics/visit/*
 /Analytics/Visitor.
 /analytics/web/*
@@ -83610,6 +83629,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ulpixel.
 /ulpixel?
 /ultra_track/*
+/umami.js
 /umg-analytics/*
 /umt.gif?
 /unagi.amazon.
@@ -84569,6 +84589,7 @@ _mongo_stats/
 ||g990421676.co^
 ||gbqofs.com^
 ||geoedge.be^
+||gigafyde.dev^
 ||glimr.io^
 ||glookup.info^
 ||go-mpulse.net^
@@ -88542,7 +88563,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selectionship.com^
 ||selectivesummer.com^$third-party
 ||selfishsea.com^$third-party
-||selfishsnake.com^$third-party
+||selfishsnake.com^
 ||separateshow.com^
 ||separatesilver.com^$third-party
 ||shaggytank.com^
@@ -107150,7 +107171,7 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link
+qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video
 qq.com##+js(no-xhr-if, /\b(b?trace|beacon)\./)
 qq.com##+js(no-fetch-if, /\b(b?trace|beacon)\./)
 qq.com##+js(json-prune,ad,vinfo)
