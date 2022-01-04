@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FvwKsS7UGpcsa1c7+qfesg
+! Checksum: CEGEJIr/AMCnDFMeHv6Sag
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201042006
-! Last Modified: 2022年01月04日 20:06
+! Version: 202201050202
+! Last Modified: 2022年01月05日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1778,6 +1778,7 @@ ubmcmm.baidustatic.com
 ||darwk.com^
 ||baishututuwu.com^
 ||haluo518.com^
+||lotpt.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17190,6 +17191,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zqofhft.cn^
 ||wwddgg.work^
 ||dwjle.cn^
+||gggwv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29789,7 +29791,6 @@ _mongo_stats/
 ||antiblock.info^$third-party
 ||antillephone.com^$third-party
 ||anura.io^$third-party
-||anymind360.com^$third-party
 ||anytrack.io^$third-party
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
@@ -34115,7 +34116,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||galaxiemedia.fr^$third-party
 ||geocompteur.com^$third-party
 ||geovisite.ovh^$third-party
-||getjad.io^$third-party
 ||goutee.top^$third-party
 ||graphinsider.com^$third-party
 ||hunkal.com^$third-party
@@ -49799,7 +49799,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
-@@||getjad.io/library/$script,domain=gamestar.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|radiorur.de|saturn.at|sport1.de|vox.de
@@ -49845,7 +49844,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
-@@||getjad.io/library/$script,domain=allocine.fr
 @@||getviously.com/js$script,domain=consoglobe.com|futura-sciences.com|gentsu.fr|gossip-room.fr|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com

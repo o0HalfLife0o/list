@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: PMpePJlCp/BtVHHFmSlvfQ
+! Checksum: GvNzPsI6TzBDuyVKNMrhwQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202201042006
-! Last Modified: 2022年01月04日 20:06
+! Version: 202201050202
+! Last Modified: 2022年01月05日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1449,7 +1449,6 @@ manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 spankbang.com#$#abort-on-property-write window.open
-trakt.tv#$#hide-if-contains-visible-text /^Advertisement$/ div[id] div
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
