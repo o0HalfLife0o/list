@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CHdQsIxiYnVMaaWlhQbBUA
+! Checksum: d6oxD0/yEzHpj0j9KdMVnw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201040202
-! Last Modified: 2022年01月04日 02:02
+! Version: 202201040816
+! Last Modified: 2022年01月04日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -13262,6 +13262,7 @@ _800x80_
 ###custom-small-ad
 ###customAd
 ###customAds
+###customad
 ###cxnAdrail
 ###d-adCont543x90
 ###d-adCont728x90Inner
@@ -22999,6 +23000,7 @@ _800x80_
 ##.autoshow-top-ad
 ##.aux-ad-widget-1
 ##.aux-ad-widget-2
+##.avadvslot
 ##.avantgardia-ad-widget
 ##.avap-ads-container
 ##.avert-text
@@ -31804,6 +31806,7 @@ t3.com#@#.ads-inline
 hatenacorp.jp#@#.ads-link
 circus-dev.com#@#.ads-list
 juicesky.com#@#.ads-title
+pop-music.ir#@#.ads-top
 mastersclub.jp#@#.ads.widget
 getwallpapers.com,wallpaperset.com#@#.ads1
 jw.org#@#.adsBlock
@@ -35482,7 +35485,6 @@ tf2r.com#@#.adverts
 ||creasureeffe.club^
 ||create2fear.com^
 ||creative-serving.com^
-||creativecdn.com^
 ||creativedisplayformat.com^
 ||creativeformatsnetwork.com^
 ||credentialpetrolenglish.com^
@@ -38570,6 +38572,7 @@ tf2r.com#@#.adverts
 ||hurtfulindelicate.com^
 ||hurypswrkjd.top^
 ||husbandbazaar.com^
+||hushpub.com^
 ||husktheoretical.com^
 ||hustlereorganizesatin.com^
 ||hutabsolutionsubdivide.com^
@@ -40402,6 +40405,7 @@ tf2r.com#@#.adverts
 ||mentcomm.fun^
 ||mentionedabjection.com^
 ||menuhivewomb.com^
+||meo257na3rch.com^
 ||meowboltadequate.com^
 ||meowpushnot.com^
 ||meproductive.com^
@@ -48029,6 +48033,7 @@ tf2r.com#@#.adverts
 ||cpm.media^$third-party
 ||cpmleader.com^$third-party
 ||crakmedia.com^$third-party
+||creativecdn.com^$third-party
 ||crispads.com^$third-party
 ||croea.com^$third-party
 ||cryptoads.space^$third-party
@@ -53374,6 +53379,8 @@ amgreatness.com###ag-lead
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 findmysoft.com###as_336
 flyordie.com###asf
+techpp.com###aside-two > .ct-code-block
+stakingrewards.com###asset-calculator-banner
 news.grabien.com###atv-gpt1
 scalemates.com###avph
 teamfortress.tv###aw
@@ -53475,6 +53482,7 @@ drivespark.com###cmscontent-right1
 whocallsme.com###cnt_1
 whocallsme.com###cnt_2
 whocallsme.com###cnt_btm
+techpp.com###code_block-47-158779
 linuxinsider.com###colorbox
 smbc-comics.com###comicright > div[style]
 mirror.co.uk###comments-standalone-mpu
@@ -53553,6 +53561,7 @@ titantv.com###frankly
 imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
 filmibeat.com,oneindia.com###fw-int-ad
+chromecastappstips.com###fwdevpDiv0
 drivespark.com###fwnNewWdg
 hltv.org###g0_right
 colourlovers.com###ga-above-footer
@@ -53594,7 +53603,7 @@ streamingrant.com###hb-strip
 castanet.net###hdad
 flashgot.net###head a[target="_blаnk"]
 inventorspot.com,mothering.com,wordfind.com,yokogames.com###header
-directindustry.com,fonearena.com,frontlinesoffreedom.com###header-banner
+directindustry.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com###header-banner
 dominicantoday.com###header-banners
 bestvpnserver.com,techitout.co.za###header-content
 govevents.com###header-display
@@ -54133,7 +54142,7 @@ venea.net##.ag_banner
 venea.net##.ag_line
 nexusmods.com##.agroup
 surfwap.com##.ahblock2
-journeybytes.com##.ai-attributes
+journeybytes.com,techpp.com##.ai-attributes
 onlineradious.com##.ai-placement
 uploadvr.com##.ai-sticky-widget
 androidpolice.com,constructionreviewonline.com##.ai-track
@@ -54280,6 +54289,7 @@ bhamnow.com##.bhamn-story
 viva.co.nz##.big-banner
 hotnewhiphop.com##.big-banner-placeholder-content
 newzit.com##.big_WcxYT
+gamemodding.com##.big_banner
 hellenicshippingnews.com##.bigbanner
 9gag.com,hotstar.com,sport360.fit,trademe.co.nz##.billboard
 weatherpro.com##.billboard-wrapper
@@ -54381,7 +54391,7 @@ download.cnet.com##.c-pageProductDetail-sidebarAd
 download.cnet.com##.c-pageProductDetail_productAlternativeAd
 globalnews.ca##.c-stickyRail
 mangarockteam.com##.c-top-second-sidebar
-freecomiconline.me,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
+freecomiconline.me,lordmanga.com,mangahentai.me,manytoon.com,readfreecomics.com##.c-top-sidebar
 mangareader.net##.c10
 theeastafrican.co.ke##.c15r
 maniacdev.com##.c4
@@ -54419,12 +54429,12 @@ cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
 browserhow.com,iotwreport.com##.code-block
 conservativebrief.com##.code-block > span
-androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,whats-on-netflix.com##.code-block-1
+androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
 getdroidtips.com##.code-block-15
 mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,geekspin.co,journeybytes.com,kanonitv.net,mikeprg.com##.code-block-2
-cryptoreporter.info##.code-block-3
+cryptoreporter.info,techpp.com##.code-block-3
 getdroidtips.com,thegayuk.com##.code-block-4
 androidsage.com,patriotfetch.com##.code-block-5
 estnn.com##.code-block-59
@@ -55196,6 +55206,7 @@ reverso.net##.rcacontent
 just-dice.com##.realcontent
 bettycrocker.com##.recipeAd
 nypost.com,pagesix.com##.recirc
+videocelebs.net##.recl
 wallpapers-room.com##.recommendations-468x60
 biblegateway.com##.recommendations-header-column
 biblegateway.com##.recommendations-products-row
@@ -55232,6 +55243,7 @@ jta.org##.right-rail-container
 huffpost.com##.right-rail-placeholder
 jpost.com##.right-side-banner
 slickdeals.net##.rightRailBannerWidget
+gamemodding.com##.right_banner
 softicons.com##.right_ga
 talksms.com##.righttd
 songlyrics.com##.ringtone-matcher
@@ -55484,6 +55496,7 @@ sciencedaily.com##.textrule
 evilbeetgossip.com##.textwidget
 tftcentral.co.uk##.tftce-adlabel
 steelersdepot.com##.theiaStickySidebar
+check-host.net##.thold10xr
 duplichecker.com##.tikimon
 coub.com##.timeline-banner
 aardvark.co.nz##.tinyprint
@@ -55873,6 +55886,7 @@ goodrx.com##div[class^="adContainer"]
 goodrx.com##div[class^="adWrapper-"]
 constative.com##div[class^="ad_placeholder_"]
 greatandhra.com##div[class^="add"]
+stakingrewards.com##div[class^="assetFilters_desktop-banner_"]
 technical.city##div[class^="banner_"]
 cryptorank.io##div[class^="banner__Container-"]
 cryptorank.io##div[class^="desktop__BannerWrap-"]
@@ -56716,10 +56730,11 @@ porn-monkey.com##.size-300x250
 simply-hentai.com##.skyscraper
 cumlouder.com##.sml-bottom
 pornhub.com,pornhubthbh7ap3u.onion##.sniperModeEngaged
+thelittleslush.com##.snppopup
 boycall.com##.source_info
 hd-easyporn.com##.spc_height_80
 gotporn.com##.spnsrd
-anyporn.com,bigtitslust.com,eachporn.com,fpo.xxx,freeporn8.com,pervertslut.com,sexpornimages.com,sortporn.com,xhamster.com##.sponsor
+anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,pervertslut.com,sexpornimages.com,sortporn.com,xhamster.com##.sponsor
 fux.com,pornerbros.com,porntube.com##.sponsored
 3movs.xxx,bravotube.net,camvideos.tv,dixyporn.com,hello.porn,katestube.com,videocelebs.net,vjav.com##.spot
 faptube.xyz,hqpornstream.com,magicaltube.com##.spot-block
@@ -79474,6 +79489,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics/liferay-
 /analytics/listeners/*
 /analytics/logging
+/analytics/logs
 /analytics/mbox.js
 /analytics/mbox_
 /analytics/metric/*
@@ -85194,6 +85210,7 @@ _mongo_stats/
 ||coremetrics.com^$third-party
 ||coremotives.com^$third-party
 ||cost1action.com^$third-party
+||count.ly^$third-party
 ||countby.com^$third-party
 ||counter.dev^$third-party
 ||counter.gd^$third-party
@@ -93299,6 +93316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/log?
 ||goseek.com/session-
 ||goseek.com/track-
+||grabify.link/api/js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
 ||gsght.com/twizards.js
@@ -104449,6 +104467,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
+@@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||atl-paas.net/analytics/event
 @@||atptour.com/assets/atpwt/scripts/util/googleAnalytics.js$~third-party
@@ -104505,6 +104524,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
+@@||smartrevise.online/css/analytics.min.css$~third-party
+@@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
@@ -104607,7 +104628,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|kedronparkhotel.com.au|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|atptour.com|bsa-whitelabel.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|easternbank.com|fortune.com|kedronparkhotel.com.au|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
