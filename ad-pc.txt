@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +GPWKpbzwTTHRI6bZEkgMw
+! Checksum: Mm943OW/qltCGll7AsS3zw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201050818
-! Last Modified: 2022年01月05日 08:18
+! Version: 202201051403
+! Last Modified: 2022年01月05日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22981,6 +22981,7 @@ _800x80_
 ##.aside_banner_ads
 ##.aside_google_ads
 ##.asinf-admedia
+##.assis-adlabel
 ##.associated-ads
 ##.async-ad-container
 ##.at-header-ad
@@ -30529,6 +30530,7 @@ _800x80_
 ##[data-ad-module]
 ##[data-ad-width]
 ##[data-dynamic-ads]
+##[data-ez-name]
 ##[data-freestar-ad]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
@@ -30595,6 +30597,7 @@ _800x80_
 ##[href^="https://www.highrevenuecpm.com"]
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.reimageplus.com/"]
+##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://www.xvbelink.com/"]
 ##[href^="https://zone.gotrackier.com/"]
@@ -33400,6 +33403,7 @@ tf2r.com#@#.adverts
 ||apkbundle.store^
 ||apologisehistoriancrackle.com^
 ||apologixopyr.site^
+||apologizeeven.com^
 ||apologyjaguar.com^
 ||aporasal.net^
 ||apostlelinger.com^
@@ -36779,6 +36783,7 @@ tf2r.com#@#.adverts
 ||erstopnyrt.online^
 ||ersunt.com^
 ||ertmained.club^
+||eru5tdmbuwxm.com^
 ||eruptneuroticstealing.com^
 ||eruvpdymynpjw.xyz^
 ||ervicoren.online^
@@ -38960,6 +38965,7 @@ tf2r.com#@#.adverts
 ||ioiylgyf.com^
 ||iomppdwwmbvq.com^
 ||ioniamcurren.com^
+||ionisestriller.com^
 ||iople.com^
 ||ioredi.com^
 ||ioxiyaff.xyz^
@@ -43555,6 +43561,7 @@ tf2r.com#@#.adverts
 ||richinfo.co^
 ||richmedia247.com^
 ||richwebmedia.com^
+||rickerrotal.com^
 ||riderfabric.com^
 ||ridethesisfrankly.com^
 ||ridferbad.com^
@@ -44863,6 +44870,7 @@ tf2r.com#@#.adverts
 ||superbdolly.com^
 ||superfastcdn.com^
 ||superintendsuckshaggy.com^
+||superiorityfeathers.com^
 ||supermanmoonfracture.com^
 ||supernaturalcapricorn.com^
 ||superstriker.net^
@@ -54733,6 +54741,9 @@ distractify.com##.gXgoom
 eonline.com##.gallery-rail-sticky-container
 cdromance.com##.game-container[style="grid-column: span 2;"]
 monstertruckgames.org##.gamecatbox
+home-assistant-guide.com##.gb-container-429fcb03
+home-assistant-guide.com##.gb-container-5698cb9d
+home-assistant-guide.com##.gb-container-bbc771af
 geekdashboard.com##.gd-ads
 community.spiceworks.com##.gekko_leaderboard
 investing.com##.generalOverlay
@@ -59225,6 +59236,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||zixixtx.top^
+||jinks.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -74631,6 +74644,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||aau9.xyz^
+||czbk.site^
+||jinlianchengwhcm.cn^
+||ugmvoys.cn^
+||rctxtjp.cn^
+||zhongzizye.cn^
+||czrcdq.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -104582,6 +104602,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
+@@||kaptcha.com/collect/sdk?$domain=vanillagift.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
