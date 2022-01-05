@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mm943OW/qltCGll7AsS3zw
+! Checksum: 3T+b7tVejzHld+O8hxoKuA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201051403
-! Last Modified: 2022年01月05日 14:03
+! Version: 202201052007
+! Last Modified: 2022年01月05日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24237,6 +24237,7 @@ _800x80_
 ##.contentTopAdSmall
 ##.contentTopAds
 ##.content_468_ad
+##.content__ad__content
 ##.content_ad
 ##.content_ad_728
 ##.content_ad_head
@@ -34300,6 +34301,7 @@ tf2r.com#@#.adverts
 ||boajagoar.com^
 ||boaphaps.net^
 ||boarshrubforemost.com^
+||boasstylijoked.com^
 ||boayipids.com^
 ||bobarmale.online^
 ||bobblewrite.com^
@@ -42298,6 +42300,7 @@ tf2r.com#@#.adverts
 ||plardi.com^
 ||plashcashierbleach.com^
 ||platado.com^
+||platesworked.com^
 ||platif.com^
 ||platitudefivesnack.com^
 ||platitudewildest.com^
@@ -55017,7 +55020,7 @@ syfy.com##.mps-container
 edarabia.com##.mpu-300
 arabiaweather.com##.mpu-card
 dailymail.co.uk##.mpu_puff_wrapper
-ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
+10play.com.au,ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
 motorsport.com##.ms-ap
 autosport.com##.ms-apb
 motorsport.com##.ms-apb-dmpu
@@ -74651,6 +74654,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rctxtjp.cn^
 ||zhongzizye.cn^
 ||czrcdq.com^
+||a2platinum.vip^
+||hhhfe.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -81166,6 +81171,7 @@ fqsousou.com,kengso.com#@#.user-share
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /HiroBeacon?
+/histats.js
 /histats/*
 /hit-counter.
 /hit-counter/*
@@ -105869,7 +105875,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||docer.org/static/utils/jquery.min.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
-||423down.com^$csp=script-src
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
