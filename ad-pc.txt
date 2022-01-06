@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DsR6b4qP3JyGwuoAq1+H/g
+! Checksum: fskd2v5EYUgMJgf1TGooEA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201060817
-! Last Modified: 2022年01月06日 08:17
+! Version: 202201061405
+! Last Modified: 2022年01月06日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -25971,6 +25971,8 @@ _800x80_
 ##.in-content-ad--container
 ##.in-content-ad-container
 ##.in-content-ad-wrapper
+##.in-game-ad-left
+##.in-game-ad-right
 ##.in-latest-news-advertisement-container
 ##.in-node-ad-300x250
 ##.in-page-ad
@@ -37587,6 +37589,7 @@ tf2r.com#@#.adverts
 ||gaitdrummerauto.com^
 ||gaitheed.com^
 ||gaitoath.com^
+||gaizeissuer.com^
 ||gakinibe.pro^
 ||galacticmenueasier.com^
 ||galaks.io^
@@ -44350,6 +44353,7 @@ tf2r.com#@#.adverts
 ||sixft-apart.com^
 ||sixminutes.biz^
 ||sixteenabsorptionbreed.com^
+||sixtyhardwarepreference.com^
 ||sizeilksohs.com^
 ||sjlmekhgwimrjs.xyz^
 ||skenqaamefeoncfegrytbuvksebpefer.com^
@@ -58930,6 +58934,7 @@ ubmcmm.baidustatic.com
 ##.widget_ui_asb
 ##.widget_ui_aub
 ##.widget_ui_textasb
+##.MacPlayer > #play-pause
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
 ##.wp > .ad-box
@@ -59032,6 +59037,7 @@ ubmcmm.baidustatic.com
 ##span[title="neteasefooter"]
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
+##a[href*=".umtrack.com/"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
 ##.btn[href*="/viphktv.com/"]
@@ -59259,6 +59265,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jzcool.top^
+||enkjaq.cn^
+||xqwkjf.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -73529,7 +73538,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ##div[style="display:none;"] + script + #container.container
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
-||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|haokan.com
+||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 !#BaiduUnion
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=023up.com|2345.com|388g.com|962.net|baixing.com|danzhou8.com|doutula.com|downxia.com|duanmeiwen.com|egouz.com|epinv.com|ershenghuo.com|fh21.com.cn|ganji.com|gaokao.com|gexing.me|geyanw.com|glook.cn|guangyuanol.cn|gxscse.com|h4.com.cn|ichong123.com|ijq.tv|imdb.cn|iplaysoft.com|jb51.net|jiancai365.cn|jiankang.com|jianke.com|jing55.com|jsyst.cn|jucanw.com|juqingba.cn|juzimi.com|kj-cy.cn|kuaidiwo.cn|kukuw.com|laobanfa.com|lc123.net|lcdushi.com|lux88.com|lz13.cn|managershare.com|mfcad.com|mi168.com|mobanwang.com|muchong.com|mumujita.com|nanrenwo.net|newxue.com|nipic.com|pai-hang-bang.com|pingguolv.com|qbaobei.com|qeo.cn|qianzhan.com|qinghua5.com|rising.cn|sanwen8.cn|sbar.com.cn|sdsgwy.com|shangxueba.com|shouyihuo.com|shuaijiao.com|sj33.cn|southmoney.com|sumiaowang.com|techweb.com.cn|thn21.com|tom61.com|tongxiehui.net|tupian1.cn|tvsou.com|uc129.com|vccoo.com|vipyl.com|vodjk.com|vvvdj.com|wenku.baidu.com|wiki8.com|wufangbo.com|xijucn.com|xilu.com|xiziwang.net|yac8.com|yangshengtang123.com|ybjk.com|yesky.com|yiluzouhao.com|yinhang123.net|yishuzi.com|ykit.cn|youth.cn|yzmg.com|zbyw.cn|zhev.com.cn|zw3e.com
@@ -74668,6 +74677,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||eeeap.cn^
+||qichenx.com^
+||cnxunkewang.info^
+||jczs.xyz^
+||ntjanyc.cn^
+||rctxcsi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -91406,6 +91421,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||routeapp.io/route-analytics/
 ||rs.sinajs.cn^
 ||rt.flix360.com^
+||rtxpx-a.akamaihd.net^
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.ingress.layer0.co^
@@ -93505,6 +93521,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||itweb.co.za/analytics/
 ||j927.statnews.com^
 ||javhd.com/ascripts/gcu.js
+||javhd.com/rstat
 ||jiji.co.ke/tag_event
 ||jumbo.zomato.com^
 ||juno.com/start/javascript.do?message=
@@ -93723,6 +93740,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rv.modanisa.com^$script
 ||s.infogram.com^
 ||sciencechannel.com/events/
+||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
 ||search.aol.com/beacon/
 ||search.ch/audit/
@@ -103778,6 +103796,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||analytics-gw.games.wanmei.com^
 ||analytics.126.net^
 ||analytics.163.com^
+||analytics.oceanengine.com^
 ||analytics.oneplus.cn^
 ||analytics.shop.hisense.com^
 ||api.baike.sogou.com/dr/p1.gif?
