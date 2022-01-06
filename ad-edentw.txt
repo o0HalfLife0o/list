@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7j+QWRr4VQ1LLTpLCSTz7A
+! Checksum: 3AUMj2IksTrT2mrelX0Vvw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202201062009
-! Last Modified: 2022年01月06日 20:09
+! Version: 202201070202
+! Last Modified: 2022年01月07日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1231,7 +1231,7 @@ yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
 ||readarsenal.com^$csp=script-src 'self' * 'unsafe-inline'
 ||readliverpoolfc.com^$csp=script-src 'self' * 'unsafe-inline'
 ||toptenz.net^$csp=script-src 'self' * 'unsafe-inline'
-eurweb.com,fullmatchesandshows.com,convert-me.com,emathhelp.net,kshowonline.com,meta-chart.com,virtualjerusalem.com,youtubeonrepeat.com,jspuzzles.com,nysun.com,readarsenal.com#$#abort-on-property-read TextDecoder
+eurweb.com,fullmatchesandshows.com,convert-me.com,kshowonline.com,meta-chart.com,virtualjerusalem.com,youtubeonrepeat.com,jspuzzles.com,nysun.com,readarsenal.com#$#abort-on-property-read TextDecoder
 humansarefree.com,ludokado.com,toptenz.net#$#abort-current-inline-script atob TextDecoder
 ! #CV-706
 tube8.com##.gridBanner_
