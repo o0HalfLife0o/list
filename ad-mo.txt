@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 09mPMiryUnvhojwcfFCUYg
+! Checksum: Lk678uXN++7hwbMtkTjfDw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201061405
-! Last Modified: 2022年01月06日 14:05
+! Version: 202201062009
+! Last Modified: 2022年01月06日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -45230,6 +45230,7 @@ tf2r.com#@#.adverts
 ||tmrjmp.com^
 ||tncomg.com^
 ||tncred.com^
+||tnecgrgp.top^
 ||tnnpkperngdhtv.xyz^
 ||tnvilqncje.com^
 ||tnwyjsgypjpc.com^
@@ -57378,6 +57379,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||kmsv.jp/images/ad/$image,~third-party
 @@||koshien-live.net/99/adtag.xml$domain=sportsbull.jp
 @@||labymod.net/affiliate/$~third-party
+@@||laneros.com/temas/*-publicidad.
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||mail.bg/mail/index/getads/$xmlhttprequest
 @@||mbank.cz/Adv/Scripts/$~third-party
@@ -59156,6 +59158,7 @@ ubmcmm.baidustatic.com
 ||jzcool.top^
 ||enkjaq.cn^
 ||xqwkjf.top^
+||wokawot.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -74571,6 +74574,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jczs.xyz^
 ||ntjanyc.cn^
 ||rctxcsi.cn^
+||ct372.cn^
+||beixhw.cn^
+||zhwotai.com^
+||joyjour.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -88633,6 +88640,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sootheside.com^
 ||sophisticatedstory.com^
 ||sophisticatedstove.com^
+||sordidsmile.com^
 ||soresneeze.com^
 ||sorethunder.com^
 ||soretrain.com^
