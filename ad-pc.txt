@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AHrbfHXsHH11JBJLfSorNQ
+! Checksum: 1yNUFbMT/dQs2r14CbQQ5A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201070202
-! Last Modified: 2022年01月07日 02:02
+! Version: 202201070817
+! Last Modified: 2022年01月07日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -16256,6 +16256,7 @@ _800x80_
 ###sponsored_news
 ###sponsored_option
 ###sponsored_v12
+###sponsoredad
 ###sponsoredads
 ###sponsoredlinks
 ###sponsoredlinks_cntr
@@ -19985,6 +19986,7 @@ _800x80_
 ##.ad_in_article
 ##.ad_in_column
 ##.ad_in_head
+##.ad_incontent
 ##.ad_index02
 ##.ad_indicator
 ##.ad_info_block
@@ -27216,6 +27218,7 @@ _800x80_
 ##.news-ad-square-a
 ##.news-ad-square-box
 ##.news-advert__column
+##.news-advertisement
 ##.news-home-block-ad
 ##.news-place-ad-info
 ##.newsAd
@@ -53854,6 +53857,7 @@ binaries4all.com###payserver
 binaries4all.com###payserver2
 flicksmore.com###pc_show
 demap.info###pcad
+premierguitar.com###pg_leaderboard
 gcn.com###ph_pcontent3_0_lvItemList_liNativeArticleAd_0
 publicholidays.us###phgviewportconditional_57069
 dnsleak.com,emailipleak.com,ipv6leak.com###piaad
@@ -54153,6 +54157,7 @@ supercheats.com##.a300
 localtiger.com##.a9gy_lt
 qz.com##.aOCxk
 opensubtitles.org##.a_1.a.p
+premierguitar.com##.a_promo
 informer.com##.aa-728
 ncomputers.org,servertest.online##.ab
 slickdeals.net##.abc
@@ -58664,6 +58669,7 @@ ubmcmm.baidustatic.com
 ###xinnxi
 ##.AD_TAC_BOX
 ##.Flagrow-Ads-under-header
+##.MacPlayer > #play-pause
 ##.Text-Advertising
 ##._cggp
 ##._ggs
@@ -58963,7 +58969,6 @@ ubmcmm.baidustatic.com
 ##.widget_ui_asb
 ##.widget_ui_aub
 ##.widget_ui_textasb
-##.MacPlayer > #play-pause
 ##.widget_ui_textaub
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
 ##.wp > .ad-box
@@ -59066,7 +59071,6 @@ ubmcmm.baidustatic.com
 ##span[title="neteasefooter"]
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##a[href*=".umtrack.com/"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
 ##.btn[href*="/viphktv.com/"]
@@ -59162,6 +59166,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".thejierou.net"]
 ##a[href*=".ttz5.cn"]
 ##a[href*=".tudown.com/"]
+##a[href*=".umtrack.com/"]
 ##a[href*=".wenpie.com/"]
 ##a[href*=".wensixuetang.com/"]
 ##a[href*=".wjLkj.com/"]
@@ -59294,10 +59299,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||jzcool.top^
-||enkjaq.cn^
-||xqwkjf.top^
-||wokawot.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -60143,6 +60144,7 @@ ubmcmm.baidustatic.com
 ||elsiehoney.com^
 ||elvirahedwig.com^
 ||emarbox.com^$third-party
+||enkjaq.cn^
 ||enohb.com^
 ||erdsyzb.com^
 ||ertongjiaju360.com^
@@ -60584,6 +60586,7 @@ ubmcmm.baidustatic.com
 ||jxlqgs.com^
 ||jxsgxzx.com^
 ||jystea.com^
+||jzcool.top^
 ||k1815.com^
 ||k3851.com^$third-party
 ||k9dzax.cn^
@@ -61439,6 +61442,7 @@ ubmcmm.baidustatic.com
 ||wodemeitu.com^$third-party
 ||wofan.net^$third-party
 ||wojiabaoye.com^
+||wokawot.com^
 ||wootwood.com^
 ||wotufeiye.com^
 ||wowips.com^
@@ -61559,6 +61563,7 @@ ubmcmm.baidustatic.com
 ||xnjpg.com^
 ||xp3366.com^$third-party
 ||xq12.com^$third-party
+||xqwkjf.top^
 ||xsjyun.cn^
 ||xsu.cc^$third-party
 ||xt2d.cn^
@@ -74707,16 +74712,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||eeeap.cn^
-||qichenx.com^
-||cnxunkewang.info^
-||jczs.xyz^
-||ntjanyc.cn^
-||rctxcsi.cn^
-||ct372.cn^
-||beixhw.cn^
-||zhwotai.com^
-||joyjour.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -75291,6 +75286,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||beiwz.com^
 ||beixbw.cn^
 ||beixcw.cn^
+||beixhw.cn^
 ||beiyc.com^
 ||beiyicc.cn^
 ||beiyz.com^
@@ -75537,6 +75533,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||cnq4379.com^
 ||cnrok169.com^
 ||cnxmyb.cn^
+||cnxunkewang.info^
 ||cnyibs.com^
 ||cnzhqs.com^
 ||coccccc.cc^
@@ -75575,6 +75572,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||cssjs.info^
 ||csxvsd.cn^
 ||csyfe.com^
+||ct372.cn^
 ||cufcmdj.cn^
 ||cuhzsx.xyz^
 ||cuoss.com^
@@ -75762,6 +75760,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||edumsys.com^
 ||eduszft.cn^
 ||edysn.cn^
+||eeeap.cn^
 ||egozne.cn^
 ||eiasia.ltd^
 ||eidsign.com.cn^
@@ -75920,6 +75919,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jcdixdh.cn^
 ||jcjaniu.cn^
 ||jcxcvqc.cn^
+||jczs.xyz^
 ||jdiaveu.cn^
 ||jdsy.ltd^
 ||jgrkjp.cn^
@@ -75943,6 +75943,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jogbxpg.cn^
 ||jovfwgr.cn^
 ||joyceglobal.club^
+||joyjour.xyz^
 ||jqcfgnm.cn^
 ||jscvalves.me^
 ||jsqhh.cn^
@@ -75992,6 +75993,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||kuajingtao.cc^
 ||kuangbang.ltd^
 ||kukulm.com^
+||kulcdtw.cn^
 ||kusol.club^
 ||kxapctq.cn^
 ||kypntcw.cn^
@@ -76088,6 +76090,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||nogvlkk.cn^
 ||none-test.com^
 ||ntdddoz.cn^
+||ntjanyc.cn^
 ||ntppyc.cn^
 ||ntpr.xyz^
 ||nuanqipian.pw^
@@ -76156,6 +76159,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qiaobaba.top^
 ||qibalmm.com^
 ||qibxdwe1.com^
+||qichenx.com^
 ||qihehuo.cn^
 ||qijiandian.xyz^
 ||qilinwh.cn^
@@ -76175,6 +76179,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qytkjsz.com^
 ||qzgs99.cn^
 ||rcjww9.xyz^
+||rctxcsi.cn^
 ||rctxiqx.cn^
 ||rctxsrv.cn^
 ||rctxtjp.cn^
@@ -76467,6 +76472,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zhouziwang.cn^
 ||zhpfl.cn^
 ||zhuozhongfangshui.cn^
+||zhwotai.com^
 ||zhxkzss.cn^
 ||ziaxlx.cn^
 ||zixiaxianhua.shop^
@@ -104661,6 +104667,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
+@@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloudmaestro.com^$script,domain=overtone.co
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
