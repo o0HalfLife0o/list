@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mD7o5578eJX329B58tLn2g
+! Checksum: /+nGon3dUHfjVHVhUBgvHA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201070817
-! Last Modified: 2022年01月07日 08:17
+! Version: 202201071402
+! Last Modified: 2022年01月07日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1400,6 +1400,7 @@ ubmcmm.baidustatic.com
 ##.room-ad-video-down
 ##.rotate-adv
 ##.rtcenter_game
+##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##.scupioadslot
 ##.self-gg
 ##.spon-img[src*=".alicdn."]
@@ -9379,8 +9380,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mydifile.com/view.php/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iodraw.com###popAd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17188,6 +17191,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||msyq.xyz^
+||sinyang.info^
+||dzwgbm.xyz^
+||mori.ink^
+||izpcoo.cn^
+||thinkphp.pro^
+||rctxmbr.cn^
+||kuoxing.mobi^
+||ladyye.site^
+||linglingccc.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -49127,6 +49140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||click.vgnett.no^
 ||nrk.no^*/stats/
 ||stats.proff.no^
+||tdep.hema.nl/main.js
 ||vg.no/stats/
 |http://x.o2.pl^
 ||analytics.gazeta.pl^
