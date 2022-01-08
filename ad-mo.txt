@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: eSaS8+ODHjSt5X0cTLLxjg
+! Checksum: IZOO03gOPp5NuruNakUBLg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201081403
-! Last Modified: 2022年01月08日 14:03
+! Version: 202201082008
+! Last Modified: 2022年01月08日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54171,6 +54171,7 @@ bizpacreview.com,browserhow.com,constructionreviewonline.com,windowslatest.com##
 net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
 livejournal.com##.allbanners
+silverprice.org##.alt-content
 music-news.com##.amazon
 bgr.com##.amazon-product-callout
 orschlurch.net##.amazon-wrapper
@@ -54873,6 +54874,7 @@ paycalculator.com.au##.jss546
 essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
+goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
 wantedinafrica.com##.kn-widget-banner
 wwe.com##.l-hybrid-col-frame_rail-wrap
@@ -54969,6 +54971,7 @@ tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 thefastmode.com##.middlebanner
 stripes.com##.min-h90
+revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 pcmacstore.com##.mobileHide
@@ -55674,6 +55677,7 @@ zerohedge.com##[class^="Advert_"]
 games.washingtonpost.com##[class^="DisplayAd_"]
 duplichecker.com##[class^="adefaee"]
 uploader.link##[class^="ads"]
+goal.com##[class^="article_rhrCommercial_"]
 swarajyamag.com##[class^="banner-ad-"]
 romhustler.org##[class^="leaderboard_ad"]
 coinmarketcap.com##[class^="sponsoredMark_"]
@@ -55685,6 +55689,7 @@ theblaze.com##[data-category="SPONSORED"]
 medicalnewstoday.com##[data-empty="true"]
 greatist.com,psychcentral.com##[data-empty]
 phoneia.com##[data-index]
+goal.com##[data-name="ad-leaderboard"]
 namepros.com##[data-np-ga-event="ad"]
 washingtonpost.com##[data-qa="article-body-ad"]
 ginx.tv##[data-ref]
@@ -55794,6 +55799,7 @@ publish0x.com##[src^="blob:"]
 tampermonkey.net##[src^="data:image"]
 forum.ragezone.com##[src^="https://clients.ragezone.com/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
+goal.com##[style*="--card-group-item:ad"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 wahm.com##[style="min-height:250px;"]
 guru99.com##[style^="float"]
@@ -56149,6 +56155,7 @@ southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
 kidspot.com.au##.secondary-video
+goal.com##.semantic-player-embed
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
 ##.section-subheader > .section-hotel-prices-header
@@ -59214,11 +59221,14 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
+##a[href$="/186ob.com"]
+##a[href*=".cgn8j9f4j3g.com:"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yuanlianghui.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -66833,6 +66843,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||hdslb.com/bfs/album/98fecea447de9c557051a00bce0a7adb831c155f.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+141jj.com##a[href*="bit.ly"]
 ifenpaidy.com##a[href*=".taobao.com"]
 ifenpaidy.com##.modal-body
 ifenpaidy.com###new_a
@@ -71366,7 +71377,7 @@ wanyx.com##.zx_box
 11px.cn##.zz
 iqiyi.com##.zzVideo
 11px.cn##.zz_nr
-141jj.com#?#li:-abp-contains(贊助)
+141jj.com#?#li:-abp-contains(/贊助|推廣/)
 159i.com#?#.style15:-abp-has(> img[src="//159i.com/images/arrow3.gif"])
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com#?#div:-abp-has(> img+a)
@@ -74645,6 +74656,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||topn.xyz^
 ||smh.ink^
+||edetzmh.cn^
+||etfprj.cn^
+||hnthink.vip^
+||rctxjbv.cn^
+||mkoh.top^
+||beibww.cn^
+||vsddtr.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -78966,6 +78984,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||tracklog.58.com/referrer$~third-party
 @@||udn.com/mall/images/spacer.gif?
 @@||viu.com^*/tracking/
+@@||ss999.me/i.php?i=
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
@@ -104653,6 +104672,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
+@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
@@ -105910,6 +105930,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||docer.org/static/utils/jquery.min.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||kf.qingwk.com^
+||ypojie.com/wp-content/uploads/*.js
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
