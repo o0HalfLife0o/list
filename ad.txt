@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qHy6CaEN2KQgEwrgYbpeRQ
+! Checksum: YJyh9GdUyQQQ4DgiBF7lKA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201080817
-! Last Modified: 2022年01月08日 08:17
+! Version: 202201081403
+! Last Modified: 2022年01月08日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -4754,6 +4754,7 @@ ubmcmm.baidustatic.com
 $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
+||taobao.com^$popup,domain=ifenpaidy.com
 .com/?Intr=$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
@@ -9832,8 +9833,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||avdb.me/ad/
+||hdslb.com/bfs/album/98fecea447de9c557051a00bce0a7adb831c155f.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ifenpaidy.com##a[href*=".taobao.com"]
+ifenpaidy.com##.modal-body
+ifenpaidy.com###new_a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10803,7 +10809,7 @@ gd163.cn,itavcn.com,jmnews.com.cn,xt700.com###msg_win
 yahoo.com###my-adsHPSPON
 yahoo.com###my-adsMBAR
 pianhd.com###myCarousel
-ifenpaidy.com,pianyuan.org###myModal
+pianyuan.org###myModal
 qqjia.com###myadsL
 xiaoz.me###mygg
 cpnn.com.cn###myimg
@@ -13263,7 +13269,7 @@ qq.com##.mod_custom_ad
 iqiyi.com##.mod_focus-index_list > li:last-child
 163.com##.mod_js_ad
 qq.com##.mod_stridead
-ifenpaidy.com,pianyuan.org,qixingquan.com##.modal-backdrop
+pianyuan.org,qixingquan.com##.modal-backdrop
 xunyingwang.com##.modal-body
 dingdangsheji.com##.modown-ad
 firefoxchina.cn##.module-banner
