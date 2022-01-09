@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QQaWlUf2Kh5RUVoM96XHFg
+! Checksum: DpHsfvXC+DjUrg4Fk89NGw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201091404
-! Last Modified: 2022年01月09日 14:04
+! Version: 202201092006
+! Last Modified: 2022年01月09日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -22530,6 +22530,7 @@ _800x80_
 ##.advertising-banner
 ##.advertising-block
 ##.advertising-box-top-teaser
+##.advertising-container
 ##.advertising-container-top
 ##.advertising-content
 ##.advertising-fixed
@@ -51659,6 +51660,7 @@ tf2r.com#@#.adverts
 ||liveperson.com/affiliates/
 ||lottoelite.com/banners/
 ||lp.ncdownloader.com^
+||ltkcdn.net/ltkrev.js
 ||madisonlogic.com^$third-party
 ||magniwork.com/banner/
 ||mahndi.com/images/banner/
@@ -56158,6 +56160,7 @@ ebay.com##div[title="ADVERTISEMENT"]
 adblock-tester.com##embed[width="240"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
+grammar-monster.com##footer
 law.com,topcultured.com##h3
 greatist.com##hl-adsense
 drive.com.au##hr
@@ -59351,6 +59354,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||okshuwu.top^
+||tunihua.top^
 ||songrfid.com^
 ||00-gov.cn^
 ||000123456789.site^
@@ -74779,6 +74784,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zbblq.cn^
 ||pvkvga.cn^
 ||rctxwtt.cn^
+||xiaokenan.net^
+||diaoda.xyz^
+||beixzw.cn^
+||esou.me^
+||i8023.icu^
+||zbxdvi.com^
+||tanky.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
