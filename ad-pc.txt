@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zEPz14DJ1bftUrzpUENlcA
+! Checksum: 09it3mIRub8DKtdyagvbFQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201100202
-! Last Modified: 2022年01月10日 02:02
+! Version: 202201100817
+! Last Modified: 2022年01月10日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21679,6 +21679,7 @@ _800x80_
 ##.adsonofftrigger
 ##.adsoptimal-slot
 ##.adsother
+##.adspace
 ##.adspace-300x600
 ##.adspace-336x280
 ##.adspace-728x90
@@ -21687,6 +21688,7 @@ _800x80_
 ##.adspace-leaderboard
 ##.adspace-lr
 ##.adspace-mpu
+##.adspace-top
 ##.adspace-widget
 ##.adspace1
 ##.adspace180
@@ -25974,6 +25976,7 @@ _800x80_
 ##.imuBox
 ##.in-ad
 ##.in-article-ad
+##.in-article-ad-placeholder
 ##.in-article-ad-wrapper
 ##.in-article-adsense
 ##.in-article-adx
@@ -84484,6 +84487,7 @@ cgi-bin/counter
 .emltrk.com/
 .epicgames.com/O/
 .eventim.de/op/$image
+.everestengagement.com/$image
 .eviq.org.au/CMSModules/$image
 .flipboard.com/usage?
 .getblueshift.com/q/
@@ -84492,6 +84496,7 @@ cgi-bin/counter
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
+.keap-link011.com/$image
 .keap-link015.com/$image
 .kijiji.ca/r/
 .klclick.com/$image
@@ -84515,6 +84520,7 @@ cgi-bin/counter
 .sendibm1.com/mk/
 .simplicitycrm.com/rd/
 .smartrmail.co/o/$image
+.southwest.com/r/$image
 .sparkpostmail2.com/q/$image
 .spmailtechnolo.com/q/$image
 .spreadshirt.net/mo/$image
@@ -84580,6 +84586,7 @@ cgi-bin/counter
 /track/open?
 /tracking.fanbridge.com/*
 /tracking.srv2.de/op/*$image
+/tracking/email.php
 /trcksp.
 /wf/open?upn=$image
 ://email.*/e/o/
