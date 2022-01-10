@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +Rv8OodHeSEf/M6PXAo3hg
+! Checksum: K81hpPTX9EtB3soRJxNEGA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201101403
-! Last Modified: 2022年01月10日 14:03
+! Version: 202201102007
+! Last Modified: 2022年01月10日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9212,8 +9212,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yxad.com/yxad/
 ||yxbao.com/js/bt_
 ||yxdd.com^$subdocument
-||yxdm.org/js/*_
-||yxdm.org/js/gad.js
+||yxdm.li/js/*_
+||yxdm.li/js/gad.js
 ||yxdown.com/cj/
 ||yxdown.com/pc/news/js/news
 ||yxdown.com/zt/zt/js/zt.js
@@ -11312,14 +11312,14 @@ wed114.cn##.adtwo
 114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 xmfish.com##.adv-760
 xmfish.com##.adv-960
-yxdm.org##.adv-bt
+yxdm.li##.adv-bt
 xinhuanet.com##.adv-column2
 wdzj.com##.adv-img
-yxdm.org##.adv0
+yxdm.li##.adv0
 shouji56.com##.adv01 + a
 qq.com##.adv1000
-kdhome.net,yxdm.org##.adv2
-kdhome.net,xinhuanet.com,yxdm.org##.adv3
+kdhome.net,yxdm.li##.adv2
+kdhome.net,xinhuanet.com,yxdm.li##.adv3
 myhack58.com##.adv32
 it165.net##.adv728a
 it165.net##.adv728b
@@ -17210,6 +17210,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bgelvy.cn^
 ||rctxpks.cn^
 ||jycwqeo.cn^
+||esp-12f.xyz^
+||jameschan.info^
+||x56za02.cn^
+||bdtao.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21539,7 +21543,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
 @@||sogou.com/pv.gif?*&stype=showskinpanel
-@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn|yxdm.org
+@@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||soufunimg.com/count/uvbforpc.js
 @@||ss999.me/i.php?i=
@@ -32320,7 +32324,7 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuyapixel.com^$third-party
 ||zuzab.com^$third-party
-$ping,domain=~hey.com
+$ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
 ||artfin.club^
 ||bemarts.club^
@@ -32632,8 +32636,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nexioniect.com^
 ||nfwebminer.com^$third-party
 ||niematego.tk^$third-party
-||nimiq.com^$third-party
-||nimiq.watch^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimpool.io^$third-party
@@ -32649,6 +32651,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||party-vqgdyvoycc.now.sh^$third-party
 ||pertholin.com^$third-party
 ||play.mix.kinostuff.com^
+||pool.nimiq.watch^$third-party
+||pool.nimiqchain.info^$third-party
 ||pr0gram.org^$third-party
 ||rand.com.ru^
 ||reauthenticator.com^
@@ -49550,6 +49554,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
