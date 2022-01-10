@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X/b7/0IGC/YiKez7ntPb/Q
+! Checksum: qfPfndGCDsa6HRuWZjIeng
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201100817
-! Last Modified: 2022年01月10日 08:17
+! Version: 202201101403
+! Last Modified: 2022年01月10日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21243,6 +21243,7 @@ _800x80_
 ##.ads_tit
 ##.ads_title
 ##.ads_top
+##.ads_top_1
 ##.ads_top_banner
 ##.ads_top_both
 ##.ads_top_middle
@@ -23784,6 +23785,7 @@ _800x80_
 ##.card-ads
 ##.card-article-ads
 ##.card-productads
+##.cardAd
 ##.cards-categorical-list-ad
 ##.care2_adspace
 ##.careerAdviceAd1
@@ -30412,6 +30414,7 @@ _800x80_
 ##.zem_rp_promoted
 ##.zeti-ads
 ##.zeusAdWrapper
+##.zeusAd__container
 ##.ziffad-wrapper
 ##.zmgad-full-width
 ##.zmgad-right-rail
@@ -48800,6 +48803,7 @@ tf2r.com#@#.adverts
 ||tafmaster.com^$third-party
 ||tagbucket.cc^$third-party
 ||tagcade.com^$third-party
+||tagdeliver.com^$third-party
 ||tagdelivery.com^$third-party
 ||taggify.net^$third-party
 ||tagjunction.com^$third-party
@@ -55263,6 +55267,7 @@ al-monitor.com##.region--after-content
 al-monitor.com##.region--header-banner
 eneuro.org,jneurosci.org#@#.region-ad-top
 middleeasteye.net##.region-before-navigation
+justthenews.com##.region-pre-content
 futbol24.com##.rek
 4shared.com##.remove-rekl
 keengamer.com##.reserved-970
@@ -56033,8 +56038,9 @@ reactiongifs.com##div[style="width:499px; background:#ffffff; margin:00px 0px 35
 constative.com##div[style]:not([class])
 whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 realpython.com##div[style^="display:block;position:relative;"]
-add0n.com##div[style^="height: 90px;"]
+add0n.com,crazygames.com##div[style^="height: 90px;"]
 malaysiakini.com##div[style^="height:250px"]
+crazygames.com##div[style^="height:250px;"]
 malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
@@ -56042,7 +56048,7 @@ add0n.com,wccftech.com##div[style^="min-height:90px"]
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
 live365.com##div[style^="width: 300px;"]
 integral-calculator.com,live365.com,passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
-thejournal-news.net##div[style^="width:300px; height:250px;"]
+thejournal-news.net##div[style^="width:300px;"]
 napuzba.com##div[style^="width:336px"]
 jwire.com.au##div[style^="width:468px;"]
 imgbabes.com##div[style^="width:604px;"]
@@ -74670,6 +74676,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||52zhekou.online^
+||songcan.me^
+||yqzaz.cn^
+||bgelvy.cn^
+||rctxpks.cn^
+||jycwqeo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -90905,6 +90917,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||icu.getstorybox.com^
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
+||iddu1vvb7sk8-a.akamaihd.net^
 ||iheart.com/events
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/nocache/tr/*.gif?$image

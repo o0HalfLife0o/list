@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Zlp/lHT/wmAYcvbVook1Ww
+! Checksum: +Rv8OodHeSEf/M6PXAo3hg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201100817
-! Last Modified: 2022年01月10日 08:17
+! Version: 202201101403
+! Last Modified: 2022年01月10日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17204,6 +17204,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||52zhekou.online^
+||songcan.me^
+||yqzaz.cn^
+||bgelvy.cn^
+||rctxpks.cn^
+||jycwqeo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -35749,6 +35755,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||icu.getstorybox.com^
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
+||iddu1vvb7sk8-a.akamaihd.net^
 ||iheart.com/events
 ||imageshack.us^*/thpix.gif
 ||imgfarm.com/images/nocache/tr/*.gif?$image
