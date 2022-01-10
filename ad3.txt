@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K81hpPTX9EtB3soRJxNEGA
+! Checksum: H24PIcDRvybq6Rn+DUKDDg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201102007
-! Last Modified: 2022年01月10日 20:07
+! Version: 202201110207
+! Last Modified: 2022年01月11日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9394,6 +9394,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+chuandong.com##div[class*="-ad"]
+chuandong.com##A[href*="/ad/"]
+maidi.me###diy15
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17214,6 +17217,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jameschan.info^
 ||x56za02.cn^
 ||bdtao.vip^
+||piwvk.cn^
+||cyperjs.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24637,6 +24642,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /api/tracing?
 /api/track?guid
 /api/tracking/*
+/api/trk?
 /api/v1/collector
 /api/v1/metrics
 /api/v1/stat?
@@ -28237,6 +28243,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /track/view|
 /track/visitors/?
 /track/visits/?
+/track/w-pixel?
 /track2.php
 /track?*&event=
 /track?_event=
@@ -28597,6 +28604,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /trk.*/tracking.
 /trk.gif?
 /trk.php?
+/trk/api/*
 /trk2.*/open?$image
 /trk?t=$image
 /trk_tb.
