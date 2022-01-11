@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ETp3DKgDfMFSouvDC+Iceg
+! Checksum: Z3MVXm0isHcegi/IE088vQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201110818
-! Last Modified: 2022年01月11日 08:18
+! Version: 202201111402
+! Last Modified: 2022年01月11日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18835,6 +18835,7 @@ _800x80_
 ##.ad-top-leaderboard
 ##.ad-top-left
 ##.ad-top-mpu
+##.ad-top-padding
 ##.ad-top-rectangle
 ##.ad-top-right-container
 ##.ad-top-side
@@ -33231,6 +33232,7 @@ tf2r.com#@#.adverts
 ||aliadvert.ru^
 ||aliencesuffe.top^
 ||alifafdlnjeruif.com^
+||alightbornbell.com^
 ||alignclamstram.com^
 ||alipromo.com^
 ||alisierboutell.com^
@@ -42187,6 +42189,7 @@ tf2r.com#@#.adverts
 ||peskyexecutionyouthful.com^
 ||pestilentdarwinuphill.com^
 ||pestilenttidefilth.org^
+||petalonpeery.com^
 ||petchesa.net^
 ||petchoch.com^
 ||petemgta.com^
@@ -55474,10 +55477,9 @@ resetera.com##.samCodeUnit
 beermoneyforum.com##.samTextUnit
 teamfortress.tv##.sau
 animehub.ac##.sb-subs
+independent.co.uk##.sc-hYYkYm
 scotsman.com##.sc-igwadP
 distractify.com##.sc-jcwofb
-independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
-independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
 sankakucomplex.com##.scad
 newindianexpress.com##.scc
 readmng.com##.scroll_target_top
@@ -59406,6 +59408,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||auogiv.cn^
+||jwl.hk.cn^
+||987jx.com^
+||aztsefz.cn^
+||duojlm.com^
+||tfw73.online^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67021,6 +67029,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+91mjw.com##A[style^="background"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74833,6 +74842,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||baymax.video^
+||holyyjs.xyz^
+||0rg.pw^
+||mexcel.info^
+||zzuzcy.cloud^
+||zgzrmh.mobi^
+||zlin.fun^
+||rctxijo.cn^
+||allavv.xyz^
+||siomyx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -94247,6 +94266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimedia.com/deliver/statistiques/
 ||umami.wakarimasen.moe^
 ||uniqlo.com/us/elgnisolqinu.js
+||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
 ||upi.com/story/stat/
