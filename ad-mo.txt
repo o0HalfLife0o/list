@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lTWFQH1gmRfbHFomRgDQQA
+! Checksum: 5nbGoy9bBrXlX2AvRVhfVw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201112007
-! Last Modified: 2022年01月11日 20:07
+! Version: 202201120202
+! Last Modified: 2022年01月12日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -34148,6 +34148,7 @@ tf2r.com#@#.adverts
 ||blastcahs.com^
 ||blazingswatstated.com^
 ||blbhqqdfmvfsu.com^
+||blck4d.com^
 ||bleaborahm.one^
 ||bleinu.com^
 ||blenkbenched.casa^
@@ -59294,6 +59295,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##A[style*=".misigl.com/"]
+##A[href$="/108mg8.com"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -66920,6 +66922,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mydrivers.com/2021/news/zz890.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+whsir.com##A[href*=".taobao.com"]
 mydrivers.com##DIV[style^="width:890px;height:100px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -74747,6 +74750,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tkkdoc.com^
 ||wekb.club^
 ||focused.wang^
+||ysrmy1.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -105154,7 +105158,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||kameleoon.com/geolocation.gif$domain=welt.de

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oMcQmG/v44yTcOT+euA2Sw
+! Checksum: ywnlvIsqcwB/tIk31E+SYQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201112007
-! Last Modified: 2022年01月11日 20:07
+! Version: 202201120202
+! Last Modified: 2022年01月12日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -504,7 +504,7 @@ reachmax.cn
 scorecardresearch.com
 tencentmind.com
 xtgreat.com
-mail.qq.com,bilibili.com#@#+js(ra, target, a[target][href^="/"])
+bilibili.com#@#+js(ra, target, a[target=_blank][href^="/"])
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -2224,6 +2224,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##A[style*=".misigl.com/"]
+##A[href$="/108mg8.com"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -9850,6 +9851,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mydrivers.com/2021/news/zz890.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+whsir.com##A[href*=".taobao.com"]
 mydrivers.com##DIV[style^="width:890px;height:100px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17677,6 +17679,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tkkdoc.com^
 ||wekb.club^
 ||focused.wang^
+||ysrmy1.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
