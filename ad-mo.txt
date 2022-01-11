@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Tf6KlJAT4y0qUgbL/DuqrA
+! Checksum: lTWFQH1gmRfbHFomRgDQQA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201111402
-! Last Modified: 2022年01月11日 14:02
+! Version: 202201112007
+! Last Modified: 2022年01月11日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -59293,6 +59293,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##A[style*=".misigl.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -66915,9 +66916,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||86saohu.com/api/cctvs/show?
+||mydrivers.com/2021/news/zz890.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-91mjw.com##A[style^="background"]
+mydrivers.com##DIV[style^="width:890px;height:100px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74740,6 +74743,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rctxijo.cn^
 ||allavv.xyz^
 ||siomyx.cn^
+||noblift.mobi^
+||tkkdoc.com^
+||wekb.club^
+||focused.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -86578,7 +86585,6 @@ _mongo_stats/
 ||pdbu.net^$third-party
 ||pdst.fm^$script,third-party
 ||peerius.com^$third-party
-||pendo.io^$third-party
 ||percentmobile.com^$third-party
 ||perf-serving.com^$third-party
 ||perfalytics.com^$third-party
