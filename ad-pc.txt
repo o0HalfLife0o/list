@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y3M9MbwSX3nRTxEc45GyJw
+! Checksum: j6NoC1/u33Y2HohQx4Sy3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201122007
-! Last Modified: 2022年01月12日 20:07
+! Version: 202201130202
+! Last Modified: 2022年01月13日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6061,7 +6061,6 @@ tieba.baidu.com##.tuijian-wrap
 /resources/ads/*
 /resources/ads_
 /responsive-ad-
-/responsive-ad.
 /responsive-ads.
 /responsive/ad_
 /responsive_ads.
@@ -6082,7 +6081,6 @@ tieba.baidu.com##.tuijian-wrap
 /richoas.
 /right-ad-
 /right_ad.
-/right_ad^
 /right_ad_
 /right_ads.
 /rightad.
@@ -7239,7 +7237,6 @@ _ad_units_
 _ad_url=
 _ad_utils-
 _ad_vertical.
-_ad_video_
 _ad_view=
 _ad_widesky.
 _ad_wrapper.
@@ -51852,6 +51849,7 @@ tf2r.com#@#.adverts
 ||socialmonkee.com/images/
 ||squirrels.getsquirrel.co^
 ||srv.dynamicyield.com^
+||srv.tunefindforfans.com^
 ||srx.com.sg/srx/media/
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
@@ -54955,6 +54953,8 @@ slantmagazine.com##.gray_bg
 slantmagazine.com##.gray_bgBottom
 greatandhra.com##.great_andhra_main_add_rotator1
 mma-core.com##.grec
+greekcitytimes.com##.greek-adlabel
+greekcitytimes.com##.greek-after-content
 curioustic.com##.grey
 topminecraftservers.org##.grey-section
 sportingnews.com##.grid-aside
@@ -67067,8 +67067,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||xitonghe.com/SkinNew/js/init_g.
+||sciencenet.cn/field/js/news.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+x-mol.com###rightAllJournal
+x-mol.com##.news-white-content-right
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -84713,6 +84716,7 @@ cgi-bin/counter
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
+/open.html?$image
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
@@ -107636,7 +107640,7 @@ synacast.com
 de.as.pptv.com
 ||g.pptv.com/game/$subdocument
 pub.funshion.com
-@@||tb.mgtv.com/sdk/*/ad-sdk.js$script
+@@||tb.mgtv.com/sdk/*/ad-sdk.
 ||video.da.mgtv.com/$media
 ys.da.mgtv.com
 ||da.mgtv.com/mediafiles/wiad_creative/$image
