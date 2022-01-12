@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N2qBEIMEEUII88wyhtLW5g
+! Checksum: kO4tRav0ZPds1ucbJl4p4Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201120818
-! Last Modified: 2022年01月12日 08:18
+! Version: 202201121403
+! Last Modified: 2022年01月12日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -49449,6 +49449,7 @@ tf2r.com#@#.adverts
 ||clickbank.net/*offer_id=$popup,third-party
 ||clickcay.com^$popup,third-party
 ||clickfuse.com^$popup
+||clickmetertracking.com^$popup
 ||clickmngr.com^$popup
 ||clickosmedia.com^$popup
 ||clickppcbuzz.com^$popup
@@ -49534,6 +49535,7 @@ tf2r.com#@#.adverts
 ||dblmove.com^$popup
 ||dddomainccc.com^$popup
 ||debrium-surbara.com^$popup
+||defas.site^$popup
 ||defenseaspirinlike.com^$popup
 ||deline-sunction.com^$popup
 ||deliverydom.com^$popup
@@ -74769,6 +74771,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vhqlda.cn^
 ||dscloud.ltd^
 ||quliushang.xyz^
+||ti863.cn^
+||rctxymu.cn^
+||qlugsc.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
