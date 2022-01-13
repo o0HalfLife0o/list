@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: A260rJB8194hYvPId8UZXw
+! Checksum: imR+QXpOSd7nWnLLTFP1mg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201132007
-! Last Modified: 2022年01月13日 20:07
+! Version: 202201140203
+! Last Modified: 2022年01月14日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13305,6 +13305,7 @@ _800x80_
 ###dfp-atf
 ###dfp-banner
 ###dfp-billboard1
+###dfp-billboard2
 ###dfp-btf
 ###dfp-footer-desktop
 ###dfp-global_top
@@ -38051,6 +38052,7 @@ tf2r.com#@#.adverts
 ||guardedfebruaryenclosed.com^
 ||guardiandigitalcomparison.co.uk^
 ||guardssentinelcreepy.com^
+||guerrilla-links.com^
 ||guffawdecipher.com^
 ||guffawsister.com^
 ||guffsview.com^
@@ -40288,6 +40290,7 @@ tf2r.com#@#.adverts
 ||maxonclick.com^
 ||maxserving.com^
 ||mayhemabjure.com^
+||maymooth-stopic.com^
 ||mayordiminution.com^
 ||maze4aem56jf.com^
 ||mazzappa.fun^
@@ -49752,6 +49755,7 @@ tf2r.com#@#.adverts
 ||grtyj.com^$popup
 ||grygrothapi.pro^$popup
 ||gsniper2.com^$popup
+||guerrilla-links.com^$popup
 ||gvcaffiliates.com^$popup,third-party
 ||h3lw971ym6.com^$popup
 ||h8vzwpv.com^$popup
@@ -49964,6 +49968,7 @@ tf2r.com#@#.adverts
 ||matevictim.com^$popup
 ||mathafuda.pro^$popup
 ||mattoadbayed.icu^$popup
+||maymooth-stopic.com^$popup
 ||mb-npltfpro.com^$popup
 ||mb01.com^$popup
 ||mb102.com^$popup
@@ -53558,6 +53563,7 @@ appleworld.today###block-26
 systutorials.com###block-3
 systutorials.com###block-4
 systutorials.com###block-5
+ericpetersautos.com###block-6
 systutorials.com###block-7
 cryptofeeds.news###block-8
 wionews.com###block-adv
@@ -54023,6 +54029,7 @@ geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
 cathnews.co.nz,cryptoreporter.info,net-load.com###text-12
 radiosurvivor.com###text-13
+ericpetersautos.com###text-133
 planetinsane.com###text-14
 geeksforgeeks.org###text-15
 electronicshub.org,geeksforgeeks.org,thesurvivalistblog.net###text-16
@@ -55622,7 +55629,7 @@ protocol.com##.tag-sponsored
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
 igg-games.com##.taxonomy-description
-constructionreviewonline.com,cyberparse.co.uk,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
+constructionreviewonline.com,cyberparse.co.uk,ericpetersautos.com,gameplayinside.com,gamezone.com,gizmochina.com,greekreporter.com,industryhit.com,musictech.net,newsnext.live,nme.com,radioink.com,sonorannews.com,telugubullet.com,theindependent.co.zw##.td-a-rec
 bizasialive.com##.td-all-devices
 brila.net,cgmagonline.com,gayexpress.co.nz,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap-full
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
@@ -55636,6 +55643,7 @@ justjared.com,justjaredjr.com##.team_med_shell
 justjared.com##.team_med_shell_flex
 itproportal.com##.teaser
 macrumors.com##.tertiary
+ericpetersautos.com##.text-109
 businessonhome.com##.text-info
 sciencedaily.com##.textrule
 evilbeetgossip.com##.textwidget
@@ -56287,6 +56295,7 @@ mail.yahoo.com###slot_LREC
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
 yahoo.com##.ads
+yahoo.com##.caas-da
 yahoo.com##.darla
 yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
@@ -59338,6 +59347,7 @@ ubmcmm.baidustatic.com
 ##a[href^="https://hi.potvpn.com/?from="]
 ##a[onclick*=".lyty665.com"]
 ##a[style*=".misigl.com/"]
+##a[style*=".memexoxo.com/"]
 ##a[target="_blank"][href*="/bet188/"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".dxsdkw.cn"]
@@ -59359,6 +59369,7 @@ ubmcmm.baidustatic.com
 ||01fen.com^
 ||022aifang.com^
 ||llyqy.top^
+||ieecheng.com^
 ||025suyu.com^
 ||033.com^$third-party
 ||0351dvd.cn^
@@ -66977,8 +66988,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zhanzhangb.com/inc/zzb-ad/
+||seectech.cn/scm/ad/list
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+114la.com##.headline
+winshang.com##.ggwrap
+114la.com#?#.sortItem:-abp-has(> dIV[class] > .FeedADClose)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -74799,6 +74814,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wswh.club^
 ||jwvjcr.cn^
 ||rctxczy.cn^
+||proko.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

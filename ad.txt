@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p2QCuAkBXB7xyImSLUpW9g
+! Checksum: ok9RvG4AxeMCHIhpasCDwQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201132007
-! Last Modified: 2022年01月13日 20:07
+! Version: 202201140203
+! Last Modified: 2022年01月14日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2216,6 +2216,7 @@ ubmcmm.baidustatic.com
 ##a[href^="https://hi.potvpn.com/?from="]
 ##a[onclick*=".lyty665.com"]
 ##a[style*=".misigl.com/"]
+##a[style*=".memexoxo.com/"]
 ##a[target="_blank"][href*="/bet188/"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".dxsdkw.cn"]
@@ -2237,6 +2238,7 @@ ubmcmm.baidustatic.com
 ||01fen.com^
 ||022aifang.com^
 ||llyqy.top^
+||ieecheng.com^
 ||025suyu.com^
 ||033.com^$third-party
 ||0351dvd.cn^
@@ -9855,8 +9857,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zhanzhangb.com/inc/zzb-ad/
+||seectech.cn/scm/ad/list
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+114la.com##.headline
+winshang.com##.ggwrap
+114la.com#?#.sortItem:-abp-has(> dIV[class] > .FeedADClose)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17677,6 +17683,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wswh.club^
 ||jwvjcr.cn^
 ||rctxczy.cn^
+||proko.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
