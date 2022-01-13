@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RCHiv5uPkGgvYaKeZIL9sg
+! Checksum: pOmiPj3H+2CjVorPsrHaSA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201130202
-! Last Modified: 2022年01月13日 02:02
+! Version: 202201130819
+! Last Modified: 2022年01月13日 08:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2234,8 +2234,6 @@ ubmcmm.baidustatic.com
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
-||qdopportune.cn^
-||tongdianku.com^
 ||01fen.com^
 ||022aifang.com^
 ||025suyu.com^
@@ -3902,6 +3900,7 @@ ubmcmm.baidustatic.com
 ||qajypx.com^
 ||qbj8.com^
 ||qdchunyu.com^
+||qdopportune.cn^
 ||qdsfzz.cn^
 ||qdwght.com^
 ||qdxrhg.com^$third-party
@@ -4209,6 +4208,7 @@ ubmcmm.baidustatic.com
 ||to8to.com^$subdocument,third-party
 ||togo666.com^
 ||tongdejiayuan.com^
+||tongdianku.com^
 ||toolset.vip^
 ||toospk.com^
 ||toourbb.com^
@@ -8703,6 +8703,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sbo8.com/static/theme/js/bottom.
 ||sccnn.com/SF/zt.jpg
 ||scibook.cn/tuiguang.
+||sciencenet.cn/field/js/news.
 ||sciencenet.cn/html/js/n
 ||scint-x.com/js/
 ||sconline.com.tw/top/coolpc_
@@ -9474,6 +9475,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xitek.com/idzone
 ||xitong8.com/theme/default/images/725x90.gif
 ||xitong8.com/theme/default/images/index_13.jpg
+||xitonghe.com/SkinNew/js/init_g.
 ||xitongzhijia.net/theme/2017/images/temp/ad_
 ||xitongzhijia.net/theme/2017/js/total_soft.js
 ||xiu8.com/baidu-tieba/*&forum_name=
@@ -9851,12 +9853,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||xitonghe.com/SkinNew/js/init_g.
-||sciencenet.cn/field/js/news.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-x-mol.com###rightAllJournal
-x-mol.com##.news-white-content-right
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11017,6 +11015,7 @@ qxfun.com###reward-me > figure:nth-child(n+2)
 antdv.com###right-bottom
 cnbeta.com###right1
 hbzhan.com###rightAdv
+x-mol.com###rightAllJournal
 jiaodong.net###rightBanner
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 07073.com###rightDiv > div[style="height:250px"]
@@ -13361,6 +13360,7 @@ ali213.net##.newright
 sydneytoday.com##.news-list > .row > .col-xs-12
 eastday.com##.news-promote
 kaifu.com##.news-t-adv
+x-mol.com##.news-white-content-right
 2345.com##.newsArea
 chinaz.com##.newsMainBox-textad
 afzhan.com##.newsRightAdv
@@ -17670,19 +17670,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||vhqlda.cn^
-||dscloud.ltd^
-||quliushang.xyz^
-||ti863.cn^
-||rctxymu.cn^
-||qlugsc.cn^
-||bmt4578.xyz^
-||wswh.xyz^
-||ypdzb.cn^
-||diuleilou.top^
-||sfg8mbh.cn^
-||hgxy.info^
-||ruif.xyz^
+||nbslx.mobi^
+||wswh.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18337,6 +18326,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||blcobmv.cn^
 ||bljpk3.cn^
 ||blsenpg.cn^
+||bmt4578.xyz^
 ||bmuju.com^
 ||bnd-ybb.cn^
 ||bndbddt.top^
@@ -18657,6 +18647,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dianyingmi1.cn^
 ||diaoda.xyz^
 ||dibyc.com^
+||diuleilou.top^
 ||dj0ts1x.cn^
 ||dj930.cn^
 ||djiybut.cn^
@@ -18690,6 +18681,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dreamrecord.cn^
 ||dreamware.com.cn^
 ||dryraw.vip^
+||dscloud.ltd^
 ||dsdsds8848.xyz^
 ||dspdy.cn^
 ||dss8l0f.cn^
@@ -18854,6 +18846,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||heyi.shop^
 ||hgbvtax.cn^
 ||hgdnd.cc^
+||hgxy.info^
 ||hhfhgf.cc^
 ||hhhfe.cn^
 ||hhnvrht.cn^
@@ -19175,6 +19168,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qijiandian.xyz^
 ||qilinwh.cn^
 ||qingyulin.top^
+||qlugsc.cn^
 ||qmdllqv.cn^
 ||qorosmall.com^
 ||qp-nett.cn^
@@ -19184,6 +19178,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qscwdv.top^
 ||quge66.com/jdjd/
 ||qujiawan.vip^
+||quliushang.xyz^
 ||quqianlai.cn^
 ||qusiwang.top^
 ||qv566.cn^
@@ -19201,6 +19196,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rctxtjp.cn^
 ||rctxubn.cn^
 ||rctxwtt.cn^
+||rctxymu.cn^
 ||rd926.cn^
 ||remehealth.net^
 ||rementui.top^
@@ -19218,6 +19214,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
 ||s1utu5g.cn^
@@ -19230,6 +19227,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||sdw8vzd.cn^
 ||secrr.cn^
 ||seobeginners.wiki^
+||sfg8mbh.cn^
 ||sg01.top^
 ||sgaga.xyz^
 ||shadamu2.com^
@@ -19296,6 +19294,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||thechosen1.cn^
 ||thinkphp.pro^
 ||thjxwlkj.com^
+||ti863.cn^
 ||tianlule.cn^
 ||timy.ink^
 ||tivfcaa.cn^
@@ -19342,6 +19341,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||vaxgyly.cn^
 ||vciayrf.cn^
 ||vcsoat.cn^
+||vhqlda.cn^
 ||viccscxz.cn^
 ||vl665.cn^
 ||vluvpdf.cn^
@@ -19389,6 +19389,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wpqsmse.cn^
 ||ws-expo.cn^
 ||wsrrfoa.cn^
+||wswh.xyz^
 ||wulian.in^
 ||wuwai.art^
 ||wuxiqiangheng.com^
@@ -19471,6 +19472,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||yougouquanqiu.xyz^
 ||youliangyouxian.xyz^
 ||youpeng.pw^
+||ypdzb.cn^
 ||ypgdnrz.cn^
 ||yqzaz.cn^
 ||yrzdbzq.cn^
