@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j/BD2ti0vPyJ2LGM3ODA1Q
+! Checksum: L7ehIusWEsAJaX5LIhpPkg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202201142006
-! Last Modified: 2022年01月14日 20:06
+! Version: 202201150202
+! Last Modified: 2022年01月15日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1426,7 +1426,7 @@ zippyshare.com,uploadproper.com,uploadproper.net#$#abort-on-property-read _pop
 jawcloud.co,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 bs.to,burningseries.co#$#abort-current-inline-script Object
 vivo.sx#$#abort-current-inline-script Math
-thegay.tube,txxx.com#$#abort-current-inline-script mz
+thegay.com,thegay.tube,txxx.com#$#abort-current-inline-script mz
 gdespaces.com,spac.me,spac1.com,spac1.me,spac1.net,spaces-blogs.com,spaces.im,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
 mrpornx.com,myyouporn.com#$#abort-current-inline-script eval String.fromCharCode
 gounlimited.to#$#abort-on-property-read atob
@@ -1921,8 +1921,6 @@ xuongphim18z.com#$#abort-on-property-read document.cookie
 ephimmoi.net#$#abort-current-inline-script $ open
 phimtop.net#$#abort-on-property-read document.cookie
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
-! FDA-2676
-heise.de#@#[data-ad-unit]
 ! AakList (Anti-Adblock Killer)
 ! ----- Anti-Adblockers ------------------------------------------------------------------------------------------------------------------- !
 ! ----- Generic ----- !
