@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B0ezJPnU0RHPg/jgoHyocQ
+! Checksum: pgC2acp9/62o8YZVQ/B+Dg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201140817
-! Last Modified: 2022年01月14日 08:17
+! Version: 202201141402
+! Last Modified: 2022年01月14日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3712,7 +3712,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /assets/doubleclick/*
 /assets/sponsored/*
 /ast/ads/*
-/async-ads.js
 /async/ads-
 /asyncadload.
 /asyncjs.$domain=~asyncjs.com
@@ -12704,6 +12703,7 @@ _800x80_
 ###boxAd300
 ###boxAdContainer
 ###boxAdvert
+###boxLREC
 ###boxLightImageGalleryAd
 ###box_ad
 ###box_ad_container
@@ -16540,6 +16540,7 @@ _800x80_
 ###top_wide_ad
 ###topad
 ###topad-728x90
+###topad-block
 ###topad-wrap
 ###topad1
 ###topad2
@@ -24371,10 +24372,13 @@ _800x80_
 ##.dfp-banner
 ##.dfp-banner-slot
 ##.dfp-block
+##.dfp-bottom
 ##.dfp-button
 ##.dfp-double-mpu
 ##.dfp-dynamic-tag
 ##.dfp-fixedbar
+##.dfp-here-bottom
+##.dfp-here-top
 ##.dfp-leaderboard
 ##.dfp-leaderboard-container
 ##.dfp-panel
@@ -24384,6 +24388,7 @@ _800x80_
 ##.dfp-space
 ##.dfp-super-leaderboard
 ##.dfp-tag-wrapper
+##.dfp-top
 ##.dfp-top1
 ##.dfp-top1-container
 ##.dfp-wrapper
@@ -25727,6 +25732,7 @@ _800x80_
 ##.horisont_ads
 ##.horiz_adspace
 ##.horizontal-ad
+##.horizontal-ad-container
 ##.horizontal-ad-holder
 ##.horizontal-ad-wrapper
 ##.horizontal-ad2
@@ -26490,6 +26496,7 @@ _800x80_
 ##.lr-ad
 ##.lr-pack-ad
 ##.lr_skyad
+##.lrec-container
 ##.lsn-yahooAdBlock
 ##.lt_ad
 ##.lt_ad_call
@@ -53490,6 +53497,7 @@ informer.com###ad0
 boards.net,pimpandhost.com,timeanddate.com,wordreference.com###ad1
 pimpandhost.com###ad2
 exchangerates.org.uk###ad3
+moomoo.io###adCard
 musescore.com###ad_cs_12219747_728_90
 adtunes.com,all-nettools.com,britsabroad.com,kiwibiker.co.nz,printroot.com###ad_global_below_navbar
 mrexcel.com###adngin-bottom_2_LB_HB-0
@@ -53840,6 +53848,7 @@ linuxbabe.com###media_image-8
 ostatic.com###media_partner_gallery
 cgchannel.com###mediumRectangle
 newburyportnews.com###mediumRectangle_atf
+moomoo.io###menuContainer > .menuCard
 androidforums.com###messageList > .messageList
 thepiratebay.org###meta-right
 bleedingcool.com###middle_medium_rectangle
@@ -54459,6 +54468,7 @@ betaseries.com##.blockPartner
 myrealgames.com##.block_adv_mix_top2
 gametracker.com##.blocknewnopad
 simkl.com##.blockplacecente
+wowhead.com##.blocks
 wowway.net##.blocks_container-size_containerSize
 weather-forecast.com##.bn-placeholder
 gearspace.com##.bnb--inline
@@ -54566,7 +54576,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,iotwreport.com##.code-block
+browserhow.com,iotwreport.com,rezence.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
@@ -54624,6 +54634,7 @@ techrepublic.com,zdnet.com##.content-MPU-top
 floridasportsman.com##.content-banner-section
 crmbuyer.com,ectnews.com,macnewsworld.com,technewsworld.com##.content-block-slinks
 computerweekly.com##.content-continues
+gostream.site##.content-kuss
 techrepublic.com,zdnet.com##.content-leader-bottom
 techrepublic.com,zdnet.com##.content-leader-top
 cookist.com##.content-leaderboard
@@ -74825,6 +74836,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shaiban.wang^
 ||kyle.pub^
 ||xakywl.xyz^
+||rctxwpn.cn^
+||ldogre.top^
+||rctxprz.cn^
+||fpreld.cn^
+||sl00ufi.cn^
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
 ##a[href*=".kluvcc.com/"]
@@ -103925,6 +103941,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||geoip.finanzen.net^
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
+||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
 ||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/

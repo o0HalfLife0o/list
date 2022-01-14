@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K/cFGwJvoyvcDjD728/Beg
+! Checksum: 1g1WvYpM2HlvaNWQUH8XXQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201140817
-! Last Modified: 2022年01月14日 08:17
+! Version: 202201141402
+! Last Modified: 2022年01月14日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17243,6 +17243,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shaiban.wang^
 ||kyle.pub^
 ||xakywl.xyz^
+||rctxwpn.cn^
+||ldogre.top^
+||rctxprz.cn^
+||fpreld.cn^
+||sl00ufi.cn^
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
 ##a[href*=".kluvcc.com/"]
@@ -48657,6 +48662,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||geoip.finanzen.net^
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
+||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
 ||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
