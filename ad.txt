@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0z5mMbB85ID8dLtzJ7fdTw
+! Checksum: CmCYm4fymVxhITXE59rwDg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201152008
-! Last Modified: 2022年01月15日 20:08
+! Version: 202201160201
+! Last Modified: 2022年01月16日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -533,6 +533,7 @@ ys.da.mgtv.com
 ||data.vod.itc.cn/*&prod=ad&$media
 ||api.my.tv.sohu.com/wm/getads.do?
 ||aty.sohu.com/
+adpushup.com
 ||go.sohu.com/
 ||tv.sohu.com/upload/csad/admaster/$image
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
@@ -602,7 +603,7 @@ in-page-push.com
 stgowan.com
 trustedgatetocontent.com
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
-yatu.tv,yhdm5.com##+js(set,document.oncontextmenu,trueFunc)
+yatu.tv,yhdm5.com,netflix.mom,yanetflix.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
 3z9e.cn
 7nsc.cn
@@ -2234,6 +2235,8 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||hanjw1988.com^
 ||eccbb.com^
+||tuuihea.top^
+||xiqqq.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9867,6 +9870,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||eepw.com.cn/event/action/rightbd/microchip*.js
+||pkvs.com/public/as.js
+||pkvs.com/public/300/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 cps.com.cn##.couplet-le
@@ -17705,6 +17710,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xglryxd.cn^
 ||rctxlac.cn^
 ||cyccy.cn^
+||aybnn.cn^
+||leelovelwj.com^
+||gbcvbnv5.com^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
