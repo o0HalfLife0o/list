@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: izAIdTjAJ3LSsUvwuCtYGg
+! Checksum: NNpHWE2Y1WKM0kTXgWusTg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201150202
-! Last Modified: 2022年01月15日 02:02
+! Version: 202201150817
+! Last Modified: 2022年01月15日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54260,6 +54260,7 @@ semiconductor-today.com###topheaderimage
 animixplay.to###topmid
 worldtimebuddy.com###toprek
 google.com###topstuff > #wmxmsg
+charlieintel.com###topunit
 pcworld.com,techhive.com###tso
 kuklaskorner.com###ultimate
 my.juno.com###usWorldTile
@@ -54340,6 +54341,7 @@ this.org##.Wrap-leaderboard
 tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
 olympics.com##.\-partners
+cointelegraph.com##._1p0RFbnRBP8wtiCNM9Gxde
 thequint.com##._1v3nU
 tvzoneuk.com##._2JOHk
 coderwall.com##._300x250
@@ -54739,7 +54741,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,iotwreport.com,rezence.com##.code-block
+browserhow.com,charlieintel.com,iotwreport.com,rezence.com##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
@@ -54860,6 +54862,7 @@ counter.dev,lindaikejisblog.com##.da
 arabianindustry.com##.da-leaderboard
 smartprix.com##.dadow-box
 webuser.co.uk##.dart-tag
+sportshub.stream##.db783ekndd812sdz-ads
 foobar2000.org##.db_link
 startups.co.uk##.dc-leaderboard
 dailycaller.com##.dc-sticky
@@ -55422,6 +55425,7 @@ freewebarcade.com##.pnum
 pedestrian.tv##.popular-jobs-widget
 wethegeek.com##.popup-dialog
 acestream.net##.popup2
+charlieintel.com##.position-sticky
 wtop.com##.post--sponsored
 hackread.com##.post-review-li
 mediakix.com##.post-widget__banner
@@ -84521,6 +84525,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wtinit.js
 /wtrack?event=
 /wtstats/*
+/wunderlytics/*
 /ww-analytics-
 /ww-performance-
 /wwwcount.cgi?
@@ -107709,8 +107714,8 @@ weibo.com###Pl_Core_P7MultiPicPlay__7
 !---【相关推荐】
 weibo.com##.apps_PCD_reco_detail_right
 ! 乘风 视频广告过滤规则
-v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,switchFullscreen)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -107770,10 +107775,11 @@ cctv.com,ddrk.me,miguvideo.com##+js(aeld,dblclick,isImmediatePropagationStopped)
 cctv.com###bgAd_div
 ||imall.cctv.com/$subdocument
 bjcathay.com
-pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game,#p-mark
+pptv.com##.advView-two,#p-mark
 synacast.com
 de.as.pptv.com
 ||g.pptv.com/game/$subdocument
+||osswc.pplive.cn/cccms/$image
 pub.funshion.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 ||video.da.mgtv.com/$media
@@ -107843,7 +107849,7 @@ haitum.com##.left-content:style(width:77%!important)
 ||haitum.com/template/default/static/js/middle.js^$script
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
-dandanzan.top,nunuyy.*##.gm-fp-body video:style(max-height:100% !important;height:100% !important)
+dandanzan.top,nunuyy1.*##.gm-fp-body video:style(max-height:100% !important;height:100% !important)
 adx1.com
 ancheonyo.fun
 andcanbere.fun

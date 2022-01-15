@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UvUjPDU4JgB9JHNye3JN+w
+! Checksum: iEj8TIOYzhEJR8BN0tLjDA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201150202
-! Last Modified: 2022年01月15日 02:02
+! Version: 202201150817
+! Last Modified: 2022年01月15日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,8 +457,8 @@ tieba.baidu.com##.j_click_stats, .j_click_stats+*
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! 乘风 视频广告过滤规则
-v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,huya.com,dandanzan.top,nunuyy.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,switchFullscreen)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -518,10 +518,11 @@ cctv.com,ddrk.me,miguvideo.com##+js(aeld,dblclick,isImmediatePropagationStopped)
 cctv.com###bgAd_div
 ||imall.cctv.com/$subdocument
 bjcathay.com
-pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game,#p-mark
+pptv.com##.advView-two,#p-mark
 synacast.com
 de.as.pptv.com
 ||g.pptv.com/game/$subdocument
+||osswc.pplive.cn/cccms/$image
 pub.funshion.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 ||video.da.mgtv.com/$media
@@ -591,7 +592,7 @@ haitum.com##.left-content:style(width:77%!important)
 ||haitum.com/template/default/static/js/middle.js^$script
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
-dandanzan.top,nunuyy.*##.gm-fp-body video:style(max-height:100% !important;height:100% !important)
+dandanzan.top,nunuyy1.*##.gm-fp-body video:style(max-height:100% !important;height:100% !important)
 adx1.com
 ancheonyo.fun
 andcanbere.fun
