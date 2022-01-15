@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8g5pABnh05FNsWPz0QJLyA
+! Checksum: 0z5mMbB85ID8dLtzJ7fdTw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201151402
-! Last Modified: 2022年01月15日 14:02
+! Version: 202201152008
+! Last Modified: 2022年01月15日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2233,6 +2233,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||hanjw1988.com^
+||eccbb.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9865,8 +9866,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||eepw.com.cn/event/action/rightbd/microchip*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cps.com.cn##.couplet-le
+instrument.com.cn##.swiper-container
+eepw.com.cn###startvideo
+ijiandao.com###index_top_ad
+ijiandao.com##DIV[class^="banner_h_"]
 javhope.com###havhope
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17696,6 +17703,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||exgrao.cn^
 ||cmall.club^
 ||xglryxd.cn^
+||rctxlac.cn^
+||cyccy.cn^
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
