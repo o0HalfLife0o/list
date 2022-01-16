@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ty24sMkJpV8FVxrAPptBWw
+! Checksum: +VoMRRapNu/73SSi+JbqtQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201161402
-! Last Modified: 2022年01月16日 14:02
+! Version: 202201162005
+! Last Modified: 2022年01月16日 20:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -12076,7 +12076,7 @@ boo.tw##.blockUI
 oschina.net##.blog-left-ad
 codexiu.cn##.blog-twitter:first-child
 house.qq.com##.bm
-1point3acres.com,xianzhenyuan.cn##.bm.a_c
+xianzhenyuan.cn##.bm.a_c
 tropica.cn##.bm.a_c1
 ydss.cn##.bm.bml.pbn > table > tbody > tr > td:nth-child(-n+2)
 jlmhk.com##.bn
@@ -12509,7 +12509,6 @@ unikoshardware.com##.elementor-popup-modal
 eprice.com.tw##.emome-ad
 firefoxchina.cn##.engine-jokes
 zreading.cn##.enhanced-text-widget:nth-child(2)
-1point3acres.com##.enhanced_header
 hao123.com##.enter1
 hackhw.com##.entry-banner
 idanmu.ee##.entry-body > div[class]:first-child
@@ -14314,7 +14313,6 @@ hao123.com##.wm
 woniupai.net##.wnp-adbox
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.worldcup_info_banner_dialog
 tzfile.com##.wp-image-2738
-1point3acres.com##.wp.a_t
 141hongkong.com##.wp.at
 bestcclm.com##.wp.cl > a
 xixilt.com##.wp.cl[style="width:1200px;"]
@@ -15747,7 +15745,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||192.168.*.1/$generichide
 @@||192.168.*/advertising_$stylesheet
 @@||199it.com^$generichide
-@@||1point3acres.com^$generichide
 @@||2018x.bid/adview.js
 @@||2345.com/images/activity/20171111/open/j/close.png
 @@||31vcd.com/player/kuyun.js
@@ -17723,6 +17720,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zdrcnx.cn^
 ||hcnegb.cn^
 ||ldsage.top^
+||unfzclg.cn^
 ##a[href*=".xxmh727.com/"]
 ##a[href*=".yixing-hb.com"]
 ##a[href*="/huojugg.com"]
