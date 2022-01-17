@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uc+6HHAR0NFQiTlw4wT8TA
+! Checksum: ZSZU9iLMs0VgOOyIUHT/eQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201172008
-! Last Modified: 2022年01月17日 20:08
+! Version: 202201180202
+! Last Modified: 2022年01月18日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2244,6 +2244,8 @@ ubmcmm.baidustatic.com
 ||6185059.com^
 ||ouzhijie.top^
 ||javase.top^
+||otantgi.cn^
+||ahxbpm.com^
 ||012.tw^$third-party
 ||01fen.com^
 ||022aifang.com^
@@ -5221,7 +5223,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
 ||360buyimg.com/jzt/temp/js/
-||360buyimg.com^$domain=1024sh.com|gw54.com|qianggou5.com
+||360buyimg.com^$domain=1024sh.com|xgw5.com|qianggou5.com
 ||360doc.com^*.html?t=
 ||360kan.com/special/
 ||365kl.net/data/attachment/portal/
@@ -7633,7 +7635,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jd.com/exsites?spread_type=
 ||jd.com/static/js/auto.js
 ||jd.com/static/js/cpc.js
-||jd.com^$domain=gw54.com
+||jd.com^$domain=xgw5.com
 ||jd100.com/cwmpc/
 ||jdwx.info/api.php?mod=ad&
 ||jia.com/js/common/article_home_adv.js
@@ -9881,6 +9883,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||yeyulingfeng.com/img/eat.
+||tucao.one/uploadfile/*/ch.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -11114,7 +11117,7 @@ ifeng.com###sideBar[class^="box_"]
 2345.com###sideCat
 hao.360.com###sidebar
 xc6b.com###sidebar > .box-b img
-appinn.com###sidebar > .widget_text:first-child
+appinn.com###sidebar > .widget:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
@@ -11768,7 +11771,7 @@ cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 ca168.com##.admarket
 mobile01.com##.admicrobtn
-ccoo.cn,gw54.com,hackhome.com,vipcn.com##.adn
+ccoo.cn,xgw5.com,hackhome.com,vipcn.com##.adn
 zj.com##.adnav
 zj.com##.adnav2
 gaokao.com##.adout116
@@ -11798,7 +11801,7 @@ lenovo.com.cn##.adsense-wrap
 3dmgame.com##.adshop
 qinbing.cn##.adspic_mid2
 av.movie##.adss-160x600
-chinaz.com,gw54.com,ofweek.com,yawin.cn##.adtext
+chinaz.com,xgw5.com,ofweek.com,yawin.cn##.adtext
 92sucai.com##.adtg2
 gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
@@ -12352,7 +12355,7 @@ xingkbjm.com##.d_postlist > ul > li:nth-child(-n+2)
 qingdaonews.com##.da30050
 qingdaonews.com##.da66050
 zhangxinxu.com##.da_bottom
-gw54.com,xbyuan.com##.dad
+xgw5.com,xbyuan.com##.dad
 lenovo.com.cn##.daily-hotwords
 map.baidu.com##.damoce-search-item
 acfun.cn##.danmu-activity
@@ -12948,7 +12951,7 @@ hoteastday.com##.incentive
 caixin.com##.incubator
 qqyy.com##.ind_ad
 faxingw.cn##.indadv1
-gw54.com,jojf.cn,x6k.com,ziyuanyo.com##.index-ad
+xgw5.com,jojf.cn,x6k.com,ziyuanyo.com##.index-ad
 oschina.net##.index-ad-wrap
 cndesign.com##.index-add
 py.cn##.index-advert
@@ -15285,7 +15288,7 @@ bbs.my0511.com##embed[width="970"][height="70"]
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
 aae3.com##form + center > p[align="center"]
 guilinlife.com#?#li:-abp-has(> div > .content-other > .content-type:-abp-contains(广告))
-gw54.com#?#li:-abp-has(>.ads)
+xgw5.com#?#li:-abp-has(>.ads)
 cnbeta.com##h2 > a[href^="https://active.greatroma.com"]
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 ifeng.com#?#.box_list:-abp-has(.tuig)
@@ -17714,6 +17717,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhexnuq.cn^
 ||ppwxgpr.cn^
 ||swnptn.cn^
+||huobago.com^
+||wdread.pub^
 bxwx333.org###addiv3
 bxwx333.org###bdstatic
 55shuba.com###botDiv
