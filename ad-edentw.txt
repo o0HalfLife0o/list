@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p/y7Tfyk9NuokltX7QrD0Q
+! Checksum: vyybiF86dFl13VZS6zAGOQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202201180818
-! Last Modified: 2022年01月18日 08:18
+! Version: 202201182007
+! Last Modified: 2022年01月18日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1509,7 +1509,8 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#override-
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 ! Fallback
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-event-poc click button.ytp-ad-skip-button
-||googlevideo.com/videoplayback?*&ctier=L&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
+www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-event-poc click span.ytp-ad-skip-button-container
+/&ctier=L.*&dur=[1-20].*/$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
 @@||googlevideo.com/videoplayback?*&pfa=*$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
 @@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
 @@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=www.youtube.com|m.youtube.com|music.youtube.com
