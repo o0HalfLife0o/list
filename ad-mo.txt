@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9uuglG6OoWS/dT0lzME+Gw
+! Checksum: V26ogp0nPqNo03g0PGfQDA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201182007
-! Last Modified: 2022年01月18日 20:07
+! Version: 202201190202
+! Last Modified: 2022年01月19日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -11401,9 +11401,12 @@ _800x80_
 ###adslot6
 ###adslot7
 ###adslot_c2
+###adslot_left
 ###adslot_m1
 ###adslot_m2
 ###adslot_m3
+###adslot_rect
+###adslot_top
 ###adsmegabanner
 ###adsmiddle
 ###adsnews
@@ -28367,6 +28370,7 @@ _800x80_
 ##.section_ad
 ##.section_ad_left
 ##.section_adarea
+##.section_ads
 ##.section_google-adsense
 ##.section_mpu_wrapper
 ##.section_mpu_wrapper_wrapper
@@ -29821,6 +29825,7 @@ _800x80_
 ##.txtAd5
 ##.txtAds
 ##.txt_ad
+##.txt_adbyeclick
 ##.txt_ads
 ##.txtad_area
 ##.txtadbox
@@ -30908,6 +30913,7 @@ _800x80_
 ##a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"]
 ##a[href^="http://www.mysuperpharm.com/"]
 ##a[href^="http://www.on2url.com/app/adtrack.asp"]
+##a[href^="http://www.onclickmega.com/jump/next.php?"]
 ##a[href^="http://www.onwebcam.com/random?t_link="]
 ##a[href^="http://www.paddypower.com/?AFF_ID="]
 ##a[href^="http://www.pinkvisualgames.com/?revid="]
@@ -33280,6 +33286,7 @@ tf2r.com#@#.adverts
 ||andohs.net^
 ||andomedia.com^
 ||andomediagroup.com^
+||andorapx.com^
 ||andorranisas.xyz^
 ||andriesshied.com^
 ||andworldwi.co^
@@ -33309,6 +33316,7 @@ tf2r.com#@#.adverts
 ||anldnews.pro^
 ||anncmq.com^
 ||annelinterv.fun^
+||annesuspense.com^
 ||anniversarytoothbrush.com^
 ||anomaloustradingmerciful.com^
 ||anonolpucka.com^
@@ -37229,6 +37237,7 @@ tf2r.com#@#.adverts
 ||firtaips.com^
 ||firtribe.com^
 ||fishermanmartial.com^
+||fishpassportvocational.com^
 ||fishyscalpelweight.com^
 ||fisoes.com^
 ||fistcartyped.casa^
@@ -39510,6 +39519,7 @@ tf2r.com#@#.adverts
 ||kgxnaenrozyuh.com^
 ||khaate.com^
 ||khandragthresh.com^
+||khayatarai.com^
 ||khcbilxtj.com^
 ||khewwakrywmgxr.com^
 ||khg97644rvbg.com^
@@ -40871,6 +40881,7 @@ tf2r.com#@#.adverts
 ||mummypepdye.com^
 ||mumosy.com^
 ||mumtsioc.top^
+||munori.com^
 ||mupsytyzu.com^
 ||mupteekr.net^
 ||muqson0kgr.com^
@@ -41019,6 +41030,7 @@ tf2r.com#@#.adverts
 ||nckwgmbfdwrj.xyz^
 ||nctylivpwhpby.com^
 ||ncurqchw.com^
+||ndbspfpgynbt.com^
 ||ndejhe73jslaw093.com^
 ||ndha4sding6gf.com^
 ||ndiampartic.biz^
@@ -42683,6 +42695,7 @@ tf2r.com#@#.adverts
 ||princided.club^
 ||pringed.space^
 ||printmeantime.com^
+||prinue.com^
 ||priorityinvaderinflation.com^
 ||prisedeluge.com^
 ||pritesol.com^
@@ -45278,6 +45291,7 @@ tf2r.com#@#.adverts
 ||theloungenet.com^
 ||themdesertdumbest.com^
 ||themereplacebiopsy.com^
+||thenceafeard.com
 ||theonecdn.com^
 ||theoreviver.cam^
 ||theplayadvisor.com^
@@ -45538,6 +45552,7 @@ tf2r.com#@#.adverts
 ||tpdads.com^
 ||tplpages.com^
 ||tpn134.com^
+||tqhitmrbkq.top^
 ||tqlkg.com^
 ||tqmibkqlwqdysi.com^
 ||tqmvbnptsq.top^
@@ -50359,6 +50374,7 @@ tf2r.com#@#.adverts
 ||pweaatek.com^$popup
 ||pwrads.net^$popup
 ||px1alsry.com^$popup
+||pxlk9.net^$popup
 ||pyq6n.com^$popup
 ||qazwsx.click^$popup
 ||qelllwrite.com^$popup
@@ -52335,6 +52351,7 @@ tf2r.com#@#.adverts
 ||thesewonderride.top^$popup
 ||torrent-protection.com^$popup
 ||trck.cdprivate.com^$popup
+||ublockpop.com/rect.php?$popup
 ||unibet.co.uk/*affiliate$popup
 ||vid-adblocker.com^$popup
 ||vpnfortorrents.best^$popup
@@ -53676,7 +53693,7 @@ nitrome.com###banner_description
 freshnewgames.com###banner_header
 baltic-course.com###banner_master_top
 nitrome.com###banner_shadow
-linguee.com,thesuburban.com###banner_top
+cdn.ampproject.org,linguee.com,thesuburban.com###banner_top
 workawesome.com###banner_wrap
 empiremovies.com###bannerbar
 belgie.fm,danmark.fm,deutschland.fm,espana.fm,india.fm,italia.fm,nederland.fm###bannerbg
@@ -79239,6 +79256,8 @@ zol.com.cn##span[class^="jisu-down"]
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
 189.cn#@##linkShare
+aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com#@#.share-label
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
 hotjob.cn#@#.SOCIAL
@@ -84066,6 +84085,7 @@ fqsousou.com,kengso.com#@#.user-share
 /tracking_super_hot.js
 /tracking_unitary/*
 /trackingab?
+/trackingamp.php
 /trackingapi.
 /TrackingBreadcrumbs.
 /TrackingCentral.js
