@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0jPpmOmmODXMZTn3pW3rqg
+! Checksum: F0yrkjLv24wXQE7KFI1Sxw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201180818
-! Last Modified: 2022年01月18日 08:18
+! Version: 202201181402
+! Last Modified: 2022年01月18日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56789,6 +56789,7 @@ flyingjizz.com###adv_inplayer
 milffox.com###advertising
 instantfap.com###af
 pervclips.com###after-adv
+literotica.com###b-top
 cuntest.net###banners
 sexyandfunny.com###best-friends
 pussyspace.com###bhcr
@@ -59641,6 +59642,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||wnys1.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75114,6 +75116,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||qyafndr.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -94694,6 +94697,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zerohedge.com/statistics-ajax?
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zion-telemetry.api.cnn.io^
+||akamaihd.net^$image,domain=globalnews.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
