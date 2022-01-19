@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WMrntLMN6a/Nvib9cn2Hfw
+! Checksum: bv8hjbYtCrrt4pS5qct0HA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202201192003
-! Last Modified: 2022年01月19日 20:03
+! Version: 202201200202
+! Last Modified: 2022年01月20日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1771,7 +1771,7 @@ www.vesti.ru#$#abort-current-inline-script document.createElement String.fromCha
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 agroportal.ua#$#abort-on-property-read abn
 facenews.ua,molitvy.guru,nizhny.ru,svadba.expert#$#abort-on-property-read XMLHttpRequest
-kaztorka.org#$#abort-current-inline-script document.createElement Math.random
+karpatnews.in.ua,kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
 nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#prevent-listener load appendChild
 nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#prevent-listener click _0x
@@ -1844,7 +1844,6 @@ marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 ! #CV-694
 www.ukr.net#$#override-property-read Math.random trueFunc; hide-if-shadow-contains /./
-112ua.tv,24boxing.com.ua,4mama.ua,avtovod.com.ua,avtovod.org.ua,besplatka.ua,bilshe.com,buhgalter.com.ua,buhgalter911.com,businessua.com,censor.net,dengi.ua,enovosty.com,epravda.com.ua,eurointegration.com.ua,f1analytic.com,facenews.ua,football-ukraine.com,football24.ua,footballtransfer.com.ua,gismeteo.ua,gorod.dp.ua,hvylya.net,inforesist.org,internetua.com,kolobok.ua,kp.ua,kriminal.tv,lifedon.com.ua,mport.ua,nashamama.com,newsyou.info,nnovosti.info,okino.ua,ostro.org,perevod.i.ua,real-vin.com,sinoptik.ua,smak.ua,sportanalytic.com,toneto.net,tv.ua,tvgid.ua,u-news.com.ua,udoktora.net,vsetv.com,zdorovia.com.ua#$#override-property-read String.prototype.charCodeAt trueFunc
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
 ! #CV-761
 ! #CV-667

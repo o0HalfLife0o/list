@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5WMX7QTOBJ7IM0dVsqIoog
+! Checksum: 6S+cYzeCsoBEiHUg+50eLQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201192003
-! Last Modified: 2022年01月19日 20:03
+! Version: 202201200202
+! Last Modified: 2022年01月20日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17284,6 +17284,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bincun.xyz^
 ||mjyjt.biz^
 ||rktupt.cn^
+||qxtwkq.cn^
+||6899.fun^
+||xhx.design^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -50104,6 +50107,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
+@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$script,domain=n-tv.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
@@ -50140,6 +50144,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
+@@||technical-service.net^$xmlhttprequest,domain=n-tv.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
