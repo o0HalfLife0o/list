@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mf8IfLpLDI5IJHStkuO6FQ
+! Checksum: OsxvZLePCcbJKBYtnSac0g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201200202
-! Last Modified: 2022年01月20日 02:02
+! Version: 202201200818
+! Last Modified: 2022年01月20日 08:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7117,6 +7117,7 @@ _ad_slot=
 _ad_small.
 _ad_sponsor/
 _ad_square.
+_ad_superbanner.
 _ad_tall.
 _ad_teaserarticledetail/
 _ad_template_
@@ -17641,6 +17642,7 @@ _800x80_
 ##.ad--centered
 ##.ad--container
 ##.ad--content
+##.ad--content-ad
 ##.ad--dart
 ##.ad--desktop
 ##.ad--displayed
@@ -17664,6 +17666,7 @@ _800x80_
 ##.ad--loading
 ##.ad--marker-inner
 ##.ad--medium-rectangle
+##.ad--medium_rectangle
 ##.ad--mediumrectangle
 ##.ad--mid
 ##.ad--mid-content
@@ -30540,6 +30543,21 @@ _800x80_
 ##[href^="https://www.xvbelink.com/"]
 ##[href^="https://zone.gotrackier.com/"]
 ##[id^="ad-wrap-"]
+##[id^="ad_bigsize1"]
+##[id^="ad_bigsize2"]
+##[id^="ad_bigsize3"]
+##[id^="ad_bigsize4"]
+##[id^="ad_bigsize5"]
+##[id^="ad_content1"]
+##[id^="ad_content2"]
+##[id^="ad_content3"]
+##[id^="ad_content4"]
+##[id^="ad_content5"]
+##[id^="ad_content6"]
+##[id^="ad_side1"]
+##[id^="ad_side2"]
+##[id^="ad_sky"]
+##[id^="ad_slider"]
 ##[id^="adframe_wrap_"]
 ##[id^="bunyad_ads_"]
 ##[id^="div-gpt-ad"]
@@ -31283,6 +31301,7 @@ _800x80_
 ##div[class^="adpubs-"]
 ##div[class^="ads-partner-"]
 ##div[class^="adsbutt_wrapper_"]
+##div[class^="adunit_"]
 ##div[class^="advertisement-desktop"]
 ##div[class^="articleAdUnitMPU_"]
 ##div[class^="awpcp-random-ads"]
@@ -51757,6 +51776,7 @@ tf2r.com#@#.adverts
 ||googlesyndication.com/safeframe/
 ||gopjn.com/b/
 ||gopjn.com/i/
+||grid.bidswitch.net/hbjson
 ||groupon.com/javascripts/common/affiliate_widget/
 ||grscty.com/images/banner/
 ||gsniper.com/images/
@@ -51846,6 +51866,7 @@ tf2r.com#@#.adverts
 ||ntvcld-a.akamaihd.net^
 ||obox-design.com/affiliate-banners/
 ||oilofasia.com/images/banners/
+||onetag-sys.com/prebid-request
 ||orangebuddies.nl/image/banners/
 ||outbrain.com^$domain=bgr.com|tvline.com
 ||p.d.1emn.com^
@@ -54007,6 +54028,7 @@ w3schools.com###mainLeaderboard
 dispatchtribunal.com,thelincolnianonline.com###mb-bar
 active.com###med_rec_bottom
 active.com###med_rec_top
+wakingtimes.com###media_image-2
 palestinechronicle.com###media_image-4
 mostlyblogging.com###media_image-5
 linuxbabe.com###media_image-6
@@ -54207,7 +54229,7 @@ linuxtoday.com###tdi_46
 the-star.co.ke###teasers
 geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
-cathnews.co.nz,cryptoreporter.info,net-load.com###text-12
+cathnews.co.nz,cryptoreporter.info,net-load.com,wakingtimes.com###text-12
 radiosurvivor.com###text-13
 ericpetersautos.com###text-133
 planetinsane.com###text-14
@@ -55957,7 +55979,7 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-appleworld.today,deshdoaba.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
+appleworld.today,deshdoaba.com,foreverconscious.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
 chtupdate.net##.widget_media_image.widget
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
@@ -56102,6 +56124,7 @@ bikeroar.com##[href^="https://www.roaradventures.com/"]
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
 gametracker.com##[href^="https://www.vultr.com/"]
+wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 searchenginejournal.com##[id^="SEJ_300x250_"]
 geeksforgeeks.org##[id^="bsa-zone"]
 scmp.com##[id^="div-ad-"]
@@ -75073,6 +75096,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qxtwkq.cn^
 ||6899.fun^
 ||xhx.design^
+||gblvuim.cn^
+||qtrwwov.cn^
+||ftvqvv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

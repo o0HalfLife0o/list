@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: JOnqvGqMBDqNZI2eVrbGqA
+! Checksum: 6Dccxm1rpf0a0LUuICv7Dw
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202201200202
-! Last Modified: 2022年01月20日 02:02
+! Version: 202201200818
+! Last Modified: 2022年01月20日 08:18
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,switchFullscreen)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -17287,6 +17287,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qxtwkq.cn^
 ||6899.fun^
 ||xhx.design^
+||gblvuim.cn^
+||qtrwwov.cn^
+||ftvqvv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
