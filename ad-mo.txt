@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7VkH8uaG1fXBkcXjOeVgyQ
+! Checksum: 0Fsse+Yus59dePPTC/LfXg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201202004
-! Last Modified: 2022年01月20日 20:04
+! Version: 202201210202
+! Last Modified: 2022年01月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31989,6 +31989,7 @@ tf2r.com#@#.adverts
 ||1bcde.com^
 ||1ccbt.com^
 ||1ce86868bf.com^
+||1da19a918c.com^
 ||1dece427d89.com^
 ||1e310acae6aee.com^
 ||1e546a4cc5.com^
@@ -32061,6 +32062,7 @@ tf2r.com#@#.adverts
 ||2cnjuh34jbpoint.com^
 ||2cnjuh34jbstar.com^
 ||2dbd87c7a091b.com^
+||2e552e6db0.com^
 ||2g6gj3aojcrj.com^
 ||2hisnd.com^
 ||2kl08cd74f.com^
@@ -32392,6 +32394,7 @@ tf2r.com#@#.adverts
 ||9ehy8a8u6b.com^
 ||9f38cd012c83.com^
 ||9f3a91e76f.com^
+||9f3b5a24d5.com^
 ||9fcbacf708f2.com^
 ||9gg23.com^
 ||9itmr1lzaltn.com^
@@ -35984,6 +35987,7 @@ tf2r.com#@#.adverts
 ||dichordkomati.cam^
 ||diclotrans.com^
 ||dicoah.com^
+||dictationsuspendedpreface.com^
 ||didchinosdub.cam^
 ||diddaisycuff.com^
 ||didpuprat.com^
@@ -38685,6 +38689,7 @@ tf2r.com#@#.adverts
 ||hypoot.com^
 ||hypothesisalternate.com^
 ||hysntzdseidl.com^
+||hystericalpotprecede.com^
 ||hzkachqd.com^
 ||hznvtg.com^
 ||hzzevwlmjji.com^
@@ -39373,6 +39378,7 @@ tf2r.com#@#.adverts
 ||jubnaadserve.com^
 ||jubsouth.com^
 ||judaisydfs.club^
+||judgeclaimsmaiden.com^
 ||judgementinvincible.com^
 ||judicated.com^
 ||judjetheminos.com^
@@ -41897,6 +41903,7 @@ tf2r.com#@#.adverts
 ||outlookabsorb.com^
 ||outoctillerytor.com^
 ||outovenmusths.com^
+||outpacetochers.com^
 ||outrushfetor.cam^
 ||outseeltor.com^
 ||outsimfat.site^
@@ -42032,6 +42039,7 @@ tf2r.com#@#.adverts
 ||panection.co^
 ||paniccursor.com^
 ||panicshaggy.com^
+||pantomimethat.com^
 ||papacityn.fun^
 ||papaneecorche.com^
 ||paqiqqjmmo.com^
@@ -44549,6 +44557,7 @@ tf2r.com#@#.adverts
 ||slymagical.com^
 ||smaato.net^
 ||smac-ad.com^
+||smagod.com^
 ||smallentpation.pro^
 ||smalltiberbridge.com^
 ||smanes.com^
@@ -45038,6 +45047,7 @@ tf2r.com#@#.adverts
 ||sundersetrgh.site^
 ||sunnybluecoral.com^
 ||sunsekrious.com^
+||sunsetencyclopaedia.com^
 ||suntiz.com^
 ||suozmtcc.com^
 ||superbdolly.com^
@@ -50079,6 +50089,7 @@ tf2r.com#@#.adverts
 ||large-format.net^$popup
 ||latheendsmoo.com^$popup
 ||lavender64369.com^$popup
+||laxdevourmiddle.com^$popup
 ||lcentntel.com^$popup
 ||leapretrieval.com^$popup
 ||leeethical.com^$popup
@@ -50467,6 +50478,7 @@ tf2r.com#@#.adverts
 ||revimedia.com^$popup
 ||rexujojo.pro^$popup
 ||rgadvert.com^$popup
+||rgverkqcpahaqcqtmpksxicmtno.com^$popup
 ||rhudsplm.com^$popup
 ||rhvdsplm.com^$popup
 ||rhxdsplm.com^$popup
@@ -59586,6 +59598,7 @@ ubmcmm.baidustatic.com
 ##a[href^="http://pic.gunqiu.com/"]
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ##a[href^="https://hi.potvpn.com/?from="]
+##div[onclick*="/ac9527.com/"]
 ##a[onclick*=".lyty665.com"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
@@ -59599,8 +59612,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[href*="/leyu001.ee"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||6756240.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67254,8 +67269,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||1fzd.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gujiufzw.com###page-list > UL > .top
+gujiufzw.com##.top-ad-img
+e3zy.com##IMG[style="height: 80px; width: 100%;"]
+e3zy.com##.ads
+e3zy.com##.jiacu
+1fzd.com###tuiguang
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72631,7 +72653,7 @@ ttzmz.vip##div[style^="margin-top:2"]
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 buscodepto.com##div[style^="position: fixed;"]
-vipmv.tv##div[style^="position: fixed;bottom: -10px;"]
+vipmv.co##div[style^="position: fixed;bottom: -10px;"]
 chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
@@ -88105,6 +88127,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
+||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party

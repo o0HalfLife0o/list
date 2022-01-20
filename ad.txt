@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ACvm3+7ayuI97BtoT1pq2w
+! Checksum: N38AtvdgK2K0RifGJ8E0fA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201202004
-! Last Modified: 2022年01月20日 20:04
+! Version: 202201210202
+! Last Modified: 2022年01月21日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2223,6 +2223,7 @@ ubmcmm.baidustatic.com
 ##a[href^="http://pic.gunqiu.com/"]
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ##a[href^="https://hi.potvpn.com/?from="]
+##div[onclick*="/ac9527.com/"]
 ##a[onclick*=".lyty665.com"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
@@ -2236,8 +2237,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[href*="/leyu001.ee"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||6756240.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9891,8 +9894,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||1fzd.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gujiufzw.com###page-list > UL > .top
+gujiufzw.com##.top-ad-img
+e3zy.com##IMG[style="height: 80px; width: 100%;"]
+e3zy.com##.ads
+e3zy.com##.jiacu
+1fzd.com###tuiguang
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15268,7 +15278,7 @@ ttzmz.vip##div[style^="margin-top:2"]
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 buscodepto.com##div[style^="position: fixed;"]
-vipmv.tv##div[style^="position: fixed;bottom: -10px;"]
+vipmv.co##div[style^="position: fixed;bottom: -10px;"]
 chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
