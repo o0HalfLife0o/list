@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NQaM0GaVH6EsDBgZ+VeUfw
+! Checksum: xdzNwEFQZ3sIGjSIacS6oQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201210815
-! Last Modified: 2022年01月21日 08:15
+! Version: 202201212006
+! Last Modified: 2022年01月21日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -49746,6 +49746,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||boots.com/wcsstore/ebootsstorefrontassetstore/javascript/analytics.js$~third-party
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
+@@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||cloudmaestro.com^$script,domain=overtone.co
@@ -49771,6 +49772,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
+@@||kaptcha.com/collect/sdk?$domain=wyze.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||live.house.gov/js/analytics.$script,~third-party
