@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lD/MrGyyDWsZuwnNNwXsHA
+! Checksum: DsICmV3cWMIPqCPgAZDUww
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201210815
-! Last Modified: 2022年01月21日 08:15
+! Version: 202201220202
+! Last Modified: 2022年01月22日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2238,9 +2238,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[href*=".ygx2.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||ud860ec7.com^
+||lm789456.com^
+||czsmac.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9898,6 +9902,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iiilab.com/sponsor/getByPage
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+3dmgame.com#?#a[href]:-abp-has(div[class]:-abp-contains(高速下载))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17731,6 +17736,20 @@ bxwx333.org###bdstatic
 55shuba.com###botDiv
 bisowu.com##.a-row
 .lu/js/wap_billing.js
+||rngfavm.cn^
+||hikari.wiki^
+||mtxs.xyz^
+||aifenxiang.xyz^
+||hcdz.site^
+||cncsdn.cn^
+||zcqgsnn.cn^
+||fsdn.tech^
+||zwdq.xyz^
+||urtutb.cn^
+||zhswzxfw.com^
+||uz4cb.cn^
+||tunihea.top^
+||fqtfkf.cn^
 .m.biduoxs.com^
 .m.boluoxs.com^
 .m.bookben.com^
