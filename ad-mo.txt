@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Fb4SDIkrfVG7AMQGlpS//A
+! Checksum: 60a0thYeAkNZ9JaawZTa3w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201220202
-! Last Modified: 2022年01月22日 02:02
+! Version: 202201220815
+! Last Modified: 2022年01月22日 08:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8362,6 +8362,7 @@ _800x80_
 ###AdsTopContainer
 ###AdsVideo250
 ###AdsWrap
+###Ads_BA_BS
 ###Ads_BA_BUT
 ###Ads_BA_BUT2
 ###Ads_BA_BUT_box
@@ -26283,6 +26284,7 @@ _800x80_
 ##.lazy-ad
 ##.lazy-adv
 ##.lazyad
+##.lazyadsense
 ##.lazyadslot
 ##.lazyload-ad
 ##.lazyload_ad
@@ -30451,6 +30453,7 @@ _800x80_
 ##.zox-post-bot-ad
 ##.zox-widget-side-ad
 ##.zox_ad_widget
+##.zox_adv_widget
 ##AD-SLOT
 ##AD-TRIPLE-BOX
 ##ADS-RIGHT
@@ -56572,6 +56575,7 @@ newseveryday.com###vplayer_large
 sciencetimes.com##.article-videoplayer
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
+ladbible.com##.css-1tc48v6
 digitaltrends.com##.dtvideos-container
 thestar.co.uk##.gOoqzH
 radaronline.com##.hIlCTc
@@ -59558,6 +59562,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".yabovip2027.com/"]
 ##a[href*=".yb2843.vip"]
 ##a[href*=".ybvip5741.vip"]
+##a[href*=".ygx2.com/"]
 ##a[href*=".youxi126.com"]
 ##a[href*=".youxi141.com"]
 ##a[href*=".youxi142.com"]
@@ -59674,16 +59679,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
-##a[href*=".ygx2.com/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
-||ud860ec7.com^
-||lm789456.com^
-||czsmac.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||tunihta.top^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -60415,6 +60417,7 @@ ubmcmm.baidustatic.com
 ||czpush.com^
 ||czpwm.com^
 ||czshenyue.cn^
+||czsmac.com^
 ||cztanchao.com^
 ||d11hjbdxxtogg5.cloudfront.net^
 ||d15cjcet1djbmv.cloudfront.net^
@@ -61120,6 +61123,7 @@ ubmcmm.baidustatic.com
 ||lm663.com^
 ||lm665.com^
 ||lm685.com^
+||lm789456.com^
 ||lm832.com^
 ||lm865.com^
 ||lm881.com^
@@ -61743,6 +61747,7 @@ ubmcmm.baidustatic.com
 ||ud831d2.com^
 ||ud831d4.com^
 ||ud860ec5.com^
+||ud860ec7.com^
 ||ueadlian.com^$third-party
 ||ufstone.com^$third-party
 ||ugg66.com^
@@ -64894,6 +64899,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||igao17.com/need/h5.js
 ||ih336.com^*a.js
 ||iid97.com/bdgo/
+||iiilab.com/sponsor/getByPage
 ||iis7.com/ys/css2018/ggw.js
 ||ijinshan.com/images/gk/game
 ||ik123.com/js/dd.js
@@ -67335,10 +67341,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||iiilab.com/sponsor/getByPage
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-3dmgame.com#?#a[href]:-abp-has(div[class]:-abp-contains(高速下载))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -71890,6 +71894,7 @@ iqiyi.com##.zzVideo
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
 3dmgame.com#?#.Gmaeinfobtn_tab > div[class]:-abp-has(>div[class]> div[class]:-abp-contains(高速下载))
 3dmgame.com#?#.downl_list:-abp-has(div[class]:-abp-contains(高))
+3dmgame.com#?#a[href]:-abp-has(div[class]:-abp-contains(高速下载))
 3dmgame.com#?#div[class]:-abp-has(> .bt:-abp-contains(高速))
 3dmgame.com#?#div[style="width: 495px; float: left;"] > div[class]:-abp-has(>div[class]:-abp-contains(下载器))
 3dmgame.com#?#span[class]:-abp-has(> div[class]:-abp-contains(高速下载))
@@ -75167,45 +75172,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-bxwx333.org###addiv3
-bxwx333.org###bdstatic
-55shuba.com###botDiv
-bisowu.com##.a-row
-.lu/js/wap_billing.js
-||rngfavm.cn^
-||hikari.wiki^
-||mtxs.xyz^
-||aifenxiang.xyz^
-||hcdz.site^
-||cncsdn.cn^
-||zcqgsnn.cn^
-||fsdn.tech^
-||zwdq.xyz^
-||urtutb.cn^
-||zhswzxfw.com^
-||uz4cb.cn^
-||tunihea.top^
-||fqtfkf.cn^
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-yemancomic.com##.ncl_img > :not(#cp_img)
-duanwenxue.com##.qgzdwx
-.wap.x4399.com^
-.wap.yb3.cc^
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-jx.la##[onclick*="apk"]
-52biquge.com##[onclick*="app"]
+||kyqbifz.cn^
+||pubcloud.pub^
+||pyzx.xyz^
+||ygyl.xyz^
+||zhihui.ink^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -75226,13 +75197,38 @@ jx.la##[onclick*="apk"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-bookrb.com##a[href="/rmtj.html"]
+.lu/js/wap_billing.js
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+.wap.x4399.com^
+.wap.yb3.cc^
+52biquge.com##[onclick*="app"]
 52biquge.com##a[href^="http://html.350.com/"]
-bixia.org##dd[style*="bottom:"]
-smjb.net##div[style*="height: 50%"]
-biqugee.com##div[style="width:976px;"]
-piaotian5.net##script + div[style="padding:15px;"]
+55shuba.com###botDiv
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 ah123z.com##script + div[style]
+biqugee.com##div[style="width:976px;"]
+bisowu.com##.a-row
+bixia.org##dd[style*="bottom:"]
+bookrb.com##a[href="/rmtj.html"]
+bxwx333.org###addiv3
+bxwx333.org###bdstatic
+duanwenxue.com##.qgzdwx
+jx.la##[onclick*="apk"]
+piaotian5.net##script + div[style="padding:15px;"]
+smjb.net##div[style*="height: 50%"]
+yemancomic.com##.ncl_img > :not(#cp_img)
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -75529,6 +75525,7 @@ ah123z.com##script + div[style]
 ||aibangzs.com^
 ||aifaka.cc^
 ||aifenka.cn^
+||aifenxiang.xyz^
 ||aifishing.cn^
 ||aiggkj.cn^
 ||aigzk.com^
@@ -76014,6 +76011,7 @@ ah123z.com##script + div[style]
 ||cmyx.xyz^
 ||cn-3drp.com^
 ||cn3k5.com^*_*_
+||cncsdn.cn^
 ||cndaizi.com^
 ||cniuv.com^
 ||cnjiudao.cn^
@@ -76303,9 +76301,11 @@ ah123z.com##script + div[style]
 ||fowft.cn^
 ||fpreld.cn^
 ||fqjinyinhua.shop^
+||fqtfkf.cn^
 ||freemovie.vip^
 ||freeyue.xyz^
 ||fruitbears.xyz^
+||fsdn.tech^
 ||ftvqvv.cn^
 ||funlove.pw^
 ||furongcloud.email^
@@ -76369,6 +76369,7 @@ ah123z.com##script + div[style]
 ||hbscjh.cn^
 ||hbxxw.vip^
 ||hbyjrspyxgs.site^
+||hcdz.site^
 ||hcnegb.cn^
 ||hcvhhj.cc^
 ||hdherpc.cn^
@@ -76382,6 +76383,7 @@ ah123z.com##script + div[style]
 ||hhfhgf.cc^
 ||hhhfe.cn^
 ||hhnvrht.cn^
+||hikari.wiki^
 ||hjl0618.cn^
 ||hnfxhx.xyz^
 ||hnpxsm.com.cn^
@@ -76608,6 +76610,7 @@ ah123z.com##script + div[style]
 ||msiqhvl.cn^
 ||msri.club^
 ||msyq.xyz^
+||mtxs.xyz^
 ||muybjar.cn^
 ||muyijia.shop^
 ||mxxgs.cn^
@@ -76774,6 +76777,7 @@ ah123z.com##script + div[style]
 ||rktupt.cn^
 ||rl-mb90b39t.cn^
 ||rmpnhfu.cn^
+||rngfavm.cn^
 ||rocm0c.site^
 ||rrgapzw.cn^
 ||rsftjj.cn^
@@ -76897,6 +76901,7 @@ ah123z.com##script + div[style]
 ||tsia1114.top^
 ||tszhongtianshiji.com^
 ||ttffhe.top^
+||tunihea.top^
 ||tuzufsi.cn^
 ||tvtnbu.cn^
 ||tw5k2vc.cn^
@@ -76913,8 +76918,10 @@ ah123z.com##script + div[style]
 ||uqakkye.cn^
 ||uqbmzwv.cn^
 ||uqjflmw.cn^
+||urtutb.cn^
 ||usrlock.cn^
 ||uxpolqk.cn^
+||uz4cb.cn^
 ||vaxgyly.cn^
 ||vciayrf.cn^
 ||vcsoat.cn^
@@ -77082,6 +77089,7 @@ ah123z.com##script + div[style]
 ||zbwnzb.cn^
 ||zbxdvi.com^
 ||zcmnffq.cn^
+||zcqgsnn.cn^
 ||zcsdbj.cn^
 ||zdrcnx.cn^
 ||zdzk0371.cn^
@@ -77102,6 +77110,7 @@ ah123z.com##script + div[style]
 ||zhouyi.cool^
 ||zhouziwang.cn^
 ||zhpfl.cn^
+||zhswzxfw.com^
 ||zhuozhongfangshui.cn^
 ||zhwotai.com^
 ||zhxkzss.cn^
@@ -77128,6 +77137,7 @@ ah123z.com##script + div[style]
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zwdq.xyz^
 ||zxakeax.cn^
 ||zxyonlybelongstolym.xyz^
 ||zyam.club^
@@ -105346,6 +105356,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
+@@||docs.google.com/document/
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
