@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +KnfMIchJRirneqaiZb9uw
+! Checksum: fBgCJeiAuwZ5ZqDvan0IXg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201221402
-! Last Modified: 2022年01月22日 14:02
+! Version: 202201222008
+! Last Modified: 2022年01月22日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9454,6 +9454,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17290,6 +17291,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||pyzx.xyz^
 ||ygyl.xyz^
 ||zhihui.ink^
+||lktxelg.cn^
+||nmyp.ltd^
+||qq0010.xyz^
+||xinchenyang.cn^
+||guxin.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29302,7 +29308,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ://d.*/track.js
 ://email.*/blankpixel.gif
 ://ensighten.
-://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/

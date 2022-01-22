@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OwIAe2qNI7COamlIp/vWIw
+! Checksum: FFze1XZsCDhpOniHiwyKWQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201221402
-! Last Modified: 2022年01月22日 14:02
+! Version: 202201222008
+! Last Modified: 2022年01月22日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19819,6 +19819,7 @@ _800x80_
 ##.ad_banner_div
 ##.ad_bar
 ##.ad_below_content
+##.ad_belowfirstpost_frame
 ##.ad_belowmenu
 ##.ad_bg
 ##.ad_bg_300x250
@@ -19956,6 +19957,7 @@ _800x80_
 ##.ad_footer_super_banner
 ##.ad_for_layout
 ##.ad_frame
+##.ad_frame_around
 ##.ad_framed
 ##.ad_front_promo
 ##.ad_full_click
@@ -34532,6 +34534,7 @@ tf2r.com#@#.adverts
 ||brainlyads.com^
 ||braintb.com^
 ||brakesoutright.com^
+||brall11.com^
 ||branchr.com^
 ||brand-display.com^
 ||brand.net^
@@ -46405,6 +46408,7 @@ tf2r.com#@#.adverts
 ||vashoaft.net^
 ||vassst1.com^
 ||vassst12.com^
+||vassst14.com^
 ||vassterboost.com^
 ||vasstycom.com^
 ||vastserved.com^
@@ -53798,6 +53802,7 @@ $popup,third-party,domain=apl100.me|apl102.me|apl96.me|assia2.com|cloudvideo.tv|
 ||tbib.org/tbib.
 ||theboobsblog.com/long-pine-4086/
 ||thegay.com/ejtxclxnes/
+||thegay.com/giwkwmmncsgn/
 ||thehun.net/banners/
 ||tits-guru.com/js/istripper4.js
 ||titsbox.com/nb/
@@ -67471,6 +67476,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -75307,6 +75313,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||pyzx.xyz^
 ||ygyl.xyz^
 ||zhihui.ink^
+||lktxelg.cn^
+||nmyp.ltd^
+||qq0010.xyz^
+||xinchenyang.cn^
+||guxin.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85004,7 +85015,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://d.*/track.js
 ://email.*/blankpixel.gif
 ://ensighten.
-://fathom.$domain=~fathom.info|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
