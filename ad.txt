@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CDyOcCCrinR78beIhpBCMQ
+! Checksum: Tn6t6Da7yX8mq1HVqbBefQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201230201
-! Last Modified: 2022年01月23日 02:01
+! Version: 202201231405
+! Last Modified: 2022年01月23日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2239,17 +2239,14 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
+##a[style*=".e-years.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||sm9t.ml^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||tunihta.top^
-||yhjzg.cn^
-||ygqjt.cn^
-||aliys.net^
-||cppoc.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -2737,6 +2734,7 @@ ubmcmm.baidustatic.com
 ||alisinak.com^
 ||alitianxia168.com^
 ||alivelivevideos.com^
+||aliys.net^
 ||aliyuncss.com^
 ||aliyunxin.com^
 ||alllget.com^$third-party
@@ -2942,6 +2940,7 @@ ubmcmm.baidustatic.com
 ||coolfenxi.com^
 ||cpc.cc^$third-party
 ||cpm360.com^$third-party
+||cppoc.com^
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||cpv6.com^
@@ -4275,6 +4274,7 @@ ubmcmm.baidustatic.com
 ||tuifish.com^
 ||tukeai.com^
 ||tumeite.cn^
+||tunihta.top^
 ||tunihua.top^
 ||tuoshi168.com^
 ||tutehea.top^
@@ -4609,7 +4609,9 @@ ubmcmm.baidustatic.com
 ||yfot.com.cn^
 ||yfycy.com^
 ||yghua.com^$third-party
+||ygqjt.cn^
 ||yhhls.com^
+||yhjzg.cn^
 ||yhsmk.com^
 ||yichunrz.com^
 ||yifuls.com^$third-party
@@ -6217,6 +6219,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bilibili.com/x/web-show/res/locs?*&pf=0&ids=124%
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||bilibilijj.com/image/right_bottom.gif
+||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/images/esco06.swf
@@ -8171,6 +8174,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||moe123.net/static/img/1200x200_
 ||moedao.com/js/top.js
 ||moerats.com/usr/affpc/
+||molimao.top/ad.js
 ||molimao.top/imp/upload/vod/*.gif
 ||molimao.top/jm/upload/vod/20211015-1/22ee554d96f75abbd71e6d488d842ac1.gif
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
@@ -9905,10 +9909,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
-||molimao.top/ad.js
+||ihhmh.com/mg/show
+||sunofbeaches.com/ast/assistant/ad-item/
+||sunofbeaches.com/shop/recommend/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+sunofbeach.net##DIV[class$="-ad"]
+sunofbeach.net##DIV[id$="-ad"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17738,17 +17745,18 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||kyqbifz.cn^
-||pubcloud.pub^
-||pyzx.xyz^
-||ygyl.xyz^
-||zhihui.ink^
-||lktxelg.cn^
-||nmyp.ltd^
-||qq0010.xyz^
-||xinchenyang.cn^
-||guxin.me^
-||niepanruanjian.com^
+||cp9.club^
+||qzy123.ink^
+||rdms.xyz^
+||yunwanjia.wang^
+||homchang.site^
+||3line.tech^
+||mocc.ltd^
+||spzxgcw.com^
+||zuoyouyu.cn^
+||chengduyiren.cn^
+||chuqiguan.co^
+||octhkas.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18922,6 +18930,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||guangzhengtwo.top^
 ||gunvn.cn^
 ||guolvhbb.cn^
+||guxin.me^
 ||guyun03.cn^
 ||gvwan.cn^
 ||gwmaajp.cn^
@@ -19101,6 +19110,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||kxapctq.cn^
 ||kyle.pub^
 ||kypntcw.cn^
+||kyqbifz.cn^
 ||ladyye.site^
 ||lailer.cn^
 ||laiyangalibaba.cn^
@@ -19121,6 +19131,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||lingquan.vip^
 ||lingzhushijie.cn^
 ||livemz.com^
+||lktxelg.cn^
 ||llii.club^
 ||lllfe.cn^
 ||lnwhh.com^
@@ -19202,12 +19213,14 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ngogmbe.cn^
 ||nh738.cn^
 ||nhfpdc.cn^
+||niepanruanjian.com^
 ||niwfaxz.cn^
 ||nlrpfpq.cn^
 ||nlyekvc.cn^
 ||nmgpd.com^
 ||nmmgp.cn^
 ||nmykf.mobi^
+||nmyp.ltd^
 ||noblift.mobi^
 ||nogvlkk.cn^
 ||none-test.com^
@@ -19269,6 +19282,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||propsad.com^
 ||psl93qx.site^
 ||ptujvmq.cn^
+||pubcloud.pub^
 ||pulingmu.top^
 ||puuuwqk.cn^
 ||puwxbcb.cn^
@@ -19278,6 +19292,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||pwfhjjh.cn^
 ||pxjafjc.cn^
 ||pyhszs.cn^
+||pyzx.xyz^
 ||pzdlfww.cn^
 ||pzsq.xyz^
 ||qagyb.cn^
@@ -19300,6 +19315,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qmrtubg.cn^
 ||qorosmall.com^
 ||qp-nett.cn^
+||qq0010.xyz^
 ||qq163com.cn^
 ||qqqmmm.top^
 ||qqxsnew.com/js/wodenew
@@ -19588,6 +19604,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||xiaoyaunbao.club^
 ||xihua.me^
 ||xiituvt.top^
+||xinchenyang.cn^
 ||xingyou46.icu^
 ||xinhuayin.biz^
 ||xinym1.xyz^
@@ -19627,6 +19644,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ydwjmvv.cn^
 ||yema.shop^
 ||ygtx.mobi^
+||ygyl.xyz^
 ||yidcd.cn^
 ||yinan.tech^
 ||yingxunkeji.net^
@@ -19676,6 +19694,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zhenxinchicken.xyz^
 ||zhexnuq.cn^
 ||zhifoujiaoyu.xyz^
+||zhihui.ink^
 ||zhonglutang.group^
 ||zhongte62802.cn^
 ||zhongzizye.cn^
