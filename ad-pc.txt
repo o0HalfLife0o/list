@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DkJwnxfaBaF6b7+6JPHp0g
+! Checksum: bDXBx0D8fuoJzV9TY4dnzg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201231405
-! Last Modified: 2022年01月23日 14:05
+! Version: 202201232008
+! Last Modified: 2022年01月23日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24860,6 +24860,7 @@ _800x80_
 ##.feed-shared-update--is-sponsored
 ##.feedBottomAd
 ##.feeds-adblade
+##.fem-ad
 ##.ffz_bottom_ad
 ##.fg_Ad
 ##.fgc-advertising
@@ -26224,6 +26225,7 @@ _800x80_
 ##.jc_ad_container
 ##.jeg_ad
 ##.jeg_ad_top
+##.jetpack-sponsored-posts-message
 ##.jg-ad-5
 ##.jg-ad-970
 ##.jimdoAdDisclaimer
@@ -37798,6 +37800,7 @@ tf2r.com#@#.adverts
 ||garglesoon.com^
 ||garnetsnails.com^
 ||garristo.com^
+||garysero.xyz^
 ||gastedidlemen.com^
 ||gatesbelievesgentlemen.com^
 ||gatesrichestbusts.com^
@@ -44692,6 +44695,7 @@ tf2r.com#@#.adverts
 ||sknkwpvrkz.com^
 ||skreighphotic.cam^
 ||skxgvqcgefyy.com^
+||skynetcdn.com^
 ||skynightmidm.com^
 ||slabshookwasted.com^
 ||slakesshimtames.com^
@@ -54567,6 +54571,7 @@ google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 thefocus.news##.GRVMpuWrapper
 metservice.com##.Header
+unsplash.com##.HjpWP
 sporcle.com##.IMGgi
 israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
@@ -55189,6 +55194,7 @@ mobafire.com##.exhibit-vertical
 streamingmedia.com##.expand
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
+unsplash.com##.eziW_
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
@@ -56225,7 +56231,7 @@ paultan.org##.wrapper-footer
 wsj.com##.wsj-ad-label
 webtoolhub.com##.wth_zad_text
 mcpmag.com##.xContent
-drivehub.in##.xc449bad4854773ff
+drivehub.in,indidrive.in,metamoviez.xyz##.xc449bad4854773ff
 livejournal.com##.xhtml_banner
 bit-tech.net##.xtag_container
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
@@ -59824,11 +59830,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*="/hhvip66.cn"]
 ##img[onclick*="/c7.net/"]
 ##a[style*=".e-years.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||sm9t.ml^
+||ud783c08.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75343,6 +75351,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chengduyiren.cn^
 ||chuqiguan.co^
 ||octhkas.cn^
+||hrjskj.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
