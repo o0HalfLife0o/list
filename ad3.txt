@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: euh/Fk2enOG0aW3wWmJvuA
+! Checksum: /xFj01jZdy/hei/9C/mzww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201232008
-! Last Modified: 2022年01月23日 20:08
+! Version: 202201240201
+! Last Modified: 2022年01月24日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1792,12 +1792,15 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##a[href*="/hhvip66.cn"]
+##iframe[src*=".xxmh891.com/"]
 ##img[onclick*="/c7.net/"]
 ##a[style*=".e-years.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||sm9t.ml^
 ||ud783c08.com^
+||tuyihea.top^
+||kangaroobro.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -49769,6 +49772,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||aeries.net/aeries/scripts/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
