@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: loLRFEg3OVe1eiFO9qF2Pg
+! Checksum: aG7OMqc5gLhhglozJJk3dw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201240816
-! Last Modified: 2022年01月24日 08:16
+! Version: 202201241401
+! Last Modified: 2022年01月24日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8416,6 +8416,7 @@ _800x80_
 ###AdvertiseFrame
 ###Advertisement1
 ###Advertisement2
+###AdvertisementDiv
 ###AdvertisementLeaderboard
 ###AdvertisementRightColumnRectangle
 ###Advertisements
@@ -9523,6 +9524,7 @@ _800x80_
 ###adATF300x250
 ###adATF728x90
 ###adAd
+###adAside
 ###adBTF300x250
 ###adBTF300x250IC
 ###adBadges
@@ -31268,6 +31270,7 @@ _800x80_
 ##a[href^="https://www.sugarinstant.com/?partner_id="]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
+##a[href^="https://www.vfreecams.com/in/?track="]
 ##a[href^="https://www.what-sexdating.com/"]
 ##a[href^="https://www.xvinlink.com/?a_fid="]
 ##a[href^="https://zononi.com/"]
@@ -54182,6 +54185,7 @@ forums.somethingawful.com###notregistered
 gizbot.com###offersblocksection
 vapingunderground.com###oio-banner-5
 onlinemschool.com###oms_left
+livestreamfails.com###oranum_livefeed_container_0
 powvideo.net,streamplay.to###overlay
 rabbitstream.net,rapid-cloud.ru,streamrapid.ru###overlay-container
 modthesims.info###pagenavigation > div > small
@@ -55869,6 +55873,7 @@ alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.ne
 independent.ie##.slot1
 independent.ie##.slot4
 imdb.com##.slot_wrapper
+skinnyms.com##.sm-above-header
 bikeexif.com##.small
 tbs.com##.smallBanners
 startup.ch##.smallbanner
@@ -59633,6 +59638,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/d27.tv"]
 ##a[href*="/du505.com"]
 ##a[href*="/h91.tv"]
+##a[href*="/hhvip66.cn"]
 ##a[href*="/htbet1536.com"]
 ##a[href*="/hth104.com/"]
 ##a[href*="/hth107.com/"]
@@ -59706,10 +59712,12 @@ ubmcmm.baidustatic.com
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ##a[href^="https://hi.potvpn.com/?from="]
 ##a[onclick*=".lyty665.com"]
+##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##a[target="_blank"][href*="/bet188/"]
 ##div[onclick*="/ac9527.com/"]
+##iframe[src*=".xxmh891.com/"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".dxsdkw.cn"]
 ##img[onclick*=".hth390.com"]
@@ -59718,16 +59726,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
-##a[href*="/hhvip66.cn"]
-##iframe[src*=".xxmh891.com/"]
+##a[href*=".yfmmx.com/"]
 ##img[onclick*="/c7.net/"]
-##a[style*=".e-years.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||sm9t.ml^
-||ud783c08.com^
-||tuyihea.top^
-||kangaroobro.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -61042,6 +61044,7 @@ ubmcmm.baidustatic.com
 ||kakayy.com^$third-party
 ||kan8.xyz^
 ||kanfaxing.com^
+||kangaroobro.com^
 ||kanwby.com^
 ||kc-valves.com^
 ||kdly.net^$third-party
@@ -61590,6 +61593,7 @@ ubmcmm.baidustatic.com
 ||sjgnskf.com^
 ||sjmwkj.cn^
 ||sm077.com^
+||sm9t.ml^
 ||smallmovieapp.com^
 ||smallvideoapp.com^
 ||smart-start.com.cn^
@@ -61764,6 +61768,7 @@ ubmcmm.baidustatic.com
 ||tuoshi168.com^
 ||tutehea.top^
 ||tuuihea.top^
+||tuyihea.top^
 ||twb98.com^$third-party
 ||twcczhu.com^$third-party
 ||twitterzs.com^
@@ -61793,6 +61798,7 @@ ubmcmm.baidustatic.com
 ||uc610.com^
 ||uctrac.com^$third-party
 ||ucxgg.com^
+||ud783c08.com^
 ||ud831d2.com^
 ||ud831d4.com^
 ||ud860ec5.com^
@@ -64950,6 +64956,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
 ||ih336.com^*a.js
+||ihhmh.com/mg/show
 ||iid97.com/bdgo/
 ||iiilab.com/sponsor/getByPage
 ||iis7.com/ys/css2018/ggw.js
@@ -66488,6 +66495,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||suning.cn^$domain=qianggou5.com
 ||suning.com/cpc/getCpcSearchDatasRev?
 ||suning.com/getCpcDatas?
+||sunofbeaches.com/ast/assistant/ad-item/
+||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
 ||sunrtb.*/s?m=
 ||super.cat898.com^
@@ -67394,13 +67403,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||ihhmh.com/mg/show
-||sunofbeaches.com/ast/assistant/ad-item/
-||sunofbeaches.com/shop/recommend/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-sunofbeach.net##DIV[class$="-ad"]
-sunofbeach.net##DIV[id$="-ad"]
+downza.cn##iframe
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72371,7 +72376,7 @@ tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 hao123.com##div[alog-alias="hot-goods"]
 zongheng.com##div[alog-group="index_04_game"]
 3dmgame.com##div[class$=" downl_list"]
-anjuke.com##div[class$="-ad"]
+anjuke.com,sunofbeach.net##div[class$="-ad"]
 elecinfo.com##div[class$="-advert"]
 baidu.com##div[class$="-ecom-ads"]
 anjuke.com##div[class$="-poster"]
@@ -72516,6 +72521,7 @@ zhihu.com##div[data-type="ad"]
 le.com##div[data-type="bottomLayerView"]
 eastmoney.com##div[data-url*="same.eastmoney.com"]
 weibo.com##div[feedtype="ad"]
+sunofbeach.net##div[id$="-ad"]
 heirui.cn##div[id$="MASK"]
 mail.126.com,mail.163.com##div[id$="_AdDiv"]
 mail.126.com,mail.163.com##div[id$="_BannerDiv"]
@@ -75230,19 +75236,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||cp9.club^
-||qzy123.ink^
-||rdms.xyz^
-||yunwanjia.wang^
-||homchang.site^
-||3line.tech^
-||mocc.ltd^
-||spzxgcw.com^
-||zuoyouyu.cn^
-||chengduyiren.cn^
-||chuqiguan.co^
-||octhkas.cn^
-||hrjskj.top^
+||acuwbr.cn^
+||51city.fun^
+||sunnysun.co^
+||djymht.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -75398,6 +75395,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||3dshoppingwall.com^
 ||3fish.store^
 ||3hbox.com^
+||3line.tech^
 ||3yai2u.cn^
 ||46rib.cn^
 ||4excel.cn^
@@ -76027,6 +76025,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||chekeshi.com^
 ||chendjiangxing.cn^
 ||chengdahdf.cn^
+||chengduyiren.cn^
 ||chengjunjie.top^
 ||chengzilte.top^
 ||chenmujiang.com.cn^
@@ -76054,6 +76053,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||chuang-yi.com.cn^
 ||chuangjulm.cn^
 ||chuanjiae.cn^
+||chuqiguan.co^
 ||churchatsouthcreek.com^
 ||chuzrra.cn^
 ||chy365.cn^
@@ -76107,6 +76107,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||coroplastsheet.cn^
 ||corycj.top^
 ||couas.com^
+||cp9.club^
 ||cpcc.xyz^
 ||cqbaitong.cn^
 ||cqdjhj.cn^
@@ -76458,11 +76459,13 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hnzhengtongkj.cn^
 ||holidayhappy.online^
 ||holyyjs.xyz^
+||homchang.site^
 ||homfen.me^
 ||houmei.ren^
 ||hpygame.com^
 ||hqcqz2.cn^
 ||hqwrr.cc^
+||hrjskj.top^
 ||htds.vip^
 ||htsj.vip^
 ||huaxiaozhang.club^
@@ -76668,6 +76671,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mlgsoji.cn^
 ||mlovem.pw^
 ||mnsd.xyz^
+||mocc.ltd^
 ||mori.ink^
 ||moxiaoqihuoguo.com^
 ||mphbvtw.cn^
@@ -76723,6 +76727,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||nylynp.top^
 ||nzsknxo.cn^
 ||oajxkah.cn^
+||octhkas.cn^
 ||ocznxv.cn^
 ||oelco.cn^
 ||oey53uw-1ye.cn^
@@ -76818,6 +76823,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qyjzleh.cn^
 ||qytkjsz.com^
 ||qzgs99.cn^
+||qzy123.ink^
 ||rcjww9.xyz^
 ||rcnnqsd.cn^
 ||rctxada.cn^
@@ -76841,6 +76847,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rctxwtt.cn^
 ||rctxymu.cn^
 ||rd926.cn^
+||rdms.xyz^
 ||remehealth.net^
 ||rementui.top^
 ||rgt0hv5.cn^
@@ -76907,6 +76914,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||soulshape.cn^
 ||spjxwlkj.com^
 ||spscwlw.cn^
+||spzxgcw.com^
 ||sqmydhk.cn^
 ||ssjxwlkj.com^
 ||sssyao.cn^
@@ -77156,6 +77164,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||yummycuisine.club^
 ||yumu.pro^
 ||yunfeiyang.club^
+||yunwanjia.wang^
 ||yushuha.com^
 ||ywzkiug.cn^
 ||yxwpmav.cn^
@@ -77214,6 +77223,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
 ||zxyonlybelongstolym.xyz^
@@ -85195,6 +85205,7 @@ cgi-bin/counter
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/p1x1.gif
 /page.bsigroup.com/*
 /pixel-prod.
 /pixel?cid=
@@ -85774,6 +85785,7 @@ _mongo_stats/
 ||angorch-cdr7.com^$third-party
 ||angsrvr.com^$third-party
 ||anrdoezrs.net^$third-party
+||answerbook.com^$third-party
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
@@ -87485,7 +87497,7 @@ _mongo_stats/
 ||rqtrk.eu^$third-party
 ||rrimpl.com^$third-party
 ||rs0.co.uk^$third-party
-||rs6.net^$script,third-party
+||rs6.net^$image,script,third-party
 ||rstg.io^$third-party
 ||rsvpgenius.com^$third-party
 ||rtb123.com^$third-party
