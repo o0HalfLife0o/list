@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aG7OMqc5gLhhglozJJk3dw
+! Checksum: MPlv5x8rRnZTLinxBLuxRw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201241401
-! Last Modified: 2022年01月24日 14:01
+! Version: 202201242008
+! Last Modified: 2022年01月24日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -14501,7 +14501,6 @@ _800x80_
 ###js-cardview_ad
 ###js-image-ad-mpu
 ###js-page-ad-top
-###js-popup-cookie-block
 ###js-react-video-player-ad-right
 ###js-site-nav-ad-wrap
 ###js-story__ad-storyrec
@@ -106189,6 +106188,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
+@@||avito.st/s/a/i/0.gif$image,domain=avito.ru
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
