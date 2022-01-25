@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IHrb/wEcwWBboStZqek/ZA
+! Checksum: 4cdVUiiwg0SpTwRRWBjNxQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201251402
-! Last Modified: 2022年01月25日 14:02
+! Version: 202201252006
+! Last Modified: 2022年01月25日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1799,6 +1799,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||ud783c02.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -24403,6 +24404,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /1x1p.gif?
 /1x1tracker.
 /2.gif?
+/24h-analytics.
 /2x2.gif?$image
 /3.gif?
 /500b-bench.jpg?
@@ -35138,6 +35140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||znctrack.net^$third-party
 ||adtimaserver.vn^$third-party
 ||amcdn.vn^$third-party
+||ants.vn^$third-party
 ||contineljs.com^$third-party
 ||gostats.vn^$third-party
 !-----------------Third-party tracking services-----------------!
@@ -38301,6 +38304,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
 ||tracking.aita.gov.vn^
+||za.zdn.vn^
 ||zalo.me/v3/w/_zaf.gif
 !-----------------Individual tracking systems-----------------!
 ||1337x.to/ip3.php
@@ -49890,6 +49894,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
+@@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
