@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8FyJZ7WetbwAdL//YrYgnw
+! Checksum: wQKMRC0KQQCQ+V32YlzjSg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201262007
-! Last Modified: 2022年01月26日 20:07
+! Version: 202201270201
+! Last Modified: 2022年01月27日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7778,6 +7778,7 @@ takeover_banner_
 /prebid35.
 /prebid4.
 /prebid5.
+/prebid6.
 /prebid?
 /prebid_$script,third-party
 /prebid_request.
@@ -32566,6 +32567,7 @@ tf2r.com#@#.adverts
 ||a40hd1mh5deq.com^
 ||a4mt150303tl.com^
 ||a5020fec1701e9f3.com^
+||a5a0976123.com^
 ||a5e04df959f1af34.com^
 ||a5e2ef28b5.com^
 ||a5ee094155.com^
@@ -32767,6 +32769,7 @@ tf2r.com#@#.adverts
 ||addelive.com^
 ||addictedapartlazy.com^
 ||addiply.com^
+||additionalcasualcabinet.com^
 ||additionalmedia.com^
 ||additionsselfemployedpeachy.com^
 ||additionvouch.com^
@@ -34133,6 +34136,7 @@ tf2r.com#@#.adverts
 ||beakedpissod.com^
 ||beamfuloakwood.com^
 ||beamingworked.com^
+||beastintruder.com^
 ||beastlyaccomplished.com^
 ||beataemusky.com^
 ||beatconfessteddy.com^
@@ -35488,6 +35492,7 @@ tf2r.com#@#.adverts
 ||congratulatedreside.com^
 ||congressaffrayghosts.com^
 ||conjeller-chikemon.com^
+||conjunctionbanner.com^
 ||connectad.io^
 ||connectedit.co^
 ||connectignite.com^
@@ -36905,6 +36910,7 @@ tf2r.com#@#.adverts
 ||enquiryplewch.cam^
 ||enqxmgodgkxfoxs.top^
 ||enrichcouriermagician.com^
+||enrilov.info^
 ||ensnia.com^
 ||ensuedinbornsubdivide.com^
 ||entailcurrantreflect.com^
@@ -44205,6 +44211,7 @@ tf2r.com#@#.adverts
 ||ruthlessbuyer.com^
 ||ruthowhagi.com^
 ||rutius.com^
+||rutpunishsnitch.com^
 ||rutsneareta.com^
 ||ruuwkftrtegqj.com^
 ||ruwertur.com^
@@ -47682,6 +47689,7 @@ tf2r.com#@#.adverts
 ||youlouk.com^
 ||younct.com^
 ||youngerpoem.com^
+||youngestsow.com^
 ||youngoutmatchthousand.com^
 ||your-notice.com^
 ||your0rder.com^
@@ -53038,6 +53046,7 @@ tf2r.com#@#.adverts
 ||clarksvilleonline.com/cols/
 ||click.livedoor.com^
 ||cloudfront.net/transcode/storyTeller/$media,domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.mx|amazon.de|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.sa
+||cloudfront.net^$script,domain=titantv.com
 ||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cnn.com/ad/
 ||codelist.cc/bluehostbanner.jpg
@@ -56994,6 +57003,7 @@ gankrin.org#?#.widget_custom_html:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(.adsbygoogle)
 geekzone.co.nz#?#.container:-abp-has(a[title="Affiliate link"])
 ggrecon.com#?#.artSideWrapBox:-abp-contains(Advertisement)
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:"]:-abp-has(span.p8AiDd)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"] > div.UzWqLb)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-haAclf"] > span > button)
@@ -57033,6 +57043,7 @@ mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
+titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
