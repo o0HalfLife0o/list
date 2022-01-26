@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iATWKQ8NXAwce5Qxe9lEXg
+! Checksum: W0AxUQpCSXw0ICEVHIo8Ag
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202201260203
-! Last Modified: 2022年01月26日 02:03
+! Version: 202201260817
+! Last Modified: 2022年01月26日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5680,6 +5680,7 @@ tieba.baidu.com##.tuijian-wrap
 /page-peel
 /page/ad/*
 /pagead.
+/pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.
 /pagead/conversion/*
@@ -16351,6 +16352,7 @@ _800x80_
 ###sticky-ads-top
 ###sticky-custom-ads
 ###sticky-footer-ad
+###sticky-footer-ads
 ###sticky-rail-ad
 ###sticky-top-ad-spacer
 ###sticky-top-ad-wrap
@@ -17273,6 +17275,7 @@ _800x80_
 ##.AdsenseForum
 ##.AdsenseLarge
 ##.AdsenseTechsupport
+##.Adsinnov_flex_adcontainer
 ##.Adspottop
 ##.Adtext
 ##.Adv300x250
@@ -23787,8 +23790,6 @@ _800x80_
 ##.bsaProContainerNew
 ##.bsa_ads
 ##.bsa_it_ad
-##.bsac
-##.bsac-container
 ##.bt_ad
 ##.btf-ad-medRect
 ##.btfAds
@@ -28109,6 +28110,7 @@ _800x80_
 ##.responsive-ad
 ##.responsive-ad-wrapper
 ##.responsive-ads
+##.responsive-vertial-ad-wrapper
 ##.responsiveAdHiding
 ##.responsiveAdsense
 ##.responsive_ad_top
@@ -28134,6 +28136,7 @@ _800x80_
 ##.reviewpage_ad2
 ##.reviews-box-ad
 ##.reviews-display-ad
+##.revive-ad
 ##.revolvyad_inner
 ##.rf_circ_ad_460x205
 ##.rg-ad
@@ -53815,6 +53818,7 @@ $popup,third-party,domain=apl100.me|apl102.me|apl96.me|assia2.com|cloudvideo.tv|
 ||hottystop.com/t33638ba5008.js
 ||hqpornstream.com/pub/
 ||hypnohub.net/assets/hub.js
+||i.pixl.is/*.gif$image,domain=bunkr.is
 ||idealnudes.com/tf40bbdd1767.js
 ||ihpc.info/header/
 ||ihpc.info/meendo/
@@ -56307,6 +56311,7 @@ dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
+gamertweak.com##.widget_srlzycxh
 lostintechnology.com,webkinznewz.ganzworld.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
 helpnetsecurity.com##.widgetized_wrapper
@@ -57989,6 +57994,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||fingerprintjs.com^$generichide
 @@||schemeflood.com^$generichide
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
+@@||banner.customer.kyruus.com^$domain=doctors.bannerhealth.com
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||www-cultofmac-com.ezoic.net^$domain=cultofmac.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
@@ -75450,6 +75456,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||dd3d.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -92846,6 +92853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.menamarketplace.com^
 ||tracking.monsido.com^
 ||tracking.musixmatch.com^
+||tracking.olx-st.com^
 ||tracking.pacharge.com^
 ||tracking.plattformad.com^$third-party
 ||tracking.plinga.de^
@@ -106026,6 +106034,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
