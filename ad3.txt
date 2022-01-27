@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hSgprn2HKakKinqrJA5yWg
+! Checksum: ekNHiXWN5KsQDJhh3gK42A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201270816
-! Last Modified: 2022年01月27日 08:16
+! Version: 202201271402
+! Last Modified: 2022年01月27日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1803,6 +1803,7 @@ ubmcmm.baidustatic.com
 ||008844.cc^
 ||00xvppy.cn^
 ||huisatu.xyz^
+||ersfyt.xyz^
 ||012.tw^$third-party
 ||01fen.com^
 ||022aifang.com^
@@ -9485,6 +9486,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+5119.cn##.xzbtn_new + .xzbtn_new
+5119.cn##div[class="downDz"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17324,6 +17327,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hica.ren^
 ||xingtu.ltd^
 ||hayasp.top^
+||ayk.cx^
+||19oxfkn.cn^
+||tianhenggo.xyz^
+||xiaohuancha.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25973,6 +25980,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /event?t=view&
 /event?token=
 /event?tub_id=
+/event_log/*
 /event_logger
 /event_logging/*
 /event_tracker?_
@@ -27778,6 +27786,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /referadd?
 /referal-cookie.
 /referer.gif?
+/referer/visitor/*
 /refererRecord.
 /referral_tracker.
 /referral_tracking.
@@ -28298,6 +28307,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stats/ping?
 /stats/pv.
 /stats/record.php?
+/stats/search-log
 /stats/services/*
 /stats/survey.
 /stats/track.asp?
@@ -37715,6 +37725,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
+||get-trust-zone.info/api_ip_info.php?
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
 ||jvc.gg^*/traffic.js
@@ -39141,6 +39152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.cardschat.com^
 ||stats.cdngeek.com^$domain=edugeek.net
 ||stats.clear-media.com^
+||stats.davidickedelivery.com^
 ||stats.dnaindia.com^
 ||stats.fs.com^
 ||stats.gateio.ch^
@@ -39207,6 +39219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thriftbooks.com/scripts/sp.js
 ||tiendeo.*/_statsapi/
 ||tiktok.com/captcha/report
+||tiktok.com/whale/
 ||tilanalytics.timesinternet.in^
 ||time.is/img/nod.png
 ||tms.eharmony.ca^
@@ -39231,6 +39244,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.epicgames.com^
 ||tracking.hsn.com^
+||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
 ||tracking.unrealengine.com^
 ||tradingview.com/ping
