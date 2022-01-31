@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6C26SMI27IMdCQlzxTMCww
+! Checksum: cXqk4E0xkSa2xxE44m/ruQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202201312004
-! Last Modified: 2022年01月31日 20:04
+! Version: 202202010206
+! Last Modified: 2022年02月01日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31225,7 +31225,7 @@ _800x80_
 ##a[href^="https://track.afftck.com/"]
 ##a[href^="https://track.bruceads.com/"]
 ##a[href^="https://track.clickmoi.xyz/"]
-##a[href^="https://track.effiliation.com/servlet/effi.redir?"] > img
+##a[href^="https://track.effiliation.com/servlet/effi.click?"] > img
 ##a[href^="https://track.healthtrader.com/"]
 ##a[href^="https://track.interactivegf.com/"]
 ##a[href^="https://track.themadtrcker.com/"]
@@ -74380,6 +74380,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ikcdhqh.cn^
 ||jxxiangyujinshu.com^
 ||8gustis.xyz^
+||uni-king.cn^
+||mx98.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
