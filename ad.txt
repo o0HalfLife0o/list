@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6X/RZBDF0Ql/7MTck7La/A
+! Checksum: +ZumJH11mcvDbWsWJc6eOg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202201310201
-! Last Modified: 2022年01月31日 02:01
+! Version: 202201310816
+! Last Modified: 2022年01月31日 08:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2248,7 +2248,6 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
-||1gustis.xyz^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -2339,6 +2338,7 @@ ubmcmm.baidustatic.com
 ||18tzx.com^
 ||19shows.net^
 ||1d1a.com^
+||1gustis.xyz^
 ||1haosuo.com^
 ||1i580.com^
 ||1jsskipuf8sd.com^
@@ -17777,17 +17777,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||haodazhizhuangzhuang.club^
-||lsyz.xyz^
-||duopuohui.xyz^
-||wenxiang.work^
-||9gustis.xyz^
-||j84nvmd.cn^
-||paperfree.cx^
-||jyzba.cn^
-||zhty.club^
-||10gustis.xyz^
-||bakbb.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17873,6 +17862,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||0ulfpx.cn^
 ||1001lab.top^
 ||1005fdh.xyz^
+||10gustis.xyz^
 ||114com.cc^
 ||1173d.cn^
 ||1214bdk.xyz^
@@ -18074,6 +18064,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||9c1k.cn^
 ||9d6k.cn^
 ||9e0u.cn^
+||9gustis.xyz^
 ||9j1y.cn^
 ||9j3a.cn^
 ||9qusw7f.cn^
@@ -18297,6 +18288,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||baiyongbei.xyz^
 ||baizb.com^
 ||baizbw.cn^
+||bakbb.com^
 ||bamcsfm.com^
 ||banbf.com^
 ||banbw.com^
@@ -18849,6 +18841,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||duluoweiyu.com^
 ||duofulai.vip^
 ||duojixing.com^
+||duopuohui.xyz^
 ||duyousxtd.com^
 ||dvdsbee.cn^
 ||dvtxt.cn^
@@ -18993,6 +18986,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gzgxbmh.cn^
 ||gzwl.xyz^
 ||gzz123.com^
+||haodazhizhuangzhuang.club^
 ||haogame.me^
 ||haojun.info^
 ||hardened.top^
@@ -19083,6 +19077,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||iwwl.vip^
 ||ixiang.club^
 ||izpcoo.cn^
+||j84nvmd.cn^
 ||jajiz.cn^
 ||jameschan.info^
 ||jao38.xyz^
@@ -19142,6 +19137,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jyzap.cn^
 ||jyzaw.cn^
 ||jyzaz.cn^
+||jyzba.cn^
 ||jyzbv.cn^
 ||jyzce.cn^
 ||jzpffierce.cloud^
@@ -19213,6 +19209,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||lpwx.xyz^
 ||lrqugqq.cn^
 ||lsebez.cn^
+||lsyz.xyz^
 ||lthwsj.com^
 ||lujingyu.fun^
 ||lvhqntk.cn^
@@ -19341,6 +19338,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||paishuiban.ltd^
 ||pandaking.site^
 ||pandan.love^
+||paperfree.cx^
 ||pazppsim.cn^
 ||pcbwdhd.cn^
 ||pcshijie.cn^
@@ -19637,6 +19635,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wegowan.com^
 ||weixisiwang.com^
 ||wekb.club^
+||wenxiang.work^
 ||wfeiso.top^
 ||wgqhwcg.cn^
 ||whatisupman.site^
@@ -19807,6 +19806,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zhouziwang.cn^
 ||zhpfl.cn^
 ||zhswzxfw.com^
+||zhty.club^
 ||zhuozhongfangshui.cn^
 ||zhwotai.com^
 ||zhxkzss.cn^
