@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qD4tOxoG4m/B8alzybSV1g
+! Checksum: CGvTMErjBr0ed7FD/peYEQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202010819
-! Last Modified: 2022年02月01日 08:19
+! Version: 202202011402
+! Last Modified: 2022年02月01日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2249,6 +2249,7 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||87uq.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -9938,8 +9939,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||8070kk.com/statics/js/guo
+||66wwvv.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+boyboy.cc###adDisabledBtn
+boyboy.cc###bl_mobile_float
+boyboy.cc###cat_intro_second_ad
+boyboy.cc###cat_intro_first_ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17776,6 +17783,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||obihmnb.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21898,9 +21906,10 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 !#onemanhua.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/pic.png$domain=cocomanga.com|cocomanhua.com
+@@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
 cocomanga.com,cocomanhua.com#@#.gg430
+cocomanga.com,cocomanhua.com#@#.gg_300
 ||cocomanhua.com/sw.js
 ||oaftaijo.net^
 ||sheeroop.com^
@@ -22163,7 +22172,6 @@ douyu.com,oschina.net#@#.follow-btn
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 readmoo.com#@#.navbar-social
 youdao.com#@#.open-share
-music.163.com#@#.p-share
 weiyun.com#@#.page-share
 skyarea.cn#@#.post-share
 dongtw.com#@#.post-share-container
@@ -22174,7 +22182,6 @@ aiqicha.baidu.com#@#.share-label
 baidu.com#@#.share-line
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 meidebi.com,weicaixun.com#@#.share-list
-kuaishou.com#@#.share-page
 189.cn#@#.share-panel
 youdao.com#@#.share-text
 aiqicha.baidu.com#@#.share-title
