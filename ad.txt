@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rqb3ZQNxg/U5kVFj3t46Og
+! Checksum: qD4tOxoG4m/B8alzybSV1g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202010206
-! Last Modified: 2022年02月01日 02:06
+! Version: 202202010819
+! Last Modified: 2022年02月01日 08:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11739,7 +11739,6 @@ szonline.net##.ad_1000_90
 ifeng.com##.ad_12
 51wangdai.com##.ad_123_AD
 jurong.cn##.ad_190_60_5s
-manhuadb.com##a.d-block
 1688.com.au##.ad_300_p
 eol.cn##.ad_490
 qq.com##.ad_670_90
@@ -14546,6 +14545,7 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 zol.com.cn##a#downloader_main
+manhuadb.com##a.d-block
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
@@ -17776,14 +17776,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||ditaow.cn^
-||slgo.club^
-||gyrenmai.icu^
-||ikcdhqh.cn^
-||jxxiangyujinshu.com^
-||8gustis.xyz^
-||uni-king.cn^
-||mx98.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18043,6 +18035,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||8911101.com^
 ||895cje7.cn^
 ||8bnwuz.cn^
+||8gustis.xyz^
 ||8hpay.cn^
 ||8jrc564wtf.cn^
 ||8o9m.cn^
@@ -18795,6 +18788,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dianyingmi1.cn^
 ||diaoda.xyz^
 ||dibyc.com^
+||ditaow.cn^
 ||diuleilou.top^
 ||dj0ts1x.cn^
 ||dj930.cn^
@@ -18988,6 +18982,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||gyrenmai.icu^
 ||gywiqnmn.cn^
 ||gz5931-llm0.cn^
 ||gzgxbmh.cn^
@@ -19064,6 +19059,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ih740.cn^
 ||iiiuuu.top^
 ||iipbuas.cn^
+||ikcdhqh.cn^
 ||il133.cn^
 ||ilgze.cn^
 ||ilmwi.cn^
@@ -19132,6 +19128,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jwvjcr.cn^
 ||jx3yixi.club^
 ||jxin.xyz^
+||jxxiangyujinshu.com^
 ||jxzz.tech^
 ||jycwqeo.cn^
 ||jyigozm.cn^
@@ -19276,6 +19273,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mtxs.xyz^
 ||muybjar.cn^
 ||muyijia.shop^
+||mx98.xyz^
 ||mxxgs.cn^
 ||myfengyi.xyz^
 ||myline1.club^
@@ -19501,6 +19499,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||skmtyaw.cn^
 ||skwenq.cn^
 ||sl00ufi.cn^
+||slgo.club^
 ||sltcp.cn^
 ||smh.ink^
 ||smncden.cn^
@@ -19599,6 +19598,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||umihecd.cn^
 ||umis.top^
 ||unfzclg.cn^
+||uni-king.cn^
 ||uqakkye.cn^
 ||uqbmzwv.cn^
 ||uqjflmw.cn^

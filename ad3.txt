@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: onxhHr0qXJkjrxD2/zTwog
+! Checksum: Xvj34MVqkpj9pXfbOX/62Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202010206
-! Last Modified: 2022年02月01日 02:06
+! Version: 202202010819
+! Last Modified: 2022年02月01日 08:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -11292,7 +11292,6 @@ szonline.net##.ad_1000_90
 ifeng.com##.ad_12
 51wangdai.com##.ad_123_AD
 jurong.cn##.ad_190_60_5s
-manhuadb.com##a.d-block
 1688.com.au##.ad_300_p
 eol.cn##.ad_490
 qq.com##.ad_670_90
@@ -14099,6 +14098,7 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 zol.com.cn##a#downloader_main
+manhuadb.com##a.d-block
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
@@ -17329,14 +17329,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||ditaow.cn^
-||slgo.club^
-||gyrenmai.icu^
-||ikcdhqh.cn^
-||jxxiangyujinshu.com^
-||8gustis.xyz^
-||uni-king.cn^
-||mx98.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17596,6 +17588,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||8911101.com^
 ||895cje7.cn^
 ||8bnwuz.cn^
+||8gustis.xyz^
 ||8hpay.cn^
 ||8jrc564wtf.cn^
 ||8o9m.cn^
@@ -18348,6 +18341,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dianyingmi1.cn^
 ||diaoda.xyz^
 ||dibyc.com^
+||ditaow.cn^
 ||diuleilou.top^
 ||dj0ts1x.cn^
 ||dj930.cn^
@@ -18541,6 +18535,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||gyrenmai.icu^
 ||gywiqnmn.cn^
 ||gz5931-llm0.cn^
 ||gzgxbmh.cn^
@@ -18617,6 +18612,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ih740.cn^
 ||iiiuuu.top^
 ||iipbuas.cn^
+||ikcdhqh.cn^
 ||il133.cn^
 ||ilgze.cn^
 ||ilmwi.cn^
@@ -18685,6 +18681,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jwvjcr.cn^
 ||jx3yixi.club^
 ||jxin.xyz^
+||jxxiangyujinshu.com^
 ||jxzz.tech^
 ||jycwqeo.cn^
 ||jyigozm.cn^
@@ -18829,6 +18826,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mtxs.xyz^
 ||muybjar.cn^
 ||muyijia.shop^
+||mx98.xyz^
 ||mxxgs.cn^
 ||myfengyi.xyz^
 ||myline1.club^
@@ -19054,6 +19052,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||skmtyaw.cn^
 ||skwenq.cn^
 ||sl00ufi.cn^
+||slgo.club^
 ||sltcp.cn^
 ||smh.ink^
 ||smncden.cn^
@@ -19152,6 +19151,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||umihecd.cn^
 ||umis.top^
 ||unfzclg.cn^
+||uni-king.cn^
 ||uqakkye.cn^
 ||uqbmzwv.cn^
 ||uqjflmw.cn^
@@ -25046,6 +25046,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /art/stats/*
 /article-analytics.
 /article-tracking.js
+/article/count?
 /Article/ViewCount/*
 /article_counter.php?
 /article_hit.php?
@@ -38404,6 +38405,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4hds.com/js/camstats.js
 ||a-reporting.nytimes.com^
 ||a.electerious.com^
+||a10.nationalreview.com^
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^$script
 ||aax-us-iad.amazon.com^$script
@@ -39401,6 +39403,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yimg.com/aaq/wf/wf-darla-
 ||yoox.it/storage/rd/yorb/
 ||youjizzlive.com/api/metrics
+||youmaker.com/g/test
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
