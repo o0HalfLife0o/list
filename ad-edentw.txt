@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F3vAzZn61ZT+FD8X4FPaGg
+! Checksum: 58q+AFqY9Y5ORWzjcp9w7Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202020209
-! Last Modified: 2022年02月02日 02:09
+! Version: 202202022006
+! Last Modified: 2022年02月02日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1208,9 +1208,6 @@ clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-tit
 zoznam.sk#$#hide-if-matches-xpath './/div[contains(text(),"Reklama")]/preceding-sibling::div[@class][2]/ancestor::*[3]'
 zoznam.sk#$#hide-if-matches-xpath './/div[@class]/iframe[@id][@title][string-length(@src) > 90]/ancestor::div[1]'
 info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
-onlajny.com#$#abort-current-inline-script $ PartnerRedirectAction
-titulky.com#$#abort-current-inline-script adblfetected
-csfd.cz#$#abort-current-inline-script $ completeAdsObject
 ! Popup/Popunder
 dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/dutch.txt ***
@@ -1533,7 +1530,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_feed"]//div[@data-pagelet="MainFeed"]//a[@aria-label="label"]//ancestor::div[8][not(@id)][starts-with(@class,"_")]'
 www.facebook.com,web.facebook.com##div[data-pagelet="RightRail"] a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-posinset or @aria-describedby or @aria-labelledby]//div[@role="button"][contains(text(),"Sponsored ·") or contains(text(),"Publicidad ·") or contains(text(),"Patrocinado ·") or contains(text(),"Sponsorisé ·") or contains(text(),"Commandité ·") or contains(text(),"Sponsorizzato ·") or contains(text(),"Gesponsert ·") or contains(text(),"Реклама ·")]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-posinset or @aria-describedby or @aria-labelledby]//div[@role="button"][contains(text(),"Sponsored ·") or contains(text(),"Publicidad ·") or contains(text(),"Patrocinado ·") or contains(text(),"Sponsorisé ·") or contains(text(),"Commandité ·") or contains(text(),"Sponsorizzato ·") or contains(text(),"Gesponsert ·") or contains(text(),"Реклама ·")]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
 ! #CV-663
