@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rMpTBx3uWh8NoJh0gt+iNA
+! Checksum: mpflCAl8grFaH14wbKqEsw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202041401
-! Last Modified: 2022年02月04日 14:01
+! Version: 202202042002
+! Last Modified: 2022年02月04日 20:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -458,7 +458,6 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
-&ad_block=
 &ad_code=
 &ad_height=
 &ad_ids=
@@ -6168,7 +6167,6 @@ tieba.baidu.com##.tuijian-wrap
 /secureads.
 /securepubads.
 /select_adv?
-/seo-ads.
 /serv.ads.
 /servads.
 /serve.ads.
@@ -52734,7 +52732,7 @@ tf2r.com#@#.adverts
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
-||jwplayer.com/players/$script,domain=ginx.tv
+||jwplayer.com^$domain=gamesradar.com|ginx.tv|tomshardware.com
 ||live.primis.tech^$third-party
 ||play.anyclip.com^$script,third-party
 ||play.springboardplatform.com^
@@ -55431,6 +55429,7 @@ kathmandupost.com##.sticky--bottom
 gr8.cc##.sticky-banner
 note.nkmk.me##.sticky-block
 golfmagic.com##.sticky-container
+walletinvestor.com##.sticky-footer-content
 babylonbee.com##.sticky-footer-image
 sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 theportugalnews.com##.sticky-pub
@@ -55689,6 +55688,7 @@ anitube.biz##[href="https://otpokemon.com/animes/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
 tech-latest.com##[href="https://tech-latest.com/go/nordvpn"]
 complaintsingapore.com##[href="https://thechillipadi.com/"]
+walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
 semiconductor-today.com##[href="https://www.appliedenergysystems.com/stakes/"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
 deshdoaba.com##[href="https://www.nsbinsures.com/"]
@@ -55872,6 +55872,7 @@ poki.com##div[class^="Advertisement_"]
 sportinglife.com##div[class^="Article__FlashTalkingWrapper-"]
 barrons.com##div[class^="BarronsTheme--adWrapper"]
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
+cnbc.com##div[class^="BoxRail-Styles-"]
 apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
 apnews.com##div[class^="Component-rectanglePlaceholderWrapper-"]
@@ -55888,6 +55889,7 @@ sportinglife.com##div[class^="Layout__TopAdvertWrapper-"]
 genius.com##div[class^="LeaderboardOrMarquee__"]
 qwant.com##div[class^="ProductAdsMicrosoft-"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
+cnbc.com##div[class^="TopBanner-"]
 topgear.com##div[class^="TopContainer-"]
 timeout.com##div[class^="_inlineAdWrapper_"]
 timeout.com##div[class^="_sponsoredContainer_"]
@@ -56132,9 +56134,11 @@ mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 ladbible.com##.css-1tc48v6
 digitaltrends.com##.dtvideos-container
+taskandpurpose.com##.empire-unit-prefill-container
 thestar.co.uk##.gOoqzH
 radaronline.com##.hIlCTc
 dexerto.com##.jwplayer
+gamesradar.com,tomshardware.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
@@ -59276,6 +59280,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||xhfrt.cn^
+||7gustis.xyz^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -74827,6 +74832,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chenjie.site^
 ||cyfyb2.site^
 ||jyzao.cn^
+||hriycvg.cn^
+||gxms.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
