@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dE4+5Voq1YjHdVTh8wdnDA
+! Checksum: hfZd0gctJPOsiJb/fV1jHQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202042002
-! Last Modified: 2022年02月04日 20:02
+! Version: 202202050201
+! Last Modified: 2022年02月05日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1388,6 +1388,7 @@ ubmcmm.baidustatic.com
 |http://tk.*.php?id=*&step=
 !------------------------General element hiding rules-------------------------!
 ###Ad_windows
+###ChapterView > .slide-baidu
 ###Layeraa1
 ###Layeraa2
 ###MsnDialog.ad
@@ -1705,6 +1706,7 @@ ubmcmm.baidustatic.com
 ~weibo.com##.con_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ~lechinois.com##.container > .ads
+##.container > .slide-baidu
 ##.container > a[href^="http"] > .ads
 ##.content > a > .topline
 ##.content-video > .ads
@@ -1857,8 +1859,6 @@ ubmcmm.baidustatic.com
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
-###ChapterView > .slide-baidu
-##.container > .slide-baidu
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
 ##.stui-pannel > .recommend-two
@@ -2250,8 +2250,6 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
-||xhfrt.cn^
-||7gustis.xyz^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -2564,6 +2562,7 @@ ubmcmm.baidustatic.com
 ||7dlm.cn^$third-party
 ||7g9m3r.com^
 ||7gg.cc^
+||7gustis.xyz^
 ||7krvbn.com^
 ||7o2o.com^$third-party
 ||7t955.com^$third-party
@@ -4509,6 +4508,7 @@ ubmcmm.baidustatic.com
 ||xfei.top^
 ||xgxq518.com^
 ||xhbqczl.com^
+||xhfrt.cn^
 ||xhmrv.com^
 ||xhrxb.com^
 ||xhsxgmt.cn^
@@ -9069,6 +9069,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szhk.com/iframe/
 ||szhk.com/include/taobao
 ||szhongzi.com/js/
+||szjjzs.com/js/zb.js
 ||sznews.com/*.files/$image,object
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
@@ -17800,11 +17801,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||chenjie.site^
-||cyfyb2.site^
-||jyzao.cn^
-||hriycvg.cn^
-||gxms.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17939,6 +17935,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||2gmbbl.cn^
 ||2gvuukm1lm.com^
 ||2gz9nc.cn^
+||2hukaixi.xyz^
 ||2kjg.xyz^
 ||2ktd0.cn^
 ||2laezi9.cn^
@@ -18610,6 +18607,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||chengduyiren.cn^
 ||chengjunjie.top^
 ||chengzilte.top^
+||chenjie.site^
 ||chenmujiang.com.cn^
 ||chenqi.vip^
 ||chenqinghui.xyz^
@@ -18732,6 +18730,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||cyboke.cn^
 ||cybook.fun^
 ||cyccy.cn^
+||cyfyb2.site^
 ||cyperjs.cn^
 ||cyto-biotherapy.com^
 ||cytxt.com^
@@ -19017,6 +19016,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||gxms.vip^
 ||gyrenmai.icu^
 ||gywiqnmn.cn^
 ||gz5931-llm0.cn^
@@ -19068,6 +19068,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hpygame.com^
 ||hqcqz2.cn^
 ||hqwrr.cc^
+||hriycvg.cn^
 ||hrjskj.top^
 ||htds.vip^
 ||htsj.vip^
@@ -19178,6 +19179,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jyzah.cn^
 ||jyzai.cn^
 ||jyzaj.cn^
+||jyzao.cn^
 ||jyzap.cn^
 ||jyzaw.cn^
 ||jyzaz.cn^

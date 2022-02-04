@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZVZmp4aIswjpaub24/OQqQ
+! Checksum: V2VWawobWFSdOo3NvCReqA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202042002
-! Last Modified: 2022年02月04日 20:02
+! Version: 202202050201
+! Last Modified: 2022年02月05日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1323,7 +1323,7 @@ zippyshare.com,uploadproper.com,uploadproper.net#$#abort-on-property-read _pop
 jawcloud.co,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 bs.to,burningseries.co#$#abort-current-inline-script Object
 vivo.sx#$#abort-current-inline-script Math
-hclips.com,hotmovs.com,thegay.com,thegay.tube,txxx.com,upornia.com#$#abort-current-inline-script mz
+hclips.com,hdzog.com,hotmovs.com,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 gdespaces.com,spac.me,spac1.com,spac1.me,spac1.net,spaces-blogs.com,spaces.im,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
 mrpornx.com,myyouporn.com#$#abort-current-inline-script eval String.fromCharCode
 gounlimited.to#$#abort-on-property-read atob
@@ -1433,7 +1433,7 @@ crunchyroll.com#$#json-prune 'value.media.ad_breaks'
 ! #CV-776
 bing.com##[id$="adsMvCarousel"]
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
-bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "]) 
+bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/fb_non-graph.txt ***
