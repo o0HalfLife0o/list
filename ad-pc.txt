@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zbeS13O7hbFPG2SRp1jsgA
+! Checksum: rMpTBx3uWh8NoJh0gt+iNA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202040816
-! Last Modified: 2022年02月04日 08:16
+! Version: 202202041401
+! Last Modified: 2022年02月04日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23902,6 +23902,7 @@ _800x80_
 ##.c-header__advert-container
 ##.c-main-header__ad
 ##.c-news-feed-ads
+##.c-partner-articles
 ##.c-res-ad
 ##.c-sitenav-adslot
 ##.c-sitenavPlaceholder__ad
@@ -58881,6 +58882,8 @@ ubmcmm.baidustatic.com
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
+###ChapterView > .slide-baidu
+##.container > .slide-baidu
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
 ##.stui-pannel > .recommend-two
@@ -59272,6 +59275,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||xhfrt.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -63770,7 +63774,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ditiezu.com/banner/badatu.png
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
-||diyibanzhu555.com/js/html
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
 ||dj155.com/gg/
@@ -74823,6 +74826,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels
 ||chenjie.site^
 ||cyfyb2.site^
+||jyzao.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -94652,6 +94656,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||citibank.com.ph/tmx/js/
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
