@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qv+hxu7uJjC4LcCetFc01w
+! Checksum: YXs9FDRNV3DIM628epHJKA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202071402
-! Last Modified: 2022年02月07日 14:02
+! Version: 202202072007
+! Last Modified: 2022年02月07日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7497,7 +7497,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifooday.cn/index.php?m=poster&
-||ifsp.tv/a/$xmlhttprequest
+||iyf.tv/a/$xmlhttprequest
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||igamepark.biz/ads_output.php
@@ -17652,7 +17652,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 !#Dnvod.tv
 ##vg-pause-ads
-@@/ads.js$domain=ifsp.tv
+@@/ads.js$domain=iyf.tv
 ||dnvodcdn.me/fast/*.mp4
 ||flyv.tv/a/$xmlhttprequest
 ||s1-a1.dnvodcdn.me^*.svg
@@ -17813,6 +17813,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lf666.xyz^
 ||taopiaopiao.shop^
 ||dmfhqzo.cn^
+||guanxs.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

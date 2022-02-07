@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hOWzIa45IMbjgOFoCeCcyQ
+! Checksum: QCHhhWUJxZC+ORDj4ty4aQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202071402
-! Last Modified: 2022年02月07日 14:02
+! Version: 202202072007
+! Last Modified: 2022年02月07日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21031,6 +21031,7 @@ _800x80_
 ##.ads-x1-super
 ##.ads-zone
 ##.ads.bottom
+##.ads.cta
 ##.ads.grid-layout
 ##.ads.rectangle160
 ##.ads.rectangle300
@@ -64657,7 +64658,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifooday.cn/index.php?m=poster&
-||ifsp.tv/a/$xmlhttprequest
+||iyf.tv/a/$xmlhttprequest
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||igamepark.biz/ads_output.php
@@ -74812,7 +74813,7 @@ dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
 ||taobao.com^$popup,domain=dlkoo.com
 !#Dnvod.tv
 ##vg-pause-ads
-@@/ads.js$domain=ifsp.tv
+@@/ads.js$domain=iyf.tv
 ||dnvodcdn.me/fast/*.mp4
 ||flyv.tv/a/$xmlhttprequest
 ||s1-a1.dnvodcdn.me^*.svg
@@ -74973,6 +74974,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lf666.xyz^
 ||taopiaopiao.shop^
 ||dmfhqzo.cn^
+||guanxs.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -105820,6 +105822,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.leaddyno.com/js$script,domain=s4l.us
 !---------- Bosnian ----------
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
+@@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 !---------- Bulgarian ----------
 @@||google-analytics.com/analytics.js$domain=novatv.bg
 @@||zavedenia.com/resources/js/angularytics.min.js$script,~third-party
