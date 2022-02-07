@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4Je1rT+Br+5gyg3gMF0FOA
+! Checksum: hOWzIa45IMbjgOFoCeCcyQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202070819
-! Last Modified: 2022年02月07日 08:19
+! Version: 202202071402
+! Last Modified: 2022年02月07日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -11450,6 +11450,7 @@ _800x80_
 ###adsense_leaderboard
 ###adsense_overlay
 ###adsense_placeholder_2
+###adsense_r_side_sticky_container
 ###adsense_sidebar
 ###adsense_testa
 ###adsense_top
@@ -11985,6 +11986,9 @@ _800x80_
 ###advertcalc
 ###adverthome
 ###adverti
+###adverticum_r_above
+###adverticum_r_above_container
+###adverticum_r_side_container
 ###advertiframebottom
 ###advertise
 ###advertise-block
@@ -22376,6 +22380,9 @@ _800x80_
 ##.advertembed
 ##.advertheader-red
 ##.adverthome
+##.adverticum_container
+##.adverticum_content
+##.adverticum_gate_banner
 ##.advertis
 ##.advertis-left
 ##.advertis-right
@@ -30755,6 +30762,7 @@ _800x80_
 ##[src^="/Redirect.a2b?"]
 ##[src^="http://api.lanistaads.com/ServeAd?"]
 ##a[class="RBAd"]
+##a[class^="adChoices-"]
 ##a[data-redirect^="http://click.plista.com/pets"]
 ##a[href$="/5-"][target="_blank"][rel="nofollow"]
 ##a[href$="/vghd.shtml"]
@@ -53267,6 +53275,8 @@ $popup,third-party,domain=animeworld.biz|apl100.me|apl102.me|apl96.me|assia2.com
 ||pornrabbit.com^$subdocument
 ||pornstargold.com/3b0a0cdcb8b4.js
 ||pornstargold.com/cddc4c9399c7.js
+||rat.xxx/rpi/
+||rat.xxx/xdman/
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redgifs.com/assets/js/goCtrl.js
 ||redtube.com^$subdocument,~third-party
@@ -54071,6 +54081,7 @@ israelnationalnews.com##.InfoIn2
 kentonline.co.uk##.LeaderBack
 apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
+tvtv.us##.MuiPaper-elevation2
 ask.com##.PartialKelkooResults
 snopes.com##.PlacementWrapper
 tumblr.com##.Qrht9
@@ -54932,6 +54943,7 @@ offerup.com##.jss301
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
 paycalculator.com.au##.jss546
+tvtv.us##.jss67
 essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
@@ -55708,6 +55720,7 @@ headforpoints.com##.widget--aside.widget
 fijisun.com.fj##.widget-1
 fijisun.com.fj##.widget-3
 miniclip.com##.widget-mpu
+gsmserver.com##.widget_banner-container_three-horizontal
 wplift.com##.widget_bsa
 cnx-software.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
@@ -56137,7 +56150,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,dramacool.pk,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
@@ -59397,6 +59410,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||9391434.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -67106,6 +67120,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/common/*/js/img_ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -74955,6 +74970,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||lf666.xyz^
+||taopiaopiao.shop^
+||dmfhqzo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82048,6 +82066,7 @@ fqsousou.com,kengso.com#@#.user-share
 /isi-tracking.
 /istat.aspx?
 /ists.tag?
+/item-stats.
 /item/tracking/*
 /ItemStats.ajax?
 /itgdtracksdk.
@@ -83340,6 +83359,7 @@ fqsousou.com,kengso.com#@#.user-share
 /script_log.
 /scriptAnalytics.
 /scripts.kissmetrics.com/*
+/scripts/analitics.
 /scripts/analytics.
 /scripts/analytics_
 /scripts/clickjs.php
@@ -87872,6 +87892,7 @@ _mongo_stats/
 ||vendri.io^$third-party
 ||ventivmedia.com^$third-party
 ||vepxl1.net^$third-party
+||verbolia.com^$third-party
 ||vercel-analytics.com^$third-party
 ||vercel-insights.com^$third-party
 ||vertical-leap.co.uk^$third-party
@@ -92328,6 +92349,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
+||tags.remixd.com^
 ||tagtracking.vibescm.com^
 ||target.mixi.media^
 ||targeting.*.arcpublishing.com^
@@ -93183,7 +93205,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
 ||vidazoo.com/report/?
-||viously.com/mt?
+||viously.com^*/mt?
 ||visitping.rossel.be^
 ||webreseau.com/impression.asp?
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
@@ -93859,6 +93881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
+||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||aws-native.com/ping/
 ||b.wal.co/rum.js$domain=samsclub.com
@@ -105443,6 +105466,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
+@@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
 @@||editorx.com/_api/*count?type$~third-party
