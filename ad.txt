@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aPZW9Y5PqR/KL8kVKzZ3kw
+! Checksum: 2V9johNLSCcaJrTsP2Jt6g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202070201
-! Last Modified: 2022年02月07日 02:01
+! Version: 202202070819
+! Last Modified: 2022年02月07日 08:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2147,6 +2147,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/445.ee/"]
+##a[href*="/5537220.com/"]
 ##a[href*="/602034.com"]
 ##a[href*="/7267224.com/"]
 ##a[href*="/7699j.com:"]
@@ -2245,16 +2246,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
-##a[href*="/5537220.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||jghklz.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||govqingdao.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -3232,6 +3230,7 @@ ubmcmm.baidustatic.com
 ||govguilin.cn^
 ||govhechi.cn^
 ||govkunming.cn^
+||govqingdao.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
 ||govyunfu.cn^
@@ -3474,6 +3473,7 @@ ubmcmm.baidustatic.com
 ||jfsm5.top^
 ||jgchq.com^
 ||jghcy.com^
+||jghklz.xyz^
 ||jgwsmqx.com^
 ||jhtcdj.com^
 ||jiaheyonggu.com^
@@ -8331,6 +8331,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||newasp.net/static/js/foot_
 ||news.cn/2018/images/2018rbqj_
 ||news.cn/2021detail/js/booklist.js
+||news.cn^*_tlad.js
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
@@ -9958,10 +9959,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||news.cn^*_tlad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-939394.xyz##A[target="_blank"][href*="/images/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14885,6 +14884,7 @@ aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
+939394.xyz##a[target="_blank"][href*="/images/"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
@@ -15883,6 +15883,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||85tube.com^$generichide
 @@||88box.com/images/ad_images/
 @@||930mh.com/js/config.js
+@@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -16110,7 +16111,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||gooogle.how^$generichide
-@@||939394.xyz^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
@@ -17808,14 +17808,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||rmdzsw.top^
-||hexin.city^
-||zuibandao.club^
-||cloudzhuge.cn^
-||zhiai.space^
-||wzjs.me^
-||rtreyyf.cn^
-||word168.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18669,6 +18661,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||clfmm.cn^
 ||clmmw.com^
 ||cloudassistant.vip^
+||cloudzhuge.cn^
 ||clxxkz.com.cn^
 ||clzgd.com^
 ||cmall.club^
@@ -19062,6 +19055,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hdsjk.cc^
 ||hebeiyichen.com^
 ||hello211.top^
+||hexin.city^
 ||hexp.xyz^
 ||heyi.shop^
 ||hgbvtax.cn^
@@ -19531,6 +19525,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||rtreyyf.cn^
 ||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
@@ -19734,6 +19729,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wnet.ink^
 ||wojv.club^
 ||woniu1314520.vip^
+||word168.cn^
 ||wppei.cn^
 ||wpqsmse.cn^
 ||ws-expo.cn^
@@ -19751,6 +19747,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wwshxc.cn^
 ||wxkouem.cn^
 ||wxqcshgc.icu^
+||wzjs.me^
 ||wzxzy.icu^
 ||wzytop.top^
 ||wzzb.club^
@@ -19918,6 +19915,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zuibandao.club^
 ||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
