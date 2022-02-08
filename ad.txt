@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dJV3ntkkP2l3gyYb8BG59w
+! Checksum: 2YYsVIiTH7yYvoDYhtAenw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202082003
-! Last Modified: 2022年02月08日 20:03
+! Version: 202202090202
+! Last Modified: 2022年02月09日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2690,6 +2690,7 @@ ubmcmm.baidustatic.com
 ||adnow.cc^$third-party
 ||adomv.com^
 ||adondemand.com^$third-party
+||adorazanna.com^
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
 ||adreal.cn^
@@ -3971,7 +3972,7 @@ ubmcmm.baidustatic.com
 ||qingniao.me^$third-party
 ||qingsedhhh.xyz^$third-party
 ||qingyanmjg.com^
-||qinqiaotrade.com
+||qinqiaotrade.com^
 ||qiqivv.com^
 ||qiqiww.com^
 ||qiqiyii.com^
@@ -4920,7 +4921,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 ||xiyouence.com^$popup,third-party
 ||yy18.info^*thanks$popup
 !----------------------Specific advert blocking filters-----------------------!
-$image,domain=ip.cn
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
@@ -7592,7 +7592,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iocoder.cn/alert/js/alert.js
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
-||ip.cn^$csp=style-src 'self' https:
 ||ip138.com/banner/
 ||ip138.com/idc/
 ||ipeen.com.tw/js/frame/ad-actions.js
@@ -9073,6 +9072,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szhk.com/iframe/
 ||szhk.com/include/taobao
 ||szhongzi.com/js/
+||szjjzs.com/js/as.js
 ||szjjzs.com/js/dd.js
 ||szjjzs.com/js/zb.js
 ||sznews.com/*.files/$image,object
@@ -9728,6 +9728,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
+||yodu.org/scripts/code.
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
 ||yorkbbs.ca/crm/section/v1/get/list/open
@@ -9961,7 +9962,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||szjjzs.com/js/as.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17811,41 +17811,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||zgbtw.mobi^
-||zyhx.ltd^
-||jipezy.cn^
-||richman100.ltd^
-||astep.info^
-||geoparker.net^
-||sphntyj.cn^
-||mhqx.store^
-||52kshu.info/mgb.
-bxwx888.org###addiv3
-bxwx888.org###bdstatic
-55shuba.com###botDiv
-bisowu.com##.a-row
-.lu/js/wap_billing.js
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-yemancomic.com##.ncl_img > :not(#cp_img)
-duanwenxue.com##.qgzdwx
-.wap.x4399.com^
-.wap.yb3.cc^
-/socket?platform=*&href=$third-party,websocket
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-jx.la##[onclick*="apk"]
-52biquge.com##[onclick*="app"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17869,13 +17834,39 @@ jx.la##[onclick*="apk"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-bookrb.com##a[href="/rmtj.html"]
+.lu/js/wap_billing.js
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+.wap.x4399.com^
+.wap.yb3.cc^
+/socket?platform=*&href=$third-party,websocket
+52biquge.com##[onclick*="app"]
 52biquge.com##a[href^="http://html.350.com/"]
-bixia.org##dd[style*="bottom:"]
-smjb.net##div[style*="height: 50%"]
-biqugee.com##div[style="width:976px;"]
-piaotian5.net##script + div[style="padding:15px;"]
+55shuba.com###botDiv
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 ah123z.com##script + div[style]
+biqugee.com##div[style="width:976px;"]
+bisowu.com##.a-row
+bixia.org##dd[style*="bottom:"]
+bookrb.com##a[href="/rmtj.html"]
+bxwx888.org###addiv3
+bxwx888.org###bdstatic
+duanwenxue.com##.qgzdwx
+jx.la##[onclick*="apk"]
+piaotian5.net##script + div[style="padding:15px;"]
+smjb.net##div[style*="height: 50%"]
+yemancomic.com##.ncl_img > :not(#cp_img)
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -18016,6 +18007,7 @@ ah123z.com##script + div[style]
 ||51wxyx.cn^
 ||51zdwy.cn^
 ||52homie.cn^
+||52kshu.info/mgb.
 ||52lty.store^
 ||52pipaxing.com^
 ||52tushuo.com^
@@ -18282,6 +18274,7 @@ ah123z.com##script + div[style]
 ||aslro.top^
 ||aspaz.cn^
 ||aspwg.cn^
+||astep.info^
 ||astyk.cn^
 ||atomicfile.cn^
 ||atuehome.cn^
@@ -19014,6 +19007,7 @@ ah123z.com##script + div[style]
 ||gdzxsoft.cn^
 ||genfar.club^
 ||gengsang.me^
+||geoparker.net^
 ||gfncg.cn^
 ||gggwv.cn^
 ||gh1024.xyz^
@@ -19170,6 +19164,7 @@ ah123z.com##script + div[style]
 ||jinlianchengwhcm.cn^
 ||jinxiangyu.ltd^
 ||jinyihui.vip^
+||jipezy.cn^
 ||jiucaishuo.cn^
 ||jiuji.ltd^
 ||jiujiinc.top^
@@ -19315,6 +19310,7 @@ ah123z.com##script + div[style]
 ||mexcel.info^
 ||mfagqah.cn^
 ||mgnb.xyz^
+||mhqx.store^
 ||mhtky.cn^
 ||midy.me^
 ||minchikeji.cloud^
@@ -19525,6 +19521,7 @@ ah123z.com##script + div[style]
 ||rgt0hv5.cn^
 ||rh447.cn^
 ||rhxshop.com^
+||richman100.ltd^
 ||rjhtrjb.cn^
 ||rjnjjin.cn^
 ||rktupt.cn^
@@ -19590,6 +19587,7 @@ ah123z.com##script + div[style]
 ||soorbka.cn^
 ||soquan.xyz^
 ||soulshape.cn^
+||sphntyj.cn^
 ||spjxwlkj.com^
 ||spscwlw.cn^
 ||spzxgcw.com^
@@ -19882,6 +19880,7 @@ ah123z.com##script + div[style]
 ||zdzk0371.cn^
 ||zengwx.cn^
 ||zfw.me^
+||zgbtw.mobi^
 ||zgxieshou.com^
 ||zgyso.cn^
 ||zgystsd.com^
@@ -19938,6 +19937,7 @@ ah123z.com##script + div[style]
 ||zxyonlybelongstolym.xyz^
 ||zyam.club^
 ||zyezhz.cn^
+||zyhx.ltd^
 ||zyjy.ink^
 ||zzkbsm.cn^
 ||zzuzcy.cloud^
