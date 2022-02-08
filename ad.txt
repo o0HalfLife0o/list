@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YXs9FDRNV3DIM628epHJKA
+! Checksum: z34QcSA56+0kPnQJ/ZbBQA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202072007
-! Last Modified: 2022年02月07日 20:07
+! Version: 202202080819
+! Last Modified: 2022年02月08日 08:19
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -582,8 +582,8 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 */preroll/$media,domain=91porn.com
 91p20.space
 waust.at
-agefans.*,agemys.com##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=agefans.*|mgtv1.cc|agemys.com
+age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
+||toutiaoimg.com/origin/$image,domain=agefans.*|mgtv1.net|agemys.com
 hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
 dyjihe2.com##.tempWrap
 haitum.com##.dplayer-web-fullscreen-fix .float-box, .dplayer-web-fullscreen-fix header
@@ -2250,7 +2250,6 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
-||9391434.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -2613,6 +2612,7 @@ ubmcmm.baidustatic.com
 ||9377ku.com^
 ||9377or.com^
 ||9377os.com^
+||9391434.com^
 ||94dwc.com^
 ||94lm.com^
 ||94nw.com^
@@ -7497,7 +7497,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifooday.cn/index.php?m=poster&
-||iyf.tv/a/$xmlhttprequest
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||igamepark.biz/ads_output.php
@@ -7668,6 +7667,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iupian.com/mstyle/js/topinfo.js
 ||ivy.pconline.com.cn^
 ||iwanad.baidu.com^
+||iyf.tv/a/$xmlhttprequest
 ||iyingdi.com/goood?
 ||iztwp.com/images/
 ||izzs.cc/wp-content/mm/
@@ -8301,6 +8301,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||myqqjd.com/wp-content/plugins/*.js
 ||myqqjd.com^$csp=script-src 'self' * 'unsafe-inline'
 ||mysteelcdn.com/advert/
+||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/gg/
 ||myweb.hinet.net/menu.htm
 ||myyan.cc/js/qz.js
@@ -9960,7 +9961,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mysteelcdn.com/common/*/js/img_ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17810,10 +17810,32 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||lf666.xyz^
-||taopiaopiao.shop^
-||dmfhqzo.cn^
-||guanxs.com^
+bxwx888.org###addiv3
+bxwx888.org###bdstatic
+55shuba.com###botDiv
+bisowu.com##.a-row
+.lu/js/wap_billing.js
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+yemancomic.com##.ncl_img > :not(#cp_img)
+duanwenxue.com##.qgzdwx
+.wap.x4399.com^
+.wap.yb3.cc^
+/socket?platform=*&href=$third-party,websocket
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
+jx.la##[onclick*="apk"]
+52biquge.com##[onclick*="app"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17837,39 +17859,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-.lu/js/wap_billing.js
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-.wap.x4399.com^
-.wap.yb3.cc^
-/socket?platform=*&href=$third-party,websocket
-52biquge.com##[onclick*="app"]
-52biquge.com##a[href^="http://html.350.com/"]
-55shuba.com###botDiv
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-ah123z.com##script + div[style]
-biqugee.com##div[style="width:976px;"]
-bisowu.com##.a-row
-bixia.org##dd[style*="bottom:"]
 bookrb.com##a[href="/rmtj.html"]
-bxwx888.org###addiv3
-bxwx888.org###bdstatic
-duanwenxue.com##.qgzdwx
-jx.la##[onclick*="apk"]
-piaotian5.net##script + div[style="padding:15px;"]
+52biquge.com##a[href^="http://html.350.com/"]
+bixia.org##dd[style*="bottom:"]
 smjb.net##div[style*="height: 50%"]
-yemancomic.com##.ncl_img > :not(#cp_img)
+biqugee.com##div[style="width:976px;"]
+piaotian5.net##script + div[style="padding:15px;"]
+ah123z.com##script + div[style]
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -18856,6 +18852,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dlxgm.cn^
 ||dlyukun.cn^
 ||dlzxjk.cn^
+||dmfhqzo.cn^
 ||dmpsj.cn^
 ||dmsyinm.cn^
 ||dmtl.xyz^
@@ -19027,6 +19024,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||grksvub.cn^
 ||grours.cn^
 ||guangzhengtwo.top^
+||guanxs.com^
 ||gunvn.cn^
 ||guolvhbb.cn^
 ||guxin.me^
@@ -19257,6 +19255,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||leelovelwj.com^
 ||lemmotx.cn^
 ||leqfgnb.cn^
+||lf666.xyz^
 ||lggbxf.com^
 ||lhxwnzht.cn^
 ||lilith.ink^
@@ -19615,6 +19614,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||tangxue.me^
 ||tanky.vip^
 ||taomovie.club^
+||taopiaopiao.shop^
 ||taoyouhuiquan.top^
 ||tba4.cn^
 ||tbi7.cn^
