@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xbzxOruL33uDRiS9GziECg
+! Checksum: lUKvfYaBRI4FX4htaO99AQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202092007
-! Last Modified: 2022年02月09日 20:07
+! Version: 202202100202
+! Last Modified: 2022年02月10日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -36982,6 +36982,7 @@ tf2r.com#@#.adverts
 ||fandelcot.com^
 ||fandmo.com^
 ||fangsjames.com^
+||fannonglairin.com^
 ||fanumi.com^
 ||faqrdrkwdhqgug.com^
 ||faracoon.com^
@@ -41311,6 +41312,7 @@ tf2r.com#@#.adverts
 ||obertsiamw.fun^
 ||obeus.com^
 ||obeysatman.com^
+||obfirmtangled.com^
 ||obkcnezxxuw.com^
 ||obligationmelonvase.com^
 ||obligationsovereign.com^
@@ -43054,6 +43056,7 @@ tf2r.com#@#.adverts
 ||radiancethedevice.com^
 ||radiantskilled.com^
 ||radiationcrag.com^
+||radioearphonesaggravation.com^
 ||radiusfellowship.com^
 ||radiusmarketing.com^
 ||radiusproceedings.com^
@@ -44450,6 +44453,7 @@ tf2r.com#@#.adverts
 ||spiritedirreparablemiscarriage.com^
 ||spirub.com^
 ||spittsprevi.club^
+||spitzerpfunde.com^
 ||spkcmgydiuin.com^
 ||spkoevngk.com^
 ||splashfloating.com^
@@ -52211,6 +52215,7 @@ tf2r.com#@#.adverts
 ||partner.loveplanet.ru^
 ||pcash.imlive.com^
 ||pimpandhost.com/site/trending-banners
+||pinklabel.com/live-banners?
 ||pinkvisualgames.com/?revid=
 ||plugin-x.com/rotaban/
 ||pod.xpress.com^
@@ -53797,6 +53802,7 @@ sentinelnews.com,theandersonnews.com###pre-header
 the-scientist.com###preHeader
 playok.com###pread
 thestreamable.com###promo-signup-bottom-sheet
+dailymail.co.uk###promo-unit
 bnnbloomberg.ca###promotions
 frequence-radio.com###pub_listing_top
 skyrock.com###pub_up
@@ -59035,6 +59041,7 @@ ubmcmm.baidustatic.com
 ##.toy52apparel_ALL
 ##.trad1
 ##.trad3
+##A[onclick^="_czc."] > .add
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
@@ -67114,6 +67121,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##a[target="_blank"][rel]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72899,6 +72907,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -74969,6 +74978,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hrrrzwz.cn^
 ||chslwea.top^
 ||mjkha.top^
+||vzovmzc.cn^
+||ranke.link^
+||wangxiaowei.ink^
+||kxtxt.com^$third-party
+##a[href*=".fllkf.com/"]
+##a[href*=".gzwtgm.com/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85353,6 +85368,7 @@ _mongo_stats/
 ||fastgull.io^
 ||fasttiger.io^
 ||fn-pz.com^
+||fpaux.net^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
