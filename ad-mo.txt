@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T5Ft15XDxpugTb0Kk2UwmQ
+! Checksum: jqIkPDdeg0UK+LgRzJ5S7A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202090202
-! Last Modified: 2022年02月09日 02:02
+! Version: 202202090817
+! Last Modified: 2022年02月09日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -7731,7 +7731,6 @@ _prebid_
 /adblockpopup.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
-/adsblocker.
 /anti-adblock/*$~stylesheet
 /anti_ab.
 /antiblock_script/*
@@ -21728,6 +21727,7 @@ _800x80_
 ##.adtexts
 ##.adthrive
 ##.adthrive-ad
+##.adthrive-content
 ##.adthrive-header
 ##.adthrive-header-container
 ##.adthx
