@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GK2YR0NPcr9D+u/fs14FBw
+! Checksum: ql4MyyLJd7PGP8xLMzfTtg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202091404
-! Last Modified: 2022年02月09日 14:04
+! Version: 202202092007
+! Last Modified: 2022年02月09日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9728,7 +9728,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
-||yodu.org/scripts/code.
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
 ||yorkbbs.ca/crm/section/v1/get/list/open
@@ -16262,6 +16261,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|it365.abctool.info|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -17816,6 +17816,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ztrynpo.cn^
 ||ionia.pro^
 ||hrrrzwz.cn^
+||chslwea.top^
+||mjkha.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -23440,7 +23442,7 @@ _box_ad_
 ||yxdm.*/js/ddetector.js
 ||eng24.com/js_new/copyright_float.
 ||gedu.org/js/meiqia_pc_groupmarket.
-||linovelib.com/scripts/code.
+||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 !------------------------Specific element hiding rules------------------------!
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
