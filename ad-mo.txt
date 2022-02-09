@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jqIkPDdeg0UK+LgRzJ5S7A
+! Checksum: B4iDeB6FjnZEetX9WyxxPA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202090817
-! Last Modified: 2022年02月09日 08:17
+! Version: 202202091404
+! Last Modified: 2022年02月09日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -352,6 +352,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 &ad_network_
 &ad_slot=
 &ad_sub=
+&ad_system=
 &ad_time=
 &ad_type=
 &ad_url=
@@ -54625,6 +54626,7 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 audiokarma.org##.discussionListItem > center
 govevents.com,protipster.com##.display
+pixabay.com##.display-gtty-item
 israelnationalnews.com##.div300
 jpost.com##.divConnatix
 tigerdroppings.com##.divHLeaderFull
@@ -55391,7 +55393,6 @@ mirror.co.uk##.shopwindow-adslot
 mirror.co.uk##.shopwindow-advertorial
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
-pixabay.com##.show-gtty-item
 bscscan.com,etherscan.io##.showcase-banner-spacing
 winx-club-hentai.com##.shr34
 mbauniverse.com##.shriresume-logo
@@ -74956,6 +74957,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||shenkun.xyz^
+||zhudao.shop^
+||ztrynpo.cn^
+||ionia.pro^
+||hrrrzwz.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
