@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mbMy6t50EJZyyZpirotp6Q
+! Checksum: mXN/uGyqhpfU9oj1cUlBaQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202101401
-! Last Modified: 2022年02月10日 14:01
+! Version: 202202102004
+! Last Modified: 2022年02月10日 20:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1212,7 +1212,6 @@ youle55.com
 /showpage2.asp?u=$script,third-party
 /sllm.php?id=$script,third-party
 /sobt_adv.js
-/sogouAD.
 /source/plugin/mama_tips/*
 /static/adsview/*
 /static/common/js/djlib_
@@ -2025,7 +2024,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".08an.com/"]
 ##a[href*=".123ch.cn"]
 ##a[href*=".1317yb.com"]
-##a[href*=".17yyba.com/"]
 ##a[href*=".222bz.com/"]
 ##a[href*=".3366722.com"]
 ##a[href*=".41gw.com/"]
@@ -2052,8 +2050,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".chengyuhuashi.com/"]
 ##a[href*=".chicagospy.com/"]
-##a[href*=".chouchuai.com/"]
-##a[href*=".chuairan.com/"]
 ##a[href*=".d2mzb.com"]
 ##a[href*=".dajiang99.com"]
 ##a[href*=".dapengchejiuye.com/"]
@@ -2087,7 +2083,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".htvip27.app"]
 ##a[href*=".iziyo.com/"]
 ##a[href*=".lacquermall.com/"]
-##a[href*=".liaochuo.com/"]
 ##a[href*=".madeqr.com/"] > img[src*=".pstatp.com/"]
 ##a[href*=".mieseng.com/"]
 ##a[href*=".open0317.top/"]
@@ -2098,11 +2093,9 @@ ubmcmm.baidustatic.com
 ##a[href*=".sandebg.com/"]
 ##a[href*=".sjzbqnxx.com/"]
 ##a[href*=".tbb168.com"]
-##a[href*=".tduou.com/"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".ttz5.cn"]
-##a[href*=".tudown.com/"]
 ##a[href*=".umtrack.com/"]
 ##a[href*=".wenpie.com/"]
 ##a[href*=".wensixuetang.com/"]
@@ -2178,7 +2171,6 @@ ubmcmm.baidustatic.com
 ##a[href*="/ly0909.com"]
 ##a[href*="/ly1111.vip"]
 ##a[href*="/ly288.net"]
-##a[href*="/md0c.oss-cn-beijing.aliyuncs.com/"]
 ##a[href*="/mda1.site/"]
 ##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
@@ -8855,7 +8847,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||shfq.com/wuyue
 ||shihuo.cn/alibtn_
 ||shimo.im^*/ads?
-||shoudian.org/diantong/laoma
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||showhaotu.$domain=18board.com|18p2p.com
@@ -8924,13 +8915,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sinolub.com/uploadfile/201*.swf
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||sitv.com.cn/cookiead.php
-||sjzdaily.com.cn/sjznewsad/
 ||skads.gxsky.com^$script
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
 ||slit.cn/slimages/
 ||smqzj.com/seo.js
-||smzy.com/sucai/cqsf.gif
 ||smzy.com/v1/img/
 ||so.com/baike/ads?
 ||so.com/index/advertise
@@ -8950,10 +8939,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||soduso.com/js/so.js
 ||soft.mumayi.net/images/download.gif
 ||soft.mumayi.net/js/
-||softhy.net/hp/
-||sogou-inc.com/AdvPreview.
-||sogou.com/acquireAdvertise.
-||sogou.com/adlist?
 ||sogou.com/amdjs/release/common/act_all_ad.
 ||sogou.com/ask?id=
 ||sogou.com/athena/
@@ -9005,7 +8990,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sportsv.net/dist/ads/
 ||sportsyeah.hk/wp-content/uploads/XfwppqROyThU/qQTuYinCrndr.js
 ||spqi.xyz/static/tmp/
-||srzc.com/images/*.swf
 ||ss9874.com/img/91_
 ||ssgg.chazidian.com^
 ||ssjv1.com/dm/
@@ -9030,7 +9014,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||stats.chinaz.com/tool_img/
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||stheadline.com/images/heading-jm
-||stnn.cc/images/xy/sfs
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
@@ -9076,7 +9059,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szjjzs.com/js/as.js
 ||szjjzs.com/js/dd.js
 ||szjjzs.com/js/zb.js
-||sznews.com/*.files/$image,object
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
 ||szyepu8.com/data/AADDimg/
@@ -9380,7 +9362,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||wallstreetcn.com/apiv1/earn/impression/
 ||wallstreetcn.com^*/ads^
 ||wan.liebao.cn/zt/
-||wan.sogou.com/static/fragment/
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
 ||wandhi.com/img/
 ||wandouys.com/Runtime/Js/
@@ -9962,6 +9943,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||haiyuer.com/didi
+||haiyuer.com/nb.js
+||haiyuer.com/uc
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -9998,7 +9982,6 @@ pjtime.com###Couplet_l_big
 pjtime.com###Couplet_l_small
 pjtime.com###Couplet_r_big
 pjtime.com###Couplet_r_small
-stnn.cc###FloatDIV
 chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
 chinatp.com.cn###FloatRb
@@ -10131,14 +10114,12 @@ baidu.com###adMainTopRight
 xunyingwang.com###adModalLabel
 asmag.com.cn###adRightFix
 baidu.com###adTitleRight
-sogou.com###adWindow
 sina.com.cn###ad_blk_fixed
 windows7en.com###ad_btm_down
 gdmm.com###ad_cover
 udn.com###ad_curtain
 gpcxw.com###ad_dl
 gpcxw.com###ad_dl2
-smzy.com###ad_down_box
 88448.com###ad_forum_banner
 btime.com###ad_full_button_placehoder
 youxidudu.com###ad_googlebox_pc
@@ -10203,7 +10184,6 @@ kjsv.com###advertisingMap
 104.com.tw###aidma_588
 airav.cc###air_top_banner
 ali213.net###ali-js-4
-shenchuang.com###all
 aizhan.com###all_text_content
 liisex.com###apDiv22
 qzone.qq.com###appCanvasRecentAppActivity > .activity-area
@@ -10433,7 +10413,6 @@ my0511.com###dbdcc
 ytbbs.com###dd1
 4399.com###defaultbglink
 fastadmin.net###detail-recommend
-sogou.com###detailRightAd
 hoteastday.com###detail_mask_ad
 stockstar.com###dhwzl
 141hongkong.com###dialog
@@ -10717,7 +10696,6 @@ gaoqing.la###head > a
 elecfans.com###headJf
 hao123.com###headJoke
 tbxt.com###headad2
-solidot.org###headads
 159i.com###header + div > style + div[class]
 1024ph.com###header > center
 houdao.com###header-ban
@@ -11286,7 +11264,6 @@ ilvruan.com###text-14
 vjmedia.com.hk###text-33
 stoneip.info###text-57
 sea-group.org###text-7
-sogou.com###text_ad_area
 tingvoa.com###textadbox
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
@@ -11301,7 +11278,6 @@ hao.360.com###tmall-full-screen
 51yfx.com,htcui.com###tmall_1111
 ali213.net###tmp_ggao
 hexun.com###tonglan_1 + .layout
-10.0.0.211###toolbar
 chinaz.com###toolsIntro
 uuu9.com###top
 159i.com###top > div[class]:first-child
@@ -11423,7 +11399,6 @@ zhaolianmeng.com###wzgg
 nczsks.com###wzyxjs
 liaoxuefeng.com###x-sponsor-a
 liaoxuefeng.com###x-sponsor-b
-smzy.com###x_pc_down_g
 soft4fun.net###xad_mu
 hl.cn###xf_left
 hl.cn###xf_right
@@ -11551,7 +11526,6 @@ price.com.hk,uwants.com##.MFV
 zhihu.com##.MHotFeedAd
 zhihu.com##.MRelateFeedAd
 my0511.com##.MY0511-broadcast
-shenchuang.com##.MainR_ad3
 ltn.com.tw##.NC1.boxTitle
 ltn.com.tw##.NC3
 taoguba.com.cn##.NH_ad
@@ -11672,7 +11646,6 @@ mgtv.com##.ad-fixed-bar
 qq.com##.ad-foot
 eastday.com##.ad-foot-right
 pixiv.net##.ad-footer + .hover-item
-sogou.com##.ad-img-bt + .picContainer
 265g.com##.ad-inner03
 baidu.com##.ad-list
 qq.com##.ad-long-pic
@@ -11801,7 +11774,7 @@ itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 ettoday.net##.ad_readmore
 sogou.com##.ad_result
-9upk.com,ouyaoxiazai.com,smzy.com##.ad_show
+9upk.com,ouyaoxiazai.com##.ad_show
 ouyaoxiazai.com##.ad_show_1
 ghxi.com##.ad_single_1
 nongjitong.com##.ad_sms
@@ -12511,7 +12484,6 @@ xiazai.zol.com.cn##.down-btn-yd + div[class]
 xiazaiba.com##.down-btn1
 xiazaiba.com##.down-btn2
 zol.com.cn##.down-gaosu
-smzy.com##.down-jisu
 zol.com.cn##.down-linka
 xiaopi.com##.down-list
 onlinedown.net##.down-list > iframe
@@ -12568,7 +12540,6 @@ minecraftzw.com##.e3lan-top
 m.so.com##.e_idea_list
 so.com##.e_idea_wenda_detail_spread
 so.com##.e_idea_wenda_spread
-solidot.org##.e_reply > .fr
 easou.com##.easou_banner
 360kan.com##.eb-rightbox
 baidu.com##.ec-ads-container
@@ -13939,7 +13910,6 @@ portablesoft.org##.sidebar-widget:first-child
 steachs.com##.sidebar:first-child
 kocpc.com.tw##.sidebar:nth-child(2)
 kocpc.com.tw##.sidebar:nth-child(3)
-pic.sogou.com##.sidebar_box.shut
 v2ex.com##.sidebar_compliance
 v2ex.com##.sidebar_units
 fsdpp.cn##.sidebox > a > img
@@ -14230,7 +14200,6 @@ kocpc.com.tw##.topbarad
 chromecj.com##.topblock
 uzzf.com##.topdown
 srzc.com##.topgg
-srzc.com##.topgg1
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bibgame.com##.topicContent > font[color="red"]:last-child
 qzone.qq.com##.topic_item[data-url*=".gdt.qq.com/"]
@@ -14504,7 +14473,6 @@ silver.org.cn##.zl_login
 zol.com.cn##.zol-eshop
 biz.zjol.com.cn##.zsFooterBox + .close
 efu.com.cn##.zs_banner_a
-srzc.com##.zt_tonglang1
 zuanke8.com##.zuanpw
 tuliu.com##.zx-advertising-box
 19lou.com##.zx-link
@@ -15040,7 +15008,6 @@ ifeng.com##div[class^="dbox"]
 fx678.com##div[class^="dl_"]
 eastday.com##div[class^="double"]
 3dmgame.com##div[class^="downl_list "]
-syd.com.cn##div[class^="eap"]
 cbg.cn##div[class^="erweima"]
 loveshang.com##div[class^="float-ad-"]
 fx678.com##div[class^="fx_fa_"]
@@ -15335,7 +15302,6 @@ cqnews.net##div[style="width:960px; height:90px; overflow:hidden; padding:0 20px
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px solid #CCC;"]
 36mh.net##div[style="width:960px;height:300px;margin:0 auto;"]
-stnn.cc##div[style="width:960px;height:90px;float:left;"]
 gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
 youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 plus28.com##div[style="width:960px;margin: auto;"]
@@ -15589,7 +15555,6 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_auth
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
-wenwen.sogou.com#?#.rl-normal:-abp-has(>.recommend-mes>p:-abp-contains(广告))
 wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 x3cn.com#?#.commonDiv:-abp-has(.ad)
 x6d.com#?#li:-abp-has(>.myad)
@@ -15714,7 +15679,6 @@ lm-us.com#@#.advertisement_above_footer
 jd.com#@#.adwords
 epubit.com#@#.article_share
 dingdong.ganji.com#@#.banner
-10.10.5.12#@#.banner_ad
 ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
