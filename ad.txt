@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cnbMyaDYeS9LAce6gsBV9Q
+! Checksum: mbMy6t50EJZyyZpirotp6Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202100202
-! Last Modified: 2022年02月10日 02:02
+! Version: 202202101401
+! Last Modified: 2022年02月10日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -526,7 +526,7 @@ de.as.pptv.com
 pub.funshion.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 ||video.da.mgtv.com/$media
-ys.da.mgtv.com
+!ys.da.mgtv.com
 ||da.mgtv.com/mediafiles/wiad_creative/$image
 @@||js.tv.itc.cn/gg.seed.js
 ||css.tv.itc.cn/m/img/player/dlBanner.$image
@@ -1589,7 +1589,6 @@ ubmcmm.baidustatic.com
 ###tr_ad8
 ###tr_ad9
 ###tripadvisor-ad
-###video > #ybad
 ###videoADPIC
 ###widget-quan
 ###wp > .V-videoFloat
@@ -1884,7 +1883,6 @@ ubmcmm.baidustatic.com
 ##.toy52apparel_ALL
 ##.trad1
 ##.trad3
-##A[onclick^="_czc."] > .add
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
@@ -1962,6 +1960,7 @@ ubmcmm.baidustatic.com
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
+##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -2246,6 +2245,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##div[onclick*=".rwnyou.com"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -9964,7 +9964,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-939394.xyz##a[target="_blank"][rel]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14889,6 +14888,7 @@ aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
 939394.xyz##a[target="_blank"][href*="/images/"]
+939394.xyz##a[target="_blank"][rel]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
@@ -15750,7 +15750,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -16167,7 +16166,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
 @@||joyk.com^$generichide
-@@||jrhot.com/data/attachment/*_300_250_
 @@||js.tudouui.com/bin/player2/$object
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@||jsjiami.com^$generichide
@@ -16264,8 +16262,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|haoweichi.com|it365.abctool.info|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -16362,7 +16359,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
-@@||taihainet.com^*/thumb_300_250_
 @@||tangdou.com/sample/share/advert?$domain=tangdoucdn.com
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
@@ -17495,7 +17491,6 @@ bejson.com##img[src^="data"]
 52bdys.com###ayx
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=52bdys.com
 52bdys.com##center[style*="background"]
-52bdys.com##div[onclick]
 52bdys.com##div[style^="position: fixed;bottom:"]
 !#Bingfeng.tw
 @@/unadblock/adjs_$domain=bingfeng.tw
@@ -17814,23 +17809,18 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||shenkun.xyz^
-||zhudao.shop^
-||ztrynpo.cn^
-||ionia.pro^
-||hrrrzwz.cn^
-||chslwea.top^
-||mjkha.top^
-||vzovmzc.cn^
-||ranke.link^
-||wangxiaowei.ink^
-||kxtxt.com^$third-party
-##a[href*=".fllkf.com/"]
-##a[href*=".gzwtgm.com/"]
+||ymdxxkj.icu^
+||huyc.info^
+||yaofaweb.xyz^
+||yakel.top^
+||awwlfb.cn^
+||ulxypyg.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
+##a[href*=".fllkf.com/"]
+##a[href*=".gzwtgm.com/"]
 ##a[href*=".hjneng.com/"]
 ##a[href*=".hmwang.cc"]
 ##a[href*=".hxctiao.com:"]
@@ -18662,6 +18652,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||chqsw.cn^
 ||chrain.wang^
 ||chrjkn.cn^
+||chslwea.top^
 ||chuang-yi.com.cn^
 ||chuangjulm.cn^
 ||chuanjiae.cn^
@@ -19108,6 +19099,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hqwrr.cc^
 ||hriycvg.cn^
 ||hrjskj.top^
+||hrrrzwz.cn^
 ||htds.vip^
 ||htsj.vip^
 ||huasuihz.top^
@@ -19148,6 +19140,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||imspecial.club^
 ||intell.work^
 ||iodobo.xyz^
+||ionia.pro^
 ||ioomb.cn^
 ||iprpe.cn^
 ||irzwlux.cn^
@@ -19262,6 +19255,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||kuoxing.mobi^
 ||kusol.club^
 ||kxapctq.cn^
+||kxtxt.com^$third-party
 ||kyle.pub^
 ||kypntcw.cn^
 ||kyqbifz.cn^
@@ -19335,6 +19329,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||miniapp.online^
 ||misstang.vip^
 ||mjdnarks.cn^
+||mjkha.top^
 ||mjyjt.biz^
 ||mjywk.cn^
 ||mjzsw.vip^
@@ -19508,6 +19503,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||qytkjsz.com^
 ||qzgs99.cn^
 ||qzy123.ink^
+||ranke.link^
 ||rcjww9.xyz^
 ||rcnnqsd.cn^
 ||rctxada.cn^
@@ -19577,6 +19573,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||shaiban.wang^
 ||shanhaibb.cn^
 ||shareman.xyz^
+||shenkun.xyz^
 ||sherrycha.cn^
 ||shproud.com^
 ||shsdw.cn^
@@ -19725,12 +19722,14 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||vvsbt.cn^
 ||vxjvcwc.cn^
 ||vytxocb.cn^
+||vzovmzc.cn^
 ||w25e.top^
 ||w6gis5.com^
 ||wangbo.group^
 ||wangchuijun.cn^
 ||wangcm01.top^
 ||wangl903.com^
+||wangxiaowei.ink^
 ||wangyasen.link^
 ||wangyh.icu^
 ||wangyun.host^
@@ -19919,6 +19918,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zhpfl.cn^
 ||zhswzxfw.com^
 ||zhty.club^
+||zhudao.shop^
 ||zhuozhongfangshui.cn^
 ||zhwotai.com^
 ||zhxkzss.cn^
@@ -19946,6 +19946,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||ztrynpo.cn^
 ||zuibandao.club^
 ||zuoyouyu.cn^
 ||zwdq.xyz^
@@ -23453,6 +23454,7 @@ _box_ad_
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 !------------------------Specific element hiding rules------------------------!
+aiqicha.baidu.com##.float-banner
 qingwk.com##.c-footer-banner
 jingyan.baidu.com##.task-panel-entrance
 jingyan.baidu.com##.wgt-cms-banner
