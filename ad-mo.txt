@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2S075rM6p+4ozslE2UT0Gg
+! Checksum: WQffxuCYSY3HkWTjUP8WbQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202110201
-! Last Modified: 2022年02月11日 02:01
+! Version: 202202110817
+! Last Modified: 2022年02月11日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17206,6 +17206,7 @@ _800x80_
 ##.AffAD
 ##.AffiliateAds
 ##.AmazonSimpleAdmin_widget
+##.AppFooter__BannerAd
 ##.ArticleAd
 ##.ArticleAdWrapper
 ##.ArticleInlineAd
@@ -21751,6 +21752,7 @@ _800x80_
 ##.adunit
 ##.adunit-300-250
 ##.adunit-active
+##.adunit-adbridg
 ##.adunit-container
 ##.adunit-container_sitebar_1
 ##.adunit-middle
@@ -48305,6 +48307,7 @@ tf2r.com#@#.adverts
 ||logo-net.co.uk^$third-party
 ||looksmart.com^$third-party
 ||love-banner.com^$third-party
+||lustre.ai^$third-party
 ||mad-adz.com^$third-party
 ||magetic.com^$third-party
 ||magnetisemedia.com^$third-party
@@ -52900,7 +52903,6 @@ tf2r.com#@#.adverts
 ||sportrecs.com/redirect/embed/
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
-||video-api.yql.yahoo.com^*/wf-channel=related-videos?
 ||vidora.com^$third-party
 ||viewdeos.com^$script,third-party
 ||vms-players.minutemediaservices.com^$script,third-party
@@ -54138,6 +54140,7 @@ lbcgroup.tv##.ScriptDiv
 simkl.com##.SimklTVDetailEpisodeLinksItemHref
 coin360.com##.Skyscraper
 coin360.com##.StickyCorner__Container
+slant.co##.SummaryPage-LustreEmbed
 algoafm.co.za##.TopBanner
 cnbc.com##.TopBanner-container
 coin360.com##.TopLeaderboard
@@ -55191,6 +55194,7 @@ techadvisor.com##.outer-wrapper
 golfweather.com##.ox300x250
 breakingnews.ie##.p-2.bg-gray-100
 beermoneyforum.com##.p-body-sidebar
+mc-market.org##.p-body-sidebar center [href]
 worldoftanks-wot.com##.p2small
 phonearena.com##.pa-sticky-container
 islamicfinder.org##.pad-xs.box.columns.large-12
@@ -55861,6 +55865,7 @@ allnewspipeline.com##[href="http://www.sqmetals.com/"]
 dafontfree.io##[href="https://1.envato.market/c/"]
 isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
+mc-market.org##[href="https://etherlands.com/"]
 whatsmyreferer.com##[href="https://fakethereferer.com"]
 anitube.biz##[href="https://otpokemon.com/animes/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
@@ -55888,6 +55893,7 @@ igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 seganerds.com##[href^="https://betway.com/"]
+mc-market.org##[href^="https://bit.ly/"] img
 coingolive.com##[href^="https://bitpreco.com/"]
 dappradar.com##[href^="https://bogged.finance/"]
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
@@ -55922,6 +55928,7 @@ seganerds.com##[href^="https://www.ewinracing.com/"]
 unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 goldprice.org,silverprice.org##[href^="https://www.jmbullion.com/"] img
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
+mc-market.org##[href^="https://www.mc-market.org/advertising/ads/create"]
 mql5.com##[href^="https://www.mql5.com/fz/"]
 perezhilton.com##[href^="https://www.mytrue10.com/"]
 weberblog.net##[href^="https://www.neox-networks.com/"]
@@ -56315,8 +56322,6 @@ engadget.com###outstreamPlayer-inArticle
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
-sports.yahoo.com##.H\(400px\) > .VideoPlayer
-sports.yahoo.com##.H\(400px\).Pos\(r\)
 sciencetimes.com##.article-videoplayer
 thewrap.com##.aspect-ratio-box-inside
 thewrap.com##.brid-default-skin
@@ -92408,7 +92413,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
-||tags.remixd.com^
 ||tagtracking.vibescm.com^
 ||target.mixi.media^
 ||targeting.*.arcpublishing.com^
@@ -104897,6 +104901,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ss.lv/counter/
 ||stats.tunt.lv^
 ||tanks.lv/top/stats.php
+||15min.lt/cached/tgif$~third-party
 ||lrytas.lt/counter/
 ||click.vgnett.no^
 ||nrk.no^*/stats/

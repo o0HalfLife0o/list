@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: o3we+AB2Zt0ESsr+EM+z7w
+! Checksum: Y8b8ch3qn0xCs+74w1U57A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202110201
-! Last Modified: 2022年02月11日 02:01
+! Version: 202202110817
+! Last Modified: 2022年02月11日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-v.qq.com,bilibili.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -78,6 +78,7 @@ de.as.pptv.com
 ||osswc.pplive.cn/cccms/$image
 pub.funshion.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
+ad-survey.com
 ||video.da.mgtv.com/$media
 !ys.da.mgtv.com
 ||da.mgtv.com/mediafiles/wiad_creative/$image
@@ -37051,7 +37052,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
-||tags.remixd.com^
 ||tagtracking.vibescm.com^
 ||target.mixi.media^
 ||targeting.*.arcpublishing.com^
@@ -49540,6 +49540,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ss.lv/counter/
 ||stats.tunt.lv^
 ||tanks.lv/top/stats.php
+||15min.lt/cached/tgif$~third-party
 ||lrytas.lt/counter/
 ||click.vgnett.no^
 ||nrk.no^*/stats/
