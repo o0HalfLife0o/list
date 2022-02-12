@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nwt5HjIcelMo3Ay+JB0Twg
+! Checksum: akJzeGX9SG6S5KVjZlx0JA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202121401
-! Last Modified: 2022年02月12日 14:01
+! Version: 202202122003
+! Last Modified: 2022年02月12日 20:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6973,6 +6973,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 ?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?advertiserid=$domain=~adadyn.com|~outbrain.com|~seek.co.nz|~seek.com.au
+?advplaces=
 ?advsystem=
 ?advtile=
 ?advurl=
@@ -17604,6 +17605,10 @@ _800x80_
 ##._table_ad_div_wide
 ##._top_ad_wrapper
 ##.a-ad
+##.a-ad--aside
+##.a-ad--leaderboard
+##.a-ad--skyscraper
+##.a-ad--wide
 ##.a-article-teaser--sponsored
 ##.a-d-container
 ##.a-d-rotate_widgets
@@ -18509,6 +18514,8 @@ _800x80_
 ##.ad-point
 ##.ad-popup
 ##.ad-popup-content
+##.ad-pos
+##.ad-pos-middle
 ##.ad-pos-top
 ##.ad-position
 ##.ad-position-1
@@ -21373,6 +21380,7 @@ _800x80_
 ##.adsbymahimeta
 ##.adsbypublift
 ##.adsbypubmax
+##.adsbypubpower
 ##.adsbysinodia
 ##.adsbytrafficjunky
 ##.adsbyvli
@@ -27273,6 +27281,7 @@ _800x80_
 ##.normal_ads
 ##.normalad
 ##.northad
+##.noskim.ad
 ##.not-ad-free
 ##.not-an-ad-header
 ##.note-advertisement
@@ -30562,9 +30571,11 @@ _800x80_
 ##[data-ad-module]
 ##[data-ad-width]
 ##[data-css-class="dfp-inarticle"]
+##[data-desktop-ad-id]
 ##[data-dynamic-ads]
 ##[data-ez-name]
 ##[data-freestar-ad]
+##[data-mobile-ad-id]
 ##[data-role="tile-ads-module"]
 ##[data-template-type="nativead"]
 ##[href*=".adcampo.com/"]
@@ -38565,6 +38576,7 @@ tf2r.com#@#.adverts
 ||hurllotion.com^
 ||huronfide.club^
 ||hurtfulindelicate.com^
+||husfly.com^
 ||hushpub.com^
 ||husktheoretical.com^
 ||hustlereorganizesatin.com^
@@ -42812,6 +42824,7 @@ tf2r.com#@#.adverts
 ||pubmaner5.com^
 ||pubmine.com^
 ||pubnation.com^
+||pubpowerplatform.io^
 ||pubrain.com^
 ||pubted.com^
 ||pubtm.com^
@@ -54313,6 +54326,7 @@ net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
 livejournal.com##.allbanners
 silverprice.org##.alt-content
+forecast7.com##.altad
 music-news.com##.amazon
 bgr.com##.amazon-product-callout
 orschlurch.net##.amazon-wrapper
@@ -55705,6 +55719,7 @@ gadgetstouse.com##.td-ss-main-sidebar
 ssbcrack.com##.td_spot_img_all
 tech-latest.com##.tdi_102_e06
 based-politics.com##.tdi_30
+who.is##.teaser-bar
 macrumors.com##.tertiary
 ericpetersautos.com##.text-109
 businessonhome.com##.text-info
@@ -56069,6 +56084,7 @@ sociologyguide.com##a[href^="https://www.baghvillas.com/"]
 indusladies.com##a[href^="https://www.codewizardshq.com/?utm_"]
 futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
+who.is##a[href^="https://www.name.com/redirect/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
@@ -59521,6 +59537,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||jnbvckgophfkop.com^
 ||wlwblog.top^
+||lm811.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75082,6 +75099,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||csjwawe.top^
 ||4mugah0.cn^
 ||awwlcx.cn^
+||carset.vip^
+||haigou.life^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79861,6 +79880,7 @@ fqsousou.com,kengso.com#@#.user-share
 .com/clk?
 .com/cm?ci=
 .com/cm?tid
+.com/count?
 .com/counter?
 .com/dc.gif?
 .com/g.gif?
