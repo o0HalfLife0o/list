@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oOOO05/ikH7fxgoK4ApsuQ
+! Checksum: SDymzWtKHliI10reGSRYRQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202120201
-! Last Modified: 2022年02月12日 02:01
+! Version: 202202121401
+! Last Modified: 2022年02月12日 14:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -608,25 +608,21 @@ netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm5.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
+geoparker.net
+uxrpkgh.cn
 bmbaike.cn
 ch-hr12333.com
 chushoushijian.cn
 cppoc.com
 cqqc3.com
-dacedsfa.cn
-g1c5.com
 ieeod0.com
 jinrongwang.net
-nd2z41.cn
 onenews.vip
 qdwght.com
 quickapp.cn
 v4dwkcv.com
 weizhenwx.com
-xcsci.cn
 xixiqiu.com
-xv5b.com
-xz6d.com
 youle55.com
 ||www.yatu.tv:88/image/*.gif^$image
 ||www.yatu.tv:88/m/images/$image
@@ -2240,6 +2236,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jnbvckgophfkop.com^
+||wlwblog.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17669,6 +17667,7 @@ verystream.com#@#.adsbox
 $domain=googleads.g.doubleclick.net
 @@||download.mokeedev.com^$genericblock,generichide
 googleads.g.doubleclick.net###mys-wrapper
+.lu/js/wap_billing.js
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17694,6 +17693,7 @@ $image,third-party,domain=258zw.com
 /1.js?ssfrid=$script,third-party
 /168*.xtml?$script,third-party
 /168modelBudai51.
+/socket?platform=*&href=$third-party,websocket
 /1MObaudu.$script,xmlhttprequest
 /1skwwd.
 /1xhtml?$script,third-party
@@ -17753,6 +17753,23 @@ _muytrf.js$script,third-party
 ##div[style="position:fixed;z-index:1000;top:200px;left:10px;overflow:hidden;background: #fff;"]
 ##div[style="position:fixed;z-index:1000;top:200px;right:10px;overflow:hidden;background: #fff;"]
 xhtml?%22+$script,third-party
+52biquge.com##[onclick*="app"]
+52biquge.com##a[href^="http://html.350.com/"]
+55shuba.com###botDiv
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
+ah123z.com##script + div[style]
+biqugee.com##div[style="width:976px;"]
+bisowu.com##.a-row
+bixia.org##dd[style*="bottom:"]
+bookrb.com##a[href="/rmtj.html"]
+bxwx888.org###addiv3
+bxwx888.org###bdstatic
+duanwenxue.com##.qgzdwx
+jx.la##[onclick*="apk"]
+piaotian5.net##script + div[style="padding:15px;"]
+smjb.net##div[style*="height: 50%"]
+yemancomic.com##.ncl_img > :not(#cp_img)
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 @@||dushu.ru^$script,domain=bhshu.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
@@ -17776,6 +17793,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||taoyao.tech^
+||tycc.info^
+||fuwche.cn^
+||csjwawe.top^
+||4mugah0.cn^
+||awwlcx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17801,7 +17824,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-.lu/js/wap_billing.js
 .m.biduoxs.com^
 .m.boluoxs.com^
 .m.bookben.com^
@@ -17816,24 +17838,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 .m.zineworm.com^
 .wap.x4399.com^
 .wap.yb3.cc^
-/socket?platform=*&href=$third-party,websocket
-52biquge.com##[onclick*="app"]
-52biquge.com##a[href^="http://html.350.com/"]
-55shuba.com###botDiv
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-ah123z.com##script + div[style]
-biqugee.com##div[style="width:976px;"]
-bisowu.com##.a-row
-bixia.org##dd[style*="bottom:"]
-bookrb.com##a[href="/rmtj.html"]
-bxwx888.org###addiv3
-bxwx888.org###bdstatic
-duanwenxue.com##.qgzdwx
-jx.la##[onclick*="apk"]
-piaotian5.net##script + div[style="padding:15px;"]
-smjb.net##div[style*="height: 50%"]
-yemancomic.com##.ncl_img > :not(#cp_img)
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
