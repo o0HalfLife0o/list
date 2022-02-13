@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XC42eJl/anaoMkQgiJeGiw
+! Checksum: wRRpwvyGBPvfRFlnZGq72A
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202130819
-! Last Modified: 2022年02月13日 08:19
+! Version: 202202131403
+! Last Modified: 2022年02月13日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1224,7 +1224,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad-m.js
 /ad-manager/*
 /ad-managment/*
-/ad-marketplace/*
+/ad-marketplace/*$~image
 /ad-maven-
 /ad-methods.
 /ad-minister-
@@ -2299,7 +2299,6 @@ tieba.baidu.com##.tuijian-wrap
 /adonline.
 /adonly468.
 /adops.$domain=~adops.co.il
-/adopshost.
 /adopspush-
 /adoptimised.
 /AdOptimizer.
@@ -32837,6 +32836,7 @@ tf2r.com#@#.adverts
 ||addresseetransportationsyndrome.com^
 ||addressen.club^
 ||addroplet.com^
+||adenza.dev^
 ||adequality.xyz^
 ||adequalitys.xyz^
 ||aderstono.one^
@@ -34801,6 +34801,7 @@ tf2r.com#@#.adverts
 ||caithamo.net^
 ||calabeshes.xyz^
 ||calculatorconceivenonetheless.com^
+||callalelel.info^
 ||callcreateabash.com^
 ||callelundotre.xyz^
 ||calmlydung.com^
@@ -42090,6 +42091,7 @@ tf2r.com#@#.adverts
 ||pazashevy.com^
 ||pbcde.com^
 ||pbhrxxcuobz.com^
+||pbkqidejmes.ru^
 ||pbterra.com^
 ||pbxai.com^
 ||pc-ads.com^
@@ -53845,8 +53847,8 @@ desimartini.com###getPosition
 dealsofde.com###gg_box_1
 dealsofde.com###gg_box_2
 glowstery.com###ghostery-highlights
-fmovies.ps,movies2watch.tv,moviesjoy.to###gift-middle
-f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to###gift-top
+fmovies.ps,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-middle
+f2movies.to,fmovies.ps,fmoviesto.cc,movies2watch.tv,moviesjoy.to,myflixertv.to###gift-top
 freegames.org###gla
 wordcounter.net###glya
 pcgamingwiki.com###gog_summer_sale_2021
@@ -55341,6 +55343,7 @@ chipchick.com##.noskim.ntv-moap
 cookingforengineers.com##.nothing
 moodiedavittreport.com##.notice
 mlsbd.shop##.notice-board
+cityam.com##.notice-header
 computing.co.uk##.notice-slot-full-below-header
 mondoweiss.net##.notrack
 pcgamebenchmark.com##.nova_wrapper
@@ -55376,6 +55379,7 @@ republicworld.com##.padtop10.padright10.padleft10.minheight90
 republicworld.com##.padtop20.txtcenter.minheight90
 manilastandard.net##.page-category-contents-adds
 scmp.com##.page-container__left-native-ad-container
+bitdegree.org##.page-coupon-landing
 carsales.com.au,technobuffalo.com##.page-header
 oversixty.co.nz##.page-heading-wrap
 krcrtv.com,ktxs.com,wcti12.com,wcyb.com##.pageHeaderRow1
@@ -56504,7 +56508,7 @@ thewrap.com##.brid-default-skin
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 ladbible.com##.css-1tc48v6
-digitaltrends.com##.dtvideos-container
+digitaltrends.com##.dtvideos-container[data-provider="jwplayer"]
 taskandpurpose.com##.empire-unit-prefill-container
 thestar.co.uk##.gOoqzH
 radaronline.com##.hIlCTc
@@ -59658,6 +59662,9 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||rywnvzd.cn^
+||xkzjq.cn^
+||0819837.com^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -75217,6 +75224,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||mzwfw.club^
+||zdwsh.tech^
+||xiaozhige.xyz^
+||zhangshen.club^
+||99zan.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -91915,6 +91927,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
 ||klickly.com/track
+||klm-ea.jscrambler.com^
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
 ||kununu.com^*/tracking/
@@ -92328,6 +92341,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||px.spiceworks.com^
 ||pxchk.net/b/s
 ||pxt.daz3d.com^
+||pylon.micstatic.com^
 ||qcloud.com/report.go?
 ||qq.com/collect?
 ||qq.com/dataimport/
@@ -104651,6 +104665,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
+||gentian-frd.hjapi.com^
 ||gia.jd.com^
 ||gk.sina.cn^
 ||h5log.zongheng.com^
@@ -104658,6 +104673,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
 ||imgstat.baidu.com^
@@ -104813,7 +104829,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
 ||trace.qq.com^
+||track.hujiang.com^
 ||track.sohu.com^
+||trackcommon.hujiang.com^
 ||tracker.ai.xiaomi.com^
 ||tracker.tv.sohu.com^
 ||trackjay.cool3c.com^
@@ -105186,6 +105204,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
 ||counter.sibnet.ru^
+||cvt1.sibnet.ru^
 ||data.glamour.ru^
 ||dot-stat.radikal.ru^
 ||drom.ru/dummy.
