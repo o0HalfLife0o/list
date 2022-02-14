@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ViymMBWAds7ntKwJ2kpAng
+! Checksum: ns7nrZa6qYsApXhFvztAgA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202142011
-! Last Modified: 2022年02月14日 20:11
+! Version: 202202150202
+! Last Modified: 2022年02月15日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1786,12 +1786,17 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##img[onclick*=".5408h.cn"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
 ||yibaosenlin.top^
+||sinawap.com^
+||shcylxl.com^
+||govxinjiang.cn^
+||cbhif.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -14063,7 +14068,7 @@ iqiyi.com##.zzVideo
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
-939394.xyz#?#a:-abp-has(>img[src*="/ddimg/"])
+939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
 99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 sina.com.cn##:not(.BigPic) > a[href*="sax.sina.com.cn/click?"]
 www.wpdaxue.com##:not(.post-thumbnail) > a[target="_blank"] > img
