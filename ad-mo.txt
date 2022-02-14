@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ErwPSMB+7WL03fg6KODovA
+! Checksum: R6eT8vQaeGmH5NLq50o+FA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202141406
-! Last Modified: 2022年02月14日 14:06
+! Version: 202202142011
+! Last Modified: 2022年02月14日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -28629,6 +28629,7 @@ _800x80_
 ##.sidebar-ad-container-2
 ##.sidebar-ad-container-3
 ##.sidebar-ad-div
+##.sidebar-ad-label
 ##.sidebar-ad-left
 ##.sidebar-ad-rect
 ##.sidebar-ad-right
@@ -32044,6 +32045,7 @@ tf2r.com#@#.adverts
 ||0956228a2df97a.com^
 ||0azx1.com^
 ||0b9d84d93f1b.com^
+||0c6fb44787.com^
 ||0dbcf515975d.com^
 ||0dcdc74c3ca.com^
 ||0e6fc55ed3d4c2c2ba0.com^
@@ -32417,6 +32419,7 @@ tf2r.com#@#.adverts
 ||8547459af5da02.com^
 ||8574b6a733f1de.com^
 ||85e954452d.com^
+||864db374c6.com^
 ||864feb57ruary.com^
 ||86a6b542l7.com^
 ||86b16730f8.com^
@@ -48150,6 +48153,8 @@ tf2r.com#@#.adverts
 ||feature.fm^$third-party
 ||fireflyengagement.com^$third-party
 ||fireworkadservices.com^$third-party
+||fireworkapi.com^$third-party
+||fireworktv.com^$third-party
 ||firstimpression.io^$third-party
 ||fisari.com^$third-party
 ||fixionmedia.com^$third-party
@@ -57388,6 +57393,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||experienceleague.corp.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
+@@||f-droid.org/assets/Ads_$~third-party
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||files.slack.com^$image,~third-party
@@ -57661,6 +57667,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hqq.to/ad/api/popunder.js$script
 @@||informer.com^$generichide
 @@||insurglobal.xyz^$generichide
+@@||manhwaid.org^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||premiumleecher.com^$generichide
 @@||receive-a-sms.com^$generichide
@@ -75125,6 +75132,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||jiage.ink^
+||xianggouwu.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79191,7 +79200,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yzylm.com^
 ||yzyszy.com^
 ||zabxb.com^
-||zanghaihua.org^
+||zanghaihua.org/js/
 ||zazkkk.com^
 ||zbqmsc.com^
 ||zbzbzzz.top^
@@ -81932,7 +81941,6 @@ fqsousou.com,kengso.com#@#.user-share
 /getsidpixeltag?sid=
 /getThirdPartyTracking?
 /getTotalHits.
-/getViewBeans.action?
 /GetWebTrekkRecoElement?
 /gifbanner?
 /gifstats.
@@ -84164,6 +84172,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track/?site
 /track/aggregate?
 /track/alooma-
+/track/attention-event
 /track/batch?
 /Track/Capture.aspx?
 /track/client-event/*
