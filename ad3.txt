@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VNW3k8GqJWGjQ9OMrH+17A
+! Checksum: Ep3+vfGwFpOCHKZ8Xvn+FA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202150817
-! Last Modified: 2022年02月15日 08:17
+! Version: 202202151407
+! Last Modified: 2022年02月15日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17366,6 +17366,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zxhstudy.online^
 ||apio.ink^
 ||zgwxt.vip^
+||capzo.cn^
+||lyautotech.club^
 .m.biduoxs.com^
 .m.boluoxs.com^
 .m.bookben.com^
@@ -30622,6 +30624,7 @@ _mongo_stats/
 ||c4tracking01.com^$third-party
 ||cache.am^$third-party
 ||cactusglobal.io^$third-party
+||cactusmedia.com^$third-party
 ||cadreon.com^$third-party
 ||call-tracking.co.uk^$third-party
 ||callisto.fm^$third-party
@@ -50446,6 +50449,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||hlidacstatu.cz/scripts/highcharts-6/modules/heatmap.js
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
+@@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 !---------- Danish ----------
 @@||googletagmanager.com/gtm.js?$domain=grandhood.dk
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
