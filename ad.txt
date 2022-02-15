@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jMqcM4g27l+TWyll+tSjow
+! Checksum: u8WPzbPSRMcnkFlz+qvsQQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202150202
-! Last Modified: 2022年02月15日 02:02
+! Version: 202202150817
+! Last Modified: 2022年02月15日 08:17
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2226,6 +2226,7 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
+##img[onclick*=".5408h.cn"]
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".dxsdkw.cn"]
 ##img[onclick*=".hth390.com"]
@@ -2233,17 +2234,11 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
-##img[onclick*=".5408h.cn"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
-||yibaosenlin.top^
-||sinawap.com^
-||shcylxl.com^
-||govxinjiang.cn^
-||cbhif.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -2885,6 +2880,7 @@ ubmcmm.baidustatic.com
 ||caomindianying.com^
 ||cardniu.com^$third-party
 ||cb.baidu.com^
+||cbhif.com^
 ||cbjs.baidu.com^
 ||cc599.com^
 ||cccccd.com^
@@ -3232,6 +3228,7 @@ ubmcmm.baidustatic.com
 ||govshanxi.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
+||govxinjiang.cn^
 ||govyunfu.cn^
 ||gowin01.com^
 ||gowinxp.com^$third-party
@@ -4091,6 +4088,7 @@ ubmcmm.baidustatic.com
 ||sharele.cn^$third-party
 ||sharonyean.com^
 ||shcy3.com^
+||shcylxl.com^
 ||shengminsy.com^
 ||shengyaxd.com^
 ||shentupk85.com^
@@ -4124,6 +4122,7 @@ ubmcmm.baidustatic.com
 ||sin114.com^$third-party
 ||sina-img.club^
 ||sinaalicdn.com^
+||sinawap.com^
 ||sinawbimg.com^
 ||sinbinchina.cn^
 ||sitebakup.com^
@@ -4649,6 +4648,7 @@ ubmcmm.baidustatic.com
 ||yhhls.com^
 ||yhjzg.cn^
 ||yhsmk.com^
+||yibaosenlin.top^
 ||yichunrz.com^
 ||yifuls.com^$third-party
 ||yigao.com^$third-party
@@ -15728,7 +15728,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@/WebAd/*$domain=yongyoujia.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -15801,6 +15800,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/site/ad/*$domain=islide.cc
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=hepan.com
+@@/WebAd/*$domain=yongyoujia.com
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
@@ -17809,8 +17809,24 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||jiage.ink^
-||xianggouwu.vip^
+||bnkpgjw.cn^
+||zxhstudy.online^
+||apio.ink^
+||zgwxt.vip^
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+.wap.x4399.com^
+.wap.yb3.cc^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17836,20 +17852,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-.wap.x4399.com^
-.wap.yb3.cc^
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -19161,6 +19163,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jdsy.ltd^
 ||jdxq.club^
 ||jgrkjp.cn^
+||jiage.ink^
 ||jiajiann.cn^
 ||jiameiyin.cn^
 ||jianyihang.com^
@@ -19808,6 +19811,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xgzdys.com^
 ||xhfya.cn^
 ||xhx.design^
+||xianggouwu.vip^
 ||xianka.cloud^
 ||xiaofashi.top^
 ||xiaohuancha.club^
