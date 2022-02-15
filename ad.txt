@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j4Tnn8SjeYLnd/9Jy9m+kg
+! Checksum: 38Z57iVDN+8HXqe45A2h1w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202152010
-! Last Modified: 2022年02月15日 20:10
+! Version: 202202160202
+! Last Modified: 2022年02月16日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9952,9 +9952,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzlzl.com/zb_users/theme/Frozen/style/images/banner/
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
+||qyun.vip/pic/*.gif
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qyun.vip##.tp_advertising
+qyun.vip##A[href*="/ad."]
+2234.cn##.ads
+2234.cn##.btngs
+2234.cn##.pc-down_url_left > .pull-left
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16375,6 +16381,10 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||vast.btrll.com^$domain=hinet.net
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
+@@||520cc.cc/jspopunder.
+@@||520cc.cc/api/jspopunder.
+@@||520cc.cc/ad/ad_1.php
+@@||520call.me/ad/ad_1.php
 @@||viu.tv^$generichide
 @@||vlist.se/advertisement.js
 @@||vmall.com/data/attachment/common/ad/
