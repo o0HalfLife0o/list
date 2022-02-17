@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3MBLjMlFPDUKvMCLi+CilA
+! Checksum: IDN6L6NzumLR9KQvjVInEQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202171406
-! Last Modified: 2022年02月17日 14:06
+! Version: 202202172006
+! Last Modified: 2022年02月17日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56190,6 +56190,7 @@ isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
 mc-market.org##[href="https://etherlands.com/"]
 whatsmyreferer.com##[href="https://fakethereferer.com"]
+summit.news##[href="https://infowarsstore.com/"]
 anitube.biz##[href="https://otpokemon.com/animes/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
 tech-latest.com##[href="https://tech-latest.com/go/nordvpn"]
@@ -75367,6 +75368,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lzls.ltd^
 ||mugogfy.cn^
 ||jyzag.cn^
+||pqsjb.cn^
+||readnos.com^
+##a[href*=".xxmh920.com/"]
+||xfnkds.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85469,8 +85474,19 @@ cgi-bin/counter
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
 .keap-link003.com/$image
+.keap-link004.com/$image
+.keap-link005.com/$image
+.keap-link006.com/$image
+.keap-link007.com/$image
+.keap-link008.com/$image
+.keap-link009.com/$image
+.keap-link010.com/$image
 .keap-link011.com/$image
+.keap-link012.com/$image
+.keap-link013.com/$image
+.keap-link014.com/$image
 .keap-link015.com/$image
+.keap-link016.com/$image
 .kijiji.ca/r/
 .klclick.com/$image
 .list-manage.com/track/
@@ -105710,6 +105726,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||docs.google.com/*/viewdata$~third-party
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
+@@||drivetrain.ai/drive/api/v1/metrics/$~third-party
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
@@ -108465,6 +108482,8 @@ yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
 geoparker.net
 uxrpkgh.cn
+anquanzhuomian.com
+btyou.com
 bmbaike.cn
 ch-hr12333.com
 chushoushijian.cn
@@ -108480,8 +108499,8 @@ v4dwkcv.com
 weizhenwx.com
 xixiqiu.com
 youle55.com
-||www.yatu.tv/image/*.gif^$image
-||www.yatu.tv/m/images/$image
+||www.yatu.tv:2082/image/*.gif^$image
+||www.yatu.tv:2082/m/images/$image
 @@||union.bokecc.com/player
 ||bokecc.com/flash/playlog?
 ||click.bokecc.com/

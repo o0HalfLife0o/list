@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hvqjvJ6A8s9N+yxCka6Eug
+! Checksum: +ZqICCN6e6CS4/F34RULnQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202171406
-! Last Modified: 2022年02月17日 14:06
+! Version: 202202172006
+! Last Modified: 2022年02月17日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -599,6 +599,8 @@ yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
 geoparker.net
 uxrpkgh.cn
+anquanzhuomian.com
+btyou.com
 bmbaike.cn
 ch-hr12333.com
 chushoushijian.cn
@@ -614,8 +616,8 @@ v4dwkcv.com
 weizhenwx.com
 xixiqiu.com
 youle55.com
-||www.yatu.tv/image/*.gif^$image
-||www.yatu.tv/m/images/$image
+||www.yatu.tv:2082/image/*.gif^$image
+||www.yatu.tv:2082/m/images/$image
 @@||union.bokecc.com/player
 ||bokecc.com/flash/playlog?
 ||click.bokecc.com/
@@ -17783,6 +17785,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lzls.ltd^
 ||mugogfy.cn^
 ||jyzag.cn^
+||pqsjb.cn^
+||readnos.com^
+##a[href*=".xxmh920.com/"]
+||xfnkds.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
