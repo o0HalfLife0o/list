@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f1+yluc/z1j4drKEOzmNsw
+! Checksum: mU2KHQ6dWxHtkH90tkr1rQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202181407
-! Last Modified: 2022年02月18日 14:07
+! Version: 202202182007
+! Last Modified: 2022年02月18日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -3561,7 +3561,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adyard.
 /adyard300.
 /adyea.
-/adyoulike.
+/adyoulike.$domain=~adyoulike.com
 /adz-x/*
 /adz/css/*
 /adz/images/*
@@ -33070,7 +33070,6 @@ tf2r.com#@#.adverts
 ||adxscope.com^
 ||adxxx.me^
 ||adxxx.org^
-||adyoulike.com^
 ||adz.co.zw^
 ||adzfun.info^
 ||adzfun.me^
@@ -47945,6 +47944,7 @@ tf2r.com#@#.adverts
 ||adxpose.com^$third-party
 ||adxpremium.com^$third-party
 ||adxpub.com^$third-party
+||adyoulike.com^$third-party
 ||adysis.com^$third-party
 ||adzbazar.com^$third-party
 ||adzerk.net^$third-party
@@ -54771,7 +54771,6 @@ thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
 u.today##.card--something
-aarp.org##.caregivingPromotion
 classicauctionreview.co.uk##.carlogobox
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 gumtree.com.au##.cars__side-mrec-wrapper
@@ -75302,6 +75301,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wy8.wang^
 ||vqlrwgj.cn^
 ||quanwu.shop^
+||lpjgr.top^
+||gxhc.ink^
+||xije.ren^
+||tanshan.site^
+||haodiwh.top^
+||jiehe.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79897,7 +79902,6 @@ fqsousou.com,kengso.com#@#.user-share
 !-------------------------------Fixed EasyPrivacy-----------------------------!
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
-@@/beacon.min.js$domain=qq.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
 @@/fingerprintjs2.min.js$domain=imooc.com
@@ -80566,6 +80570,7 @@ fqsousou.com,kengso.com#@#.user-share
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
+/analytics-client-
 /analytics-collector
 /analytics-core-bundle-
 /analytics-corp.js
@@ -85973,6 +85978,7 @@ _mongo_stats/
 ||ad-srv-track.com^$third-party
 ||adabra.com^$third-party
 ||adalyser.com^$third-party
+||adara.com^$third-party
 ||adblade.com^$third-party
 ||adblockrelief.com^$third-party
 ||adchemix.com^$third-party
