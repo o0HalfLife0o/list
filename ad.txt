@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U52kYjD7zc3BSNZ3buKL8Q
+! Checksum: y0EEb36jJ5OguqOxePmggQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202180820
-! Last Modified: 2022年02月18日 08:20
+! Version: 202202181407
+! Last Modified: 2022年02月18日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1890,6 +1890,7 @@ ubmcmm.baidustatic.com
 ##.wp > .ad-box
 ##.wp.a2_h
 ##.wp.a_f
+##DIV[id^="adv-"].adv
 ##.wp.a_h
 ~aircn.org,~steamcn.com##.wp.a_t
 ##.wp_headline + .ad1
@@ -2233,6 +2234,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||77nnv9.xyz^
+||ud783c01.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -9947,6 +9949,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+cnblogs.com###cnblogs_c2
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17776,6 +17779,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||xmwn.shop^
+||guji.store^
+||lega.store^
+||lo83cs.space^
+||mzy1.xyz^
+||wy8.wang^
+||vqlrwgj.cn^
+||quanwu.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
