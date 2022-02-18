@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sN5U+VBafocJm3BpfgInhQ
+! Checksum: NmKxD6cOUyevlLKSb+u0KQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202180207
-! Last Modified: 2022年02月18日 02:07
+! Version: 202202180820
+! Last Modified: 2022年02月18日 08:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17430,6 +17430,7 @@ _800x80_
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
 ##.GoogleDfpAdModule-advertisementLabel
+##.GoogleDoubleClick-SponsorText
 ##.GoogleSideAd
 ##.Googleads728
 ##.GreenHomeAd
@@ -27811,6 +27812,7 @@ _800x80_
 ##.pod-ad-box
 ##.podRelatedAdLinksWidget
 ##.podSponsoredLink
+##.polar-ad
 ##.polaris-ad--wrapper-desktop
 ##.polaris__ad
 ##.poll_sponsor_ad
@@ -32520,7 +32522,6 @@ tf2r.com#@#.adverts
 ||7a8fe1c29493.com^
 ||7adea8620f.com^
 ||7b532401e9.com^
-||7ca78m3csgbrid7ge.com^
 ||7c0616849b.com^
 ||7c1e55606540.com^
 ||7ca78m3csgbrid7ge.com^
@@ -54882,6 +54883,7 @@ thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
 u.today##.card--something
+aarp.org##.caregivingPromotion
 classicauctionreview.co.uk##.carlogobox
 macworld.co.uk,techadvisor.com##.carouselEmbeddableDeal
 gumtree.com.au##.cars__side-mrec-wrapper
@@ -55290,6 +55292,7 @@ gumtree.com.au##.homepage-gallery__mrec-placeholder
 designspiration.com##.homepageBanner
 lushstories.com##.horizhide
 getmyuni.com##.horizontalRectangle
+aarp.org##.hot-deals
 dailyrecord.co.uk##.hotjobs
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
@@ -57718,7 +57721,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|embed.comicbook.com|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
@@ -59857,6 +59860,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||77nnv9.xyz^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -75399,6 +75403,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||xmwn.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -86376,7 +86381,6 @@ _mongo_stats/
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||buzzdeck.com^$third-party
-||byside.com^$third-party
 ||bytemgdd.com^$third-party
 ||c-o-u-n-t.com^$third-party
 ||c-rings.net^$third-party
@@ -93163,6 +93167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weather.ca/counter.gif?
 ||web-soft.in/counters/
 ||web1.51.la^
+||webcare.byside.com^
 ||webedia.fr/js/gs.js
 ||weblog.livesport.eu^
 ||weblogger-dynamic-lb.playdom.com^
@@ -105652,7 +105657,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
-@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|dollargeneral.com|kroger.com|personal.natwest.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|foodnetwork.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
