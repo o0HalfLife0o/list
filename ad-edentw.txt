@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C3zTysQC98E0QzJloyXfSQ
+! Checksum: 1l8vcXz1qsmBbMDkRROYbQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202182007
-! Last Modified: 2022年02月18日 20:07
+! Version: 202202190203
+! Last Modified: 2022年02月19日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -646,18 +646,17 @@ hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/czech.txt ***
 ! #CV-655
 iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
-fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz#$#prevent-listener beforeunload ()
+kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz#$#prevent-listener beforeunload (); cookie-remover /adb/
+sauto.cz#$#override-property-read sssp undefined
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
 iprima.cz#?#div:-abp-has(>.mone_header)
 iprima.cz##.px-type-banner
 iprima.cz##[class$="_value"], [id^="px-id-"]
 iprima.cz##[class$="_fcid"], [data-mashiatus]
 iprima.cz##div[data-d-area]
-iprima.cz##[data-masparabus], [class$="_bubuzela"]
 iprima.cz##[class*="sas"]
 iprima.cz##a[href*="/area=branding"]
 iprima.cz##[id*="-ad-"], .ifr-claassflak, a[href*="/posid=sas_"]
-iprima.cz##.meht_burbuzela
 iprima.cz##.dekes_reblika
 /area=*/posid=*$subdocument,xmlhttprequest,script,domain=iprima.cz
 /keyword*/area=$xmlhttprequest,domain=iprima.cz
@@ -715,14 +714,7 @@ idnes.cz###foto-reklama
 =js&lst=$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz|televizeseznam.cz
 /tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz|televizeseznam.cz
 client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-_cz?format=js&async=1|$domain=www.idnes.cz
-/kyblik^$image,domain=www.idnes.cz|expres.cz
-?fl=res,$image,domain=www.idnes.cz|expres.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
-www.idnes.cz,expres.cz##a[href="bla"]
 ||mfr.cdn.dopc.cz^$script,domain=www.idnes.cz|expres.cz
-_recombee|$script,domain=www.idnes.cz|expres.cz
-www.idnes.cz,expres.cz##a[href="bla"], [class$="kukekemehe"]
-www.idnes.cz,expres.cz###\39 -ble31, a[href*="perf-bann"]
 reflex.cz###gl-nat
 e15.cz##.mys-wrapper
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
@@ -735,7 +727,6 @@ autorevue.cz##.bx-sky, .bx-rectangle-article
 maminka.cz##div[class*="bx-sky "]
 dama.cz##div[class^="sky-wrap"]
 maminka.cz,blesk.cz,reflex.cz,e15.cz##a[class*="-combined"]
-autorevue.cz,blesk.cz##div[style="margin-top: 12px; position: relative;"]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz###stickyBanner
 tiscali.cz##a[target="_blank"][href*="tiscali.cz"]>img[src*="tiscali.cz"]
 kinobox.cz##.box.banner_300, #b300_fixbox
@@ -758,18 +749,14 @@ tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.pe-
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.wrap-advert
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##.quaquaquakva
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[href*=";cdata="]
-tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##a[href$="Kp"]
 tiscali.cz##.bs-hp
-fights.cz###desktop-square-top
+fights.cz,tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 fights.cz##.banner-add
-fights.cz###desktop-leader-top
 nasepenize.cz###side-offer-wrap
 tiscali.cz##[class*="-ld-top"]
 nasepenize.cz#?#:-abp-has(>[class$="selfpromo"])
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 fights.cz,spisovatele.cz##body>a[target="_blank"]
-tiscali.cz###desktop-leader-top
-tiscali.cz###desktop-square-top
 /dynamic^$image,domain=kupi.cz
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||sport.cz/*&*=$subdocument,domain=sport.cz
@@ -1152,7 +1139,7 @@ file-up.org,zippyshare.com,uploadproper.com,uploadproper.net#$#abort-on-property
 jawcloud.co,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 bs.to,burningseries.co#$#abort-current-inline-script Object
 vivo.sx#$#abort-current-inline-script Math
-hclips.com,hdzog.com,hotmovs.com,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
+hclips.com,hdzog.com,hotmovs.com,porntop.com,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 gdespaces.com,spac.me,spac1.com,spac1.me,spac1.net,spaces-blogs.com,spaces.im,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
 mrpornx.com,myyouporn.com#$#abort-current-inline-script eval String.fromCharCode
 gounlimited.to#$#abort-on-property-read atob
@@ -1160,6 +1147,7 @@ gounlimited.to#$#abort-on-property-read atob
 ianimes.co,ianimes.top#$#abort-on-property-read _0x522e
 upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 gamefront.com#$#abort-current-inline-script $ AdBlock
+||porntop.com/magic/*.js^$script,domain=porntop.com
 ||myfastcdn.com^$domain=kickassanime.io
 ||thikraik.net^$domain=kickassanime.io
 kickassanime.io##.ka-ax-wrp.mb-3
@@ -1609,7 +1597,7 @@ hispasexy.org#$#abort-current-inline-script decodeURI; abort-on-property-read de
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi
 pelisplus.so#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
-comicsporno.xxx,pornoreino.com,mespornogratis.com,felizporno.com,orgasmatrix.com,pornocolombiano.net#$#abort-current-inline-script document.querySelectorAll popMagic
+comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 series-de.online#$#abort-on-property-read doSecondPop; abort-on-property-read doSecondPopU
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
 ! #CV-717
