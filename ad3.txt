@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: G62+PILBOQwZQRztc1iM6g
+! Checksum: wWgnDOLB4PepZHRVJWDDPw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202190203
-! Last Modified: 2022年02月19日 02:03
+! Version: 202202190822
+! Last Modified: 2022年02月19日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -25326,6 +25326,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /beacon/event/*
 /beacon/event?
 /beacon/get/*
+/beacon/info?
 /beacon/init?
 /beacon/metrics
 /beacon/page?
@@ -50054,6 +50055,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
