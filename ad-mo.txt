@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4Ytu9GyiSTjsm8h1ZncuCg
+! Checksum: FOHDjY4BLtMPKDunlxgUEA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202191403
-! Last Modified: 2022年02月19日 14:03
+! Version: 202202192006
+! Last Modified: 2022年02月19日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -28086,6 +28086,8 @@ _800x80_
 ##.responsive_ads_468x60
 ##.result-ad
 ##.result-sponsored
+##.result-top-ad
+##.result-words-ad-new
 ##.resultAd
 ##.result__advertising
 ##.result_ad
@@ -59306,6 +59308,7 @@ ubmcmm.baidustatic.com
 ##.hongbao_hd
 ##.hzxld
 ##.iHead960x90
+##.davwheat-ad
 ##.ibtad
 ##.index-top-aassd
 ##.index-top-ad
@@ -59779,6 +59782,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||qsnyswg.cn^
+||5ibanma.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -69952,7 +69956,6 @@ bbs.it168.com##.daoh2 + .bor8
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dasense
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
-wuenci.com##.davwheat-ad
 qinbing.cn##.day
 ggcj.com##.dbxf
 games.qq.com##.dc-kf_list
@@ -75318,6 +75321,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mygqhvz.cn^
 ||jlyayxz.cn^
 ||dlvjmr.cn^
+||hxbylm.vip^
+||lingquanba.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
