@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DG65785jUPbDQL+5m7LVAw
+! Checksum: kDGKc9pISZ9d3rs9rJtF5g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202200824
-! Last Modified: 2022年02月20日 08:24
+! Version: 202202201403
+! Last Modified: 2022年02月20日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1151,7 +1151,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad-skyscraper.
 /ad-source/*
 /ad-sovrn.
-/ad-space/*
+/ad-space/*$~image
 /ad-specs.
 /ad-sprite.
 /ad-srv.
@@ -59781,6 +59781,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*=".fancyzf.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -75320,6 +75321,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||bte.ink^
+||kfir.club^
+||umvspj.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -94351,6 +94355,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.send.cm^
 ||analytics.slashdotmedia.com^
 ||analytics.synedat.com^
+||analytics.tradedoubler.com^
 ||analytics.twitter.com^
 ||analytics.vedantu.com^
 ||androidfilehost.com/libs/otf/stats.otf.php?
