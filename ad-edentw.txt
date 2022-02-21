@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1l8vcXz1qsmBbMDkRROYbQ
+! Checksum: yPA4LO+yzBnV/Bdz1Uf/lA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202190203
-! Last Modified: 2022年02月19日 02:03
+! Version: 202202212009
+! Last Modified: 2022年02月21日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -617,8 +617,8 @@ beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,
 ! Popup/Popunder/Clickunder
 egyanime.com,egydead.com,egydead.live#$#abort-on-property-write _pop
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
-cima-club.cc,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
-anime4up.com,arabseed.me,baramjak.com,egynow.live,faselhd.top,hawak.net,movizland.com,movizland.online,egyanime.com,egydead.com,egydead.live,yalla-shoot.today#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
+cima-club.cc,cima-club.in,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
+anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,manga.ae,movizland.com,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.ws,witanime.com,yalla-shoot.today#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 ! #CV-754
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
@@ -762,7 +762,7 @@ fights.cz,spisovatele.cz##body>a[target="_blank"]
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
-novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
+novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz,horoskopy.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
 novinky.cz,super.cz,sport.cz,kupi.cz##.burRman
 novinky.cz,super.cz,sport.cz,horoskopy.cz##div[data-impressionurl]
 novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz##.sssp-posCont, .sssp-resizeCont
@@ -1333,9 +1333,10 @@ french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 ! Popup/Popunder
 jetanimes.co,jetanimes.com,voirseries.io#$#abort-on-property-read open
+toonanime.cc#$#abort-current-inline-script document.querySelectorAll popMagic
 batporno.com#$#abort-on-property-read decodeURI
 vostfree.com#$#abort-on-property-write _pop
-dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.re,french-stream.run,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,one-piece-streaming-vostfr.com,streaming-vostfr.net,streamingfrance.com,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
+animecomplet.me,animecomplet.net,animecomplet.org,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.re,french-stream.run,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,one-piece-streaming-vostfr.com,streaming-vostfr.net,streamingfrance.com,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 *$popup,domain=strtapeadblock.me
 strtapeadblock.me#$#abort-on-property-write _pao
 about:blank$popup,domain=ianimes.org|vizplay.icu|streamzz.to
@@ -1607,15 +1608,18 @@ asksiirleri.org#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/vietnamese.txt ***
 ! MISC
 lb.topphimhd.info#$#override-property-read adsData_ar true
-fancoiphim.net#$#override-property-read time_load_ads_1 0
+baliphim.com#$#override-property-read time_load_ads_1 0; override-property-read time_load_ads_2 0
 truyen3s.com#$#abort-current-inline-script document.createElement _zepaf
 blog.abit.vn#$#abort-on-property-read document.cookie
 phimhay3s.com#$#json-prune ads
+90phuttttttt.xyz#$#abort-current-inline-script $ overlay
+aoe.vn#$#abort-on-property-read parseInt
+gametv.vn#$#abort-current-inline-script $ homeModal
 ! Popup/Popunder/Clickunder
 motphimmoi.net,biphimtv.net,rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn#$#abort-on-property-read open
 phimgii.tv,phimhdvns.net#$#abort-current-inline-script jQuery popurl
-fancoiphim.net,khophimhd.net,downloadsachmienphi.com#$#abort-current-inline-script JSON.parse atob
+baliphim.com,khophimhd.net,downloadsachmienphi.com#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
 lxhentai.com#$#abort-current-inline-script document.cookie
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
