@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o7dpyE/ggFxCBUBFcWpNMg
+! Checksum: OaTt5z4q7gFnuvXlEHLTuw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202210202
-! Last Modified: 2022年02月21日 02:02
+! Version: 202202210821
+! Last Modified: 2022年02月21日 08:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2022,7 +2022,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adinator/*
 /adinclude.
 /adinclude/*
-/adindex/*
+/adindex/*$~image
 /adindicatortext.
 /adInfoInc/*
 /adinit.
@@ -2035,7 +2035,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adinterax.
 /adiquity.
 /adiro.$domain=~adiro.se
-/aditems/*
+/aditems/*$~image
 /adition.
 /adixs.
 /adj.php?
