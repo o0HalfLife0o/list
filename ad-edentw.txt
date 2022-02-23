@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kb+Mks0LPHs1f+fMhZMOug
+! Checksum: DLceotfCW65UaQ1DSUY0Mw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202230824
-! Last Modified: 2022年02月23日 08:24
+! Version: 202202240202
+! Last Modified: 2022年02月24日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1621,6 +1621,9 @@ phimhay3s.com#$#json-prune ads
 90phuttttttt.xyz#$#abort-current-inline-script $ overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
+mitom1.tv#$#abort-current-inline-script jQuery overlay
+mitom1.tv#$#'abort-on-property-read adsRedirectPopups
+playmt.fastlycdn.xyz#$#override-property-read adsPlayer undefined;override-property-read adsTvc undefined;override-property-read adsButton undefined
 ! Popup/Popunder/Clickunder
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn#$#abort-on-property-read open
