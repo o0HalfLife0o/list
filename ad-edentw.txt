@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5udL8RathODNpXTSvZ+C4Q
+! Checksum: kb+Mks0LPHs1f+fMhZMOug
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202202230203
-! Last Modified: 2022年02月23日 02:03
+! Version: 202202230824
+! Last Modified: 2022年02月23日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -647,7 +647,7 @@ hdzone.org#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/czech.txt ***
 ! #CV-655
 iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,horoskopy.cz#$#json-override ads ''
-kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz#$#prevent-listener beforeunload (); cookie-remover /adb/
+kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 sauto.cz#$#override-property-read sssp undefined
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
 iprima.cz#?#div:-abp-has(>.mone_header)
