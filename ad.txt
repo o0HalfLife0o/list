@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: B9nCHUygWBjf4hCu63m3tQ
+! Checksum: YlG752P4t00+F1Pnt+UMcA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202242009
-! Last Modified: 2022年02月24日 20:09
+! Version: 202202250203
+! Last Modified: 2022年02月25日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2241,7 +2241,6 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
-||szmsao.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -4216,6 +4215,7 @@ ubmcmm.baidustatic.com
 ||szfhl99.com^
 ||szggdw.com^
 ||szjianxin.net^
+||szmsao.com^
 ||szpl0.com^
 ||szshss.com^
 ||sztbjs.com^
@@ -7842,6 +7842,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
 ||kan98.com/statics/js/k2017/kan98.js
+||kanbook.net/static/js_union/
 ||kancloud.cn/ad/
 ||kanguba.com/file/js/main.asp
 ||kanjiantu.com/images/*.gif
@@ -9934,7 +9935,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||kanbook.net/static/js_union/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17816,15 +17816,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||fuzhuyuan1688.xyz^
-||xingyou25.xyz^
-||qiyu.shop^
-||shuai.love^
-||dnk56q7h.cn^
-||vlbvgtj.cn^
-||chnt.wang^
-||zzkj.biz^
-||g081fme.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18626,6 +18617,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chinazhaoye.com^
 ||chkwwg.cn^
 ||chmc.xyz^
+||chnt.wang^
 ||chongnikeji.com^
 ||chongyuelighting.cn^
 ||choujimai.top^
@@ -18852,6 +18844,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dnajc.co^
 ||dnfkong.com^
 ||dnjszp.cn^
+||dnk56q7h.cn^
 ||dnsri.com^
 ||dnupzdn.cn^
 ||dodolive.cn^
@@ -19087,6 +19080,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fuxin-tech.com^
 ||fuyangno1.top^
 ||fuzhang.xyz^
+||fuzhuyuan1688.xyz^
 ||fvhbful.cn^
 ||fw.zhuaji.org^
 ||fwnetrb.cn^
@@ -19108,6 +19102,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fzjarow.cn^
 ||fztattoo.cn^
 ||fzvve.cn^
+||g081fme.cn^
 ||g1kb9u.xyz^
 ||g1mm3d.cn^
 ||g3ao2q.cn^
@@ -19640,6 +19635,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jhwt.shop^
 ||jia-huan.cn^
 ||jiachangwuliu.cn^
+||jiadunkeji.com^
 ||jiage.ink^
 ||jiahewine.cn^
 ||jiajiann.cn^
@@ -20420,6 +20416,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||opapxq.com^
 ||opbtc.cn^
 ||opengam.com^
+||opiwb.com^
 ||opoew.top^
 ||oppaid.com^
 ||opyyy.com^
@@ -20594,6 +20591,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qivuu.cn^
 ||qiyebaopin.cn^
 ||qiyix.cn^
+||qiyu.shop^
 ||qizixsw.com^
 ||qjxszp.cn^
 ||qkptx.com^
@@ -20837,6 +20835,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shsdw.cn^
 ||shsnjj.top^
 ||shua66.vip^
+||shuai.love^
 ||shuaiqiwudixiaoliangzaidddd.icu^
 ||shuazili.wang^
 ||shufan.club^
@@ -21251,6 +21250,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vjptye.cn^
 ||vkuay.com^
 ||vl665.cn^
+||vlbvgtj.cn^
 ||vluvpdf.cn^
 ||vnet.ink^
 ||vngmbyij.cn^
@@ -21540,6 +21540,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xingsky.cn^
 ||xingtu.ltd^
 ||xingxingdd.com^
+||xingyou25.xyz^
 ||xingyou46.icu^
 ||xingzhu.top^
 ||xinheshengmce.com^
@@ -22052,6 +22053,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zzgyly.cn^
 ||zzhszj.com^
 ||zzkbsm.cn^
+||zzkj.biz^
 ||zzmmkj.com^
 ||zzqqhb.com^
 ||zzqsmjj.top^
