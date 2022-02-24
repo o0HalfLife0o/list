@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J32g4IEllsQaz/3MYDS4yg
+! Checksum: yUlj7JxIBVhdOvgtzcHKSA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202240821
-! Last Modified: 2022年02月24日 08:21
+! Version: 202202241407
+! Last Modified: 2022年02月24日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1794,6 +1794,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||szmsao.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17367,6 +17368,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||fuzhuyuan1688.xyz^
+||xingyou25.xyz^
+||qiyu.shop^
+||shuai.love^
+||dnk56q7h.cn^
+||vlbvgtj.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25089,6 +25096,7 @@ m.babytree.com##script + a[class]
 /api/analytics|
 /api/cmp_tracker
 /api/ComScorePageView
+/api/ipv4check?
 /api/log?
 /api/lt/ref?
 /api/metrics$other
@@ -37202,6 +37210,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
 ||tracker.mrpfd.com^
+||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
 ||tracker.timesgroup.com^
@@ -38562,6 +38571,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockstreamtape.site/stat/
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
