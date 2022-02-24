@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yUlj7JxIBVhdOvgtzcHKSA
+! Checksum: LVbmvpfHzvhVuKXyJ0pukA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202241407
-! Last Modified: 2022年02月24日 14:07
+! Version: 202202242009
+! Last Modified: 2022年02月24日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9487,6 +9487,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kanbook.net/static/js_union/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17374,6 +17375,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shuai.love^
 ||dnk56q7h.cn^
 ||vlbvgtj.cn^
+||chnt.wang^
+||zzkj.biz^
+||g081fme.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -30059,7 +30063,6 @@ _mongo_stats/
 ||bidswitch.net^
 ||bkrtx.com^
 ||bluekai.com^
-||bmcdn2.com^
 ||bonne-terre-data-layer.com^
 ||bounceexchange.com^
 ||briskeagle.io^
@@ -39110,6 +39113,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
+||odysee.com/reports/
 ||online-umwandeln.de/analytics.js
 ||ophan.theguardian.com^
 ||optimize-stats.voxmedia.com^

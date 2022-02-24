@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pvx6TTfqCqwSnOvQrhMAlQ
+! Checksum: vYVnPRfZbAsTPcXqii45Ag
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202241407
-! Last Modified: 2022年02月24日 14:07
+! Version: 202202242009
+! Last Modified: 2022年02月24日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1347,7 +1347,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad/wisteria/*
 /ad/zeus/*
 /ad0.$domain=~ad0.com|~ad0.dev|~ad0.org|~vereinslinie.de
-/ad000/*
+/ad000/*$~image
 /ad01.
 /ad02/background_
 /ad1-728-
@@ -1359,9 +1359,9 @@ pan.baidu.com##.upload-bar.global-clearfix
 /ad125b.
 /ad125x125.
 /ad132m.
-/ad132m/*
-/ad134m/*
-/ad136/*
+/ad132m/*$~image
+/ad134m/*$~image
+/ad136/*$~image
 /ad15.
 /ad16.$domain=~ad16.asmrc.org
 /ad160.
@@ -53081,6 +53081,7 @@ tf2r.com#@#.adverts
 ||uvnc.com/img/teamviewerlogo.jpg
 ||uxmatters.com/images/sponsors/
 ||vendo.cointelegraph.com^
+||vidcrunch.com^*/avmanager.js
 ||videosdahora.fun/jquery.js
 ||videowood.tv/assets/js/popup.js
 ||videowood.tv/pop2
@@ -53984,6 +53985,7 @@ flashgot.net###head a[target="_blаnk"]
 inventorspot.com,mothering.com,wordfind.com,yokogames.com###header
 directindustry.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com,winemag.com###header-banner
 dominicantoday.com###header-banners
+coolors.co###header-cad
 bestvpnserver.com,techitout.co.za###header-content
 govevents.com###header-display
 motorhomefacts.com###header-promo
@@ -54264,6 +54266,7 @@ geekwire.com###startup-resources-sidebar
 newcartestdrive.com###static-asset-placeholder-2
 newcartestdrive.com###static-asset-placeholder-3
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###sticky-bottom
+coolors.co###sticky-cad
 coincodex.com###sticky-footerCCx4
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
@@ -57041,7 +57044,7 @@ porngals4.com##.afb2
 hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 porngals4.com##.affl
-darknessporn.com##.after-boxes
+darknessporn.com,familyporner.com##.after-boxes
 hentaidude.xxx##.ai_widget
 hotmovs.com,upornia.com##.app-banners
 hotmovs.tube##.app-banners__wrapper
@@ -57075,7 +57078,7 @@ yourdarkdesires.com##.battery
 fap18.net,fuck55.net,tube.ac,tube.bz##.bb_desktop
 hotcelebshome.com##.bcpsttl_name_listing
 ok.xxx,pornhat.com##.before-player
-darknessporn.com##.beside-video
+darknessporn.com,familyporner.com##.beside-video
 hqporner.com##.black_friday
 alphaporno.com,tubewolf.com##.block-banner
 urgayporn.com##.block-banvert
@@ -57206,7 +57209,8 @@ cocoimage.com##.inner_right
 vivud.com##.inplayer_banners
 anyporn.com,bravoteens.com,bravotube.net##.inplb
 bravotube.net##.inplb3x2
-darknessporn.com##.inside-list-boxes
+familyporner.com##.inside-list-absolute
+darknessporn.com,familyporner.com##.inside-list-boxes
 playvids.com,pornflip.com##.invideoBlock
 amateur8.com##.is-av
 e-hentai.org##.itd[colspan="4"]
@@ -57248,7 +57252,8 @@ yourdarkdesires.com##.moment
 javfor.tv##.my-2.container
 jagaporn.com##.nativad
 pornhd.com##.native-banner-wrapper
-darknessporn.com##.native-boxes
+darknessporn.com,familyporner.com##.native-boxes
+familyporner.com##.native-boxes-2
 fetishshrine.com##.native-holder
 fapality.com##.nativeaside
 anysex.com##.no_pop.center
@@ -57290,7 +57295,7 @@ freemovies.tv,pornjam.com##.publis-bottom
 gaymovievids.com,ts-tube.net,verygayboys.com##.random-td
 tnaflix.com##.rbsd
 nuvid.com##.rel_right
-darknessporn.com##.related-boxes-footer
+darknessporn.com,familyporner.com##.related-boxes-footer
 cumlouder.com,pornjam.com##.related-sites
 sexhd.pics##.relativebottom
 jav.work##.releated_video[style^="overflow: hidden;"]
@@ -57316,6 +57321,7 @@ myslavegirl.org##.signature
 gayck.com##.simple-adv-spot
 hersexdebut.com##.single-bnr
 porngfy.com##.single-sponsored
+familyporner.com##.single.alrt
 porn-monkey.com##.size-300x250
 simply-hentai.com##.skyscraper
 cumlouder.com##.sml-bottom
@@ -57581,6 +57587,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
+@@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||airplaydirect.com/openx/www/images/$image
 @@||akamaized.net^*.stream/$domain=naver.com
 @@||akamaized.net^*/playlist.m3u8?$domain=naver.com
@@ -57789,6 +57796,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||techadvisor.com/cmsdata/$image,~third-party
+@@||thedailywtf.com/images/*-advertisement.png$~third-party
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
@@ -67524,6 +67532,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kanbook.net/static/js_union/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -75411,6 +75420,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||shuai.love^
 ||dnk56q7h.cn^
 ||vlbvgtj.cn^
+||chnt.wang^
+||zzkj.biz^
+||g081fme.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85849,7 +85861,6 @@ _mongo_stats/
 ||bidswitch.net^
 ||bkrtx.com^
 ||bluekai.com^
-||bmcdn2.com^
 ||bonne-terre-data-layer.com^
 ||bounceexchange.com^
 ||briskeagle.io^
@@ -94900,6 +94911,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
+||odysee.com/reports/
 ||online-umwandeln.de/analytics.js
 ||ophan.theguardian.com^
 ||optimize-stats.voxmedia.com^
