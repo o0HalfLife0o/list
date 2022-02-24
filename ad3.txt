@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DVTRT0iNi+pzyFmYdyrTig
+! Checksum: J32g4IEllsQaz/3MYDS4yg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202240202
-! Last Modified: 2022年02月24日 02:02
+! Version: 202202240821
+! Last Modified: 2022年02月24日 08:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -29443,6 +29443,7 @@ m.babytree.com##script + a[class]
 /wpblog.gif?
 /wpengine-analytics/*
 /wprum.
+/wps-visitor-counter/*
 /wpstatistics/*
 /wrapper/metrics/*
 /Wrappers?cmd=
@@ -30116,11 +30117,13 @@ _mongo_stats/
 ||impactcdn.com^
 ||impactradius-event.com^
 ||imrworldwide.com^
+||imzahrwl.xyz^
 ||innerskinresearch.com^
 ||instantfox.co^
 ||irs01.com^
 ||krxd.net^
 ||ldnlyap.com^
+||leadhit.io^
 ||liadm.com^
 ||liveyield.com^
 ||lltrck.com^
@@ -30603,6 +30606,7 @@ _mongo_stats/
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
 ||callreports.com^$third-party
+||calltouch.ru^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calltracks.com^$third-party
 ||campaigncog.com^$third-party
