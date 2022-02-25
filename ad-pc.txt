@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 38+OtkwvC/GsAeOFL530Eg
+! Checksum: A6NMzHNyBTQuGYe9+myjYQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202250203
-! Last Modified: 2022年02月25日 02:03
+! Version: 202202250821
+! Last Modified: 2022年02月25日 08:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1492,7 +1492,7 @@ tieba.baidu.com##.tuijian-wrap
 /ad2gate.
 /ad2gather.
 /ad2push.
-/ad2you/*
+/ad2you/*$~image
 /ad3.$domain=~ad3.eu|~vereinslinie.de
 /ad300.
 /ad300s.
@@ -1833,12 +1833,12 @@ tieba.baidu.com##.tuijian-wrap
 /adactions.
 /AdAgent_
 /adanalytics.
-/adanim/*
-/adaptv_ortb/*
+/adanim/*$~image
+/adaptv_ortb/*$~image
 /adaptvadplayer.
 /adaptvadservervastvideo.
 /adaptvexchangevastvideo.
-/adarena/*
+/adarena/*$~image
 /adasia-ad-network-
 /adasiatagmanager.
 /adasset/*
@@ -52472,7 +52472,7 @@ tf2r.com#@#.adverts
 ||anymoviesearch.com^$popup
 ||avatrade.io/ads/$popup
 ||avengeradblocker.com^$popup
-||awin1.com/cread.php$popup
+||awin1.com/cread.php?s=$popup
 ||best-stream.net^$popup
 ||bestanimegame.com^$popup
 ||bet365.com^*affiliate=$popup
@@ -56967,6 +56967,7 @@ bing.com##a[href*="/aclick?ld="]
 1337x.to#?#a:-abp-contains(An‌on‌ymous Download)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
+cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -105943,6 +105944,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
+@@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
@@ -106042,6 +106044,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch|pizzahut.com.au
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||jsrdn.com/s/$script,domain=distro.tv
+@@||jumbe.zaius.com/v2/zaius.gif?$domain=subscriptions.management
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaptcha.com/collect/sdk?$domain=wyze.com
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
