@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U8ngK+lSGWr98VUyQ6REaA
+! Checksum: ObOY0iaBA6+OCOiijiSnoQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202202260820
-! Last Modified: 2022年02月26日 08:20
+! Version: 202202261404
+! Last Modified: 2022年02月26日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1798,7 +1798,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcast_
 /adcde.js
 /adcdn.
-/adcell/*
+/adcell/*$~image
 /adcenter.$script,domain=~adcenter.capgemini.com|~adcenter.nu|~m-m-g.com
 /adcentral.
 /adCfg.
@@ -1810,7 +1810,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcheck.
 /adcheck?
 /adchoice.
-/adchoice/*
+/adchoice/*$~image
 /adchoice_
 /adchoices-
 /adchoices.
@@ -29229,6 +29229,7 @@ _800x80_
 ##.sponsorship_ad
 ##.sponsorshipbox
 ##.sponsorwrapper
+##.sponstitle
 ##.sponstop
 ##.sport-mpu-box
 ##.sportsbet_sbad
@@ -38368,6 +38369,7 @@ tf2r.com#@#.adverts
 ||hinisanex.biz^
 ||hinotoenh.online^
 ||hionedaugsbu.info^
+||hip-97166b.com^
 ||hipals.com^
 ||hiperdex.ml^
 ||hipersushiads.com^
@@ -53562,12 +53564,12 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockstreamtape.site|animew
 ||everydaygayporn.com/api/spots/
 ||exoav.com/nb/
 ||fakeporn.tv/bb/
-||footztube.com/b_
-||footztube.com/f_
 ||fapnado.com/neverb/
 ||fappenist.com/fojytyzzkm.php
 ||fapxl.com/view/spot/
 ||fetishshrine.com/jsb/
+||footztube.com/b_
+||footztube.com/f_
 ||frprn.com/even/ok.js
 ||ftopx.com/b.domnlk.com/
 ||ftopx.com/tf558550ef6e.js
@@ -53772,6 +53774,9 @@ dailydot.com###DD_Desktop_HP_Content3
 healthline.com###DMR1__slot
 tweaktown.com###DesktopTop
 road.cc###Footer-Billboard
+fanlesstech.com###HTML2 > .widget-content
+fanlesstech.com###HTML4 > .widget-content
+fanlesstech.com###HTML5 > .widget-content
 linkfang.org###LinkFang_Horizontal
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -57119,7 +57124,7 @@ reddflix.com##.advbox
 hungangels.com##.advert
 flyingjizz.com,gotporn.com,japan-whores.com,porntube.com##.advertisement
 sleazyneasy.com##.advertising
-4kpornvideos.tv,flashtranny.com,gaymovievids.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
+4kpornvideos.tv,flashtranny.com,gaymovievids.com,gaypornarchive.com,gayporno.fm,igayporn.tv,machogaytube.com,onlydudes.tv,ts-tube.net,verygayboys.com,xgaytube.tv##.ae-player__itv
 porngals4.com##.afb0
 porngals4.com##.afb1
 porngals4.com##.afb2
@@ -57220,7 +57225,7 @@ mylust.com##.cs-bnr
 watchmygf.me##.cs_text_link
 crocotube.com##.ct-video-ntvs
 worldsex.com##.currently-blokje-block-inner
-sexygirlspics.com##.custom-spot
+alloldpics.com,sexygirlspics.com##.custom-spot
 vxxx.com##.cykstkkakayycc
 worldsex.com##.dazone
 anysex.com##.desc
@@ -57317,7 +57322,7 @@ xxxporntalk.com##.leftsidenav
 xxxvogue.net##.link-adv
 totsantcugat.info##.live > a[href="http://totsantcugat.info/wp-content/video.php"]
 spankbang.com##.live-rotate
-sexygirlspics.com##.live-spot
+alloldpics.com,sexygirlspics.com##.live-spot
 spankbang.com##.livecam-rotate
 proporn.com,vivatube.com##.livecams
 peekvids.com##.mediaPlayerSponsored
@@ -75510,6 +75515,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hushenqiquan.com^
 ||dingdian.shop^
 ||mydancecn.online^
+||lauvlku.cn^
+||5dm6ghn.cn^
+||shenwupower.com.cn^
+||blb2s77r.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85988,6 +85997,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||e1e.io^
+||efreecode.com^
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||everesttech.net^
@@ -91570,6 +91580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.nrholding.net^
 ||beacon.riskified.com^
 ||beacon.rum.dynapis.com^
+||beacon.s.llnwi.net^
 ||beacon.searchspring.io^
 ||beacon.securestudies.com^
 ||beacon.sojern.com^
@@ -92624,6 +92635,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pi.ispot.tv^
 ||piano.io/tracker/
 ||pico.tools/metrics/
+||ping-admin.ru^$third-party
 ||ping-dot-acp-magento.appspot.com^
 ||ping.dozuki.com^
 ||ping.hellobar.com^
@@ -105339,7 +105351,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||videa.hu/flvplayer_setcookie.php?
 ||analytic20.detik.com^
 ||ktracker.kumparan.com^
-||tokopedia.com^*/pixel$xmlhttprequest
 /~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
@@ -106366,6 +106377,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZWjh3orPCBXLopRvP7wtJQ
+! Checksum: q+Hcj+SNj27eYw3JT3XszA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202260820
-! Last Modified: 2022年02月26日 08:20
+! Version: 202202261404
+! Last Modified: 2022年02月26日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17382,6 +17382,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hushenqiquan.com^
 ||dingdian.shop^
 ||mydancecn.online^
+||lauvlku.cn^
+||5dm6ghn.cn^
+||shenwupower.com.cn^
+||blb2s77r.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -30107,6 +30111,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||e1e.io^
+||efreecode.com^
 ||emycewiw.xyz^
 ||enthusiastgaming.net^
 ||everesttech.net^
@@ -35689,6 +35694,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.nrholding.net^
 ||beacon.riskified.com^
 ||beacon.rum.dynapis.com^
+||beacon.s.llnwi.net^
 ||beacon.searchspring.io^
 ||beacon.securestudies.com^
 ||beacon.sojern.com^
@@ -36743,6 +36749,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pi.ispot.tv^
 ||piano.io/tracker/
 ||pico.tools/metrics/
+||ping-admin.ru^$third-party
 ||ping-dot-acp-magento.appspot.com^
 ||ping.dozuki.com^
 ||ping.hellobar.com^
@@ -49458,7 +49465,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||videa.hu/flvplayer_setcookie.php?
 ||analytic20.detik.com^
 ||ktracker.kumparan.com^
-||tokopedia.com^*/pixel$xmlhttprequest
 /~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
@@ -50485,6 +50491,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
