@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: b/iIERwGz9WOwUnMPx443Q
+! Checksum: U07VPtcTJDY9Phty8peM4w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202270202
-! Last Modified: 2022年02月27日 02:02
+! Version: 202202271403
+! Last Modified: 2022年02月27日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2243,6 +2243,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||haoyundmtaotao.com^
+||4takaixi.xyz^
+||7gukaip.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9941,6 +9944,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qiqivoip.com/333/
+||taotaoxiang.cc/333/
+||duodada.com/333/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -12319,7 +12325,7 @@ ygdy8.cc##.container > a[href^="/"]
 rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
-91porny.com,jiuse205.com##.container-fluid.p-0[class*="mb-"]
+91porny.com,jiuse205.com,jiuse702.com##.container-fluid.p-0[class*="mb-"]
 423down.com##.content > a
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
@@ -13087,7 +13093,7 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 360kan.com##.js-welcome
 ifeng.com##.js_url[href^="http://dol.deliver."]
 mvcat.com##.jsalert
-91porny.com,jiuse205.com##.jsv-g1
+91porny.com,jiuse205.com,jiuse702.com##.jsv-g1
 24k99.com##.jy_24k99_suspended_ad
 fx168.com##.jy_fx168_default_head_navAd
 fx168.com##.jy_fx168_gjs_content_Right_advise
@@ -17839,6 +17845,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=xs7788.com|00ksw
 ||dofsg.cn^
 ||qycg.wang^
 ||sxtc.wang^
+||qiannian.biz^
+||xocs.ren^
+||xflz.xyz^
+||zdzy.shop^
+||hulauf.cn^
+||khphkum.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
