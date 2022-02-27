@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U07VPtcTJDY9Phty8peM4w
+! Checksum: CemnjrhhHbVOequt57kVQg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202271403
-! Last Modified: 2022年02月27日 14:03
+! Version: 202202272007
+! Last Modified: 2022年02月27日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2239,6 +2239,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/1266p.com:"]
 ##a[href*="/3525v.com:"]
 ##img[onclick*="/ayx700.com/"]
+##img[onclick*=".gghktv.com/"]
 ##a[href*=".celadonstyle.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -2246,6 +2247,8 @@ ubmcmm.baidustatic.com
 ||haoyundmtaotao.com^
 ||4takaixi.xyz^
 ||7gukaip.xyz^
+||hylmimgg.com^
+||8848skins.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9949,6 +9952,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||duodada.com/333/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tucao.one##.c_att
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17851,6 +17855,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=xs7788.com|00ksw
 ||zdzy.shop^
 ||hulauf.cn^
 ||khphkum.cn^
+||huiyef.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
