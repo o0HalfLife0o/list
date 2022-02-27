@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oycQCdmrwQPHcHQIZ4GNAQ
+! Checksum: RfGDBsm2hXUwELF60xYICg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202202270202
-! Last Modified: 2022年02月27日 02:02
+! Version: 202202270822
+! Last Modified: 2022年02月27日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1954,10 +1954,10 @@ tieba.baidu.com##.tuijian-wrap
 /adcomp.
 /adcomponent/*$~image
 /adconfig.
-/adconfig/*
+/adconfig/*$~image
 /adconfigproxy.
 /adcontainer?
-/adcontent.$~object
+/adcontent.$~image,~object
 /adcontent/*
 /adcontents_
 /adcontrol.$domain=~adcinjector.com|~adcontrol.sk
@@ -55997,7 +55997,6 @@ stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 pcgamebenchmark.com##.side
 news.am,nexter.org,viva.co.nz##.side-banner
-kit.co##.sidekit-banner
 gfycat.com##.side-slot
 vpnmentor.com##.side-top-vendors-wrap
 pr0gramm.com##.side-wide-skyscraper
@@ -56031,6 +56030,7 @@ thenokiablog.com##.sidebardirect
 linuxize.com##.sideblock
 freedla.com##.sidebox
 tothepc.com##.sidebsa
+kit.co##.sidekit-banner
 linuxtopia.org##.sidelinks > .sidelinks
 ee.co.za##.sidepromo
 ohinternet.com##.sider
@@ -56751,7 +56751,7 @@ drive.com.au##hr
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,4anime.gg,animekisa.tv,dramacool.pk,dulu.to,mangceh.cc,mangadna.com,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,4anime.gg,animekisa.tv,dramacool.pk,dulu.to,mangadna.com,mangceh.cc,vanime.co,watchseries.ninja,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 windycitymediagroup.com,windycitytimes.com##img[alt*="Sponsor"]
