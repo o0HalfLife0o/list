@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T10NLM6dZzgNrLMfkhDJnQ
+! Checksum: n5qNA6+kdLOfhxRZIJX+kg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202202280823
-! Last Modified: 2022年02月28日 08:23
+! Version: 202202281408
+! Last Modified: 2022年02月28日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9950,6 +9950,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||uoowu.com/a/m_couplet.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16437,6 +16438,12 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ||wofjhs.com^
 !#7
 !#8
+!#91porny.com
+##.btn-outline-primary[href*=".com:"]
+###main:nth-child(4) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
+###main:nth-child(4) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+###main:nth-child(4) > .container-fluid.mb-0.p-0
+###main:nth-child(4) > .container-fluid.mb-0.p-0 + .jsv-g1
 !#99re.com
 .gif|$domain=99a67.com|99re.com
 /99rejs/js/adv
@@ -17833,6 +17840,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||reyxif.cn^
+||qagdczc.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
