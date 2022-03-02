@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: V0uqZQblMLbixdXv1h4++w
+! Checksum: z1hVl3FAAhovVdmC3gcRaA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203022028
-! Last Modified: 2022年03月02日 20:28
+! Version: 202203030213
+! Last Modified: 2022年03月03日 02:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1217,6 +1217,7 @@ videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySel
 livesexporn.net#$#abort-current-inline-script window.onload atob
 youporn.com,tube8.com,redtube.com,pornhub.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 cine.to#$#abort-on-property-read document.head.appendChild
+nhentai.net#$#override-property-read _n_app.popunder null;
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
@@ -1594,7 +1595,7 @@ jkanime.net#$#abort-current-inline-script Math break
 ||24fa533251.com/*.js$script,domain=hispasexy.org
 hispasexy.org#$#abort-current-inline-script _cpp
 hispasexy.org#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
-animefenix.com#$#abort-current-inline-script document.createElement _yzvesi
+animefenix.com#$#abort-current-inline-script document.createElement _yzvesi; abort-on-property-write zfgloadedpopup;
 pelisplus.so#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
 comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
