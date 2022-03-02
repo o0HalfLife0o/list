@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U5WdZ2M5l4DlM2TCEH8olw
+! Checksum: iMQkKZc/JUKCkxbP4woXpw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203020826
-! Last Modified: 2022年03月02日 08:26
+! Version: 202203021411
+! Last Modified: 2022年03月02日 14:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17400,6 +17400,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||2d941.site^
 ||ynyn.shop^
 ||qinmon.xyz^
+||hbears.com^
+||hkoytvx.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -50722,7 +50724,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|sanwacompany.co.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
