@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ACkNBtgsG3dOzO3qriV+kw
+! Checksum: woje3G6R3yknjoVFTjh7Cw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203032013
-! Last Modified: 2022年03月03日 20:13
+! Version: 202203040207
+! Last Modified: 2022年03月04日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,9 +457,9 @@ tieba.baidu.com##.j_click_stats, .j_click_stats+*
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! 乘风 视频广告过滤规则
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, mozRTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, RTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, mozRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -584,20 +584,21 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=agefans.*|mgtv1.net|agemys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com
 !hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
-dyjihe2.com##.tempWrap
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
-dandanzan.top,nunuyy1.*##.gm-fp-body video:style(max-height:100%!important)
+dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
 aqours.today
 envyindebted.com
 in-page-push.com
 stgowan.com
 trustedgatetocontent.com
-netflix.mom,netflixya.com,yanetflix.com##.tips-box
+netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
 netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
+@@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
+4kya.com###player_pause
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
 ||tracker.$xhr,websocket,script,ping
@@ -2246,6 +2247,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||quanmindi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17864,6 +17866,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||clonger.cn^
 ||assistantrok.club^
 ||zimeijk.cn^
+||8456.xyz^
+||comekang.xyz^
+||ixmlusc.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
