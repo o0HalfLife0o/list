@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VYbBM1nAR+7+4q/D+CPfLw
+! Checksum: p0C4q6wqDVcmpzD2DW7Ijw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203022028
-! Last Modified: 2022年03月02日 20:28
+! Version: 202203030829
+! Last Modified: 2022年03月03日 08:29
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2249,7 +2249,6 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||jiujiupk.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -3526,6 +3525,7 @@ ubmcmm.baidustatic.com
 ||jiudianhudong.com^$third-party
 ||jiuhui878.com^
 ||jiujigroup.top^
+||jiujiupk.com^
 ||jiuku.cc^
 ||jiuzhilan.com^$third-party
 ||jixing8.com^$third-party
@@ -17845,16 +17845,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||2d941.site^
-||ynyn.shop^
-||qinmon.xyz^
-||hbears.com^
-||hkoytvx.cn^
-||qhytkj.xyz^
-||rrogfhs.cn^
-||buyis.cn^
-||zuolgc.cn^
-||jeuuhu.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17951,6 +17941,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||2886996.com^
 ||2969firefighterstore.com^
 ||2bssjsq.com^
+||2d941.site^
 ||2f0jlqc.cn^
 ||2gmbbl.cn^
 ||2gvuukm1lm.com^
@@ -18560,6 +18551,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bupt.info^
 ||busxiongdi.com^
 ||butendecatholicparish.com^
+||buyis.cn^
 ||buymusicdirect.com^
 ||buyuninfo.com^
 ||buzx53.cn^
@@ -19348,6 +19340,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hardiness.top^
 ||hayasp.top^
 ||hbbww.com^
+||hbears.com^
 ||hbeqnte.cn^
 ||hbggcm.com^
 ||hbhdyn.club^
@@ -19427,6 +19420,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hk9600.com^
 ||hkdyys.cn^
 ||hkosgxn.cn^
+||hkoytvx.cn^
 ||hldwmly.com^
 ||hlgglm.com^
 ||hlhulu.com^
@@ -19682,6 +19676,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jdxq.club^
 ||jdyz3.cn^
 ||jdzlxtc.com^
+||jeuuhu.cn^
 ||jfgcxj.com^
 ||jgcq3003.com^
 ||jgrkjp.cn^
@@ -20630,6 +20625,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qhruisen.cn^
 ||qhweisen.cn^
 ||qhxcdmfj.cn^
+||qhytkj.xyz^
 ||qi-shi.top^
 ||qian-tao.xyz^
 ||qianb.ltd^
@@ -20657,6 +20653,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qingyiso.cn^
 ||qingyulin.top^
 ||qingzhencai.net^
+||qinmon.xyz^
 ||qinzigenjudi.com^
 ||qiruidea.com^
 ||qiuchuanling.cn^
@@ -20804,6 +20801,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rqjhhg.cn^
 ||rqkgcd.xyz^
 ||rrgapzw.cn^
+||rrogfhs.cn^
 ||rsftjj.cn^
 ||rshi.club^
 ||rsvffmn.cn^
@@ -21839,6 +21837,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ynjyhm.com^
 ||ynmpzs.cn^
 ||ynsyly.com^
+||ynyn.shop^
 ||ynzby.cn^
 ||yongshengtongda.com^
 ||yongyaoxiong.cn^
@@ -22114,6 +22113,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zuirengou.shop^
 ||zunchengmaoyi.cn^
 ||zunhuioa.cn^
+||zuolgc.cn^
 ||zuopp.com^
 ||zuoyouyu.cn^
 ||zutodu.cn^
