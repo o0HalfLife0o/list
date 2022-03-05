@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tdkZDWJI07Vd8ymyW2WEyA
+! Checksum: FRpNSoSrgXBNunOXjCkwIw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203051403
-! Last Modified: 2022年03月05日 14:03
+! Version: 202203052006
+! Last Modified: 2022年03月05日 20:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1464,7 +1464,7 @@ ubmcmm.baidustatic.com
 ###hellobox > .mylist
 ###hengfu > #jiukan
 ###hfad
-###hthslide[onclick]
+##a[href="/goto.php?url=hth"]
 ###imgad
 ###js-ad-map
 ###js-ysjpp
@@ -2233,6 +2233,7 @@ ubmcmm.baidustatic.com
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
+##div[onclick*=".lyty49.com"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
@@ -2245,10 +2246,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
+##A[href*="/av888822.vip/"]
+##A[href*="/bibo149.com:"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||dlxxjsh.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9972,6 +9976,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##img[src*=".xyz"][src*=".gif"]
+downkr.com##a[href*=".xitongzhijia.net"]
+downkr.com##.download-btn > .text-right
+downkr.com##.address-left > ul:nth-child(2)
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17873,6 +17881,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huzalor.cn^
 ||tcmall.me^
 ||xiaozhangzhushou.ltd^
+||jeason.club^
+||cqfygc.xyz^
+||2gustis.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
