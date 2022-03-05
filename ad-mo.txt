@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: wgSfrhVIEAE9nDoAeHffVg
+! Checksum: VTIaZWKQDDgjngcYwLqaMw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203050823
-! Last Modified: 2022年03月05日 08:23
+! Version: 202203051403
+! Last Modified: 2022年03月05日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -24299,7 +24299,6 @@ _800x80_
 ##.continuous-flow-mid-ad
 ##.convert-media-ad
 ##.converter-ad
-##.cookie-warningbar
 ##.copy-adChoices
 ##.core-adplace
 ##.coreAdsPlacer
@@ -60211,6 +60210,8 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||haoyundmtaotao.com^
+||ishanggao.com^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -75821,6 +75822,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||hdjlkj.vip^
+||fanchuangyi.xyz^
+||sanqianxingxuan.icu^
+||lybctx.com^
+||chyfkf.cn^
+||qrfladd.cn^
+||huzalor.cn^
+||tcmall.me^
+||xiaozhangzhushou.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
