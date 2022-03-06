@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: axdgu0dlOxNLzTC+ievp6A
+! Checksum: Q+5MzREl8j/7Pue+jlgjBw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203060821
-! Last Modified: 2022年03月06日 08:21
+! Version: 202203061403
+! Last Modified: 2022年03月06日 14:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9527,8 +9527,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||iiauu.cn/777/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yxbao.com###gs_down
+yxbao.com##.gs
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14211,7 +14214,6 @@ dzbhdm.net##a[href*="/xzgg/"]
 zhicheng.com##a[href*="512856.com"]
 tingvoa.com##a[href*="?adid="]
 myk3.com##a[href*="?aid="]
-ruanyifeng.com##a[href*="?utm_source="]
 eworldship.com##a[href*="ad_click&"]
 xitek.com##a[href*="adclick"] + .info
 guilinlife.com##a[href*="adclicks&"]
@@ -17430,6 +17432,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chenghe.store^
 ||my2.life^
 ||sanqian.press^
+||fighsfg.cn^
+||qmpartner.vip^
+||ulqihfr.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -35610,6 +35615,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/avsmetrics/
 ||amazonaws.com/cdn.barilliance.com/
 ||amazonaws.com/j.kissinsights.com/
+||amazonaws.com/js/reach.js
 ||amazonaws.com/ki.js/
 ||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
@@ -37315,6 +37321,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||techtarget.com^*/GetCookiesWithCallback?
 ||techweb.com/beacon/
 ||telemetrics.klaviyo.com^
+||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
