@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EytYqg2kFJBpD68FQFJo5Q
+! Checksum: v0cOxLUE+lmH9tfNePfFUQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203061403
-! Last Modified: 2022年03月06日 14:03
+! Version: 202203062007
+! Last Modified: 2022年03月06日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55040,6 +55040,7 @@ censor.net##.beGrKXqw1r8uLq2pL
 thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 aiscore.com##.bet365
+republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 biblegateway.com##.bga
 overclock3d.net##.bglink
@@ -56613,8 +56614,10 @@ mc-market.org##[href^="https://www.mc-market.org/advertising/ads/create"]
 mql5.com##[href^="https://www.mql5.com/fz/"]
 perezhilton.com##[href^="https://www.mytrue10.com/"]
 weberblog.net##[href^="https://www.neox-networks.com/"]
+how2electronics.com##[href^="https://www.nextpcb.com/"]
 ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/cb.php"]
+how2electronics.com##[href^="https://www.pcbway.com/"]
 kreationnext.com##[href^="https://www.resiproxy.net"]
 majorgeeks.com##[href^="https://www.restoro.com/"]
 bikeroar.com##[href^="https://www.roaradventures.com/"]
@@ -60232,6 +60235,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*=".hth390.com"]
 ##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
+##div[onclick*=".leyu257.com:"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
@@ -75868,6 +75872,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fighsfg.cn^
 ||qmpartner.vip^
 ||ulqihfr.cn^
+||oxzwsxs.cn^
+||tufute.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -106754,6 +106760,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
+@@||ens.nzz.ch^$~third-party
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|vox.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
@@ -106790,6 +106797,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
+@@||track.nzz.ch^$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||zeit.de/cre-*/tracking/call.js?$domain=zeit.de
