@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HyaSgmXgf/v32JGhLazcRA
+! Checksum: Ukptpl/Ozd39d8s30VuPLA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203070822
-! Last Modified: 2022年03月07日 08:22
+! Version: 202203072008
+! Last Modified: 2022年03月07日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54439,8 +54439,9 @@ skysports.com###mpu-1
 spin.ph###mrec3
 whatshappening.com.ph###mrecCarousel
 nitrome.com###mu_3_container
-atlantatribune.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
+atlantatribune.com,barrettsportsmedia.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
+barrettsportsmedia.com###mvp-wallpaper
 mangareader.cc###myModal
 mediaupdate.co.za###mycarousel
 comicbook.com###native-plus-top1
@@ -55066,6 +55067,7 @@ fastpic.ru##.bleft
 karachicorner.com##.blinesep
 wearedore.com##.bloc-pub
 rpgsite.net##.block
+megagames.com##.block-4
 autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
 autocar.co.uk##.block-autocar-ads-mpu-flexible2
@@ -57189,7 +57191,6 @@ bing.com##.pa_carousel_mlo
 bing.com##.pa_sb
 bing.com##.productAd
 bing.com##[id$="adsMvCarousel"]
-bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
 1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
@@ -60243,6 +60244,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||dikematou.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -75865,6 +75867,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
+||flyleaf.biz^
+||violates.wang^
+||ksxb.ltd^
+||ubxqerc.cn^
+||uguhpfo.cn^
+||51niu.pro^
+||hnycwh.cn^
+||emotionally.wang^
+||netshare.ltd^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
@@ -95363,6 +95374,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infomine.com/imcounter.js
 ||infoq.com/metrics/
 ||informer.com/ajax/article_log.php
+||ingress.linktr.ee^
 ||ino.com/img/sites/mkt/click.gif
 ||inq.com/tagserver/logging/logline
 ||instagram.com/ajax/bz
