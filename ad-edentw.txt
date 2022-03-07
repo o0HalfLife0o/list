@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: u99Z6FQZH1ZX3GreCrr3eg
+! Checksum: oDGZapGytMwNC/JFhgAq4w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203072008
-! Last Modified: 2022年03月07日 20:08
+! Version: 202203080205
+! Last Modified: 2022年03月08日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1538,6 +1538,7 @@ cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@cl
 cq.ru#$#abort-on-property-read CQ.routes.getAds
 shanson320.ru,lrepacks.net#$#abort-current-inline-script document.createElement atob
 spletnik.ru#$#abort-on-property-read noAdSample
+samelectric.ru#$#abort-on-property-read XMLHttpRequest
 ! Popup/popunder/clickunder
 freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,anicat.ru#$#abort-on-property-read open
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic

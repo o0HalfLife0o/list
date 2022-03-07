@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ukptpl/Ozd39d8s30VuPLA
+! Checksum: bl1zgqTegVF2Xd/ap2XEPg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203072008
-! Last Modified: 2022年03月07日 20:08
+! Version: 202203080205
+! Last Modified: 2022年03月08日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20904,6 +20904,7 @@ _800x80_
 ##.ads-skyscraper-container-right
 ##.ads-skyscraper-left
 ##.ads-skyscraper-right
+##.ads-slot-mb-container
 ##.ads-small
 ##.ads-smartphone
 ##.ads-social-box
@@ -36504,6 +36505,7 @@ tf2r.com#@#.adverts
 ||easyad.com^
 ||easyads28.info^
 ||easyads28.mobi^
+||easyads28.pro^
 ||easyads29.info^
 ||easybrochurecinnamon.com^
 ||easydistrustuldistrustul.com^
@@ -47785,7 +47787,7 @@ tf2r.com#@#.adverts
 ||zmuphhlienv.com^
 ||znaptag.com^
 ||znazlahbcu.com^
-||znqip.net^
+||znqip.net
 ||znurmlkkeltsb.com^
 ||znznrccyrcr.com^
 ||zo7gihmry2.com^
@@ -51141,7 +51143,7 @@ tf2r.com#@#.adverts
 ||zlink8.com^$popup
 ||zlinkm.com^$popup
 ||zlinkv.com^$popup
-||znqip.net^$popup
+||znqip.net$popup
 ||zryydi.com^$popup
 ||zugnogne.com^$popup
 ||zuphaims.com^$popup
@@ -53213,6 +53215,7 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
+||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -53888,6 +53891,7 @@ $popup,third-party,domain=1337x.buzz|4stream.gg|720pstream.tv|adblockstreamtape.
 ||milffox.com/su4unbl
 ||milkmanbook.com/dat/promo/
 ||momxxxfun.com/ezop/
+||mylust.com/b/
 ||mypornstarblogs.com/ads/
 ||mysexgames.com/pix/best-sex-games/
 ||mysexgames.com/plop.js
@@ -56417,6 +56421,8 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
+search.yahoo.com##.va-mid
+search.yahoo.com##.va-mid + a
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -57819,6 +57825,8 @@ whoreshub.com##[class^="pop-"]
 cumlouder.com##[class^="sm"]
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 fapnado.com##[class^="xpot"]
+tube8.com##[data-spot-id]
+tube8.com##[data-spot]
 sxyprn.com##[href*="/re/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
@@ -57840,16 +57848,14 @@ freebdsmxxx.org##[href^="https://t.me/joinchat/"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
-tube8.com,tube8.es,tube8.fr##[id][style="display: block;"]
+tube8.com,tube8.es,tube8.fr##[src*="bloB:https://www.tube8."]
 tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr##[src^="bLob:"]
-tube8.com,tube8.es,tube8.fr##[src^="bloB:https://www.tube8."]
 hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 analpornpix.com##[src^="https://analpornpix.com/t/153"]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
-tube8.com,tube8.es,tube8.fr##[style*="background-color: rgb(255, 255, 255)"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 porn.com##a[href*="&ref="]
@@ -57936,7 +57942,7 @@ mysexgames.com##table[height="640"]
 motherless.com##table[style*="max-width:"]
 exoav.com##td > a[href]
 foxhq.com##video
-redtube.com,youporn.com,youporngay.com##video[loop][src^="bLob:" i]
+redtube.com,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com##video[playinline][loop]
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
 pornhub.com,pornhubthbh7ap3u.onion#?#:-abp-properties(height: 300px; width: 315px;)
@@ -60244,7 +60250,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||dikematou.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -61054,6 +61059,7 @@ ubmcmm.baidustatic.com
 ||dianwenwang.com^
 ||dianxin.com^$third-party
 ||dibaiweiai.com^
+||dikematou.com^
 ||dilidd.com^
 ||displink.com^$third-party
 ||diuling.com^
@@ -66341,8 +66347,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/gg/
 ||myweb.hinet.net/menu.htm
-||myyan.cc/js/qz.js
-||myyan.cc/js/sj
 ||mzhhdn.com/hongbao.jpg
 ||mzyfz.*/modules/46/
 ||mzyz.com/image*/tj/
@@ -75867,15 +75871,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
-||flyleaf.biz^
-||violates.wang^
-||ksxb.ltd^
-||ubxqerc.cn^
-||uguhpfo.cn^
-||51niu.pro^
-||hnycwh.cn^
-||emotionally.wang^
-||netshare.ltd^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
@@ -76037,6 +76032,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51foodsafe.cn^
 ||51gpt.com^
 ||51lx.ink^
+||51niu.pro^
 ||51showmy.com^
 ||51teach.club^
 ||51vs.club^
@@ -77016,6 +77012,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||elvfdnj.cn^
 ||elvx.top^
 ||emgwq.com^
+||emotionally.wang^
 ||engpeng.cn^
 ||enidie.cn^
 ||enihongo.cn^
@@ -77123,6 +77120,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fll007.com^
 ||flmcju.cn^
 ||flydog.club^
+||flyleaf.biz^
 ||flyly.cc^
 ||fmketang.cn^
 ||fnbocll.cn^
@@ -77502,6 +77500,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hnwjlhg.cn^
 ||hnxahz.com^
 ||hnxinkejg.com^
+||hnycwh.cn^
 ||hnyczs.club^
 ||hnylb8.cn^
 ||hnyoufan.com^
@@ -78000,6 +77999,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ks67.com^
 ||ksdr.xyz^
 ||ksvftk.cn^
+||ksxb.ltd^
 ||kszhmzp.cn^
 ||ktzte.cn^
 ||kuaidibiaoju.com^
@@ -78422,6 +78422,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ndusa.cn^
 ||nernv.com^
 ||netfix8.info^
+||netshare.ltd^
 ||neudata.cloud^
 ||newknowledge.cn^
 ||ngceq.cn^
@@ -79349,9 +79350,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||uaxyutpxh.xyz^
 ||ubt573.org^
 ||ububyiw6655.xyz^
+||ubxqerc.cn^
 ||uc4a.cn^
 ||ucaii.com^
 ||ugmvoys.cn^
+||uguhpfo.cn^
 ||uidndas.cn^
 ||uissm.com^
 ||ujiasm.com^
@@ -79408,6 +79411,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vicustom.cn^
 ||vik.cx^
 ||vinuxhome.com^
+||violates.wang^
 ||viphdk.xyz^
 ||vivi87.cn^
 ||vjptye.cn^
@@ -80169,6 +80173,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zncat.cn^
 ||zongjiangc.top^
 ||zongjiangd.top^
+||zonmxej.cn^
 ||zougg.com^
 ||zoujuhonglawyer.com^
 ||zouxinyan.xyz^
@@ -87958,6 +87963,7 @@ _mongo_stats/
 ||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||mabipa.com^$third-party
+||madkudu.com^$third-party
 ||magicpixel.io^$third-party
 ||magiq.com^$third-party
 ||magnetmail1.net^$third-party
@@ -88286,6 +88292,7 @@ _mongo_stats/
 ||petametrics.com^$third-party
 ||pghub.io^$third-party
 ||pgs.io^$third-party
+||phenompeople.com^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
 ||photorank.me^$third-party
@@ -88440,6 +88447,7 @@ _mongo_stats/
 ||realtracking.ninja^$third-party
 ||realytics.io^$third-party
 ||realzeit.io^$third-party
+||recapture.io^$third-party
 ||reciteme.com^$third-party
 ||recognified.net^$third-party
 ||recosenselabs.com^$third-party
