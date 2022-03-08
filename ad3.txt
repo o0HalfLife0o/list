@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: E0KUy1rDmT9Riha1TvTv2w
+! Checksum: XLV0r3G4ipnpJSmHpnwpDA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203080205
-! Last Modified: 2022年03月08日 02:05
+! Version: 202203080821
+! Last Modified: 2022年03月08日 08:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26679,7 +26679,7 @@ m.babytree.com##script + a[class]
 /GomezTracking.
 /google-analyticator/*
 /google-analytics-$~image
-/google-analytics.$~image
+/google-analytics.$~image,$third-party,domain=~comed.com|~secure.exeloncorp.com
 /google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.
 /google-tag-manager.
@@ -30242,6 +30242,7 @@ _mongo_stats/
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ||520886.xyz^
+||8672.site^
 ||a1webstrategy.com^
 ||adnext.co^
 ||adrtx.net^
@@ -38789,6 +38790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||acronymfinder.com/~/tr.ashx
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active.com/ig.track.js
+||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
 ||adblockstreamtape.site/stat/
 ||adc-js.nine.com.au^
