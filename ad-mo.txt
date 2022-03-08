@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SWsKRXmuVaHeUuzmogIZBA
+! Checksum: 6nny93vAGDekdm6RNAvztQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203081406
-! Last Modified: 2022年03月08日 14:06
+! Version: 202203082008
+! Last Modified: 2022年03月08日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20513,6 +20513,8 @@ _800x80_
 ##.adheader100
 ##.adheader401
 ##.adheader416
+##.adheightpromo
+##.adheighttall
 ##.adherebox
 ##.adhesion-block
 ##.adhesion-header
@@ -29347,6 +29349,7 @@ _800x80_
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
 ##.sticky-rail-ad-container
+##.sticky-side-ad
 ##.sticky-sidebar-ad
 ##.sticky-top-ad-wrap
 ##.stickyAd
@@ -31413,6 +31416,8 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+###slashboxes > .deals-rail
+##.scroll-fixable.rail-right > .deals-rail
 ##.click-track.partner
 ##[href^="https://freecourseweb.com/"] > .sitefriend
 ##.gnt_tb.gnt_tbb
@@ -54827,6 +54832,7 @@ kentonline.co.uk##.LeaderBack
 apnews.com##.Leaderboard
 israelnationalnews.com##.LeftInfo
 tvtv.us##.MuiPaper-elevation2
+ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 ask.com##.PartialKelkooResults
 snopes.com##.PlacementWrapper
 tumblr.com##.Qrht9
@@ -56652,6 +56658,7 @@ coingolive.com##[href^="https://coinext.com.br/"]
 wccftech.com##[href^="https://cutt.ly/"]
 topfiveforex.com##[href^="https://fbs.com/promo/"]
 torrentgalaxy.to##[href^="https://gen4ever.com/"]
+ahaan.co.uk##[href^="https://go.nordvpn.net/"]
 gmailnator.com##[href^="https://go.nordvpn.net/aff_c"]
 pimylifeup.com##[href^="https://go.pimylifeup.com/"]
 bitcoiner.tv##[href^="https://go.stormgain.com/"]
@@ -60316,6 +60323,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||huixianjiaoyuedu.com^
+||vip1221.com^$third-party
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -68037,6 +68045,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##A[href="https://pic.13709394.net/upload/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75943,6 +75952,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xcummws.cn^
 ||4go.cc^
 ||zwmosu.xyz^
+||xingyou64.xyz^
+||dqcztxmu.com^
+||banggongxia.xyz^
+||luoshihua.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -106905,6 +106918,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||caf.fr^*/smarttag.js$script,~third-party
+@@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
