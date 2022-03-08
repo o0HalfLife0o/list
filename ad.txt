@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KWY+BqdggEekn3pam52mog
+! Checksum: hz1O2KQ32a9Hv5kOXBYvlA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203080205
-! Last Modified: 2022年03月08日 02:05
+! Version: 202203081406
+! Last Modified: 2022年03月08日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1329,6 +1329,7 @@ youle55.com
 :8898/ads_
 :9001/code/
 :99/js/ads/
+://bttzyw*/Runtime/js/psData.
 =ad_top_slider&
 =ajaxGetAds&type=
 =BAIDU_SSP_define&
@@ -1994,6 +1995,7 @@ ubmcmm.baidustatic.com
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##a[href*="?channelCode="] > img[src*=".com:"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
@@ -2254,6 +2256,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||huixianjiaoyuedu.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -6381,8 +6384,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||btn.pchome.net^
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
-||bttzyw68.com/Runtime/js/psData.js
-||bttzyw7.xyz/Runtime/js/psData.js
 ||buimg.com^$domain=kisssub.org
 ||bumimi.com/money/
 ||business.92wy.com^
@@ -17873,6 +17874,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||tolerated.wang^
+||xiaoli.video^
+||m100.site^
+||xryrylt.cn^
+||attempted.wang^
+||bazinga12138.online^
+||8889888.vip^
+||xcummws.cn^
+||4go.cc^
+||zwmosu.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
