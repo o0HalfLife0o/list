@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pRbTKHeTGsvF1nBLHdldAg
+! Checksum: n/icrW15Oq1QDeJK21QhNg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203090822
-! Last Modified: 2022年03月09日 08:22
+! Version: 202203091407
+! Last Modified: 2022年03月09日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -34218,6 +34218,7 @@ tf2r.com#@#.adverts
 ||bestwinterclck.name^
 ||bestzba.com^
 ||beta-news.org^
+||betads.xyz^
 ||betahit.click^
 ||betemolgar.com^
 ||betgorebysson.club^
@@ -35675,6 +35676,7 @@ tf2r.com#@#.adverts
 ||creative-serving.com^
 ||creativedisplayformat.com^
 ||creativeformatsnetwork.com^
+||creativesumo.com^
 ||credentialpetrolenglish.com^
 ||credentialssagwoo.com^
 ||credulityseashoreemployed.com^
@@ -42923,6 +42925,7 @@ tf2r.com#@#.adverts
 ||prautl.com^
 ||prayersitsskid.com^
 ||prayuserparka.com^
+||prdredir.com^
 ||pre4sentre8dhf.com^
 ||precautionbuoy.com^
 ||precisetackle.com^
@@ -60213,6 +60216,7 @@ ubmcmm.baidustatic.com
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##div[onclick*=".leyu"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
@@ -60455,7 +60459,6 @@ ubmcmm.baidustatic.com
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##div[onclick*=".8tse9.com"]
-##div[onclick*=".leyu257.com:"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
@@ -60473,6 +60476,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||phagueq.cn^
+||fydckl.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67169,7 +67173,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sinaimg.cn/large/0076zeZ4gy1gw0if4mgwoj30tj03ptbj.jpg
 ||sinaimg.cn/large/007cYCbaly1ftdqurgyj4g30hs02iaaq.gif
 ||sinaimg.cn/large/007X8olVly1g8cwhgh1img30qo02igm2.gif
-||sinaimg.cn/large/008dqLKply1gtj305hxwnj308c0bnwfs.jpg
 ||sinaimg.cn/large/5431d036ly1fh6gmu6gxmg20tg02i3yr.gif
 ||sinaimg.cn/large/5431d036ly1fhxbxz31nkj20tg02ignm.jpg
 ||sinaimg.cn/large/61ac6637gy1go7az1zmucj20pc08cjts.jpg
@@ -68201,8 +68204,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||szjjzs.com/js/fe
 ||szjjzs.com/js/piao.js
+||bd2020.com/gg/
+||tmioe.com/img/att/boom.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bd2020.com##body > div[id^="z"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -76104,6 +76110,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nokiadatabooklet.ltd^
 ||hryidhf.ltd^
 ||unconditionally.wang^
+||sysjazi.cn^
+||wknydhz.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -96153,6 +96161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uber.com/careers/apply/_log
 ||ubereats.com/_events
 ||ubereats.com/_track
+||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
 ||udemy.com/api-2.0/visits/me/funnel-logs/
