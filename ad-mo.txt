@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mnqn4IlGGV/HDD5m9hIfzQ
+! Checksum: zvwDu0PeFoO0CUjY3bMcEw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203091407
-! Last Modified: 2022年03月09日 14:07
+! Version: 202203092008
+! Last Modified: 2022年03月09日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32401,6 +32401,7 @@ tf2r.com#@#.adverts
 ||a289f5f0f2c.com^
 ||a2c653c4d145fa5f96a.com^
 ||a2tw6yoodsag.com^
+||a2zapk.com^
 ||a31daecf420.com^
 ||a337b163a0bc.com^
 ||a353364ec1bd19a.com^
@@ -35510,6 +35511,7 @@ tf2r.com#@#.adverts
 ||cpanuk.com^
 ||cpaoffers.network^
 ||cpaprrrrrofit.com^
+||cpasbintfr.com^
 ||cpaway.com^
 ||cpays.com^
 ||cpcmart.com^
@@ -44115,6 +44117,7 @@ tf2r.com#@#.adverts
 ||runbornto.com^
 ||runetki.co^
 ||rungginlout.com^
+||runkillmiss.top^
 ||runmewivel.com^
 ||runnersgunpowder.com^
 ||runnyamowt.com^
@@ -49995,6 +49998,7 @@ tf2r.com#@#.adverts
 ||correry.com^$popup
 ||cpa-offer.com^$popup
 ||cpaoffers.network^$popup
+||cpasbintfr.com^$popup
 ||cpayard.com^$popup,third-party
 ||cpm20.com^$popup
 ||cpm30.com^$popup
@@ -50828,6 +50832,7 @@ tf2r.com#@#.adverts
 ||rndskittytor.com^$popup
 ||roadmapcredulousfang.com^$popup
 ||rocketmedia24.com^$popup,third-party
+||rockstorageplace.com^$popup
 ||rollmeout.xyz^$popup
 ||rosafun.com^$popup
 ||rothoglyro.pro^$popup
@@ -50845,6 +50850,7 @@ tf2r.com#@#.adverts
 ||rtrnotkthraebb.com^$popup
 ||rtyznd.com^$popup
 ||rubylife.go2cloud.org^$popup
+||runkillmiss.top^$popup
 ||runslin.com^$popup
 ||runtnc.net^$popup
 ||rvrpushserv.com^$popup
@@ -54733,6 +54739,7 @@ comicbookrealm.com###tad
 google.com###tadsc
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
+iol.co.za###teadsTarget
 the-star.co.ke###teasers
 geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
@@ -55432,6 +55439,7 @@ thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
 sbs.com.au##.dNXvOT
+iol.co.za##.dULFRs
 standard.co.uk##.dXaqls
 counter.dev,lindaikejisblog.com##.da
 arabianindustry.com##.da-leaderboard
@@ -57316,6 +57324,7 @@ cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
+app.daily.dev#?#article:-abp-contains(Promoted)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 ebay.co.uk,ebay.com,ebay.com.au#?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
@@ -76000,6 +76009,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||unconditionally.wang^
 ||sysjazi.cn^
 ||wknydhz.cn^
+||xingyou65.xyz^
+||fengmian.xyz^
+||zcao.vip^
+||mkk.red^
+||haojun.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82850,6 +82864,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ga-targets.js
 /ga-track-
 /ga-track.
+/ga-tracker-
 /ga-tracker.
 /ga-tracking-
 /ga-tracking/*
@@ -92138,9 +92153,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
-||appspot.com/collect
 ||appspot.com/display?
-||appspot.com/event
+||appspot.com/event?
 ||appspot.com/stats?
 ||appspot.com/take?
 ||arclk.net/trax?
@@ -105510,6 +105524,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wl.spotify.com^
 !-----------------International individual tracking systems-----------------!
 ||adtm.chip.de^
+||analytics.daasrv.net^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
 ||arlt.com/analytics/
@@ -106489,7 +106504,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
-@@||appspot.com/event/$xmlhttprequest,domain=crab.fit
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||atl-paas.net/analytics/event
