@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T7YdzBvy0gHjQnqvPbBTXQ
+! Checksum: WwXPrWCcY7XqSSe5oqLzHw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203100208
-! Last Modified: 2022年03月10日 02:08
+! Version: 202203100820
+! Last Modified: 2022年03月10日 08:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -27172,6 +27172,7 @@ m.babytree.com##script + a[class]
 /krux-sass-helper.
 /krux.js
 /ktag/*
+/LandingPageHitLog.aspx?
 /landings-pixel?
 /LastClick/js?
 /layer_log.php?p=
@@ -30381,6 +30382,7 @@ _mongo_stats/
 ||innerskinresearch.com^
 ||instantfox.co^
 ||irs01.com^
+||k5a.io^
 ||krxd.net^
 ||ldnlyap.com^
 ||leadhit.io^
@@ -31747,6 +31749,7 @@ _mongo_stats/
 ||leadmanagerfx.com^$third-party
 ||leadpages.net^$third-party
 ||leadsius.com^$third-party
+||leadsleap.com^$third-party
 ||leadsmonitor.io^$third-party
 ||leadsrx.com^$third-party
 ||leafmedia.io^$third-party
@@ -40064,6 +40067,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||xplosion.de^$domain=spiegel.de|stern.de
 !-----------------Individual cname tracking systems-----------------!
 ||clickmail.stubhub.com^$image,script
+||email.mg.everyonesocial.com^$image,script
 ||primate.dmarcdigests.com^
 ||1kpv4njzilv.community.intersystems.com^
 ||1zzs6w25i8n.tube.inflatevids.xyz^
@@ -48978,7 +48982,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||email.mail.floatme.io^
 ||email.mail.primexbt.com^
 ||email.member.theknot.com^
-||email.mg.everyonesocial.com^
 ||email.pray.com^
 ||email.social.f5.com^
 ||email.strava.com^
@@ -50491,6 +50494,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
+@@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -50631,7 +50635,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||assets.adobedtm.com^*-source.min.js$domain=manager-magazin.de
-@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de
+@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
@@ -50672,7 +50676,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||taboola.com/libtrc/$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
-@@||technical-service.net^$xmlhttprequest,domain=n-tv.de
+@@||technical-service.net^$xmlhttprequest,domain=n-tv.de|vip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||track.nzz.ch^$script,~third-party
