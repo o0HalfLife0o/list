@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F1PzEw5huqTJzlsDSQ1ImA
+! Checksum: BEWVIrU3W8zFveGBVScyJw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203101406
-! Last Modified: 2022年03月10日 14:06
+! Version: 202203102008
+! Last Modified: 2022年03月10日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -3649,7 +3649,7 @@ tieba.baidu.com##.tuijian-wrap
 /adwrapperiframe.
 /adwriter2.
 /adx-exchange.
-/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
+/adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
 /adx/ads?
 /adx/iframe.
 /adx/js/*
@@ -32527,7 +32527,6 @@ tf2r.com#@#.adverts
 ||a289f5f0f2c.com^
 ||a2c653c4d145fa5f96a.com^
 ||a2tw6yoodsag.com^
-||a2zapk.com^
 ||a31daecf420.com^
 ||a337b163a0bc.com^
 ||a353364ec1bd19a.com^
@@ -55302,8 +55301,6 @@ m.economictimes.com##.bannerwrapper
 barrons.com##.barrons-body-ad-placement
 euronews.com##.base-leaderboard
 teamfortress.tv##.bau
-washingtonpost.com##.bb.b-ns.b-none
-washingtonpost.com##.bb.dn-hp-xs
 bbc.co.uk##.bbccom_companion
 ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
 britannica.com##.bc-article-inline-dialogue
@@ -55367,6 +55364,8 @@ armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 btcmanager.com##.boo_3oo_6oo
 cmo.com.au,interiordesign.net##.boombox
+washingtonpost.com##.border-box.dn-hp-sm-to-mx
+washingtonpost.com##.border-box.dn-hp-xs
 etherscan.io##.border-top
 tineye.com##.bottom
 blockchair.com##.bottom--buttons-container
@@ -56264,7 +56263,6 @@ racingtv.com,twitter.com,wral.com##.promotion
 throwawaymail.com##.promotion_row
 bostonreview.net##.promotop
 kathmandupost.com##.pt-0
-washingtonpost.com##.pt-0.dn-hp-xs
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
 yabiladi.com##.pub2
@@ -56349,7 +56347,6 @@ sociologyguide.com##.rgt_banners
 siteslike.com##.rif
 terminal.hackernoon.com##.right
 africanews.com##.right-legend
-washingtonpost.com##.right-rail > div > .db-ns.dn
 jta.org##.right-rail-container
 huffpost.com##.right-rail-placeholder
 jpost.com##.right-side-banner
@@ -68258,8 +68255,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##A[href="/85hohVj2gmIM6cuWWF/index.html"]
+pan666.cn##.footer > .containerNarrow
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -76163,6 +76163,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||shengxinrong.net^
 ||shjk.xyz^
+||kykcusq.cn^
+||hiba.club^
+||wbshu.com^$third-party
+||qydoc.com^$third-party
+##a[href*=".usharecloud.com/"]
+||omzpbbz.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
