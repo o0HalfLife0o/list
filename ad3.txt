@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3tMamG4eP5z+PHuBoTNB3Q
+! Checksum: 7A0anj4aJvTmq3q0cvn3iA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203110826
-! Last Modified: 2022年03月11日 08:26
+! Version: 202203111407
+! Last Modified: 2022年03月11日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9545,6 +9545,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##a[href^="/"][href$="/index.html"] > img
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14278,7 +14279,6 @@ csdn.net##a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 ithome.com##a[href="/html/363216.htm"]
 ziqiangxuetang.com##a[href="/j/coding/"]
 ziqiangxuetang.com##a[href="/j/coding/"] + .w-text-red
-939394.xyz##a[href="/uZpvkXM59K9ft3RfeK/index.html"]
 bilibili.com##a[href="/video/av8587236/?tg"]
 xc6b.com##a[href="http://61.160.236.52"]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
@@ -17454,6 +17454,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||daitianyu.vip^
 ||9655128.vip^
 ||ruwei.me^
+||housewedding.cn^
+||mtbraqc.cn^
+||mmoqgsl.cn^
+||xshijie.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
