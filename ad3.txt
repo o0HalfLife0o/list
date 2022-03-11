@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7A0anj4aJvTmq3q0cvn3iA
+! Checksum: 2ylpQRBPQHwXvzWkzMbAEw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203111407
-! Last Modified: 2022年03月11日 14:07
+! Version: 202203112008
+! Last Modified: 2022年03月11日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9545,7 +9545,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-939394.xyz##a[href^="/"][href$="/index.html"] > img
+939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17458,6 +17458,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mtbraqc.cn^
 ||mmoqgsl.cn^
 ||xshijie.xyz^
+||nnopp.website^
+||sthouw.vip^
+||xulilin.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -33323,7 +33326,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
-||coin-hive.com^$third-party
 ||coinerra.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
@@ -37563,6 +37565,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
 ||tracking.skyword.com^$third-party
@@ -49349,6 +49352,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||franceinter.fr/vendor/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||hits.porn.fr^
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
@@ -50762,7 +50766,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
-@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
@@ -50957,6 +50960,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zinro.net/m/log.php
 !---------- Korean ----------
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 !---------- Latvian ----------

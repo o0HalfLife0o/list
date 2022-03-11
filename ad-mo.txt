@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jsPewYIz/X39xmYrfgAvfA
+! Checksum: ra+Zgrfo+2SuuSraF4XZ9w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203111407
-! Last Modified: 2022年03月11日 14:07
+! Version: 202203112008
+! Last Modified: 2022年03月11日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23586,6 +23586,7 @@ _800x80_
 ##.bottom-ad-placeholder
 ##.bottom-ad-tagline
 ##.bottom-ad-wrapper
+##.bottom-ad-zone
 ##.bottom-ad2
 ##.bottom-ads
 ##.bottom-ads-sticky
@@ -24756,6 +24757,7 @@ _800x80_
 ##.empty-ad
 ##.end-ad
 ##.end-of-article-ads
+##.endAHolder
 ##.endemic_ads
 ##.eng_ads
 ##.engagement_ad
@@ -29742,6 +29744,7 @@ _800x80_
 ##.top-ad-unit
 ##.top-ad-wrap
 ##.top-ad-wrapper
+##.top-ad-zone
 ##.top-ad1
 ##.top-ad__sticky-wrapper
 ##.top-adbox
@@ -31025,6 +31028,8 @@ _800x80_
 ##a[href^="https://a.bestcontentfood.top/"]
 ##a[href^="https://a.bestcontentoperation.top/"]
 ##a[href^="https://a.bestcontentweb.top/"]
+##a[href^="https://a-ads.com/?partner="]
+##a[href^="https://a-ads.com/campaigns/"]
 ##a[href^="https://aaucwbe.com/"]
 ##a[href^="https://ad.atdmt.com/"]
 ##a[href^="https://ad.doubleclick.net/"]
@@ -31075,6 +31080,7 @@ _800x80_
 ##a[href^="https://chaturbate.com/in/?track="]
 ##a[href^="https://chaturbate.jjgirls.com/?track="]
 ##a[href^="https://chaturbate.xyz/"]
+##a[href^="https://click.a-ads.com/"]
 ##a[href^="https://click.hoolig.app/"]
 ##a[href^="https://click.plista.com/pets"]
 ##a[href^="https://clickadilla.com/"]
@@ -33502,6 +33508,7 @@ tf2r.com#@#.adverts
 ||armpitarticle.com^
 ||arnt.xyz^
 ||aroundmonth.com^
+||aroups.com^
 ||arousedskinnyspeeding.com^
 ||arrivaltroublesome.com^
 ||arrlnk.com^
@@ -36811,6 +36818,7 @@ tf2r.com#@#.adverts
 ||enginsquawks.cam^
 ||englingedrxa.club^
 ||englishheadlight.com^
+||englutzydecos.com^
 ||enhichej.xyz^
 ||enicyvys.xyz^
 ||eniunifiiegma.xyz^
@@ -42690,6 +42698,7 @@ tf2r.com#@#.adverts
 ||poifinsegg.com^
 ||poignantpersonnel.com^
 ||poignantsat.com^
+||pointeretards.com^
 ||pointroll.com^
 ||poirreleast.club^
 ||poisism.com^
@@ -46381,6 +46390,7 @@ tf2r.com#@#.adverts
 ||up4u.me^
 ||updateongoingdiving.com^
 ||upgulpinon.com^
+||uphovelodha.com^
 ||upliftsearch.com^
 ||upolou.com^
 ||uponelectabuzzor.club^
@@ -54227,6 +54237,7 @@ road.cc###Footer-Billboard
 fanlesstech.com###HTML2 > .widget-content
 fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
+fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -55139,6 +55150,7 @@ sciencealert.com##.article-fulltext > div
 scoop.co.nz##.article-left-box
 nintendolife.com,purexbox.com##.article-recommendations
 people.com##.articleContainer__rail
+theblockcrypto.com##.articleIAB
 audizine.com##.articleIMG
 wallpaper.com##.articleSidebar
 ubergizmo.com##.article_card_promoted
@@ -55973,6 +55985,7 @@ revolutionsoccer.net##.mls-o-adv-container
 inhabitat.com##.mn-wrapper
 byrdie.com,investopedia.com,verywellhealth.com##.mntl-leaderboard-spacer
 pcmacstore.com##.mobileHide
+theblockcrypto.com##.mobileView
 thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
 autoevolution.com##.modeladmid
@@ -56500,6 +56513,7 @@ siasat.com##.stream-item-below-post-content
 twitter.com##.stream-item-group-start[label="promoted"]
 coinpedia.org,siasat.com##.stream-item-inline-post
 conservativebrief.com##.stream-item-mag
+how2electronics.com##.stream-item-top
 todayuknews.com##.stream-item-top-wrapper
 hardwaretimes.com##.stream-item-widget
 coinpedia.org##.stream-title
@@ -57922,6 +57936,7 @@ cumlouder.com##.sml-bottom
 pornhub.com,pornhubthbh7ap3u.onion##.sniperModeEngaged
 thelittleslush.com##.snppopup
 boycall.com##.source_info
+amateurfapper.com,iceporn.tv,pornmonde.com##.sources
 hd-easyporn.com##.spc_height_80
 gotporn.com##.spnsrd
 anyporn.com,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,pervertslut.com,sexpornimages.com,sexvid.xxx,sortporn.com,xhamster.com##.sponsor
@@ -68192,7 +68207,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-939394.xyz##a[href^="/"][href$="/index.html"] > img
+939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -76105,6 +76120,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mtbraqc.cn^
 ||mmoqgsl.cn^
 ||xshijie.xyz^
+||nnopp.website^
+||sthouw.vip^
+||xulilin.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -89721,7 +89739,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
-||coin-hive.com^$third-party
 ||coinerra.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
@@ -93961,6 +93978,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
+||tracking.sexcash.com^
 ||tracking.sezzle.com^
 ||tracking.sharplink.us^
 ||tracking.skyword.com^$third-party
@@ -105747,6 +105765,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||franceinter.fr/vendor/track.js
 ||fsm.lapresse.ca^
 ||gamergen.com/ajax/actualites/addVue
+||hits.porn.fr^
 ||ianimes.org/img/tracker.gif
 ||jeu.net/hits.js
 ||jscrambler.com^$script,domain=airfrance.fr
@@ -107160,7 +107179,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
-@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
@@ -107355,6 +107373,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||zinro.net/m/log.php
 !---------- Korean ----------
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||vod.midas-i.com^$media,domain=pandora.tv
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 !---------- Latvian ----------
