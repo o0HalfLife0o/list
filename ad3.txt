@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aTUiEp8Jd84nyLnV6Wrqzg
+! Checksum: GmpGQVVo7mSFWp0hrLObLQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203121405
-! Last Modified: 2022年03月12日 14:05
+! Version: 202203122007
+! Last Modified: 2022年03月12日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1810,6 +1810,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||ifdvlh.cn^
+||jknrwe.cn^
+||yzmklm.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9544,8 +9546,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||gtimg.com/newsapp_bt/0/14484060967/641
+||2yjw.com/statics/js/jquery.min.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2yjw.com##.widget-tops
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17457,6 +17462,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||duilin.me^
 ||cdnuapn.cn^
 ||zeoknxp.cn^
+||pdqgywt.cn^
+||irsufth.cn^
+||vike.ink^
+||digrice.xyz^
+||jqad.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -27240,6 +27250,7 @@ m.babytree.com##script + a[class]
 /link_tracking/*
 /linkcountdata/*
 /linkinformer.js
+/linkpulse.js
 /linktrack.js
 /linktracker.js
 /linktracker/*
@@ -35997,6 +36008,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||branch.io^$third-party
 ||brandcdn.com/pixel/
 ||bravenet.com/counter/
+||browser-intake-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||browser.pipe.aria.microsoft.com^
 ||bs.yandex.ru^
@@ -38986,6 +38998,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beam.giraffe360.com^
 ||bfp.capitalone.com^
 ||bing.com/fd/ls/GLinkPing.aspx?
+||bing.com/mouselog
 ||binocule21c.merriam-webster.com^
 ||biomedcentral.com/track/
 ||booking.com/logo?
