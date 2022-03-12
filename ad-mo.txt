@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AEXKcgXmgrND4b+HCLl4+w
+! Checksum: qh6ASGohvJrYmSeVrh6q9Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203120821
-! Last Modified: 2022年03月12日 08:21
+! Version: 202203121405
+! Last Modified: 2022年03月12日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22859,6 +22859,7 @@ _800x80_
 ##.aolSponsoredLinks
 ##.aopsadvert
 ##.ap_str_ad
+##.apadam-ads
 ##.apexAd
 ##.apiAdMarkerAbove
 ##.apiAds
@@ -34498,6 +34499,7 @@ tf2r.com#@#.adverts
 ||brattyogor.com^
 ||bravelywade.com^
 ||bravenetmedianetwork.com^
+||bravotrk.com^
 ||brayerspenta.com^
 ||brazendistil.com^
 ||brazenserialsociety.com^
@@ -37063,6 +37065,7 @@ tf2r.com#@#.adverts
 ||exhaustedgemini.com^
 ||exhibitedderivedremarkable.com^
 ||exi8ef83z9.com^
+||exists-mazard.icu^
 ||existsobey.com^
 ||exitjunction.com^
 ||exitsthapsia.com^
@@ -37783,6 +37786,7 @@ tf2r.com#@#.adverts
 ||gamesims.ru^
 ||gamesrevenu24.com^
 ||gamesrevenue.com^
+||gammamkt.com^
 ||gandrad.org^
 ||gangidance.com^
 ||gangrelnougats.com^
@@ -46810,6 +46814,7 @@ tf2r.com#@#.adverts
 ||vjnpoelbrhd.com^
 ||vk77lnizckm6.com^
 ||vkaofq64zz.com^
+||vkgtrack.com^
 ||vkjmljhcdn.com^
 ||vkkdkvydwrwr.com^
 ||vknrfwwxhxaxupqp.pro^
@@ -48819,8 +48824,6 @@ tf2r.com#@#.adverts
 ||feature.fm^$third-party
 ||fireflyengagement.com^$third-party
 ||fireworkadservices.com^$third-party
-||fireworkapi.com^$third-party
-||fireworktv.com^$third-party
 ||firstimpression.io^$third-party
 ||fisari.com^$third-party
 ||fixionmedia.com^$third-party
@@ -50328,6 +50331,7 @@ tf2r.com#@#.adverts
 ||gallonranchwhining.com^$popup
 ||gamesfromheaven.com^$popup
 ||gamesrotator.com^$popup
+||gammamkt.com^$popup
 ||ganja.com^$popup,third-party
 ||gdmconvtrck.com^$popup
 ||gecauuksehin.com^$popup
@@ -51289,6 +51293,7 @@ tf2r.com#@#.adverts
 ||vipcpms.com^$popup
 ||viralcpm.com^$popup
 ||visitstats.com^$popup
+||vkgtrack.com^$popup
 ||vodobyve.pro^$popup
 ||vokut.com^$popup
 ||voluumtrk.com^$popup
@@ -53721,7 +53726,6 @@ tf2r.com#@#.adverts
 ||fqtag.com^$third-party
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
-||fwcdn2.com^$third-party
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||go.trvdp.com^
 ||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
@@ -60528,6 +60532,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||ifdvlh.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -67591,7 +67596,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||union.china.com.cn^
 ||union.yihaodian.com^
 ||untitled.dwstatic.com^
-||uoowu.com/a/m_couplet.
+||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
@@ -76173,6 +76178,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hidanhao.vip^
 ||fmei.wang^
 ||duilin.me^
+||cdnuapn.cn^
+||zeoknxp.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
