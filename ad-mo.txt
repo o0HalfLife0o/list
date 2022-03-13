@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bUDUp4eUTIfohBqk/UdBYg
+! Checksum: MzCMxKhzp6Ubz5GkaRZT4w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203131410
-! Last Modified: 2022年03月13日 14:10
+! Version: 202203132007
+! Last Modified: 2022年03月13日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -10506,6 +10506,7 @@ _800x80_
 ###ad_tile_home
 ###ad_top
 ###ad_topBanner
+###ad_topScroller
 ###ad_top_728x90
 ###ad_top_banner
 ###ad_top_bar
@@ -10929,6 +10930,7 @@ _800x80_
 ###ads-bg
 ###ads-bg-mobile
 ###ads-bigbox-no1
+###ads-billboard
 ###ads-block
 ###ads-block-frame
 ###ads-blog
@@ -11009,6 +11011,7 @@ _800x80_
 ###ads-sponsored-boxes
 ###ads-sticky
 ###ads-submit
+###ads-superBanner
 ###ads-text
 ###ads-top
 ###ads-top-728
@@ -18401,6 +18404,7 @@ _800x80_
 ##.ad-link-right
 ##.ad-links
 ##.ad-links-text
+##.ad-list-desktop
 ##.ad-list-item
 ##.ad-loaded
 ##.ad-loader
@@ -18460,8 +18464,10 @@ _800x80_
 ##.ad-mobile-banner
 ##.ad-mobile-flex-inc
 ##.ad-mobile-flex-pos2
+##.ad-mobile-incontent-ad-plus
 ##.ad-mobile-mpu
 ##.ad-mobile-mpu-plus-outstream-inc
+##.ad-mobile-nav-ad-plus
 ##.ad-mod
 ##.ad-module
 ##.ad-mount
@@ -22754,6 +22760,7 @@ _800x80_
 ##.adwrappercls1
 ##.adx-300x250-container
 ##.adx-300x600-container
+##.adx-ads
 ##.adx-wrapper
 ##.adx-wrapper-middle
 ##.adx_center
@@ -22982,6 +22989,7 @@ _800x80_
 ##.article_ad250
 ##.article_ad_container2
 ##.article_ad_text
+##.article_ad_top
 ##.article_adbox
 ##.article_ads_banner
 ##.article_bottom-ads
@@ -23865,6 +23873,7 @@ _800x80_
 ##.c-ad-mpu-secondary
 ##.c-ad-size2
 ##.c-ad-size3
+##.c-adDisplay
 ##.c-adDisplay_container
 ##.c-adOmnibar
 ##.c-adSense
@@ -30048,6 +30057,7 @@ _800x80_
 ##.u-ad-leaderboard__bg
 ##.u-ads
 ##.u-lazy-ad-wrapper
+##.udn-ads
 ##.uds-ad
 ##.uds-ads
 ##.ui-ad
@@ -53321,6 +53331,7 @@ tf2r.com#@#.adverts
 ||coincheck.com/images/affiliates/
 ||coincodex.com^$subdocument,~third-party
 ||coingolive.com/assets/img/partners/
+||coins4days.com/*_ext_iframe/
 ||colombiareports.com/wp-content/banners/
 ||compare.inspirock.com^
 ||coryarcangel.com/images/banners/
@@ -58557,6 +58568,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||paramountplus.com^$generichide
 @@||peacocktv.com^$generichide
 @@||photos.google.com^$generichide
+@@||publicwww.com^$generichide
 @@||slack.com^$generichide
 @@||teams.microsoft.com^$generichide
 @@||tidal.com^$generichide
@@ -68289,6 +68301,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+runoob.com#?#.sidebar-box:-abp-has(.re-600160)
+studygolang.com###ad-right1
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -76202,6 +76216,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yovkr.xyz^
 ||aybe.me^
 ||xs8888.vip^
+||iqn.world^
+||afx001.pw^
+||pcfdgc.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85356,6 +85373,7 @@ fqsousou.com,kengso.com#@#.user-share
 /TagSvc/*
 /tagx.js
 /tailtarget.js
+/talpa-analytics/*
 /targetemsecure.
 /taxtag.js
 /tblz_sailthru/*
