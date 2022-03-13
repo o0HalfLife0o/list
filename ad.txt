@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sHwMWGuYb8x8WfECj62uuQ
+! Checksum: w8kqb3ZNTK1BQS69LEQJ4g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203130203
-! Last Modified: 2022年03月13日 02:03
+! Version: 202203131410
+! Last Modified: 2022年03月13日 14:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -570,6 +570,7 @@ douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
 g.huya.com
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
+litix.io
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
@@ -17903,6 +17904,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||omduzge.cn^
+||hfcpa.top^
+||zuijin.wang^
+||rusu01.top^
+||yovkr.xyz^
+||aybe.me^
+||xs8888.vip^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
