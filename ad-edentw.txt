@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qLdr6x/6OuSKm4Jt+f0dSg
+! Checksum: pp0SzeL0LiSZ9ETbtTJ3Ww
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203162012
-! Last Modified: 2022年03月16日 20:12
+! Version: 202203170206
+! Last Modified: 2022年03月17日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1160,7 +1160,7 @@ spankbang.com#$#abort-on-property-write window.open
 sxyprn.com,sxyprn.net,strikeout.cc#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
-gogoplay1.com#$#abort-current-inline-script JSON.parse
+gogoplay1.com,prmovies.bz,speedostream.com#$#abort-current-inline-script JSON.parse
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
