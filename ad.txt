@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mkyqhnw41ZNr0htmrH7BHA
+! Checksum: D3zXtjDmXZolJtvMmRBW6g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203160821
-! Last Modified: 2022年03月16日 08:21
+! Version: 202203161405
+! Last Modified: 2022年03月16日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,9 +457,11 @@ tieba.baidu.com##.j_click_stats, .j_click_stats+*
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! 乘风 视频广告过滤规则
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, RTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, webkitRTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, mozRTCPeerConnection, undefined)
+||tracker.$xhr,websocket,script,ping
+|ws://tracker.$websocket
+|wss://tracker.$websocket
+|ws://p2p.$websocket
+|wss://p2p.$websocket
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -483,13 +485,15 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
+!v.qq.com##+js(set, Object.prototype.requestAdOrder, noopFunc)
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
-qq.com##+js(json-prune,ad,vinfo)
-qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+qq.com##+js(json-prune,adList.item)
+!qq.com##+js(json-prune,ad,vinfo)
+!qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 qq.com##+js(set, Beacon.prototype.fail, null)
-@@||video.qq.com/fcgi-bin/
+@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 ||l.qq.com/lview?
 ||l.qq.com/livemsg?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
@@ -589,6 +593,7 @@ age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
+|wss://$websocket,domain=dandanzan10.top|nunuyy10.top
 dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
 aqours.today
@@ -602,7 +607,6 @@ netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 4kya.com###player_pause
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
-||tracker.$xhr,websocket,script,ping
 geoparker.net
 uxrpkgh.cn
 anquanzhuomian.com
@@ -2259,10 +2263,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yinyating.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||crsgd.xyz^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -17921,6 +17927,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||eeree.top^
 ||benwang.love^
+||wansan66.top^
+||lksw1.top^
+||redmix.me^
+||hsc.ink^
+||jfsldq.top^
+||nomcyk.cn^
+||jingyue.co^
+||xn--xkry73b.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
