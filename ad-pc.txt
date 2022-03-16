@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P11z0VQUao2ObX8wP5FBBg
+! Checksum: 3ChRQ+GvEWW/TtOOx9S2SQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203161405
-! Last Modified: 2022年03月16日 14:05
+! Version: 202203162012
+! Last Modified: 2022年03月16日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -35582,6 +35582,7 @@ tf2r.com#@#.adverts
 ||corruptegypttook.com^
 ||corwrite.com^
 ||coseik.com^
+||cosherymudejar.com^
 ||cosimotable.pro^
 ||cosmeticsgenerosity.com^
 ||cosmjs.com^
@@ -36479,6 +36480,7 @@ tf2r.com#@#.adverts
 ||dubshub.com^
 ||dubvacasept.com^
 ||duchoono.com^
+||ducina.com^
 ||ducmissy.com^
 ||ducubchooa.com^
 ||dudslubesviol.com^
@@ -56381,8 +56383,6 @@ pcgamingwiki.com##.upcoming-releases.home-card:first-child
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
-search.yahoo.com##.va-mid
-search.yahoo.com##.va-mid + a
 lasvegassun.com##.varWrapper
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
@@ -57170,8 +57170,8 @@ walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[dat
 yts.mx#?#.hidden-xs.hidden-sm:-abp-contains(Warning! Download only with VPN...)
 samsclub.com#?#li[class="sc-carousel-slide sc-carousel-horizontal"]:-abp-has(div.sc-pc-sponsored)
 troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
-bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
-bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
+bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 1337x.to#?#a:-abp-contains(/Your IP Address is|Your IP Addres‌s is/)
 1337x.to#?#a:-abp-contains(/An‌on‌ymous Download|A‌non‌ymous Download/)
 3dmodelshare.org#?#.homeadv > span:-abp-contains(Advertisement)
@@ -60247,6 +60247,9 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||yinyating.top^
+||hylmkele.com^
+||ttayy.cn^
+||lm779.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -63032,8 +63035,9 @@ $websocket,domain=5nj.com|cechi8.com
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/content/1436/*$domain=chineseinla.com
-/images/masha*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
-/images/sgcrwj*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/masha*.png
+/images/sgcrwj*.gif
+/images/sgcrwj*.jpg
 /img/skin/*_bg.$domain=firefox.com.cn|firefoxchina.cn
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
@@ -67992,8 +67996,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zxzjtv.com/upload/vod/yuyua.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+right.com.cn##A[href^="https://jd.dangbei.com/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75918,6 +75924,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nomcyk.cn^
 ||jingyue.co^
 ||xn--xkry73b.online^
+||liusuqin.fun^
+||32jiang.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -91856,7 +91864,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uarating.com^$third-party
 ||ulclick.ru^$third-party
 ||upravel.com^$third-party
-||uptolike.com^$third-party
+||uptolike.com^$third-party,domain=~uptolike.ru
 ||utraff.com^$third-party
 ||uzrating.com^$third-party
 ||variti.net^$third-party
@@ -109209,15 +109217,15 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
-!v.qq.com##+js(set, Object.prototype.requestAdOrder, noopFunc)
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
-!qq.com##+js(json-prune,ad,vinfo)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 qq.com##+js(set, Beacon.prototype.fail, null)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
+cm.l.qq.com
 ||l.qq.com/lview?
 ||l.qq.com/livemsg?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=

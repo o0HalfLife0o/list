@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D3zXtjDmXZolJtvMmRBW6g
+! Checksum: 8yM+dUXKY9CXCOYcNBRjcQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203161405
-! Last Modified: 2022年03月16日 14:05
+! Version: 202203162012
+! Last Modified: 2022年03月16日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -485,15 +485,15 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/json/shop/shopInfo
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
-!v.qq.com##+js(set, Object.prototype.requestAdOrder, noopFunc)
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
-!qq.com##+js(json-prune,ad,vinfo)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 qq.com##+js(set, Beacon.prototype.fail, null)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
+cm.l.qq.com
 ||l.qq.com/lview?
 ||l.qq.com/livemsg?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
@@ -2264,6 +2264,9 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||yinyating.top^
+||hylmkele.com^
+||ttayy.cn^
+||lm779.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -5049,8 +5052,9 @@ $websocket,domain=5nj.com|cechi8.com
 /images/*gamble$domain=50.7.31.228|tvboxnow.com
 /Images/ak47/*$domain=hanzify.net|hanzify.org
 /images/content/1436/*$domain=chineseinla.com
-/images/masha*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
-/images/sgcrwj*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/masha*.png
+/images/sgcrwj*.gif
+/images/sgcrwj*.jpg
 /img/skin/*_bg.$domain=firefox.com.cn|firefoxchina.cn
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
@@ -10009,8 +10013,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zxzjtv.com/upload/vod/yuyua.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+right.com.cn##A[href^="https://jd.dangbei.com/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17935,6 +17941,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nomcyk.cn^
 ||jingyue.co^
 ||xn--xkry73b.online^
+||liusuqin.fun^
+||32jiang.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
