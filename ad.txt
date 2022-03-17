@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5GPp+am98l95wCDkwTpGMQ
+! Checksum: w6oZ31ksX/YuVtFkveZsrQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203170822
-! Last Modified: 2022年03月17日 08:22
+! Version: 202203171406
+! Last Modified: 2022年03月17日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10021,6 +10021,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jable.tv##div[class^="root-"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15754,6 +15755,7 @@ perfectmatch.tw#@#.right_ad
 zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 tangdoucdn.com#@#.video-ad
+juxiangzuan.com#@#.ad-img
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
@@ -17938,6 +17940,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dongzhixia1688.com^
 ||nidelove.club^
 ||liupan.asia^
+||rlog.top^
+||yzqjcmy.top^
+||qq0017.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
