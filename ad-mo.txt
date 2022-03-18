@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UEpEmpcjY9hj/VrZMH16Dw
+! Checksum: B9OoMLq/E98p9uV7b2Pr2g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203180205
-! Last Modified: 2022年03月18日 02:05
+! Version: 202203180822
+! Last Modified: 2022年03月18日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -37303,6 +37303,7 @@ tf2r.com#@#.adverts
 ||fingahvf.top^
 ||fingsmelis.pro^
 ||finized.co^
+||finkelorcine.com^
 ||fiorenetwork.com^
 ||firefeeder.com^
 ||firescorrelationprodigy.com^
@@ -55110,6 +55111,7 @@ maniacdev.com##.c4
 canada411.ca##.c411TopBanner
 filepuma.com##.cRight_footer
 ria.ru##.c_banners
+money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
@@ -57181,6 +57183,7 @@ bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
+doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -57212,6 +57215,7 @@ haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
+lovenovels.net#?#center:-abp-contains(Advertisement)
 mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
 modthesims.info#?#.postbit:-abp-has(#adslot-showthread)

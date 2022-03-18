@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: koDanNJqDPb9z1TAwbYkCQ
+! Checksum: Z426t/p1kME/NCDLWoO+yQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203180205
-! Last Modified: 2022年03月18日 02:05
+! Version: 202203180822
+! Last Modified: 2022年03月18日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -37415,6 +37415,7 @@ tf2r.com#@#.adverts
 ||fingahvf.top^
 ||fingsmelis.pro^
 ||finized.co^
+||finkelorcine.com^
 ||fiorenetwork.com^
 ||firefeeder.com^
 ||firescorrelationprodigy.com^
@@ -55222,6 +55223,7 @@ maniacdev.com##.c4
 canada411.ca##.c411TopBanner
 filepuma.com##.cRight_footer
 ria.ru##.c_banners
+money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 dllme.com##.captchabox > div
@@ -57293,6 +57295,7 @@ bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u
 outlook.live.com#?##OwaContainer:-abp-has(div.fbAdLink)
 mylivewallpapers.com#?#.posts > div.posts:-abp-has(.adsbygoogle)
 cults3d.com#?#div.grid-cell:-abp-contains(/AD •/i)
+doordash.com#?#[data-testid="card.store"] > div:-abp-has(div[data-anchor-id="SponsoredBadge"])
 psychcentral.com#?#aside:-abp-has([data-empty])
 china.ahk.de#?#.b-main__section:-abp-has(h2.b-section__header:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
@@ -57324,6 +57327,7 @@ haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
+lovenovels.net#?#center:-abp-contains(Advertisement)
 mirrored.to#?#tr:-abp-has([alt="UseNet"])
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
 modthesims.info#?#.postbit:-abp-has(#adslot-showthread)
@@ -108724,8 +108728,8 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
-pan.baidu.com,www.bilibili.com,v.qq.com##+js(aeld,ratechange)
-douyu.com,huya.com,yy.com,le.com,dandanzan10.top,nunuyy10.top##+js(nowebrtc)
+pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
+v.qq.com,douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -108857,6 +108861,9 @@ age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
+dandanzan10.top,nunuyy10.top##+js(set,RTCPeerConnection,null)
+dandanzan10.top,nunuyy10.top##+js(set,webkitRTCPeerConnection,null)
+dandanzan10.top,nunuyy10.top#@#+js(nowebrtc)
 dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
 aqours.today

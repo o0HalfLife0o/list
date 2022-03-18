@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 4XZeCTxex6RpB4mGfP/Eow
+! Checksum: 1r+Q+9U6z3dw2h6RGMoE9g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203180205
-! Last Modified: 2022年03月18日 02:05
+! Version: 202203180822
+! Last Modified: 2022年03月18日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-pan.baidu.com,www.bilibili.com,v.qq.com##+js(aeld,ratechange)
-douyu.com,huya.com,yy.com,le.com,dandanzan10.top,nunuyy10.top##+js(nowebrtc)
+pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
+v.qq.com,douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -143,6 +143,9 @@ age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
+dandanzan10.top,nunuyy10.top##+js(set,RTCPeerConnection,null)
+dandanzan10.top,nunuyy10.top##+js(set,webkitRTCPeerConnection,null)
+dandanzan10.top,nunuyy10.top#@#+js(nowebrtc)
 dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
 aqours.today
