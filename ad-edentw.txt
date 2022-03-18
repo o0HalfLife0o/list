@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1x7hMf9lC5ClBY0YmIzylA
+! Checksum: bAu0OrsATDeWQuN7P+IEYg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203180205
-! Last Modified: 2022年03月18日 02:05
+! Version: 202203182012
+! Last Modified: 2022年03月18日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -215,6 +215,7 @@ _adblock_killer.
 ###adblocker_message
 ###adblocker_modal_overlay
 ###adblockinfo
+###adblockpopup
 ###adbpopup
 ###ads-blocked
 ###adsblocker_detected
@@ -224,6 +225,7 @@ _adblock_killer.
 ###content_adblock_message
 ###detection-block
 ###detection-block-overlay
+###detectAdblock
 ###detectadblock
 ###fnAdblockingOverlay
 ###fondAdblock
@@ -248,6 +250,8 @@ _adblock_killer.
 ##.ad-block-message
 ##.ad-block__overlay
 ##.ad-blocked
+##.ad-blocked-container
+##.ad-blocked-wrapper
 ##.ad-blocker-warning
 ##.ad-blocking-advisor-wrapper
 ##.ad_block_detected
@@ -296,6 +300,7 @@ _adblock_killer.
 ##.js-ad-whitelist-notice
 ##.js-checkad-warning
 ##.kill-adblock-container
+##.modal__body-adblock
 ##.msg-adblock
 ##.noadblock
 ##.remove-adblock-msg

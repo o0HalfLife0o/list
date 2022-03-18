@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 137D7dXzhxataCHPxA/QPg
+! Checksum: jgoZMkHkLP5FNB/aMCf1NQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203181406
-! Last Modified: 2022年03月18日 14:06
+! Version: 202203182012
+! Last Modified: 2022年03月18日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8962,7 +8962,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taijuwang.com/template/alifun/js/unFavui.
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
-||talkfx.net/showTKImg?
+||talkfx.*/showTKImg?
 ||taobaocdn.com^$image,domain=cnblogs.com
 ||taoguba.com.cn/js/tgbduilian
 ||taoguba.com.cn/res/js/tgbgg/
@@ -9815,6 +9815,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||3399.com/act/$third-party
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+talkfx.co###frameff1Hu9_left
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11363,14 +11364,12 @@ hao.lenovo.com.cn##.IconLink
 chaicp.com##.Icp-Ad
 iyaxin.com##.Information
 baiten.cn##.JS_advertisement
-ixigua.com,toutiao.com##.J_ad
-toutiao.com##.J_add
+ixigua.com##.J_ad
 smzdm.com##.J_index_wall
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
 dianping.com##.J_mkt-group-2
 dianping.com##.J_mkt-group-3
-toutiao.com##.J_qihu_ad
 duba.com##.J_side_activity
 edu.qq.com##.L
 dasai8.com##.L > font[color="#0000FF"]
@@ -12447,7 +12446,6 @@ user.qzone.qq.com##.f-single-biz
 uzzf.com##.f-uzzf-down
 nwell.net##.f14hui[width="25%"]
 xiaobaipan.com##.f_ad
-tpy888.cn##.f_ad1
 17gameworld.com,smallpopo.com##.fabox
 sgcn.com,wangjing.cn##.fad
 mobile01.com##.fast-ad
@@ -13790,7 +13788,7 @@ ksbbs.com,kshot.com##.slideAdvert
 cnbeta.com##.slide_area a[href^="http"]:not([href^="http://www.cnbeta."])
 duba.com##.slidebar
 duba.com##.slidebar + .extend
-talkfx.com##.slidebox
+talkfx.co##.slidebox
 1909.me,xchina.co##.slider-ad
 uc.cn##.slider__sdk__wrapper
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
@@ -14454,7 +14452,7 @@ v.qq.com##a[href*=".renrendai.com"]
 makepolo.com##a[href*=".rong360.com"]
 ccav5.com##a[href*=".sinaimg."]
 chdbits.co##a[href*=".taobao"]
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 rouman5.com##a[href*=".tapdb.net"]
 boke112.com##a[href*=".tencent.com"]
 acgdoge.net,acglala.me,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
@@ -14749,7 +14747,6 @@ cq.qq.com##div.clearfix[style*="1000"]
 win0168.com##div.item
 duonaolive.com##div.nav-mobile
 weibo.com##div[ad-data]
-toutiao.com##div[ad_name]
 fx168.com##div[adisload]
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 hao123.com##div[alog-alias="hot-goods"]
@@ -15194,7 +15191,6 @@ cnbeta.com##h2 > a[href^="https://active.greatroma.com"]
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
-downza.cn##iframe
 pcsoft.com.cn##iframe[id]
 sina.cn##iframe[id^="sinaadtk_"]
 youzhidy.com##iframe[src^="data"]
@@ -15378,7 +15374,6 @@ sdzbcg.com##td[width="580"][height="279"] > table:nth-child(2n-1)
 cartoonmad.com##td[width="890"] > table > tbody > tr > td[colspan="4"][height="126"]
 mgbbs.cn##td[width="960"][height="60"]
 ningmengzhibo.com##th[style="width: 80px;"][colspan="3"]
-toutiao.com#?#.J_ad
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 zdfans.com##ul[id^="gaosuxiazai"]
@@ -17719,6 +17714,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||lqsw3.top^
 ||eqpcc.cn^
 ||cqqc3.com^
 ||liushuaib.xyz^
@@ -17728,6 +17724,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||longxia-designer.top^
 ||gzckdg.cn^
 ||ifil.shop^
+||8341.store^
+||daishu.shop^
+||wangxuan.pw^
+||bcrdyev.cn^
+||ttylmex.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
