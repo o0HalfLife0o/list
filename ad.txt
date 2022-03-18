@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fAq4P7apoerDZbRLvlTOQg
+! Checksum: 137D7dXzhxataCHPxA/QPg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203180822
-! Last Modified: 2022年03月18日 08:22
+! Version: 202203181406
+! Last Modified: 2022年03月18日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -458,7 +458,7 @@ tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! 乘风 视频广告过滤规则
 pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
-v.qq.com,douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
+douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -9015,7 +9015,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
 ||tiexue.net/zgg/
-||tieyou.com/images/xiao_tuan_you.jpg
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -9027,7 +9026,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tingchina.com/js/990
 ||tingchina.com/js/allad.js
 ||tingchina.com/js/dp468
-||tingge123.com/attachment/js/mm
 ||tingroom.com/file/A*.js
 ||tingroom.com/images/qsbdc.gif
 ||tingroom.com/images/z923.js
@@ -9048,7 +9046,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tmbbs.com/data/attachment/portal/*.swf
 ||tmea116.oss-cn-beijing.aliyuncs.com^
 ||tmioe.com/img/att/boom.jpg
-||to8to.com/api/ggdata.$domain=~shejiben.com
 ||tom*.com/js/advment.js
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
@@ -9078,7 +9075,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ttavav6.com/zz/
 ||ttrar.com/live/
 ||ttrar.com/statics/pos_js/
-||ttx.cn/js/float.js
 ||tuan.cs090.com/gettuan.php?
 ||tucao.in/uploadfile/*/ch.gif
 ||tucao.in/uploadfile/20*/1000-*.gif
@@ -9094,7 +9090,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tv699.com/AllTemplet/js/
 ||tv699.com/Templet699/js/
 ||tv7box.com/Runtime/Js/
-||tvmao.com/images/style/yx500x160.gif
 ||tvsou.com/js/360ad.js
 ||tvyan.com/images/jscss/tv-
 ||tw.beanfun.com/bfweb/NEW/commonlogin
@@ -9959,7 +9954,6 @@ atoolbox.net###ad-coupon-search
 duba.com###ad-detail-banner
 duba.com###ad-dongman
 qq.com###ad-fullscreen
-titan24.com###ad-index-01
 mvcat.com###ad-jd
 ithome.com.tw###ad-on-top
 udn.com###ad-pall
@@ -10458,7 +10452,6 @@ xianliao.me###frame > .xianliao_component
 filmaker.cn###frame2gS3Ea
 wcjbb.com###frame37boCx
 yangluo.cn###frame51RcxP
-tvapk.net###frame5zglZ4
 playno1.com###frame8I822E
 tahua.net###frameJjnBIp
 dabin69.com###frameOa2lrD
@@ -10466,9 +10459,7 @@ ytshe.com###frameUTSzKE
 yangluo.cn###frameVw7574
 laowang.vip###frameYl5IOf
 gz0668.com###framec32DR1
-tvapk.net###framecd6V1M
 hcbbs.com###framedtSuR9
-tvapk.net###framelP7piy
 qianhua.biz###framelzHoHY
 hcbbs.com###framemI4t76
 wcjbb.com###frameo834m9
@@ -12603,7 +12594,6 @@ bilibili.com##.gg-floor-module
 iqiyi.com##.gg-l
 iqiyi.com##.gg-r
 morningpost.com.cn##.gg-stl
-to8to.com##.gg-wei-link
 5068.com,ifeng.com##.gg01
 5068.com,hgitv.com##.gg02
 hgitv.com##.gg09
@@ -13571,7 +13561,6 @@ fuliba.net##.right-banner
 image.baidu.com##.right-banner-area
 isso.com.cn##.right-content-div > .top-div + div
 jingyan.baidu.com##.right-fixed-related-wrap
-to8to.com##.right-float-ad
 csdn.net##.right-item[data-track-click*="http"]:not([data-track-click*=".csdn."])
 123.chinaso.com##.right-list6
 qidian.com##.right-op-wrap
@@ -15282,7 +15271,6 @@ rjfcw.cn##li[style*="1200px"]
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
 m.mydrivers.com#?#.cnewsinfo > p:-abp-has(.f14_link + br + .f14_link)
-m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 masuit.com#?#.panel:-abp-has(>.panel-body>a[href^="/partner/Redirect/"])
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
@@ -15601,7 +15589,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement.$domain=gametower.com.tw
 @@/advertisement.js$domain=gimhoy.com
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
-@@/advertisement_ads_$domain=tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
@@ -15746,7 +15733,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
-@@||ads.ttx.cn/attachment/$domain=ttx.cn
 @@||adsense.woso.cn^$~third-party
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
@@ -16177,7 +16163,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||tansuo.cntv.cn^*/tansuo_Advertise.js
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
-@@||tdx.com.cn/images/*ad$~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
 @@||tgfcer.com/advert.js
@@ -16268,7 +16253,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||yygsz.com^$generichide
 @@||yzzkb.com.cn^*ad.
 @@||zanpinc.com/api/ad.php?
-@@||zbjimg.com/??$domain=tianpeng.com
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zjjcxy.cn^*/ad.css?$stylesheet
@@ -17737,6 +17721,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||eqpcc.cn^
 ||cqqc3.com^
+||liushuaib.xyz^
+||xhz1.me^
+||alsedu.tech^
+||xianwei.tech^
+||longxia-designer.top^
+||gzckdg.cn^
+||ifil.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
