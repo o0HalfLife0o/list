@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: MNgt6HKrjjbGe9tNavMJPQ
+! Checksum: VHOZJ1msqIxkbGQTFHkd0g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202203190821
-! Last Modified: 2022年03月19日 08:21
+! Version: 202203191406
+! Last Modified: 2022年03月19日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
-douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
+pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
+huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -117,7 +117,7 @@ yoyi.com.cn
 zhiziyun.com
 le.com##.min_pause_img
 www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-!douyu.com##+js(set, webkitRTCPeerConnection.prototype.addStream, noopFunc)
+douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ||douyucdn.cn/adxdsp/$image
 wan.douyu.com
 douyu.com,huya.com##a[href^="https://g.wan."]
@@ -1813,6 +1813,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||ripplestika.site^
+||hzylhk.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17268,6 +17270,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
+||feelbad.online^
+||komplett.me^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ANA6lZi3tHU6YSdQ7VSWgQ
+! Checksum: QNfX4qrvrf+BVvbYSqX4Xw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203190821
-! Last Modified: 2022年03月19日 08:21
+! Version: 202203191406
+! Last Modified: 2022年03月19日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26877,7 +26877,6 @@ _800x80_
 ##.magad
 ##.magazine_box_ad
 ##.mailAdElem
-##.mailad
 ##.main-ad
 ##.main-ad-728x90-container
 ##.main-ad-bg
@@ -60430,6 +60429,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||ripplestika.site^
+||hzylhk.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -75885,6 +75886,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
+||feelbad.online^
+||komplett.me^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
@@ -106227,6 +106230,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
@@ -108789,8 +108793,8 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! 乘风 视频广告过滤规则
-pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
-douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
+pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
+huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -108896,7 +108900,7 @@ yoyi.com.cn
 zhiziyun.com
 le.com##.min_pause_img
 www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-!douyu.com##+js(set, webkitRTCPeerConnection.prototype.addStream, noopFunc)
+douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ||douyucdn.cn/adxdsp/$image
 wan.douyu.com
 douyu.com,huya.com##a[href^="https://g.wan."]
