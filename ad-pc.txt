@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QNfX4qrvrf+BVvbYSqX4Xw
+! Checksum: N8icT+0bbxI408CXhMqJPQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203191406
-! Last Modified: 2022年03月19日 14:06
+! Version: 202203192008
+! Last Modified: 2022年03月19日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -39175,6 +39175,7 @@ tf2r.com#@#.adverts
 ||interfacewarrefrain.com^
 ||interferegamblingsir.com^
 ||interferingwittymovements.com^
+||intergient.com^
 ||interimmicroscope.com^
 ||interiorcrossalluded.com^
 ||intermediarypurchaser.com^
@@ -56756,7 +56757,6 @@ seganerds.com##[href^="https://www.casinonic.com/"]
 elitepvpers.com##[href^="https://www.elitepvpers.com/123/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 unknowncheats.me##[href^="https://www.iwantcheats.net/"]
-goldprice.org,silverprice.org##[href^="https://www.jmbullion.com/"] img
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 mc-market.org##[href^="https://www.mc-market.org/advertising/ads/create"]
 mql5.com##[href^="https://www.mql5.com/fz/"]
@@ -60431,6 +60431,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||ripplestika.site^
 ||hzylhk.com^
+||xxsjsp.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -67986,6 +67987,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gaoqingw.com##b > div[style="text-align:center"]
 phbzj.com##.ad-container
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -75787,6 +75789,7 @@ jx.la##[onclick*="apk"]
 piaotian5.net##script + div[style="padding:15px;"]
 smjb.net##div[style*="height: 50%"]
 yemancomic.com##.ncl_img > :not(#cp_img)
+yywenxuan.com##a[href*=".xxmh"]
 ||1pwx.com/js/ck.js
 ||20dcr.com/static/js/base.js
 ||222xs.com/js/greentea.js
@@ -75888,6 +75891,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href$=".120ydrayy.com"]
 ||feelbad.online^
 ||komplett.me^
+||aoyuegc.cn^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
@@ -81252,6 +81256,7 @@ fqsousou.com,kengso.com#@#.user-share
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api_ip_info.
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
@@ -105265,7 +105270,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||lecho.be/fb2?
 ||lecho.be/track/
 ||leparking-moto.fr/jsV155/Tracker.js
-||leparking.fr/jsV155/Tracker.js
+||leparking.fr/*/Tracker.js
 ||liberation.fr/newsite/js/cmp/
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
@@ -106886,6 +106891,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=tv3play.no
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
+@@||hvemder.no/api/hitcount/$~third-party
+@@||hvemder.no/js/hitcount.min.js$script,~third-party
 @@||klpinteraktiv.klp.no^*/Tracking.js?
 @@||postnord.no/api/tracking/$~third-party
 !---------- Polish ----------

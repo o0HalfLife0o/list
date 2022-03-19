@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7y4NtMvoF/IZ1QQrTXuDPw
+! Checksum: sGihZEZyTY/n+aKctY8cIQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203191406
-! Last Modified: 2022年03月19日 14:06
+! Version: 202203192008
+! Last Modified: 2022年03月19日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2262,6 +2262,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||ripplestika.site^
 ||hzylhk.com^
+||xxsjsp.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9817,6 +9818,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+gaoqingw.com##b > div[style="text-align:center"]
 phbzj.com##.ad-container
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17618,6 +17620,7 @@ jx.la##[onclick*="apk"]
 piaotian5.net##script + div[style="padding:15px;"]
 smjb.net##div[style*="height: 50%"]
 yemancomic.com##.ncl_img > :not(#cp_img)
+yywenxuan.com##a[href*=".xxmh"]
 ||1pwx.com/js/ck.js
 ||20dcr.com/static/js/base.js
 ||222xs.com/js/greentea.js
@@ -17719,6 +17722,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href$=".120ydrayy.com"]
 ||feelbad.online^
 ||komplett.me^
+||aoyuegc.cn^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
