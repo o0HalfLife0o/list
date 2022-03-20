@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 62PbUvWn1ZLT0DMWm1eiWg
+! Checksum: uX9v4cIRwME1SvOXgMxouA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203201408
-! Last Modified: 2022年03月20日 14:08
+! Version: 202203202008
+! Last Modified: 2022年03月20日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8979,6 +8979,7 @@ _800x80_
 ###ad-300x250-wrapper
 ###ad-300x250Div
 ###ad-300x250_mid
+###ad-300x250_mobile
 ###ad-300x250_top
 ###ad-300x40-1
 ###ad-300x40-2
@@ -15051,6 +15052,7 @@ _800x80_
 ###mn_ads
 ###moa-ads-long
 ###mobile-ad-container
+###mobile-adhesion
 ###mobile-ads-ad
 ###mobile-ads-link
 ###mobile-sticky-ad-area
@@ -43581,6 +43583,7 @@ tf2r.com#@#.adverts
 ||readly-renterval.icu^
 ||readserver.net^
 ||ready-to-download.com^
+||reajyu.net^
 ||realignassiez.xyz^
 ||realmatch.com^
 ||realmedia.com^
@@ -52917,6 +52920,7 @@ tf2r.com#@#.adverts
 ||openadultdirectory.com/banner-
 ||otcash.com/images/
 ||partner.loveplanet.ru^
+||parts.akibablog.net^$subdocument
 ||pcash.imlive.com^
 ||pimpandhost.com/site/trending-banners
 ||pinklabel.com/live-banners?
@@ -54036,6 +54040,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockstreamtape.art|adblock
 ||simply-hentai.com/prod/
 ||sleazyneasy.com/jsb/
 ||slutdump.com/flat-butterfly-c5e3/
+||slview.psne.jp^
 ||smutty.com/n.js
 ||socaseiras.com.br/banners.php?
 ||sonorousporn.com/nb/
@@ -54960,7 +54965,6 @@ projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
 ndtv.com##.add__txt
 ndtv.com##.add__wrp
-news18.com##.add_section
 ndtv.com##.add_top-wrp-fl
 timesofindia.indiatimes.com##.addblock
 auto-data.net##.adin
@@ -55039,7 +55043,7 @@ motor1.com##.apb
 ebay.com##.app-rtm-pid-wrapper
 classicfm.com##.apple_music
 adn.com##.arcad-feature
-boston25news.com,kiro7.com,wftv.com##.arcad_feature
+1news.co.nz,boston25news.com,kiro7.com,wftv.com##.arcad_feature
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -55059,8 +55063,6 @@ audizine.com##.articleIMG
 wallpaper.com##.articleSidebar
 ubergizmo.com##.article_card_promoted
 news18.com##.article_mad
-news18.com##.article_main > div[style="min-height: 1170px;"]
-news18.com##.article_main > div[style="min-height:1170px"]
 animalcrossingworld.com##.at-sidebar-1
 alternativeto.net##.atf2
 tvtropes.org##.atf_banner
@@ -55312,7 +55314,6 @@ stackoverflow.com##.clc-cp-lb
 businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
-news18.com##.closestickybtn
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 coinmarketcap.com##.cmc-native-ad-row
 drivespark.com##.cmscontent-left-article
@@ -55940,7 +55941,6 @@ malwaretips.com##.mwt_ads
 invezz.com##.mx-auto
 standardmedia.co.ke##.my-2
 engine.presearch.org##.my-4
-news18.com##.n18thder
 transfermarkt.com##.nENxsZD
 google.com##.nH.MC
 mail.google.com##.nH.PS
@@ -56997,16 +56997,17 @@ mommypoppins.com##div[id^="wrapper-div-gpt-ad-"]
 opensubtitles.org##div[itemscope=""][itemtype="http://schema.org/Movie"] > fieldset
 ubergizmo.com##div[role="ad"]
 ezgif.com##div[style$="min-height:90px;display:block"]
-news18.com##div[style*="background: #dbdde3!Important;"]
 audiofanzine.com##div[style*="height: 90px;"]
 avherald.com##div[style*="height:250px"]
 audiofanzine.com##div[style*="height:600px;"]
 news18.com##div[style*="min-height: 250px"]
 news18.com##div[style*="min-height: 527px"]
 news18.com##div[style*="min-height:250px"]
+news18.com##div[style*="min-height:527px"]
 vaughn.live##div[style*="min-height:90px"]
+news18.com##div[style*="width: 300px"]
 9gag.com##div[style*="width: 500px; height: 281px;"]
-datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
+datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,news18.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 clover.fm##div[style*="width:975px; height:90px;"]
 rlslog.net##div[style*="z-index:"]:first-child
 filesharingtalk.com##div[style="background-color: white; border-width: 2px; border-style: dashed; border-color: white;"]
@@ -106297,7 +106298,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
