@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y3I1OZ5gtZw0S6upyU9wZg
+! Checksum: YETWEGinbu0KIry/fmZdOA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203200823
-! Last Modified: 2022年03月20日 08:23
+! Version: 202203201408
+! Last Modified: 2022年03月20日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -20360,6 +20360,7 @@ _800x80_
 ##.adblock300250
 ##.adblock300x250Spot1
 ##.adblock728x90
+##.adblock__banner
 ##.adblock_noborder
 ##.adblock_primary
 ##.adblockdiv
@@ -20521,6 +20522,7 @@ _800x80_
 ##.adfoot
 ##.adfootbox
 ##.adfooter
+##.adform__topbanner
 ##.adformobile
 ##.adframe
 ##.adframe2
@@ -23002,6 +23004,7 @@ _800x80_
 ##.articleTopAd
 ##.article__ad-holder
 ##.article__ad-ir
+##.article__adblock
 ##.article__adv
 ##.article__inset--margin-ad
 ##.article__leaderboard-ad
@@ -60318,6 +60321,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||woydyd343.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -75786,6 +75790,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nmlysc.wang^
 ||lyabjy.cn^
 ||pingmianshejishi.com^
+||joiakit.com^
+||jlwsw.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
