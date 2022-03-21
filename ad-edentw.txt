@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bwb0MWeooTjCrkbTuSQe+g
+! Checksum: 3MUWNeaBDQ460IhlGzV6pA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203212014
-! Last Modified: 2022年03月21日 20:14
+! Version: 202203220207
+! Last Modified: 2022年03月22日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -772,6 +772,8 @@ fights.cz,spisovatele.cz##body>a[target="_blank"]
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
+seznamzpravy.cz/*ssp.js
+seznamzpravy.cz/*cmp*$script
 novinky.cz,super.cz,sport.cz,seznamzpravy.cz,kupi.cz,horoskopy.cz##[data-cy], [data-e2e-advert], a[href*="adurl="]
 novinky.cz,super.cz,sport.cz,kupi.cz##.burRman
 novinky.cz,super.cz,sport.cz,horoskopy.cz##div[data-impressionurl]
@@ -789,9 +791,8 @@ novinky.cz,super.cz,sport.cz,kupi.cz##iframe[data-cy-loaded]
 novinky.cz,kupi.cz,sport.cz,super.cz##.superPrclanek
 kupi.cz##[data-sssp]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
-seznamzpravy.cz#$#json-prune ads
-seznamzpravy.cz#?#body[class*="baner"]
-seznamzpravy.cz#?#iframe[src*="sklik/imp"]
+seznamzpravy.cz##iframe[width^="30"][style],iframe[width^="30"][class],iframe[width^="30"][id],iframe[height^="60"][id],[class*="adform"i],div[style*="width: 2560"i],a[href*="branding"i],a[href*="clickth"],a[href*="destination"],a[title*="Rеklama"],[data-e2e*="branding-advert"]
+seznamzpravy.cz#$#hide-if-contains-visible-text /Rеklama/ 'div[class*="g_bf"]'
 novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
 novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
 novinky.cz,kupi.cz,sport.cz,super.cz##.plachta-overall-img
@@ -1161,11 +1162,12 @@ nosteam.ro#$#abort-on-property-write jsPop21
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
-spankbang.com#$#abort-on-property-write window.open
+animeheaven.pro,spankbang.com#$#abort-on-property-write window.open
 sxyprn.com,sxyprn.net,strikeout.cc#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 gogoplay1.com,prmovies.bz,speedostream.com#$#abort-current-inline-script JSON.parse
+vizcloud.xyz#$#abort-on-property-read AaDetector
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
