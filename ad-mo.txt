@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /K2h9zuanYMC2QYU/iqFdg
+! Checksum: FGVkl7Bn+n2NlqGdP8ct8g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203210823
-! Last Modified: 2022年03月21日 08:23
+! Version: 202203211409
+! Last Modified: 2022年03月21日 14:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32488,7 +32488,6 @@ tf2r.com#@#.adverts
 ||a289f5f0f2c.com^
 ||a2c653c4d145fa5f96a.com^
 ||a2tw6yoodsag.com^
-||a2zapk.com^
 ||a31daecf420.com^
 ||a337b163a0bc.com^
 ||a353364ec1bd19a.com^
@@ -47842,6 +47841,7 @@ tf2r.com#@#.adverts
 ||a.raasnet.com^$third-party
 ||a2dfp.net^$third-party
 ||a2pub.com^$third-party
+||a2zapk.com^$script,third-party
 ||a3m.io^$third-party
 ||a433.com^$third-party
 ||a4dtrk.com^$third-party
@@ -54856,6 +54856,7 @@ projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
 ndtv.com##.add__txt
 ndtv.com##.add__wrp
+news18.com##.add_section
 ndtv.com##.add_top-wrp-fl
 timesofindia.indiatimes.com##.addblock
 auto-data.net##.adin
@@ -57333,6 +57334,7 @@ porndr.com###PD-Under-player
 deviants.com###_iframe_content
 swfchan.com###aaaa
 javgg.net###adlink
+badassbitch.pics###adv
 flyingjizz.com###adv_inplayer
 milffox.com###advertising
 instantfap.com###af
@@ -60046,7 +60048,9 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
+##.stui-warp-content > a[target="_blank"] > img[height="120px"]
+##DIV[style=" max-width:1000px;  margin:0 auto;"] > A > IMG[height="120px"]
+##DIV[style=" max-width:980px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -106316,7 +106320,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||player.sundaysky.com^$subdocument
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
+@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||puch-ersatzteile.at^*/google-analytics.min.js
@@ -106755,13 +106759,14 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|sanwacompany.co.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|sanwacompany.co.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
 @@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
+@@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
