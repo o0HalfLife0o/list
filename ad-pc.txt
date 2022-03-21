@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UhFCXHioLwhyt6mSbZZYKA
+! Checksum: R8XVEcKK8+X8U8PLyORUVQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203211409
-! Last Modified: 2022年03月21日 14:09
+! Version: 202203212014
+! Last Modified: 2022年03月21日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -30882,7 +30882,7 @@ _800x80_
 ##[href^="https://wct.link/"]
 ##[href^="https://www.dcpodj3k5.com/"]
 ##[href^="https://www.hostg.xyz/aff_c"] > img
-##[href^="https://www.mypillow.com/wayne"] > img
+##[href^="https://www.mypillow.com/"] > img
 ##[href^="https://www.reimageplus.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://zone.gotrackier.com/"]
@@ -32090,7 +32090,7 @@ javynow.com#@#.videos-ad
 globsads.com#@#[href^="http://globsads.com/"]
 mypillow.com#@#[href^="https://mypillow.com/"] > img
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
-mypillow.com#@#[href^="https://www.mypillow.com/wayne"] > img
+mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 reimageplus.com#@#[href^="https://www.reimageplus.com/"]
 amazon.com,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,pccomponentes.com,ripley.cl,ripley.com.pe,wsj.com#@#[id^="google_ads_iframe"]
@@ -55803,6 +55803,7 @@ tekno.kompas.com##.kcm
 goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
 wantedinafrica.com##.kn-widget-banner
+myanimelist.net##.koukoku-sticky-wrapper
 wwe.com##.l-hybrid-col-frame_rail-wrap
 weatherpro.com##.large-leaderboard
 democraticunderground.com##.largeleaderboard-container
@@ -56470,6 +56471,7 @@ emoneyspace.com##.t_a_c
 ndtv.com##.taboolFeed
 thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se##.taboola-row
 protocol.com##.tag-sponsored
+myanimelist.net##.tag_pc_top
 mdisk.me##.taka-gif-con
 recombu.com##.takeover-right
 shacknews.com##.takeover-skin
@@ -60440,6 +60442,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||imgwdyey.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -75910,6 +75913,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiaoyiwang.fun^
 ||ycooh.group^
 ||oioiio.top^
+||bestgong.top^
+||nby360.com^
+||alrr.club^
+||obqetks.cn^
+||llnsmu.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
