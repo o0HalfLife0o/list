@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kDgtR+cqqV1Jueur3LwtDA
+! Checksum: Ukaoxyy9qWP9o+27avBJgA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203220207
-! Last Modified: 2022年03月22日 02:07
+! Version: 202203220825
+! Last Modified: 2022年03月22日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16817,7 +16817,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ykxwn.com^
 ||ynzhby.com^
 ||yong.chazidian.com^
-||youwugong.jobui.com^
+||ywg.jobui.com^
 ||ys.muhoujiemi.com^
 ||ysxywj.com^
 ||ytelc.com^$third-party
@@ -17277,6 +17277,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||baoying.asia^
+||tuangou.pro^
+||lvzi.store^
+||yxzy.asia^
+||gozqezh.cn^
+||884069349.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -26542,6 +26548,7 @@ m.babytree.com##script + a[class]
 /in.php?*&referer=
 /in.php?p=
 /in.php?referer=
+/in/multy?*&event_id=
 /inboundAnalytics.
 /include/js/ga-
 /includes/analytics.
@@ -35311,6 +35318,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.clickpathmedia.com^
 ||analytics.cmn.com^
 ||analytics.codigo.se^
+||analytics.contentexchange.me^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
@@ -38371,6 +38379,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
 ||contentexchange.me/static/tracker.js
+||hits.tf.rs^
+||w4m.rs/tracker.js
 ||stat.ringier.sk^
 ||interseek.si^*/visit.js
 ||1to1.bbva.com^
