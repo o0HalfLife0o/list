@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zDLZd4Q55iz2rET+C6PlJg
+! Checksum: wLMBuef3fSHQsbV6ZOXjjQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203220825
-! Last Modified: 2022年03月22日 08:25
+! Version: 202203221406
+! Last Modified: 2022年03月22日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -636,6 +636,8 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+.me/gg.js
+/skin/ecms082/images/kf-
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1983,7 +1985,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2262,6 +2264,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||woaijiba.com^
+||bjjabc.com^
+||txgg2022bisheng.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17730,6 +17735,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yxzy.asia^
 ||gozqezh.cn^
 ||884069349.ltd^
+||ppt100.site^
+||lihong.ltd^
+||xpchfwl.cn^
+||51mw.club^
+||fishsalt.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22213,7 +22223,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@/analytics.php?$domain=xcar.com.cn
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
-@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
+@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
@@ -22253,7 +22263,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||autoimg.cn/bi/common/pvevent_all_
 @@||bagehd.com/iplookup.
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
+@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
@@ -23316,6 +23326,7 @@ _box_ad_
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||gdmm.com/api.php?mod=js&bid=2188
+||jlwz.cn/js/xf*.js
 !------------------------Specific element hiding rules------------------------!
 qianzhan.com##.qqonline
 qianzhan.com##.kfonline2
