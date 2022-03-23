@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fSKIJ345m8/bkP+YdGEFCA
+! Checksum: B5KS2k4dypK4wT0MK1OaRg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203230208
-! Last Modified: 2022年03月23日 02:08
+! Version: 202203230828
+! Last Modified: 2022年03月23日 08:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -48406,6 +48406,7 @@ tf2r.com#@#.adverts
 ||ahvclick.com^$third-party
 ||aim4media.com^$third-party
 ||akavita.com^$third-party
+||aklamator.com^$third-party
 ||alimama.com^$third-party
 ||allmediadesk.com^$third-party
 ||amobee.com^$third-party
@@ -49265,6 +49266,7 @@ tf2r.com#@#.adverts
 ||servedbysmart.com^$third-party
 ||servemeads.com^$third-party
 ||servenobid.com^$third-party
+||sharemedia.rs^$third-party
 ||sharethrough.com^$third-party
 ||shoofle.tv^$third-party
 ||shoogloonetwork.com^$third-party
@@ -55552,7 +55554,7 @@ annistonstar.com##.custom_hot_deal_image
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
 blockchair.com##.d-block
-fastpic.ru,freesteam.io,theblockcrypto.com##.d-lg-block
+etherscan.io,fastpic.ru,freesteam.io,theblockcrypto.com##.d-lg-block
 bscscan.com,etherscan.io##.d-lg-inline-block
 publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
@@ -55906,6 +55908,7 @@ tvtv.us##.jss67
 essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
+etherscan.io##.justify-content-center
 unsplash.com##.kG7WW > .vNWg5
 hltv.org##.kN5UQvcU
 radaronline.com##.kXxPWv
@@ -57269,6 +57272,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp_phone_detail_thematic"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="adplacements:"]
@@ -57509,7 +57513,7 @@ google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(div[class*="-haAclf-"] > div.UzWqLb)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-haAclf"] > span > button)
-google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane.place.carousel.card"]:-abp-has(span.ARktye-Btuy5e)
+google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane."]:-abp-has(span.ARktye-Btuy5e)
 google.ac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane.place.carousel.card"]:-abp-has(span.ARktye-badge)
 guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
@@ -58933,8 +58937,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
-.me/gg.js
-/skin/ecms082/images/kf-
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -59057,6 +59059,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .la/style/vue.js?v=
 .life/ads/
 .lu/ads/
+.me/gg.js
 .me/s.php?id=$script,third-party
 .men/ads/
 .net/?ss=$script,third-party
@@ -59502,6 +59505,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /show.js?aid=*&pushid=
 /show.js?sp=*&oid=
 /showpage2.asp?u=$script,third-party
+/skin/ecms082/images/kf-
 /sobt_adv.js
 /source/plugin/mama_tips/*
 /static/adsview/*
@@ -60305,8 +60309,10 @@ ubmcmm.baidustatic.com
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
 ##.btn[href*="/viphktv.com/"]
+##a[href$=".anwangdaohang.com"]
 ##a[href$="/108mg8.com"]
 ##a[href$="/186ob.com"]
+##a[href$="/1c626.com"]
 ##a[href$="/244017.cc"]
 ##a[href$="/6626596.com"]
 ##a[href$="/88hjd7.com"]
@@ -60314,11 +60320,13 @@ ubmcmm.baidustatic.com
 ##a[href$="/hg6ee.com"]
 ##a[href$="/liyusheng.com"]
 ##a[href$="/lol8.co"]
+##a[href$="/my15.tv"]
 ##a[href$="/od567.net"]
 ##a[href$="/q522p.com"]
 ##a[href$="/sangmookwan-texas.com"]
 ##a[href$="/xh8k.vip"]
 ##a[href$="/xhg23.com"]
+##a[href$="s.hw226.cn"]
 ##a[href*=".05bq.com/"]
 ##a[href*=".05cg.com/"]
 ##a[href*=".08an.com/"]
@@ -60364,6 +60372,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".gsxzq.com/"]
 ##a[href*=".guzaosf.com/"]
 ##a[href*=".hbjimin.com/"]
+##a[href*=".hhjs20.com"]
 ##a[href*=".hndazhan.com/"]
 ##a[href*=".hth379.com/"]
 ##a[href*=".hth399.com"]
@@ -60460,6 +60469,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
 ##a[href*="/bibo149.com:"]
+##a[href*="/cslpldyc.me"]
 ##a[href*="/d27.tv"]
 ##a[href*="/h91.tv"]
 ##a[href*="/hhvip66.cn"]
@@ -60537,12 +60547,6 @@ ubmcmm.baidustatic.com
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ##a[href^="https://hi.potvpn.com/?from="]
 ##a[onclick*=".lyty665.com"]
-##a[href$=".anwangdaohang.com"]
-##a[href$="/1c626.com"]
-##a[href$="/my15.tv"]
-##a[href$="s.hw226.cn"]
-##a[href*=".hhjs20.com"]
-##a[href*="/cslpldyc.me"]
 ##a[style*=".ajzsa.xyz/"]
 ##a[style*=".e-years.net/"]
 ##a[style*=".memexoxo.com/"]
@@ -60564,10 +60568,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||woaijiba.com^
-||bjjabc.com^
-||txgg2022bisheng.com^
-||8889573.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -60899,6 +60899,7 @@ ubmcmm.baidustatic.com
 ||8881919.cc^
 ||888888888888.online^
 ||88888888vip.top^
+||8889573.com^
 ||88cpc.com^$third-party
 ||88rpg.net^
 ||88shu.cn^$third-party
@@ -61147,6 +61148,7 @@ ubmcmm.baidustatic.com
 ||birdmedia.com^$third-party
 ||bj-bytsk.com^
 ||bjgtsh.com^
+||bjjabc.com^
 ||bjxgw.top^
 ||bjytdqwx.com^
 ||bjzsyx.cn^
@@ -62583,6 +62585,7 @@ ubmcmm.baidustatic.com
 ||twrank.com^$third-party
 ||twzui6.com^
 ||txdwc.cn^
+||txgg2022bisheng.com^
 ||txt2017.com^
 ||txt2019.cc^
 ||txzs168.net^
@@ -68127,7 +68130,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-szjjzs.com##a[href^="/pic/tiao/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72882,6 +72884,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
 vk922.com##a[href^="/ad/"]
 ziyuanba.com##a[href^="/ago."]
+szjjzs.com##a[href^="/pic/tiao/"]
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
@@ -75561,11 +75564,11 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ykxwn.com^
 ||ynzhby.com^
 ||yong.chazidian.com^
-||ywg.jobui.com^
 ||ys.muhoujiemi.com^
 ||ysxywj.com^
 ||ytelc.com^$third-party
 ||yunzuowen.com^$third-party
+||ywg.jobui.com^
 ||yx1.managershare.com^
 ||yylady.cn^
 ||z.grfyw.com^
@@ -76009,19 +76012,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||baoying.asia^
-||tuangou.pro^
-||lvzi.store^
-||yxzy.asia^
-||gozqezh.cn^
-||884069349.ltd^
-||ppt100.site^
-||lihong.ltd^
-||xpchfwl.cn^
-||51mw.club^
-||fishsalt.top^
-||eywvmnf.cn^
-||yuhho.group^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -76163,6 +76153,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51foodsafe.cn^
 ||51gpt.com^
 ||51lx.ink^
+||51mw.club^
 ||51niu.pro^
 ||51showmy.com^
 ||51teach.club^
@@ -76223,6 +76214,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||8563p.cn^
 ||85wa.cn^
 ||86695755.cn^
+||884069349.ltd^
 ||886721.com^
 ||8889888.vip^
 ||888lianmeng.com^
@@ -76525,6 +76517,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||baowt.com^
 ||baoxian28.cn^
 ||baoxk.com^
+||baoying.asia^
 ||baozp.top^
 ||baskba.xyz^
 ||bayil.cn^
@@ -77114,6 +77107,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||exhmuxe.cn^
 ||exusr.com^
 ||exxfttj.cn^
+||eywvmnf.cn^
 ||ezfashion.com.cn^
 ||ezqmrd9tl9.cn^
 ||f1t5pb.cn^
@@ -77163,6 +77157,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fileinput.xyz^
 ||fintechpi.com^
 ||first11.cn^
+||fishsalt.top^
 ||fitpbc.cn^
 ||fj95560.com^
 ||fjfymjm.cn^
@@ -77312,6 +77307,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gou1zhe.com^
 ||gouwupianyi.cn^
 ||govjieyang.cn^
+||gozqezh.cn^
 ||gralfusnzpo006.top^
 ||graypay1.cn^
 ||greeknaturalcyprus.com^
@@ -78113,6 +78109,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lidongyang.shop^
 ||lifuguan.cn^
 ||lihailin.vip^
+||lihong.ltd^
 ||lijie1010.top^
 ||likefly.com.cn^
 ||lilith.ink^
@@ -78205,6 +78202,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lvhqntk.cn^
 ||lvkuaizi.com^
 ||lvsechufang.com^
+||lvzi.store^
 ||lw88.site^
 ||lwlscy.com^
 ||lwobol.cloud^
@@ -78633,6 +78631,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||pouitgy.cn^
 ||powerchase.online^
 ||ppee.xyz^
+||ppt100.site^
 ||ppwxgpr.cn^
 ||pqsjb.cn^
 ||practice-sports.com^
@@ -79277,6 +79276,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ttylmex.cn^
 ||tuadong.com^
 ||tuan512.cn^
+||tuangou.pro^
 ||tuezse.cn^
 ||tufsjnk.cn^
 ||tufute.cn^
@@ -79690,6 +79690,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xn--xkry73b.online^
 ||xnjzsn.com^
 ||xocs.ren^
+||xpchfwl.cn^
 ||xpst0kx.cn^
 ||xpxmpf.cn^
 ||xqigou.top^
@@ -79898,6 +79899,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yueyuelao.cn^
 ||yufuyan.cn^
 ||yugutou.club^
+||yuhho.group^
 ||yuhuanjiuye.com^
 ||yujianli.top^
 ||yumingdan.top^
@@ -79923,6 +79925,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yxjibph.cn^
 ||yxsnf.cn^
 ||yxwpmav.cn^
+||yxzy.asia^
 ||yybnk.cn^
 ||yyhqch.com^
 ||yyklg.xyz^
@@ -93055,6 +93058,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||penton.com/analytics/
 ||perf-events.cloud.unity3d.com^
 ||perf.dugout.com^
+||perf.hsforms.com^
 ||perfdrive.com/aperture/aperture.js
 ||perfops.net/rom3/
 ||performgroup.com/metrics/
@@ -93525,6 +93529,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.contently.com^
 ||track.cordial.io^
 ||track.digitalriver.com^
+||track.hubspot.com^
 ||track.juno.com^
 ||track.mailerlite.com^
 ||track.mituo.cn^
