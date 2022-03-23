@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N4yT9kiDrXaphj9rAU2B6g
+! Checksum: 0Yiooi+QEQI+ZH8mq97Wnw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203231407
-! Last Modified: 2022年03月23日 14:07
+! Version: 202203232013
+! Last Modified: 2022年03月23日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6981,7 +6981,7 @@ tieba.baidu.com##.tuijian-wrap
 ://ad1.
 ://adcl.$domain=~adcl.co.nz|~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
@@ -18495,6 +18495,7 @@ _800x80_
 ##.ad-label
 ##.ad-lable
 ##.ad-landscape
+##.ad-large-1
 ##.ad-large-game
 ##.ad-last
 ##.ad-layer
@@ -18869,6 +18870,7 @@ _800x80_
 ##.ad-slot__oas
 ##.ad-slug
 ##.ad-small
+##.ad-small-1
 ##.ad-small-2
 ##.ad-smallBP
 ##.ad-source
@@ -27215,6 +27217,7 @@ _800x80_
 ##.moduleAdvert
 ##.moduleAdvertContent
 ##.moduleBannerAd
+##.module__ad-wide
 ##.module_ad
 ##.module_ad_disclaimer
 ##.module_box_ad
@@ -54241,6 +54244,8 @@ fanlesstech.com###HTML4 > .widget-content
 fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
+myanimelist.net###M_300x250_1_iframe
+myanimelist.net###M_320x50_1_iframe
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
 audioz.download###PromoHead
@@ -54739,6 +54744,7 @@ ffiles.com###right_col
 medicaldialogues.in###right_level_8
 notdoppler.com###right_link
 hardware.info###right_top
+yardbarker.com###right_top_sticky
 forums.tomshardware.com###rightcol_bottom
 forums.anandtech.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com###rightcol_top
 tubeconverter.net###ringtone-button
@@ -55997,6 +56003,7 @@ gamedev.net##.mb-3.align-items-center.justify-content-start
 indiatimes.com##.mb-36 > .top-trending
 themoscowtimes.com##.mb-4.py-3
 techbone.net##.mb-5.bg-light
+yardbarker.com##.mb_promo_responsive_right
 helpnetsecurity.com##.mbw
 thestar.com.my##.med-rec
 gamezone.com##.med-rect-ph
@@ -56763,6 +56770,7 @@ bit-tech.net##.xtag_container
 247mirror.com,365economist.com,bridewired.com,dailybee.com,drgraduate.com,historictalk.com,mvpmode.com,news-opossumsauce.com,parentmood.com,theecofeed.com,thefunpost.com,visualchase.com,wackojaco.com##.ya-slot
 pravda.ru##.yaRtbBlock
 yardbarker.com##.yb-card-ad
+yardbarker.com##.yb-card-out
 shockwave.com##.ympb_target_banner
 buzzly.art##.z-10.w-max
 tekdeeps.com##.zAzfDBzdxq3
@@ -59568,7 +59576,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /wdzj_banners.js
 /web8/ad/*
 /websales_push_*_big.php?id=
-/wob*?frm=0&url=
+?frm=*&ct=*&dit=$third-party
 /wp-content/themes/iMovies/js/tc_
 /wscdn/*$subdocument
 /wxhfm.html?cid=
@@ -60572,6 +60580,8 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||nalapop.com^
+||hulai0323166.space^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -76018,6 +76028,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zqsj.xyz^
 ||mercurymage.top^
 ||ctoabc.xyz^
+||dxdx.shop^
+||biexsite.net^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -84000,7 +84012,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pixel/impression/*
 /pixel/js/*$third-party
 /pixel/PageStatistics.gif?
-/pixel/sbe?
 /pixel/sbs?
 /Pixel/Script/Behavior?
 /pixel/stats/?
@@ -86812,6 +86823,7 @@ _mongo_stats/
 ||avmws.com^$third-party
 ||awasete.com^$third-party
 ||awesomelytics.com^$third-party
+||awfonts.com^$script,third-party
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
 ||axf8.net^$third-party

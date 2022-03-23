@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JTs21D5oAQRaGxx9tEQ+Rw
+! Checksum: GFY9yXuzu9vdn42cdP+hvg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203231407
-! Last Modified: 2022年03月23日 14:07
+! Version: 202203232013
+! Last Modified: 2022年03月23日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -821,7 +821,7 @@ youle55.com
 /wdzj_banners.js
 /web8/ad/*
 /websales_push_*_big.php?id=
-/wob*?frm=0&url=
+?frm=*&ct=*&dit=$third-party
 /wp-content/themes/iMovies/js/tc_
 /wscdn/*$subdocument
 /wxhfm.html?cid=
@@ -1825,6 +1825,8 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||nalapop.com^
+||hulai0323166.space^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -17271,6 +17273,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zqsj.xyz^
 ||mercurymage.top^
 ||ctoabc.xyz^
+||dxdx.shop^
+||biexsite.net^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -27503,7 +27507,6 @@ m.babytree.com##script + a[class]
 /pixel/impression/*
 /pixel/js/*$third-party
 /pixel/PageStatistics.gif?
-/pixel/sbe?
 /pixel/sbs?
 /Pixel/Script/Behavior?
 /pixel/stats/?
@@ -30315,6 +30318,7 @@ _mongo_stats/
 ||avmws.com^$third-party
 ||awasete.com^$third-party
 ||awesomelytics.com^$third-party
+||awfonts.com^$script,third-party
 ||awin1.com^$third-party
 ||awstrack.me^$third-party
 ||axf8.net^$third-party
