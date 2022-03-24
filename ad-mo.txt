@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: StfLPfcWI/Qv+MyFCXZUoA
+! Checksum: XYJhnr14XwpClSUi5di0YA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203240822
-! Last Modified: 2022年03月24日 08:22
+! Version: 202203241406
+! Last Modified: 2022年03月24日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -371,7 +371,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 &adstrade=
 &adstype=
 &AdType=
-&adurl=
 &cbrandom=
 &clicktag=http
 &displayads=
@@ -54054,6 +54053,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockstreamtape.art|adblock
 ||pornrabbit.com^$subdocument
 ||pornstargold.com/3b0a0cdcb8b4.js
 ||pornstargold.com/cddc4c9399c7.js
+||pornvas.com/lively
 ||pornvibe.org/banners/
 ||pussyspace.com/vr29
 ||rat.xxx/rpi/
@@ -60224,6 +60224,7 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
@@ -75957,6 +75958,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||vipytyl.ltd^
+||pajinse.top^
+||qwzpslp.cn^
+||pdsvrtb.cn^
+||19811231.me^
+||ejnjapw.cn^
+||mk6n4ym.cn^
+||haodong.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
