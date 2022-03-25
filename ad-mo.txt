@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QLxuZZB+H5m24FiMqbGy9w
+! Checksum: UcFJ+KlOJqh5DxVaerBO0A
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203251408
-! Last Modified: 2022年03月25日 14:08
+! Version: 202203252008
+! Last Modified: 2022年03月25日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -54214,7 +54214,9 @@ physicsandmathstutor.com###PMT_Top
 audioz.download###PromoHead
 fortune.com###RightRailFlex_Articles0
 calculatorsoup.com###RightSidebar
+soapcalc.net###SidebarLeft
 daringfireball.net###SidebarMartini
+soapcalc.net###SidebarRight
 imcdb.org###SiteLifeSupport
 roblox.com###Skyscraper-Abp-Left
 roblox.com###Skyscraper-Abp-Right
@@ -56623,6 +56625,7 @@ streamable.com##.topbanner
 drugs.com##.topbanner-wrap
 blabber.buzz##.topfeed
 drivespark.com##.topsection div[style^="float"]
+cambridge.org##.topslot-container
 collinsdictionary.com##.topslot_container
 moviemistakes.com##.tower
 techreen.com##.tr-block-header-ad
@@ -58531,6 +58534,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||libhunt.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.protonmail.com^$generichide
+@@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
 @@||oisd.nl^$generichide
@@ -60260,7 +60264,7 @@ ubmcmm.baidustatic.com
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -60544,11 +60548,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xflsj.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
 ||qwsad.com^
+||iojgo.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -68111,6 +68117,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||miobt.com/public/imgbed/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -75807,6 +75814,8 @@ $image,third-party,domain=258zw.com
 /1MObaudu.$script,xmlhttprequest
 /1skwwd.
 /1xhtml?$script,third-party
+/xxgg/dj*.js
+/xxgg/pf*.js
 /22yq.js
 /2me3/true.js
 /555hsdsj/*
@@ -75831,10 +75840,7 @@ $image,third-party,domain=258zw.com
 /vbvb_*_pmpm.js
 /xxgg/app.js
 /xxgg/book.js
-/xxgg/dj1.js
-/xxgg/dj2.js
 /xxgg/gzh.js
-/xxgg/pfad.js
 /xxgg/pv.js
 /xxgg/xsggs.js
 :4433/hm/cdn/static/jq_
@@ -76000,6 +76006,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||taishu.shop^
 ||choujiang1.top^
 ||totoro.link^
+||illegally.wang^
+||kaivtv.cn^
+||jslmtdgf.xyz^
+||xinghaidianshang.top^
+||prssifu.cn^
+||ltdjifang.xyz^
+||js-tencent.com^
+||yxhjt.com^
+||ahtj365.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -86134,6 +86149,7 @@ cgi-bin/counter
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.pbtech.co.nz/mo/*$image
+/links1.strava.com/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -95401,6 +95417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkedin.com/litms/utag/
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
+||links.strava.com^$image
 ||linktr.ee/events
 ||livehdcams.com/api/events
 ||livehdcams.com/api/metrics
@@ -105266,7 +105283,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||links.playon.tv^
 ||links.schnucks.com^
 ||links.sheroes.in^
-||links.strava.com^
 ||links.t.blueapron.com^
 ||links.t.wine.com^
 ||links.thedyrt.com^
