@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OmHpOFPlnyFUgcesyGc1MA
+! Checksum: sEc4OoCOtQUar02RRqI0Sg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203261406
-! Last Modified: 2022年03月26日 14:06
+! Version: 202203262007
+! Last Modified: 2022年03月26日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4244,7 +4244,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /delivery.ads.
 /delivery.php?pool_id=
 /delivery.php?rnd=
-/delivery/*?advplaces=
 /delivery/afr.
 /delivery/ag.
 /delivery/al.php
@@ -6237,7 +6236,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /some-ad.
 /someads.
 /soralink.js
-/soralink/*
+/soralink/*$~stylesheet
 /sp/delivery/*
 /spac_adx.
 /space_ad.
@@ -18567,6 +18566,7 @@ _800x80_
 ##.ad-place-holder
 ##.ad-placeholder
 ##.ad-placeholder-leaderboard
+##.ad-placeholder-wrapper
 ##.ad-placement
 ##.ad-placement-left
 ##.ad-placement-right
@@ -23187,6 +23187,7 @@ _800x80_
 ##.banner-ad-large
 ##.banner-ad-pos
 ##.banner-ad-row
+##.banner-ad-skeleton-box
 ##.banner-ad-space
 ##.banner-ad-wrap
 ##.banner-ad-wrapper
@@ -40445,7 +40446,6 @@ tf2r.com#@#.adverts
 ||lyceasannop.com^
 ||lycooc.com^
 ||lyricalcomfortfatherinlaw.com^
-||lyricsmint.red^
 ||lyrigh.com^
 ||lyzenoti.pro^
 ||lzdtetwgfyt.com^
@@ -48963,6 +48963,7 @@ tf2r.com#@#.adverts
 ||looksmart.com^$third-party
 ||love-banner.com^$third-party
 ||lustre.ai^$script,third-party
+||lyricsmint.red^$third-party
 ||mad-adz.com^$third-party
 ||magetic.com^$third-party
 ||magnetisemedia.com^$third-party
@@ -53166,7 +53167,8 @@ tf2r.com#@#.adverts
 ||tm-offers.gamingadult.com^$popup
 ||tour.mrskin.com^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
-||1337x.to/images/x28.jpg
+||1337x.*/images/x28.jpg
+||1337x.*/images/x2x8.jpg
 ||2ca.com.au/images/banners/
 ||2merkato.com/images/banners/
 ||2oceansvibe.com/?custom=takeover
@@ -53452,7 +53454,6 @@ tf2r.com#@#.adverts
 ||local.tampabay.com^$subdocument
 ||lw.musictarget.com^
 ||lycos.com/catman/
-||m.haradeiu.rocks^
 ||machineseeker.com/data/ofni/
 ||mail-ads.google.com^
 ||manga18fx.com/bmo/
@@ -54791,7 +54792,6 @@ sciencealert.com###rt-header
 pages.ebay.com###rtm_1658
 ebay.com###rtm_html_441
 noqreport.com###rumble_vj59vh
-flaticon.com###s-p
 skylinewebcams.com###s1123
 skylinewebcams.com###s4152
 wsj.com###saving-united-coupon-list
@@ -55461,7 +55461,6 @@ businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
-coinmarketcap.com##.cmc-native-ad-row
 drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
@@ -55783,6 +55782,7 @@ cnx-software.com##.gno
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
+coinmarketcap.com##.goXFFk
 thelakewoodscoop.com##.gofollow
 golf.com##.golf-ad
 africanadvice.com,pspad.com,sudantribune.com,thehackernews.com##.google
@@ -56495,6 +56495,7 @@ sassyhongkong.com##.site-leaderboard
 wahcricket.com##.site-mainhead
 wallpaper.com##.site-top
 faithtalk1500.com,kfax.com,wmca.com##.siteWrapLink
+warcraftpets.com##.sitelogo > div
 inthesetimes.com##.sites-of-interest
 9gag.tv##.size-728x90
 newsnext.live##.size-large
@@ -56700,6 +56701,7 @@ libhunt.com##.track-event
 futurism.com##.tracking-wider
 futurism.com##.tracking-widest
 bincodes.com##.transferwise
+coinmarketcap.com##.trending-sponsored
 roseindia.net##.tutorialsstaticdata
 todayonline.com##.tw-flex-shrink-2
 joebucsfan.com##.tweet_div1
@@ -56820,7 +56822,6 @@ goal.com##[class^="article_rhrCommercial_"]
 swarajyamag.com##[class^="banner-ad-"]
 romhustler.org##[class^="leaderboard_ad"]
 noqreport.com##[class^="noqre-"]
-coinmarketcap.com##[class^="sponsoredMark_"]
 torlock.com##[class^="wrn"]
 medicalnewstoday.com##[data-ad]
 jobstreet.com.sg##[data-automation="homepage-banner-ads"]
@@ -57003,6 +57004,7 @@ unitconversion.org##a[href="../noads.html"]
 1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
+flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 linkhub.icu##a[href^="/downloadnow.php?"]
 aliexpress.com##a[href^="/item/"][href*="&aem_p4p_detail="]
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
@@ -57227,6 +57229,7 @@ dailydot.com,grammar-monster.com##footer
 law.com,topcultured.com##h3
 greatist.com##hl-adsense
 drive.com.au##hr
+carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
@@ -76081,6 +76084,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sniglet.online^
 ||zjdb2b.wang^
 ||52jimi.top^
+||dsoizkd.cn^
+||hnsyjaeger.site^
+||51yusi.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -107104,6 +107110,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cm-widget.nakanohito.jp/img/$image
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
+@@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -107141,6 +107148,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet

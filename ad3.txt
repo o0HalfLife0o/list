@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4PiFO62ifzK3O7AiW7Z4fg
+! Checksum: fIAuUqSIAhyU9+ylxoynOw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203261406
-! Last Modified: 2022年03月26日 14:06
+! Version: 202203262007
+! Last Modified: 2022年03月26日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -120,6 +120,7 @@ www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ||douyucdn.cn/adxdsp/$image
 wan.douyu.com
+douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
 g.huya.com
@@ -17279,6 +17280,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sniglet.online^
 ||zjdb2b.wang^
 ||52jimi.top^
+||dsoizkd.cn^
+||hnsyjaeger.site^
+||51yusi.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -50552,6 +50556,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cm-widget.nakanohito.jp/img/$image
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
+@@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -50589,6 +50594,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
