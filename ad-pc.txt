@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Rs0XVE2Gbv0NK6n9PQ9EOw
+! Checksum: lEAwb6E/HehL57Ubg0elCA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203260822
-! Last Modified: 2022年03月26日 08:22
+! Version: 202203261406
+! Last Modified: 2022年03月26日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9087,6 +9087,7 @@ _800x80_
 ###ad-blade
 ###ad-block
 ###ad-block-125
+###ad-block-2
 ###ad-block-aa
 ###ad-block-bottom
 ###ad-block-container
@@ -23325,6 +23326,7 @@ _800x80_
 ##.banner300
 ##.banner300_250
 ##.banner300by250
+##.banner300x250
 ##.banner300x84
 ##.banner336
 ##.banner336x280
@@ -24003,6 +24005,7 @@ _800x80_
 ##.buzz_ad_block
 ##.buzz_ad_wrap
 ##.bvi-ads
+##.bvp-ad
 ##.bx-ads
 ##.bx-ads--banner
 ##.bx_ad
@@ -30893,6 +30896,7 @@ _800x80_
 ##[href^="https://shrugartisticelder.com"]
 ##[href^="https://stvkr.com/"]
 ##[href^="https://t.ajrkm.link/"]
+##[href^="https://totlnkcl.com/"]
 ##[href^="https://track.fiverr.com/visit/"] > img
 ##[href^="https://traffserve.com/"]
 ##[href^="https://v.investologic.co.uk/"]
@@ -55847,6 +55851,9 @@ nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
 permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
+freedomfirstnetwork.com##.freed-1
+freedomfirstnetwork.com##.freed-content_4
+freedomfirstnetwork.com##.freed-content_7
 moviemistakes.com##.freestarad
 tripstodiscover.com##.fs-dynamic
 tripstodiscover.com##.fs-dynamic__label
@@ -56961,6 +56968,7 @@ isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
 mc-market.org##[href="https://etherlands.com/"]
 whatsmyreferer.com##[href="https://fakethereferer.com"]
+freedomfirstnetwork.com##[href="https://freedomfirstcoffee.com"]
 summit.news##[href="https://infowarsstore.com/"]
 anitube.biz##[href="https://otpokemon.com/animes/"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
@@ -57076,6 +57084,7 @@ guru99.com##[style^="float"]
 torrentresource.com##[width="150"]:last-child
 drwealth.com##[width="640"]
 4chan.org##[width="728"]
+presearch.org##[x-data*="{ keywordAdFirst:"]
 mobiforge.com##a > img[alt="Ad"]
 freshplaza.com##a.banner
 facebook.com,facebookcorewwwi.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
@@ -57908,6 +57917,7 @@ hotcelebshome.com##.bcpsttl_name_listing
 ok.xxx,pornhat.com##.before-player
 darknessporn.com,familyporner.com##.beside-video
 hqporner.com##.black_friday
+babestare.com##.block
 alphaporno.com,tubewolf.com##.block-banner
 urgayporn.com##.block-banvert
 blogvporn.com##.blue-btns
@@ -57956,6 +57966,7 @@ perfectgirls.net##.container + div + .additional-block-bg
 fetishshrine.com##.content-aside > b
 watchmygf.me##.content-footer
 xxxdessert.com##.content-gallery_banner
+sexyandfunny.com##.content-source
 upornia.com##.content-wrapper > div > [class^="__"]
 youporngay.com##.contentPartner
 gosexpod.com##.content__block_spots
@@ -57987,6 +57998,7 @@ sss.xxx##.fel-item
 tuberel.com##.fel-list
 javfor.tv##.fel-playclose
 hotmovs.com,thegay.com##.fiioed
+sexyandfunny.com##.firstblock
 vxxx.com##.fktcgpktyyccs
 ah-me.com##.flirt-block
 gaysex.tv##.float-ck
@@ -58160,6 +58172,7 @@ myslavegirl.org##.signature
 gayck.com##.simple-adv-spot
 hersexdebut.com##.single-bnr
 porngfy.com##.single-sponsored
+babestare.com##.single-zone
 familyporner.com##.single.alrt
 porn-monkey.com##.size-300x250
 simply-hentai.com##.skyscraper
@@ -58699,6 +58712,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||disneyplus.com^$generichide
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
+@@||engine.presearch.org^$generichide
 @@||fastmail.com^$generichide
 @@||github.com^$generichide
 @@||gitlab.com^$generichide
@@ -59088,6 +59102,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/public/imgbed/gg/*
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -66258,7 +66273,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kikinote.net/iframe
 ||kingkongapp.com^*/web/adv/list?
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
-||kisssub.*/public/imgbed/gg/
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -66567,7 +66581,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
-||miobt.com/public/imgbed/gg/
 ||mipcdn.com^*/mip-*ad-
 ||mipengine.baidu.com/common?
 ||missevan.com^$domain=jijidown.com
@@ -68293,6 +68306,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sinaimg.cn/finance/qihuofarm/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76178,6 +76192,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||sniglet.online^
 ||zjdb2b.wang^
+||52jimi.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
