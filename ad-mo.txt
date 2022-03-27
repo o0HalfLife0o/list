@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1PrBI8T6KH6g1W8/1uu2Tw
+! Checksum: UW6pS/LOn667pygWv6JJHg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202203270203
-! Last Modified: 2022年03月27日 02:03
+! Version: 202203270828
+! Last Modified: 2022年03月27日 08:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -58993,7 +58993,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
-/public/imgbed/gg/*
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -59516,6 +59515,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /pop_DJ2010.swf
 /proxy.htm?id=
 /proxy.html?id=
+/public/imgbed/gg/*
 /pushstart.aspx|$subdocument,third-party
 /PushSystem/attached/image/*
 /qd/js/index/bannerTop.
@@ -60213,6 +60213,8 @@ ubmcmm.baidustatic.com
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
+##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
 ##.spon-img[src*=".alicdn."]
 ##.static-a2d
 ##.stui-pannel > .recommend-two
@@ -60630,6 +60632,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||excsyrv.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -67160,6 +67163,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sina.com/ads/
 ||sina.com/assets/js/dart/
 ||sina.com/rm/
+||sinaimg.cn/finance/qihuofarm/
 ||sinaimg.cn/finance/zwy/sidead_
 ||sinaimg.cn/jslib/kuozhanad.js
 ||sinaimg.cn/large/$domain=chakd.com|seehd.so|xclient.info
@@ -68197,7 +68201,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||sinaimg.cn/finance/qihuofarm/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76081,14 +76084,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||sniglet.online^
-||zjdb2b.wang^
-||52jimi.top^
-||dsoizkd.cn^
-||hnsyjaeger.site^
-||51yusi.xyz^
-||nmgch.top^
-||d03.xyz^
+||iboxs.xyz^
+||untenable.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -76237,8 +76234,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51teach.club^
 ||51vs.club^
 ||51wxyx.cn^
+||51yusi.xyz^
 ||51zdwy.cn^
 ||52homie.cn^
+||52jimi.top^
 ||52lty.store^
 ||52pipaxing.com^
 ||52tushuo.com^
@@ -76967,6 +76966,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||czxjx.cn^
 ||czxym168.cn^
 ||d-star.xyz^
+||d03.xyz^
 ||d2robot.com.cn^
 ||d3zr5ye.cn^
 ||dacedsfa.cn^
@@ -77087,6 +77087,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dryraw.vip^
 ||dscloud.ltd^
 ||dsnfun.cn^
+||dsoizkd.cn^
 ||dspdy.cn^
 ||dss8l0f.cn^
 ||dssdr.top^
@@ -77611,6 +77612,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hnkuangshan.cn^
 ||hnpxsm.com.cn^
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
@@ -78557,6 +78559,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nlyekvc.cn^
 ||nlyjs2015.com^
 ||nmctm.cn^
+||nmgch.top^
 ||nmgpd.com^
 ||nmlhkj.com^
 ||nmlysc.wang^
@@ -79115,6 +79118,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||smvip8.cn^
 ||smxay.com^
 ||sngsn.fun^
+||sniglet.online^
 ||snuoen.com^
 ||sofseo.cn^
 ||sogov587.top^
@@ -80177,6 +80181,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ziyeaiying.com^
 ||zizcy.com^
 ||zjcxyh.cn^
+||zjdb2b.wang^
 ||zjjrlx4.com^
 ||zjksgl.com^
 ||zjlfqf.com^
@@ -91468,6 +91473,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aspservice.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
+||catsys.jp^$third-party
 ||cetlog.jp^$third-party
 ||cheqzone.com^$third-party
 ||cosmi.io^$third-party
@@ -106826,6 +106832,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
