@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uxQa9MQTP47ZAAbWQ+oS/g
+! Checksum: EWyZ6vc/MB85wqVGuPAk+w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203282013
-! Last Modified: 2022年03月28日 20:13
+! Version: 202203290211
+! Last Modified: 2022年03月29日 02:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -42,6 +42,8 @@ qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+qq.com##+js(nosiif,/^/,100)
+qq.com##+js(set, Beacon.prototype.bind, noopFunc)
 v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 qq.com##+js(set, Beacon.prototype.fail, null)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
