@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q5OjgKXK6ExNibnKuTlEWA
+! Checksum: CbqKqBmkLbJR2bZiaEynpg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203281408
-! Last Modified: 2022年03月28日 14:08
+! Version: 202203282013
+! Last Modified: 2022年03月28日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1680,6 +1680,8 @@ ubmcmm.baidustatic.com
 ##.bm.a_c
 ##.bn728-100
 ##.bn728-93
+##.stui-warp-content > a[target="_blank"] > img[height="60px"]
+##DIV[style=" max-width:995px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##.bottomSponsor
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads + .leftd
@@ -2273,14 +2275,18 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*=".apple1818.net"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yjrjmy.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
 ||wangzj.top^
+||wljj56.com^
+||byqxqhb.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -9849,8 +9855,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||e4440.com/img/hmwang.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+duhama.tv###ads
+yemancomic.com##button[style="width:380px; height:50px;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17737,6 +17746,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||usually.wang^
 ||bazhangda.shop^
 ||yaosahrmncc.top^
+||bigcity.ink^
+||yiotufp.cn^
+||zacao.wang^
+||mayie.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

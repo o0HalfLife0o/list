@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nNPv/QdAaObZBj6qmwpZiw
+! Checksum: LXdZBHvCiiuIC0kl0i1VKw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203252008
-! Last Modified: 2022年03月25日 20:08
+! Version: 202203282013
+! Last Modified: 2022年03月28日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1516,8 +1516,7 @@ sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 agroportal.ua#$#abort-on-property-read abn
 kaztorka.org#$#abort-current-inline-script document.createElement Math.random
 naruto-base.su#$#abort-on-property-read njranu
-nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#prevent-listener load appendChild
-nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#prevent-listener click _0x
+nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#abort-on-property-read utarget_script
 vestivrn.ru#$#abort-on-property-read video.preroll
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 paratechnik.ru#$#abort-current-inline-script decodeURIComponent
@@ -1652,6 +1651,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xuongphim18z.com#$#abort-on-property-read document.cookie
 phimtop.net#$#abort-on-property-read document.cookie
+metruyenchu.com#$#abort-on-property-write window.onclick
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
