@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dq2CqHPz2Pmhyj21Edwa5g
+! Checksum: TGYABY8C/phCOYFirN1Yag
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202203290211
-! Last Modified: 2022年03月29日 02:11
+! Version: 202203292013
+! Last Modified: 2022年03月29日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1162,12 +1162,14 @@ nosteam.ro#$#abort-on-property-write jsPop21
 manganelo.tv#$#abort-on-property-read document.createElement
 manga18fx.com#$#abort-on-property-read Math.floor
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
-animeheaven.pro,spankbang.com#$#abort-on-property-write window.open
+animeheaven.pro,emturbovid.com,sexlivesex.net,spankbang.com,supjav.com#$#abort-on-property-write window.open
 sxyprn.com,sxyprn.net,strikeout.cc#$#abort-current-inline-script document.createElement script
 mathwarehouse.com#$#override-property-read MwAserver noopFunc
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 gogoplay1.com,prmovies.bz,speedostream.com#$#abort-current-inline-script JSON.parse
 vizcloud.xyz#$#abort-on-property-read AaDetector
+supjav.com##.asg-overlay
+/js.mangapro.top/*.js^$script,domain=comick.top
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1652,6 +1654,7 @@ xnxx-sex-videos.com#$#override-property-read user_out false
 xuongphim18z.com#$#abort-on-property-read document.cookie
 phimtop.net#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
+/mage98rquewz.com/*.js?^$script,domain=viet69.org
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
