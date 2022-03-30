@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YeYVqidav8pauPwGyZcLsQ
+! Checksum: wprSNARlUWYvQTJ9pnIeYA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202203300206
-! Last Modified: 2022年03月30日 02:06
+! Version: 202203300823
+! Last Modified: 2022年03月30日 08:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21153,6 +21153,7 @@ _800x80_
 ##.ads.MREC3
 ##.ads.MREC4
 ##.ads.bottom
+##.ads.cell
 ##.ads.cta
 ##.ads.grid-layout
 ##.ads.rectangle160
@@ -76350,6 +76351,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||bjcwwsc.xyz^
+||fsyc.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -107102,6 +107105,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||www.ups.com/WebTracking/processInputRequest
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
+@@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yandex.ru/metrika/watch.js$domain=engwords.net
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yottaa.com/rapid.min.js$script,domain=wineenthusiast.com
