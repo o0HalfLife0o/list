@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UkpWlxeM/mo6qYEvs2eFEw
+! Checksum: ey3kssMbSGVr6fcaA2Mfbw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202203302013
-! Last Modified: 2022年03月30日 20:13
+! Version: 202203310206
+! Last Modified: 2022年03月31日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1995,6 +1995,7 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
+##.container > .index-ad
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
@@ -2297,6 +2298,10 @@ ubmcmm.baidustatic.com
 ||01fen.com^
 ||d26yfyk0ym2k1u.cloudfront.net^
 ||tz88.store^
+||zhengxiaoliu.top^
+||limdarwin.top^
+||lm336.com^
+||favourablequickdelve.com^
 ||022aifang.com^
 ||025suyu.com^
 ||033.com^$third-party
@@ -12913,7 +12918,7 @@ hoteastday.com##.incentive
 caixin.com##.incubator
 qqyy.com##.ind_ad
 faxingw.cn##.indadv1
-gw54.com,jojf.cn,x6k.com,xgw5.com,ziyuanyo.com##.index-ad
+gw54.com,jojf.cn,xgw5.com##.index-ad
 oschina.net##.index-ad-wrap
 cndesign.com##.index-add
 py.cn##.index-advert
