@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BF3/nj+9a8CmBrADunep9A
+! Checksum: ISGj+IQNDY1iG0RMDo5Gxw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203310206
-! Last Modified: 2022年03月31日 02:06
+! Version: 202203310823
+! Last Modified: 2022年03月31日 08:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17320,6 +17320,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||eguo.info^
+||ifil.store^
+||mahao.xyz^
+||shequn.online^
+||mayif.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -38999,6 +39004,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intg.snapchat.com^
 ||intuitcdn.net/analytics/
 ||intuitvisitorid.api.intuit.com^
+||invisionapp.com/analytics-api/
 ||iono.fm/tracking?
 ||ip.cliphunter.com^
 ||ip.pichunter.com^
@@ -50210,6 +50216,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||playcanvas.com.*/keen.min.js
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.sundaysky.com^$subdocument
+@@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||postex.com/api/ping?$~third-party
 @@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il
@@ -50339,6 +50346,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
+@@||youbora.com/*/js/adapters/theoplayer$script
 @@||youtube.com/api/analytics/$~third-party
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zoominfo.com/c/amplitude-js$script,~third-party
