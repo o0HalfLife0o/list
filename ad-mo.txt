@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N1TpVJxYcLUboxxbc+iUcg
+! Checksum: 6/5zX1luPbeU4PmY1Sqwuw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204010828
-! Last Modified: 2022年04月01日 08:28
+! Version: 202204011411
+! Last Modified: 2022年04月01日 14:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -30790,6 +30790,7 @@ _800x80_
 ##[href^="http://trafficare.net/"]
 ##[href^="http://www.pingperfect.com/aff.php"]
 ##[href^="https://affect3dnetwork.com/track/"]
+##[href^="https://affiliate.fastcomet.com/"]
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
 ##[href^="https://detachedbates.com/"]
@@ -55322,7 +55323,7 @@ freepik.com##.adobe-detail
 flightglobal.com,thriftyfun.com##.adp
 vice.com##.adph
 1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,energyforecastonline.co.za,esports.com,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,idiva.com,indiatimes.com,inspirock.com,knowyourmeme.com,m.economictimes.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,roadaheadonline.co.za,roms-download.com,russia-insider.com,russian-faith.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,sherdog.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tcm.com,tech2.com,tehrantimes.com,tellerreport.com,thecatholicuniverse.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,y8.com,yummy.ph##.ads
-indianexpress.com,roblox.com,spotify.com##.ads-container
+indianexpress.com,roblox.com,spotify.com,wccftech.com##.ads-container
 lightnovelpub.com##.adsbox
 informer.com##.adsbygoogle
 gayvegas.com,looktothestars.org,nintandbox.net,plurk.com,thebarentsobserver.com,tolonews.com##.adsense
@@ -57122,6 +57123,7 @@ manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 extension.today##[href^="https://peanuts.pro/site/store"]
 mmos.com##[href^="https://plarium.com/landings/"]
+cryptonews.com##[href^="https://rapi.cryptonews.com/"]
 all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
@@ -76344,6 +76346,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||wulongqiyi.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82047,6 +82050,7 @@ fqsousou.com,kengso.com#@#.user-share
 /bicomscore_
 /biddr-analytics.
 /bidiq.
+/bili-collect.
 /bin/reff.php
 /bin/stats?
 /bineos.min.js
@@ -83926,7 +83930,7 @@ fqsousou.com,kengso.com#@#.user-share
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
-/metrics/metrics$domain=~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -106136,6 +106140,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
+||weibo.com/aj/log/
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wenku.baidu.com/tongji/
@@ -106144,6 +106149,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wspeed.qq.com^
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
+||xiaohongshu.com/api/collect
+||xiaohongshu.com/api/v2/collect
 ||xiaomi.com/js/mstr.js?
 ||ylog.huya.com^
 ||youdao.com/cf.gif?
@@ -107060,6 +107067,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party

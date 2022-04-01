@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oJlX48Dd3DWllqvrrw9uxQ
+! Checksum: altstweWL96LCj+WUp8vQw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204010828
-! Last Modified: 2022年04月01日 08:28
+! Version: 202204011411
+! Last Modified: 2022年04月01日 14:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17326,6 +17326,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||wulongqiyi.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25279,6 +25280,7 @@ m.babytree.com##script + a[class]
 /bicomscore_
 /biddr-analytics.
 /bidiq.
+/bili-collect.
 /bin/reff.php
 /bin/stats?
 /bineos.min.js
@@ -27158,7 +27160,7 @@ m.babytree.com##script + a[class]
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
-/metrics/metrics$domain=~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -49368,6 +49370,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||weather.com.cn/a1.js
 ||web-player-tracker.biliapi.net^
 ||webstat.kuwo.cn^
+||weibo.com/aj/log/
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wenku.baidu.com/tongji/
@@ -49376,6 +49379,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wspeed.qq.com^
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
+||xiaohongshu.com/api/collect
+||xiaohongshu.com/api/v2/collect
 ||xiaomi.com/js/mstr.js?
 ||ylog.huya.com^
 ||youdao.com/cf.gif?
@@ -50292,6 +50297,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||store.usps.com/media/js/metrics/metrics.js
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party
