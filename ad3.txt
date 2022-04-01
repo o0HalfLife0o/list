@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lN7bId0KnDJWSSC/vYSQGQ
+! Checksum: oJlX48Dd3DWllqvrrw9uxQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204010205
-! Last Modified: 2022年04月01日 02:05
+! Version: 202204010828
+! Last Modified: 2022年04月01日 08:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -42,8 +42,9 @@ qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+v.qq.com#@#+js(nosiif,/^/,100)
 qq.com##+js(nosiif,/^/,100)
-qq.com##+js(set, Beacon.prototype.bind, noopFunc)
+!qq.com##+js(set, Beacon.prototype.expo, noopFunc)
 v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 qq.com##+js(set, Beacon.prototype.fail, null)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
@@ -28096,6 +28097,7 @@ m.babytree.com##script + a[class]
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentry.unit-
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -49072,7 +49074,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wikipedia.de/tracking.js
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||ymprove.web.de^
-||zdf.de/atinternet/live/smarttag.js
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
