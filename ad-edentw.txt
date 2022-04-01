@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: COcPNbPMYz/3BQdtR1zSFw
+! Checksum: nGdzxnbuRfA6dyZsJWOSNQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204012013
-! Last Modified: 2022年04月01日 20:13
+! Version: 202204020206
+! Last Modified: 2022年04月02日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1170,6 +1170,14 @@ gogoplay1.com,komikcast.com,prmovies.bz,speedostream.com#$#abort-current-inline-
 vizcloud.xyz#$#abort-on-property-read AaDetector
 supjav.com##.asg-overlay
 /js.mangapro.top/*.js^$script,domain=comick.top
+/rass7.*.js^$script,domain=upornia.com
+/barbar7.*.js^$script,domain=hclips.com
+/nofa7.*.js^$script,domain=txxx.com
+txxx.com,upornia.com##.video-slider
+pornwhite.com###pre-spots
+pornwhite.com##.content-aside
+pornwhite.com##.video-options.long
+pornwhite.com##.bottom-banners
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1242,6 +1250,8 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 ||see.xxx/poppy/*.js^$domain=see.xxx
 ||hdtube.porn/hdt/hdt.js^$domain=hdtube.porn
 /js/initsite.js^$domain=anysex.com|xcafe.com
+/js/customscript.js^$domain=pornwhite.com
+/local_p.js^$domain=megatube.xxx
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
