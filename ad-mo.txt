@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6/5zX1luPbeU4PmY1Sqwuw
+! Checksum: sfzt09zbq/X8HWd287uiJA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204011411
-! Last Modified: 2022年04月01日 14:11
+! Version: 202204012013
+! Last Modified: 2022年04月01日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12900,6 +12900,7 @@ _800x80_
 ###cliczone-advert-left
 ###cliczone-advert-right
 ###clientAds
+###close-footer-ad
 ###closeAdsDiv
 ###closeable-ad
 ###cloudAdTag
@@ -60569,6 +60570,7 @@ ubmcmm.baidustatic.com
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
+##div[onclick*="?i_code="]
 ##div[onclick*=".leyu"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
