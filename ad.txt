@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WMoE/2FpiLLVHEYenNnvVg
+! Checksum: moZOfSgCMgFkMIVx89OvDw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204030825
-! Last Modified: 2022年04月03日 08:25
+! Version: 202204031408
+! Last Modified: 2022年04月03日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2293,6 +2293,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||d40.xyz^
+||yystzl.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -14504,6 +14506,7 @@ wigcw.cn##a[href*=".gwents.com"]
 acglala.me##a[href*=".h-ero.games"]
 423down.com,ctfile.com##a[href*=".henghost.com"]
 hanjutv2020.com##a[href*=".hujiang.com"]
+libvio.com##a[href*=".jd.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 wmzhe.com##a[href*=".jd.com/"]
 chinanews.com##a[href*=".jiuxianfeng.com"]
@@ -17777,6 +17780,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||nxdfg.xyz^
+||preroot.xyz^
+||jnqiangzhi.xyz^
+||kgho.info^
+||yanguomedia.top^
+||dlevpmd.cn^
 ||wulongqiyi.com^
 ||shenfagg.com^
 ||huixiangdou.xyz^

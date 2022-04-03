@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: buYnIN8ZpKsSlnkwUtv2Tg
+! Checksum: SD3rJSVqMDmNQ6UN/vaj3g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204030825
-! Last Modified: 2022年04月03日 08:25
+! Version: 202204031408
+! Last Modified: 2022年04月03日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -9749,6 +9749,7 @@ _800x80_
 ###adPlacer
 ###adPopBOTtOM
 ###adPopover
+###adPopup
 ###adPosOne
 ###adPosition0
 ###adPosition14
@@ -23111,6 +23112,7 @@ _800x80_
 ##.atf-wrapper
 ##.atfAds
 ##.atf_ad300
+##.atf_adWrapper
 ##.atf_ad_box
 ##.atf_placeholder
 ##.attachment-advert_home
@@ -30399,6 +30401,7 @@ _800x80_
 ##.werb_textlink
 ##.wfb-ad
 ##.wg-ad-square
+##.wgAd-loaded
 ##.wh_ad
 ##.wh_ad_inner
 ##.white-ad-block
@@ -38068,6 +38071,7 @@ tf2r.com#@#.adverts
 ||ggkgocbyhut.xyz^
 ||ggkk.xyz^
 ||gglx.me^
+||ggrywyonmyvh.com^
 ||ggsfq.com^
 ||ggunauhe.com^
 ||ggydofjoubxptm.xyz^
@@ -38302,6 +38306,7 @@ tf2r.com#@#.adverts
 ||gotibetho.pro^
 ||gotjobbs.com^
 ||gotohouse1.club^
+||gousouse.com^
 ||govbusi.info^
 ||governessarson.com^
 ||governrecycling.com^
@@ -50741,6 +50746,7 @@ tf2r.com#@#.adverts
 ||lowseelan.com^$popup
 ||lowtyroguer.com^$popup
 ||lucretius-ada.com^$popup
+||luublimaluulo.com^$popup
 ||luvaihoo.com^$popup
 ||lvztx.com^$popup
 ||m73lae5cpmgrv38.com^$popup
@@ -55545,6 +55551,7 @@ livecharts.co.uk##.banner_long
 weatheronline.co.uk##.banner_oben
 as.com##.banner_sup
 mamul.am##.bannerb
+flatpanelshd.com##.bannerdiv_twopage
 arcadebomb.com##.bannerext
 2merkato.com,2mfm.org,aps.dz,armyrecognition.com,beginlinux.com,botswanaguardian.co.bw,cbn.co.za,dailynews.co.tz,digitalmediaworld.tv,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,pamplinmedia.com,radiolumiere.org,southfloridagaynews.com,thepatriot.co.bw##.bannergroup
 saigoneer.com##.bannergroup-main
@@ -56001,6 +56008,7 @@ satbeams.com##.footer_banner
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
 nintendolife.com,purexbox.com,pushsquare.com##.for-desktop
+flatpanelshd.com##.forsideboks2
 permies.com##.forum-top-banner
 newsroom.co.nz##.foundingpartners
 theiphoneappreview.com##.frame
@@ -56316,6 +56324,7 @@ allnurses.com##.medrec
 techrepublic.com##.medusa_right-rail
 audiokarma.org##.message > center b
 eawaz.com##.metaslider
+metro.co.uk##.metro-discounts
 moneycontrol.com##.mf_radarad
 wethegeek.com##.mfp-content
 cryptoreporter.info,palestinechronicle.com##.mh-header-widget-2
@@ -59242,6 +59251,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||accounts.google.com^$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
+@@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||admin.mgid.com^$popup
 @@||ads.amazon^$popup
 @@||ads.askgamblers.com^$popup
@@ -60937,6 +60947,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||d40.xyz^
+||yystzl.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -73148,6 +73160,7 @@ wigcw.cn##a[href*=".gwents.com"]
 acglala.me##a[href*=".h-ero.games"]
 423down.com,ctfile.com##a[href*=".henghost.com"]
 hanjutv2020.com##a[href*=".hujiang.com"]
+libvio.com##a[href*=".jd.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 wmzhe.com##a[href*=".jd.com/"]
 chinanews.com##a[href*=".jiuxianfeng.com"]
@@ -76421,6 +76434,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||nxdfg.xyz^
+||preroot.xyz^
+||jnqiangzhi.xyz^
+||kgho.info^
+||yanguomedia.top^
+||dlevpmd.cn^
 ||wulongqiyi.com^
 ||shenfagg.com^
 ||huixiangdou.xyz^
@@ -96531,6 +96550,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||build.com/2Ztkihy4/init.js
 ||carbon38.com/A44kxi5a/init.js
+||careermatch.com/oGckki0e/init.js
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||couchsurfing.com/bEcn7fQX/init.js
 ||crunchbase.com/rw7M6iAV/init.js
@@ -96549,6 +96569,7 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||foursquare.com/0UqK4c76/init.js
 ||freepeople.com/tN88Q85M/init.js
 ||hotpads.com/xOR1K5b6/init.js
+||internships.com/oGckki0e/init.js
 ||jimmyjohns.com/Abo2Yc8X/init.js
 ||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com/IZ/PXXiuO7QTJ/init.js
