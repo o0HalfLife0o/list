@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KTfeZ8irqc6Ex6Yep2TYEQ
+! Checksum: r8Wah+GriKQH9Chf4vwDQw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204031408
-! Last Modified: 2022年04月03日 14:08
+! Version: 202204032008
+! Last Modified: 2022年04月03日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1848,6 +1848,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||d40.xyz^
 ||yystzl.cn^
+||govshangxi.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17339,6 +17340,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kgho.info^
 ||yanguomedia.top^
 ||dlevpmd.cn^
+||oldart.shop^
+||rkohksa.cn^
 ||wulongqiyi.com^
 ||shenfagg.com^
 ||huixiangdou.xyz^
@@ -37166,6 +37169,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
+||th.bing.com/th/*&riu=$image,third-party
 ||thdstatic.com/analytics/$domain=homedepot.com
 ||the-group.net/aether/
 ||thefilter.com/events/view?
@@ -49458,6 +49462,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tijd.be/track/
 ||topspin.npo.nl^
 ||track.pexi.nl^
+||tracking.voordeeluitjes.nl^
 ||tweakers.net/x/scripts/min/TyYQlL.js
 ||tweakers.net^*&p=$image
 ||vroom.be^*/stats.js?
