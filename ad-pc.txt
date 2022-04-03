@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qtnnI3R5iwVLaFTHdR431g
+! Checksum: Ky9vNbDSxRgVl4BXGHGvSQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204022007
-! Last Modified: 2022年04月02日 20:07
+! Version: 202204030825
+! Last Modified: 2022年04月03日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26419,7 +26419,6 @@ _800x80_
 ##.iqadlinebottom
 ##.iqadmarker
 ##.iqadtile_wrapper
-##.is-below-header-ad
 ##.is-mpu
 ##.is-preload-ad
 ##.is-script-ad
@@ -56291,6 +56290,7 @@ flixboss.com##.instream-dynamic
 defenseone.com##.interstitial
 allnurses.com##.ipsAreaBackground
 allnurses.com##.ipsSpacer_both
+si.com##.is-below-header-ad
 alibaba.com##.is-creative
 mydramalist.com##.is-desktop
 twitter.com##.is-promoted
@@ -109619,7 +109619,7 @@ m.babytree.com##script + a[class]
 pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
 qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
-||p2p.$xhr,websocket,ping
+||p2p.$xhr,websocket,ping,domain=~huya.com
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -109733,6 +109733,7 @@ douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
 g.huya.com
+||msstatic.com/huya/*/p2plib.js$script
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 litix.io
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
