@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q6tO4KHtFqMQVsWytt7npg
+! Checksum: D1TX20hPZJvQZ3k3GGIsmQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204042013
-! Last Modified: 2022年04月04日 20:13
+! Version: 202204050207
+! Last Modified: 2022年04月05日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1251,7 +1251,8 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 ||hdtube.porn/hdt/hdt.js^$domain=hdtube.porn
 /js/initsite.js^$domain=anysex.com|xcafe.com
 /js/customscript.js^$domain=pornwhite.com
-/local_p.js^$domain=megatube.xxx
+/local_p.js^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com|megatube.xxx
+/s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
 ! #CV-691
 ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
@@ -1288,7 +1289,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/fb_non-graph.txt ***
 ! #CV-761
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /S.*p.*o.*n.*s.*o.*r.*e.*d.*/ div[aria-describedby] a[aria-label="label"] span[class]
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*e.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o.*)|(P.*u.*b.*l.*i.*c.*i.*d.*a.*d.*)|(P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o.*)|(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*i.*s.*é.*)|(G.*e.*s.*p.*o.*n.*s.*o.*r.*d.*)/ div[aria-describedby] a[aria-label="label"] span[class]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/span[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/b[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span//b[@class][contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
@@ -1535,7 +1536,7 @@ vestivrn.ru#$#abort-on-property-read video.preroll
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 paratechnik.ru#$#abort-current-inline-script decodeURIComponent
 dota2.ru#$#abort-on-property-read helpUsImproveSite
-fastpic.org,~new.fastpic.org,fastpic.ru,~new.fastpic.ru#$#abort-current-inline-script Math.random; abort-on-property-read document.getElementsByTagName; abort-on-property-read Math.floor
+fastpic.org,~new.fastpic.org,fastpic.ru,~new.fastpic.ru#$#abort-current-inline-script document.querySelectorAll, popMagic; abort-current-inline-script Math.random; abort-on-property-read document.getElementsByTagName; abort-on-property-read utarget_script
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 city.ogo.ua#$#abort-on-property-read myatu_bgm
@@ -1664,8 +1665,7 @@ sexphimhd.net,gvnvh18.com,g18vn.com#$#abort-current-inline-script Math
 360thethao.net#$#abort-current-inline-script onload /puURL/
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xuongphim18z.com#$#abort-on-property-read document.cookie
-phimtop.net#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimdinhcao.com,phimtop.net#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ||mage98rquewz.com^
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
