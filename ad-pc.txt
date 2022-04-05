@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rQid0ISBgrqeUewZBZWtIg
+! Checksum: rqsV7U4qdoIvHhkuV8mY3g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204050824
-! Last Modified: 2022年04月05日 08:24
+! Version: 202204051408
+! Last Modified: 2022年04月05日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54977,6 +54977,7 @@ blastingnews.com###content-banner-dx1-p1
 classicreload.com###content-top
 lineageos18.com###contentLocker
 123proxy.biz###cookieConsentUR99472
+returnyoutubedislike.com###cool-people
 wsj.com###coupon-links
 titantv.com###ctl00_Main_TVL_ctl00_sb
 leader.co.za###ctl00_cphBody_pnUsefulLinks
@@ -55375,7 +55376,7 @@ downloads.codefi.re###spo2
 firmwarefile.com###spon
 progressillinois.com###sponsor
 meteocentrale.ch###sponsor-info
-fastseduction.com,geekwire.com,landreport.com,returnyoutubedislike.com,whenitdrops.com###sponsors
+fastseduction.com,geekwire.com,landreport.com,whenitdrops.com###sponsors
 sanjose.com###sponsors-module
 ourworldofenergy.com###sponsors_container
 rent.ie###sresult_banner
@@ -57676,6 +57677,7 @@ cryptorank.io##div[class^="banner__Container-"]
 theculturetrip.com##div[class^="billboard_"]
 historycollection.com##div[class^="cis_add_block"]
 cryptorank.io##div[class^="desktop__BannerWrap-"]
+3dnatives.com##div[class^="dnati-"]
 goal.com##div[class^="fedex_banner_"]
 keengamer.com##div[class^="gameon-in-"]
 keengamer.com##div[class^="gameon-mpu-"]
@@ -57799,7 +57801,7 @@ carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,mangadna.com,mangceh.cc,messitv.net,miraculous.to,playlist-youtu.be,prmovies.bz,prmovies.li,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,mangadna.com,mangahere.today,manganatos.com,mangceh.cc,messitv.net,miraculous.to,playlist-youtu.be,prmovies.bz,prmovies.li,putlockers.li,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 premiumtimesng.com##img[alt$=" Ad"]
@@ -76705,6 +76707,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51yw.club^
 ||ytb2017.club^
 ||liangzhuangxiu.top^
+||chenaiwx.xyz^
+||wltt.xyz^
+||yiongminghan.xyz^
+||jirtb.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -86946,6 +86952,7 @@ cgi-bin/counter
 /t.ifly.southwest.com/*$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
+/T/OFC4/*$image
 /track/open.php?
 /track/open?
 /tracking.fanbridge.com/*
