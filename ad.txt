@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5wON1uEI/YEcVvOa1frD7g
+! Checksum: 1kPOVcXRIAj1CMjjKvp2Yw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204052012
-! Last Modified: 2022年04月05日 20:12
+! Version: 202204060208
+! Last Modified: 2022年04月06日 02:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1905,6 +1905,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.video-item-ads
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -2294,6 +2295,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||govshanghai.cn^
+||d32bug9eb0g0bh.cloudfront.net^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9883,12 +9886,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzbaike.com/main/arvixe
 ||zzbaike.com/main/host
 ||zzc.cn/b1/live_b_
+||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
 ||zzidc.com/images/1060.jpg
 ||zzidc.com/uploads/pintuan.jpg
 ||zzlzl.com/zb_users/theme/Frozen/style/images/banner/
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
