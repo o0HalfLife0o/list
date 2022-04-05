@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5kz3dqCEmdK4IgZAgMTHQQ
+! Checksum: lWmseVL2ixfKUhMjaGkeEg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204051408
-! Last Modified: 2022年04月05日 14:08
+! Version: 202204052012
+! Last Modified: 2022年04月05日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -872,7 +872,7 @@ youle55.com
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
+://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -1850,6 +1850,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||govchaozhou.cn^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -17190,6 +17191,7 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
+##iframe[src*=".xxmh"][src*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
@@ -26490,7 +26492,7 @@ m.babytree.com##script + a[class]
 /google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /GoogleAdnalyticsJs?
 /googleana.
@@ -29725,6 +29727,7 @@ cgi-bin/counter
 .getblueshift.com/q/
 .google-analytics.com/
 .hootsuite.com/trk?
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image

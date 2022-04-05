@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: D1l1mZ5AMGST293rzJsY8A
+! Checksum: RcrIbUbqgk+ONZFdfFOKmA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204051408
-! Last Modified: 2022年04月05日 14:08
+! Version: 202204052012
+! Last Modified: 2022年04月05日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -21763,6 +21763,7 @@ _800x80_
 ##.adsmedrect
 ##.adsmedrectright
 ##.adsmessage
+##.adsninja-ad-zone
 ##.adsnippet_widget
 ##.adsns
 ##.adsonar-after
@@ -22620,6 +22621,7 @@ _800x80_
 ##.advertisements-sidebar
 ##.advertisementsOutterDiv
 ##.advertisements_contain
+##.advertisements_heading
 ##.advertisementsubtitle
 ##.advertisementwrap
 ##.advertiser
@@ -23562,6 +23564,8 @@ _800x80_
 ##.block-mps
 ##.block-nmadition
 ##.block-nst-googledfp
+##.block-nyx-ads-ninja
+##.block-nyx-ads-ninja-ad-block
 ##.block-ohtdisplayad
 ##.block-openads
 ##.block-openadstream
@@ -55888,6 +55892,7 @@ businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
+thenetnaija.co##.cmp-list
 drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
@@ -56325,6 +56330,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
 wmtips.com##.img100
 exchangerates.org.uk##.imt4
+businessinsider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
@@ -56386,6 +56392,7 @@ goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
 wantedinafrica.com##.kn-widget-banner
 myanimelist.net##.koukoku-sticky-wrapper
+iphonelife.com##.l-header
 wwe.com##.l-hybrid-col-frame_rail-wrap
 weatherpro.com##.large-leaderboard
 democraticunderground.com##.largeleaderboard-container
@@ -59042,8 +59049,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||z.moatads.com^$script,domain=standard.co.uk
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
-@@||google.com/recaptcha/$csp,subdocument
-@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/$csp,script,subdocument
 @@||gstatic.com/recaptcha/
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
@@ -60131,7 +60137,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
+://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -61109,6 +61115,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||govchaozhou.cn^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -76449,6 +76456,7 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
+##iframe[src*=".xxmh"][src*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
@@ -83499,7 +83507,7 @@ fqsousou.com,kengso.com#@#.user-share
 /google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /GoogleAdnalyticsJs?
 /googleana.
@@ -86734,6 +86742,7 @@ cgi-bin/counter
 .getblueshift.com/q/
 .google-analytics.com/
 .hootsuite.com/trk?
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image

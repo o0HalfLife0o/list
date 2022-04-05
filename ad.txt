@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hSmb4SlXQAWsA4fz64IQpg
+! Checksum: 5wON1uEI/YEcVvOa1frD7g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204051408
-! Last Modified: 2022年04月05日 14:08
+! Version: 202204052012
+! Last Modified: 2022年04月05日 20:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1319,7 +1319,7 @@ youle55.com
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
+://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -2297,6 +2297,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||govchaozhou.cn^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -17637,6 +17638,7 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
+##iframe[src*=".xxmh"][src*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
