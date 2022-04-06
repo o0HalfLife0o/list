@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: thGO8Sd2yAOT6/XJ0XoX3Q
+! Checksum: 3J2kvZRj3EnXf3XGd5QCZQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204061409
-! Last Modified: 2022年04月06日 14:09
+! Version: 202204062013
+! Last Modified: 2022年04月06日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -19904,6 +19904,10 @@ _800x80_
 ##.ad_Flexi_MiddleRight
 ##.ad_Left
 ##.ad_Right
+##.ad__300x250
+##.ad__300x600
+##.ad__970x250
+##.ad__align
 ##.ad__caption
 ##.ad__centered
 ##.ad__container
@@ -25136,6 +25140,7 @@ _800x80_
 ##.fix-ad
 ##.fix_ad
 ##.fixed-ad-160x600
+##.fixed-ad-aside
 ##.fixed-ad-bottom
 ##.fixed-ad-bottom--banner
 ##.fixed-ad300-1
@@ -33073,6 +33078,7 @@ tf2r.com#@#.adverts
 ||adscale.de^
 ||adscampaign.net^
 ||adscarrot.com^
+||adschill.com^
 ||adsco.re^
 ||adscreendirect.com^
 ||adscustsrv.com^
@@ -35902,6 +35908,7 @@ tf2r.com#@#.adverts
 ||cqrvwq.com^
 ||cqsfdunhf.com^
 ||cr-brands.net^
+||crabdefend.com^
 ||crackerenmity.com^
 ||cradleton.xyz^
 ||cragbrasyeps.com^
@@ -38639,6 +38646,7 @@ tf2r.com#@#.adverts
 ||gscontxt.net^
 ||gstralpolita.info^
 ||gsvyjunccsw.com^
+||gtbdhr.com^
 ||gtherequ.club^
 ||gtrd.xyz^
 ||gtructinde.xyz^
@@ -39837,6 +39845,7 @@ tf2r.com#@#.adverts
 ||joastous.com^
 ||joawapti.net^
 ||joawwtwzeoas.com^
+||jobfilletfortitude.com^
 ||jobhonsh.com^
 ||jobsyndicate.com^
 ||jockeryfgtu.club^
@@ -41882,6 +41891,7 @@ tf2r.com#@#.adverts
 ||nkwintenc.biz^
 ||nkyouvery.fun^
 ||nlbtrwhykjtc.com^
+||nld0jsg9s9p8.com^
 ||nlntrk.com^
 ||nlop.xyz^
 ||nlqqrsgr.com^
@@ -42738,6 +42748,7 @@ tf2r.com#@#.adverts
 ||pastreflected.com^
 ||pastspur.com^
 ||pasxfixs.com^
+||patalogs.com^
 ||patchovercome.com^
 ||paternalhumiliate.com^
 ||patgsrv.com^
@@ -44890,6 +44901,7 @@ tf2r.com#@#.adverts
 ||se42ade5e3son7ing.com^
 ||seabedchita.com^
 ||seaboblit.com^
+||seamankidding.com^
 ||seamchristmas.com^
 ||searchdatestoday.com^
 ||searchdims.network^
@@ -55812,6 +55824,7 @@ ggrecon.com##.artSideBgBox
 ggrecon.com##.artSideBgBoxBig
 ggrecon.com##.artSideWrapBoxSticky
 coindesk.com##.article-com-wrapper
+firstforwomen.com##.article-content__sponsored_tout_ad___1iSJm
 businesslive.co.za##.article-da
 eonline.com##.article-detail__right-rail--topad
 eonline.com##.article-detail__segment-ad
@@ -56456,6 +56469,7 @@ worldpress.org##.header-b
 adswikia.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,runt-of-the-web.com,warisboring.com##.header-banner
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
 worldpress.org##.header-bnr
+realestate.com.au##.header-leaderboard
 times.co.zm##.header-pub
 newtimes.co.rw##.header-top
 androidcentral.com,crackberry.com,imore.com,technobuffalo.com,thrifter.com,windowscentral.com##.header-top-alert-bar
@@ -57861,6 +57875,7 @@ malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk##div[style^="margin-bottom:15px"][class^="jsx-"]
+thetealmango.com##div[style^="margin: 8px auto; text-align:"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
 add0n.com,wccftech.com##div[style^="min-height:90px"]
 keybr.com##div[style^="position:relative;min-width:"]
@@ -58019,6 +58034,7 @@ petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
 consequence.net##.video_container
 consequence.net##.wasp-video-player
+firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
@@ -86997,6 +87013,7 @@ cgi-bin/counter
 .titus.de/oo/$image
 .travis-ci.com/r/$image
 .umusic-online.com^*/o.gif
+.warehousefashion.com/warehouse/e/$image
 .webex.com/q/
 .wix.com/_api/ping/
 .zalando.com/images/probe.png
@@ -87017,9 +87034,11 @@ cgi-bin/counter
 /emimp/*$image
 /eo?_t=$image
 /etrack01.com/*$image
+/eventing.coursera.org/img/*
 /exmo.email/open.html
 /gate.amnesty-international.*/open.php?
 /gp/r.html?$image
+/gridinbound.blob.core.
 /impression?mkevt=
 /is-tracking-pixel-
 /link.coindesk.com/img/*
@@ -87028,16 +87047,20 @@ cgi-bin/counter
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.pbtech.co.nz/mo/*$image
+/link.theatlantic.com/img/*
 /links1.strava.com/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
 /media.sailthru.com/5ik/1k4/9/*.gif
+/newsletter/log/*$image
+/newsletter/read?s=$image
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
 /open.html?$image
+/p/rp/*?mi_u=*=&sap_id=$image
 /p1x1.gif
 /page.bsigroup.com/*
 /pixel-prod.
@@ -95565,6 +95588,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ranking.apis.sankei-digital.co.jp^
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
+||reproio.com^$third-party
 ||rlog.popin.cc^
 ||s.dc-tag.jp^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
@@ -96425,7 +96449,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||perf.mouser.com^
-||pexa.realestate.com.au^
 ||pf.newegg.com^
 ||phar.gu-web.net^
 ||phonearena.com/_track.php
@@ -107128,6 +107151,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||piccy.org.ua/c?
 ||sport.ua/pixel/
 ||target.ukr.net^
+||analytics.aita.gov.vn^
 ||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
 ||pixel.coccoc.com^
