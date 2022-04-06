@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3J2kvZRj3EnXf3XGd5QCZQ
+! Checksum: l7bFdrAF1qGF8wzAjQ+VtQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204062013
-! Last Modified: 2022年04月06日 20:13
+! Version: 202204070207
+! Last Modified: 2022年04月07日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26380,6 +26380,7 @@ _800x80_
 ##.innerAdWrapper
 ##.innerAds
 ##.innerContentAd
+##.innerWidecontentAd
 ##.inner_ad
 ##.inner_ad_advertise
 ##.inner_adv
@@ -27729,6 +27730,7 @@ _800x80_
 ##.outside_ad
 ##.outsider-ad
 ##.outstream-ad-outer-wrapper
+##.ov-ad-slot
 ##.ovAdLabel
 ##.ovAdPromo
 ##.ovAdSky
@@ -68918,8 +68920,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sucloud.xyz/js/tou.js
+||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hurigirls99.xyz###undertd + div[style]
+hurigirls99.xyz###undertd
+hurigirls99.xyz###rightd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
