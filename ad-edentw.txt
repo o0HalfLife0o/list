@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lltDGzBrOlbdDrrJYIeYZg
+! Checksum: 0NI9Ml4MzbjNJrJ9IWQu3Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204070207
-! Last Modified: 2022年04月07日 02:07
+! Version: 202204072014
+! Last Modified: 2022年04月07日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -794,7 +794,6 @@ seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
 seznamzpravy.cz#$#abort-on-property-write sznIVA
 seznamzpravy.cz#$#override-property-read smspopotstkllmkspt 1
 seznamzpravy.cz#$#abort-on-property-read Object.prototype.sspdebugmode
-seznamzpravy.cz#$#abort-on-property-read setInterval
 seznamzpravy.cz#$#abort-on-property-read Object.prototype.BASIS
 seznamzpravy.cz#$#prevent-listener message window.top
 seznamzpravy.cz##iframe[width^="30"][style],iframe[width^="30"][class],iframe[width^="30"][id],iframe[height^="60"][id],[class*="adform"i],div[style*="width: 2560"i],a[href*="branding"i],a[href*="clickth"],a[href*="destination"],a[title*="Rеklama"],[data-e2e*="branding-advert"]
@@ -1482,6 +1481,7 @@ cinevision.online#$#abort-on-property-write atob
 topflix.fm#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 onifile.com#$#abort-on-property-read _pop
 pobtre.wtf##a[target="_blank"] > img[width="728"][height="90"]
+yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/romanian.txt ***
