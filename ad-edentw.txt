@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0NI9Ml4MzbjNJrJ9IWQu3Q
+! Checksum: BZ0ZPtX5yTB2R5y2Sq0xUg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204072014
-! Last Modified: 2022年04月07日 20:14
+! Version: 202204080204
+! Last Modified: 2022年04月08日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1295,7 +1295,6 @@ bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/fb_non-graph.txt ***
 ! #CV-761
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*e.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o.*)|(P.*u.*b.*l.*i.*c.*i.*d.*a.*d.*)|(P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o.*)|(S.*p.*o.*n.*s.*r.*a.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*s.*é.*)|(G.*e.*s.*p.*o.*n.*s.*o.*r.*d.*)/ div[aria-describedby] a[aria-label="label"] span[class]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/span[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./span[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span/b[contains("Sponsorizzato Sponsored Gesponsert Sponsorisé Commandité Patrocinado Publicidad Bersponsor",concat(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][1],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][2],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][3],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][4],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][5],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][6],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][7],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][8],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][9],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][10],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][11],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][12],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][13],./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])][14]))][count(./b[not(self::node()[contains(@style,"absolute") or contains(@style,"none")])]) > 6]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span//b[@class][contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
@@ -1310,6 +1309,8 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@id="watch_fee
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@data-pagelet="MainFeed"]//span[not(self::node()[contains(@class," ")])]//a[@aria-label="Sponsored"]/ancestor::div[not(@id)][starts-with(@class,"_")]'
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
+! Experimental
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(C.*o.*m.*m.*a.*n.*d.*i.*t.*é.*)|(S.*p.*o.*n.*s.*o.*r.*e.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*z.*z.*a.*t.*o.*)|(P.*u.*b.*l.*i.*c.*i.*d.*a.*d.*)|(P.*a.*t.*r.*o.*c.*i.*n.*a.*d.*o.*)|(S.*p.*o.*n.*s.*r.*a.*d.*)|(S.*p.*o.*n.*s.*o.*r.*i.*s.*é.*)|(G.*e.*s.*p.*o.*n.*s.*o.*r.*d.*)/ div[aria-describedby] a[aria-label="label"] span[class]
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
 ! #CV-663
