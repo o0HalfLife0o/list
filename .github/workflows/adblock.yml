@@ -101,7 +101,7 @@ jobs:
           fi
 
       - name: Deliver download Dir
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: steps.download.outputs.status == 'failed'
         with:
           name: AllFiles
@@ -109,7 +109,7 @@ jobs:
             ./download/
 
       - name: Deliver new and old_no_title Di
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         if: steps.diffResult.outputs.status == 'failed'
         with:
           name: AllFiles
