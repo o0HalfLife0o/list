@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L0FfVjI4oaiS4QNcaB9WsA
+! Checksum: qxiAFTvVf0K203TjqehnIA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204092008
-! Last Modified: 2022年04月09日 20:08
+! Version: 202204100203
+! Last Modified: 2022年04月10日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1227,6 +1227,7 @@ ubmcmm.baidustatic.com
 ##.advInfoElem
 ##.advertising_lightbox
 ##.afc_popup
+##.cfa_popup
 ##.anniversary-wrap-2018
 ##.artad
 ##.article_ad_top
@@ -1859,6 +1860,10 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||d8962a.xyz^
+||qintingapp.com^
+||yuquad.com^
+||kukanlm-youeryuan.com^
+||lee2code.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9469,6 +9474,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||baidu.com/ndwkasp/
+||u3c3.cc^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17372,6 +17378,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tianhong.mobi^
 ||songshijiazu.cn^
 ||bfjl.ink^
+||hitugou.com^
 ||hkbmsb.fun^
 ||hotbanner.site^
 ||hqtlw.cn^
@@ -25747,6 +25754,7 @@ m.babytree.com##script + a[class]
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -29293,7 +29301,7 @@ m.babytree.com##script + a[class]
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -30158,6 +30166,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||dratingmaject.com^
+||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
 ||emycewiw.xyz^
@@ -49144,6 +49153,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -49166,6 +49176,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^
@@ -49705,12 +49716,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
+||dxlive.com/js/dtrace.js
 ||fensi.plus^*/tracking/
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js

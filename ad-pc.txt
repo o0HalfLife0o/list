@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EHLWVgKbGa2vAYqEaUK09g
+! Checksum: VoP+QGEeR160Eo5kxGRC3w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204092008
-! Last Modified: 2022年04月09日 20:08
+! Version: 202204100203
+! Last Modified: 2022年04月10日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1030,7 +1030,7 @@ tieba.baidu.com##.tuijian-wrap
 .openxtag.
 .org/ad-
 .org/ad.$~script
-.org/ad/
+.org/ad/$domain=~ylilauta.org
 .org/adgallery1
 .org/ads-
 .org/ads/
@@ -3764,6 +3764,8 @@ tieba.baidu.com##.tuijian-wrap
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/akame160.html
+/akame300.html
 /amazon-ad-
 /amazon-apstag.
 /amazon-associates-link-$~stylesheet
@@ -8237,6 +8239,7 @@ _800x80_
 /popunder.$popup
 /popunder_$popup
 /popupads.$popup
+/prod/go.html?$popup
 /prod/redirect.html?lu=$popup
 /realmedia/ads/*$popup
 /show?bver=$popup
@@ -21961,6 +21964,7 @@ _800x80_
 ##.adstyle
 ##.adsupperugo
 ##.adsupperugo_txt
+##.adsverting
 ##.adsvideo
 ##.adswallpapr
 ##.adswidget
@@ -26929,6 +26933,7 @@ _800x80_
 ##.m-advert
 ##.m-advertisement
 ##.m-advertisement--container
+##.m-balloon-header--ad
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
 ##.m-content-advert
@@ -32014,6 +32019,7 @@ _800x80_
 lalovings.com#@##AdContainer
 dez.ro#@##ad-carousel
 apnaohio.com,miradiorumba.com#@##ad-header
+so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
 techymedies.com#@##ad-top
 afterdawn.com,download.fi,edukas.fi#@##ad-top-banner-placeholder
@@ -32061,6 +32067,8 @@ transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 dmkt-sp.jp#@#.ad-label
 guloggratis.dk#@#.ad-links
+so-net.ne.jp#@#.ad-notice
+so-net.ne.jp#@#.ad-outside
 hulu.com#@#.ad-root
 wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
@@ -37464,6 +37472,7 @@ tf2r.com#@#.adverts
 ||expertcamomile.com^
 ||expertist.xyz^
 ||expertnifg.com^
+||expertsulfury.com^
 ||explanationrecognise.com^
 ||exploitnookconsequently.com^
 ||exploreholidayexcellent.com^
@@ -43340,6 +43349,7 @@ tf2r.com#@#.adverts
 ||portedgatesfeel.com^
 ||portenttwinehypothetically.com^
 ||portkingric.net^
+||portoteamo.com^
 ||portoutsid.xyz^
 ||portprintingchecking.com^
 ||portscalculateappease.com^
@@ -46485,6 +46495,7 @@ tf2r.com#@#.adverts
 ||totentacruelor.com^
 ||tothisimpo.biz^
 ||totlnkbn.com^
+||totlnkcl.com^
 ||totogetica.com^
 ||totorogyring.com^
 ||totreatwith.co^
@@ -46579,6 +46590,7 @@ tf2r.com#@#.adverts
 ||trc85.com^
 ||trccmpnlnk.com^
 ||trcked.me^
+||trdnewsnow.net^
 ||treacherousaccentbruise.com^
 ||treacherouslongingjunkie.com^
 ||treasuresensignron.com^
@@ -48949,6 +48961,7 @@ tf2r.com#@#.adverts
 ||adpushup.com^$third-party
 ||adqic.com^$third-party
 ||adquantix.com^$third-party
+||adquery.io^$third-party
 ||adquest3d.com^$third-party
 ||adrcdn.com^$third-party
 ||adreactor.com^$third-party
@@ -51828,6 +51841,7 @@ tf2r.com#@#.adverts
 ||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||totalnicefeed.com^$popup
+||totlnkcl.com^$popup
 ||touroumu.com^$popup
 ||tozoruaon.com^$popup
 ||track-campaing.club^$popup
@@ -52916,7 +52930,6 @@ tf2r.com#@#.adverts
 ||essayerudite.com/images/banner/
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
-||expertsulfury.com^$third-party
 ||extensoft.com/artisteer/banners/
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
@@ -53932,6 +53945,7 @@ tf2r.com#@#.adverts
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
+||animeland.tv/ios.html
 ||animesuge.to/E/aircraftmighty.com/
 ||aolcdn.com/ads/$script
 ||apl95.me/js/pop.js
@@ -54165,7 +54179,6 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
-||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -54835,6 +54848,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||ipornxxx.net/banners/
 ||jav.work/p.js
 ||javhub.net/av/js/cpp.js
+||jennylist.xyz/img/yep.gif
+||jennylist.xyz/t63fd79f7055.js
 ||jerkdude.com/log300.jpg
 ||joysporn.sex/js/pj.js
 ||k-teen.com/banner/
@@ -57911,6 +57926,7 @@ historycollection.com##div[class^="cis_add_block"]
 cryptorank.io##div[class^="desktop__BannerWrap-"]
 3dnatives.com##div[class^="dnati-"]
 goal.com##div[class^="fedex_banner_"]
+msn.com##div[class^="galleryPage_bannerAd"]
 keengamer.com##div[class^="gameon-in-"]
 keengamer.com##div[class^="gameon-mpu-"]
 keengamer.com##div[class^="gameon-top-"]
@@ -58372,6 +58388,10 @@ guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
+instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
+instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
+kroger.com#?#.KDSProductCarouselView:-abp-has(span:-abp-contains(Featured))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
@@ -58405,6 +58425,7 @@ mtgarena.pro#?##root > div > div:-abp-has(> .vm-placement)
 mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
+target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
@@ -59647,6 +59668,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
 @@||smarters.ro/academy$~third-party,xmlhttprequest
+@@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
@@ -60838,6 +60860,7 @@ ubmcmm.baidustatic.com
 ##.advInfoElem
 ##.advertising_lightbox
 ##.afc_popup
+##.cfa_popup
 ##.anniversary-wrap-2018
 ##.artad
 ##.article_ad_top
@@ -61470,6 +61493,10 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||d8962a.xyz^
+||qintingapp.com^
+||yuquad.com^
+||kukanlm-youeryuan.com^
+||lee2code.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -69080,6 +69107,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||baidu.com/ndwkasp/
+||u3c3.cc^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -76983,6 +77011,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tianhong.mobi^
 ||songshijiazu.cn^
 ||bfjl.ink^
+||hitugou.com^
 ||hkbmsb.fun^
 ||hotbanner.site^
 ||hqtlw.cn^
@@ -83108,6 +83137,7 @@ fqsousou.com,kengso.com#@#.user-share
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -86654,7 +86684,7 @@ fqsousou.com,kengso.com#@#.user-share
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -87519,6 +87549,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||dratingmaject.com^
+||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
 ||emycewiw.xyz^
@@ -106505,6 +106536,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -106527,6 +106559,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^
@@ -107066,12 +107099,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
+||dxlive.com/js/dtrace.js
 ||fensi.plus^*/tracking/
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
