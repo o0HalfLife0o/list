@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n+Y84a5oqfqgnnVt4PvFDg
+! Checksum: w7wdxzoaEVIKoKdexMjz6w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204090825
-! Last Modified: 2022年04月09日 08:25
+! Version: 202204092008
+! Last Modified: 2022年04月09日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -472,10 +472,11 @@ cad.youku.com
 ||valipl.cp31.ott.cibntv.net/$media
 |https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 ||sealine.youku.com/yk/*callback=adpagesdk$script
-iqiyi.com##div[data-adzone],#block-V
+iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"], div[data-adzone],#block-V
 iqiyi.com##+js(aeld,dblclick,t.fullToggle)
-!iqiyi.com##+js(nano-sib)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 ||static.iqiyi.com/js/common/mars_v.js$script
 ||iqiyi.com/videos/other/20$xmlhttprequest,object-subrequest
 ||iqiyipic.com/image/20*_100000$image
@@ -489,7 +490,7 @@ qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
-v.qq.com#@#+js(nosiif,/^/,100)
+sports.qq.com,v.qq.com#@#+js(nosiif,/^/,100)
 qq.com##+js(nosiif,/^/,100)
 !qq.com##+js(set, Beacon.prototype.expo, noopFunc)
 !v.qq.com#@#+js(aopr, Beacon.prototype.fail)
@@ -2304,6 +2305,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||d8962a.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17815,6 +17817,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiangsm.club^
 ||mayib.xyz^
 ||tianhong.mobi^
+||songshijiazu.cn^
+||bfjl.ink^
 ||hkbmsb.fun^
 ||hotbanner.site^
 ||hqtlw.cn^
