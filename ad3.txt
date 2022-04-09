@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GcBpZ312ljlyb1fxc7klqQ
+! Checksum: wLkE1hklFEOIdjlRopJTsg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204090209
-! Last Modified: 2022年04月09日 02:09
+! Version: 202204090825
+! Last Modified: 2022年04月09日 08:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -5750,7 +5750,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
-||bd2020.com/gg/
+||bd2020.co/gg/
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -10080,7 +10080,7 @@ brushes8.com###flxgg
 gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
 juxia.com###fmt
-bd2020.com###fmtdiv
+bd2020.co###fmtdiv
 apk.tw###focus
 news.qq.com###focus-bar
 qq.com###focus_jordon
@@ -14376,7 +14376,7 @@ bkill.com##body > a:first-child
 ygdy8.cc##body > a[href^="/"]
 fastadmin.net##body > a[target="_blank"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##body > div[ad-dom-img]
-bd2020.com##body > div[id^="z"]
+bd2020.co##body > div[id^="z"]
 tiexue.net##body > div[onclick]
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 hdwan.net##body > div[style]
@@ -17365,6 +17365,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qkixi.com^
 ||zzyytt.top^
 ||qianhua.co^
+||jiangsm.club^
+||mayib.xyz^
+||tianhong.mobi^
 ||hkbmsb.fun^
 ||hotbanner.site^
 ||hqtlw.cn^
@@ -30271,6 +30274,7 @@ _mongo_stats/
 ||trkbc.com^
 ||tru.am^
 ||truffle.bid^
+||trx-hub.com^
 ||tryzens-analytics.com^
 ||turboeagle.co^
 ||turbolion.io^
@@ -39325,6 +39329,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qz.com/log
 ||r.bbci.co.uk^
 ||r.my.com^
+||ranker.com/api/tr?
 ||rankhit.china.com^
 ||realestate.com.au^*/p.js
 ||realitytvworld.com/images/pixel.gif
