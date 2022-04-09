@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /3L0GA4e2ZQQg9fz4hBOww
+! Checksum: 9XXsFHfPk+uCbsGzqJf89g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204090825
-! Last Modified: 2022年04月09日 08:25
+! Version: 202204091404
+! Last Modified: 2022年04月09日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -45947,7 +45947,6 @@ tf2r.com#@#.adverts
 ||suvpgtkxafrsdv.com^
 ||suxhap.com^
 ||suzanne.pro^
-||suzihaza.com^
 ||svacdnjutk.com^
 ||svclqyctlijue.com^
 ||sviter2s1olenyami1.com^
@@ -56553,6 +56552,7 @@ golf.com##.golf-ad
 africanadvice.com,pspad.com,sudantribune.com,thehackernews.com##.google
 apkmirror.com##.google-ad-leaderboard
 smsfi.com##.google_ad_home_page_100percent
+topservers.com##.google_slot
 mediamass.net##.googleresponsive
 css3generator.com##.gotta-pay-the-bills
 perfectdailygrind.com##.gpdgeng
@@ -56778,6 +56778,7 @@ reverso.net##.locd-rca
 gunsamerica.com##.logclick
 1071thepeak.com##.logo-scroll
 siberiantimes.com##.logoBanner
+topservers.com##.long_wrap
 netwerk24.com##.love2meet
 tigerdroppings.com##.lowLead
 bikeroar.com##.lower-panel
@@ -83409,7 +83410,7 @@ fqsousou.com,kengso.com#@#.user-share
 /DynamicAnalytics.
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -87270,6 +87271,10 @@ cgi-bin/counter
 ://email.*/e/o/
 _ad_impression.
 /_/trace/trace/*
+/rrweb-script.
+/rrweb.js
+/rrweb.min.js
+/rrweb/*
 /DNSCheck.js
 /DNSChecker.js
 /hawk.js
@@ -95987,12 +95992,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||top.elec.ru^
 ||track.recreativ.ru^
 ||track.spacepush.ru^
+||tracker.comagic.ru^
 ||tracking.gpm-rtv.ru^
 ||tracking.retailrocket.net^
 ||traktor.ru^*/counter.php?
 ||ulogin.ru/js/stats.js
 ||upstats.yadro.ru^
 ||uptolike.com/widgets/*/imp?
+||visitor-microservice.ext.p-a.im^
 ||webtrack.biz^$third-party
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||yandeg.ru/count/
@@ -96702,6 +96709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
+||roistat.com^*/addVisit?
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^
