@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k1pn+BCd97nAU1EgahhhrA
+! Checksum: nhbXhMacz2N3TLGL2owakA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204101406
-! Last Modified: 2022年04月10日 14:06
+! Version: 202204102007
+! Last Modified: 2022年04月10日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1192,7 +1192,6 @@ tieba.baidu.com##.tuijian-wrap
 /ad-identifier.
 /ad-ifr.
 /ad-iframe-
-/ad-iframe.
 /ad-iframe?
 /ad-image.
 /ad-images/*$~image
@@ -4442,7 +4441,6 @@ tieba.baidu.com##.tuijian-wrap
 /dmn-advert.
 /dne_ad.
 /dns_ad/*
-/dnsads.
 /domainads/*
 /domen_ads.
 /door/ads/*
@@ -9405,6 +9403,7 @@ _800x80_
 ###ad-sidebarleft-top
 ###ad-single-spotlight-container
 ###ad-skin
+###ad-skm-below-content
 ###ad-sky
 ###ad-sky-atf
 ###ad-sky-btf
@@ -29890,6 +29889,7 @@ _800x80_
 ##.tfagAd
 ##.tgads-box
 ##.tge-ad
+##.th-ad
 ##.thb_ad_before_header
 ##.thb_ad_header
 ##.theAdvert
@@ -55401,7 +55401,7 @@ steroid.com###lead_area_opener
 iphonic.tv,kontraband.com,motherproof.com,nutritioncuisine.com,sansabanews.com,thestreet.com###leader
 thepostmillennial.com###leader-mot
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
-bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
+12tomatoes.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -55943,6 +55943,7 @@ journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
+shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
 silverprice.org##.alt-content
 forecast7.com##.altad
@@ -56678,7 +56679,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
 wmtips.com##.img100
 exchangerates.org.uk##.imt4
-businessinsider.com##.in-post-sticky
+businessinsider.com,insider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
@@ -56812,6 +56813,7 @@ tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 wccftech.com##.main-background-wrap
 ggrecon.com##.mainVenatusBannerContainer
+myanimelist.net##.mal-side-koukoku
 color-hex.com##.margin10
 fandom.com##.marketplace
 designtaxi.com##.masonry-brick.nt
@@ -56996,6 +56998,7 @@ wweek.com##.pb-f-phanzu-phanzu-ad-code
 washingtonpost.com##.pb-lgmod
 playbuzz.com##.pb-site-player
 caixinglobal.com##.pc-ad-left01
+myanimelist.net##.pda-tla-nUGkAdHmiepCTsbx
 myanimelist.net##.pda_top
 westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
@@ -61495,6 +61498,9 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||150075.com^
 ||netkantu.com^
+||carolinebeverly.com^
+||tptoon.com/skin/js/footkk.
+||calistabeverly.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -69113,6 +69119,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+51live.com###adquality
+51live.com###waterMark
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -72845,6 +72853,7 @@ ithome.com##.related_buy
 tiexue.net##.reloadCont > div:first-child
 hoteastday.com##.reloadMedia1
 so.com##.res-mediav
+ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-romance"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
 baidu.com##.result-op[tpl="pc-education-fs"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
@@ -74676,13 +74685,14 @@ cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 zdfans.com##ul[id^="gaosuxiazai"]
 firefoxchina.cn##ul[track-key="adv_links"]
 toolfk.com##wavy + div[style]
+weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
-weibo.com#?#.wbpro-side-panel:-abp-has(.wbpro-icon-search-tp4:-abp-contains(商))
+weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
 wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 x3cn.com#?#.commonDiv:-abp-has(.ad)
@@ -77006,6 +77016,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tiantai.ink^
 ||wangye.icu^
 ||schlaftabletten.cn^
+||ntwaafv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -110312,10 +110323,10 @@ age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
-dandanzan10.top,nunuyy10.top##+js(set,RTCPeerConnection,null)
-dandanzan10.top,nunuyy10.top##+js(set,webkitRTCPeerConnection,null)
-dandanzan10.top,nunuyy10.top#@#+js(nowebrtc)
-dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
+dandanzan10.top,nnyy6.top##+js(set,RTCPeerConnection,null)
+dandanzan10.top,nnyy6.top##+js(set,webkitRTCPeerConnection,null)
+dandanzan10.top,nnyy6.top#@#+js(nowebrtc)
+dandanzan10.top,nnyy6.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
 aqours.today
 envyindebted.com
