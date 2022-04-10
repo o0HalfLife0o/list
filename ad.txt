@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: thVxblEV57EuTCpHNcoh/g
+! Checksum: j/KoRRCsm5cogoFwvvuTbA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204100203
-! Last Modified: 2022年04月10日 02:03
+! Version: 202204100824
+! Last Modified: 2022年04月10日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1425,6 +1425,7 @@ ubmcmm.baidustatic.com
 ###ad_headerbanner
 ###adad
 ###adrights14
+###ads.row
 ###ads_c_tpc
 ###ads_in_video
 ###ads_top_video
@@ -1437,6 +1438,8 @@ ubmcmm.baidustatic.com
 ###asdw
 ###asdw2
 ###asdw2 + img
+###aside_cat_ad_bottom
+###bl_mobile_float
 ###body > #left-promotion
 ###body > #right-promotion
 ###bottom-gg1
@@ -1445,6 +1448,9 @@ ubmcmm.baidustatic.com
 ###bottombanner
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
+###cat_intro_first_ad
+###cat_intro_second_ad
+###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > .sectionBanner
 ###crazy_ad_float
@@ -1674,8 +1680,8 @@ ubmcmm.baidustatic.com
 ##.advInfoElem
 ##.advertising_lightbox
 ##.afc_popup
-##.cfa_popup
 ##.anniversary-wrap-2018
+##.appdownload_ad + .hider
 ##.artad
 ##.article_ad_top
 ##.asb-index
@@ -1700,6 +1706,7 @@ ubmcmm.baidustatic.com
 ##.bus_adsbox
 ##.buyaoa-below
 ##.cari-ads
+##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
@@ -1940,13 +1947,6 @@ ubmcmm.baidustatic.com
 ##.yd_ad1
 ##.yd_ad2
 ##.yd_ad3
-###ads.row
-##.appdownload_ad + .hider
-###cat_intro_first_ad
-###cat_intro_second_ad
-###bl_mobile_float
-###comic_reader + #adDisabledBtn
-###aside_cat_ad_bottom
 ##.yd_ad5
 ##.yd_ad6
 ##.zhanzhang_tuijian_btn
@@ -2306,19 +2306,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||d8962a.xyz^
-||qintingapp.com^
-||yuquad.com^
-||kukanlm-youeryuan.com^
-||lee2code.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||meritiny.top^
-||42yenxh.cn^
-||catherinebeverly.com^
-||dsqzk.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -2507,6 +2498,7 @@ ubmcmm.baidustatic.com
 ||3vlm.com^$third-party
 ||4006825178.com^
 ||40fenzhong.com^
+||42yenxh.cn^
 ||4480dy.net^
 ||44pv.com^$third-party
 ||4567.org^$third-party
@@ -2949,6 +2941,7 @@ ubmcmm.baidustatic.com
 ||caomindianying.com^
 ||captivias.site^
 ||cardniu.com^$third-party
+||catherinebeverly.com^
 ||cb.baidu.com^
 ||cbhif.com^
 ||cbjs.baidu.com^
@@ -3065,6 +3058,7 @@ ubmcmm.baidustatic.com
 ||d32bug9eb0g0bh.cloudfront.net^
 ||d40.xyz^
 ||d8360.com^$third-party
+||d8962a.xyz^
 ||dadjia.com^
 ||dahanedu.com^
 ||daikuanfanli.com^
@@ -3135,6 +3129,7 @@ ubmcmm.baidustatic.com
 ||drmcmm.baidu.com^
 ||drmfslx.cn^
 ||dslenggui.com^
+||dsqzk.cn^
 ||dszan.com^
 ||dt243100.com^
 ||duiwai.baidu.com^
@@ -3706,6 +3701,7 @@ ubmcmm.baidustatic.com
 ||ku63.com^$third-party
 ||ku9377.com^
 ||kuaizitech.com^$third-party
+||kukanlm-youeryuan.com^
 ||kuqi.com^$third-party
 ||kuwoyy.com^
 ||kuxinqi.com^
@@ -3729,6 +3725,7 @@ ubmcmm.baidustatic.com
 ||lcttty.top^
 ||le123.cn^$third-party
 ||le4le.com^
+||lee2code.com^
 ||leeleo.top^
 ||leletuitui.com^
 ||letaojuan68.com^
@@ -3844,6 +3841,7 @@ ubmcmm.baidustatic.com
 ||meihaoxiangwang.com^
 ||meituangov.cn^
 ||mengbli.com^
+||meritiny.top^
 ||metmt.com^
 ||metro114.com^
 ||mezhai.net^
@@ -4031,6 +4029,7 @@ ubmcmm.baidustatic.com
 ||qingsedhhh.xyz^$third-party
 ||qingyanmjg.com^
 ||qinqiaotrade.com^
+||qintingapp.com^
 ||qinzhihao.com^
 ||qiqivv.com^
 ||qiqiww.com^
@@ -4769,6 +4768,7 @@ ubmcmm.baidustatic.com
 ||yunmowu.com^
 ||yunrong360.com^
 ||yunsoka.com^
+||yuquad.com^
 ||yuyue008.cn^
 ||yvfnb.cn^
 ||ywadf.cn^
@@ -6120,6 +6120,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/img/iknow/wenku*85.
 ||baidu.com/ndcore/interface/searchTop?
 ||baidu.com/ndview/interface/hx/
+||baidu.com/ndwkasp/
 ||baidu.com/newspage/api/getadsdata?
 ||baidu.com/newspage/api/getimagelandafd?
 ||baidu.com/newspage/api/getmobads?
@@ -9221,6 +9222,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||u17i.com/readad/
+||u3c3.cc^*.gif
 ||u3c3.com^*.gif
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
@@ -9920,8 +9922,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||baidu.com/ndwkasp/
-||u3c3.cc^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17814,22 +17814,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||hspstudio.club^
-||mayig.xyz^
-||fxc.ink^
-||qkixi.com^
-||zzyytt.top^
-||qianhua.co^
-||jiangsm.club^
-||mayib.xyz^
-||tianhong.mobi^
-||songshijiazu.cn^
-||bfjl.ink^
-||hitugou.com^
-||hkbmsb.fun^
-||hotbanner.site^
-||hqtlw.cn^
-||mouruidesign.cn^
+||tiantai.ink^
+||wangye.icu^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18413,6 +18399,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bestgong.top^
 ||better-better.com.cn^
 ||betylife.com^
+||bfjl.ink^
 ||bgelvy.cn^
 ||bgtrtv.top^
 ||bhxqyeyy.cn^
@@ -19076,6 +19063,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fwnetrb.cn^
 ||fx2lh9m.cn^
 ||fxbjg.com^
+||fxc.ink^
 ||fxfhjs.com^
 ||fxhfxhf.cc^
 ||fxkycvo.cn^
@@ -19346,6 +19334,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hiibcfr.cn^
 ||hikari.wiki^
 ||hissq.com^
+||hitugou.com^
 ||hixili.top^
 ||hjgd.ltd^
 ||hjjnpx.com^
@@ -19355,6 +19344,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hjyll.top^
 ||hk50606.cn^
 ||hk9600.com^
+||hkbmsb.fun^
 ||hkdyys.cn^
 ||hkosgxn.cn^
 ||hkoytvx.cn^
@@ -19406,6 +19396,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hongwenge.com^
 ||hongyangbg.com^
 ||honoka.design^
+||hotbanner.site^
 ||houanjijuxie.cn^
 ||houfang8.com^
 ||hougonw.com^
@@ -19414,6 +19405,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hpygame.com^
 ||hqcqz2.cn^
 ||hqsjc.com^
+||hqtlw.cn^
 ||hqwrr.cc^
 ||hqycr.cn^
 ||hriycvg.cn^
@@ -19423,6 +19415,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hsbkr.com^
 ||hsc.ink^
 ||hsdianqi.vip^
+||hspstudio.club^
 ||hswenwan.cn^
 ||hswfj.cn^
 ||htds.vip^
@@ -19638,6 +19631,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jianchajingmk.net^
 ||jiangchunli.cn^
 ||jiangjinghe.top^
+||jiangsm.club^
 ||jianly.top^
 ||jianyihang.com^
 ||jiaofulin.cn^
@@ -20136,8 +20130,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||marchtools.cn^
 ||marktang.love^
 ||mavuz.com^
+||mayib.xyz^
 ||mayie.xyz^
 ||mayif.xyz^
+||mayig.xyz^
 ||mbxt.net^
 ||mcaspkd.cn^
 ||mcfpsn.xyz^
@@ -20229,6 +20225,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||morfine.vip^
 ||mori.ink^
 ||mouaa.com^
+||mouruidesign.cn^
 ||movii-loft.cn^
 ||moxiaoqihuoguo.com^
 ||moxiaoyang.top^
@@ -20588,6 +20585,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qianggou8.top^
 ||qiangren.biz^
 ||qiangzai.work^
+||qianhua.co^
 ||qiannian.biz^
 ||qianyuntengyue.com^
 ||qiaobaba.top^
@@ -20618,6 +20616,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qiyix.cn^
 ||qiyu.shop^
 ||qjxszp.cn^
+||qkixi.com^
 ||qkptx.com^
 ||qkuvmwf.cn^
 ||qloved.cn^
@@ -20920,6 +20919,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sofseo.cn^
 ||sogov587.top^
 ||songcan.me^
+||songshijiazu.cn^
 ||sonsang.cn^
 ||soorbka.cn^
 ||soquan.xyz^
@@ -21106,6 +21106,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ti863.cn^
 ||tiandihui9450.top^
 ||tianhenggo.xyz^
+||tianhong.mobi^
 ||tianhuafund.cn^
 ||tiankongzudui.com^
 ||tianlule.cn^
@@ -22109,6 +22110,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zztuu.cn^
 ||zzuzcy.cloud^
 ||zzxhx.com^
+||zzyytt.top^
 !LikeNovels
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
@@ -22364,7 +22366,6 @@ zol.com.cn##span[class^="jisu-down"]
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 eastday.com#@##leftShare
 189.cn#@##linkShare
-xinmin.cn#@#.share-title
 gfan.com,gfan.net.cn#@##shareBox
 189.cn,zdzdm.com#@##share_list
 hotjob.cn#@#.SOCIAL
@@ -22390,7 +22391,7 @@ baidu.com#@#.share-line
 meidebi.com,weicaixun.com#@#.share-list
 189.cn#@#.share-panel
 youdao.com#@#.share-text
-aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com,xinmin.cn#@#.share-title
 wantgoo.com#@#.shareBtns
 pcsoft.com.cn#@#.share_box
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
