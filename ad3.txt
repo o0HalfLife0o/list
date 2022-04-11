@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pur/GSbwM5/G7Q7PIN/Ssg
+! Checksum: Zbd/7YM6TLKrQfgnQiuk6g
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204110825
-! Last Modified: 2022年04月11日 08:25
+! Version: 202204111409
+! Last Modified: 2022年04月11日 14:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17380,6 +17380,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wangye.icu^
 ||schlaftabletten.cn^
 ||ntwaafv.cn^
+||dk2323dk.xyz^
+||pokeryun.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25519,6 +25521,7 @@ m.babytree.com##script + a[class]
 /cct?
 /cdcVanity?
 /cdn-cgi/bm/cv/*
+/cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
 /cdn-cgi/zaraz/*
@@ -35391,6 +35394,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||relap.io^$third-party
 ||retag.xyz^$third-party
 ||rnet.plus^$third-party
+||roistat.com^$third-party
 ||ru.net^$third-party
 ||rutarget.ru^$third-party
 ||sarov.ws^$third-party
@@ -35929,7 +35933,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||client.tahono.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipsyndicate.com/cs_api/cliplog?
-||cllctr.roistat.com^
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
@@ -36008,7 +36011,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.contentexchange.me^$third-party
 ||collector.getyourguide.com^
 ||collector.mazeberry.com^
-||collector.roistat.com^
 ||collector.sspinc.io^
 ||comeon.com/tracking.php
 ||comic-rocket.com/metrics.js
@@ -39375,7 +39377,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
-||roistat.com^*/addVisit?
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^

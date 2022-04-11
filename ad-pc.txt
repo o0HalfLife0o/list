@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: U6Ed+tK/+1osOjwnkdwgQw
+! Checksum: Pd9wO/NBN2VsTm1J0ZmSXg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204110825
-! Last Modified: 2022年04月11日 08:25
+! Version: 202204111409
+! Last Modified: 2022年04月11日 14:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -33717,6 +33717,7 @@ tf2r.com#@#.adverts
 ||animatedpopular.com^
 ||animits.com^
 ||anizedglittledisco.info^
+||ankexper.fun^
 ||ankingwit.one^
 ||anlcld.com^
 ||anldnews.pro^
@@ -54748,6 +54749,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||between-legs.com^*/banners/
 ||bigcock.one/worker.js
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
+||biqle.org/swp.js
 ||bit.ly^$script,domain=hayjav.com
 ||blasensex.com/extras/
 ||boysfood.com/d5.html
@@ -77040,6 +77042,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wangye.icu^
 ||schlaftabletten.cn^
 ||ntwaafv.cn^
+||dk2323dk.xyz^
+||pokeryun.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82929,6 +82933,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cct?
 /cdcVanity?
 /cdn-cgi/bm/cv/*
+/cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
 /cdn-cgi/zaraz/*
@@ -92801,6 +92806,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||relap.io^$third-party
 ||retag.xyz^$third-party
 ||rnet.plus^$third-party
+||roistat.com^$third-party
 ||ru.net^$third-party
 ||rutarget.ru^$third-party
 ||sarov.ws^$third-party
@@ -93339,7 +93345,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||client.tahono.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipsyndicate.com/cs_api/cliplog?
-||cllctr.roistat.com^
 ||cloudapp.net/l/
 ||clouderrorreporting.googleapis.com^
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
@@ -93418,7 +93423,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.contentexchange.me^$third-party
 ||collector.getyourguide.com^
 ||collector.mazeberry.com^
-||collector.roistat.com^
 ||collector.sspinc.io^
 ||comeon.com/tracking.php
 ||comic-rocket.com/metrics.js
@@ -96785,7 +96789,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rfk.biglots.com^
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
-||roistat.com^*/addVisit?
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
 ||rs.mail.ru^
