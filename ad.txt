@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OEkkIDCXC9DJ9sbQNZrDyw
+! Checksum: OsPCWrgOEzcMnv9XqmG1Kg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204121406
-! Last Modified: 2022年04月12日 14:06
+! Version: 202204122013
+! Last Modified: 2022年04月12日 20:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -470,7 +470,7 @@ cad.youku.com
 @@||mmstat.com^$domain=youku.com
 ||cibntv.net/youku/$media,important
 ||valipl.cp31.ott.cibntv.net/$media
-|https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
+|https://static.youku.com/index/js/ikuAdapterNew.js
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"], div[data-adzone],#block-V
 iqiyi.com##+js(aeld,dblclick,t.fullToggle)
@@ -642,6 +642,8 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/avple-images/ad.
+/avple-images/ad_
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1793,6 +1795,8 @@ ubmcmm.baidustatic.com
 ##.heg > .div-list
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
+###playerAdvLayer
+##.jsv > .mobile-adv
 ##.hongbao_hd
 ##.hzxld
 ##.iHead960x90
@@ -9932,6 +9936,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+avple.tv##.jss20
+avple.tv##.jss13
+axios-js.com##.recommand
+axios-js.com##.vultr-desc
+axios-js.com###lagou-vip
+axios-js.com##.lessonlist
+llysc.cn###fbi-top-fixed-ad
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16587,6 +16598,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 !#BaiduUnion
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com
+||a.llysc.cn^
 ||003store.com^
 ||0512s.com^$third-party
 ||1.01fy.cn^
@@ -17603,6 +17615,13 @@ verystream.com#@#.adsbox
 /img/hgame/*_1280x
 /img/hgame/*_600x
 /img/q/movie_*.gif
+!#jokerlu
+##.vodads
+##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
+##.bottomd + .leftd
+##style + .topd
+##style + .topd + .bottomd
+##A[onclick^="gtag"] > .add
 !#k
 !#l
 !#Mining
@@ -17829,6 +17848,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||ccbiotech.co^
 ||pk331.cn^
+||fjjkq.cn^
+||yuanma.icu^
+||zhaixing.link^
+||haohud.cc^
+||cbcspace.xyz^
+||yishu.red^
+||yezkon.com^
+||ynd41r.online^
+||unpk41.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
