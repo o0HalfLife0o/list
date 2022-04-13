@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bfAt4oz1ETboxxY156S/hg
+! Checksum: Ho0byMoOzVNY8/9hqy5G4A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204132008
-! Last Modified: 2022年04月13日 20:08
+! Version: 202204140206
+! Last Modified: 2022年04月14日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1187,6 +1187,7 @@ pornwhite.com##.video-options.long
 pornwhite.com##.bottom-banners
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 freeuseporn.com#$#override-property-read p18 undefined
+4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1235,7 +1236,7 @@ srsone.top#$#override-property-read googlecx noopFunc
 animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.querySelector
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
-4kporn.xxx,cambro.tv,mangovideo.club#$#override-property-read flashvars.popunder_url null
+4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
 livesexporn.net#$#abort-current-inline-script window.onload atob
 extremetube.com,pornhub.com,redtube.com,redtube.com.br,tube8.com,tube8.es,tube8.fr,youporn.com,youporngay.com,youpornru.com#$#abort-current-inline-script Object.defineProperty trafficjunky
 cine.to#$#abort-on-property-read document.head.appendChild
@@ -1579,9 +1580,10 @@ musify.club#$#abort-on-property-read get_ya_browser
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai#$#abort-on-property-read google_jobrunner
 cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@class][string-length(@src) > 70]/ancestor::div[@class][1]'
 cq.ru#$#abort-on-property-read CQ.routes.getAds
-shanson320.ru,lrepacks.net#$#abort-current-inline-script document.createElement atob
+shanson320.ru#$#abort-current-inline-script document.createElement atob
 spletnik.ru#$#abort-on-property-read noAdSample
 pro100hobbi.ru,samelectric.ru,facenews.ua,molitvy.guru,nizhny.ru,svadba.expert#$#abort-on-property-read XMLHttpRequest
+lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 ! Popup/popunder/clickunder
 freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,wseries.ru#$#abort-on-property-read open
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
