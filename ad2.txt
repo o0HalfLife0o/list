@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: W/GYckuOzPIz6b2AhMndeQ
+! Checksum: 5HOn3tIzVqdcYEvI2bjjVg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202204130826
-! Last Modified: 2022年04月13日 08:26
+! Version: 202204131407
+! Last Modified: 2022年04月13日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
+pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange)
 qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping,domain=~huya.com
