@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: N4K2VPuA8PR33sKFkTLR4Q
+! Checksum: NuQQEpvWlsxb/unmxI5M2A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204131407
-! Last Modified: 2022年04月13日 14:07
+! Version: 202204132008
+! Last Modified: 2022年04月13日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange)
+pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange,/^(?!.*?localStorage\.mvPlayRate).*$/)
 qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping,domain=~huya.com
@@ -3214,7 +3214,6 @@ ubmcmm.baidustatic.com
 ||kaixinjiehun.com^$third-party
 ||kakayy.com^$third-party
 ||kanfaxing.com^
-||kangaroobro.com^
 ||kanwby.com^
 ||kbneks00.online^
 ||kc-valves.com^
@@ -9487,8 +9486,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kangaroobro.com/bn.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ziyuanwu.com###modules-17
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17399,8 +17400,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||huosai.net.cn^
+||zhyl.info^
+||ozhbccs.cn^
 ||lhj.asia^
 ||zgnz020.mobi^
+||liuyangyang.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -22076,7 +22081,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
+@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
@@ -23177,6 +23182,7 @@ _box_ad_
 ||gdmm.com/api.php?mod=js&bid=2188
 ||jlwz.cn/js/xf*.js
 !------------------------Specific element hiding rules------------------------!
+dm010.com##a[href*=".apk"]
 qianzhan.com##.qqonline
 qianzhan.com##.kfonline2
 csdn.net##.el-dialog__wrapper + .activity
@@ -51000,6 +51006,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Russian ----------
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
+@@||a2ip.ru/spacer.gif$image,domain=2ip.ru
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
