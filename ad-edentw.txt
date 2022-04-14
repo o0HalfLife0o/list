@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +sAnddFAqWzJ4vkVZ9Ezlg
+! Checksum: mYrdRnV/6eMcguRcWKehqQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204142009
-! Last Modified: 2022年04月14日 20:09
+! Version: 202204150204
+! Last Modified: 2022年04月15日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1265,7 +1265,7 @@ about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.
 /local_p.js^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com|megatube.xxx
 /s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
 ! #CV-691
-ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text SPONSORED 'li.s-item' 'li.s-item span[role="text"]'
+ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-contains-visible-text /[Sponsored]+(?![\w,])/ 'li.s-item' 'li.s-item span[role="text"]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au#$#hide-if-matches-xpath '//div[@class="s-item__title-tag"][text()="SPONSORED" or text()="SPONSORISÉ" or text()="PATROCINADOS"]/ancestor::li[1][starts-with(@class,"s-item")]'
 ebay.es,ebay.fr,ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.at,ebay.ch,ebay.be,ebay.com.my,ebay.nl,ebay.it,ebay.pl##li[class^="s-item s-item__sep-on-bottom"]
 ! #CV-698
