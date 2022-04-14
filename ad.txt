@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZyhXWFryVfa6w1Styk4MIw
+! Checksum: Bp51+n/uK0fucLry0xv4Iw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204140206
-! Last Modified: 2022年04月14日 02:06
+! Version: 202204140830
+! Last Modified: 2022年04月14日 08:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7855,6 +7855,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kan98.com/statics/js/k2017/kan98.js
 ||kanbook.net/static/js_union/
 ||kancloud.cn/ad/
+||kangaroobro.com/bn.js
 ||kanguba.com/file/js/main.asp
 ||kanjiantu.com/images/*.gif
 ||kanjuba1.com/js/bbk/
@@ -9933,10 +9934,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||kangaroobro.com/bn.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ziyuanwu.com###modules-17
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10891,6 +10890,7 @@ webjx.com###middleimg
 hao123.com###mingzhanresource
 hk.yahoo.com###mntl1
 fanqiangzhe.com###mobile-bottom-ads
+ziyuanwu.com###modules-17
 so.com###mohe-360pic_ext--normal
 so.com###mohe-biu_gouwu > .g-card
 so.com###mohe-etao_shangye
@@ -17847,14 +17847,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||huosai.net.cn^
-||zhyl.info^
-||ozhbccs.cn^
-||gjr.ink^
-||fhnmzqw.cn^
-||lhj.asia^
-||zgnz020.mobi^
-||liuyangyang.cn^
+||geili201911.ink^
+||windteam.xyz^
+||xiaotong.pink^
+||jiatu.co^
+||weix.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19038,6 +19035,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ffyyfy.top^
 ||fhlong2000.xyz^
 ||fhnhkt.cn^
+||fhnmzqw.cn^
 ||fhthkz.cn^
 ||fighsfg.cn^
 ||fileinput.xyz^
@@ -19172,6 +19170,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||girli.top^
 ||giroud.top^
 ||gjohvhf.cn^
+||gjr.ink^
 ||gk596.cn^
 ||glgelevator.com^
 ||globbiz.cn^
@@ -19510,6 +19509,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huojugg.com^
 ||huojukk.com^
 ||huojutt.com^
+||huosai.net.cn^
 ||hushenqiquan.com^
 ||huyc.info^
 ||huzalor.cn^
@@ -20012,6 +20012,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lglady.cn^
 ||lgygy.cn^
 ||lhcqbim.cn^
+||lhj.asia^
 ||lhxwnzht.cn^
 ||lhyang.top^
 ||lianfuhuang.cn^
@@ -20047,6 +20048,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||liupan.asia^
 ||liushuaib.xyz^
 ||liusuqin.fun^
+||liuyangyang.cn^
 ||liuyansha.vip^
 ||liuziqiu.cn^
 ||liuzishen.com^
@@ -20508,6 +20510,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||oycslia.xyz^
 ||oyknmi.cn^
 ||ozfbbwy.cn^
+||ozhbccs.cn^
 ||p09diw3.cn^
 ||paishuiban.ltd^
 ||pajinse.top^
@@ -21987,6 +21990,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zgjjkk.com^
 ||zgncpjyw.cn^
 ||zgnieka.cn^
+||zgnz020.mobi^
 ||zgsxhx.com^
 ||zgwxt.vip^
 ||zgxieshou.com^
@@ -22057,6 +22061,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhwotai.com^
 ||zhwyjd.cn^
 ||zhxkzss.cn^
+||zhyl.info^
 ||zhylm.cn^
 ||zhywyl.cn^
 ||ziaxlx.cn^
