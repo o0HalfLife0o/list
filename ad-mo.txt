@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EjnaDDgDlyg4nax7KYi03g
+! Checksum: AiRndiSo4/rp0Qjw8sUMNw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204141408
-! Last Modified: 2022年04月14日 14:08
+! Version: 202204142009
+! Last Modified: 2022年04月14日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -346,6 +346,7 @@ m.youtube.com###koya_child_6
 pan.baidu.com##.upload-bar.global-clearfix
 ! EasyList
 !-----------------------General advert blocking filters-----------------------!
+&action=getads&
 &ad_code=
 &ad_height=
 &ad_ids=
@@ -22961,6 +22962,7 @@ _800x80_
 ##.annonstext
 ##.another_text_ad
 ##.answer_ad_content
+##.anzeige_banner
 ##.aol-knot-fullscreen-right-ad
 ##.aol-twist-flyout-ad
 ##.aolSponsoredLinks
@@ -24157,6 +24159,7 @@ _800x80_
 ##.channelBoxAds
 ##.channel_ad_2016
 ##.channel_brand_ad
+##.chart_ads
 ##.chartad
 ##.chartlist-row--interlist-ad
 ##.chitika-ad
@@ -75238,6 +75241,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ecma.bdimg.com/holmes/*.svg
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
+@@||doc110.com^*/ad.css?$stylesheet
 @@||edgesuite.net^*/ad.css?
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
@@ -82989,6 +82993,7 @@ fqsousou.com,kengso.com#@#.user-share
 /bypassmajs|
 /bypasspiphp?
 /byside_webcare.
+/bytro/logs/*
 /bz?*__comet_req=
 /c.gif?
 /c.php?r=
@@ -107774,7 +107779,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -107964,6 +107969,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
+@@||tags.news.com.au/prod/heartbeat/$script
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
