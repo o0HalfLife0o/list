@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xoqPS1cBuXTeSDWzTAPh6A
+! Checksum: uiDHAXTAL3xnI/XSSJKx2w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204150204
-! Last Modified: 2022年04月15日 02:04
+! Version: 202204150822
+! Last Modified: 2022年04月15日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9488,7 +9488,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-guozhivip.com##.tit > a[style="color: #f80"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13634,6 +13633,7 @@ pilipali.cc##.tips-widget-weixin
 3gsc.com.cn##.tipsA
 gezila.com##.tishi + dl
 so.131458.com##.tishi:first-child
+guozhivip.com##.tit > a[style="color: #f80"]
 gamefy.cn,sitv.com.cn##.tit > span[style="float:right; width:285px;"]
 asp300.com,asp300.net##.tit01 > a
 asp300.com,asp300.net##.tit02 > a
@@ -15526,6 +15526,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||dizhi99.com^$generichide
 @@||dmhy.b168.net^$generichide
 @@||dnbus.com.tw/AD/tab_route.html
+@@||doc110.com^*/ad.css?$stylesheet
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
@@ -15543,7 +15544,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ecma.bdimg.com/holmes/*.svg
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
-@@||doc110.com^*/ad.css?$stylesheet
 @@||edgesuite.net^*/ad.css?
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
@@ -17401,14 +17401,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||geili201911.ink^
-||windteam.xyz^
-||xiaotong.pink^
-||jiatu.co^
-||weix.xyz^
-||llhhbb.top^
-||dhhpm.cn^
-||mayuting0821.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18374,6 +18366,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dgmjskjx.com^
 ||dhdgkj.com^
 ||dhejr.cn^
+||dhhpm.cn^
 ||dhipc.cn^
 ||dhsuiat.xyz^
 ||dhxuiho.cn^
@@ -18710,6 +18703,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gdsqwy.org^
 ||gdzxsoft.cn^
 ||gedus.cn^
+||geili201911.ink^
 ||genfar.club^
 ||gengsang.me^
 ||geoart.vip^
@@ -19242,6 +19236,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiaofulin.cn^
 ||jiaoyiwang.fun^
 ||jiasheng-china.cn^
+||jiatu.co^
 ||jiayi2019.top^
 ||jiayiss.com^
 ||jiayushaiwang.cn^
@@ -19627,6 +19622,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lksw1.top^
 ||lksw3.top^
 ||lktxelg.cn^
+||llhhbb.top^
 ||llii.club^
 ||lllfe.cn^
 ||llnsmu.com^
@@ -19743,6 +19739,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mayie.xyz^
 ||mayif.xyz^
 ||mayig.xyz^
+||mayuting0821.ltd^
 ||mbxt.net^
 ||mcaspkd.cn^
 ||mcfpsn.xyz^
@@ -20993,6 +20990,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||weinin99.cn^
 ||weipapa.top^
 ||weiweitop.top^
+||weix.xyz^
 ||weixinhuoyuan.com^
 ||weixisiwang.com^
 ||weiyajz.cn^
@@ -21026,6 +21024,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||williamsun.vip^
 ||win10zyb.cn^
 ||win999.com.cn^
+||windteam.xyz^
 ||winingcpi.cn^
 ||wisesoftsh.com.cn^
 ||wjdfv.com^
@@ -21180,6 +21179,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiaoniu166.wang^
 ||xiaoshuoyun.cn^
 ||xiaotaowangluo.com^
+||xiaotong.pink^
 ||xiaoxiaoyd.cn^
 ||xiaoyaunbao.club^
 ||xiaozhangzhushou.ltd^
@@ -25792,6 +25792,7 @@ m.babytree.com##script + a[class]
 /CofinaHits.
 /cognativex/cn.js
 /cognitive_match/*
+/cohesion-latest.
 /col1/*&ss=
 /col1/*?ss=
 /col2/*&sa=
@@ -36193,6 +36194,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||desipearl.com/tracker/
 ||detect.ergebnis-dienst.de^
 ||dfanalytics.dealerfire.com^
+||dgcollector.evidon.com^
 ||diagnose.igstatic.com^
 ||dig.ultimedia.com^
 ||digimedia.com/pageviews.php?
@@ -37539,6 +37541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustedform.com/trustedform.js?provide_referrer
 ||try.abtasty.com^
 ||ts.tradetracker.net^
+||turnto.com/event
 ||tvpage.com^*/__tvpa.gif?
 ||twitter.com/jot.html
 ||twitter.com/oct.js
@@ -37613,6 +37616,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||voxmedia.com/beacon-min.js
 ||vpoweb.com/counter.php?
 ||vs4.com/impr.php?
+||vst.sibnet.ru^
 ||vuukle.com/bq-publish?
 ||vuukle.com/getGeo
 ||vvhp.net/read/view.gif
@@ -38944,6 +38948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cl.canva.com^
 ||clancy.spiceworks.com^
 ||click.aliexpress.com^$image
+||click.nudevista.com^
 ||click.oneplus.com^
 ||click.sinx.com^
 ||click.udimg.com^
@@ -50287,7 +50292,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
-@@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|harborfreight.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
@@ -50333,7 +50338,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
