@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uiDHAXTAL3xnI/XSSJKx2w
+! Checksum: SHLueAIw831ZGzojOL6cTw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204150822
-! Last Modified: 2022年04月15日 08:22
+! Version: 202204151407
+! Last Modified: 2022年04月15日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17401,6 +17401,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||weebly.shop^
+||dailynews.wiki^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24852,6 +24854,7 @@ m.babytree.com##script + a[class]
 /adobe-analytics-
 /adobe-analytics.
 /adobe-analytics/*
+/adobe-analytics2.
 /adobe-prd/*
 /adobe.visitor-
 /adobe/app-measurement.
@@ -29495,6 +29498,7 @@ m.babytree.com##script + a[class]
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
+/web-js-telemetry-service/*
 /web-vitals.
 /web-vitals/*
 /web.gif?*&referral_
