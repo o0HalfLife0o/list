@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DT4X5+0C36unnY8mlUaUaQ
+! Checksum: bvW/EC1u1yj5JzxATc9yEw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204152009
-! Last Modified: 2022年04月15日 20:09
+! Version: 202204160206
+! Last Modified: 2022年04月16日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1402,6 +1402,9 @@ walla.co.il,sheee.co.il##[data-google-av-flags]
 walla.co.il,sheee.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
 walla.co.il,sheee.co.il##a[on^="tap:exit-api.exit(target='landingPage',_googClickLocation="]
 walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
+! #CV-1158
+haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h3[class]
+haaretz.co.il#$#hide-if-contains-and-matches-style /Labels/ section h2[class]
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indian.txt ***
 ! #CV-669
