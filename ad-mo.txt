@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oIFrBOj0UT3OLapg4S49cg
+! Checksum: 00mbB1tYX4LhgL/VKxe/nQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204151407
-! Last Modified: 2022年04月15日 14:07
+! Version: 202204152009
+! Last Modified: 2022年04月15日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32187,6 +32187,7 @@ tf2r.com#@#.adverts
 ||10fbb07a4b0.se^
 ||1100i.com^
 ||110380d053f716c4.com^
+||111supjav.xyz^
 ||118bfe5b01.com^
 ||11hrcnll.com^
 ||1221e236c3f8703.com^
@@ -36757,6 +36758,7 @@ tf2r.com#@#.adverts
 ||dtcstcltwzuno.com^
 ||dtmpub.com^
 ||dtnpyvmqqvvgq.com^
+||dtoo1.space^
 ||dtprofit.com^
 ||dtqkuzuhzwklm.com^
 ||dtscout.com^
@@ -37545,6 +37547,7 @@ tf2r.com#@#.adverts
 ||fannonglairin.com^
 ||fanumi.com^
 ||fanzinetautens.com^
+||fapcat.com^
 ||faqrdrkwdhqgug.com^
 ||faracoon.com^
 ||farcdnf.com^
@@ -47292,6 +47295,7 @@ tf2r.com#@#.adverts
 ||verticalperiodicdirectory.com^
 ||verycastle.com^
 ||verymerybery.com^
+||veryn1ce.com^
 ||vespymedia.com^
 ||vessoupy.com^
 ||vetdeberg.com^
@@ -48931,7 +48935,7 @@ tf2r.com#@#.adverts
 ||adjuggler.com^$third-party
 ||adjuggler.net^$third-party
 ||adjungle.com^$third-party
-||adjust.com^$third-party
+||adjust.com^$script,third-party
 ||adk2.co^$third-party
 ||adk2.com^$third-party
 ||adk2x.com^$third-party
@@ -56629,6 +56633,8 @@ alphr.com##.fs-pushdown-sticky
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
 ptinews.com##.fullstorydivright
+whatismybrowser.com##.fun-info-footer
+whatismybrowser.com##.fun-inner
 ferrarichat.com##.funzone
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
@@ -57600,6 +57606,7 @@ futurism.com##.tracking-wider
 futurism.com##.tracking-widest
 bincodes.com##.transferwise
 coinmarketcap.com##.trending-sponsored
+celebritynetworth.com##.trevda_cont
 roseindia.net##.tutorialsstaticdata
 todayonline.com##.tw-flex-shrink-2
 joebucsfan.com##.tweet_div1
@@ -59955,6 +59962,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+.com/gg/*?x=$script,third-party
+.cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -61625,6 +61634,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||518yi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -71013,7 +71023,7 @@ niaogebiji.com##.adImgBox
 baidu.com##.adLog
 2345.com##.adMainBg
 hao123.com##.adMainMiddle-box
-boce.com##.adNewBox
+boce.com##.money_box
 cnblogs.com##.adPopup
 ifeng.com##.adR01
 chinaz.com##.adSpon
@@ -77164,7 +77174,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||weebly.shop^
+||qiaoxiaomiao.com^
 ||dailynews.wiki^
+||yxbyd.store^
+||xiongfengwang.com.cn^
+||liangdun.xyz^
+||syks.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -95711,6 +95726,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.ecookie.fr^
 ||tracking.kdata.fr^
 ||tracking.netvigie.com^
+||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk.adbutter.net^
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
@@ -106835,6 +106851,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||l.franceculture.fr^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
 ||lecho.be/fb2?
+||lecho.be/tag/tag-
 ||lecho.be/track/
 ||leparking-moto.fr/jsV155/Tracker.js
 ||leparking.fr/*/Tracker.js

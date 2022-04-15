@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bu6HiMB4YXfpQeAdlN6RBQ
+! Checksum: r3t6mABolKIy7I1WxF9LuQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204151407
-! Last Modified: 2022年04月15日 14:07
+! Version: 202204152009
+! Last Modified: 2022年04月15日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -640,6 +640,8 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+.com/gg/*?x=$script,third-party
+.cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -2310,6 +2312,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||518yi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -11698,7 +11701,7 @@ niaogebiji.com##.adImgBox
 baidu.com##.adLog
 2345.com##.adMainBg
 hao123.com##.adMainMiddle-box
-boce.com##.adNewBox
+boce.com##.money_box
 cnblogs.com##.adPopup
 ifeng.com##.adR01
 chinaz.com##.adSpon
@@ -17849,7 +17852,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||weebly.shop^
+||qiaoxiaomiao.com^
 ||dailynews.wiki^
+||yxbyd.store^
+||xiongfengwang.com.cn^
+||liangdun.xyz^
+||syks.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
