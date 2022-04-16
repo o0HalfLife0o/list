@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kOe+6N6LK3xiNgqw5xJRNQ
+! Checksum: FilG5rxbNeGnROGKJEB8ew
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204160824
-! Last Modified: 2022年04月16日 08:24
+! Version: 202204161408
+! Last Modified: 2022年04月16日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -29364,6 +29364,7 @@ _800x80_
 ##.sponsorBox
 ##.sponsorBox_right_rdr
 ##.sponsorFooter
+##.sponsorFooter-container
 ##.sponsorLabel
 ##.sponsorLink
 ##.sponsorLinks
@@ -30998,6 +30999,7 @@ _800x80_
 ##[href^="https://www.hostg.xyz/aff_c"] > img
 ##[href^="https://www.mypillow.com/"] > img
 ##[href^="https://www.reimageplus.com/"]
+##[href^="https://www.restoro.com/"]
 ##[href^="https://www.targetingpartner.com/"]
 ##[href^="https://zone.gotrackier.com/"]
 ##[id^="ad-wrap-"]
@@ -32222,6 +32224,7 @@ mypillow.com#@#[href^="https://mypillow.com/"] > img
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
 mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 reimageplus.com#@#[href^="https://www.reimageplus.com/"]
+restoro.com#@#[href^="https://www.restoro.com/"]
 amazon.com,cancam.jp,faceyourmanga.com,isc2.org,liverc.com,liverpoolfc.com,mit.edu,muscatdaily.com,olx.pl,payback.pl,pccomponentes.com,ripley.com.pe,saitama-np.co.jp,timesofoman.com,virginaustralia.com#@#[id^="div-gpt-ad"]
 economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,pccomponentes.com,ripley.cl,ripley.com.pe,wsj.com#@#[id^="google_ads_iframe"]
 revimedia.com#@#a[href*=".revimedia.com/"]
@@ -44128,6 +44131,7 @@ tf2r.com#@#.adverts
 ||qn-5.com^
 ||qngqlrxscxlvh.com^
 ||qnsr.com^
+||qoaaa.com^
 ||qocvicklgcgr.com^
 ||qoevjugu.com^
 ||qogbgxne.com^
@@ -46978,6 +46982,7 @@ tf2r.com#@#.adverts
 ||uctzcsooizikt.com^
 ||udalmanresuit.com^
 ||udarem.com^
+||udbaa.com^
 ||udeurqwoavk.com^
 ||udinugoo.com^
 ||udiwhryjqdsc.com^
@@ -55460,6 +55465,11 @@ urbandictionary.com###dark_top
 dictionary.com###dcomHomeTop-728x90
 helpwithwindows.com###desc
 definition-of.com###dfp
+legacy.com###display-right-1
+legacy.com###display-right-2
+legacy.com###display-right-inview-1
+legacy.com###display-right-inview-2
+legacy.com###display-top-1
 tribunnews.com###div-Inside-MediumRectangle
 adtunes.com###div-atf-336x280
 designtaxi.com###div-center-wrapper
@@ -55730,6 +55740,7 @@ sentinelnews.com,theandersonnews.com###pre-header
 the-scientist.com###preHeader
 playok.com###pread
 listenonrepeat.com###primis-holder
+nytimes.com###promo
 thestreamable.com###promo-signup-bottom-sheet
 dailymail.co.uk###promo-unit
 bnnbloomberg.ca###promotions
@@ -56006,7 +56017,6 @@ google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 thefocus.news##.GRVMpuWrapper
 metservice.com##.Header
-unsplash.com##.HjpWP
 sporcle.com##.IMGgi
 israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
@@ -56032,6 +56042,7 @@ afkgaming.com##.Wkf_t
 this.org##.Wrap-leaderboard
 tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
+unsplash.com##.Z9B2b
 afar.com##.ZZAilYOLYlkw-Hv02mHW8
 olympics.com##.\-partners
 afkgaming.com##._1Qdz9
@@ -56687,7 +56698,6 @@ mobafire.com##.exhibit-vertical
 streamingmedia.com##.expand
 yourbittorrent.com##.extneed
 thefinancialexpress-bd.com##.extraLink
-unsplash.com##.eziW_.DjoTo
 formula1.com##.f1-dfp-banner-wrapper
 audiophilereview.com##.f7e65-midcontent
 audiophilereview.com##.f7e65-sidebar-ad-widget
@@ -56966,7 +56976,6 @@ essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
 etherscan.io##.justify-content-center
-unsplash.com##.kG7WW > .vNWg5
 hltv.org##.kN5UQvcU
 radaronline.com##.kXxPWv
 tekno.kompas.com##.kcm
@@ -57984,7 +57993,6 @@ ftv-news.com##[href^="https://www.outsourcingall.com/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/cb.php"]
 how2electronics.com##[href^="https://www.pcbway.com/"]
 kreationnext.com##[href^="https://www.resiproxy.net"]
-majorgeeks.com##[href^="https://www.restoro.com/"]
 bikeroar.com##[href^="https://www.roaradventures.com/"]
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
@@ -58098,7 +58106,6 @@ kitguru.net##a[id^="href-ad-"]
 himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 earlygame.com##a[rel*="sponsored"]
 mcrypto.club,themoviesflix.io##a[rel="noopener"]
-unsplash.com##a[rel^="sponsored"]
 limetorrents.pro##a[title*="An‌on‌ymous Download"]
 facebook.com,facebookcorewwwi.onion##article[data-ft*="\"ei\":\""]
 greatist.com##aside
@@ -58682,6 +58689,7 @@ thepostmillennial.com#?#.bg-yellow-400:-abp-has(.topAlertAds)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
+tumblr.com#?#.ge_yK:-abp-has(.hM19_)
 twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
@@ -87164,6 +87172,7 @@ fqsousou.com,kengso.com#@#.user-share
 /web-analytics/*
 /web-api/log/*
 /web-js-telemetry-service/*
+/web-vitals-
 /web-vitals.
 /web-vitals/*
 /web.gif?*&referral_
@@ -97360,6 +97369,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.api.playstation.com^
 ||telemetry.tradingview.com^
 ||tellerreport.com/react/pixel
+||terabox.com/abdr?
 ||tgt.maep.ibm.com^
 ||thdstatic.com/data-collection/$domain=homedepot.com
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
