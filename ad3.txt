@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VcHifwUFaEkgTy+EJftq3w
+! Checksum: raV3IrBtC84TVFoAA7npfg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204170826
-! Last Modified: 2022年04月17日 08:26
+! Version: 202204171406
+! Last Modified: 2022年04月17日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17408,6 +17408,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||cjy200107152004.ltd^
+||dreamsky.xin^
+||duansiwei.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -26098,6 +26100,7 @@ m.babytree.com##script + a[class]
 /dfpsvc?
 /dg/default/cs?
 /DG/DEFAULT/rest/*
+/dh-analytics-
 /di-tealium.
 /Diagnostics?hit=
 /didna-pixel-
@@ -26480,6 +26483,7 @@ m.babytree.com##script + a[class]
 /ga-tracker-
 /ga-tracker.
 /ga-tracking-
+/ga-tracking.
 /ga-tracking/*
 /ga.aspx?
 /ga.gif?
@@ -34874,6 +34878,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selfcampaign.com^$third-party
 ||semtracker.de^$third-party
 ||sensic.net^$third-party
+||sitealyse.de^$third-party
 ||sitebro.de^$third-party
 ||slogantrend.de^$third-party
 ||space-link.de^$third-party
@@ -38808,6 +38813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.zumby.io^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||stats.administrarweb.es^
 ||stats.bitban.com^
 ||stats.miarroba.info^
 ||stats.qdq.com^
