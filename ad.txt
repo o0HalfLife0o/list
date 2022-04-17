@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FGwGMFKOEV09ADrNqmkyyg
+! Checksum: VfiWkGvoIpJFZPykC1eZCQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204171406
-! Last Modified: 2022年04月17日 14:06
+! Version: 202204172009
+! Last Modified: 2022年04月17日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -462,7 +462,6 @@ qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping,domain=~huya.com
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
-v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
 !m.youku.com,v.youku.com##+js(cookie-remover, cna)
 atm.youku.com

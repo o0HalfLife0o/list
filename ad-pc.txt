@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 99S8uGtrUsO+PcaeUz6DtA
+! Checksum: bVEg9JT2iUQ5StnkTL5k6Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204171406
-! Last Modified: 2022年04月17日 14:06
+! Version: 202204172009
+! Last Modified: 2022年04月17日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -34155,6 +34155,7 @@ tf2r.com#@#.adverts
 ||awmserve.com^
 ||awnxcexsy.xyz^
 ||awokedoubtless.com^
+||awpcrpu.com^
 ||awprt.com^
 ||awptjmp.com^
 ||aws-ajax.com^
@@ -56593,6 +56594,7 @@ irishtimes.com##.cs-teaser
 c-span.org##.cspan-ad-still-wrapper
 healthline.com##.css-0 + div:not([class]):last-of-type
 healthline.com##.css-12efcmn
+sbs.com.au##.css-14lcahw-MuiTypography-root
 medicalnewstoday.com##.css-1cg0byz
 healthline.com##.css-1d8h8gm
 ladbible.com##.css-1dgm0zi-Advert
@@ -56683,6 +56685,7 @@ ebaumsworld.com,greedyfinance.com##.divider
 thelist.com##.divider-heading-container
 karachicorner.com##.divimg
 weather.us##.dkpw-billboard-margin
+mazterize.com##.dl-g
 crash.net##.dmpu-container
 gearlive.com##.double
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
@@ -59362,7 +59365,7 @@ tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
-pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 porn.com##a[href*="&ref="]
 asspoint.com,babepedia.com,babesandstars.com,blackhaloadultreviews.com,dbnaked.com,freeones.com,gfycatporn.com,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,porn-star.com,porn.com,porndoe.com,pornhubpremium.com,pornstarchive.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youporn.com##a[href*=".com/track/"]
 badjojo.com,boysfood.com,definebabe.com,efukt.com,fantasti.cc,girlsofdesire.org,imagepix.org,javfor.me,pornxs.com,shemaletubevideos.com,therealpornwikileaks.com,yea.xxx##a[href*=".php"]
@@ -94358,6 +94361,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kiwi.mdldb.net^
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
+||klaviyo.com/onsite/js/sentry.
 ||klickly.com/track
 ||klm-ea.jscrambler.com^
 ||kmib.co.kr/ref/
@@ -107933,7 +107937,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||admin.memberspace.com/sites/*/analytics/views$~third-party
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|churchofjesuschrist.org|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -108074,6 +108078,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
@@ -110645,7 +110650,6 @@ qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping,domain=~huya.com
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
-v.youku.com##+js(aeld,dblclick,triggerEvent)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
 !m.youku.com,v.youku.com##+js(cookie-remover, cna)
 atm.youku.com
