@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bvW/EC1u1yj5JzxATc9yEw
+! Checksum: VNnE7LaK4+L4TdMFE1kq9Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204160206
-! Last Modified: 2022年04月16日 02:06
+! Version: 202204170826
+! Last Modified: 2022年04月17日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -479,7 +479,7 @@ animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,studies.in.ua,w10.jea
 yarik-sat.com##.noadb
 mail.rambler.ru##.notification-warning
 delfi.lv##.notification-widget
-radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.notify
+radio.yandex.by,radio.yandex.kz,radio.yandex.ru##.notify
 alexfilm.cc##.panel-primary
 darkteam.net##.pls_rmv
 izmailov.tv##.popupBlock
@@ -511,7 +511,6 @@ forum.bestflowers.ru##.xenOverlay
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 /js/1.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
 /js/include_name.js|$script,~third-party,domain=3dsmaxvideo.ru|archicadvideo.ru|autocadvideo.ru|coreldrawvideo.ru|excelvideo.ru|kompasvideo.ru|photoshopvideo.ru|solidworksvideo.ru|wordvideo.ru
-@@||an.yandex.ru/jstracer?aab_detect=$xmlhttprequest,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua
 @@||anidub.com/ads.js|$script,domain=anidub.com
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||qpython.club^$generichide
@@ -549,8 +548,8 @@ gisher.org##body > div[id^="ban"][style]
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
 tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
 1snau.ru,bychico.net,dyrik.ru,ecosounds.net,in-drive.ru,inforpost.com,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua,music.yandex.uz##body > div[style^="min-height"] > .notify
-music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua,music.yandex.uz##body > div[style^="min-height"] > .notify *
+music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
+music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 budport.com.ua##body > div[style^="position:fixed;"][style*="z-index"][style*="background"]
 sdamgia.ru##div[class$="-BlockDetect"]
 www.qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])

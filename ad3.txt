@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xjt1k90cFEiWo9rrX5h6fw
+! Checksum: VcHifwUFaEkgTy+EJftq3w
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204170205
-! Last Modified: 2022年04月17日 02:05
+! Version: 202204170826
+! Last Modified: 2022年04月17日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17407,6 +17407,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||cjy200107152004.ltd^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24975,6 +24976,7 @@ m.babytree.com##script + a[class]
 /akam/*/pixel_
 /akam/10/*
 /akam/11/*
+/akam/13/*
 /akamai/pixy.gif
 /akamai_analytics_
 /AkamaiAnalytics.
@@ -30283,6 +30285,7 @@ _mongo_stats/
 ||everesttech.net^
 ||experianmatch.info^
 ||ezodn.com^
+||ezstat.ru^
 ||fastemu.co^
 ||faster-trk.com^
 ||fastfinch.co^
@@ -33115,6 +33118,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||actirinius.com^$third-party
 ||aimtell.com^$third-party
 ||alertme.news^$third-party
+||altmetric.com^$third-party
 ||amazonaws.com/cdn.aimtell.com/
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^
@@ -33128,6 +33132,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cracataum.com^$third-party
 ||danorenius.com^$third-party
 ||dengage.com^$third-party
+||dimensions.ai^$third-party
 ||edrone.me^$third-party
 ||feedify.net^$third-party
 ||feraciumus.com^$third-party
@@ -35372,7 +35377,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||refericon.pl^$third-party
 ||rejestr.org^$third-party
 ||sare25.com^$third-party
-||snrbox.com^$third-party
 ||stat.4u.pl^$third-party
 ||stat.pl^$third-party
 ||tagcdn.com^$third-party
@@ -37395,6 +37399,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
+||tkx.mp.lura.live^
 ||tl.tradetracker.net^
 ||tm-awx.com/pageview
 ||tm.tradetracker.net^
@@ -38630,6 +38635,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ppstatic.pl^*/track.js
 ||px.wp.pl^
 ||scontent.services.tvn.pl^
+||snrbox.com/tck/
 ||stats.asp24.pl^
 ||stats.media.onet.pl^
 ||stats.ulixes.pl^
@@ -39520,7 +39526,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sexu.com/api/ttrack
 ||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
-||shopeemobile.com/ph/tr
+||shopeemobile.com/*/tr/
 ||shopmetric.rediff.com^
 ||showstreet.com/log/
 ||siberiantimes.com/counter/
@@ -49495,6 +49501,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||mar.vip.com^
+||mi.com/stat/
 ||monitor.music.qq.com^
 ||mp.huangye.miui.com^
 ||mp.weixin.qq.com/mp/appmsgreport?
@@ -51022,6 +51029,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
+@@||googletagmanager.com/gtm.js?id=$script,domain=komputronik.pl
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
 @@||iwa.iplsc.com/iwa.js$script
