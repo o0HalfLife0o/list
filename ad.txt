@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VfiWkGvoIpJFZPykC1eZCQ
+! Checksum: Xcr1VSaHALAToMajvsgDhw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204172009
-! Last Modified: 2022年04月17日 20:09
+! Version: 202204180203
+! Last Modified: 2022年04月18日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -457,8 +457,7 @@ tieba.baidu.com##.j_click_stats, .j_click_stats+*
 tieba.baidu.com##.more_btn_package
 tieba.baidu.com##.tuijian-wrap
 ! 乘风 视频广告过滤规则
-pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange,/^(?!.*?localStorage\.mvPlayRate).*$/)
-qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
+qq.com,yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ||p2p.$xhr,websocket,ping,domain=~huya.com
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -472,7 +471,6 @@ cad.youku.com
 |https://static.youku.com/index/js/ikuAdapterNew.js
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"], div[data-adzone],#block-V
-iqiyi.com##+js(aeld,dblclick,t.fullToggle)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
@@ -489,10 +487,6 @@ qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(json-prune,adList.item)
 !qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
-sports.qq.com,v.qq.com#@#+js(nosiif,/^/,100)
-qq.com##+js(nosiif,/^/,100)
-!qq.com##+js(set, Beacon.prototype.expo, noopFunc)
-!v.qq.com#@#+js(aopr, Beacon.prototype.fail)
 qq.com##+js(aopr, Beacon.prototype.fail)
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 cm.l.qq.com
@@ -519,7 +513,6 @@ cm.bilibili.com
 web-player-tracker.biliapi.net
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 ||aixifan.com/static/*/appGuide/
-cctv.com,ddrk.me,miguvideo.com##+js(aeld,dblclick,isImmediatePropagationStopped)
 cctv.com###bgAd_div
 ||imall.cctv.com/$subdocument
 bjcathay.com
@@ -2303,6 +2296,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*=".aiyou305.com/"]
 ##img[onclick*=".dxsdkw.cn"]
 ##img[onclick*=".gghktv.com/"]
+##a[href*=".huluhuluhuluhulu8.work"]
+##a[href*="/mt86k.xyz"]
 ##img[onclick*=".hth390.com"]
 ##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
@@ -2312,6 +2307,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||tzxmhi.com^
+||tukkpixabay.com^
+||avased6.com^
+||nrxduw5.com^
+||sb6688.xyz^
+||celestebeverly.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
