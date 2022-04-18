@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cZQ6RPuU4Kt+az83qkyf/g
+! Checksum: xZufDq5qJECkUXT1x3mOcQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204180832
-! Last Modified: 2022年04月18日 08:32
+! Version: 202204181407
+! Last Modified: 2022年04月18日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -56779,6 +56779,7 @@ amctheatres.com##.flt-ad-strut
 adcrun.ch,bc.vc##.fly_frame
 futurenet.club##.fn-banner
 transfermarkt.com##.fniNGHn
+gamespot.com##.follow-buy__link
 gamespot.com##.followBuy__body
 radiozindagi.com##.foot_top
 donegaltv.ie,emergencyemail.org##.footer
@@ -61838,6 +61839,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||drebz4f.shop^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -77226,6 +77228,8 @@ $image,third-party,domain=258zw.com
 /xxgg/pv.js
 /xxgg/xsggs.js
 :4433/hm/cdn/static/jq_
+/windowwap_*_*_*.js?$script,third-party
+/hmzn_*_*_*.js?$script,third-party
 MoBi*.baidu.js$script,third-party
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -77383,6 +77387,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||gykj.xyz^
+||liebian888.site^
+||xbqi.xin^
+||jstc.top^
+||xiantai.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -95932,6 +95941,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||get-trust-zone.info/api_ip_info.php?
 ||humanoid.fr/register-impression?
 ||i-services.net^*/compteur.php?
+||img-static.com/CERISE.gif?
 ||jvc.gg^*/traffic.js
 ||leguide.com/js/lgtrk-*.js
 ||linguee.fr/white_pixel.gif
@@ -107003,7 +107013,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||click.alternate.de^
 ||cmp2.channelpartner.de^
 ||comparis.ch/comparis/Tracking/
-||computerbase.de/api/$ping,xmlhttprequest
+||computerbase.de/api2/$ping,xmlhttprequest
 ||cpx.golem.de^
 ||cpxl.golem.de^
 ||dejure.org/cgi-bin/sitzung.fcgi?
@@ -107096,6 +107106,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||k.kolplay.com^
 ||l.franceculture.fr^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
+||ldlc.com/V4px/js/ldlcmachine.js
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
 ||lecho.be/track/
@@ -108091,7 +108102,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=itsolutions-inc.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flipboard.com/setcookie?$~third-party
@@ -108313,6 +108324,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
+@@||targetimg1.com/webui/top-of-funnel/_next/static/chunks/fingerprintjs2.$script,domain=target.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tc.bankofamerica.com/c?
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
