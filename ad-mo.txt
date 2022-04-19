@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X2tzl9S8ehek/8pcPnDgeg
+! Checksum: MwFDVMFTJ2V5y4w5y67LLA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204190823
-! Last Modified: 2022年04月19日 08:23
+! Version: 202204191409
+! Last Modified: 2022年04月19日 14:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17664,7 +17664,6 @@ _800x80_
 ##.WikiaTopAds
 ##.WiredWidgetsDartAds
 ##.WiredWidgetsGoogleAds
-##.WithAds
 ##.XEad
 ##.YEN_Ads_120
 ##.YEN_Ads_125
@@ -30300,6 +30299,7 @@ _800x80_
 ##.vertical-ad
 ##.vertical-ads
 ##.vertical-adsense
+##.vertical-trending-ads
 ##.verticalAd
 ##.verticalAdText
 ##.vertical_ad
@@ -30667,7 +30667,6 @@ _800x80_
 ##.wis_adControl
 ##.with-background-ads
 ##.with-wrapper-ads
-##.withAds
 ##.withBanners__ad
 ##.with_ctecad
 ##.wixAdsdesktopBottomAd
@@ -46751,6 +46750,7 @@ tf2r.com#@#.adverts
 ||tripsthorpelemonade.com^
 ||triumphantplace.com^
 ||trk-consulatu.com^
+||trk-imps.com^
 ||trk.nfl-online-streams.live^
 ||trk4.com^
 ||trkclk.net^
@@ -55093,6 +55093,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||pornbay.re/k2sbanner
 ||pornerbros.com/nativeexternal/
 ||porngals4.com/img/b/
+||porngames.games/banners/
+||porngames.games/sbbi/
 ||pornhat.com/banner/
 ||pornicom.com/jsb/
 ||pornj.com/gabril/
@@ -58025,6 +58027,7 @@ noqreport.com##[src^="https://media.mercola.com/assets/html/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
 mql5.com##[src^="https://www.mql5.com/fz/"]
 goal.com##[style*="--card-group-item:ad"]
+raspberryexpert.com##[style*="border-bottom: none;"]
 medicalnewstoday.com##[style*="line-height: 0;"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 wahm.com##[style="min-height:250px;"]
@@ -58919,6 +58922,7 @@ ok.xxx##.bn-title
 xbabe.com##.bnnrs-aside
 alphaporno.com,crocotube.com,hellporno.com,tubewolf.com,xbabe.com,xcum.com##.bnnrs-player
 pornogratisdiario.com,xcafe.com##.bnr
+porngames.games##.bnr-side
 ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 sexsbarrel.com,zingyporntube.com##.bns-place-ob
 xnxxvideoporn.com##.bot_bns
@@ -61791,6 +61795,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||23532451.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -77345,6 +77350,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||baking.ren^
 ||xtb.ink^
+||jg88.wang^
+||liulianshangmao.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
