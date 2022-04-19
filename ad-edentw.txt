@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZPPrSofelwHYX4CNMMNinw
+! Checksum: VDwCjzbgzrUgpYr3mw7DRw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204192014
-! Last Modified: 2022年04月19日 20:14
+! Version: 202204200211
+! Last Modified: 2022年04月20日 02:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1381,7 +1381,7 @@ toonanime.cc#$#abort-current-inline-script document.querySelectorAll popMagic
 batporno.com#$#abort-on-property-read decodeURI
 vostfree.com#$#abort-on-property-write _pop
 torrent911.com#$#abort-on-property-read atob
-animecomplet.me,animecomplet.net,animecomplet.org,dadyflix.co,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.re,french-stream.run,french-stream.so,hds-streaming.su,hdss-to.com,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,mavanimes.cc,mavanimes.co,one-piece-streaming-vostfr.com,streaming-french.com,streaming-vostfr.net,streamingfrance.com,streamingfrance.net,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,vanime.co,vanime.me,voirfilm-vf.com,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
+animecomplet.me,animecomplet.net,animecomplet.org,dadyflix.co,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.mx,french-stream.re,french-stream.run,french-stream.so,hds-streaming.su,hdss-to.com,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,mavanimes.cc,mavanimes.co,one-piece-streaming-vostfr.com,streaming-french.com,streaming-vostfr.net,streamingfrance.com,streamingfrance.net,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,vanime.co,vanime.me,voirfilm-vf.com,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
 *$popup,domain=strtapeadblock.me
 strtapeadblock.me#$#abort-on-property-write _pao
 about:blank$popup,domain=ianimes.org|vizplay.icu|streamzz.to
