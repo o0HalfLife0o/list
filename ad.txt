@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tfIIY0pw8tNenMrTPCrCCA
+! Checksum: akwWeGlTr2/3PZvSASEGQA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204190206
-! Last Modified: 2022年04月19日 02:06
+! Version: 202204190823
+! Last Modified: 2022年04月19日 08:23
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2311,8 +2311,8 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
-||drebz4f.shop^
 ||008844.cc^
+||govxinjing.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -3135,6 +3135,7 @@ ubmcmm.baidustatic.com
 ||dqsft.com^
 ||dragoncent.com^
 ||dreamfull.cn^
+||drebz4f.shop^
 ||drjgjngf.com^
 ||drmcmm.baidu.com^
 ||drmfslx.cn^
@@ -4905,7 +4906,7 @@ ubmcmm.baidustatic.com
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 !------------------------------------Popups-----------------------------------!
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mnks.jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|youtubeto.com
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
@@ -15684,7 +15685,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||shijue.me/advertise/getList?
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -16263,6 +16263,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||seyise8.com^$generichide
 @@||seyy66.space^$generichide
 @@||share1223.com^$generichide
+@@||shijue.me/advertise/getList?
 @@||shine.cn/showadcode2.asp?posid=68&
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
@@ -17680,6 +17681,7 @@ $image,third-party,domain=258zw.com
 /bbhd_*_kkis.js
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
+/hmzn_*_*_*.js?$script,third-party
 /js/easyAD.js
 /js/easyAD2.js
 /js/mangoIndexBanner.js
@@ -17692,6 +17694,7 @@ $image,third-party,domain=258zw.com
 /socket?platform=*&href=$third-party,websocket
 /svr/*.aspx?placeid=$third-party
 /vbvb_*_pmpm.js
+/windowwap_*_*_*.js?$script,third-party
 /xxgg/app.js
 /xxgg/book.js
 /xxgg/dj*.js
@@ -17700,8 +17703,6 @@ $image,third-party,domain=258zw.com
 /xxgg/pv.js
 /xxgg/xsggs.js
 :4433/hm/cdn/static/jq_
-/windowwap_*_*_*.js?$script,third-party
-/hmzn_*_*_*.js?$script,third-party
 MoBi*.baidu.js$script,third-party
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -17859,14 +17860,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||gykj.xyz^
-||liebian888.site^
-||xbqi.xin^
-||jstc.top^
-||xiantai.xyz^
-||ouwmdvd.cn^
-||sehd.shop^
-||fdxydnu.cn^
+||baking.ren^
+||xtb.ink^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19034,6 +19029,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fdasew.top^
 ||fdfgf.cc^
 ||fdoun.com^
+||fdxydnu.cn^
 ||febao.xyz^
 ||fedsdq.com^
 ||feelbad.online^
@@ -19276,6 +19272,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gxms.vip^
 ||gycy2.com^
 ||gyeet.com^
+||gykj.xyz^
 ||gyrenmai.icu^
 ||gyt168.com.cn^
 ||gywiqnmn.cn^
@@ -19804,6 +19801,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jsr9.com^$third-party
 ||jsshuiyuan.com^
 ||jsszxx.com^
+||jstc.top^
 ||jstdjq.com^
 ||jswnuq.cn^
 ||jsyjwj.com^
@@ -20049,6 +20047,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||liaotian4.com^
 ||libentao.club^
 ||lidongyang.shop^
+||liebian888.site^
 ||lifuguan.cn^
 ||lihailin.vip^
 ||lihong.ltd^
@@ -20526,6 +20525,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||oshrs.cn^
 ||osqoglv.cn^
 ||otbsrk.cn^
+||ouwmdvd.cn^
 ||ouxutong.com^
 ||ovdolnb.cn^
 ||ovoawh.com^
@@ -20902,6 +20902,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sec-cloud.cn^
 ||secrr.cn^
 ||seerpiu002.com^
+||sehd.shop^
 ||senmu123.com^
 ||seobeginners.wiki^
 ||sf-ifc.cn^
@@ -21606,6 +21607,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xavingtsun.com^
 ||xaxdwz.xyz^
 ||xazhangshaohui.xyz^
+||xbqi.xin^
 ||xcdzsw.com^
 ||xcgcwfc.cn^
 ||xcho.top^
@@ -21643,6 +21645,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiangwangdesh.com^
 ||xiangyudj.cn^
 ||xianka.cloud^
+||xiantai.xyz^
 ||xianwei.tech^
 ||xianweidang.cc^
 ||xianxhwy.com^
