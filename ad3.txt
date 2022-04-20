@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RutHHgGmnxNvGqwR5HXlQA
+! Checksum: LOVcEet7IQ/EWPdgs1rhnQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204201407
-! Last Modified: 2022年04月20日 14:07
+! Version: 202204202014
+! Last Modified: 2022年04月20日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -26838,6 +26838,7 @@ m.babytree.com##script + a[class]
 /horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
+/hoverIntent.min.js
 /hpanalytics_
 /hpmetrics.
 /hrtrackjs.gif?
@@ -27354,7 +27355,7 @@ m.babytree.com##script + a[class]
 /m360lib.js
 /ma.gif?cc=
 /madAnalytics.js
-/magento2.
+/magento2.js
 /magiq-
 /mail_tracking-cg.php
 /mail_tracking.php
@@ -32803,7 +32804,6 @@ _mongo_stats/
 ||tracksy.com^$third-party
 ||trackword.biz^$third-party
 ||trackyourstats.com^$third-party
-||tradedoubler.com^$third-party
 ||tradelab.fr^$third-party
 ||tradescape.biz^$third-party
 ||trafex.net^$third-party
@@ -39228,7 +39228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gak.webtoons.com^
 ||gala.spiceworks.com^
 ||gamedistribution.com/collect?
-||gc.newsweek.com^
+||gc.newsweek.com/front/js/counter.js
 ||gekko.spiceworks.com^
 ||geo.gfycat.com^
 ||geo.nbcsports.com^
@@ -39790,6 +39790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesun.ie/track?
 ||thetimes.co.uk/track?
 ||thetopfivevpn.com/tv5appf5cc137e72b40469905a.js
+||thewindowsclub.com^*/skip-links.min.js
 ||thriftbooks.com/scripts/sp.js
 ||tiendeo.*/_statsapi/
 ||tiktok.com/captcha/report
@@ -50547,7 +50548,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
-@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js?
