@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /555wcDbyELKB5WO3+CK8Q
+! Checksum: A/E6a1QQpwSJqgq1Z4UAeQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204210203
-! Last Modified: 2022年04月21日 02:03
+! Version: 202204220207
+! Last Modified: 2022年04月22日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1313,7 +1313,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@data-pagelet=
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(.*[Sponsored].*){9,}(?<=([\s\d]))/ div[aria-describedby] a[aria-label="label"] span[class]
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(.*[Sponsored].*){9,}(?<=([\s\d]))|(.*[Publicidad].*){10,}(?!([\s\d]))|(.*[Sponsorizzato].*){13,}(?!([\s\d]))/ div[aria-describedby] a[aria-label="label"] span[class]
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-761
 ! #CV-663
@@ -1585,6 +1585,7 @@ shanson320.ru#$#abort-current-inline-script document.createElement atob
 spletnik.ru#$#abort-on-property-read noAdSample
 pro100hobbi.ru,samelectric.ru,facenews.ua,molitvy.guru,nizhny.ru,svadba.expert#$#abort-on-property-read XMLHttpRequest
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
+igroutka.ru#$#override-property-read Object.prototype.afg true
 ! Popup/popunder/clickunder
 freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,wseries.ru#$#abort-on-property-read open
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,pornoakt.vip,porn720.biz,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
