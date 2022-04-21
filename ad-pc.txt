@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I0zpJ3q7WmQOKEDD6MZl4w
+! Checksum: Jfgr+0LIuNC6lg/avyCGyQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204210829
-! Last Modified: 2022年04月21日 08:29
+! Version: 202204211406
+! Last Modified: 2022年04月21日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -7771,7 +7771,7 @@ takeover_banner_
 /prebid-sdk.
 /prebid-worker/*
 /prebid.$domain=~prebid.org
-/prebid/*
+/prebid/*$script
 /prebid1.
 /prebid14.js
 /prebid2.
@@ -36445,6 +36445,7 @@ tf2r.com#@#.adverts
 ||defeature.xyz^
 ||defeaturesher.club^
 ||defenseaspirinlike.com^
+||deferencedilutemurmur.com^
 ||deferscoop.com^
 ||defiantinfluencedtrustworthy.com^
 ||definedlaunching.com^
@@ -37661,6 +37662,7 @@ tf2r.com#@#.adverts
 ||extoso.com^
 ||extra33.com^
 ||extractionwilliam.com^
+||extractplayed.com^
 ||extrafastip.xyz^
 ||extraordinarygeorgianaanomalous.com^
 ||extremereach.io^
@@ -38938,6 +38940,7 @@ tf2r.com#@#.adverts
 ||gyccdnydir.com^
 ||gyegalekb.com^
 ||gyfumobo.com^
+||gyjffdsp.com^
 ||gyluheshy.com^
 ||gynax.com^
 ||gyofhxepanmkgx.com^
@@ -40516,6 +40519,7 @@ tf2r.com#@#.adverts
 ||koradu.com^
 ||korat54ycat.com^
 ||korexo.com^
+||korgiejoinyou.com^
 ||korrelate.net^
 ||korruoebt.live^
 ||korunabevy.com^
@@ -40802,6 +40806,7 @@ tf2r.com#@#.adverts
 ||lgazyaq.com^
 ||lgcblkbn.com^
 ||lghdoxzulv.com^
+||lgiufpmd.com^
 ||lgpumcja.com^
 ||lgse.com^
 ||lhacgsdvkrm.com^
@@ -42293,6 +42298,7 @@ tf2r.com#@#.adverts
 ||notebookstublouise.com^
 ||notecompilecogitate.com^
 ||notesbook.in^
+||notglrjlo.com^
 ||nothickner.club^
 ||noticebroughtcloud.com^
 ||notification-centar.com^
@@ -44786,6 +44792,7 @@ tf2r.com#@#.adverts
 ||rhinsk.com^
 ||rhklutlt.com^
 ||rholi.ru^
+||rhtgyvbv.com^
 ||rhubarbsnagtip.com^
 ||rhudsplm.com^
 ||rhvdsplm.com^
@@ -45828,6 +45835,7 @@ tf2r.com#@#.adverts
 ||somewhatteenagers.com^
 ||sommons.co^
 ||somuzteveh.com^
+||son-in-lawmorbid.com^
 ||sonlessmagmata.com^
 ||sonnerie.net^
 ||soofeest.net^
@@ -47893,6 +47901,7 @@ tf2r.com#@#.adverts
 ||vy4e3jw46l.com^
 ||vycqmzwftktb.com^
 ||vylmhkasl.xyz^
+||vymhnxjyj.com^
 ||vyphytovu.pro^
 ||vystakugry.pro^
 ||vztvgqbbvbjv.com^
@@ -48953,6 +48962,7 @@ tf2r.com#@#.adverts
 ||zghowanhgcxbpf.com^
 ||zgvcfridw.com^
 ||zhcmuccccixz.com^
+||zhej78i1an8w6ceu.com^
 ||zhhoeyksp.com^
 ||zhnlyyrr.com^
 ||zhulik2ne1voruy1d.com^
@@ -77628,6 +77638,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||turvpij.cn^
+||ibeating.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -88279,6 +88291,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||dratingmaject.com^
+||dttrk.com^
 ||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
