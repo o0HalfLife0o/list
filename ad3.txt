@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 154HcgOM92UvKvyJYCLWQQ
+! Checksum: 15fnEiiqTTFqf9Rs5RC28Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204220828
-! Last Modified: 2022年04月22日 08:28
+! Version: 202204221406
+! Last Modified: 2022年04月22日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1863,6 +1863,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||lm553.com^
+||23617710.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17428,6 +17429,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||rinc.ink^
 ||qdbh.store^
+||wubocheng.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -26852,7 +26854,6 @@ m.babytree.com##script + a[class]
 /horizon/track?
 /host-analyticsjs-local/*
 /hotmobtag_
-/hoverIntent.min.js
 /hpanalytics_
 /hpmetrics.
 /hrtrackjs.gif?
