@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N7L8+C53xgtIwnV6xPaFQw
+! Checksum: iW/4Ac1m1zYiYK/uS8TnqA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204222008
-! Last Modified: 2022年04月22日 20:08
+! Version: 202204230206
+! Last Modified: 2022年04月23日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2309,6 +2309,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||seinse27.com^
+||iknight.xyz^
 ||lm553.com^
 ||23617710.com^
 ||00-gov.cn^
@@ -9957,6 +9959,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||0554xx.cn/gg2.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+iduba.com###topBanner
+iduba.com###J_sideFooter
+iduba.com##.fav_box
+iduba.com##.left_slidebar_con
+molure.cn##.adplan
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14750,6 +14757,7 @@ stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/ima
 107cine.com##a[href^="http://107cine.com/ads/"]
 hepuwang.com##a[href^="http://ad."]
 m.nownews.com##a[href^="http://ad1.nownews.com"]
+mydrivers.com##a[href^="http://click.aliyun.com/"]
 wenxuecity.com##a[href^="http://bbs.wenxuecity.com/bbs/advpost/"]
 big5.china.com.cn##a[href^="http://big5.china.com.cn/gate/big5/"]:not([href*="/science."])
 chinaz.com,cnbeta.com,oschina.net##a[href^="http://click.aliyun.com/"]
@@ -17875,6 +17883,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||lajidewanyi.top^
 ||rinc.ink^
 ||qdbh.store^
 ||wubocheng.top^
