@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QpaYkCFPhg6FHgoVa2AxFg
+! Checksum: CZ2V5nefCVB50dPj1npD1w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202204221406
-! Last Modified: 2022年04月22日 14:06
+! Version: 202204222008
+! Last Modified: 2022年04月22日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20514,7 +20514,6 @@ _800x80_
 ##.adbTrkWt
 ##.adback
 ##.adbadge
-##.adban
 ##.adban-hold-narrow
 ##.adband
 ##.adbanner
@@ -24500,6 +24499,7 @@ _800x80_
 ##.container-with-ad
 ##.containerAdsense
 ##.containerSqAd
+##.container__ad
 ##.container__box--ads
 ##.container_ad
 ##.container_ad_v
@@ -31852,6 +31852,7 @@ _800x80_
 ##a[href^="http://https://www.get-express-vpn.com/offer/"]
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://billing.purevpn.com/aff.php"] > img
+##a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="]
 ##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
 ##a[href^="https://go.nordvpn.net/aff"] > img
 ##a[href^="https://torguard.net/aff.php"] > img
@@ -39841,7 +39842,6 @@ tf2r.com#@#.adverts
 ||investigatorpertinent.com^
 ||investmentstar.org^
 ||investmeny.org^
-||investnewsbrazil.com^
 ||invisedspill.com^
 ||invitesuperstitiousadmire.com^
 ||invraisemblable.com^
@@ -44520,7 +44520,6 @@ tf2r.com#@#.adverts
 ||recastcompellease.com^
 ||recdirectgo.biz^
 ||receiptfastestparameter.com^
-||receitasefinancas.com^
 ||recentinteriorcrab.com^
 ||recentlyunknowninterested.com^
 ||recentrecentturf.com^
@@ -49998,6 +49997,7 @@ tf2r.com#@#.adverts
 ||inuvo.com^$third-party
 ||inuxu.biz^$third-party
 ||inuxu.co.in^$third-party
+||investnewsbrazil.com^$third-party
 ||inviziads.com^$third-party
 ||involve.asia^$third-party
 ||ip-adress.com^$third-party
@@ -50293,6 +50293,7 @@ tf2r.com#@#.adverts
 ||realbig.media^$third-party
 ||realclick.co.kr^$third-party
 ||realssp.co.kr^$third-party
+||receitasefinancas.com^$third-party
 ||redintelligence.net^$third-party
 ||redirectnative.com^$third-party
 ||redirectpopads.com^$third-party
@@ -58485,6 +58486,7 @@ kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
 geoguessr.com##div[class^=result-layout_right__]
 viator.com##div[data-action-page-properties="featured_placements_on_list_page"]
+unsplash.com##div[data-ad="true"]
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
@@ -69746,6 +69748,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||0554xx.cn/gg2.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -77669,6 +77672,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinc.ink^
 ||qdbh.store^
 ||wubocheng.top^
+||dispute.wang^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -97982,12 +97986,13 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 /^https?:\/\/www\.halifax-online\.co\.uk\/[A-Za-z0-9]{4,6}\/[A-Za-z0-9]{2}\/[A-Za-z0-9]{2}\//$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||citi.com^*/fp.js
 ||citibank.com.ph/tmx/js/
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
+||event.evtm.53.com^
 ||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
@@ -108555,6 +108560,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
+@@||okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||omtrdc.net^*/mbox/ajax?$script,domain=swisscom.ch
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
