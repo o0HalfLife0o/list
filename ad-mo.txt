@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RGHa+7BmsTRz1fMmy728OQ
+! Checksum: w7oGD1ZXuH7DpyC/Bgu/UQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204230824
-! Last Modified: 2022年04月23日 08:24
+! Version: 202204231408
+! Last Modified: 2022年04月23日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -18093,6 +18093,7 @@ _800x80_
 ##.ad-block-inside
 ##.ad-block-section
 ##.ad-block-square
+##.ad-block-sticky-ad
 ##.ad-block-wide
 ##.ad-block-wk
 ##.ad-block-wrapper
@@ -31394,7 +31395,7 @@ _800x80_
 ##a[href^="https://go.trackitalltheway.com/"]
 ##a[href^="https://go.trkclick2.com/"]
 ##a[href^="https://go.xtbaffiliates.com/"]
-##a[href^="https://go.xxxjmp.com/"]
+##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://gogoman.me/"]
 ##a[href^="https://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="https://goraps.com/"]
@@ -33545,6 +33546,7 @@ tf2r.com#@#.adverts
 ||algovid.com^
 ||ali-crm.ru^
 ||aliadvert.ru^
+||alibistated.com^
 ||alifafdlnjeruif.com^
 ||alightbornbell.com^
 ||alignclamstram.com^
@@ -35532,6 +35534,7 @@ tf2r.com#@#.adverts
 ||cldlr.com^
 ||cldom.com^
 ||cldrck.com^
+||cldup.com^
 ||clean.gg^
 ||cleanbrowser.network^
 ||cleaneryelded.site^
@@ -41024,6 +41027,7 @@ tf2r.com#@#.adverts
 ||lushcrush.com^
 ||lutachechu.pro^
 ||lutsoops.net^
+||lutvcmuisohfyq.com^
 ||luublimaluulo.com^
 ||luulibaluli.com^
 ||luuming.com^
@@ -48672,6 +48676,7 @@ tf2r.com#@#.adverts
 ||ygfwbczu.com^
 ||yggcfcirw.xyz^
 ||yggzrdiq.com^
+||ygiugqyccp.com^
 ||ygnbukywx.com^
 ||ygnnqkxheq.com^
 ||ygqukhllchpw.com^
@@ -58968,6 +58973,7 @@ dpfantasy.org,hotcelebshome.com###custom_html-4
 eporner.com###deskadmiddle
 hentai-cosplays.com,hentai-img.com###display_image_detail > span
 thehun.net###dyk_right
+porntrex.com###exclusive-link
 namethatporn.com###fab_blacko
 dailyporn.club###fixedban
 pussy.org###footZones
@@ -59813,7 +59819,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||googletagservices.com/tag/js/gpt.js$domain=chelseafc.com|epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|scotsman.com|uefa.com|vimeo.com|windalert.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
-@@||gstatic.com/ads/external/images/logo_google_ads_64px.png$image,~third-party
+@@||gstatic.com/ads/external/images/$image,domain=support.google.com
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||hackread.com/wp-content/uploads/$image,~third-party
@@ -62050,6 +62056,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||chishenmeyanjiuyuan.top^
 ||seinse27.com^
 ||iknight.xyz^
 ||lm553.com^
@@ -77625,6 +77632,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||lajidewanyi.top^
+||wangkuang.net.cn^
+||lichee.fun^
 ||rinc.ink^
 ||qdbh.store^
 ||wubocheng.top^
@@ -108619,7 +108628,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
-@@||targetimg1.com/webui/top-of-funnel/_next/static/chunks/fingerprintjs2.$script,domain=target.com
+@@||targetimg1.com/webui/$script,domain=target.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tc.bankofamerica.com/c?
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CY0y6ai8M4NM/yKDtrm9WA
+! Checksum: vDgxVs2QbMQnufgMPsqDbw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204230206
-! Last Modified: 2022年04月23日 02:06
+! Version: 202204231408
+! Last Modified: 2022年04月23日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1862,6 +1862,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||chishenmeyanjiuyuan.top^
 ||seinse27.com^
 ||iknight.xyz^
 ||lm553.com^
@@ -17437,6 +17438,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||lajidewanyi.top^
+||wangkuang.net.cn^
+||lichee.fun^
 ||rinc.ink^
 ||qdbh.store^
 ||wubocheng.top^
@@ -50682,7 +50685,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=vmware.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
-@@||targetimg1.com/webui/top-of-funnel/_next/static/chunks/fingerprintjs2.$script,domain=target.com
+@@||targetimg1.com/webui/$script,domain=target.com
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tc.bankofamerica.com/c?
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
