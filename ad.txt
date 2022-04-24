@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5BJtmL9VwJ2lCb3L4/6JzQ
+! Checksum: 2koS2GZBxMHnEjdM9+pmdg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204240825
-! Last Modified: 2022年04月24日 08:25
+! Version: 202204241406
+! Last Modified: 2022年04月24日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2310,6 +2310,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||seainan333.com^
 ||000123456789.site^
 ||23wm.cc^
 ||0024aaaa.com^
@@ -15781,7 +15782,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_cpa_adview_$domain=52xkdy.com
+@@_adview_cpc_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@||012.tw^$script,domain=apk.tw
@@ -17881,6 +17882,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||hntk.top^
 ||65432.shop^
 ||xianggou.club^
 ##a[href$=".120ydrayy.com"]
