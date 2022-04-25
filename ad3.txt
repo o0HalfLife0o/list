@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4oYjps29NymkAnfV7w6TlQ
+! Checksum: 17ttEWFtzNQ+/izhT/dzgQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204252015
-! Last Modified: 2022年04月25日 20:15
+! Version: 202204260211
+! Last Modified: 2022年04月26日 02:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1863,6 +1863,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 ||jinkege.com^
+||fqxkj.cn^
+||sglyd.cn^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -17447,6 +17449,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qdydwlkj3.top^
 ||relating.wang^
 ||lpw80d.online^
+||sun66387567606.online^
+||ibzgcrusher.com^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
@@ -49554,6 +49558,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||104.com.tw/log/
 ||17173.com/ping.js
 ||17173.com/pv?
+||4399.com/js/4399stat.js
+||4399stat.5054399.com^
 ||55bbs.com/east.html
 ||591.com.tw/stats/
 ||adstats.tencentmusic.com^
