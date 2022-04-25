@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /h20V3BWGsVU0BD/dCjCVA
+! Checksum: gnAjEkN2zI8dkvI+HdfDBA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202204250823
-! Last Modified: 2022年04月25日 08:23
+! Version: 202204251408
+! Last Modified: 2022年04月25日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -8775,6 +8775,9 @@ _800x80_
 ###a4g-floating-ad
 ###a_ad10Sp
 ###a_ad11Sp
+###aad-header-1
+###aad-header-2
+###aad-header-3
 ###abHeaderAdStreamer
 ###ab_adblock
 ###abc-AD_topbanner
@@ -21023,6 +21026,7 @@ _800x80_
 ##.ads-rect
 ##.ads-rectangle
 ##.ads-relatedbottom
+##.ads-rendering-fix
 ##.ads-right
 ##.ads-right-min
 ##.ads-rotate
@@ -54701,6 +54705,7 @@ tf2r.com#@#.adverts
 ||sareunited.com/uploaded_images/banners/
 ||sat-universe.com/wos2.png
 ||sat-universe.com/wos3.gif
+||sawfirstdelivery.com/master/delivery.js
 ||scoot.co.uk/delivery.php
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||seeklogo.com/img/partners/
@@ -56423,6 +56428,8 @@ orschlurch.net##.amazon-wrapper
 cyberciti.biz##.amp-wp-4ed0dd1
 teslaoracle.com##.amp-wp-539b047
 teslaoracle.com##.amp-wp-53ff299
+rok.guide##.ancr-sticky
+rok.guide##.ancr-top-spacer
 androidauthority.com##.andro-in-article-sidebar-desktop-placement
 androidauthority.com##.andro-mid-article-placement
 foreca.com##.anlu8i5
@@ -56717,7 +56724,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,cryptoslate.com,hdmovies4u.live,iotwreport.com,rezence.com##.code-block
+browserhow.com,charlieintel.com,cryptoslate.com,flickeringmyth.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
@@ -56871,6 +56878,7 @@ mangarockteam.com##.demand-supply
 cardealermagazine.co.uk##.desktop
 nextcity.org##.desktop-display
 eurogamer.net##.desktop-mpu
+rok.guide##.desktop-promo-banner
 tiermaker.com##.desktop-sticky
 hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
@@ -58085,7 +58093,7 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,washingtonmonthly.com##.widget_media_image
+appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,washingtonmonthly.com##.widget_media_image
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
@@ -60433,6 +60441,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+.vip/gg/
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -62106,6 +62115,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jinkege.com^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -77687,6 +77697,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kinleung.cn^
 ||smartmuchang.com^
 ||jmypaxioemnf.com^
+||qdydwlkj3.top^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
@@ -97157,6 +97168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
+||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delta.com/datacollect
@@ -97219,6 +97231,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
 ||events-service.coinbase.com^
+||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.practo.com^
 ||events.privy.com^
@@ -98034,10 +98047,29 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
+||d276.ourmidland.com^
+||d810.mysanantonio.com^
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
+||f775.thehour.com^
+||h353.ncadvertiser.com^
+||h559.stamfordadvocate.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
+||j198.registercitizen.com^
+||l936.expressnews.com^
+||o398.trumbulltimes.com^
+||q777.sfchronicle.com^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
+||t570.wiltonbulletin.com^
 ||tilt.bankofamerica.com^
+||u652.myplainview.com^
+||u927.sfgate.com^
+||w740.newstimes.com^
+||y738.nhregister.com^
+||y820.darientimes.com^
+||y900.greenwichtime.com^
+||z211.yourconroenews.com^
+||z492.ctinsider.com^
+||z680.beaumontenterprise.com^
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js

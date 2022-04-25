@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9yRqkhO3b2w+ncHoHUs8Pg
+! Checksum: 63gj5Bk7gOhbCgVD/cE4Yg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204250823
-! Last Modified: 2022年04月25日 08:23
+! Version: 202204251408
+! Last Modified: 2022年04月25日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -635,6 +635,7 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+.vip/gg/
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -2308,6 +2309,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jinkege.com^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -17889,6 +17891,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kinleung.cn^
 ||smartmuchang.com^
 ||jmypaxioemnf.com^
+||qdydwlkj3.top^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
