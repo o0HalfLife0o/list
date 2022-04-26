@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ylUvsPmoS1lBqg0RwecNbA
+! Checksum: lxECrUAb9BKuJobg90/K5w
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204261407
-! Last Modified: 2022年04月26日 14:07
+! Version: 202204262015
+! Last Modified: 2022年04月26日 20:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2256,6 +2256,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/r3326.cc"]
 ##a[href*="/rg200.com/"]
 ##a[href*="/t4078.com:"]
+##a[href*=".wpwpquse.cn/"]
 ##a[href*="/t4741.com"]
 ##a[href*="/tg.602.com/"]
 ##a[href*="/uuzb50.cc/"]
@@ -2314,6 +2315,8 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||yhp4an7.cn^
+||qhlmb.com^
+||516624.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -5724,7 +5727,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||91jbz.com/file/script/A
 ||91nrtt.com/vod/
 ||91p20.space/fans/
-||91p52.com/movie.mp4
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91wii.com/data/ad/
@@ -9969,6 +9971,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||kkeji.com/img/2005/m_info_720.png
 ||ldks.cc/static/js/common.
+||killcovid2021.com/*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mydrivers.com##a[href*="/zt.ashx"]
@@ -15716,6 +15719,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||killcovid2021.com/*/*.mp4
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -17894,6 +17898,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||yangxu.store^
 ||288family.club^
+||chenwang.top^
+||habkjav.cn^
+||perfect999.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

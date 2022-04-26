@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tAKWNKCR1IvnLW/HhgH2ww
+! Checksum: dTicCuk7tyS7YAcgA9xFkQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204261407
-! Last Modified: 2022年04月26日 14:07
+! Version: 202204262015
+! Last Modified: 2022年04月26日 20:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1809,6 +1809,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/r3326.cc"]
 ##a[href*="/rg200.com/"]
 ##a[href*="/t4078.com:"]
+##a[href*=".wpwpquse.cn/"]
 ##a[href*="/t4741.com"]
 ##a[href*="/tg.602.com/"]
 ##a[href*="/uuzb50.cc/"]
@@ -1867,6 +1868,8 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||yhp4an7.cn^
+||qhlmb.com^
+||516624.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -5277,7 +5280,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||91jbz.com/file/script/A
 ||91nrtt.com/vod/
 ||91p20.space/fans/
-||91p52.com/movie.mp4
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91wii.com/data/ad/
@@ -9522,6 +9524,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||kkeji.com/img/2005/m_info_720.png
 ||ldks.cc/static/js/common.
+||killcovid2021.com/*.mp4
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 mydrivers.com##a[href*="/zt.ashx"]
@@ -15269,6 +15272,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@||killcovid2021.com/*/*.mp4
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -17447,6 +17451,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||yangxu.store^
 ||288family.club^
+||chenwang.top^
+||habkjav.cn^
+||perfect999.site^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -50441,6 +50448,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
+@@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cdn-care.com/js/analytics/$script,domain=care.com
@@ -50660,6 +50668,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
+@@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js?
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
@@ -50794,6 +50803,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
+@@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com

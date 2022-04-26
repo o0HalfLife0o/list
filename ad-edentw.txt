@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JaKJTYCBXmQ7ZHDzoIsZiQ
+! Checksum: Nkj1o9l9xXA0Kr5ks8BNSg
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204260211
-! Last Modified: 2022年04月26日 02:11
+! Version: 202204262015
+! Last Modified: 2022年04月26日 20:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -623,8 +623,8 @@ beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,
 ! Popup/Popunder/Clickunder
 egyanime.com,egydead.com,egydead.live#$#abort-on-property-write _pop
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
-cima-club.cc,cima-club.in,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
-anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,manga.ae,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.ws,witanime.com,yalla-shoot.today#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
+cima-club.cc,cima-club.in,cima-club.io,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
+anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,manga.ae,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.ws,witanime.com,yalla-shoot.today#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
 ! #CV-754
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
@@ -1496,6 +1496,7 @@ topflix.fm#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 onifile.com#$#abort-on-property-read _pop
 pobtre.wtf##a[target="_blank"] > img[width="728"][height="90"]
 yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
+animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/romanian.txt ***
@@ -1685,7 +1686,7 @@ viet69.org#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-cur
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn,viettoons.tv,bphimmoi.net#$#abort-on-property-read open
 xemphimgii.net,phimhdvns.net,fimnhez.net#$#abort-current-inline-script jQuery popurl
-baliphim.com,khophimhd.net,downloadsachmienphi.com,lucaphim.com,truyen3s.com#$#abort-current-inline-script JSON.parse atob
+baliphim.com,khophimhd.net,downloadsachmienphi.com,lucaphim.com,truyen2u.net#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
 lxhentai.com#$#abort-current-inline-script document.cookie
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
