@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4MZIzN1pOg7rHIIyUrDAZg
+! Checksum: ylUvsPmoS1lBqg0RwecNbA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204260828
-! Last Modified: 2022年04月26日 08:28
+! Version: 202204261407
+! Last Modified: 2022年04月26日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2313,6 +2313,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||yhp4an7.cn^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -9966,8 +9967,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kkeji.com/img/2005/m_info_720.png
+||ldks.cc/static/js/common.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/zt.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14850,7 +14854,7 @@ huaren.tv##a[style*="height:"]
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href^="show-"]
 wandhi.com##a[style="display: inline-block;position: relative"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
-mydrivers.com##a[style][href*=".jd.com/"]
+mydrivers.com##a[href*=".jd.com/"]
 zhangxinxu.com##a[style^="background-image"]
 houdao.com##a[style^="background:url"]
 html-js.com##a[style^="margin-top:20px;"]
@@ -17889,6 +17893,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||yangxu.store^
+||288family.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AV6Z0EMwr8WhVhEqm/MkiA
+! Checksum: tAKWNKCR1IvnLW/HhgH2ww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204260828
-! Last Modified: 2022年04月26日 08:28
+! Version: 202204261407
+! Last Modified: 2022年04月26日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1866,6 +1866,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||yhp4an7.cn^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -9519,8 +9520,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||kkeji.com/img/2005/m_info_720.png
+||ldks.cc/static/js/common.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/zt.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14403,7 +14407,7 @@ huaren.tv##a[style*="height:"]
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href^="show-"]
 wandhi.com##a[style="display: inline-block;position: relative"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
-mydrivers.com##a[style][href*=".jd.com/"]
+mydrivers.com##a[href*=".jd.com/"]
 zhangxinxu.com##a[style^="background-image"]
 houdao.com##a[style^="background:url"]
 html-js.com##a[style^="margin-top:20px;"]
@@ -17442,6 +17446,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||yangxu.store^
+||288family.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -25345,7 +25350,9 @@ m.babytree.com##script + a[class]
 /api/log?
 /api/lt/ref?
 /api/metrics$other
+/api/pageactivity
 /api/pageview?
+/api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
 /api/stat?
@@ -27880,7 +27887,7 @@ m.babytree.com##script + a[class]
 /pic.gif?m=
 /pic.gif?url=
 /piNctTracking.js
-/ping.gif?
+/ping.gif?$domain=~mega689.com
 /ping.php?sid=
 /ping.png?session=
 /ping/?p=
@@ -37220,6 +37227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reporting.singlefeed.com^
 ||reports-api.sqreen.io^
 ||reports.pagesuite-professional.co.uk^
+||reports.sdiapi.com^
 ||res.rbl.ms^
 ||response.pure360.com^
 ||rest.wildstar-online.com^
@@ -37511,7 +37519,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
-||tkx.mp.lura.live^
 ||tl.tradetracker.net^
 ||tm-awx.com/pageview
 ||tm.tradetracker.net^
@@ -39317,7 +39324,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||github.com/_private/browser/stats
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
-||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
+||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
 ||gmonitor.aliimg.com^
 ||gnar.grammarly.com^
@@ -50105,6 +50112,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||collect.state.centrum24.pl^
 ||dot.wp.pl^$script
 ||entryhit.wp.pl^
+||eventstream.dodopizza.com^
 ||interia.pl^*/hit.
 ||iplsc.com/inpl.log/
 ||iwa.iplsc.com^
@@ -50700,6 +50708,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
+@@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
