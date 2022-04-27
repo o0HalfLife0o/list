@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I2FusyCJNCIIdQKrKN5WSA
+! Checksum: hQMtki/JFyYjFgoNKqX6tw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202204272014
-! Last Modified: 2022年04月27日 20:14
+! Version: 202204280211
+! Last Modified: 2022年04月28日 02:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1981,7 +1981,6 @@ ubmcmm.baidustatic.com
 ##a[href*="/entry/register/?i_code="]
 ##a[href*="?channelCode="] > img[src*=".com:"]
 ##a[href*="?invite_code="] > img[src*=".com"]
-##a[href="/ad/sh.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
@@ -2317,6 +2316,8 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||watsupmanu.com^
+||23873645.com^
+||34283078.com^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -17904,6 +17905,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||fengfeng.fun^
+||txmsw.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
