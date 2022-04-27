@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 391RWRyUsbFzK5b5utLjCw
+! Checksum: J//RxmUVBcktXR86hz5+Uw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204270207
-! Last Modified: 2022年04月27日 02:07
+! Version: 202204270831
+! Last Modified: 2022年04月27日 08:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -32079,7 +32079,6 @@ _mongo_stats/
 ||navigator.io^$third-party
 ||navilytics.com^$third-party
 ||naytev.com^$third-party
-||nc0.co^$third-party
 ||ncaudienceexchange.com^$third-party
 ||ndf81.com^$third-party
 ||ndg.io^$third-party
@@ -39308,6 +39307,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fpt.microsoft.com^
 ||freebiesms.com/tracker.aspx?
 ||freepik.com/_ga?
+||freeplayervideo.com/cdn-cgi/trace
 ||fresnel-events.vimeocdn.com^
 ||ft.com/ingest?
 ||fujifilm.com/js/shared/analyzer.js
@@ -39824,6 +39824,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.gateio.ch^
 ||stats.hd24.watch^
 ||stats.ibtimes.co.in^
+||stats.justpaste.it^
 ||stats.pandora.com^
 ||stats.paste2.org^
 ||stats.pstream.net^
@@ -39891,6 +39892,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiktok.com/whale/
 ||tilanalytics.timesinternet.in^
 ||time.is/img/nod.png
+||tms.delta.com/privacy/$image
 ||tms.eharmony.ca^
 ||tnaflix.com/stats.php
 ||tongji.meizu.com^
@@ -49422,6 +49424,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||wl.spotify.com^
 !-----------------International individual tracking systems-----------------!
 ||adtm.chip.de^
+||agnes.waz.de^
 ||analytics.daasrv.net^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
@@ -49502,6 +49505,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracksrv.zdf.de^
 ||ui-portal.de/pos-cdn/tracklib/
 ||vfd2dyn.vodafone.de^
+||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
@@ -50849,7 +50853,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
-@@||nc0.co^$script,domain=abc.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com

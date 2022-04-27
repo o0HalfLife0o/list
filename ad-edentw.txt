@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Nkj1o9l9xXA0Kr5ks8BNSg
+! Checksum: IWfEfzB7wMhIz9uaAEz+0Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204262015
-! Last Modified: 2022年04月26日 20:15
+! Version: 202204270831
+! Last Modified: 2022年04月27日 08:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1314,7 +1314,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@data-pagelet=
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /(.*[Sponsored].*){9,}(?<=([\s\d]))|(.*[Publicidad].*){10,}(?!([\s\d]))|(.*[Sponsorizzato].*){13,}(?!([\s\d]))/ div[aria-describedby] a[aria-label="label"] span[class]
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span[@aria-labelledby]/span[contains(@style,"flex") and contains(text(),"S") or contains(text(),"P") or contains(text(),"G") or contains(text(),"C")]//following-sibling::span[contains(@style,"flex")]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-691
 ebay.fr#$#hide-if-contains-visible-text /(.*S.*p.*o.*n.*s.*o.*r.*i.*s.*é⁣.*)/ 'li.s-item' 'li.s-item span[role="text"]'
