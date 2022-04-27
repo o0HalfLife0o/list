@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IWfEfzB7wMhIz9uaAEz+0Q
+! Checksum: 9hXFWuZyZmGP+FwY5eMqpA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202204270831
-! Last Modified: 2022年04月27日 08:31
+! Version: 202204271407
+! Last Modified: 2022年04月27日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1686,7 +1686,8 @@ viet69.org#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-cur
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn,viettoons.tv,bphimmoi.net#$#abort-on-property-read open
 xemphimgii.net,phimhdvns.net,fimnhez.net#$#abort-current-inline-script jQuery popurl
-baliphim.com,khophimhd.net,downloadsachmienphi.com,lucaphim.com,truyen2u.net#$#abort-current-inline-script JSON.parse atob
+baliphim.com,lucaphim.com#$#abort-current-inline-script parseInt break;case $.
+khophimhd.net,downloadsachmienphi.com,truyen2u.net#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
 lxhentai.com#$#abort-current-inline-script document.cookie
 thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
