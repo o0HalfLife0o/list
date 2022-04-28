@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: HF1k8YrORD4nIgyfecCu1A
+! Checksum: PHSDzjk7PT5gDhDh2UqIeg
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202204280211
-! Last Modified: 2022年04月28日 02:11
+! Version: 202204280840
+! Last Modified: 2022年04月28日 08:40
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -9536,6 +9536,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bilibili.com##.bili-dyn-ads
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11370,7 +11371,6 @@ sina.com.tw##.adbig300_mid
 appledaily.com.tw##.adblock_splash
 17173.com,cdyee.com,chinaz.com,eastmoney.com,epochtimes.com,hsw.cn,ifeng.com,lantian.tv,phoenixtv.com,pyccoo.cn,xineurope.com,yesky.com##.adbox
 plays01.com##.adbox-bg
-dwnews.com##.adbox-top
 ifeng.com##.adbox03
 qq.com##.adbutton-Aritcle-QQ
 qq.com##.adcent
@@ -17459,6 +17459,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||fengfeng.fun^
 ||txmsw.mobi^
+||ydygk.com^
+||jurl.pw^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
