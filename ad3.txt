@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Y/+DnHKRAwrku38NpPTCDA
+! Checksum: cue3k9DFcmyNdr5IBv/jig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204300207
-! Last Modified: 2022年04月30日 02:07
+! Version: 202204300831
+! Last Modified: 2022年04月30日 08:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1862,7 +1862,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
-||e40.xyz^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -2729,6 +2728,7 @@ ubmcmm.baidustatic.com
 ||dzsstye.com^$third-party
 ||dzxwnews.com^
 ||e-demx.com^
+||e40.xyz^
 ||e5af61b2d8c19c16.online^
 ||e66gg.com^
 ||e7001.com^
@@ -17461,12 +17461,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||e39.xyz^
-||zjkssw.com^
-||s4zqj3m.cn^
-||miraclejay.work^
-##button[onclick*=".xacg.info/"]
-##a[href*=".xacg.info/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -17486,6 +17480,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".vldbd.com/"]
 ##a[href*=".vxzmok.com"]
 ##a[href*=".woyicanyin.com"]
+##a[href*=".xacg.info/"]
 ##a[href*=".xmluodi.com/"]
 ##a[href*=".yixing-hb.com"]
 ##a[href*="/blfanss.com"]
@@ -17493,6 +17488,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/kanxiuren.com?"]
 ##a[href*="/nomvzs.com/"]
+##button[onclick*=".xacg.info/"]
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -18556,6 +18552,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dzxzx.cn^
 ||e-xinnuo.cn^
 ||e0hkzk2.cn^
+||e39.xyz^
 ||e9emh.cn^
 ||ea0jlu8jie.cn^
 ||easyjz.com.cn^
@@ -19912,6 +19909,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||miniholiday.cn^
 ||miniling.cn^
 ||minzhouxinxi.cn^
+||miraclejay.work^
 ||misstang.vip^
 ||mituir.xyz^
 ||miyaluorenliziuan.cn^
@@ -20525,6 +20523,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rzxlszy.vip^
 ||s1utu5g.cn^
 ||s28xvp.com^
+||s4zqj3m.cn^
 ||sahara.work^
 ||sakuraquant.com^
 ||sanitwealth.com^
@@ -21811,6 +21810,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zjdb2b.wang^
 ||zjjrlx4.com^
 ||zjksgl.com^
+||zjkssw.com^
 ||zjlfqf.com^
 ||zjlovexb.xyz^
 ||zjlv.top^
@@ -27681,6 +27681,7 @@ m.babytree.com##script + a[class]
 /new-relic.$~stylesheet
 /new.cnt.aspx?
 /newlog.php?
+/newrelic-browser.
 /newrelic-google-
 /newrelic-gpt.
 /newrelic.browser.
@@ -35404,6 +35405,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wstatslive.com^$third-party
 ||accesstrade.net^$third-party
 ||adgainersolutions.com^$third-party
+||adgocoo.com^$third-party
 ||admatrix.jp^$third-party
 ||adplan7.com^$third-party
 ||adpon.jp^$third-party
@@ -36496,6 +36498,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.attentivemobile.com^
 ||events.audiate.me^
 ||events.brightline.tv^
+||events.btw.so^
 ||events.demoup.com^
 ||events.jokerly.com^
 ||events.jotform.com^
@@ -37389,6 +37392,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||socialannex.com/c-sale-track/$script
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||southafricahome.com/statsmodulev2/
+||sp-wukong-tracker.b-cdn.net^
 ||spaceprogram.com/webstats/
 ||sparklit.com/counter/
 ||speedtest.dailymotion.com/latencies.js
@@ -39163,6 +39167,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brightside.me/metric-collector
 ||browser.mi-img.com^
 ||builder.io/api/v1/track
+||buondua.com/hit/
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||c.paypal.com^$script
 ||c.wort-suche.com^
@@ -39586,7 +39591,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/msl/playapi/cadmium/logblob/
-||netu.wiztube.xyz^
 ||newegg.com/amber3/tracking?
 ||news.google.com/_/v
 ||newscom.com/js/v2/ga.js
@@ -39609,6 +39613,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nytimes.com/v1/purr-cache
 ||nzpages.co.nz/modules/common/track.js
 ||odysee.com/reports/
+||ohm-dot-hackster-io.appspot.com^
 ||online-umwandeln.de/analytics.js
 ||ophan.theguardian.com^
 ||optimize-stats.voxmedia.com^
@@ -49670,11 +49675,13 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||cherry.le.com^
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||click.gamersky.com^
+||cm.bilibili.com^
 ||cmstool.youku.com^
 ||collect.tianya.cn^
 ||count5.pconline.com.cn^
 ||counter.people.cn^
 ||cstm.baidu.com^
+||data.bilibili.com^
 ||dcard.tw/v1/events
 ||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
@@ -49715,6 +49722,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||le.com/op/
 ||letv.com/op?
 ||lg.tr.pandora.tv^
+||live-trace.bilibili.com^
 ||log*.ku6.com^
 ||log.51cto.com^
 ||log.aliyuncs.com^
@@ -49736,6 +49744,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||mar.vip.com^
+||metric.huya.com^
 ||mi.com/stat/
 ||monitor.music.qq.com^
 ||mp.huangye.miui.com^
@@ -49775,6 +49784,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||qhimg.com/11.0.1.js$script
 ||qihucdn.com/11.0.1.js$script
 ||qq.com/code.cgi?
+||qq.com/collect/
 ||qq.com/kvcollect?
 ||qq.com/p?
 ||qq.com/qqcom/
@@ -51042,6 +51052,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||hk.on.cc/js/v4/urchin.js
 @@||hm.baidu.com/hm.gif$image,domain=clgod.com
+@@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
 @@||tianxun.com^*/js/tracker.js
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
