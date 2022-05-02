@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K3FZvwUy2iDSzgq70rA1Gg
+! Checksum: NaCsMMXpjudXOF+U30pBFQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205020828
-! Last Modified: 2022年05月02日 08:28
+! Version: 202205021407
+! Last Modified: 2022年05月02日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1318,6 +1318,7 @@ ubmcmm.baidustatic.com
 ##.gg-one
 ##.gg1000
 ##.gg430
+##DIV[style=" max-width:997px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##.gg_300
 ##.gg_728
 ##.gg_950
@@ -9540,6 +9541,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||btwuji.com/js2/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -51207,7 +51209,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
-@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
@@ -51266,8 +51268,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
-@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
