@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nieJWbsOyYKmtGeJm6d3wg
+! Checksum: nkctoEjzsdt+Djz7Y8NLFQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205022014
-! Last Modified: 2022年05月02日 20:14
+! Version: 202205030212
+! Last Modified: 2022年05月03日 02:12
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1250,6 +1250,7 @@ sxyprn.com#$#abort-current-inline-script vast_urls; override-property-read D4zz 
 123moviesgo.club#$#abort-on-property-write atAsyncContainers
 123moviesgo.club#$#abort-current-inline-script Math /break|case/
 pinayvids.com#$#abort-current-inline-script decodeURIComponent; override-property-read D4zz undefined
+eztv.tf,eztv.yt,yts.mx#$#abort-current-inline-script s2ss52
 *$popup,third-party,domain=streamega.com|123putlocker.club|openloadmovies.bz
 about:blank$popup,domain=streamtape.cc|streamtape.net|streamtape.xyz|streamtape.com|strtapeadblock.me|slreamplay.cc
 /favicon.ico$popup,domain=vidshare.tv|vudeo.net
