@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Eo5uhQA46AZb4w0w3M43/A
+! Checksum: SE1HVbO9OM5PJTYYbu50JQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205031407
-! Last Modified: 2022年05月03日 14:07
+! Version: 202205032011
+! Last Modified: 2022年05月03日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -6027,10 +6027,12 @@ pan.baidu.com##.upload-bar.global-clearfix
 /script/ad.$~script
 /script/ads_
 /script/nwsu.js$third-party
+/script/nasu.js$third-party
 /script/oas/*
 /script/suurl4.php?$third-party
 /script/ut.js?cb=$third-party
 /script/wait.php?p=$xmlhttprequest
+/script/wait.php?q=$xmlhttprequest
 /scripts/ad/*
 /scripts/ad_
 /scripts/ads/*
@@ -25311,6 +25313,7 @@ _800x80_
 ##.ftr_ad
 ##.ftv-ad-sumo
 ##.full-ad
+##.full-ads
 ##.full-ad-wrapper
 ##.full-adv
 ##.full-bleed-ad
@@ -27190,6 +27193,7 @@ _800x80_
 ##.mo_googlead
 ##.moads-top-banner
 ##.moads-widget
+##.mob_ads
 ##.mob-adspace
 ##.mobads
 ##.mobile-ad
@@ -30537,6 +30541,7 @@ _800x80_
 ##.weatherAdSpot
 ##.weather_ad
 ##.weatherad
+##.web_ads
 ##.web-ads-wrap
 ##.web-result-sponsored
 ##.webad-cnt
@@ -61983,6 +61988,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||oystertown.net^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -69660,8 +69666,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||moegirl.org.cn/insight/MoegirlInsight.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tucao.in###t7_att
 cnblogs.com###cnblogs_c1
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -77592,6 +77600,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href$=".120ydrayy.com"]
 ||hkzzacp.cn^
 ||coolguy.store^
+||beatbase.live^
+||songcx.fun^
+||goukan.xyz^
+||lnflfbf.cn^
+||9f1i3az.cn^
+||wuzitao.xyz^
+||lampholder.tw^
+||2l0g3xd.cn^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
