@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T0KAcrmM6XcPwVfCFes/4Q
+! Checksum: GAQNwNo1wb3JQh99qlnLtw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205050211
-! Last Modified: 2022年05月05日 02:11
+! Version: 202205050827
+! Last Modified: 2022年05月05日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2315,7 +2315,6 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
-||afenx.top^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -2775,6 +2774,7 @@ ubmcmm.baidustatic.com
 ||adxxx.com^$third-party
 ||adyun.com^$third-party
 ||aeoprw.cn^
+||afenx.top^
 ||afj0.com^
 ||afjlb.com^
 ||afrazanna.com^
@@ -7126,6 +7126,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||fun8.us^$domain=cartoonmad.com
 ||func.tw/image/func2.png
 ||funshipin.com/v1/js/footerhongbao.js
+||fwsir.com/static/cpt/
 ||fx110.*/Pub/Ghz/GetModel
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
 ||fx110.*/Styles/1.0.0/dist/Ghz/MatrixAds.
@@ -9995,7 +9996,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||fwsir.com/static/cpt/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17747,6 +17747,7 @@ $image,third-party,domain=258zw.com
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /hmzn_*_*_*.js?$script,third-party
+/i.asp?yk&df=1|$script,third-party
 /js/easyAD.js
 /js/easyAD2.js
 /js/mangoIndexBanner.js
@@ -17754,7 +17755,6 @@ $image,third-party,domain=258zw.com
 /jun0120211102193659.
 /jun0120211112090740.
 /mhw0/duniao/*
-/i.asp?yk&df=1|$script,third-party
 /ojborn.so?$script,third-party
 /proxy_top_banner_js.php
 /socket?platform=*&href=$third-party,websocket
@@ -17927,20 +17927,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||kohen.biz^
-||jmypdkzixne.com^
-||lihongyu.xyz^
-||xtime.hk^
-||sydz.tw^
-||e41.xyz^
-||70we55s.cn^
-||singledog.fun^
-||ybxw.shop^
-||xerhibx.cn^
-||e48.xyz^
-||igame2steam.com^
-||toqrsru.cn^
-||e70.xyz^
+||fenfa.biz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18136,6 +18123,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||6shuge.com^
 ||70bhsd.cn^
 ||70fp7880qz.cn^
+||70we55s.cn^
 ||720fly.club^
 ||73cm.com^
 ||76doyxyw.cn^
@@ -19040,7 +19028,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||e0hkzk2.cn^
 ||e34.xyz^
 ||e39.xyz^
+||e41.xyz^
 ||e47.xyz^
+||e48.xyz^
+||e70.xyz^
 ||e9emh.cn^
 ||ea0jlu8jie.cn^
 ||easyjz.com.cn^
@@ -19708,6 +19699,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ifc-edu.cn^
 ||ifil.shop^
 ||ifil.store^
+||igame2steam.com^
 ||igig87.cn^
 ||ih740.cn^
 ||ihais.com^
@@ -19895,6 +19887,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jmqxbeo.cn^
 ||jmulab.cn^
 ||jmypaxioemnf.com^
+||jmypdkzixne.com^
 ||jmypodeqqf.com^
 ||jn1biifafz.cn^
 ||jncacp.cn^
@@ -20072,6 +20065,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kmrcewt.cn^
 ||knaxfbg.cn^
 ||knk95.cn^
+||kohen.biz^
 ||komi168.com^
 ||komplett.me^
 ||kongssew.com^
@@ -20193,6 +20187,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lifuguan.cn^
 ||lihailin.vip^
 ||lihong.ltd^
+||lihongyu.xyz^
 ||lijie1010.top^
 ||likefly.com.cn^
 ||lilith.ink^
@@ -21140,6 +21135,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||simon184.cn^
 ||sinabuy.cn^
 ||sincetrade.com^
+||singledog.fun^
 ||sinotealife.cn^
 ||sinyang.info^
 ||siomyx.cn^
@@ -21272,6 +21268,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sxzzhj.com^
 ||sycbbs.com^
 ||sydswxx.com^
+||sydz.tw^
 ||syjjd.club^
 ||syks.xyz^
 ||sylvia.cloud^
@@ -21422,6 +21419,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||topazedu.com^
 ||topdoctor.vip^
 ||topn.xyz^
+||toqrsru.cn^
 ||toshi.top^
 ||totoc.top^
 ||totoh.top^
@@ -21809,6 +21807,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xdrzdh.cn^
 ||xdwqq.cn^
 ||xeihy.com^
+||xerhibx.cn^
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfvbs.cn^
@@ -21931,6 +21930,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xsspt.vip^
 ||xszysc.com^$third-party
 ||xtb.ink^
+||xtime.hk^
 ||xubb.xyz^
 ||xuchangmuying.com^
 ||xuenengyoujiaoyu.com^
@@ -22008,6 +22008,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ybrex.cn^
 ||ybsyyh.com^
 ||ybtianxi.com^
+||ybxw.shop^
 ||ychbgss.cn^
 ||yckpdr.com^
 ||yclhtech.cn^
