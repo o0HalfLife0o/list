@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SY2dpHSOV8ISYyMhxU1ZWA
+! Checksum: KLfSXWTisC3Pspa7WxjqYQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205052015
-! Last Modified: 2022年05月05日 20:15
+! Version: 202205060203
+! Last Modified: 2022年05月06日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2013,9 +2013,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:1001px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:1001px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:989px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:990px;  margin:0 auto;"] > a > img[height="60px"]
@@ -2318,7 +2318,6 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||23907915.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -2433,6 +2432,7 @@ ubmcmm.baidustatic.com
 ||23617710.com^
 ||23873645.com^
 ||23900341.com^
+||23907915.com^
 ||23dsf.top^
 ||23kmm.com^$third-party
 ||23wm.cc^
@@ -4170,6 +4170,7 @@ ubmcmm.baidustatic.com
 ||sanxiucaiwu.top^
 ||sawadeca.com^
 ||sb6688.xyz^
+||sbldw.cn^
 ||sbrqp.com^
 ||scenepass.com^
 ||scfatao.com^
@@ -6282,6 +6283,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bdimg.com/static/wkcore/widget/commerce/fengchao/
 ||bdimg.com/static/wkview/widget/download_after_activity_new/download_after_activity_new_
 ||bdimg.com^$domain=diyifuli.top|idaohang.top|ifulione.com|ifulione.top|onedh.xyz|onefuli.top
+||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
 ||bdstatic.com/bjh/news/0826995b986cc09b0416ae3ca3469613.jpeg
 ||bdstatic.com/img/image/su/
@@ -8595,6 +8597,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||picyq.com/index.php/Home/run/get_ad/
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
+||pincai.com/js/pubuliu.
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingwest.com/api/news_ad
@@ -9998,8 +10001,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
-||pincai.com/js/pubuliu.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17843,8 +17844,8 @@ $image,third-party,domain=258zw.com
 ##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 .lu/js/wap_billing.js
 ##.readerListADbox
-/ksks_*_*_*.js?$script,third-party
 /1.js?ssfrid=$script,third-party
+/121sdw/*$script,third-party
 /168*.xtml?$script,third-party
 /1MObaudu.$script,xmlhttprequest
 /1skwwd.
@@ -17857,7 +17858,6 @@ $image,third-party,domain=258zw.com
 /aa_*_a1.js$script,third-party
 /assets/frameworks/types-*?plm=$script,third-party
 /bbhd_*_kkis.js
-/121sdw/*$script,third-party
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /hmzn_*_*_*.js?$script,third-party
@@ -17868,6 +17868,7 @@ $image,third-party,domain=258zw.com
 /js/pfad.js
 /jun0120211102193659.
 /jun0120211112090740.
+/ksks_*_*_*.js?$script,third-party
 /mhw0/duniao/*
 /ojborn.so?$script,third-party
 /proxy_top_banner_js.php
@@ -17897,6 +17898,7 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
+##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
@@ -17930,16 +17932,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||fenfa.biz^
-||h45pmx1.cn^
-||runningman.site^
-||5201314.fashion^
-||ckiller.tech^
-||dataose.top^
-||2pogg4c.cn^
-||qvqcfau.cn^
-||whzz.shop^
-||nbheopi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18034,6 +18026,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||2kjg.xyz^
 ||2l0g3xd.cn^
 ||2laezi9.cn^
+||2pogg4c.cn^
 ||2txt.cc:8862^
 ||2zm4.cn^
 ||3-2g38cfo0l.cn^
@@ -18098,6 +18091,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51yusi.xyz^
 ||51yw.club^
 ||51zdwy.cn^
+||5201314.fashion^
 ||52homie.cn^
 ||52jimi.top^
 ||52lty.store^
@@ -18755,6 +18749,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cjhd.site^
 ||cjy200107152004.ltd^
 ||ckaiv.com^
+||ckiller.tech^
 ||claiks.com^
 ||classicgir.cn^
 ||clfmm.cn^
@@ -18898,6 +18893,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dashuju.website^
 ||daskm.com^
 ||dasongti.top^
+||dataose.top^
 ||dawwscr.cn^
 ||dayouyuanliao.com^
 ||dazhi360.cn^
@@ -19148,6 +19144,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||feilan5.cn^
 ||feimotailan.cn^
 ||feizailin.com^
+||fenfa.biz^
 ||fengfeng.fun^
 ||fengmian.xyz^
 ||fengmishop.cn^
@@ -19404,6 +19401,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gzts188.com^
 ||gzwl.xyz^
 ||gzz123.com^
+||h45pmx1.cn^
 ||h4kdxs.com^
 ||h728.cn^
 ||habkjav.cn^
@@ -20529,6 +20527,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nashlin.top^
 ||nauklh.cn^
 ||nazhenkj.com^
+||nbheopi.cn^
 ||nbhotpo.com^
 ||nbpyfog.cn^
 ||nbsave.xyz^
@@ -20903,6 +20902,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||quxiangkeji.cn^
 ||quzhizhongye.top^
 ||qv566.cn^
+||qvqcfau.cn^
 ||qwer0001.top^
 ||qwzpslp.cn^
 ||qxtwkq.cn^
@@ -21019,6 +21019,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ruif.xyz^
 ||ruiy.shop^
 ||ruiyijy.xyz^
+||runningman.site^
 ||runtai369.cn^
 ||rushwei.ltd^
 ||rusu01.top^
@@ -21695,6 +21696,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||whwfcm.cn^
 ||whxjnwzhs.com^
 ||whyxqoc.cn^
+||whzz.shop^
 ||williamsun.vip^
 ||win10zyb.cn^
 ||win999.com.cn^
