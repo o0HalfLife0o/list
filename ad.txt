@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 50IYsB7eNezdklpapKdm9Q
+! Checksum: Znkxy9zSwekLSgQ+PU3s1g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205060826
-! Last Modified: 2022年05月06日 08:26
+! Version: 202205061408
+! Last Modified: 2022年05月06日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2313,7 +2313,27 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||xiulishanzhuang.com^
+||u5fsqf.com^
+||qkf7jq3b.space^
+||kvezz.com^
+||u0056.com^
+||n0488.com^
+||n0399.com^
+||23696187.com^
+||n0233.com^
+||29873398.com^
+||kveii.com^
+||szasm8.com^
+||kveaa.com^
+||ucv3kq.com^
+||ue3jfw.com^
+||kvemm.com^
+||kveww.com^
+||rzgvdm5.com^
+||ue3jfw.com^
 .8ox.cn
+||9136.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -2321,6 +2341,7 @@ ubmcmm.baidustatic.com
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||tlsgq.cn^
+||marcianice.com^
 ||01fen.com^
 ||022aifang.com^
 ||025suyu.com^
@@ -6387,7 +6408,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bodu365.co/t/
 ||bolecdn.com/button/txt.js
 ||bonbonme.com/js/g1313166/
-||book118.com/Public/book118/js/side-customer/customer.js
 ||bookben.com/js/m/wap.js
 ||booking.com^$domain=honglingjin.co.uk|sunnylife.tw
 ||books.com.tw/web/apActivityStick?
@@ -10002,6 +10022,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||jsdelivr.net/gh/te89899/
+||aiyangedu.com/static/cpt/pubuliu.
+||oh100.com/js/pubuliu.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17936,6 +17959,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cna24.site^
 ||yahe.fashion^
 ||adroition.net^
+||aimer.love^
+||vnfjsus.xyz^
+||caimlkh.com^
+||hssapp.shop^
+||2gb8fnh.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -23901,7 +23929,10 @@ _box_ad_
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||gdmm.com/api.php?mod=js&bid=2188
 ||jlwz.cn/js/xf*.js
+||book118.com^*/js/crm.
+||book118.com^*/showRecommend.
 !------------------------Specific element hiding rules------------------------!
+fantuan.tv##.app-guide
 dyxs15.com,dianying.im##.popup,.shortcuts-mobile-overlay
 dm010.com##a[href*=".apk"]
 qianzhan.com##.qqonline
