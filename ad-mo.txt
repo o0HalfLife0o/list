@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7sCUVTC57koeU4ZkEt+yrA
+! Checksum: fBUcgRTwMXyCK9sfXW7cbQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205070825
-! Last Modified: 2022年05月07日 08:25
+! Version: 202205071409
+! Last Modified: 2022年05月07日 14:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -58314,6 +58314,7 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
 1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
+mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 linkhub.icu##a[href^="/downloadnow.php?"]
@@ -61823,7 +61824,7 @@ ubmcmm.baidustatic.com
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:1001px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:1003px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:989px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:990px;  margin:0 auto;"] > a > img[height="60px"]
@@ -75581,6 +75582,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||redguide.top^*/ad.css?$stylesheet
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -77770,6 +77772,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||loveyour.name^
 ||qijiuwangluo.ltd^
 ||helloc.xyz^
+||selectinstall.cn^
+||jzcan.xyz^
+||weldsystem.online^
+||qhonzpl.cn^
+||3z3sfuj.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -82748,7 +82755,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||pingjs.qq.com^$~third-party
 @@||ptwxz.com/scripts/readindex/tongji.js
 @@||pv.sohu.com/suv/
-@@||qhimg.com/ssl/*/monitor_analytic.js
+@@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
@@ -82775,6 +82782,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
+@@||threatbook.cn/public/asset/js/zhugeIo.
 ||hjfile.cn/analytics/site/TrackEvent.js
 !---------------------------------Temporary-----------------------------------!
 ! EasyPrivacy
