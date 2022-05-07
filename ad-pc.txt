@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4lHbpqvyuvw4sjsxkGJPPw
+! Checksum: AQikFYKDR6TDz19eedh6Cg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205071409
-! Last Modified: 2022年05月07日 14:09
+! Version: 202205072008
+! Last Modified: 2022年05月07日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1967,7 +1967,7 @@ tieba.baidu.com##.tuijian-wrap
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
-/adcreative.$domain=~adcreative.es
+/adcreative.$domain=~adcreative.es|~hange.jp
 /adcreative/*$~image
 /adcreatives/*
 /adcss/*$~image
@@ -3527,7 +3527,7 @@ tieba.baidu.com##.tuijian-wrap
 /advertiserwidget.
 /advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
-/advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
+/advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.fubo.tv|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
 /advertising/banner_
 /advertising/banners/*
 /advertising/traffic-
@@ -22609,6 +22609,7 @@ _800x80_
 ##.advert_mpu_body_hdr
 ##.advert_nav
 ##.advert_note
+##.advert_pos
 ##.advert_rectangle_aside
 ##.advert_small
 ##.advert_societe_general
@@ -31889,6 +31890,7 @@ _800x80_
 ##hl-adsense
 ##iframe[id^="google_ads_frame"]
 ##iframe[src^="http://ad.yieldmanager.com/"]
+##iframe[src^="http://www.adpeepshosted.com/adpeeps.php?"]
 ##iframe[src^="https://pagead2.googlesyndication.com/"]
 ##iframe[src^="https://tpc.googlesyndication.com/"]
 ##mq-programmatic-ad
@@ -33486,6 +33488,7 @@ tf2r.com#@#.adverts
 ||aedqunriyswthc.com^
 ||aeesy.com^
 ||aeheymuatansp.xyz^
+||aehjtauekqjtvc.com^
 ||aelick.com^
 ||aellod.com^
 ||aelphotog.pro^
@@ -34852,6 +34855,7 @@ tf2r.com#@#.adverts
 ||blu5fdclr.com^
 ||blueadvertise.com^
 ||bluedawning.com^
+||bluedcrwth.com^
 ||bluejayfacette.com^
 ||bluejaysilene.com^
 ||blueoyster.click^
@@ -37749,6 +37753,7 @@ tf2r.com#@#.adverts
 ||exwotics6heomrthaoi4r.com^
 ||eyebrowscrambledlater.com^
 ||eyefuneve.com^
+||eyelidfallage.com^
 ||eyere.com^
 ||eyereturn.com^
 ||eyesightladsregiment.com^
@@ -41825,6 +41830,7 @@ tf2r.com#@#.adverts
 ||moudmarauds.com^
 ||moundgrandmotherel.com^
 ||mountries.xyz^
+||mouseryearlike.com^
 ||moutoofa.com^
 ||movad.de^
 ||movad.net^
@@ -42608,6 +42614,7 @@ tf2r.com#@#.adverts
 ||oedlwhcqfpfup.xyz^
 ||oegdmfjoqyyt.com^
 ||oeitlgqjw.com^
+||oensil.com^
 ||oepihvxwaboed.com^
 ||oetn.xyz^
 ||oewdfyhdfq.xyz^
@@ -44446,6 +44453,7 @@ tf2r.com#@#.adverts
 ||rauwoafe.com^
 ||ravalads.com^
 ||ravaquinal.com^
+||ravenousdrawers.com^
 ||rawasy.com^
 ||rawjeansadvertising.com^
 ||rawoarsy.com^
@@ -45822,6 +45830,7 @@ tf2r.com#@#.adverts
 ||someperceptionparade.com^
 ||somethingglamourbeams.com^
 ||somethingprecursorfairfax.com^
+||sometimesfaith.com^
 ||somewhate.club^
 ||somewhatteenagers.com^
 ||somuzteveh.com^
@@ -45917,6 +45926,7 @@ tf2r.com#@#.adverts
 ||spinbox.net^
 ||spiralstab.com^
 ||spiritedirreparablemiscarriage.com^
+||spirliesalse.com^
 ||spirub.com^
 ||spittsprevi.club^
 ||spitzerpfunde.com^
@@ -45999,6 +46009,7 @@ tf2r.com#@#.adverts
 ||squozelewing.com^
 ||squvlmycieyl.com^
 ||srcsmrtgs.com^
+||srfhtrjzvf.com^
 ||srgev.com^
 ||srigbxxv.com^
 ||srnmnoacbaady.com^
@@ -48126,6 +48137,7 @@ tf2r.com#@#.adverts
 ||whechypheshu.com^
 ||wheeptit.net^
 ||wheeshoo.net^
+||wheeshtdooring.com^
 ||wheessoo.com^
 ||whefungu.com^
 ||wheglulyto.pro^
@@ -53174,6 +53186,7 @@ tf2r.com#@#.adverts
 ||slut2fuck.net^$popup
 ||snapcheat.app^$popup
 ||soadvr.com^$popup
+||sobakenchmaphk.com^$popup
 ||socialsex.biz^$popup,third-party
 ||socialsex.com^$popup
 ||spklmis.com^$popup
@@ -53360,6 +53373,7 @@ tf2r.com#@#.adverts
 ||essayerudite.com/images/banner/
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
+||exchange.remixd.com/vast/
 ||extensoft.com/artisteer/banners/
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
@@ -53415,7 +53429,6 @@ tf2r.com#@#.adverts
 ||groupon.com/javascripts/common/affiliate_widget/
 ||grscty.com/images/banner/
 ||gsniper.com/images/
-||gstaticadssl.l.google.com^$~font,third-party,~xmlhttprequest
 ||handango.com/marketing/affiliate/
 ||hbid.ams3.cdn.digitaloceanspaces.com^
 ||hide-my-ip.com/promo/
@@ -55594,6 +55607,7 @@ apkonline.net###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
 purplepainforums.com###affiliates
+exportfromnigeria.info###affs
 systutorials.com###after-content-1
 amgreatness.com###ag-lead
 timesofmalta.com###article-sponsored
@@ -55993,8 +56007,6 @@ myabandonware.com###n429myabandonware_leaderboard_btf_2
 myabandonware.com###n429myabandonware_medrec_left_atf
 myabandonware.com###n429myabandonware_medrec_right_atf
 myabandonware.com###n429myabandonware_medrec_right_btf
-comicbook.com###native-plus-top1
-comicbook.com###native-plus-top2
 gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
@@ -56211,6 +56223,7 @@ needsomefun.net###text-41
 bigblueball.com###text-416290631
 needsomefun.net###text-42
 premiumtimesng.com###text-429
+kollelbudget.com###text-43
 premiumtimesng.com###text-440
 electronicshub.org,techlife.com,technipages.com###text-5
 2smsupernetwork.com,khaama.com###text-50
@@ -56218,7 +56231,11 @@ ssbcrack.com###text-51
 quickonlinetips.com###text-57
 2smsupernetwork.com,times.co.zm###text-6
 yugatech.com###text-69
+kollelbudget.com###text-70
+kollelbudget.com###text-78
 playco-opgame.com###text-8
+kollelbudget.com###text-82
+kollelbudget.com###text-83
 nanoreview.net###the-app > .mb
 standard.co.uk###thirdparty_03_parent
 mma-core.com###tlbrd
@@ -58360,6 +58377,7 @@ beforeitsnews.com##[id^="banners_"]
 geeksforgeeks.org##[id^="bsa-zone"]
 scmp.com##[id^="div-ad-"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
+comicbook.com,popculture.com##[id^="native-plus-"]
 msn.com##[id^="native_ad_"]
 noqreport.com##[id^="oqre-"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
@@ -58426,8 +58444,8 @@ twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
 1337x.to##a[href="/v-pn2dl-hideip"]
 techporn.ph##a[href][target*="blank"]
-mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
+mtaeta.info##a[href][target="_blank"] > img[src^="http://storage2.proboards.com/"]
 flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 linkhub.icu##a[href^="/downloadnow.php?"]
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
@@ -58471,6 +58489,7 @@ futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 coachhuey.com##a[href^="https://www.hudl.com"]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 who.is##a[href^="https://www.name.com/redirect/"]
+kollelbudget.com##a[href^="https://www.oorahauction.org/"][target="_blank"] > img
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
@@ -58824,7 +58843,7 @@ gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
-comicbook.com##.popculture-embed
+comicbook.com,popculture.com##.popculture-embed
 kidspot.com.au##.secondary-video
 goal.com##.semantic-player-embed
 gamesradar.com,tomshardware.com,whathifi.com##.vid-present
@@ -60387,6 +60406,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||sascdn.com/diff/templates/ts/dist/banner/sas-banner-$script,domain=dr.dk
 @@||scan-manga.eu/*pageID=$~third-party
 @@||searchad.naver.com^$~third-party
+@@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
@@ -62235,6 +62255,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 ||5idoy8p7.live^
+||xxgslt.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -77889,6 +77910,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||weldsystem.online^
 ||qhonzpl.cn^
 ||3z3sfuj.cn^
+||k11designstore.club^
+||ypjmvdfxqw.com^
+||xsvgpjl.cn^
+||wzl03.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -94364,6 +94389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bitclouds.ru/trd
 ||bitrix.info/ba.js
 ||bizsolutions.strands.com^
+||blink.net/e/
 ||blip.bizrate.com^$script
 ||blogblog.com/tracker/
 ||bmrg.reflected.net^
