@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DrRPA15xvct0YLw+7zV3kQ
+! Checksum: CjcEPxbM64CfNd1p02p6EQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205081408
-! Last Modified: 2022年05月08日 14:08
+! Version: 202205082008
+! Last Modified: 2022年05月08日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2428,7 +2428,6 @@ ubmcmm.baidustatic.com
 ||268mob.cn^
 ||272xb.com^
 ||280dp.com^
-||2898.com^$third-party
 ||28acglz.com^
 ||28wangmeng.com^
 ||292812.com^
@@ -10013,8 +10012,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||2898.com/index/flowexchange/getGoods?
+||360kan.com/v1/block?blockid=544&
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ithome.com##a[href*="/lapin."] + .ad
+360kan.com##.info-flow__ad
 3dmgame.com##.Content_L > p
 3dmgame.com##.Gmaeinfobtn_tab  > span
 3dmgame.com##.Gmaeinfobtn + span
@@ -17957,6 +17960,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||h04.xyz^
 ||dcjfoei.cn^
 ||ihtqqws.cn^
+||baiyi.site^
+||wangderder.xyz^
+||kimdate2019.xyz^
+||i54.xyz^
+||jmkxinfekxa.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
