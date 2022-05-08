@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oCsaq8BOSS//wNw3GxISZA
+! Checksum: siACPNHfDm7H/kvfAnLuMQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205080204
-! Last Modified: 2022年05月08日 02:04
+! Version: 202205080826
+! Last Modified: 2022年05月08日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17514,6 +17514,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||xiaodian.name^
+||hx9.ink^
+||beside-u.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -37328,6 +37331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
 ||pixel.inforsea.com^
+||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -38170,6 +38174,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2zjlj1vewrxcj.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^

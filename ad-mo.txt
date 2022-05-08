@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8leuq8vZPprVL6ybuO9RDQ
+! Checksum: mIcmE5Lj8xaF10av6SoVAg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205080204
-! Last Modified: 2022年05月08日 02:04
+! Version: 202205080826
+! Last Modified: 2022年05月08日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -27621,6 +27621,7 @@ _800x80_
 ##.np-ad
 ##.np-ad-background
 ##.np-ad-border
+##.np-ads-wrapper
 ##.np-adv-container
 ##.np-advert_apu
 ##.np-advert_apu-double
@@ -54674,6 +54675,7 @@ tf2r.com#@#.adverts
 ||sorcerers.net/includes/butler/
 ||southfloridagaynews.com/images/banners/
 ||sportpesanews.com/images/promo/
+||startpage.com/sp/adsense/
 ||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
@@ -56841,6 +56843,7 @@ publish0x.com##.d-md-block.d-none.overflow-hidden
 thestreamable.com##.d-md-flex
 glumbouploads.com##.d0_728
 digminecraft.com##.d3e8860a
+fxempire.com##.dKBfBG
 sbs.com.au##.dNXvOT
 iol.co.za##.dULFRs
 standard.co.uk##.dXaqls
@@ -77796,6 +77799,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||xiaodian.name^
+||hx9.ink^
+||beside-u.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -95355,6 +95361,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
 ||pixel.inforsea.com^
+||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -96197,6 +96204,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2zjlj1vewrxcj.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d31y97ze264gaa.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
