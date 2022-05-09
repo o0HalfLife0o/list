@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CoFaDU9X6YjkyCiw3f3vpQ
+! Checksum: cuiNsqMYPeOOZMdRhYmNbg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205090826
-! Last Modified: 2022年05月09日 08:26
+! Version: 202205091408
+! Last Modified: 2022年05月09日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -36170,7 +36170,6 @@ tf2r.com#@#.adverts
 ||cttghjfhsw.com^
 ||cubanetestoon.com^
 ||cubaordmvsslr.com^
-||cubics.com^
 ||cucalm.com^
 ||cuckooretire.com^
 ||cuculf.name^
@@ -49656,6 +49655,7 @@ tf2r.com#@#.adverts
 ||ctrhub.com^$third-party
 ||ctrmanager.com^$third-party
 ||ctxtfl.com^$third-party
+||cubics.com^$third-party
 ||cuelinks.com^$third-party
 ||currentlyobsessed.me^$third-party
 ||cybmas.com^$third-party
@@ -57208,6 +57208,7 @@ stocksnap.io##.inline-carbon
 engadget.com##.inline-emphasis
 pcgamesn.com,theloadout.com##.inlinerail
 nintendolife.com##.insert
+canarymedia.com##.inset-x-0
 flixboss.com##.instream-dynamic
 defenseone.com##.interstitial
 allnurses.com##.ipsAreaBackground
@@ -60434,6 +60435,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||arnhemland-safaris.com/images/made/$image,~third-party
 @@||cloud.mail.ru^$image,~third-party
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
+@@||crystalmark.info/wp-content/uploads/sites/$image,~third-party
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||leffatykki.com/media/banners/tykkibanneri-728x90.png$image,~third-party
@@ -69878,6 +69880,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||biquge96.com/123.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -77818,6 +77821,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ##a[href$=".120ydrayy.com"]
 ||qintian.ink^
+||8500.pro^
+||sosodo.xyz^
+||smfierf.xyz^
+||9284swk.cn^
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
