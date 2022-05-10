@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a/l14uKFgY+L2UM2zabTXw
+! Checksum: UDuBCyx7WJ37X9Uqa0MWTw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205101407
-! Last Modified: 2022年05月10日 14:07
+! Version: 202205102015
+! Last Modified: 2022年05月10日 20:15
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1694,7 +1694,7 @@ bongdahomnay.tech#$#abort-on-property-read $
 viet69.org#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 fembed.com,femax20.com,zo3x.ml,mrdhan.com,lxhentai.com,m.blogtruyen.vn,viettoons.tv,bphimmoi.net#$#abort-on-property-read open
-xemphimgii.net,phimhdvns.net,fimnhez.net#$#abort-current-inline-script jQuery popurl
+phimgif.net,phimhdvns.net,fimnhez.net#$#abort-current-inline-script jQuery popurl
 baliphim.com,lucaphim.com#$#abort-current-inline-script parseInt break;case $.
 khophimhd.net,downloadsachmienphi.com,truyen2u.net#$#abort-current-inline-script JSON.parse atob
 tapmoi.net#$#abort-on-property-read SmartPopunder
