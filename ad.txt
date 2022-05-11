@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GqsFREEOeEGR942kHpXefQ
+! Checksum: U5HcyLZtul8emI2OMtdXxA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205110829
-! Last Modified: 2022年05月11日 08:29
+! Version: 202205111408
+! Last Modified: 2022年05月11日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1672,6 +1672,7 @@ ubmcmm.baidustatic.com
 ##.ads_all > .ads_w
 ##.ads_desktop
 ##.ads_mobile
+##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##.adsense160
 ##.adsense200
 ##.adsoho
@@ -2015,7 +2016,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2300,8 +2301,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xmmnsl.com^
 ||00-gov.cn^
 ||000123456789.site^
+||fakrg0e.cn^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -17976,6 +17979,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||coder-bts.site^
 ||1rongzi.cn^
+||ayuki.ink^
+||shilong.xyz^
+||njvfidke.xyz^
+||j49.xyz^
+||fktkwb.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
