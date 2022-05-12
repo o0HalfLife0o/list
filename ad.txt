@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2DX8JyTd7HJ9ub7bBbUbYw
+! Checksum: U0I62/aqcgsco5jA9K5yng
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205121408
-! Last Modified: 2022年05月12日 14:08
+! Version: 202205122014
+! Last Modified: 2022年05月12日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2305,6 +2305,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||23986834.com^
+||hflssy.com^
+||ijsxk.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -10045,6 +10047,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
+||kejiwanjia.com/wp-content/uploads/*/1040x100.
+||kkeji.com/img/*/300250
+||mh3666.com^*.jsonp
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -15796,6 +15801,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||ads.alafish.cn^$~third-party
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -17996,6 +18002,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||unnqyqq.cn^
 ||j46.xyz^
 ||uebabuf.cn^
+||wangchangye.xyz^
+||lovecat.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
