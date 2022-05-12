@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AgOsDJlI9wHFl2tcxdH2sw
+! Checksum: 2DX8JyTd7HJ9ub7bBbUbYw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205120828
-! Last Modified: 2022年05月12日 08:28
+! Version: 202205121408
+! Last Modified: 2022年05月12日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2007,6 +2007,7 @@ ubmcmm.baidustatic.com
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+##a[target="_blank"] > img[height="60px"][src*=".c-ctrip.com"][src$=".gif"]
 ##div#xinxi
 ~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="ps_"][value="20"]
@@ -2016,7 +2017,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -2303,6 +2304,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||23986834.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -10042,6 +10044,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17909,6 +17912,7 @@ $image,third-party,domain=258zw.com
 /aa_*_a1.js$script,third-party
 /assets/frameworks/types-*?plm=$script,third-party
 /bbhd_*_kkis.js
+/sg.asp?wsg&df=1$script,third-party
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /hmzn_*_*_*.js?$script,third-party
@@ -17984,6 +17988,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||hikari.website^
 ||hainancaishui.online^
+||b85xx.site^
+||sciillr.cn^
+||i03.xyz^
+||jiangsg.me^
+||bzyunduan.cn^
+||unnqyqq.cn^
+||j46.xyz^
+||uebabuf.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24039,7 +24051,10 @@ _box_ad_
 ||jlwz.cn/js/xf*.js
 ||book118.com^*/js/crm.
 ||book118.com^*/showRecommend.
+||mbalib.com/common/a_mbalib/
+||lotuscard.cc/online/
 !------------------------Specific element hiding rules------------------------!
+guancha.cn##.g_swiper_container
 fantuan.tv##.app-guide
 dyxs15.com,dianying.im##.popup,.shortcuts-mobile-overlay
 dm010.com##a[href*=".apk"]
