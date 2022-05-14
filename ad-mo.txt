@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AzZtbTspVebslfX/p+C4vA
+! Checksum: bkrkk/RPR328Buv9io6IGQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205142009
-! Last Modified: 2022年05月14日 20:09
+! Version: 202205150207
+! Last Modified: 2022年05月15日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -56373,7 +56373,7 @@ nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 forums.tomsguide.com###video_ad
 gumtree.com###vipBanner
-playstationtrophies.org###vnt-lb-a
+playstationtrophies.org,xboxachievements.com###vnt-lb-a
 browserleaks.com###vpn_img
 browserleaks.com###vpn_text
 ettvcentral.com###vpnvpn
@@ -59863,6 +59863,7 @@ boobieblog.com##[href^="https://iplayboy.us/"]
 hentaiworld.tv##[href^="https://l.epvkjs.com/"]
 masalaseen.net##[href^="https://rajabets.com/"]
 freebdsmxxx.org##[href^="https://t.me/joinchat/"]
+pornhub.com##[href^="https://weedmaps.com"]
 sexhimmel.com##[href^="https://www.amarotic.com/"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 koreanstreamer.xyz##[href^="https://www.saltycams.com"]
@@ -62367,6 +62368,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||zxse43.com^
 ||pfiparts.com^
+||sunyujia.top^
+||kukanlm-my1.com^
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||29525187.com^
 ||17271819.com^
@@ -70121,6 +70124,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+pcworks.cn##.xintheme-ad
+pcworks.cn##.md-show
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -75870,6 +75875,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||haokoubei.top/jquery/jquery-1.7.2.min.js
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -78073,6 +78079,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cyl3h68.cn^
 ||fanst.club^
 ||yguo.xyz^
+||dmfjeu.xyz^
 ||wty007.xyz^
 ||mathmodel.xyz^
 ||xyy9.xyz^
@@ -89898,6 +89905,7 @@ _mongo_stats/
 ||esearchvision.com^$third-party
 ||esm1.net^$third-party
 ||esomniture.com^$third-party
+||esputnik.com^$third-party
 ||estara.com^$third-party
 ||estat.com^$third-party
 ||estrack.net^$third-party
@@ -97568,7 +97576,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||informers.sinoptik.ua^
 ||mgz.com.ua/counter.php?
 ||top.zp.ua/counter/
-||tracker.esputnik.com^
 ||analytics.yomedia.vn^
 ||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
@@ -110084,6 +110091,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||pop800.com^$third-party
 ||soperson.com^$third-party
 ||tawk.to^$third-party
+||webfunny.cn^$third-party
 ||tui.cnzz.net^$third-party
 ||wpa.b.qq.com/cgi/wpa.php?
 ||zoosnet.net^$third-party
