@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: DSj4AqFknye1sKiRqLfrrg
+! Checksum: WhRFOYvsyDwZmu8HnXVHoA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205140834
-! Last Modified: 2022年05月14日 08:34
+! Version: 202205141425
+! Last Modified: 2022年05月14日 14:25
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1859,6 +1859,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||zxse43.com^
+||pfiparts.com^
 ||first-hufu.oss-cn-shanghai.aliyuncs.com^
 ||29525187.com^
 ||17271819.com^
@@ -17559,6 +17560,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jinlijzbd.com^
 ||summerxzp.xyz^
 ||c0c.biz^
+||anabcd.xyz^
+||gxzxiww.com^
+||mobrkbb.com^
+||cyl3h68.cn^
+||fanst.club^
+||yguo.xyz^
 ||wty007.xyz^
 ||mathmodel.xyz^
 ||xyy9.xyz^
@@ -40328,6 +40335,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vortex.hulu.com^
 ||vrbo.com/pdp/logger?
 ||vrv.co/ip
+||wa.gmx.co.uk^
 ||wa.ui-portal.de^
 ||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
@@ -49864,6 +49872,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||vfd2dyn.vodafone.de^
 ||wa.gmx.ch^
 ||wa.gmx.net/gmxde/gmxde/s?$image
+||wa.gmx.net^
 ||wikipedia.de/tracking.js
 ||wjq.ma.tarnkappe.info^
 ||wlw.de/unified_search_backend/api/v1/tracking/
