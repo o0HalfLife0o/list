@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aUIiow5J7kEK3PJd5YV7Ew
+! Checksum: xzPRBUNFwtKuRLHrJRIxZw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205150838
-! Last Modified: 2022年05月15日 08:38
+! Version: 202205151408
+! Last Modified: 2022年05月15日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2019,11 +2019,11 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
+##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
 ##img[onclick*="/statics/js/"]
@@ -18010,6 +18010,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||lanyue.ink^
 ||deya.ink^
+||hackeraa.xyz^
+||wn68din.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
