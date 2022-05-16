@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OPNUGhKtrnn9WS6VDSkwhQ
+! Checksum: vLsWMKmYkqu50fksAMnf5A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205161407
-! Last Modified: 2022年05月16日 14:07
+! Version: 202205162014
+! Last Modified: 2022年05月16日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2020,7 +2020,7 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -10065,6 +10065,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||249999.xyz^*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -18014,6 +18015,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ixnrmco.com^
 ||4kddyfd.cn^
 ##a[href*=".rrrmrm.com/"]
+||ys9mw1u.cn^
+||kadkaxjfeh.com^
+||ayunzhizuo.ltd^
+||jiaxue.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

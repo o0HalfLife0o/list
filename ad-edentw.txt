@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZgYhP39dcgQfhlxRasRCng
+! Checksum: q/+bP4oky0tA8jcuDq995Q
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205150207
-! Last Modified: 2022年05月15日 02:07
+! Version: 202205162014
+! Last Modified: 2022年05月16日 20:14
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -399,8 +399,7 @@ photolessons.org###modal-adbmon-div
 ostroh.info###modal.modal-bg
 all-episodes.net###odin
 mover.uz###oframeplayer > [class][style^="display: block"]
-filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"] ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone#?##oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"]:-abp-contains(/adblock/i)
+filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 md4u.ru###pagecontent > div[style*="background-color"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
@@ -1687,7 +1686,7 @@ lb.topphimhd.info#$#override-property-read adsData_ar true
 baliphim.com#$#override-property-read time_load_ads_1 0; override-property-read time_load_ads_2 0
 blog.abit.vn#$#abort-on-property-read document.cookie
 phimhay3s.com#$#json-prune ads
-90phutttttttt.xyz#$#abort-current-inline-script $ overlay
+90phuttttttttt.xyz#$#abort-current-inline-script $ overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 xoilac2.net#$#abort-current-inline-script jQuery overlay
