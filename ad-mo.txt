@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tlrE3JT7pxW3PBrx8g1U2Q
+! Checksum: 96bryG2ZCh6NzI0er5fZoQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205160829
-! Last Modified: 2022年05月16日 08:29
+! Version: 202205161407
+! Last Modified: 2022年05月16日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -53428,6 +53428,7 @@ tf2r.com#@#.adverts
 ||credible.com/sdk.js$third-party
 ||crowdsavings.com/r/banner/
 ||crunchyroll.com/awidget/
+||cts.tradepub.com^
 ||customer.heartinternet.co.uk^$third-party
 ||cut-win.com/img/banners/
 ||cuteonly.com/banners.php
@@ -56402,6 +56403,7 @@ theregister.com###whitepapers
 itnews.com.au###whitepapers-container
 gomapper.com###wideSkyScraper
 tribunnews.com###wideskyscraper
+apotelyt.com###wiDoCon
 wallpapersmania.com###wm_cpa
 gaynewzealand.com###wn-insurance-quote-editor
 rediff.com###world_right1
@@ -57038,6 +57040,8 @@ filerio.in##.ctl25
 funny.com##.ctnAdBanner
 seattlepi.com##.ctpl-fullbanner
 homefinder.com##.cubeContainer
+apotelyt.com##.cuFitaCon
+apotelyt.com##.cuPopuCon
 speedrun.com##.curse
 toolslib.net##.custom
 manilastandard.net##.custom-banner-customize
@@ -57932,6 +57936,8 @@ bangordailynews.com##.scaip
 newindianexpress.com##.scc
 readmng.com##.scroll_target_top
 9anime.to##.sda
+apotelyt.com##.sdbrUnitFlex250a
+apotelyt.com##.sdbrUnitFlex100
 userscript.zone##.searcad
 semiconductor-today.com##.searchmidbox
 minecraftservers.org##.second-banner
@@ -78076,10 +78082,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||llaxl.com^
+||paohao.com^
+||cggf.xyz^
+||sinimb.top^
 ||swml.xyz^
 ||kxla.xyz^
+||520myjj.xyz^
 ||ixnrmco.com^
 ||4kddyfd.cn^
+##a[href*=".rrrmrm.com/"]
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
