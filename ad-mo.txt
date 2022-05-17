@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k5oC/hAmjKsL/UsfsB5QpQ
+! Checksum: e/TJUSxFoF1f0womHVBnVQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205170828
-! Last Modified: 2022年05月17日 08:28
+! Version: 202205171408
+! Last Modified: 2022年05月17日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -55446,6 +55446,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||eporner.com^$subdocument,~third-party
 ||erofus.com/*/wat.js
 ||erofus.com/move
+||erofus.com*/wat.js
 ||escortdirectory.com//images/
 ||est.pornleech.ch^
 ||everydaygayporn.com/api/spots/
@@ -55661,6 +55662,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||xteen.name/ok/
 ||xxerotica.com/xxerotica.js
 ||xxx-videosex.porn/go/
+||xxxdessert.com/34l329_fe.js
 ||xxxfetish24.com/helper/tos.js
 ||xxxporntalk.com/images/
 ||xxxshake.com/assets/f_load.js
@@ -56338,6 +56340,7 @@ searchenginejournal.com###sspcat_ifr
 systutorials.com###st-in-post-1
 bizarrepedia.com###stack > .ln-thr
 saharareporters.com###stage-header
+tinyurl.is###stand-with
 videobin.co###startpopupcode
 geekwire.com###startup-resources-sidebar
 newcartestdrive.com###static-asset-placeholder-2
@@ -58635,6 +58638,7 @@ lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
 linkhub.icu##a[href^="/linknow.php?"]
 tehrantimes.com##a[href^="/redirect/ads/"]
 xbox-hq.com##a[href^="banners.php?"]
+tinyurl.is##a[href^="mailto:sportspanel4"]
 depositfiles.com,dfiles.eu##a[href^="http://ads.depositfiles.com/"]
 dvdtalk.com##a[href^="http://dvdtalk.pricegrabber.com/"]
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
@@ -58785,6 +58789,7 @@ weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
 timeout.com##div[id^="ad-promo-"]
 timeout.com##div[id^="ad-side-"]
+titantv.com##div[id^="ctl00_TTLB"]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
 javacodegeeks.com##div[id^="adngin-"]
 apkonline.net##div[id^="adxx"]
@@ -58970,6 +58975,7 @@ eve-search.com##td[height="90"]
 ip-address.org##td[style="padding-top:0.3em"]
 itnewsonline.com##td[width="120"]
 eurometeo.com##td[width="738"]
+titantv.com##td[id^="menutablelogocell"]
 planetinsane.com,radiosurvivor.com##text-18
 trademe.co.nz##tm-display-ad
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
@@ -59922,6 +59928,7 @@ pinflix.com,pornhd.com##.zone-area
 hentai2read.com##.zonePlaceholder
 xxxdan.com##.zx1p
 porn300.com,pornodiamant.xxx##[class^="abcnn_"]
+setdartwatches.com##[class^="boxzilla-"]
 whoreshub.com##[class^="pop-"]
 cumlouder.com##[class^="sm"]
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
@@ -78161,6 +78168,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vrzsw.com^
 ||aihuihui.xyz^
 ||mapping.fun^
+||yungetongxun.xyz^
+||ikjocef.cn^
+||xgsx.club^
 ||swml.xyz^
 ||kxla.xyz^
 ||520myjj.xyz^
