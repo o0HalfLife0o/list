@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q5UVqwX3L5J+6ZfsbDpGTQ
+! Checksum: n41eFuOfmsDwQ2imb6iW6w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205180825
-! Last Modified: 2022年05月18日 08:25
+! Version: 202205181407
+! Last Modified: 2022年05月18日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60815,6 +60815,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/fourapi/api/data/money?date=$xmlhttprequest
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -61492,7 +61493,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ://*:*/jscode/*.js$script,third-party
 ://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
-://bttzyw*/Runtime/js/psData.
+://btt*/Runtime/js/psData.
 ://ssh.*:10443/$third-party
 :1010/openV5.js
 :10443/*/*!$third-party
@@ -62495,6 +62496,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||yanzunyang.top^
+||xunjiu.online^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -78195,6 +78198,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||yyxrm.com^
+||guliangli.online^
+||purchathough.com^
+||675ujh.site^
+||lvxingzhe.store^
+||dkvuey.xyz^
+||yrbfol5.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
