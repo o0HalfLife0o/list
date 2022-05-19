@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: As902Rah0n8VYZtx/+k9GQ
+! Checksum: vdRLwmh2Le54KdxAN08NTQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202205190206
-! Last Modified: 2022年05月19日 02:06
+! Version: 202205192009
+! Last Modified: 2022年05月19日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1188,7 +1188,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-mangadna.com,manhuascan.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+mangadna.com,manhuascan.me,manhwax.com#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1325,12 +1325,10 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@data-pagelet=
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//a[@aria-label][@href][@role="link"][@tabindex="0"]//div[@class]/span[@class][contains(normalize-space(),"Sponsored")]/ancestor::a[@aria-label][1]'
 ! Experimental
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span[@aria-labelledby]/span[contains(@style,"flex")]/span[contains(@style,"flex") or contains(@style,"order: 1") and contains(text(),"S") or contains(text(),"P") or contains(text(),"G") or contains(text(),"C")]//following-sibling::span[contains(@style,"flex")]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a/span/span[@aria-labelledby]/span[contains(@style,"flex") and contains(text(),"S") or contains(text(),"P") or contains(text(),"G") or contains(text(),"C") or contains(@style,"order: 1")]//following-sibling::span[contains(@style,"flex")]/ancestor::div[@aria-posinset or @aria-describedby or @aria-labelledby or starts-with(@data-pagelet,"FeedUnit_")]'
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^e]*e)(?=[^d]*d).+/ div[data-pagelet^="FeedUnit_"] 'a[href="#"] span[aria-labelledby]'
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^P]*P)(?=[^u]*u)(?=[^b]*b)(?=[^l]*l)(?=[^i]*i)(?=[^c]*c)(?=[^d]*d)(?=[^a]*a).+/ div[data-pagelet^="FeedUnit_"] 'a[href="#"] span[aria-labelledby]'
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^i]*i)(?=[^é]*é).+/ div[data-pagelet^="FeedUnit_"] 'a[href="#"] span[aria-labelledby]'
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^z]*z)(?=[^t]*t).+/ div[data-pagelet^="FeedUnit_"] 'a[href="#"] span[aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^e]*e)(?=[^d]*d).+/ div[aria-posinset][role="article"] 'a[href="#"] span[aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^P]*P)(?=[^u]*u)(?=[^b]*b)(?=[^l]*l)(?=[^i]*i)(?=[^c]*c)(?=[^d]*d)(?=[^a]*a).+/ div[aria-posinset][role="article"] 'a[href="#"] span[aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^i]*i)(?=[^é]*é).+/ div[aria-posinset][role="article"] 'a[href="#"] span[aria-labelledby]'
+www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^z]*z)(?=[^t]*t).+/ div[aria-posinset][role="article"] 'a[href="#"] span[aria-labelledby]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-691
 ebay.fr#$#hide-if-contains-visible-text /(.*S.*p.*o.*n.*s.*o.*r.*i.*s.*é⁣.*)/ 'li.s-item' 'li.s-item span[role="text"]'
@@ -1380,6 +1378,7 @@ lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
 hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
 hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
+jpscan-vf.com#$#abort-on-property-read __formatsGetters
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open

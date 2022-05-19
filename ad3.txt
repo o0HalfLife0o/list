@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: evfO9PSDYuUpe5eUoioh0g
+! Checksum: /9weIobpNK8Xynb0W+3Z/Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205191407
-! Last Modified: 2022年05月19日 14:07
+! Version: 202205192009
+! Last Modified: 2022年05月19日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1870,6 +1870,8 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||eylqbeu.cn^
 ||19719197.com^
+||dgxlm.xyz^
+||qgbtd.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9637,9 +9639,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||gxqzz.7766.org^
 ||u3c3.cc^*.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jianbiaoku.com##div[style="width:960px;height:130px;margin:0 auto;margin-top:35px;padding:0;cursor:pointer;"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17594,6 +17598,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yjsituation.com^
 ||n8kt7gf.cn^
 ||lgl.ink^
+||learningc.website^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -38628,7 +38633,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gibts-hier.com/counter.php
 ||giga.de/vw/$image,third-party
 ||global-media.de^*/track/ai.img
-||gocp.stroeermediabrands.de^$third-party
 ||goldsilbershop.de/go.cgi?
 ||hbx.df-srv.de^
 ||hittracker.org/count.php
@@ -38639,7 +38643,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
 ||iqcontentplatform.de/tracking/
-||js.stroeermediabrands.de^$third-party
 ||koe-vip.com/statistik/
 ||live.cxo.name^
 ||live.ec2.cxo.name^
@@ -50398,6 +50401,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||npo.nl/tag/atinternet/
 ||pcmweb.nl/track/
 ||pipeline.rd.nl^
+||r.kleertjes.com^
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
