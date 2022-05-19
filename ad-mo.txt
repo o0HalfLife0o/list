@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XMIVGjFrxjVNI5ujtkKaog
+! Checksum: nrGegnC+8QAUAY0owZNgmg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205190206
-! Last Modified: 2022年05月19日 02:06
+! Version: 202205190833
+! Last Modified: 2022年05月19日 08:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -13408,6 +13408,8 @@ _800x80_
 ###dfp-header
 ###dfp-header-container
 ###dfp-home_after-headline_leaderboard
+###dfp-ia01
+###dfp-ia02
 ###dfp-interstitial
 ###dfp-leaderboard
 ###dfp-leaderboard-desktop
@@ -13462,6 +13464,8 @@ _800x80_
 ###dfp_unit_Desktop_MPU_BTF_1
 ###dfp_unit_Desktop_MPU_BTF_2
 ###dfpad-0
+###dfpslot_tow_2-0
+###dfpslot_tow_2-1
 ###dfrads-widget-3
 ###dfrads-widget-6
 ###dfrads-widget-7
@@ -17125,6 +17129,7 @@ _800x80_
 ##.ADmid
 ##.ADouter_div
 ##.ADwidget
+##.AL-ad-container
 ##.ATF_wrapper
 ##.A__smallSuperbannerAdvert-main
 ##.AcceptableTextAds
@@ -18007,6 +18012,7 @@ _800x80_
 ##.ad-9
 ##.ad-90
 ##.ad-90x600
+##.ad-921
 ##.ad-970
 ##.ad-970-250
 ##.ad-970-90
@@ -18119,6 +18125,8 @@ _800x80_
 ##.ad-bline
 ##.ad-block
 ##.ad-block--300
+##.ad-block--leader
+##.ad-block--leader-extra
 ##.ad-block-240x400
 ##.ad-block-300
 ##.ad-block-300-widget
@@ -18612,6 +18620,7 @@ _800x80_
 ##.ad-nav-ad-plus
 ##.ad-new
 ##.ad-new-box
+##.ad-no-css
 ##.ad-no-notice
 ##.ad-no-style
 ##.ad-noBorderAndMargin
@@ -19046,6 +19055,7 @@ _800x80_
 ##.ad-with-notice
 ##.ad-with-us
 ##.ad-wp
+##.ad-wp-720
 ##.ad-wrap
 ##.ad-wrap--leaderboard
 ##.ad-wrap--mrec
@@ -28132,6 +28142,7 @@ _800x80_
 ##.powerinbox
 ##.pp-adunit
 ##.pp-box-adunit
+##.pp_ad_code_adtxt
 ##.pp_ads_global_before_menu
 ##.ppb_ads
 ##.ppp_interior_ad
@@ -29638,6 +29649,7 @@ _800x80_
 ##.sraAdvert
 ##.src_parts_gen_ad
 ##.srp-grid-speed-ad3
+##.srp-sidebar-ads
 ##.ss-ad-banner
 ##.ss-ad-mpu
 ##.ss-ad-thumbnail
@@ -30802,6 +30814,7 @@ _800x80_
 ##.wnad
 ##.worldplus-ad
 ##.wp-ads-target
+##.wp-block-ad-slot
 ##.wp-block-tpd-block-tpd-ads
 ##.wp125_write_ads_widget
 ##.wp125ad
@@ -30952,6 +30965,7 @@ _800x80_
 ##.yw-ad
 ##.z-ad-display
 ##.z-ad-lockerdome-inline
+##.z-ad-mypillow-inline
 ##.z-lockerdome-inline
 ##.z-sponsored-block
 ##.zRightAdNote
@@ -56562,11 +56576,13 @@ tvnz.co.nz##.Advert
 suffolknews.co.uk##.Advertisement
 technicalarp.com##.Arpian-ads
 rankedboost.com##.Article-A-Align
+cruisecritic.com,cruisecritic.com.au##.ArticleItem_scrollTextContainer__GrBC_
 terradaily.com##.BDTX
 jobs24.co.uk##.Banner
 freebitz.xyz##.BannerContainer
 freebitz.xyz##.BannerContainerScrapper
 freebitz.xyz##.BannerMain
+thedailybeast.com##.CheatSheetList__placeholder
 tutiempo.net##.ContBannerTop
 dappradar.com##.Container--bottomBanners
 johnogroat-journal.co.uk##.DMPU
@@ -57064,7 +57080,8 @@ thisismoney.co.uk##.cnr5
 browserhow.com,charlieintel.com,cryptoslate.com,flickeringmyth.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
-getdroidtips.com,patriotfetch.com,thisisanfield.com##.code-block-13
+trendingpolitics.com##.code-block-12
+getdroidtips.com,patriotfetch.com,thisisanfield.com,trendingpolitics.com##.code-block-13
 getdroidtips.com##.code-block-15
 mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,gatewaynews.co.za,geekspin.co,journeybytes.com,kanonitv.net,mikeprg.com##.code-block-2
@@ -57154,7 +57171,7 @@ stylist.co.uk##.css-1fz837r
 crazygames.com##.css-1h6nq0a
 gamingbible.co.uk##.css-1i2p7ui
 bmj.com##.css-1jjs1rx
-cruisecritic.co.uk,cruisecritic.com##.css-1kyizeh
+cruisecritic.co.uk,cruisecritic.com,cruisecritic.com.au##.css-1kyizeh
 infowars.com##.css-1nbwp0k
 eviemagazine.com##.css-1pm6hh5
 infowars.com##.css-1upmbem
@@ -57573,6 +57590,7 @@ paycalculator.com.au##.jss336
 calorieking.com##.jss356
 paycalculator.com.au##.jss546
 tvtv.us##.jss67
+autolist.com##.jsx-2866408628
 essentiallysports.com##.jsx-4249843366
 theartnewspaper.com##.justify-center.flex.w-full
 aiscore.com##.justify-center.w100
@@ -57678,6 +57696,7 @@ yardbarker.com##.mb_promo_responsive_right
 helpnetsecurity.com##.mbw
 thestar.com.my##.med-rec
 gamezone.com##.med-rect-ph
+webmd.com##.medianet-ctr
 allmusic.com##.medium-rectangle
 weatherpro.com##.medium-rectangle-wrapper-2
 ebaumsworld.com##.mediumRect
@@ -58442,13 +58461,13 @@ screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 usmagazine.com##.widget_block
 wplift.com##.widget_bsa
-cnx-software.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
+cnx-software.com,dailyveracity.com,metalsucks.net,mmoculture.com,robloxhackscripts.com,techdows.com##.widget_custom_html
 eos.org##.widget_eosadvertisement
 bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,washingtonmonthly.com##.widget_media_image
+appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,rsbnetwork.com,washingtonmonthly.com##.widget_media_image
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
@@ -58518,6 +58537,7 @@ ginx.tv##[data-ref]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
+sbofficial.in##[data-testid="linkElement"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
@@ -58564,7 +58584,7 @@ howtogeek.com##[href^="http://macpaw.7eer.net/"]
 pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
-orschlurch.net,tetris.com##[href^="https://amzn.to/"]
+orschlurch.net,sbofficial.in,tetris.com##[href^="https://amzn.to/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 seganerds.com##[href^="https://betway.com/"]
 mc-market.org##[href^="https://bit.ly/"] img
@@ -62544,6 +62564,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||eylqbeu.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -78259,6 +78280,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||qgbtd.com^
+||zqg315a.cn^
+||xpizjd4.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -95058,6 +95082,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect-ap2.attraqt.io^
 ||collect-eu.attraqt.io^
 ||collect.*.miui.com^
+||collect.cloudsponge.com^
 ||collect.igodigital.com^$script
 ||collect.iteam-dress.com^
 ||collect.rewardstyle.com^
@@ -95225,6 +95250,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
+||ea.youmaker.com^
 ||early-birds.fr/tracker/
 ||ebayadservices.com/marketingtracking/
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
