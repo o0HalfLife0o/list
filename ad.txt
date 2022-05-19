@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qq0qtVZ5Axnpb6CE/ZqzOQ
+! Checksum: /0oI6S5u0b99mwwVQUworw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205190833
-! Last Modified: 2022年05月19日 08:33
+! Version: 202205191407
+! Last Modified: 2022年05月19日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -631,6 +631,8 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/Runtime/Js/pc_top.js
+/Runtime/Js/guding_top.js
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -2024,7 +2026,8 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##a[target="_blank"] > img[height="120px"][src*="qlogo.cn"][src$=".png"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2313,6 +2316,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||eylqbeu.cn^
+||19719197.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -10080,6 +10084,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||u3c3.cc^*.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -18031,6 +18036,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qgbtd.com^
 ||zqg315a.cn^
 ||xpizjd4.cn^
+||v3hu9iu.cn^
+||mynwct.xyz^
+||yjsituation.com^
+||n8kt7gf.cn^
+||lgl.ink^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
