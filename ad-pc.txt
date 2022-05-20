@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F7UAqKe9JvQxpWoGwB61mA
+! Checksum: m05xIb5QULnFlmaC8arMTg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205200214
-! Last Modified: 2022年05月20日 02:14
+! Version: 202205200826
+! Last Modified: 2022年05月20日 08:26
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -8057,6 +8057,7 @@ _atblockdetector/
 /728x90/*
 /728x90_
 /750-100.
+/750_150.
 /750x100.
 /760x120.
 /760x120_
@@ -14564,7 +14565,6 @@ _800x80_
 ###ignad_medrec
 ###ii_banner_ads
 ###imPopup
-###im_box
 ###im_popupDiv
 ###im_popupFixed
 ###ima_ads-2
@@ -20924,6 +20924,7 @@ _800x80_
 ##.adnz-ad-placeholder
 ##.adocean
 ##.adocean728x90
+##.adocean_desktop_section
 ##.adonmedianama
 ##.adops
 ##.adp-AdPrefix
@@ -78432,6 +78433,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||jk5t7g6.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -89422,6 +89424,7 @@ _mongo_stats/
 ||fn-pz.com^
 ||fpaux.net^
 ||fpaxu.net^
+||fpxau.net^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -95535,7 +95538,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flashstats.libsyn.com^
 ||flex.msn.com/mstag/
 ||flix360.com/beat?
-||flixcar.com/delivery/
+||flixcar.com/*/tracking/
 ||flixcar.com/gvid
 ||flixcdn.com^*/track.js
 ||flixster.com^*/analytics.
@@ -97567,10 +97570,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.belgacom.be^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
+||botndm.nl^*/init.min.js
 ||cookies.reedbusiness.nl^
 ||dmtgo.upc.biz^
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
+||nextday.media/static/tags/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
@@ -109690,7 +109695,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
