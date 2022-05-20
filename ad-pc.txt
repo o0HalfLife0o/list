@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m05xIb5QULnFlmaC8arMTg
+! Checksum: HlYTDI0kP7PrUskmPzjwDQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205200826
-! Last Modified: 2022年05月20日 08:26
+! Version: 202205201407
+! Last Modified: 2022年05月20日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17553,6 +17553,7 @@ _800x80_
 ##.GoogleDfpAd
 ##.GoogleDfpAd-Content
 ##.GoogleDfpAd-container
+##.GoogleDfpAd-wrap
 ##.GoogleDfpAd-wrapper
 ##.GoogleDfpAdModule
 ##.GoogleDfpAdModule-advertisementLabel
@@ -18611,6 +18612,7 @@ _800x80_
 ##.ad-leader-wrap
 ##.ad-leader-wrapper
 ##.ad-leaderboard
+##.ad-leaderboard-base
 ##.ad-leaderboard-companion
 ##.ad-leaderboard-container
 ##.ad-leaderboard-flex
@@ -18680,6 +18682,7 @@ _800x80_
 ##.ad-medium-container
 ##.ad-medium-content
 ##.ad-medium-rectangle
+##.ad-medium-rectangle-base
 ##.ad-medium-rectangle-item
 ##.ad-medium-two
 ##.ad-medium-widget
@@ -19072,6 +19075,7 @@ _800x80_
 ##.ad-top-rectangle
 ##.ad-top-right-container
 ##.ad-top-side
+##.ad-top-wrap-inner
 ##.ad-top-wrapper
 ##.ad-top1
 ##.ad-top2
@@ -23593,6 +23597,7 @@ _800x80_
 ##.base-ad-mpu
 ##.base-ad-slot
 ##.base-ad-top
+##.base__header-ad
 ##.base_ad
 ##.base_printer_widgets_AdBreak
 ##.baseboard-ad
@@ -25201,6 +25206,7 @@ _800x80_
 ##.ezoic-floating-bottom
 ##.f-ad
 ##.f-item-ad
+##.f-item-ad-inhouse
 ##.fN-affiliateStrip
 ##.f_Ads
 ##.fa-advertising
@@ -28431,6 +28437,7 @@ _800x80_
 ##.railad
 ##.railadspace
 ##.ramsay-advert
+##.razon_stickyad
 ##.rbFooterSponsors
 ##.rbRectAd
 ##.rc-sponsored
@@ -30981,6 +30988,7 @@ _800x80_
 ##.wrapperAdSky
 ##.wrapper_ad
 ##.wrapper_advertisement
+##.wrapperad
 ##.wrb1_x1_adv
 ##.wrb1_x7_adv
 ##.wrb2_ls1_adv
@@ -57249,6 +57257,7 @@ arcadebomb.com##.colunit1
 bollywoodlife.com##.combinedslots
 knowyourmeme.com##.combo-wrapper
 googlesightseeing.com##.comm-square
+insider.com##.commerce-coupons-module
 goal.com,runningserver.com,thisislondon.co.uk##.commercial
 blackcaps.co.nz##.commercial-partners
 telegraph.co.uk##.commercial-unit
@@ -62417,8 +62426,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -62436,7 +62445,8 @@ ubmcmm.baidustatic.com
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-##script + a[href="/hth.html"][target="_blank"]
+##a[target="_blank"] > img[height="120px"][src*=".meituan.net"][src$=".gif"]
+##a[href="/hth.html"][target="_blank"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[title="neteasefooter"]
@@ -62711,6 +62721,9 @@ ubmcmm.baidustatic.com
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
+||dadilan2.online^
+||e49.xyz^
+||cxnroh6u.xyz^
 ||012.tw^$third-party
 ||01fen.com^
 ||022aifang.com^
@@ -78298,6 +78311,7 @@ smjb.net##div[style*="height: 50%"]
 ||kakuxs.com/js/23qb.js
 ||kanshu5.net/js/index.js
 ||lnwow.co/1.
+||fzxiaoshuo.com/source/
 ||lnwow.net/1.gif
 ||loli.net^$domain=rmxsba.com|xinqingdou.net
 ||photo.*.html?tk=$script,third-party
@@ -78434,6 +78448,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||jk5t7g6.cn^
+||xqzzl1l.cn^
+||ddwant.cn^
+||wlr8yw8.cn^
+||zllqoxidate.com^
+||bangbangle.online^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -84913,6 +84932,7 @@ fqsousou.com,kengso.com#@#.user-share
 /cnt.aspx?
 /cnt.cgi?
 /cnt.js
+/cnt.php?id=
 /cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
@@ -87126,6 +87146,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pv?fe=*&elg=
 /pv?place=
 /pv?token=
+/pv_beacon.gif?
 /pv_count.
 /pv_web.gif
 /pvcount.
@@ -89710,6 +89731,7 @@ _mongo_stats/
 ||agentanalytics.com^$third-party
 ||agentinteractive.com^$third-party
 ||agilecrm.com^$third-party
+||agilesrv.com^$third-party
 ||agilone.com^$third-party
 ||agrvt.com^$third-party
 ||aidata.io^$third-party
@@ -89762,7 +89784,6 @@ _mongo_stats/
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
-||antillephone.com^$third-party
 ||anura.io^$third-party
 ||anytrack.io^$third-party
 ||apexstats.com^$third-party
@@ -92301,6 +92322,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||push-ad.com^$third-party
 ||push-free.com^$third-party
 ||push-house.net^$third-party
+||push7.jp^$third-party
 ||pushalert.co^$third-party
 ||pushbird.com^$third-party
 ||pushbullet.com^$third-party
@@ -94380,6 +94402,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyticsip.net^$third-party
 ||ar-x.site^$third-party
 ||aspservice.jp^$third-party
+||beanscattering.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
 ||catsys.jp^$third-party
@@ -95455,6 +95478,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.contactatonce.com^
 ||event-api.rdstation.com.br^
 ||event-listener.air.tv^
+||event-stream.spot.im^
 ||event.api.drift.com^
 ||event.getblue.io^
 ||event.instiengage.com^
@@ -95541,6 +95565,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||flixcar.com/*/tracking/
 ||flixcar.com/gvid
 ||flixcdn.com^*/track.js
+||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
 ||flux.com/geo.html?
@@ -97031,6 +97056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dc8xl0ndzn2cb.cloudfront.net^
 ||dd6zx4ibq538k.cloudfront.net^
 ||ddrvjrfwnij7n.cloudfront.net^
+||de5v6rb80m4j1.cloudfront.net^
 ||di2xwvxz1jrvu.cloudfront.net^
 ||dkupaw9ae63a8.cloudfront.net^
 ||dl1d2m8ri9v3j.cloudfront.net^
@@ -97126,8 +97152,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vwonwkaqvq-a.global.ssl.fastly.net^
 ||cloudfront.net./script.js
 ||cloudfront.net/script.js
+||antillephone.com^$third-party
 ||beyondsecurity.com^$third-party
 ||cyveillance.com^$third-party
+||geotrust.com^$third-party
 ||howsmyssl.com^$third-party
 ||js.trendmd.com^$script,subdocument,third-party
 ||legitscript.com/seals/
@@ -97717,6 +97745,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log000.goo.ne.jp^
 ||macromill.com/imp/
 ||mofa.go.jp^*/count.cgi?
+||monipla.com/launch.js
 ||moshimo.com^*/impression?
 ||omt.shinobi.jp^
 ||otoshiana.com/ufo/
