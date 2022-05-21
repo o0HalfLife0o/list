@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q7X44G1NmPfnSkwTnToabg
+! Checksum: pYcot2w8aTQdEzAIWP7bnA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205210827
-! Last Modified: 2022年05月21日 08:27
+! Version: 202205211407
+! Last Modified: 2022年05月21日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17603,6 +17603,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||7aohmul.cn^
 ||x3kxysp.cn^
+||is0v39c.cn^
+||dwrz5az.cn^
+||xhl161.com^
+||haodewl.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29304,7 +29308,6 @@ m.babytree.com##script + a[class]
 /tagmgmt/bootstrap.
 /tagomnitureengine.js
 /tags/angular-
-/tags?org_id=
 /tags?session_id=
 /TagSvc/*
 /tagx.js
@@ -39625,6 +39628,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cbsimg.net/js/cbsi/dw.js
 ||cc-api-data.adobe.io^
 ||centerblog.net/stats.js
+||channel.io^*/events
 ||chatroll.com/t.gif
 ||cheezburger.com/api/visitor
 ||cl.canva.com^
