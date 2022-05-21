@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: XDPch6Pv/3Y63Z/3FXT0WA
+! Checksum: H+73etFDbctEg8v5beFTRA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205212008
-! Last Modified: 2022年05月21日 20:08
+! Version: 202205220205
+! Last Modified: 2022年05月22日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1870,6 +1870,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||cherryblossoms.top^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9651,6 +9652,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jrlt2.com###hd + .wp
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17446,7 +17448,7 @@ smjb.net##div[style*="height: 50%"]
 ||boluoxs.com/js/digu.js
 ||bookrb.com/images/jtt
 ||bxwxorg.com/ui/vue/element.
-||clewxc.com/xd2/
+||clewxc.com/xd3/
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||dabizi.net/images/pcad.png
 ||dobiez.com/statics/wap_v1/js/qwd.
@@ -17608,6 +17610,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xhl161.com^
 ||haodewl.cn^
 ||sxqyuming.xyz^
+||wmpyuyj.cn^
+||bjbdlt.com.cn^
+||papzp.com^
+||ifaeqvt.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -30953,7 +30959,6 @@ _mongo_stats/
 ||p2r14.com^
 ||pdflive.org^
 ||permutive.app^
-||pijper.io^
 ||pixrealm.com^
 ||pjstat.com^
 ||progmxs.com^
@@ -39040,6 +39045,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marktplaats.net/cnt/
 ||nextday.media/static/tags/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
+||pijper.io/visits/
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
 ||statistics.rbi-nl.com^
