@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q8XBA7XC8Dk0QWjz1kyt7A
+! Checksum: c0/48yxSODL9t9dysYhHHA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205220828
-! Last Modified: 2022年05月22日 08:28
+! Version: 202205221407
+! Last Modified: 2022年05月22日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1872,6 +1872,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||jssxpb.cn^
+||yuemmu.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -9651,6 +9652,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ggxwb.miguvideo.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17608,6 +17610,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dkfmhv.xyz^
 ||teqcdnk.cn^
 ||3r3ijsa.cn^
+||jwhfkj.cn^
+||zhanglibomgmail.online^
+||vsmyhky.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -28753,6 +28758,7 @@ m.babytree.com##script + a[class]
 /rm.gif?
 /RMAnalytics.
 /rmntracking.
+/rntracking.
 /roi_tracker.
 /roiengine.
 /roitrack.
@@ -30804,7 +30810,7 @@ _sdcTrackingCode.
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
-/generate_204$image,other,ping,script
+/generate_204
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -35665,13 +35671,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||he2d.com^$third-party
 ||hotrank.com.tw^$third-party
 ||hubpd.com^$third-party
-||i-mobile.co.jp^$third-party
 ||ipinyou.com^$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||jpush.cn^$third-party
 ||lndata.com^$third-party
-||logly.co.jp^$third-party
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
 ||mmstat.com^$third-party
@@ -35857,6 +35861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||datasign.co^$third-party
+||dbfocus.jp^$third-party
 ||deteql.net^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
@@ -35879,6 +35884,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gyro-n.com^$third-party
 ||h-cast.jp^$third-party
 ||hitgraph.jp^$third-party
+||i-mobile.co.jp^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp^$third-party
 ||iid-network.jp^$third-party
@@ -35888,6 +35894,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kaizenplatform.net^$third-party
 ||keyword-match.com^$third-party
 ||letro.jp^$third-party
+||logly.co.jp^$third-party
 ||macromill.com^$third-party
 ||mobylog.jp^$third-party
 ||moshimo.com^$third-party
@@ -38027,6 +38034,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thron.com/shared/plugins/tracking/
 ||tiktokv.com/web/report?
 ||tildacdn.com/pixel.png
+||timber.sendtonews.com^
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
@@ -39160,6 +39168,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyzer51.fc2.com^
 ||asumi.shinobi.jp^
 ||bidder.mediams.mb.softbank.jp^
+||bridge-ashiato.appspot.com/beacon/
 ||buzzurl.jp/api/counter/
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^

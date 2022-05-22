@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EWj6rOgPfiiJxURoBmCGLg
+! Checksum: yE/aOCNfwtyWkhu1m1ZHSQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205220828
-! Last Modified: 2022年05月22日 08:28
+! Version: 202205221407
+! Last Modified: 2022年05月22日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -55596,6 +55596,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||vix.*.criteo.net^$domain=spiegel.de
 ||yieldlab.net^$domain=spiegel.de
 @@||jetzt.de^$generichide
+/^https?:\/\/www\.[0-9a-z]{8,}\.com\/[0-9a-z]{1,4}\.js$/$script,third-party,domain=dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws
 $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|animeworld.biz|apl100.me|apl102.me|apl96.me|assia2.com|assia4.com​|cloudemb.com|cloudvideo.tv|couchtuner.show|databasegdriveplayer.xyz|dembed1.com|diampokusy.com|dir-proxy.net|dirproxy.info|dood.ws|dulu.to|embedsb.com|embedsito.com|fembed-hd.com|file-upload.com|freeplayervideo.com|geoip.redirect-ads.com|gogoanime.lol|haes.tech|highstream.tv|hubfiles.ws|hydrax.xyz|katfile.com|kissanime.lol|kokostream.net|livesports4u.xyz|livetv498.me|loader.to|mangovideo.pw|mixdrop.bz|mixdrop.ch|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|myflixer.to|mystream.to|oneproxy.org|piracyproxy.biz|piraproxy.info|pixroute.com|play.hydracdn.network|playtube.ws|pomvideo.cc|pouvideo.cc|projectfreetv2.com|proxyer.org|raes.tech|sbfast.com|sbplay2.com|sbplay2.xyz|scloud.online|stape.fun|stape.me|streamas.cloud|streambee.to|streamlare.com|streamon.to|streamta.pe|streamtape.com|streamtapeadblock.art|streamtapse.com|streamz.ws|streamzz.to|strtape.cloud|strtpe.link|supervideo.tv|suzihaza.com|theproxy.ws|trafficdepot.xyz|tubeload.co|uploadfiles.pw|uprot.net|uproxy.best|uproxy.co|upstream.to|upvid.biz|upvideo.to|userload.co|uwatchfree.fo|vidcloud9.com|videovard.sx|vidlox.me|viewsb.com|vivo.sx|voe-unblock.com|voe-unblock.net|voe.sx|vupload.com|watchsb.com|wiztube.xyz|youtubedownloader.sh|ytmp3.sh
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
 /hkz*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
@@ -55690,6 +55691,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||badjojo.com/d5
 ||bangbros-free.com/i2/
 ||banners.cams.com^
+||bdsmx.tube/ps/37pg3s.js
 ||bellesa.co/api/rest/v1/campaigns?
 ||between-legs.com/banners2/
 ||between-legs.com^*/banners/
@@ -56004,6 +56006,7 @@ $popup,third-party,domain=porn-tube-club.com
 magnet.so###AD
 webcarstory.com###Ads
 search.snapdo.com###AfloatingD
+titantv.com###BSNFOHFSHBRE
 weegy.com###BannerDiv
 calculatorsoup.com###Bottom
 chicagoprowrestling.com###Chicagoprowrestling_com_Top
@@ -56022,6 +56025,7 @@ fanlesstech.com###HTML5 > .widget-content
 fanlesstech.com###HTML6 > .widget-content
 linkfang.org###LinkFang_Horizontal
 titantv.com###MGUWDYBBSFMR
+titantv.com###ONWHXEQDFMNV
 techadvisor.com###OzAUZW
 physicsandmathstutor.com###PMT_PDF_Top
 physicsandmathstutor.com###PMT_Top
@@ -59304,6 +59308,7 @@ eurometeo.com##td[width="738"]
 planetinsane.com,radiosurvivor.com##text-18
 trademe.co.nz##tm-display-ad
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
+titantv.com##tr.gridRow > td > [id] > div:first-child
 tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###nav-swmslot
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sponsoredProducts2_feature_div
@@ -60055,6 +60060,7 @@ xmissy.nl##.noclick-small-bnr
 pornhd.com##.ntv-code-container
 fapality.com##.ntw-a
 boundhub.com##.o3pt
+bdsmx.tube##.oImef0
 lustgalore.com##.opac_bg
 pornchimp.com,teenmastube.com,watchmygf.mobi##.opt
 hentaistream.com##.othercontent
@@ -60103,7 +60109,7 @@ pervclips.com##.remove-spots
 cam4.com##.removeAds
 cumlouder.com##.resumecard
 porndroids.com##.resumecard__banner
-hotmovs.com,javdoe.fun,javtape.site##.right
+bdsmx.tube,hotmovs.com,javdoe.fun,javtape.site##.right
 definebabe.com##.right-sidebar
 empflix.com##.rightBarBannersx
 gottanut.com##.rightContent-videoPage
@@ -60381,6 +60387,7 @@ adultwork.com,babepicture.co.uk,sexmummy.com,tvgirlsgallery.co.uk##img[width="46
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
 kissjav.com##li[id^="video-interlacing"]
 pornhd.com##phd-floating-ad
+bdsmx.tube##section
 koreanstreamer.xyz##section.korea-widget
 upornia.com##section[class$="onaaref"]
 porngifs2u.com##section[class*="elementor-hidden-"]
@@ -60429,7 +60436,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
 @@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
-@@||adsafeprotected.com/iasPET.$script,domain=reuters.com
+@@||adsafeprotected.com/iasPET.$script,domain=bloomberg.com|reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
@@ -62805,6 +62812,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||jssxpb.cn^
+||yuemmu.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -70584,6 +70592,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ggxwb.miguvideo.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -78541,6 +78550,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dkfmhv.xyz^
 ||teqcdnk.cn^
 ||3r3ijsa.cn^
+||jwhfkj.cn^
+||zhanglibomgmail.online^
+||vsmyhky.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -87418,6 +87430,7 @@ fqsousou.com,kengso.com#@#.user-share
 /rm.gif?
 /RMAnalytics.
 /rmntracking.
+/rntracking.
 /roi_tracker.
 /roiengine.
 /roitrack.
@@ -89469,7 +89482,7 @@ _sdcTrackingCode.
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
-/generate_204$image,other,ping,script
+/generate_204
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -94330,13 +94343,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||he2d.com^$third-party
 ||hotrank.com.tw^$third-party
 ||hubpd.com^$third-party
-||i-mobile.co.jp^$third-party
 ||ipinyou.com^$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||jpush.cn^$third-party
 ||lndata.com^$third-party
-||logly.co.jp^$third-party
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
 ||mmstat.com^$third-party
@@ -94522,6 +94533,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||datasign.co^$third-party
+||dbfocus.jp^$third-party
 ||deteql.net^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
@@ -94544,6 +94556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gyro-n.com^$third-party
 ||h-cast.jp^$third-party
 ||hitgraph.jp^$third-party
+||i-mobile.co.jp^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp^$third-party
 ||iid-network.jp^$third-party
@@ -94553,6 +94566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kaizenplatform.net^$third-party
 ||keyword-match.com^$third-party
 ||letro.jp^$third-party
+||logly.co.jp^$third-party
 ||macromill.com^$third-party
 ||mobylog.jp^$third-party
 ||moshimo.com^$third-party
@@ -96692,6 +96706,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thron.com/shared/plugins/tracking/
 ||tiktokv.com/web/report?
 ||tildacdn.com/pixel.png
+||timber.sendtonews.com^
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
@@ -97825,6 +97840,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analyzer51.fc2.com^
 ||asumi.shinobi.jp^
 ||bidder.mediams.mb.softbank.jp^
+||bridge-ashiato.appspot.com/beacon/
 ||buzzurl.jp/api/counter/
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
