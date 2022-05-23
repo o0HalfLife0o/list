@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: skAgzgvRcy9cBPz/DEtSxw
+! Checksum: ezqkYTlzZhsoahGG9Xi4hQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205231408
-! Last Modified: 2022年05月23日 14:08
+! Version: 202205232010
+! Last Modified: 2022年05月23日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1870,6 +1870,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jiulingdl.cn^
+||hxwygsk2.xyz^
+||gzx8670vhome.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -17614,6 +17616,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiulingdl.cn^
 ||qrzogzy.cn^
 ||daddychess.online^
+||fxpsyzy.cn^
+||vvphznw.cn^
+||htnr3qm.cn^
+||hebufr7h.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -51525,6 +51531,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||jobmorgen.de/Scripts/ApiTracking.js$~third-party
+@@||jobs.pnp.de/Scripts/ApiTracking.js$~third-party
 @@||kameleoon.com/geolocation.gif$domain=welt.de
 @@||kameleoon.com/ip.gif$domain=welt.de
 @@||kameleoon.eu/ip.gif$domain=welt.de

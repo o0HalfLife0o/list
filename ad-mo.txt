@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F1ofg36J2Y2tklawh52upA
+! Checksum: 3rn8jXGJuf1Iqt9ASrR7yA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205231408
-! Last Modified: 2022年05月23日 14:08
+! Version: 202205232010
+! Last Modified: 2022年05月23日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -57046,6 +57046,8 @@ aiscore.com##.bet365
 republicworld.com##.bg-f0f0f0
 amgreatness.com##.bg-gray-200.mx-auto
 imagetotext.info##.bg-light.mt-2.text-center
+wccftech.com##.bg-square
+wccftech.com##.bg-vertical
 thepostmillennial.com##.bg-yellow-400
 biblegateway.com##.bga
 overclock3d.net##.bglink
@@ -60834,6 +60836,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mbank.cz/Adv/Scripts/$~third-party
 @@||mbank.sk/Adv/Scripts/$~third-party
 @@||meduza.io/static/ads/$media,~third-party
+@@||microapp.bytedance.com/docs/page-data/$~third-party
 @@||minhacontachevroletsf.com.br^*/CampaignImageProcessor.bon?*&BannerID=$image,~third-party
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
@@ -62717,6 +62720,8 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jiulingdl.cn^
+||hxwygsk2.xyz^
+||gzx8670vhome.xyz^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -78461,6 +78466,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiulingdl.cn^
 ||qrzogzy.cn^
 ||daddychess.online^
+||fxpsyzy.cn^
+||vvphznw.cn^
+||htnr3qm.cn^
+||hebufr7h.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -110104,6 +110113,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||jobmorgen.de/Scripts/ApiTracking.js$~third-party
+@@||jobs.pnp.de/Scripts/ApiTracking.js$~third-party
 @@||kameleoon.com/geolocation.gif$domain=welt.de
 @@||kameleoon.com/ip.gif$domain=welt.de
 @@||kameleoon.eu/ip.gif$domain=welt.de
