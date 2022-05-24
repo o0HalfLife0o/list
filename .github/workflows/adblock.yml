@@ -32,7 +32,12 @@ jobs:
           echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
           echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
-
+        
+      - name: Initialize Git
+        run: |
+         git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+         git config --global user.name github-actions[bot]
+         
       - name: Checkout the "master" branch
         uses: actions/checkout@v3
         with:
@@ -123,8 +128,6 @@ jobs:
         run: |
           rm -rf download new old_no_title
           sed -i '/url =/d' ./.git/config
-          git config --local user.name "actions"
-          git config --local user.email "action@github.com"
           #git config --add core.compression -1
           git add --all
           git commit -m "${{ env.RELEASE_NAME }}"
@@ -149,8 +152,6 @@ jobs:
         run: |
           rm -rf .git/
           git init
-          git config --local user.name "actions"
-          git config --local user.email "action@github.com"
           git checkout -b master
           git add --all
           git commit -m "${{ env.RELEASE_NAME }}"
