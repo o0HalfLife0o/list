@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: n8ib0xG404TJD6hxY/MDuw
+! Checksum: qXi3YVpYGiuZLnKl+S+sYg
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205240832
-! Last Modified: 2022年05月24日 08:32
+! Version: 202205241407
+! Last Modified: 2022年05月24日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -21417,6 +21417,7 @@ _800x80_
 ##.adsContentBox
 ##.adsContentBoxBellow
 ##.adsDef
+##.adsDesktop
 ##.adsDetailsPage
 ##.adsDisclaimer
 ##.adsDiv
@@ -23179,6 +23180,7 @@ _800x80_
 ##.anc_ads_show
 ##.anchor-ad-wrapper
 ##.anchorAd
+##.anchored-ad-widget
 ##.anchoringTopAdDefault
 ##.annonce_textads
 ##.annons_themeBlock
@@ -49234,6 +49236,7 @@ tf2r.com#@#.adverts
 ||yoretxpczr.com^
 ||yoshatia.com^
 ||yottacash.com^
+||yottlyscript.com^
 ||youearrid.com^
 ||yougotacheck.com^
 ||youlouk.com^
@@ -62834,6 +62837,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||kgagck6.com^
+||zihuiguochao.top^
 ||jiulingdl.cn^
 ||hxwygsk2.xyz^
 ||gzx8670vhome.xyz^
@@ -78595,6 +78599,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||iqzt3ec.cn^
 ||qbkybab.cn^
 ||ihqcndm.cn^
+||wjjhzs.cn^
+||tumgcmu.cn^
+||ospzbro.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
