@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: p4JBCayEkluabVV9Nfx05w
+! Checksum: jf0NUhFyWi8TlM9u0F98Qg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205251407
-! Last Modified: 2022年05月25日 14:07
+! Version: 202205252009
+! Last Modified: 2022年05月25日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17631,6 +17631,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rqwnzbx.cn^
 ||papbp.com^
 ||hongbao456.ink^
+||handuwl.top^
+||keyi.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -37022,7 +37024,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evt.collarity.com^$image
 ||evt.houzz.com^
 ||ex.co/content/monetization/legacy-pixels/
-||exacttarget.com^$third-party
+||exacttarget.com^$~subdocument,third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
@@ -40549,6 +40551,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
+||untappd.com/profile/impression?
 ||upi.com/story/stat/
 ||ups.com/img/icp.gif
 ||urs.metacritic.com^

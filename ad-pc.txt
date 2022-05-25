@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EYmRbCmenWPJT4BzN4+ccg
+! Checksum: EUOR+iM28aBssegjMkY1eQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205251407
-! Last Modified: 2022年05月25日 14:07
+! Version: 202205252009
+! Last Modified: 2022年05月25日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -54604,7 +54604,6 @@ tf2r.com#@#.adverts
 ||teenfinder.com/landing/$popup,third-party
 ||theonlineuserprotector.com/download-guard/$popup,third-party
 ||torrent-protection.com^$popup
-||track.omguk.com^$popup
 ||trck.cdprivate.com^$popup
 ||ublockpop.com/rect.php?$popup
 ||unibet.co.uk/*affiliate$popup
@@ -60716,6 +60715,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||techadvisor.com/cmsdata/$image,~third-party
 @@||thedailywtf.com/images/*-advertisement.png$~third-party
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
+@@||thingiverse.com/assets/ad/$image,~third-party
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tractorshed.com/photoads/upload/$~third-party
@@ -78620,6 +78620,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rqwnzbx.cn^
 ||papbp.com^
 ||hongbao456.ink^
+||handuwl.top^
+||keyi.mobi^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -95758,7 +95760,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||evt.collarity.com^$image
 ||evt.houzz.com^
 ||ex.co/content/monetization/legacy-pixels/
-||exacttarget.com^$third-party
+||exacttarget.com^$~subdocument,third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
@@ -99285,6 +99287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unity3d.com/v1/events
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
+||untappd.com/profile/impression?
 ||upi.com/story/stat/
 ||ups.com/img/icp.gif
 ||urs.metacritic.com^
