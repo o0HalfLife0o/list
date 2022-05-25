@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hgmVYWF4IRWY0owZRv5Trw
+! Checksum: ArfZ4Whl5JoXSdDlRjxSKw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205250831
-! Last Modified: 2022年05月25日 08:31
+! Version: 202205251407
+! Last Modified: 2022年05月25日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23095,6 +23095,7 @@ _800x80_
 ##.appnexus.ad
 ##.apxContentAd
 ##.ar-header-m-ad
+##.arc-ad-wrapper
 ##.arcAdsBox
 ##.arcAdsContainer
 ##.archive-ad
@@ -32303,6 +32304,7 @@ infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
 economist.com,flightcentre.co.uk,payback.pl,ripley.cl,ripley.com.pe,wsj.com#@#.img_ad
+thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 magazines-download.com#@#.item-ads
 vukajlija.com#@#.large-advert
@@ -53580,7 +53582,6 @@ tf2r.com#@#.adverts
 ||trkbc.com^$popup
 ||trkinator.com^$popup
 ||trvtrk.com^$popup
-||twinrdsrv.com^$popup
 ||viensvoircesite.com^$popup
 ||vlexokrako.com^$popup
 ||watchmygf.com^$popup
@@ -53807,7 +53808,6 @@ tf2r.com#@#.adverts
 ||googlesyndication.com/safeframe/
 ||gopjn.com/b/
 ||gopjn.com/i/
-||grid.bidswitch.net/hbjson
 ||groupon.com/javascripts/common/affiliate_widget/
 ||grscty.com/images/banner/
 ||gsniper.com/images/
@@ -53961,6 +53961,7 @@ tf2r.com#@#.adverts
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
 ||rubylife.go2cloud.org^
+||s.0cf.io^
 ||s1.wp.com^$subdocument,third-party
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
@@ -58786,8 +58787,7 @@ topfiveforex.com##[href^="https://luckyfish.io/"]
 manhuaplus.com##[href^="https://manhuaplussoulland.onelink.me/"]
 crypto-news-flash.com##[href^="https://med.etoro.com/"]
 123putlocker.io##[href^="https://moneynow.one/"]
-uncanceled.news##[href^="https://mypatriotsupply.com/"]
-abovetopsecret.com##[href^="https://mypatriotsupply.com/apps/todays-deals"]
+abovetopsecret.com,thelibertydaily.com,uncanceled.news##[href^="https://mypatriotsupply.com/"]
 manganelo.com##[href^="https://oackoubs.com/"]
 topfiveforex.com##[href^="https://olymptrade.com/"]
 extension.today##[href^="https://peanuts.pro/site/store"]
@@ -58805,6 +58805,7 @@ businessonhome.com##[href^="https://www.binance.com/en/register?ref="]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 seganerds.com##[href^="https://www.canadacasino.ca/"]
 seganerds.com##[href^="https://www.casinonic.com/"]
+thelibertydaily.com##[href^="https://www.dismecoins.com/"]
 elitepvpers.com##[href^="https://www.elitepvpers.com/123/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 copytechnet.com##[href^="https://www.idrive.com/"]
@@ -59276,6 +59277,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 usnews.com###ac-lre-player-ph
 ginx.tv###ginx-floatingvod-containerspacer
 forums.whathifi.com###jwplayer-container-div
+mentalfloss.com###mm-player-placeholder-large-screen
 engadget.com###outstreamPlayer-inArticle
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
@@ -59298,6 +59300,7 @@ comicbook.com,popculture.com##.popculture-embed
 kidspot.com.au##.secondary-video
 goal.com##.semantic-player-embed
 playbuzz.com##.stickyplayer-container
+mentalfloss.com##.style_1ngkwsz-o_O-style_1ts1q2h
 gamesradar.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 macworld.co.uk##.videoContainer
@@ -59555,6 +59558,7 @@ mtgarena.pro#?##root > div:-abp-has(a[href*=casino])
 sbs.com.au#?#.c9 > div:-abp-contains(Advertisement)
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
+target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
 thepostmillennial.com#?#.bg-yellow-400:-abp-has(.topAlertAds)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 titantv.com#?#tr:-abp-has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
@@ -62747,6 +62751,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||670360.com^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -78497,6 +78502,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||325szdv.cn^
 ||shzuggo.cn^
 ||etrckeh.cn^
+||yidulu.cn^
+||jwdhoxw.cn^
+||ngwadzu.cn^
+||rqwnzbx.cn^
+||papbp.com^
+||hongbao456.ink^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -84650,6 +84661,7 @@ fqsousou.com,kengso.com#@#.user-share
 /baynote80.
 /baynote_
 /baynoteobserver/*
+/bb-analytics-
 /bc-track.
 /bc/clk?
 /bcbot-nomin.js
@@ -87276,6 +87288,7 @@ fqsousou.com,kengso.com#@#.user-share
 /pxlctl.
 /pxls/*
 /pxlspamanalyst-
+/pxrc.php
 /pxtrk.gif
 /pzn/proxysignature
 /qa-tracker.
@@ -87384,6 +87397,7 @@ fqsousou.com,kengso.com#@#.user-share
 /restats_
 /resxclsa.
 /resxclsa_
+/resxclsx.js
 /ret_pixels/*
 /retarget_pixel.
 /retargeting-pixels.
@@ -87781,6 +87795,7 @@ fqsousou.com,kengso.com#@#.user-share
 /static-tracking/*$script
 /static/analytics.js
 /static/tracking/*
+/statistic/pixel?
 /statistics-desktop.js
 /statistics-page-view/*
 /statistics.asp?
@@ -89483,6 +89498,7 @@ _mongo_stats/
 ://top.*/hit/
 !-----------------Third-party tracking domains-----------------!
 ||2022welcome.com^
+||31daa5lnq.de^
 ||520886.xyz^
 ||8672.site^
 ||a1webstrategy.com^
@@ -89508,6 +89524,7 @@ _mongo_stats/
 ||bluekai.com^
 ||bonne-terre-data-layer.com^
 ||bounceexchange.com^
+||bqstreamer.com^
 ||briskeagle.io^
 ||briskpelican.io^
 ||brontops.com^
@@ -89591,6 +89608,7 @@ _mongo_stats/
 ||insigit.com^
 ||instantfox.co^
 ||irs01.com^
+||jcpclick.com^
 ||k5a.io^
 ||krxd.net^
 ||ldnlyap.com^
@@ -92192,6 +92210,7 @@ _mongo_stats/
 ||waplog.net^$third-party
 ||waudit.cz^$third-party
 ||waust.at^$third-party
+||wazimo.com^$third-party
 ||wbdx.fr^$third-party
 ||wbtrk.net^$third-party
 ||wc4.net^$image,third-party
@@ -95065,6 +95084,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.worldtable.co^
 ||analytics.yahoo.com^
 ||analytics.yext-static.com^
+||analytics.ynap.biz^
 ||analytics.yola.net^
 ||analytics.yolacdn.net^
 ||analytics.ziftsolutions.com^
@@ -95365,6 +95385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnnx.io^*/tracking.js
 ||cnnx.link/roi/
 ||cnpapers.com/scripts/library/
+||cnstrc.com/behavior?
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
 ||cnt.trvdp.com^
@@ -95539,6 +95560,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dw.com.com^$script
 ||dx.mountain.com^
 ||dynamicyield.com/st?
+||dynamicyield.com/uia?
+||dynamicyield.com/var?
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
@@ -95560,6 +95583,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edrone.me/trace?
 ||eel.transistor.fm^
 ||egmontpublishing.dk/tracking/
+||ele26126.jscrambler.com^
 ||elpais.com/t.gif
 ||els-cdn.com^*/analytics.js
 ||email-edg.paypal.com/o/$image
@@ -95921,6 +95945,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||keyword.daumdn.com^
 ||kiwari.com^*/impressions.asp?
 ||kiwi.mdldb.net^
+||kiwisizing.com/api/log
 ||kk-resources.com/ks.js
 ||klarnaservices.com/lib.js
 ||klarnaservices.com^$image,third-party
@@ -96724,6 +96749,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.bannedcelebs.com^
 ||track.contently.com^
 ||track.cordial.io^
+||track.custora.com^
 ||track.digitalriver.com^
 ||track.hubspot.com^
 ||track.juno.com^
@@ -96768,6 +96794,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
 ||tracker.mrpfd.com^
+||tracker.netklix.com^$script
 ||tracker.nitropay.com^
 ||tracker.roitesting.com^
 ||tracker.softcube.com^
@@ -97153,6 +97180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d3uvwl4wtkgzo1.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
+||d761erxl2qywg.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
 ||danv01ao0kdr2.cloudfront.net^
 ||daq0d0aotgq0f.cloudfront.net^
@@ -97204,6 +97232,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||frog.wix.com/p?
 ||frog.wix.com/pre?
 ||frog.wix.com^$image,ping,xmlhttprequest
+||ascpqnj-oam.global.ssl.fastly.net^
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
@@ -98028,6 +98057,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kvartirant.ru/counter.php?
 ||likemore-go.imgsmail.ru^$image
 ||linestudio.ru/counter/
+||logs.viavideo.digital^
 ||mediaplus.fm/cntr.php?
 ||mediator.mail.ru^
 ||metka.ru/counter/
@@ -98514,7 +98544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||github.com/_private/browser/stats
 ||glassmoni.researchgate.net^
 ||global.canon/00cmn/js/*/analytics-
-||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
+||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
 ||gmonitor.aliimg.com^
 ||gnar.grammarly.com^
@@ -98731,7 +98761,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||norton.com/service/norton/head?
 ||novelcool.com/files/js/yh_tj.js
 ||nwuoxwthvak3.stoic.ai^
-||nypost.com/blaize/
 ||nysun.com/tracker.js
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 ||nytimes.com/svc/nyt/data-layer?
@@ -98983,6 +99012,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spankbang.com^*?type=
 ||spectrum.gettyimages.com^
 ||speed.cloudflare.com/__log
+||sportsmansguide.com/scripts/vendor/at_
 ||squirrel.ethanelientz.com^
 ||squirrel.honeysqueeze.app^
 ||squirrel.malaynahocker.com^
@@ -99189,6 +99219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wikipedia.org/beacon/
 ||windy.com/sedlina/ga/
 ||wolfram.com/common/javascript/wal/
+||wondershare.com/trk
 ||wscdn.com/analytics/
 ||wsj.com/asset/amt.js
 ||wstats.e-wok.tv^
