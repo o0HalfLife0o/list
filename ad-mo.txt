@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9i5RHkdYpEnRgJAH8kaQyQ
+! Checksum: 7WnyvATG0YslmKPiUzzBfQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205261407
-! Last Modified: 2022年05月26日 14:07
+! Version: 202205262009
+! Last Modified: 2022年05月26日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -19092,6 +19092,7 @@ _800x80_
 ##.ad.addon
 ##.ad.bottom_article_leaderboard
 ##.ad.bottomrect
+##.ad.box
 ##.ad.brandboard
 ##.ad.card
 ##.ad.center
@@ -19733,6 +19734,7 @@ _800x80_
 ##.adTile
 ##.adTileWrap
 ##.adTiler
+##.adTip
 ##.adTitle
 ##.adTitleR
 ##.adTop
@@ -58630,6 +58632,7 @@ sciencedaily.com##.unit1
 sciencedaily.com##.unit2
 gpucheck.com##.unitBox
 pcgamingwiki.com##.upcoming-releases.home-card:first-child
+filepuma.com##.update_software
 letterboxd.com##.upgrade-kicker
 wbur.org##.uw--rectangle
 wbur.org##.uw-label--bottom
@@ -58758,7 +58761,6 @@ ginx.tv##[data-ref]
 washingtonpost.com##[data-sc-c="adslot"]
 trakt.tv##[data-snigel-id]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
-sbofficial.in##[data-testid="linkElement"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
 gadgetsnow.com##[data-type="mtf"]
@@ -58806,7 +58808,7 @@ howtogeek.com##[href^="http://macpaw.7eer.net/"]
 pooletown.co.uk,tossinggames.com,urbanartassociation.com##[href^="http://redirect.viglink.com"]
 igg-games.com##[href^="http://s2.igg-games.com/"]
 topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
-orschlurch.net,sbofficial.in,tetris.com##[href^="https://amzn.to/"]
+orschlurch.net,tetris.com##[href^="https://amzn.to/"]
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 seganerds.com##[href^="https://betway.com/"]
 mc-market.org##[href^="https://bit.ly/"] img
@@ -62797,6 +62799,9 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||gzzcxxzx.com^
+||tianvip.top^
+||geodeep.org^
+||lindiankj.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -94017,6 +94022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adrank24.de^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
+||altruja.de^$third-party
 ||amunx.de^$third-party
 ||analytics.rechtslupe.org^
 ||andyhoppe.com^$third-party
@@ -110187,7 +110193,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
-@@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com
+@@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||wix.com/_api/*count?type$~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party

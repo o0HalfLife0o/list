@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tSyTivqwytEQMH+xWkYKvA
+! Checksum: pqw415R2xQ9SwmbL0uJp7A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205261407
-! Last Modified: 2022年05月26日 14:07
+! Version: 202205262009
+! Last Modified: 2022年05月26日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1872,6 +1872,9 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||gzzcxxzx.com^
+||tianvip.top^
+||geodeep.org^
+||lindiankj.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -35349,6 +35352,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adrank24.de^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
+||altruja.de^$third-party
 ||amunx.de^$third-party
 ||analytics.rechtslupe.org^
 ||andyhoppe.com^$third-party
@@ -51519,7 +51523,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
-@@||widget.trustpilot.com/bootstrap/$script,domain=exodus.co.uk|imyfone.com
+@@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||wix.com/_api/*count?type$~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
