@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3wqPb4RypV7SFcqO9e72nw
+! Checksum: kps8+ARQg3uicto9vSW7Nw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205260828
-! Last Modified: 2022年05月26日 08:28
+! Version: 202205261407
+! Last Modified: 2022年05月26日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10115,8 +10115,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vrrw.net//templets/default/js/ad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+editcode.net##a[href*="cloud.tencent.com"]
+editcode.net##.fwinmask
+editcode.net##.sd > a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18077,6 +18081,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bt365.club^
 ||u8hexo5v.com^
 ||87fgr4.site^
+||zszcxxzx.com^
+||stfyygv.cn^
+||saxys9w.cn^
+||kerlou.ltd^
+||djfwuer.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24283,7 +24292,11 @@ _box_ad_
 ||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
 ||kuke99.com/static/home/js/index/index.js
+||fulitech.com.cn^*/float.js
 !------------------------Specific element hiding rules------------------------!
+autohome.com.cn##.activity-app-layer
+autohome.com.cn##DIV[id^="popautoapp"]
+shengxinwang.net###floatDivBoxs
 kuke99.com##.index-dialog-mask
 aura.cn##.suspension
 aura.cn##.foot-xcx

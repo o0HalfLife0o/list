@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: IrTe/2sICy1wi+MuxlOZPw
+! Checksum: 9i5RHkdYpEnRgJAH8kaQyQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205260828
-! Last Modified: 2022年05月26日 08:28
+! Version: 202205261407
+! Last Modified: 2022年05月26日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -23935,6 +23935,7 @@ _800x80_
 ##.box-ad-unit-j
 ##.box-ad-wsr
 ##.box-ads
+##.box-ads-header-home
 ##.box-ads-small
 ##.box-adsense
 ##.box-adsense-top
@@ -55053,6 +55054,7 @@ tf2r.com#@#.adverts
 ||idlebrain.com^*/main-
 ||idlebrain.com^*/sky-
 ||idlebrain.com^*/square-
+||idrive.com/include/images/idrive-120240.png
 ||ign.com/s/js/zad.js
 ||ign.com/zdadkit2.js
 ||ignimgs.com/ign/pogoadk.js$script,domain=ign.com
@@ -56056,6 +56058,7 @@ boards.net,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,rep
 pimpandhost.com###ad2
 exchangerates.org.uk###ad3
 moomoo.io###adCard
+musescore.com###ad_cs_12219747_300_250
 musescore.com###ad_cs_12219747_728_90
 adtunes.com,all-nettools.com,britsabroad.com,kiwibiker.co.nz,printroot.com###ad_global_below_navbar
 4qrcode.com###addContainer
@@ -57797,6 +57800,7 @@ ultimate-guitar.com##.js-ab-regular
 newsnow.co.uk##.js-banner-strip
 buzzfeed.com##.js-bfa-impression
 live94today.com##.js-demo-avd
+musescore.com##.js-musescore-hb-728--wrapper
 beermoneyforum.com##.js-notices
 formula1.com##.js-promo-item
 stackoverflow.com##.js-sidebar-zone
@@ -58024,7 +58028,6 @@ cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
 mediaite.com##.o-promo-unit
 comicbook.com##.oas
-distractify.com##.obIeh
 softexia.com##.offer
 oneindia.com##.oi-spons-ad
 boldsky.com,gizbot.com,nativeplanet.com,oneindia.com##.oiad-txt
@@ -58302,6 +58305,7 @@ point2homes.com##.saved-search-banner-list
 pcgamesn.com##.saw-wrap
 animehub.ac##.sb-subs
 independent.co.uk##.sc-hYYkYm
+distractify.com##.sc-iBzFoy
 scotsman.com##.sc-igwadP
 distractify.com##.sc-jcwofb
 sankakucomplex.com##.scad
@@ -70589,8 +70593,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vrrw.net//templets/default/js/ad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+editcode.net##a[href*="cloud.tencent.com"]
+editcode.net##.fwinmask
+editcode.net##.sd > a
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -78551,6 +78559,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bt365.club^
 ||u8hexo5v.com^
 ||87fgr4.site^
+||zszcxxzx.com^
+||stfyygv.cn^
+||saxys9w.cn^
+||kerlou.ltd^
+||djfwuer.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -99178,6 +99191,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.netzero.net^
 ||track.thesaurus.com^
 ||track.totalav.com^$script
+||track.ultimate-guitar.com^
 ||tracker.jawcloud.co^
 ||tracker.nbcuas.com^
 ||tracker.shopclues.com^
@@ -111215,7 +111229,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mbalib.com/common/a_mbalib/
 ||lotuscard.cc/online/
 ||kuke99.com/static/home/js/index/index.js
+||fulitech.com.cn^*/float.js
 !------------------------Specific element hiding rules------------------------!
+autohome.com.cn##.activity-app-layer
+autohome.com.cn##DIV[id^="popautoapp"]
+shengxinwang.net###floatDivBoxs
 kuke99.com##.index-dialog-mask
 aura.cn##.suspension
 aura.cn##.foot-xcx
