@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: P8tuJ93Ge8EAghLZNSKcJg
+! Checksum: bPtph3VlNmfFFHv8h7kVVQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205271407
-! Last Modified: 2022年05月27日 14:07
+! Version: 202205272011
+! Last Modified: 2022年05月27日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -424,7 +424,7 @@ youle55.com
 /assets/banners/600x100/*
 /assets/t_j/tongji.js
 /attachment/freeaddon_banner/*
-/attachments/ad/*
+/attachments/ad/*$domain=~edushida.com
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
@@ -1874,6 +1874,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jnbd43jh.world^
 ||wuyicom.top^
 ||ygfjy.top^
 ||00-gov.cn^
@@ -17648,6 +17649,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zwmkfoo.cn^
 ||meetsocialmeta.com^
 ||nxl791.com^
+||ijsks.com^
+||dias2o0.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -28962,6 +28965,7 @@ m.babytree.com##script + a[class]
 /sdctag1.js
 /sdctag2.js
 /sdcTrackingCode.
+/sdk/impressions
 /sdp-tagcollector.
 /sdxp1/dru4/meta?_hc=
 /search-cookie.aspx?$image
@@ -30986,6 +30990,7 @@ _mongo_stats/
 ||fasttiger.io^
 ||fn-pz.com^
 ||fpaux.net^
+||fpavx.net^
 ||fpaxu.net^
 ||fpxau.net^
 ||g11686975765.co^
@@ -31107,6 +31112,7 @@ _mongo_stats/
 ||tvpixel.com^
 ||ugdturner.com^
 ||v1sts.me^
+||venusrevival.com^
 ||videoplayerhub.com^
 ||vkanalytics.net^
 ||widgetbe.com^
@@ -31443,6 +31449,7 @@ _mongo_stats/
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
+||bigbrain.me^$third-party
 ||bigcattracks.com^$third-party
 ||bigmir.net^$third-party
 ||bigreal.org^$third-party
@@ -40542,6 +40549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||touch.myntra.com^
 ||toyota.com/analytics/
 ||tr.clickstay.com^
+||track-visit.monday.com^
 ||track.dictionary.com^
 ||track.kueez.com^
 ||track.lexico.com^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: SWU9KPjeS0NvnZMs+UXO3w
+! Checksum: QaR+LdT6jTKMeDP95wa34w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205271407
-! Last Modified: 2022年05月27日 14:07
+! Version: 202205272011
+! Last Modified: 2022年05月27日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6525,6 +6525,8 @@ tieba.baidu.com##.tuijian-wrap
 /tabads/*
 /taboola-footer.
 /taboola-header.
+/taboola_header.
+/taboolaArticle.
 /tag-adv.
 /tag_adv/*
 /tag_oas.
@@ -23174,6 +23176,7 @@ _800x80_
 ##.am_ads
 ##.amazon_ad
 ##.amazonads
+##.amis-advert
 ##.amp-ad
 ##.amp-ads
 ##.amp-ads-container
@@ -27316,6 +27319,7 @@ _800x80_
 ##.mg_box_ads
 ##.mgid-wrapper
 ##.mgid_3x2
+##.mh-advert
 ##.micro_ad
 ##.mid-ad-wrapper
 ##.mid-advert
@@ -27390,6 +27394,7 @@ _800x80_
 ##.mmy-ads
 ##.mnopolarisAd
 ##.mntl-gpt-adunit
+##.mo-advert
 ##.mo_googlead
 ##.moads-top-banner
 ##.moads-widget
@@ -28862,6 +28867,7 @@ _800x80_
 ##.rtmad
 ##.rtmm_right_ad
 ##.runner-ad
+##.rw-advert
 ##.rwSideAd
 ##.rw_ad
 ##.rwdArticleOuterAdBlock
@@ -30766,6 +30772,7 @@ _800x80_
 ##.wfb-ad
 ##.wg-ad-square
 ##.wgAd-loaded
+##.wh-advert
 ##.wh_ad
 ##.wh_ad_inner
 ##.white-ad-block
@@ -33443,6 +33450,7 @@ tf2r.com#@#.adverts
 ||adshack.com^
 ||adshexa.com^
 ||adshopping.com^
+||adshort.space^
 ||adsignals.com^
 ||adsimilis.com^
 ||adsinimages.com^
@@ -38464,6 +38472,7 @@ tf2r.com#@#.adverts
 ||formerdrearybiopsy.com^
 ||formsgenuineendorse.com^
 ||forrestersurveys.com^
+||forthcomingpropelwho.com^
 ||fortpush.com^
 ||forwrdnow.com^
 ||forzslodge.com^
@@ -41988,6 +41997,7 @@ tf2r.com#@#.adverts
 ||misdealcpi.com^
 ||misguidedstork.com^
 ||missiondues.com^
+||misslinkvocation.com^
 ||misslk.com^
 ||mistakemargarineprimrose.com^
 ||mistfzqaw.com^
@@ -45119,6 +45129,7 @@ tf2r.com#@#.adverts
 ||reservehearingmissing.com^
 ||residebroadly.com^
 ||residelikingminister.com^
+||residenceseeingstanding.com^
 ||residentialsize.com^
 ||resistancefrustrating.com^
 ||resistcorrectly.com^
@@ -45315,6 +45326,7 @@ tf2r.com#@#.adverts
 ||rjhbcghmln.com^
 ||rjltpektsuqsu.com^
 ||rjoawidlneitc.com^
+||rjstusbx.com^
 ||rjtgbjxfyslvdst.com^
 ||rkllcrwtftx.com^
 ||rkoepfotesi.com^
@@ -47795,6 +47807,7 @@ tf2r.com#@#.adverts
 ||understandablejoggleawakened.com^
 ||understandablerequirechoke.com^
 ||understandingharmoniousillegal.com^
+||understandintimidate.com^
 ||understatementcrystal.com^
 ||understoodadjoiningarab.com^
 ||underwards.site^
@@ -56772,6 +56785,7 @@ wowway.net###sc_read_header_banner
 my.juno.com###scienceTile
 money.yahoo.com###sda-MON
 pao.gr###section--sponsors
+searchenginejournal.com###sej-popup-wrapper
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
 triblive.com###shopsWidget
 thefastmode.com###side_ads_small
@@ -56841,6 +56855,7 @@ animixplay.to###streambottomright
 web-capture.net###stw_ad
 gsmarena.com###subHeader
 ebaumsworld.com###subheader_atf_wrapper
+searchenginejournal.com###summita-wrap
 streams.tv###sunGarden
 dashnet.org###support
 eco-business.com###supporting_orgs
@@ -57815,7 +57830,6 @@ cometbird.com##.gg_250x250
 ebay.com##.ggtm
 gethuman.com##.gh-ads
 ghacks.net##.ghacks-ad
-cnx-software.com##.gmay
 givemesport.com##.gms-ad
 givemesport.com##.gms-billboard-container
 givemesport.com##.gms-sidebar-ad
@@ -57848,6 +57862,7 @@ topminecraftservers.org##.grey-section
 teleboy.ch##.grid-col-content-leaderboard
 teamrock.com##.grid-container-300x250
 groovypost.com##.groov-adlabel
+cnx-software.com##.gross
 saultonline.com##.gsmfab
 thelakewoodscoop.com##.gtlsad
 animenewsnetwork.com##.gutter
@@ -58391,6 +58406,7 @@ qrobe.it##.qad
 revolution935.com##.qt-sponsor
 modernghana.com##.quikr_banner
 surfline.com##.quiver-google-dfp
+abetterrouteplanner.com##.r-145dblm.r-nc4a30
 tgstat.com##.r1-aors
 decoist.com##.r300
 periscopepost.com##.r72890
@@ -61533,7 +61549,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /assets/banners/600x100/*
 /assets/t_j/tongji.js
 /attachment/freeaddon_banner/*
-/attachments/ad/*
+/attachments/ad/*$domain=~edushida.com
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
@@ -62983,6 +62999,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||jnbd43jh.world^
 ||wuyicom.top^
 ||ygfjy.top^
 ||00-gov.cn^
@@ -78757,6 +78774,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zwmkfoo.cn^
 ||meetsocialmeta.com^
 ||nxl791.com^
+||ijsks.com^
+||dias2o0.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -87814,6 +87833,7 @@ fqsousou.com,kengso.com#@#.user-share
 /sdctag1.js
 /sdctag2.js
 /sdcTrackingCode.
+/sdk/impressions
 /sdp-tagcollector.
 /sdxp1/dru4/meta?_hc=
 /search-cookie.aspx?$image
@@ -89838,6 +89858,7 @@ _mongo_stats/
 ||fasttiger.io^
 ||fn-pz.com^
 ||fpaux.net^
+||fpavx.net^
 ||fpaxu.net^
 ||fpxau.net^
 ||g11686975765.co^
@@ -89959,6 +89980,7 @@ _mongo_stats/
 ||tvpixel.com^
 ||ugdturner.com^
 ||v1sts.me^
+||venusrevival.com^
 ||videoplayerhub.com^
 ||vkanalytics.net^
 ||widgetbe.com^
@@ -90295,6 +90317,7 @@ _mongo_stats/
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
+||bigbrain.me^$third-party
 ||bigcattracks.com^$third-party
 ||bigmir.net^$third-party
 ||bigreal.org^$third-party
@@ -99394,6 +99417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||touch.myntra.com^
 ||toyota.com/analytics/
 ||tr.clickstay.com^
+||track-visit.monday.com^
 ||track.dictionary.com^
 ||track.kueez.com^
 ||track.lexico.com^
