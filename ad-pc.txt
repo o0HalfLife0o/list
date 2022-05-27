@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QaR+LdT6jTKMeDP95wa34w
+! Checksum: +y4QlLAFgNVPRSZQbiCv9g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202205272011
-! Last Modified: 2022年05月27日 20:11
+! Version: 202205280206
+! Last Modified: 2022年05月28日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -9809,6 +9809,7 @@ _800x80_
 ###adLB
 ###adLContain
 ###adLabel
+###adLarge
 ###adLayer
 ###adLayerTop
 ###adLayout
@@ -26659,6 +26660,7 @@ _800x80_
 ##.itemAdvertise
 ##.item_ads
 ##.itinerary-index-advertising
+##.its_for_ads
 ##.itw-ad
 ##.iw-leaderboard-ad
 ##.iz-ad
@@ -32648,6 +32650,7 @@ tf2r.com#@#.adverts
 ||25391ebf69.com^
 ||254a.com^
 ||25a2143174.com^
+||2629ff5ff5.com^
 ||26554a376a71735.com^
 ||268stephe5en3king.com^
 ||2694f0eeb6.com^
@@ -33129,6 +33132,7 @@ tf2r.com#@#.adverts
 ||absalomgunne.com^
 ||absenttwilly.com^
 ||absolutionbravery.com^
+||absorbedexistence.com^
 ||absorbinginject.com^
 ||abundantshells.com^
 ||abundled.club^
@@ -38335,6 +38339,7 @@ tf2r.com#@#.adverts
 ||flagros2sii8fdbrh09.com^
 ||flameorganizer.com^
 ||flanknursepublished.com^
+||flapnaperer.com^
 ||flapsometime.com^
 ||flashclicks.com^
 ||flashinginvolvementmatches.com^
@@ -41080,6 +41085,7 @@ tf2r.com#@#.adverts
 ||largerysvz.xyz^
 ||larrenpicture.pro^
 ||larrenworld.pro^
+||larverewish.com^
 ||las4srv.com^
 ||lashquivercakes.com^
 ||lashsketch.com^
@@ -41959,6 +41965,7 @@ tf2r.com#@#.adverts
 ||mileagechronic.com^
 ||milestonequakingashes.com^
 ||milestonetelephone.com^
+||milfunsource.com^
 ||miliatedvictions.xyz^
 ||militanttrial.com^
 ||milkygoodness.xyz^
@@ -42545,6 +42552,7 @@ tf2r.com#@#.adverts
 ||new17write.com^
 ||newadsclicks.com^
 ||newaprads.com^
+||newburgtourism.com^
 ||newdisplayformats.com^
 ||newdomain.center^
 ||newjulads.com^
@@ -43821,6 +43829,7 @@ tf2r.com#@#.adverts
 ||picadmedia.com^
 ||picbucks.com^
 ||pickaflick.co^
+||pickaxewafters.com^
 ||pickleresurrection.com^
 ||picklesadamantempire.com^
 ||pickpocketseenperch.com^
@@ -48027,6 +48036,7 @@ tf2r.com#@#.adverts
 ||v2cigs.com^
 ||v3qdrfxuyzwb.com^
 ||vacaneedasap.com^
+||vacationambulancekin.com^
 ||vaccnavalcod.website^
 ||vacwrite.com^
 ||vaebard.com^
@@ -56327,6 +56337,8 @@ versus.com###bill_bottom
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
 whoscored.com###billboard-container
 inquirer.net###billboard_article
+searchenginereports.net###bio_ep
+searchenginereports.net###bio_ep_bg
 chilltracking.com###blink
 getthetechnow.com###block-24
 appleworld.today###block-26
@@ -62711,8 +62723,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -63000,6 +63012,12 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||jnbd43jh.world^
+||taoquan365.net^
+||xn--2ss830adjbqy7h.xn--fiqs8s^
+||sfjmj.com^
+||ytyug.com^
+||025613.com^
+||ijshs.com^
 ||wuyicom.top^
 ||ygfjy.top^
 ||00-gov.cn^
