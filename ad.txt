@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rvyZHusRKCzcdALiyHToug
+! Checksum: VpxEczHqcGJyqmdY0nzc1A
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205270830
-! Last Modified: 2022年05月27日 08:30
+! Version: 202205271407
+! Last Modified: 2022年05月27日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -589,6 +589,7 @@ age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 dandanzan10.top,nnyy6.top##+js(set,RTCPeerConnection,null)
 dandanzan10.top,nnyy6.top##+js(set,webkitRTCPeerConnection,null)
+dandanzan10.top,nnyy6.top##+js(set,mozRTCPeerConnection,null)
 dandanzan10.top,nnyy6.top#@#+js(nowebrtc)
 dandanzan10.top,nnyy6.top##.gm-fp-body video:style(max-height:100%!important)
 adx1.com
@@ -632,6 +633,8 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/xfsjgghsh_*.js
+/nfjsghjr_*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -2318,6 +2321,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||wuyicom.top^
+||ygfjy.top^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -18085,6 +18090,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dingbiao.top^
 ||baopengys.vip^
 ||clouddream.ltd^
+||zhzcxxzx.com^
+||52ling.wang^
+||zwmkfoo.cn^
+||meetsocialmeta.com^
+||nxl791.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
