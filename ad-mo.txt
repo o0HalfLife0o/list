@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: shjdK8t+D2UdmWJI5c87IQ
+! Checksum: PqIAvR3FkhZg7txlGMxHSA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205280829
-! Last Modified: 2022年05月28日 08:29
+! Version: 202205281407
+! Last Modified: 2022年05月28日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17290,6 +17290,7 @@ _800x80_
 ##.Ads2x1000
 ##.AdsBottom
 ##.AdsBottom336X280
+##.AdsBox
 ##.AdsBoxBottom
 ##.AdsBoxSection
 ##.AdsBoxTop
@@ -17301,7 +17302,9 @@ _800x80_
 ##.AdsSlot
 ##.Ads_3
 ##.Ads_4
+##.Ads__wrapper
 ##.Ads_forum
+##.Ads_header
 ##.Adsense
 ##.AdsenseBox
 ##.AdsenseBoxCenter
@@ -24492,6 +24495,7 @@ _800x80_
 ##.container-adbanner-mobile
 ##.container-adds
 ##.container-adrotate
+##.container-ads
 ##.container-advMoreAbout
 ##.container-adwords
 ##.container-bottom-ad
@@ -31762,6 +31766,7 @@ _800x80_
 ##aa[href^="https://itubego.com/video-downloader/?affid="]
 ##ad-desktop-sidebar
 ##amp-ad-custom
+##app-ad
 ##app-advertisement
 ##app-large-ad
 ##aside[id^="adrotate_widgets-"]
@@ -32322,6 +32327,7 @@ songlyrics.com#@#.footer-ad
 freenet.de#@#.frn_contAdHead
 guloggratis.dk#@#.gallery-ad
 davidsilverspares.co.uk#@#.greyAd
+wereldreizigers.nl#@#.gridlove-ad
 forums.digitalspy.com,marketwatch.com#@#.has-ad
 infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
@@ -36062,6 +36068,7 @@ tf2r.com#@#.adverts
 ||computeterrifyingobdurate.com^
 ||comunicazio.com^
 ||comwgi.com^
+||conative.network^
 ||concealedtripssurgical.com^
 ||conceiveintentlybookie.com^
 ||concentleconse.site^
@@ -43376,6 +43383,7 @@ tf2r.com#@#.adverts
 ||paginx.com^
 ||pagne4cham4hrobl.com^
 ||paht.tech^
+||pahtwt.tech^
 ||pahtzh.tech^
 ||paid.outbrain.com^
 ||paight.com^
@@ -56563,13 +56571,6 @@ twinfinite.net###mvp-main-content-wrap
 barrettsportsmedia.com###mvp-wallpaper
 manganatos.com,mangareader.cc###myModal
 mediaupdate.co.za###mycarousel
-myabandonware.com###n429CLX
-myabandonware.com###n429STD
-myabandonware.com###n429myabandonware_leaderboard_atf
-myabandonware.com###n429myabandonware_leaderboard_btf_2
-myabandonware.com###n429myabandonware_medrec_left_atf
-myabandonware.com###n429myabandonware_medrec_right_atf
-myabandonware.com###n429myabandonware_medrec_right_btf
 gearspace.com###navbar_notice_617
 nbcsports.com###nbcsports-leaderboard
 my.juno.com###newsCarousel
@@ -56885,6 +56886,7 @@ talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
 bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tasty.co,tucsonweekly.com##.Ad
+thescore.com##.Ad__container--2fhQb
 stadiumastro.com##.Ads
 iogames.onl##.Adv
 audiokarma.org,audizine.com##.AdvallyTag
@@ -57840,6 +57842,7 @@ cryptorank.io##.hspOLW
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
 extremetech.com##.hybrid-bar + div
+myabandonware.com##.i528
 animenewsnetwork.com##.iab
 atptour.com##.iab-wrapper
 tripadvisor.com##.iab_leaBoa
@@ -70717,6 +70720,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+masuit.com###list > .box-right > .wow[id]
+masuit.com###bootstrap-touch-slider
+masuit.com##.ibox-content > .wow[id]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -78674,6 +78680,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ljwckj.love^
 ||jinshengkeji.vip^
 ||pouyao.com^
+||xyonbib.cn^
+||xuxs.site^
+||runduobj.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -97105,6 +97114,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tritondigital.com/ondemand/impression?
 ||trk.techtarget.com^
 ||tru.webelapp.com^
+||trustarc.com/cap?
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
 ||trustcommander.net/privacy/$third-party
