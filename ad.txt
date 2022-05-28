@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rzXrDhgxknvxd2w+LQ+Wrg
+! Checksum: 3hHCpjHpSbIQC/Sv+beWzQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205282008
-! Last Modified: 2022年05月28日 20:08
+! Version: 202205290205
+! Last Modified: 2022年05月29日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2033,8 +2033,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2324,6 +2324,7 @@ ubmcmm.baidustatic.com
 ||fszcxxzx.com^
 ||baldbaptismrisk.com^
 ||icilyassertiveindoors.com^
+||sjoy7rq.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9005,7 +9006,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sass.hk/plus/mytag_js.php?aid=
 ||satroki.tech/api/JdUnion
 ||sax*.sina.
-||sbdm.net/js/222.js
+||sbdm.net/js/ad_
 ||sbo8.com/static/theme/js/bottom.
 ||sccnn.com/SF/zt.jpg
 ||scibook.cn/tuiguang.
@@ -10142,6 +10143,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||crxs.me/scripts/my_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+live.bilibili.com##.plat-section-outter-box[style="height:180px;min-width:1280px"]
 thwiki.cc##.on-right > .swiper-container
 masuit.com###list > .box-right > .wow[id]
 masuit.com###bootstrap-touch-slider
@@ -13105,7 +13107,7 @@ ks.js.cn##.height80
 hackhw.com,qqjia.com##.hengfuad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme1
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.hgame_mod_theme2
-libvio.com##.hidden-log
+libvio.me##.hidden-log
 mahua.com##.hidden_ab
 zol.com.cn##.high
 8xia.com,9553.com,99danji.com##.high-down
@@ -13245,7 +13247,7 @@ ylfx.com##.info_logrt
 riaway.com##.info_message_container
 autohome.com.cn##.information-adv
 dzbhdm.net##.inn-nav__placeholder + .poi-container > a[target="_blank"]
-libvio.com##.inner-advertise
+libvio.me##.inner-advertise
 chinabidding.com.cn##.innovate + .layer
 litv.tv##.internal_bn
 4gamers.com.tw##.interstitial-ads
@@ -14229,7 +14231,7 @@ zhifang.com##.sytl
 bcbay.com,creaders.net##.syzx
 suizhoushi.com##.sznew_ad_top
 17ok.com##.t-bann
-libvio.com##.t-img-box
+libvio.me##.t-img-box
 17yy.com##.t2_3
 17yy.com##.t2r_3
 suopao.org##.t5[style^="margin-top:8px;"]
@@ -14797,7 +14799,7 @@ wigcw.cn##a[href*=".gwents.com"]
 acglala.me##a[href*=".h-ero.games"]
 423down.com,ctfile.com##a[href*=".henghost.com"]
 hanjutv2020.com##a[href*=".hujiang.com"]
-comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.com,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
+comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 chinanews.com##a[href*=".jiuxianfeng.com"]
 tiexue.net##a[href*=".junp"]
@@ -18111,6 +18113,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yupei.love^
 ||qmz931.com^
 ||hejing.cloud^
+||kqirf.xyz^
+||zhuguangjl.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
