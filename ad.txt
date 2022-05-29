@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BIcc+G9zBP4yzjVyKeiTJA
+! Checksum: lQDgyRTFtcWyy2ImtHq/kQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205291407
-! Last Modified: 2022年05月29日 14:07
+! Version: 202205292008
+! Last Modified: 2022年05月29日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2035,8 +2035,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:971px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2325,6 +2325,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||com-csn.com^
+||nduad811.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -18116,6 +18117,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hijjtiv.cn^
 ||chabeiren.com^
 ||mymf.shop^
+||domnicma.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
