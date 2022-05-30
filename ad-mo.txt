@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: jBtIKwRxsHA8vJf74cs2Uw
+! Checksum: Qneqtb3z1+XV39jFE8Tzjw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202205292008
-! Last Modified: 2022年05月29日 20:08
+! Version: 202205300834
+! Last Modified: 2022年05月30日 08:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -22789,6 +22789,7 @@ _800x80_
 ##.advertising-container
 ##.advertising-container-top
 ##.advertising-content
+##.advertising-disclaimer
 ##.advertising-fixed
 ##.advertising-header
 ##.advertising-iframe
@@ -56119,6 +56120,7 @@ webcarstory.com###Ads
 search.snapdo.com###AfloatingD
 titantv.com###BSNFOHFSHBRE
 weegy.com###BannerDiv
+citynews.ca###Bigbox_300x250
 calculatorsoup.com###Bottom
 chicagoprowrestling.com###Chicagoprowrestling_com_Top
 gayemagazine.com###Containera2sdv > div > div > div[id^="comp-"]
@@ -56533,6 +56535,7 @@ thepostmillennial.com###leader-mot
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
 12tomatoes.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,urbandictionary.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
+vancouverisawesome.com###leaderboard-container
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
 oaoa.com###leaderboard-top
@@ -56773,6 +56776,7 @@ coolors.co###sticky-cad
 coincodex.com###sticky-footerCCx4
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
+medicinehatnews.com###stickyleaderboard
 semiconductor-today.com###storyHorAdd
 afkgaming.com###story_sticky_footer
 animixplay.to###streambottomright
@@ -58302,6 +58306,7 @@ reddit.com##.promotedlink
 racingtv.com,twitter.com,wral.com##.promotion
 throwawaymail.com##.promotion_row
 bostonreview.net##.promotop
+insauga.com##.proper-content-dynamic
 kathmandupost.com##.pt-0
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
@@ -58693,7 +58698,7 @@ primcloud.careers##.title-set
 onlinecourse24.com##.tl-topromote
 trademe.co.nz##.tm-display-ad__wrapper
 last.fm##.tonefuze
-euobserver.com##.top
+euobserver.com,medicinehatnews.com##.top
 mashable.com##.top-0.sticky > div
 artistdirect.com##.top-add
 jamieoliver.com##.top-avocado
@@ -58766,7 +58771,7 @@ progamerage.com##.vc_separator
 filmdaily.co##.vc_single_image-wrapper
 ktm2day.com##.vc_wp_text
 ggrecon.com##.venatus-block
-fox10phoenix.com,foxla.com##.vendor-unit
+fox10phoenix.com,fox26houston.com,fox4news.com,fox7austin.com,foxla.com##.vendor-unit
 tetris.com##.verticalAx
 videogameschronicle.com##.vgc-boxout
 bestlifeonline.com,eatthis.com##.vi-video-wrapper
@@ -61241,8 +61246,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
-.me/scripts/my_33.js
-.fun/scripts/my_33.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -61355,6 +61358,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .fun/ad/
+.fun/scripts/my_33.js
 .icu/ads/
 .in/js/ads/
 .info/ad.js
@@ -61371,6 +61375,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 .lu/ads/
 .me/gg.js
 .me/s.php?id=$script,third-party
+.me/scripts/my_33.js
 .men/ads/
 .net/?ss=$script,third-party
 .net/js/ads/
@@ -62883,6 +62888,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/winbox.plus"]
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
+##a[href*="/xchina.fun/redirect/ad"]
 ##a[href*="/xmkgc.com/"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/yhbet50.vip"]
@@ -62927,18 +62933,15 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
-##a[href*="/xchina.fun/redirect/ad"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||tf111.xyz^
 .8ox.cn
-||com-csn.com^
-||nduad811.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||hzzcxxzx.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -63671,6 +63674,7 @@ ubmcmm.baidustatic.com
 ||code668.com^
 ||coinadv.com^$third-party
 ||coinever.net^
+||com-csn.com^
 ||coolbook.cc^
 ||coolfenxi.com^
 ||cpc.cc^$third-party
@@ -64177,6 +64181,7 @@ ubmcmm.baidustatic.com
 ||hzylhk.com^
 ||hzyouhejia.com^
 ||hzyyhz.cn^
+||hzzcxxzx.com^
 ||i.zhuoyaju.com^
 ||i000o.com^$third-party
 ||i3818.com^
@@ -64628,6 +64633,7 @@ ubmcmm.baidustatic.com
 ||nbzq.net^
 ||nchte.com^
 ||ndtzx.com^
+||nduad811.com^
 ||netcoretech.net^
 ||netdjs.net^
 ||netkantu.com^
@@ -70298,6 +70304,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xcar.com.cn/dsp/ad
 ||xchina.co/plugins/jquery.modal/
 ||xchina.co/upload/ad/
+||xchina.fun/plugins/jquery.modal/jquery.modal.min.js
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
@@ -70755,7 +70762,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||xchina.fun/plugins/jquery.modal/jquery.modal.min.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -77460,7 +77466,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 !#BaiduUnion
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com
-||a.bxwblog.cn^
 ||003store.com^
 ||0512s.com^$third-party
 ||1.01fy.cn^
@@ -77585,6 +77590,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||a.baidinet.com^
 ||a.bake818.cn^
 ||a.bfking.cn^
+||a.bxwblog.cn^
 ||a.duanmeiwen.com^
 ||a.duduji.com^
 ||a.dxzy163.com^
@@ -78718,14 +78724,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||cloudweekly.vip^
-||hucang.cloud^
-||yaobao.cc^
-||hupneyv.cn^
-||hijjtiv.cn^
-||chabeiren.com^
-||mymf.shop^
-||domnicma.com^
+||rhufmpa.cn^
+||eiyxjls.cn^
+||getibih.cn^
+||h5634t.site^
+||kzhtgnv.cn^
+||vyrhxfi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -79529,6 +79533,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cfvapda.cn^
 ||cfyao.club^
 ||cggf.xyz^
+||chabeiren.com^
 ||chaluoyi.cn^
 ||chang555.cn^
 ||changhehengqi.com^
@@ -79597,6 +79602,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cloudassistant.vip^
 ||clouddream.ltd^
 ||cloudroad.shop^
+||cloudweekly.vip^
 ||cloudzhuge.cn^
 ||clxxkz.com.cn^
 ||clzgd.com^
@@ -79836,6 +79842,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dogjb.com^
 ||dohnxnn.cn^
 ||doklam.wang^
+||domnicma.com^
 ||dongdm.cn^
 ||donghua.asia^
 ||dongsiping.xyz^
@@ -80405,6 +80412,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||highter.top^
 ||hihifenxiang.com^
 ||hiibcfr.cn^
+||hijjtiv.cn^
 ||hikari.website^
 ||hikari.wiki^
 ||hissq.com^
@@ -80516,6 +80524,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huayancn.cn^
 ||huayange.com^
 ||huayi65.com^
+||hucang.cloud^
 ||hucy87.icu^
 ||hugvr.cn^
 ||huhangkuaiji.cn^
@@ -80544,6 +80553,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huojukk.com^
 ||huojutt.com^
 ||huosai.net.cn^
+||hupneyv.cn^
 ||hushenqiquan.com^
 ||huyc.info^
 ||huzalor.cn^
@@ -81450,6 +81460,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||myfengyi.xyz^
 ||mygqhvz.cn^
 ||myline1.club^
+||mymf.shop^
 ||mynwct.xyz^
 ||myqip.icu^
 ||myro.shop^
@@ -83050,6 +83061,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yanomami.cn^
 ||yantairuide.com^
 ||yanyanbiji.com^
+||yaobao.cc^
 ||yaodaipeishi.cn^
 ||yaofaweb.xyz^
 ||yaokuan01.cn^
@@ -92174,6 +92186,7 @@ _mongo_stats/
 ||stroeerdigitalmedia.de^$third-party
 ||strossle.it^$third-party
 ||strs.jp^$third-party
+||studiostack.com^$third-party
 ||sub2tech.com^$third-party
 ||submitnet.net^$third-party
 ||successfultogether.co.uk^$third-party
@@ -93138,6 +93151,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beastbeef.com^
 ||beautifulhobbies.com^
 ||bedsberry.com^
+||beginnerpancake.com^
 ||begintrain.com^
 ||beneficialbeef.com^
 ||benthose.com^
