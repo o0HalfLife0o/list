@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lMJQX9z45uj0u6VSsV7tiA
+! Checksum: YwD6jWS0qgL8/GZblmlbXA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205310206
-! Last Modified: 2022年05月31日 02:06
+! Version: 202205310828
+! Last Modified: 2022年05月31日 08:28
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1877,9 +1877,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||bibotsays.com^
-||kyizzs.com^
-||ayhjukc.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -2437,6 +2434,7 @@ ubmcmm.baidustatic.com
 ||aw21.top^
 ||awifi.cn^$third-party
 ||ax21pics.org^
+||ayhjukc.cn^
 ||aztsefz.cn^
 ||azttxs.com^
 ||b588866.com^
@@ -2483,6 +2481,7 @@ ubmcmm.baidustatic.com
 ||bianxianmao.com^$third-party
 ||biaoshipai.net^
 ||bibilm.com^
+||bibotsays.com^
 ||biddingx.com^$third-party
 ||bigbrainker.top^
 ||bihaipack.com^
@@ -3374,6 +3373,7 @@ ubmcmm.baidustatic.com
 ||kvezz.com^
 ||kwntistyuogo.com^
 ||kxrxh.com^
+||kyizzs.com^
 ||kyouad.com^
 ||kyqcfj.com^
 ||kzxsrxf.cn^
@@ -17598,10 +17598,10 @@ $image,third-party,domain=258zw.com
 /bbhd_*_kkis.js
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
+/ceshi127722.
 /hmzn_*_*_*.js?$script,third-party
 /js/easyAD.js
 /js/easyAD2.js
-/ceshi127722.
 /js/mangoIndexBanner.js
 /js/pfad.js
 /jun0120211102193659.
@@ -17671,16 +17671,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||woka.cc^
-||hemkwnz.cn^
-||huoyun.site^
-||aabelle.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
-||miaoche.cc^
-||huahuagoudc.com^
-||aioty.cn^
 ##a[href*=".bfq04.com/"]
 ##a[href*=".demobbe.com/"]
 ##a[href*=".fllkf.com/"]
@@ -17968,6 +17961,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||aa.wenxue6.com^
 ||aaan.xyz^
 ||aaaw.xyz^
+||aabelle.com^
 ||aau6.xyz^
 ||aau8.xyz^
 ||aau9.xyz^
@@ -18038,6 +18032,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||aimer.love^
 ||aimiyz.com^
 ||aimto.cn^
+||aioty.cn^
 ||aiptu.cn^
 ||aitehao.top^
 ||aixuyoupin.cn^
@@ -19328,6 +19323,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||helloc.xyz^
 ||helpbeatlestribute.com^
 ||helpinfo.cn^
+||hemkwnz.cn^
 ||henanlinyu.cn^
 ||henduoqian.com^
 ||hengyisoft.vip^
@@ -19465,6 +19461,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hton.ren^
 ||htsj.vip^
 ||htvxjl.top^
+||huahuagoudc.com^
 ||huaisq.com^
 ||hualongyichuangkj.com^
 ||huangyeqing.cn^
@@ -19504,6 +19501,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huojukk.com^
 ||huojutt.com^
 ||huosai.net.cn^
+||huoyun.site^
 ||hupneyv.cn^
 ||hushenqiquan.com^
 ||huyc.info^
@@ -20309,6 +20307,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||mhi9da.cn^
 ||mhqx.store^
 ||mhtky.cn^
+||miaoche.cc^
 ||miaoyuan.work^
 ||micreative-china.cn^
 ||midenterprise.com^
@@ -21715,6 +21714,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wo1990.com^
 ||woaiseo.com.cn^
 ||wojv.club^
+||woka.cc^
 ||wokekk.com^
 ||wongds.top^
 ||woniu1314520.vip^
@@ -30972,7 +30972,7 @@ _sdcTrackingCode.
 /client_204?$image,other,ping,script
 /csi_204?$image,other,ping,script
 /gen_204?$image,other,ping,script
-/generate_204
+/generate_204$~xmlhttprequest
 ||google.com/gen_204?
 ||googleapis.com^*/gen_204?
 ||gstatic.com/gen_204?
@@ -36773,6 +36773,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||capture.trackjs.com^$third-party
 ||carambo.la/analytics/
 ||carambo.la/logging/
+||cardinalcommerce.com/prod/log
 ||carl.pubsvs.com^
 ||caspionlog.appspot.com^
 ||cbsaavideo.com/measurements/
@@ -36799,6 +36800,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^$third-party
 ||checkout.com/logger/
+||checkout.com/logging
 ||chicoryapp.com^$third-party
 ||choicestream.com^*/pixel/
 ||chtah.com/a/*/spacer-0.gif$third-party
@@ -37833,6 +37835,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||playtomic.com/Tracker/
 ||plista.com/activity
 ||pmetrics.performancing.com^
+||poool.fr/api/v3/access/event
 ||porpoise.azettl.net^
 ||postageapp.com/receipt/$third-party
 ||poweredbyeden.com/widget/tracker/
@@ -51242,7 +51245,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
-@@||apikey.wrld3d.com/generate_204/$xmlhttprequest,domain=maps.wrld3d.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
