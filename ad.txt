@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o7w3/jAdHMeUyIKCXIUSAg
+! Checksum: lhBpwnTiiLOUqxiQRH9c/g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202205311407
-! Last Modified: 2022年05月31日 14:07
+! Version: 202205312010
+! Last Modified: 2022年05月31日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10158,8 +10158,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||akabebe.com/jgg/*.gif
 ||baidu.com/gamebox?
+||iqnew.com/d/js/m/thea
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+2345.com##.comp-logo-wall
+2345.com##.comp-normal-navigate
+2345.com##.wawaji
+18moe.org##.alignnone[alt="恰饭广告"]
 baidu.com##.game-adv-fram
 element-plus.org##.sponsors
 element-plus.org##.sponsor-container
@@ -23292,6 +23297,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/hitCount.$script,domain=on.cc
+@@/sensorsdata-$domain=zkh.com
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
