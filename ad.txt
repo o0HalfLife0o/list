@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rpJDxU5WwyFuUSeh8l/3bg
+! Checksum: ZHJmpPx2dXdEnQ+XVPXNoQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206011413
-! Last Modified: 2022年06月01日 14:13
+! Version: 202206012010
+! Last Modified: 2022年06月01日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1317,11 +1317,8 @@ youle55.com
 ://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
 ://btt*/Runtime/js/psData.
-://ssh.*:10443/$third-party
 :1010/openV5.js
-:10443/*/*!$third-party
-:10443/*/*-*-*.html$subdocument,third-party
-:10443/*/*-*-*.js$third-party
+:10443/$script,subdocument,third-party
 :12443/*/*-*-*.$script,third-party
 :18443/*/*-*-*.html$subdocument,third-party
 :18443/*/*-*-*.js$third-party
@@ -1959,6 +1956,8 @@ ubmcmm.baidustatic.com
 ##.yd_ad3
 ##.yd_ad5
 ##.yd_ad6
+##.leo-container .ssr1
+##.nav-area + .wrapper .tuiguang
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -2328,6 +2327,9 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||kq7it3c6.club^
 ||whcajsb.com^
+||yanuvv.cn^
+||zdhm.cn^
+||hongmao39.top^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -14218,7 +14220,6 @@ stockstar.com##.ss-ad-icon2
 xuebuyuan.com##.ss_gateway
 duba.com##.ss_sider_list[href*=".wan.liebao.cn"]
 acwifi.net,zhain8.com##.ssr
-bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 eastday.com##.ssy_left
 eastday.com##.ssy_right
 3g.cn##.statistic[href^="https://jumpluna.58.com/"]
@@ -14466,7 +14467,7 @@ hao123.com##.treasure-item
 megatime.com.tw,pchome.com.tw##.tripplead
 ts.cn##.tsggding
 huya.com##.tt[style*="1200px"]
-7060.la,bimiacg4.net,bimiacg5.net,dodoge.me##.tuiguang
+7060.la##.tuiguang
 m.hao123.com##.tuizhan
 meizhou.cn##.tuwengg
 qq.com##.txp_ad_link
