@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZhBlJRVpAtooRVs7V246fw
+! Checksum: rpJDxU5WwyFuUSeh8l/3bg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206010831
-! Last Modified: 2022年06月01日 08:31
+! Version: 202206011413
+! Last Modified: 2022年06月01日 14:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2327,6 +2327,7 @@ ubmcmm.baidustatic.com
 ||00-gov.cn^
 ||000123456789.site^
 ||kq7it3c6.club^
+||whcajsb.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -8114,9 +8115,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kingkongapp.com^*/web/adv/list?
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kiwi8.top/media/plugins/jquery_confirm/
-||kkeji.com/img/*/300250
+||kkeji.com/img/*300250
 ||kkeji.com/img/*/aliyun
-||kkeji.com/img/*/img300250.
 ||kkeji.com/img/2005/m_info_720.png
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -18139,6 +18139,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||supernff.com^
 ||nxhkkm.xyz^
 ||zptxjlh.cn^
+||zdtvfpu.cn^
+||nimajl.top^
+||tonger.online^
+||angeler.xyz^
+||vccyb.ltd^
+||greatwit.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
