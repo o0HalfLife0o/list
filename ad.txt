@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dtoiqtLll0oaR7Slxaed6A
+! Checksum: ZhBlJRVpAtooRVs7V246fw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206010206
-! Last Modified: 2022年06月01日 02:06
+! Version: 202206010831
+! Last Modified: 2022年06月01日 08:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2326,14 +2326,9 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||kq7it3c6.club^
 ||0024aaaa.com^
 ||008844.cc^
-||lm467.com^
-||ztwf8lr.cn^
-||chinaanquan.net^
-||kq7it3c6.xyz^
-||kqiekmsq.world^
-||cclnuzn.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -3007,6 +3002,7 @@ ubmcmm.baidustatic.com
 ||cccccd.com^
 ||cchvc.net^
 ||ccjudian.com^
+||cclnuzn.cn^
 ||cctg.cc^
 ||cczuxie.com^
 ||cdhhbyy.cn^
@@ -3030,6 +3026,7 @@ ubmcmm.baidustatic.com
 ||chengzhonghuxin.com^
 ||chenyanjiao.cn^
 ||cherryblossoms.top^
+||chinaanquan.net^
 ||chinauma.net^$third-party
 ||chinesean.com^$third-party
 ||chishenmeyanjiuyuan.top^
@@ -3805,6 +3802,8 @@ ubmcmm.baidustatic.com
 ||kolinay.com^
 ||koopei.com^$third-party
 ||koukou7.com^
+||kq7it3c6.xyz^
+||kqiekmsq.world^
 ||kqvkvc3.com^
 ||kt220.com^
 ||ktdlsb.com^
@@ -3897,6 +3896,7 @@ ubmcmm.baidustatic.com
 ||lm342.com^
 ||lm343.com^
 ||lm465.com^
+||lm467.com^
 ||lm553.com^
 ||lm663.com^
 ||lm665.com^
@@ -5065,6 +5065,7 @@ ubmcmm.baidustatic.com
 ||ztdsp.com^$third-party
 ||ztidu.com^
 ||ztvx8.com^
+||ztwf8lr.cn^
 ||zunxiangjiazheng07712444061.com^
 ||zuoss.net^
 ||zxdb123caducn.xyz^
@@ -6094,6 +6095,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
 ||ak530.com/js/*.js
+||akabebe.com/jgg/*.gif
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||aldtop.com/scrtips/
@@ -6325,6 +6327,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/feproxy/ad/list?
 ||baidu.com/game/asset/common/performance.
+||baidu.com/gamebox?
 ||baidu.com/img/iknow/wenku*85.
 ||baidu.com/ndcore/interface/searchTop?
 ||baidu.com/ndview/interface/hx/
@@ -7848,6 +7851,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iqiyi.com/player/cupid/*/pageer.swf
 ||iqiyi.com/player/cupid/common/flash980100.swf
 ||iqiyi.com/show2?cb=
+||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
@@ -10159,18 +10163,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||akabebe.com/jgg/*.gif
-||baidu.com/gamebox?
-||iqnew.com/d/js/m/thea
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-2345.com##.comp-logo-wall
-2345.com##.comp-normal-navigate
-2345.com##.wawaji
-18moe.org##.alignnone[alt="恰饭广告"]
-baidu.com##.game-adv-fram
-element-plus.org##.sponsors
-element-plus.org##.sponsor-container
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12155,6 +12149,7 @@ eetop.cn##.alert_windows
 ali213.net##.ali-photo-carousel-pic > li > a[href*=".fhyx."]
 phpvar.com##.aliPic
 sm.cn##.ali_row[ad_aid]
+18moe.org##.alignnone[alt="恰饭广告"]
 jianhuadaily.com##.alignnone[width="1050"]
 jianhuadaily.com##.alignnone[width="300"]
 jianhuadaily.com##.alignnone[width="800"]
@@ -12548,6 +12543,8 @@ smm.cn##.common-jinzhu-wrap
 iciba.com##.common-top-nav-item:not([href*=".iciba."])
 qingdaonews.com##.commonrightad
 cnbeta.com##.commt-r
+2345.com##.comp-logo-wall
+2345.com##.comp-normal-navigate
 meituan.com##.component-downtip
 gamefy.cn,sitv.com.cn##.con > a:last-child
 qiuw.com##.con > a:nth-child(n+2)
@@ -12936,6 +12933,7 @@ smzdm.com##.g_g
 233.com##.gads
 233.com##.gads2
 feeds.qq.com,lenovo.com.cn##.game
+baidu.com##.game-adv-fram
 zhanqi.tv##.game-banner
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.game-head-game-info-wrapper
 le.com##.gamePromotion
@@ -14208,7 +14206,9 @@ xitongtiandi.net,xzji.com##.speed
 downbank.cn##.speed-downlist
 speedtest.cn##.speed-top-ads
 daniao.org,geekpark.net,speedtest.cn##.sponsor
+element-plus.org##.sponsor-container
 sogou.com##.sponsored
+element-plus.org##.sponsors
 so.com##.spread
 baidu.com##.spread-wrap
 2345.com##.spreadHotWords
@@ -14558,6 +14558,7 @@ baidu.com##.wapAd
 win7xzb.com##.ware_gs
 m.image.so.com##.waterfall > li[data-imgid] > a[href^="https://e.so.com/search/mclick?"]
 hoteastday.com##.watermarh_ul
+2345.com##.wawaji
 10jqka.com.cn##.wbanner
 codeforge.cn##.webnotice-right
 pconline.com.cn##.website_recommend_banner
@@ -14928,8 +14929,7 @@ dapenti.com##a[href*="sq.cc"]
 mtrend.cn##a[href*="taomoubao.com"]
 jinti.com##a[href*="tempurchina.com"]
 58.com##a[href*="to8to.com"]
-tucao.in##a[href*="tyrantdb.com"]
-1090ys8.com,rouman5.com##a[href*="tyrantdb.com"]
+1090ys8.com,rouman5.com,tucao.in##a[href*="tyrantdb.com"]
 boke112.com##a[href*="url.cn"]
 enjoymore.fun##a[href*="urlto.pw"]
 jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
@@ -15987,9 +15987,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@/adview_pic_$domain=fydy8.com
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/api/ad/*$domain=pinduoduo.com
@@ -16326,6 +16324,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
+@@||haokoubei.top/dl/rfo_v_f_pc.js
 @@||haokoubei.top/jquery/jquery-1.7.2.min.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
@@ -18137,11 +18136,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||puchengrenli.com^
-||autorobot.city^
-||ddnzn.xyz^
-||imnmediatel.com^
-||cjhaoliao.xyz^
+||supernff.com^
+||nxhkkm.xyz^
+||zptxjlh.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18597,6 +18594,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||atuehome.cn^
 ||austinareahomeschoolers.com^
 ||autobedo.com.cn^
+||autorobot.city^
 ||autumnleaf.ltd^
 ||avvr.club^
 ||awleo.cn^
@@ -19004,6 +19002,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||cike666.com^
 ||city009.com^
 ||cjde.xyz^
+||cjhaoliao.xyz^
 ||cjhbkj.cn^
 ||cjhd.site^
 ||cjy200107152004.ltd^
@@ -19176,6 +19175,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dddwz.cn^
 ||ddeyi.cn^
 ||ddg1277.com^
+||ddnzn.xyz^
 ||ddot.xyz^
 ||ddwant.cn^
 ||deskt.cn^
@@ -20065,6 +20065,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||imiek.com^
 ||imlidc.cn^
 ||immf.me^
+||imnmediatel.com^
 ||importcat.com^
 ||imspecial.club^
 ||increased.cn^
@@ -21186,6 +21187,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||psl93qx.site^
 ||ptujvmq.cn^
 ||pubcloud.pub^
+||puchengrenli.com^
 ||pulingmu.top^
 ||puqer.cn^
 ||purchathough.com^
@@ -23306,9 +23308,9 @@ fqsousou.com,kengso.com#@#.user-share
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/hitCount.$script,domain=on.cc
-@@/sensorsdata-$domain=zkh.com
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
+@@/sensorsdata-$domain=zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
