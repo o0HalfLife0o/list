@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8s+J03TwdJgG0ejO6PTGpA
+! Checksum: fLJSJGJenJz1rBadDQXtiA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206022009
-! Last Modified: 2022年06月02日 20:09
+! Version: 202206030206
+! Last Modified: 2022年06月03日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1190,7 +1190,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-apkmody.io,atomohd.com,atomtt.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+apkmody.io,atomohd.org,atomohd.com,atomtt.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 ! #CV-667
@@ -1666,6 +1666,7 @@ peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 animeflv.cc#$#abort-current-inline-script JSON.parse
 pelismart.com#$#abort-on-property-read localStorage
 estrenosdoramas.net#$#abort-on-property-read __DOMAIN
+monoschinos2.com#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder

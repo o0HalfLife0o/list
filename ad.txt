@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rLEmQHyZrfoLZHtdiRqEnw
+! Checksum: oLhGzsza1zv9vz3n7F2kWw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206022009
-! Last Modified: 2022年06月02日 20:09
+! Version: 202206030206
+! Last Modified: 2022年06月03日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2034,8 +2034,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2327,6 +2327,7 @@ ubmcmm.baidustatic.com
 ||hpdwfd2.com^
 ||tengbaiwan.com^
 ||wpib0jr.cn^
+||51sm.vip^
 ||jiantiquan.cn^
 .8ox.cn
 ||00-gov.cn^
@@ -18150,6 +18151,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||bhj691.com^
 ||h56trh.site^
+||xingyou71.asia^
+||yirui.wang^
 ||gsyc.icu^
 ||csygxdym.com^
 ||daixishuai.pw^
