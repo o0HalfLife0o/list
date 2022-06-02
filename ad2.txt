@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: J319uO+kkAbDktJMs6lU8A
+! Checksum: K62AyfbaO9HGLEi/gqblrA
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206020835
-! Last Modified: 2022年06月02日 08:35
+! Version: 202206021407
+! Last Modified: 2022年06月02日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -1587,8 +1587,8 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -1875,8 +1875,10 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jiantiquan.cn^
 .8ox.cn
 ||00-gov.cn^
+||shequdaohang.com^$third-party
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17697,6 +17699,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||daixishuai.pw^
 ||zhuogego8.top^
 ||gaoai.wang^
+||zvkoukk.cn^
+||xindong.fun^
+||goldenlee.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
