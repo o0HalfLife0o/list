@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Q9+2KstFQLScNq1TVOVQSw
+! Checksum: 8s+J03TwdJgG0ejO6PTGpA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206020835
-! Last Modified: 2022年06月02日 08:35
+! Version: 202206022009
+! Last Modified: 2022年06月02日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -643,6 +643,7 @@ torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 2345.com#$#abort-current-inline-script setDefaultTheme
 ahri-hentai.com#$#abort-current-inline-script document.querySelectorAll popMagic
+ifenpaidy.com#$#abort-on-property-read localStorage
 ! Popups & Popunders
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
