@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q4pBl14oPyTLPn7Hu3yVHg
+! Checksum: Q9+2KstFQLScNq1TVOVQSw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206020207
-! Last Modified: 2022年06月02日 02:07
+! Version: 202206020835
+! Last Modified: 2022年06月02日 08:35
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1329,6 +1329,9 @@ www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^P]*P)(?=[^u]*u)(?=[^b]*b)(?=[^l]*l)(?=[^i]*i)(?=[^c]*c)(?=[^d]*d)(?=[^a]*a).+/ div[aria-describedby][aria-labelledby][role="article"] 'a[href="#"][aria-label="label"][role="link"]'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^i]*i)(?=[^é]*é).+/ div[aria-describedby][aria-labelledby][role="article"] 'a[href="#"][aria-label="label"][role="link"]'
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^(?=[^s]*s)(?=[^p]*p)(?=[^o]*o)(?=[^n]*n)(?=[^r]*r)(?=[^z]*z)(?=[^t]*t).+/ div[aria-describedby][aria-labelledby][role="article"] 'a[href="#"][aria-label="label"][role="link"]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-describedby][@aria-labelledby][@role="article"]//a[@aria-labelledby][@role="link"]//object[@type="nested/pressable"]/a[@aria-label][@role="link"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-describedby][@aria-labelledby][@role="article"]//div[@role="button"]//div[@aria-label][@role="button"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-describedby][@aria-labelledby][@role="article"]//a[starts-with(@href,"https://l.facebook")]//object[@type="nested/pressable"]//a[@aria-label][@role="link"]/ancestor::div[@aria-describedby][@aria-labelledby][@role="article"]'
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
 ! #CV-691
 ebay.fr#$#hide-if-contains-visible-text /(.*S.*p.*o.*n.*s.*o.*r.*i.*s.*é⁣.*)/ 'li.s-item' 'li.s-item span[role="text"]'
