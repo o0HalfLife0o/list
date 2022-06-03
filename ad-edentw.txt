@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xCJIfY6/Doei2BQuCMCrug
+! Checksum: ww06y+LwCqRxTeMT4Od9+A
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206032009
-! Last Modified: 2022年06月03日 20:09
+! Version: 202206040205
+! Last Modified: 2022年06月04日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1139,7 +1139,7 @@ limetorrents.cyou,gaobook.review,mavplayer.xyz,vaplayer.xyz,xstreamcdn.com,flash
 novom.ru#$#abort-on-property-read zoneNativeSett
 govid.me,9xupload.me#$#abort-on-property-read atop
 file-up.org,zippyshare.com,uploadproper.com,uploadproper.net#$#abort-on-property-write Fingerprint2
-jawcloud.co,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
+jawcloud.co,kimcartoon.li,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-inline-script document.createElement String.fromCharCode
 bs.to,burningseries.co#$#abort-current-inline-script Object
 vivo.sx#$#abort-current-inline-script Math
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
@@ -1668,6 +1668,8 @@ animeflv.cc#$#abort-current-inline-script JSON.parse
 pelismart.com#$#abort-on-property-read localStorage
 estrenosdoramas.net#$#abort-on-property-read __DOMAIN
 monoschinos2.com#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
+compucalitv.com,pornstarsyfamosas.es#$#abort-on-property-write _pop
+jkanime.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder
