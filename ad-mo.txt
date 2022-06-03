@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bY3cVJGruqoqitTxi1G1Pw
+! Checksum: LyVH7361LNJ0fOGy9OEu1Q
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206031406
-! Last Modified: 2022年06月03日 14:06
+! Version: 202206032009
+! Last Modified: 2022年06月03日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60862,7 +60862,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
-@@||fwcdn2.com/js/embed-feed.js$script,domain=safeway.com
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
@@ -77519,7 +77518,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
+##.col-lg-3 > .well[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
@@ -78989,6 +78988,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xfdqxfpm.cn^
 ||qgfwets.cn^
 ||blingbling.wiki^
+||homeieped.cn^
+||ywsywh.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -85999,7 +86000,7 @@ fqsousou.com,kengso.com#@#.user-share
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~github.com|~github.io
+/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -99651,6 +99652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squirrel.honeysqueeze.app^
 ||squirrel.malaynahocker.com^
 ||srtb.msn.com^
+||ss.photospecialist.co.uk^
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
 ||stan.xing.com^
@@ -109361,6 +109363,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
 ||squirrel.cividi.ch^
+||ss.photospecialist.at^
+||ss.photospecialist.de^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
 ||statistik.mitmischen.de^

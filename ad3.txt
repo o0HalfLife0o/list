@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rL09d3+Z2Uhl8GFXibz/0w
+! Checksum: cswSzPwF7TjGiolRlNnnww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206031406
-! Last Modified: 2022年06月03日 14:06
+! Version: 202206032009
+! Last Modified: 2022年06月03日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16242,7 +16242,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
+##.col-lg-3 > .well[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
@@ -17712,6 +17712,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xfdqxfpm.cn^
 ||qgfwets.cn^
 ||blingbling.wiki^
+||homeieped.cn^
+||ywsywh.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -26984,7 +26986,7 @@ m.babytree.com##script + a[class]
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~github.com|~github.io
+/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -40636,6 +40638,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squirrel.honeysqueeze.app^
 ||squirrel.malaynahocker.com^
 ||srtb.msn.com^
+||ss.photospecialist.co.uk^
 ||ssc.api.bbc.com^
 ||st.sawlive.tv^
 ||stan.xing.com^
@@ -50346,6 +50349,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||schnaeppchenfuchs.com/js/default-
 ||shoop.de/mgtrx/
 ||squirrel.cividi.ch^
+||ss.photospecialist.at^
+||ss.photospecialist.de^
 ||statistic2.reichelt.de^
 ||statistics.riskommunal.net^
 ||statistik.mitmischen.de^
