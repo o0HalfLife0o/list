@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pcZU0XcoMYOLadtE/5fhpA
+! Checksum: zLrFwZLNT/oBkYEOyJq9MA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206032009
-! Last Modified: 2022年06月03日 20:09
+! Version: 202206040829
+! Last Modified: 2022年06月04日 08:29
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2034,9 +2034,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -10175,8 +10175,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-firefoxchina.cn##a[track_key="outside_left_adv"]
-firefoxchina.cn##.w-full[track_key="adv_top_banner"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14559,6 +14557,7 @@ dianping.com##.votelist + .aside-box
 4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
 axios-js.com##.vultr-desc
 oneinstack.com##.w-ad
+firefoxchina.cn##.w-full[track_key="adv_top_banner"]
 benxiang.com##.w-hot-link-txt
 baidu.com##.w-question-list[data-sign]
 shm.com.cn##.w1000.surround
@@ -15116,6 +15115,7 @@ muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
 creaders.net##a[title^="www.136888.com/"]
+firefoxchina.cn##a[track_key="outside_left_adv"]
 gameinns.com##a[url^="/api/ads?"]
 duba.com##a[w="topad"]
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
@@ -16685,11 +16685,11 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 ||17ce.com^*_$image
 !#18comic.org
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
+##.col-lg-3 > .well[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-##.col-lg-3 > .well[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 ||18comic.*/iframe
@@ -18152,15 +18152,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||lmjy.us^
-||lemoncai.xyz^
-||xiangwuquan.cn^
-||tangli.ltd^
-||xfdqxfpm.cn^
-||qgfwets.cn^
-||blingbling.wiki^
-||homeieped.cn^
-||ywsywh.cn^
+||coolfuture.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18849,6 +18841,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||blackbar.cn^
 ||blb2s77r.cn^
 ||blcobmv.cn^
+||blingbling.wiki^
 ||blockai.me^
 ||blsenpg.cn^
 ||bmt4578.xyz^
@@ -19926,6 +19919,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||holidayhappy.online^
 ||holyyjs.xyz^
 ||homchang.site^
+||homeieped.cn^
 ||homfen.me^
 ||hongbao456.ink^
 ||hongdejituan.vip^
@@ -20559,6 +20553,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lejia.biz^
 ||lejlb.com^
 ||lemmotx.cn^
+||lemoncai.xyz^
 ||leoyan.top^
 ||lepaidaren.com^
 ||leqfgnb.cn^
@@ -20650,6 +20645,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||llii.club^
 ||lllfe.cn^
 ||llnsmu.com^
+||lmjy.us^
 ||lnalttc.com^
 ||lnflfbf.cn^
 ||lnhsjob.com^
@@ -21262,6 +21258,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qgbtd.com^
 ||qgdvyvd.cn^
 ||qgfdqjf.cn^
+||qgfwets.cn^
 ||qgydhjh.cn^
 ||qhdmqzc.cn^
 ||qhdop.com^
@@ -21799,6 +21796,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tang-feiji.cn^
 ||tangequan.co^
 ||tanggoushequ.xyz^
+||tangli.ltd^
 ||tangxue.me^
 ||tanky.vip^
 ||tanshan.site^
@@ -22329,6 +22327,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xdwqq.cn^
 ||xeihy.com^
 ||xerhibx.cn^
+||xfdqxfpm.cn^
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfvbs.cn^
@@ -22353,6 +22352,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xiangkantv.cn^
 ||xianglong360.cn^
 ||xiangwangdesh.com^
+||xiangwuquan.cn^
 ||xiangyudj.cn^
 ||xianka.cloud^
 ||xiantai.xyz^
@@ -22722,6 +22722,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yvrpeky.cn^
 ||ywbwsm.com^
 ||ywqpgy.com^
+||ywsywh.cn^
 ||ywzkiug.cn^
 ||yxbyd.store^
 ||yxhjt.com^
