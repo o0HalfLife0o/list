@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ODxnw1W6SfQHDzT9ceNUPA
+! Checksum: nMKI8LbXOqw/APTg16Cp1g
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206051406
-! Last Modified: 2022年06月05日 14:06
+! Version: 202206052008
+! Last Modified: 2022年06月05日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32374,7 +32374,7 @@ shop.asobistore.jp#@#.block-sponsor
 ixbtlabs.com#@#.bottom_ad_block
 wired.com#@#.box-radvert
 9l.pl#@#.boxAds
-8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua#@#.category-ad:not(html):not(body)
+8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
 blog.notebooksbilliger.de#@#.category-advertorial
 studio55.fi#@#.column-ad
@@ -36727,6 +36727,7 @@ tf2r.com#@#.adverts
 ||deceittoured.com^
 ||decemberpedalunfair.com^
 ||decenthat.com^
+||decide.dev^
 ||decids.com^
 ||decisionmark.com^
 ||decisionnews.com^
@@ -71098,6 +71099,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sinaimg.cn/mw690/00745YaMgy1gu95zq2d1qj60go09g0vc02.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 yanetflix.com##.player-recommend
@@ -86261,6 +86263,7 @@ fqsousou.com,kengso.com#@#.user-share
 /events/pixel/*$image
 /events/pixelEvent
 /events/track/*
+/events/view?
 /events?data=
 /events?rpId=
 /eventsBeacon?
