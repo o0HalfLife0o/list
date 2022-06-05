@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2fQ4B4RpL6n3TD/0GuLugA
+! Checksum: UjVnSsh5uY8WiU3g9a9Wlg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206042007
-! Last Modified: 2022年06月04日 20:07
+! Version: 202206050833
+! Last Modified: 2022年06月05日 08:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1829,8 +1829,6 @@ ubmcmm.baidustatic.com
 ##.loc-home-top-adv-new
 ##.lol-ad
 ##.lol_ad
-##.player-rm > a[href*="/ad.html?url="]
-##.module-adslist
 ##.lyzm-prevent
 ##.m1938-container
 ##.main-ad-l
@@ -1850,6 +1848,7 @@ ubmcmm.baidustatic.com
 ##.ml_ad5
 ##.mlad
 ##.mod + #bottomBox
+##.module-adslist
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -1872,6 +1871,7 @@ ubmcmm.baidustatic.com
 ##.player + .sponsor
 ##.player-bottom-gg
 ##.player-info > .recommend-two.recommend-list
+##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm-float
 ##.playtop.col-pd
 ##.pop[style="right: 10px;"]
@@ -2036,9 +2036,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2326,7 +2326,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
-||mediaadjustment.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -3971,6 +3970,7 @@ ubmcmm.baidustatic.com
 ||mdffun.cn^
 ||medi-8.net^$third-party
 ||media8.cn^$third-party
+||mediaadjustment.com^
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
 ||meethanshi.com^
 ||meihaoxiangwang.com^
@@ -18155,14 +18155,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||coolfuture.xyz^
-||edison.love^
-||imdvisual.ltd^
-||dkfixj.xyz^
-||jiaxinzhang.cn^
-||luyuheng.love^
-||nfhlink.com^
-||yusnw.cc^
+||xinyexinye.ltd^
+||rrr.plus^
+||chenzhao.xyz^
+||aisastore.club^
+||ywinterspace.ltd^
+||6888i.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19079,6 +19077,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||concocting.wang^
 ||continuedsys.cn^
 ||continuefaf.top^
+||coolfuture.xyz^
 ||coolguy.store^
 ||cooltool.cc^
 ||cornplus.cn^
@@ -19255,6 +19254,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||djymht.cn^
 ||djzwrfi.cn^
 ||dk2323dk.xyz^
+||dkfixj.xyz^
 ||dkfmhv.xyz^
 ||dkgmgj.xyz^
 ||dkifl.com^
@@ -19368,6 +19368,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||edajin.com^
 ||edajot.cn^
 ||edetzmh.cn^
+||edison.love^
 ||ediun.com^
 ||edoedrl.cn^
 ||edumsys.com^
@@ -20096,6 +20097,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||illegally.wang^
 ||ilmwi.cn^
 ||ilyjmpg.cn^
+||imdvisual.ltd^
 ||imengyoujia.xyz^
 ||imgxb.top^
 ||imiek.com^
@@ -20213,6 +20215,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiaoyiwang.fun^
 ||jiasheng-china.cn^
 ||jiatu.co^
+||jiaxinzhang.cn^
 ||jiaxue.xyz^
 ||jiayi2019.top^
 ||jiayiss.com^
@@ -20706,6 +20709,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lusrg.cn^
 ||luxoshopde.com^
 ||luyouxi.cn^
+||luyuheng.love^
 ||lv-xin.cn^
 ||lvhqntk.cn^
 ||lvkuaizi.com^
@@ -20968,6 +20972,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nernv.com^
 ||netshare.ltd^
 ||neudata.cloud^
+||nfhlink.com^
 ||ngceq.cn^
 ||nggdwfz.cn^
 ||ngogmbe.cn^
@@ -22726,6 +22731,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yupei.love^
 ||yushengyuancaishui.com^
 ||yushuha.com^
+||yusnw.cc^
 ||yuuuxi.top^
 ||yuxiny.com^
 ||yuyinqs.com^
