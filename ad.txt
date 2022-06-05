@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UjVnSsh5uY8WiU3g9a9Wlg
+! Checksum: tHEqRASqWcdqtFpRvATcpQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206050833
-! Last Modified: 2022年06月05日 08:33
+! Version: 202206051406
+! Last Modified: 2022年06月05日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1844,6 +1844,7 @@ ubmcmm.baidustatic.com
 ##.mediavfeed-newsitem
 ##.menutab_ad
 ##.ml_ad1
+##.ad.mi_btcon
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
@@ -2327,6 +2328,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||diwenganzaoji.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -10178,6 +10180,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yanetflix.com##.player-recommend
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15525,7 +15528,6 @@ doupocangqiong1.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 html-js.com##div[style="margin:10px auto;width:1000px;"]
 eworldship.com##div[style="padding: 0px;position: fixed;left: 7px; top: 150px;"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
-yanetflix.com##div[style="padding: 5px; background-color: #2b2a2a; border-radius: 30px; text-align: center;"]
 zuanke8.com##div[style="padding:0px 0 10px 0;background-color:#F1F1F1;"]
 win007.com##div[style="padding:6px 0; width:950px; height:45px"]
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
@@ -18155,12 +18157,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||18600441156.cn^
+||zhizhuzhijia.cn^
+||chocolate521.online^
 ||xinyexinye.ltd^
 ||rrr.plus^
 ||chenzhao.xyz^
 ||aisastore.club^
 ||ywinterspace.ltd^
 ||6888i.top^
+||bmzdysi.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
