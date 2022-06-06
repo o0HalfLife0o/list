@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TUcXY6RlTABLRwN6NXdJPA
+! Checksum: OgcOE6xkvjhEY1gyvz7t9w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206061408
-! Last Modified: 2022年06月06日 14:08
+! Version: 202206062009
+! Last Modified: 2022年06月06日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32447,7 +32447,7 @@ cars.mitula.ae#@#.adsList
 trustnet.com#@#.ads_right
 quebarato.com.br,search.conduit.com#@#.ads_wrapper
 alluc.org#@#.adsbottombox
-advancedrenamer.com,epicbundle.com,hs-exp.jp,korail.pe.kr,phcorner.net,teemo.gg,willyoupressthebutton.com#@#.adsbygoogle
+advancedrenamer.com,cdromance.com,epicbundle.com,hs-exp.jp,korail.pe.kr,phcorner.net,teemo.gg,willyoupressthebutton.com#@#.adsbygoogle
 copart.com#@#.adscontainer
 starbike.com#@#.adsense_wrapper
 live365.com#@#.adshome
@@ -57808,7 +57808,7 @@ kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
 news18.com##.closestickybtn
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
-thenetnaija.com##.cmp-list
+thenetnaija.co,thenetnaija.com##.cmp-list
 drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
@@ -63361,6 +63361,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 ||souyou.org^
+||adtbcs.cn^
+||apohki.cn^
 ||taoquan365.net^
 .8ox.cn
 ||00-gov.cn^
@@ -87330,6 +87332,7 @@ fqsousou.com,kengso.com#@#.user-share
 /logger?d=
 /logger?description=
 /logging-code.
+/logging/ClientEvent
 /logging/log-
 /logging/log.do
 /logging/logjs
@@ -90343,6 +90346,7 @@ _mongo_stats/
 ||adrtx.net^
 ||affvantage.com^
 ||agkn.com^
+||allvideometrika.com^
 ||altopd.com^
 ||analysis.fi^
 ||apeagle.io^
@@ -97970,6 +97974,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1uanozc5el74n.cloudfront.net^
 ||d1wirc5qsdb1y5.cloudfront.net^
+||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
