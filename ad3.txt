@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: X3Gm2B/wOqCGSs+g/1T/cA
+! Checksum: Ou2gxUt+w/0qx0rokJbZnQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206070204
-! Last Modified: 2022年06月07日 02:04
+! Version: 202206070822
+! Last Modified: 2022年06月07日 08:22
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -17715,6 +17715,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||zhw949.ltd^
+||zxycxk.love^
+||fsgsfaf6.com^
+||yang123.ltd^
 ||ai-gis.club^
 ||ynlmsc.pw^
 ||liyuan.cloud^
@@ -29547,6 +29551,7 @@ m.babytree.com##script + a[class]
 /statstracker?
 /statsupdater.
 /statsVisitesAnnonces?
+/stattag.js
 /stattracker-
 /status-beacon/*
 /StatV1?
@@ -38570,6 +38575,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||userway.org/api/v1/stats
 ||utils.global-e.com/set?
 ||utle.tech426.com^
+||v-h.tv/pixel/
 ||v.shopify.com^
 ||va.tawk.to/log
 ||vanilladev.com/analytics.
@@ -39389,6 +39395,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marktplaats.net/cnt/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||pijper.io/visits/
+||rmgdapfnccsharpprd.azurewebsites.net^
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
 ||statistics.rbi-nl.com^
@@ -50810,6 +50817,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stat.novinky.cz^
 ||stat.super.cz^
 ||statistics.csob.cz^
+||aa.tweakers.nl^
 ||analytics.rambla.be^
 ||bol.com/tracking/
 ||businessinsider.nl^*/tr.php
@@ -50845,6 +50853,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracking.voordeeluitjes.nl^
 ||tweakers.net/x/scripts/min/TyYQlL.js
 ||tweakers.net^*&p=$image
+||u299.libelle-lekker.be^
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
 ||webstatistieken.xs4all.nl^
