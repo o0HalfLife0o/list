@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nchkvadYL2xzeyEmB9a9Dw
+! Checksum: c+mG7z2r29lhu9kRLq56Xw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206071406
-! Last Modified: 2022年06月07日 14:06
+! Version: 202206072010
+! Last Modified: 2022年06月07日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -26495,6 +26495,8 @@ _800x80_
 ##.in-article-adx
 ##.in-article-mpu
 ##.in-between-ad
+##.in-body-ad-row
+##.in-body-banner-ad
 ##.in-content-ad
 ##.in-content-ad--container
 ##.in-content-ad-container
@@ -56806,6 +56808,8 @@ welovetrump.com###enhancedtextwidget-34
 jigzone.com###fH
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
+fandom.com###featured-video__player
+fandom.com###featured-video__player-container
 investing.com###findABroker
 thisismoney.co.uk###fiveDealsWidget
 point2homes.com,propertyshark.com###fixedban
@@ -57290,7 +57294,6 @@ my.juno.com###usWorldTile
 macworld.co.uk###vTXbybUFn
 nutritioninsight.com###verticlblks
 filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
-bossip.com###video-expanded
 forums.tomsguide.com###video_ad
 gumtree.com###vipBanner
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
@@ -58155,6 +58158,8 @@ sciencenews.org##.from-nature-index__wrapper___2E2Z9
 tripstodiscover.com##.fs-dynamic
 tripstodiscover.com##.fs-dynamic__label
 alphr.com##.fs-pushdown-sticky
+bossip.com##.fsb-desktop
+bossip.com##.fsb-toggle
 ghacks.net##.ftd-item.home-posts
 lovepanky.com##.full-width.row > .medium-12:first-child
 ptinews.com##.fullstorydivright
@@ -58347,8 +58352,6 @@ india.com##.iwplhdbanner-wrap
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
 johncodeos.com##.johnc-widget
-techrepublic.com##.jotform-top-story-of-the-day
-techrepublic.com##.jotform-twenty-pro-tips
 marinelink.com,maritimejobs.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
 demonslayermanga.com,readjujutsukaisen.com##.js-a-container
 ultimate-guitar.com##.js-ab-regular
@@ -59941,6 +59944,7 @@ gamesradar.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 southernliving.com##.karma-sticky-rail
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 sciencetimes.com##.player
+bossip.com##.player-wrapper-inner
 comicbook.com,popculture.com##.popculture-embed
 kidspot.com.au##.secondary-video
 goal.com##.semantic-player-embed
@@ -61429,6 +61433,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
 @@||ad.smartmediarep.com/NetInsight/$domain=programs.sbs.co.kr
+@@||admanager.clubzebra.se^$image,domain=ripshusvagnar.se
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.instacart.com/admin/$~third-party
 @@||adsafeprotected.com/services/$domain=reuters.com
@@ -63116,9 +63121,9 @@ ubmcmm.baidustatic.com
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:978px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:981px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:981px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -63409,6 +63414,7 @@ ubmcmm.baidustatic.com
 ||souyou.org^
 ||adtbcs.cn^
 ||apohki.cn^
+||xuebim.top^
 ||taoquan365.net^
 .8ox.cn
 ||00-gov.cn^
@@ -70978,8 +70984,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yezi.cn/_ad/
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
-||ygdy8.com/jsy/
-||ygdy8.net/js1/
+||ygdy8.com/js1y/
 ||ygodl.com/wp-content/uploads/*.js
 ||yhdm.io/bar/
 ||yhdm.so/bar/
@@ -73122,7 +73127,6 @@ chinanews.com##.add3
 chinanews.com##.add4
 x6g.com##.addd
 manhua123.net##.addg
-downkr.com##.address-left > ul:nth-child(2)
 kuaihou.com##.address_like
 mydrivers.com##.adds
 3dmgame.com##.addvide300
@@ -75966,7 +75970,7 @@ zhibo8.cc##a[href*=".wanjiashe."]
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dzbhdm.net##a[href*=".weixin.qq.com/"]
 tiexue.net##a[href*=".wx359.cn/"]
-downkr.com##a[href*=".xitongzhijia.net"]
+downkr.com##a[href*=".xitongzhijia."]
 toolfk.com##a[href*=".xiuxiandou.com/"]
 939394.xyz##a[href*=".yangkeduo.com"]
 ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
@@ -77043,6 +77047,7 @@ zdface.com#@#.top-ad
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 tangdoucdn.com#@#.video-ad
 i-cable.com#@#.video_ad
+dailymotion.com#@#.ad_box
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
@@ -79241,6 +79246,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||dmcqs.club^
+||cuxiao.site^
+||macgigo.cn^
+||cb24g.site^
 ||zhw949.ltd^
 ||zxycxk.love^
 ||fsgsfaf6.com^
@@ -98864,6 +98873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cm-exchange.toast.com^
 ||log.adplex.co.kr^
 ||log.cizion.com^
+||log.mofa.go.kr^
 ||log.targetpush.co.kr^
 ||megadata.co.kr^
 ||mtag.mman.kr^
