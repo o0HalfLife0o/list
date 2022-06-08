@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WqY4ED6hN4Wlv3btId0nGA
+! Checksum: ktTA4HKCllJfIqCwSpc3fQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206080827
-! Last Modified: 2022年06月08日 08:27
+! Version: 202206082008
+! Last Modified: 2022年06月08日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -361,7 +361,6 @@ usgang.ch###rectangle-wrapper
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_latvian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_romanian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_russian.txt ***
-##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal
@@ -400,8 +399,8 @@ asn.in.ua,beadeath.dclans.ru###mdl_ctnr
 photolessons.org###modal-adbmon-div
 ostroh.info###modal.modal-bg
 all-episodes.net###odin
-mover.uz###oframeplayer > [class][style^="display: block"]
 filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
+mover.uz###oframeplayer > [class][style^="display: block"]
 md4u.ru###pagecontent > div[style*="background-color"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
@@ -422,6 +421,7 @@ besplatka.ua##.adBl
 bycard.by,goodfon.ru,old-games.ru,satsis.info,swordmaster.org##.adb
 vsadu.ru##.adb-block
 andevice.ru,dietdo.ru##.adb-def
+telesputnik.ru##.adbPopup
 tuchkatv.ru##.adb_m
 brazzers-hdx.club##.adblck
 forum.qrz.ru,hentaiz.org,life.ru,mastergrad.com,wallpapershome.ru##.adblock
@@ -431,7 +431,6 @@ exler.ru##.adblock-pls
 zakon.kz##.adblock_alert
 tassbiz.ru##.adblock_notif
 hentaiz.org##.adblocker
-telesputnik.ru##.adbPopup
 kubik3.ru##.adbs
 ideya-biznesa.ru##.admania_adblock_detector
 cofp.ru##.admitad-checker-popup
@@ -469,9 +468,10 @@ ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 doctorrouter.ru##.jgcabd-container
 go.mail.ru##.js-adb-msg
 ppc.world##.js-detected-block
-dtf.ru,tjournal.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
 anime-bit.ru##.layer_box > #header
+dtf.ru,tjournal.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
+shuba.life##.md\:u-block
 peers.tv##.moanerwrap
 megatest.online##.msg-AdBlock
 ykt.ru##.n-banner--adblocked
@@ -489,7 +489,7 @@ pythonworld.ru##.pythonworld-contributor
 veseloeradio.ru##.racy_sidebar
 fanfics.me##.red.nodata
 webofcomics.ru##.reklandvipinfo
-filmix.love,filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone##.remove-sda-wrap
+filmix.ac,filmix.beer,filmix.biz,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.gay,filmix.ink,filmix.love,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone##.remove-sda-wrap
 sport-express.ru##.se-adv-notice
 101.ru##.showMessageAdBlock
 playunturned.ru##.side_left > center
@@ -499,7 +499,6 @@ megogo.net,megogo.ru##.specialBlock_v1
 slivap.ru##.svg-adblock
 l-a-w.ru,mhelp.kz##.swal2-container
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
-savevideo.me##td > div[class]:not([id])[style*="important"]
 kinoafisha.ua##.turn-off-add-block-text
 helpsetup.ru##.veramoy
 stalkerportaal.ru##.video_adsense
@@ -568,6 +567,7 @@ savevideo.me##div[id^="ads_notice_"]
 liga.net#@#div[id^="div-gpt-ad"]
 acomics.ru##div[style*="/design/common/pic/please"]
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
+##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 sdamgia.ru##div[style="text-align:center; color:red; border: 0px solid black; font-size:16px"]
 anime.anidub.life,myanime.online,online.anidub.com#?#div[style^="position: fixed;"]:-abp-has(> :-abp-contains(Обнаружена блокировка рекламы))
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
@@ -575,12 +575,14 @@ reshuege.ru,reshuoge.ru,reshuvpr.ru,sdamgia.ru##div[style^="text-align:center; c
 ph4.ru##div[style^="width: 728px; height: 90px;"]
 bdmbase.ru##html > .q1
 7sim.net##html > body ~ div
+shuba.life##img[height][src^="https://shuba.life/static/placeholders/"]
 nv.ua##img[src="/images/dis_blocker_big.jpg"]
 drive2.ru##img[src^="https://avatars.mds.yandex.net/get-adfox-content/"]
 fotoshop-online.org##section > .col-full + script + center[class]
 d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 ph4.ru##table[width][height="90"][style]
+savevideo.me##td > div[class]:not([id])[style*="important"]
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||adscat.ru^$third-party
@@ -1193,7 +1195,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-apkmody.io,atomohd.org,atomohd.com,atomtt.com,goyabu.com,hentai20.com,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+apkmody.io,atomohd.org,atomohd.com,atomtt.com,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li,wiflix.bet#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 ! #CV-667
@@ -1263,7 +1265,7 @@ eztv.tf,eztv.unblockit.llc,eztv.yt#$#abort-current-inline-script s2ss52
 idope.cyou,yts2.cc#$#abort-on-property-read JSON.stringify
 latinblog.tv#$#abort-on-property-write _cpp
 camsstream.com#$#abort-current-inline-script onload;
-ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob; abort-on-property-read setInterval;
+ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob
 masahub.net#$#abort-on-property-read decodeURI; abort-on-property-read mm
 ||*.com/*b8121.js^$script,domain=mult34.com
 ||see.xxx/poppy/*.js^$domain=see.xxx
@@ -1390,7 +1392,7 @@ streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
 1fr1.net,forum-gratuit.net,forum2jeux.com,forumactif.com,forumactif.fr,forumactif.org,forumpro.fr,forums-actifs.com,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,superforum.fr,vttpoitou.com##a[onclick^="this.href=atob"]
-1fr1.net,forum-gratuit.net,forum2jeux.com,forumactif.fr,forumpro.fr,forums-actifs.com,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,superforum.fr,vttpoitou.com#$#abort-on-property-read atob
+1fr1.net,forum-gratuit.net,forum2jeux.com,forumpro.fr,lebonforum.com,lemondedudiagauto.com,open-consoles.com,passionmilitaria.com,vttpoitou.com#$#abort-on-property-read atob
 french-streams.com#$#abort-on-property-read open
 e-sushi.fr#$#abort-on-property-read aEteAffiche
 ! #CV-368
@@ -1437,6 +1439,8 @@ hotsexstory.xyz#$#abort-current-inline-script document.querySelectorAll popMagic
 ! #CV-667
 citpekalongan.com,designmyhomee.com,mangacanblog.com,marthamatika.com,tokusatsuindo.com,unbrick.id#$#abort-current-inline-script Math zfgloaded
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
+! Popup/Popunder/Clickunder
+komikcast.me#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
 ! #CV-667
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
