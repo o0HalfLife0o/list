@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QC6XfVo8bYuyL1VfFRSu5w
+! Checksum: WqY4ED6hN4Wlv3btId0nGA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206080204
-! Last Modified: 2022年06月08日 02:04
+! Version: 202206080827
+! Last Modified: 2022年06月08日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -162,6 +162,7 @@ _adblock_killer.
 @@||frandroid.com/ads.js
 @@||free-reseau.fr/css/publicite.css|$stylesheet
 @@||fusacq.com/javascript/advertising.js|$script
+@@||gamaniak.com/js/check_adsense.js$script
 @@||grattable.com/blogads.css
 @@||hdnumerique.com/tpl/jscript/advert.js
 @@||item-voyage.fr/ads.css
@@ -347,6 +348,7 @@ ot-boutique.fr#@##publicite
 iwin.com#@##sponsorText
 fairytailmx.com#@##sponsored-ad
 forum.virtualdjing.com#@#.adFrame
+gamaniak.com#@#.adsbygoogle
 dealerdunet.fr#@#.text_ads
 comptoir-info.com#@#.textad
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_german.txt ***
