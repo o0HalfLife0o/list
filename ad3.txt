@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mQgJefaOQp+cBMR/KigwbQ
+! Checksum: EoPQpIrIiYe8tWAminkcPg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206082008
-! Last Modified: 2022年06月08日 20:08
+! Version: 202206090206
+! Last Modified: 2022年06月09日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1885,6 +1885,8 @@ ubmcmm.baidustatic.com
 ||yangshengzu.cn^
 ||jb2v9sv.shop^
 ||qopeqi13913fjajba123nfd1344.top^
+||uwnvcxb.cn^
+||smilk.cc^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -4162,7 +4164,6 @@ ubmcmm.baidustatic.com
 ||unionli.com^$third-party
 ||unionsky.cn^$third-party
 ||unionsky2.cn^$third-party
-||unpkg.com^
 ||uoyrsd.com^
 ||urlat.cn^
 ||uscdn.top^
@@ -9747,6 +9748,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+element-plus.gitee.io##.sidebar > .page-content
 theporn.cc##.pp > div:not([class])
 theporn.cc##.video-player-container > div:not([class])
 szxx.com.cn###A1
@@ -17731,6 +17733,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qiaofu.shop^
 ||zli.wang^
 ||bestnfd.com^
+||carbonch.mobi^
+||lvytzpu.cn^
+||jinchanjs.top^
+||thewindrun.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -27048,7 +27054,7 @@ m.babytree.com##script + a[class]
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
+/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
