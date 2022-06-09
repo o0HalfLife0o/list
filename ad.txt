@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Mgs+wweDavbp9i/HO3+FzQ
+! Checksum: nGtgTPS3e1lE/eEGz5XTSw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206090206
-! Last Modified: 2022年06月09日 02:06
+! Version: 202206090830
+! Last Modified: 2022年06月09日 08:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2328,12 +2328,6 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||9869936.com^
-||yangshengzu.cn^
-||jb2v9sv.shop^
-||qopeqi13913fjajba123nfd1344.top^
-||uwnvcxb.cn^
-||smilk.cc^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -2730,6 +2724,7 @@ ubmcmm.baidustatic.com
 ||978655.online^
 ||97wanle.com^
 ||980th.com^$third-party
+||9869936.com^
 ||98765432100.online^
 ||98765432100.site^
 ||987jx.com^
@@ -3652,6 +3647,7 @@ ubmcmm.baidustatic.com
 ||ja9377.com^
 ||jacquelinelaura.com^
 ||javase.top^
+||jb2v9sv.shop^
 ||jb2v9sv.world^
 ||jb9vtov.xyz^
 ||jbyy010.com^
@@ -4205,6 +4201,7 @@ ubmcmm.baidustatic.com
 ||qkkjd.com^$third-party
 ||qling.com^$third-party
 ||qmname.com^
+||qopeqi13913fjajba123nfd1344.top^
 ||qq4g.cn^$third-party
 ||qqm98.com^
 ||qqq-www-987.site^
@@ -4366,6 +4363,7 @@ ubmcmm.baidustatic.com
 ||smallvideoapp.com^
 ||smart-start.com.cn^
 ||smartfarming.cn^
+||smilk.cc^
 ||smitionsory.co^
 ||smucdn.com^
 ||smxsg.com^
@@ -4619,6 +4617,7 @@ ubmcmm.baidustatic.com
 ||uuaoz.com^
 ||uuwn7ho.cn^
 ||uvclick.com^
+||uwnvcxb.cn^
 ||uxrpkgh.cn^
 ||uzpmrbek.com^
 ||v-links.net^$third-party
@@ -4876,6 +4875,7 @@ ubmcmm.baidustatic.com
 ||yabo168.cc^$third-party
 ||yalongrope.cn^
 ||yamaidei.cn^
+||yangshengzu.cn^
 ||yanko.cc^
 ||yanuvv.cn^
 ||yanzunyang.top^
@@ -10195,9 +10195,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-element-plus.gitee.io##.sidebar > .page-content
-theporn.cc##.pp > div:not([class])
-theporn.cc##.video-player-container > div:not([class])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13883,6 +13880,7 @@ baixing.com##.poster-info-container + .side-block
 bbs.51cto.com##.postinfo06a
 chongbuluo.com##.postright
 zhujiboke.com##.posts-top-cjtz
+theporn.cc##.pp > div:not([class])
 ifxtx.com##.ppsy_content758
 7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
 sisixxb.com##.preflink
@@ -14158,6 +14156,7 @@ qzone.qq.com##.side_wrapper.side_wrapper_v3
 cjn.cn##.sidebar
 qiuquan.cc##.sidebar .aligncenter
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
+element-plus.gitee.io##.sidebar > .page-content
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
 oneinstack.com##.sidebar > .widget:last-child
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
@@ -14552,6 +14551,7 @@ iqiyi.com##.video-ad_left
 iqiyi.com##.video-ad_right
 av.movie##.video-banner
 eastday.com##.video-mask
+theporn.cc##.video-player-container > div:not([class])
 porn5f.com##.video-promote-adv
 18av.pro##.video-server > .inplayer
 ali213.net##.video-window
@@ -18172,18 +18172,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||lijb.site^
-||unionpay.name^
-||fjyc.pw^
-||gouqi.asia^
-||xingyou69.asia^
-||qiaofu.shop^
-||zli.wang^
-||bestnfd.com^
-||carbonch.mobi^
-||lvytzpu.cn^
-||jinchanjs.top^
-||thewindrun.com^
+||guoyu.link^
+||princesses.asia^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18824,6 +18814,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||beside-u.xyz^
 ||best-eye.cn^
 ||bestgong.top^
+||bestnfd.com^
 ||better-better.com.cn^
 ||betylife.com^
 ||bfjl.ink^
@@ -18957,6 +18948,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||canalandco.com^
 ||caopanshou.top^
 ||capzo.cn^
+||carbonch.mobi^
 ||carlseb.xyz^
 ||carset.vip^
 ||cashnews.info^
@@ -19533,6 +19525,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fjmrxys.com^
 ||fjshxjs.cn^
 ||fjshxzyyxgs.cn^
+||fjyc.pw^
 ||fjylcy.com^
 ||fkdwz.cn^
 ||fkhfk.cn^
@@ -19690,6 +19683,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gotoip.com.cn^
 ||gou1zhe.com^
 ||goukan.xyz^
+||gouqi.asia^
 ||gouwupianyi.cn^
 ||gouyb.mobi^
 ||governments.wang^
@@ -20265,6 +20259,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jiemeichike.cn^
 ||jiese.fun^
 ||jieyixiu.com^
+||jinchanjs.top^
 ||jindowins.com^
 ||jinerxuebu.xyz^
 ||jingcaiedc.cn^
@@ -20646,6 +20641,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lihailin.vip^
 ||lihong.ltd^
 ||lihongyu.xyz^
+||lijb.site^
 ||lijie1010.top^
 ||likefly.com.cn^
 ||lilith.ink^
@@ -20755,6 +20751,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lvkuaizi.com^
 ||lvsechufang.com^
 ||lvxingzhe.store^
+||lvytzpu.cn^
 ||lvzi.store^
 ||lw88.site^
 ||lwlscy.com^
@@ -21335,6 +21332,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qianyuntengyue.com^
 ||qiaobaba.top^
 ||qiaoenyl.xyz^
+||qiaofu.shop^
 ||qiaohong.ltd^
 ||qiaopiguniang.com^
 ||qiaoxiaomiao.com^
@@ -21903,6 +21901,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||themee.cn^
 ||thepam.cn^
 ||theroads.cn^
+||thewindrun.com^
 ||thindsoo.cn^
 ||thinkcode.cc^
 ||thinkphp.pro^
@@ -22067,6 +22066,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||uni-king.cn^
 ||unilife.top^
 ||unimr0k7em.cn^
+||unionpay.name^
 ||unnqyqq.cn^
 ||unpk41.online^
 ||untenable.wang^
@@ -22461,6 +22461,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xingyou46.icu^
 ||xingyou64.xyz^
 ||xingyou65.xyz^
+||xingyou69.asia^
 ||xingyou71.asia^
 ||xingzhu.top^
 ||xinheshengmce.com^
@@ -22972,6 +22973,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zkrmeml.cn^
 ||zkwsdf.com^
 ||zl856.cn^
+||zli.wang^
 ||zlin.fun^
 ||zllhtz.cn^
 ||zllnb.top^
