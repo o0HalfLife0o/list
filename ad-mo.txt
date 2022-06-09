@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FxR1gmFyr49GLrJCR+bg1g
+! Checksum: uOS/7bZR0Gyk590C+c8sVg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206092016
-! Last Modified: 2022年06月09日 20:16
+! Version: 202206100204
+! Last Modified: 2022年06月10日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -2181,7 +2181,6 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adoptimised.
 /AdOptimizer.
 /adoptionicon.
-/adoptions.$domain=~efollett.com
 /adorika300.
 /adorika728.
 /ados.js
@@ -11620,6 +11619,7 @@ _800x80_
 ###adv-01
 ###adv-300
 ###adv-Bottom
+###adv-Middle
 ###adv-Middle1
 ###adv-Middle2
 ###adv-Scrollable
@@ -20459,6 +20459,7 @@ _800x80_
 ##.ad_v300
 ##.ad_vertisement
 ##.ad_viewtop
+##.ad_w
 ##.ad_w300h450
 ##.ad_w300i
 ##.ad_w_us_a300
@@ -54409,6 +54410,7 @@ tf2r.com#@#.adverts
 ||p.smartertravel.com^
 ||pacontainer.s3.amazonaws.com^
 ||pagead2.googlesyndication.com^
+||pages.etoro.com/widgets/$third-party
 ||partner.e-conomic.com^
 ||partners.autotrader.co.uk^
 ||partners.betus.com^
@@ -58560,6 +58562,7 @@ designtaxi.com##.nt-text
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
+trendexposed.com##.nya-slot
 golfdigest.com##.o-ArticleRecirc
 luscious.net##.o-padding-top-bottom
 mediaite.com##.o-promo-unit
@@ -99810,6 +99813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quickmeme.com/tracker/
 ||qwant.com/action/
 ||qwant.com/impression/
+||qwant.com/maps/events
 ||qwant.com/v2/api/ux/surveys?
 ||qz.com/log
 ||r.bbci.co.uk^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: aUbAD/IoAKuSJdgaVCkbTg
+! Checksum: /8O75uINeypxZw9rZ7pSHQ
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206092016
-! Last Modified: 2022年06月09日 20:16
+! Version: 202206100204
+! Last Modified: 2022年06月10日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1195,7 +1195,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-apkmody.io,atomohd.org,atomohd.com,atomtt.com,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li,wiflix.bet#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li,wiflix.bet#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 ! #CV-667
@@ -1679,8 +1679,10 @@ gnula.se,pelismart.com#$#abort-on-property-read localStorage
 estrenosdoramas.net#$#abort-on-property-read __DOMAIN
 monoschinos2.com#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 compucalitv.com,pornstarsyfamosas.es#$#abort-on-property-write _pop
-bajarpelisgratis.com,jkanime.top,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+bajarpelisgratis.com,jkanime.top,pelismart.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
+futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
+gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder
