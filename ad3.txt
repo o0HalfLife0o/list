@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +hZbm0m6SzeJnbHV81VMVg
+! Checksum: QW7cReEganfSd9AxaFTb/A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206091406
-! Last Modified: 2022年06月09日 14:06
+! Version: 202206092016
+! Last Modified: 2022年06月09日 20:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -9740,6 +9740,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||phb123.com/skin/js/tongji.js
 ||tianshui.com.cn/gg/
+||elecfans.com/webapi/advertisement/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
@@ -17731,6 +17732,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gzww.site^
 !2304
 !2305
+||uniworldgroup.asia^
 ||guoyu.link^
 ||chenhao.name^
 ||princesses.asia^
@@ -30967,6 +30969,7 @@ cgi-bin/counter
 /wf/open?upn=$image
 ://email.*/e/o/
 _ad_impression.
+_track_pixel.gif?
 /_/trace/trace/*
 /rrweb-script.
 /rrweb.js
@@ -50528,6 +50531,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||2ememain.be/c3650cdf-
+||2ememain.be/px/fbif?
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0NlbanHKO5b6s/lvyE6lTQ
+! Checksum: m11vBpifQPBXmS6XZTY/2Q
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206091406
-! Last Modified: 2022年06月09日 14:06
+! Version: 202206092016
+! Last Modified: 2022年06月09日 20:16
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2177,9 +2177,9 @@ tieba.baidu.com##.tuijian-wrap
 /adlift4.
 /adlift4_
 /adline.$domain=~adline.co.il|~adline.com|~adline.si
-/adlink-$domain=~adlinktech.com|~github.io
-/adlink.$domain=~adlink.guru|~adlinktech.com
-/adlink/*$domain=~adlinktech.com
+/adlink-$domain=~adlinktech.com|~github.com|~github.io
+/adlink.$domain=~adlink.guru|~adlinktech.com|~github.com
+/adlink/*$domain=~adlinktech.com|~github.com
 /adLink728.
 /adlink?
 /adlinks.$domain=~adlinks.to
@@ -61414,7 +61414,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||libhunt.com^$generichide
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
-@@||mail.protonmail.com^$generichide
+@@||material.angular.io^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -71365,6 +71365,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||phb123.com/skin/js/tongji.js
 ||tianshui.com.cn/gg/
+||elecfans.com/webapi/advertisement/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
@@ -79356,6 +79357,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||gzww.site^
 !2304
 !2305
+||uniworldgroup.asia^
 ||guoyu.link^
 ||chenhao.name^
 ||princesses.asia^
@@ -90329,6 +90331,7 @@ cgi-bin/counter
 /wf/open?upn=$image
 ://email.*/e/o/
 _ad_impression.
+_track_pixel.gif?
 /_/trace/trace/*
 /rrweb-script.
 /rrweb.js
@@ -109890,6 +109893,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||zooplus.de/om/pxl/
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
+||2ememain.be/c3650cdf-
+||2ememain.be/px/fbif?
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize
