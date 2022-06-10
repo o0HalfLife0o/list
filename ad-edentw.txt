@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /8O75uINeypxZw9rZ7pSHQ
+! Checksum: EHdwO9tcaGI5H/GOMIJeEw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206100204
-! Last Modified: 2022年06月10日 02:04
+! Version: 202206102009
+! Last Modified: 2022年06月10日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -628,7 +628,7 @@ beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,
 egyanime.com,egydead.com,egydead.live#$#abort-on-property-write _pop
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
 cima-club.cc,cima-club.in,cima-club.io,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
-anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,manga.ae,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.cloud,shahed4u.red,shahed4u.ws,witanime.com,yalla-shoot.today#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
+anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima4u.cloud,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,manga.ae,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.casa,shahed4u.cloud,shahed4u.red,shahed4u.ws,tuktukcinema.co,witanime.com,yalla-shoot.today#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
 faselhd.top#$#abort-current-inline-script parseInt /break|case/
 arabxd.com#$#abort-current-inline-script document.querySelectorAll popMagic
 ! #CV-754
@@ -1198,6 +1198,7 @@ letsjerk.tv#$#abort-current-inline-script asgPopScript
 apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,prmovies.re,readcomiconline.li,wiflix.bet#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
+manga21plus.com#$#abort-on-property-read a3klsam
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1419,6 +1420,7 @@ ebay.de#$#hide-if-contains-visible-text /[Anzeige]+(?![\w,])/ 'li.s-item' 'li.s-
 ! Popup/Popunder/Clickunder
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
+yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
 ! #CV-890
 walla.co.il,sheee.co.il##iframe[id]:not([src])[frameborder="0"][scrolling="no"]:not(#rufous-sandbox)
@@ -1653,7 +1655,7 @@ vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
 ! CV-715
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua,mignews.com.ua#$#abort-on-property-read weekCallbacks
 ! #CV-716
-nnews.com.ua,news24today.info,vnn24.ru,1news.com.ua,365news.biz,4mama.ua,4studio.com.ua,7days-ua.com,apnews.com.ua,argumentiru.com,asiaplustj.info,autotheme.info,beauty.ua,begemot-media.com,begemot.media,chas.cv.ua,cheline.com.ua,cikavosti.com,cn.ua,comments.ua,day.kyiv.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,dyvys.info,economistua.com,edinstvennaya.ua,ekovolga.com,expert.in.ua,fedpress.ru,forpost.media,fraza.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,gov.ua,grad.ua,greenpost.ua,inforpost.com,itechua.com,iz.com.ua,khersonline.net,kolizhanka.com.ua,krymr.com,kurskcity.ru,liga.net,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,narodna-pravda.ua,nashbryansk.ru,newsoneua.tv,ngp-ua.info,novavlada.info,novynarnia.com,odessa-life.od.ua,pg11.ru,pingvin.pro,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,praktika-vlasti.com.ua,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,risu.ua,rivne.media,rivnenews.com.ua,rusjev.net,russianshowbiz.info,semobile.com.ua,sport-kr.com.ua,sud.ua,superdom.ua,te.ua,telekritika.ua,ternopillive.com.ua,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,volnorez.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wpristav.ru,wworld.com.ua,mignews.com.ua,zbirna.com,panoptikon.org,inkorr.com,kr.ua,rv.ua,oukr.info,zp.ua,np.pl.ua,ukrrain.com,reporter.ua,cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,ck.ua,volyninfa.com.ua,vlast.kz#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
+nnews.com.ua,news24today.info,vnn24.ru,1news.com.ua,365news.biz,4mama.ua,4studio.com.ua,7days-ua.com,apnews.com.ua,argumentiru.com,asiaplustj.info,autotheme.info,beauty.ua,begemot-media.com,begemot.media,chas.cv.ua,cheline.com.ua,cikavosti.com,cn.ua,comments.ua,day.kyiv.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,dyvys.info,economistua.com,edinstvennaya.ua,ekovolga.com,expert.in.ua,fedpress.ru,forpost.media,fraza.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,gov.ua,grad.ua,greenpost.ua,inforpost.com,itechua.com,iz.com.ua,khersonline.net,kolizhanka.com.ua,krymr.com,kurskcity.ru,liga.net,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,narodna-pravda.ua,nashbryansk.ru,newsoneua.tv,ngp-ua.info,novavlada.info,novynarnia.com,odessa-life.od.ua,pg11.ru,pingvin.pro,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,praktika-vlasti.com.ua,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,risu.ua,rivne.media,rivnenews.com.ua,rusjev.net,russianshowbiz.info,semobile.com.ua,sport-kr.com.ua,sud.ua,superdom.ua,te.ua,telekritika.ua,ternopillive.com.ua,theageoffootball.com,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,volnorez.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wpristav.ru,wworld.com.ua,mignews.com.ua,zbirna.com,panoptikon.org,inkorr.com,kr.ua,rv.ua,oukr.info,zp.ua,np.pl.ua,ukrrain.com,reporter.ua,cvnews.cv.ua,ifnews.org.ua,lvnews.org.ua,rvnews.rv.ua,tenews.org.ua,ck.ua,volyninfa.com.ua,vlast.kz#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
 marieclaire.ua#$#abort-current-inline-script redram /загрузка.../
 karpatnews.in.ua,kg-portal.ru#$#abort-current-inline-script document.createElement Math.random
 ! #CV-667
@@ -1713,7 +1715,6 @@ phimhay3s.com#$#json-prune ads
 90phuttttttttt.xyz#$#abort-current-inline-script $ overlay
 aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
-playmt.fastlycdn.xyz#$#override-property-read adsPlayer undefined;override-property-read adsTvc undefined;override-property-read adsButton undefined
 watchsb.com#$#abort-on-property-read __Y
 tinsoikeo.io#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
 plus.gtv.vn#$#abort-current-inline-script $ youtube-modal
