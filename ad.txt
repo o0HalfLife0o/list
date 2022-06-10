@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5Hf5WYbcF6bPo9ZG7yIt3g
+! Checksum: boviq/zB3P6d/zwGd7r8FA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206100831
-! Last Modified: 2022年06月10日 08:31
+! Version: 202206101406
+! Last Modified: 2022年06月10日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1783,6 +1783,7 @@ ubmcmm.baidustatic.com
 ~95504.net##.ggbox
 ##.gggpost-above
 ##.gglist
+##.area > .tuiguang
 ##.ggpost-below
 ##.ggtop
 ##.ggw
@@ -2038,8 +2039,8 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2327,6 +2328,23 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+!2306
+!2305
+!2304
+||awsxc.live^
+!2303
+||jtrgzj9.com^
+!2302
+||666576.xyz^
+!2301
+!2212
+!2211
+!2210
+!2209
+!2208
+!2207
+||u0065.com^
+!2206
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -3567,7 +3585,6 @@ ubmcmm.baidustatic.com
 ||hxsq.app^$third-party
 ||hxssj.cn^
 ||hxtwl.cn^
-||hxwygsk2.xyz^
 ||hxyifu.com^
 ||hxyx360.com^
 ||hy-cn.cn/index.php?
@@ -3648,8 +3665,6 @@ ubmcmm.baidustatic.com
 ||ja9377.com^
 ||jacquelinelaura.com^
 ||javase.top^
-||jb2v9sv.shop^
-||jb2v9sv.world^
 ||jb9vtov.xyz^
 ||jbyy010.com^
 ||jcelyj.com^
@@ -3743,7 +3758,6 @@ ubmcmm.baidustatic.com
 ||jsyd139.com^$third-party
 ||jsyzw132.com^
 ||jtdxz.top^
-||jtj7tq6c.xyz^
 ||jtkshop.net^
 ||jtxh.net^$third-party
 ||ju33.com^$third-party
@@ -3821,7 +3835,6 @@ ubmcmm.baidustatic.com
 ||koukou7.com^
 ||kq7it3c6.club^
 ||kq7it3c6.xyz^
-||kqiekmsq.world^
 ||kqvkvc3.com^
 ||kt220.com^
 ||ktdlsb.com^
@@ -4963,7 +4976,6 @@ ubmcmm.baidustatic.com
 ||youxicool.net^$third-party
 ||youyouf.top^
 ||youyoumw.com^
-||youzonggw.com^
 ||yoyi.com.cn^$third-party
 ||yoyi.tv^$third-party
 ||ypa.focusoftime.com^
@@ -18168,6 +18180,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+##a[href*="/jianjianjiao.top"]
+||lwxqaq.club^
 ||haitaochen.xyz^
 !2305
 ||zhuomengwangluo.com^
@@ -18177,6 +18191,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||princesses.asia^
 ||uniworldgroup.asia^
 !2304
+||yping.online^
 !2303
 ||tianyao.site^
 ||edetlmb.cn^
@@ -18184,12 +18199,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !2302
 !2301
 !2212
+||bestnfq.com^
 !2211
 !2210
 !2209
 ||hdw0.top^
 !2208
 !2207
+||jsk.wang^
 !2206
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -22728,7 +22745,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||youngalsobeautiful.com^
 ||youpeng.pw^
 ||youpukeji.cn^
-||youre123.com^
 ||youshouge513.cn^
 ||youtome.xyz^
 ||youweiprint.com^
@@ -22933,7 +22949,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhongyongbao.vip^
 ||zhongzizye.cn^
 ||zhoumo.site^
-||zhouqin520.top^
 ||zhouyi.cool^
 ||zhouziwang.cn^
 ||zhpfl.cn^
@@ -25578,6 +25593,7 @@ m.babytree.com##script + a[class]
 /cp2.gif?*=qc_
 /hunter/alog/*
 /js/soku-analytics.js
+/hm.js?$xmlhttprequest,third-party
 /mysql/count/*$script,domain=ts.cn
 /scriptonline.js?uin=
 /soku/giantstar/js/youlog.js
