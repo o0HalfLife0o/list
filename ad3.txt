@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8g4SWEx9lTUbbuSqShom3A
+! Checksum: Bx+suuNFJJ99JqFF6Aj8KA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206110203
-! Last Modified: 2022年06月11日 02:03
+! Version: 202206110829
+! Last Modified: 2022年06月11日 08:29
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1885,6 +1885,7 @@ ubmcmm.baidustatic.com
 ||jrhbhz.com^
 !2306
 !2305
+||opuik.com^
 !2304
 ||awsxc.live^
 !2303
@@ -9755,8 +9756,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||titan007.com/js/indexshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+itxueyuan.com##a[href*="guanggaowei"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -17535,6 +17538,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 @@||dushu.ru^$script,domain=bhshu.net
 @@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
+fttxt.com##a[href*="type"]
 ahzwx.com##script + div[style]
 biqugee.com##div[style="width:976px;"]
 bisowu.cc##.a-row
@@ -17735,11 +17739,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||gguuu.top^
 ||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
 ||lwxqaq.club^
 ||haitaochen.xyz^
 !2305
+||zhflodsix.cn^
+||666video.asia^
+||toutao.pro^
 ||a19cd.xyz^
 ||zhuomengwangluo.com^
 ||yue78.online^
@@ -17748,9 +17756,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||princesses.asia^
 ||uniworldgroup.asia^
 !2304
+||aak7.cn^
 ||merrrrrry.top^
 ||yping.online^
 !2303
+||defenga.top^
+||jiedaibao.gs^
 ||myuosid.cn^
 ||tianyao.site^
 ||edetlmb.cn^
@@ -31260,6 +31271,7 @@ _mongo_stats/
 ||fastfinch.co^
 ||fastgull.io^
 ||fasttiger.io^
+||fleraprt.com^
 ||fn-pz.com^
 ||fpaux.net^
 ||fpavx.net^
@@ -36927,6 +36939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon2.indieclick.com^
 ||beacons.mediamelon.com^
 ||beam.mjhlifesciences.com^
+||bee.tc.easebar.com^
 ||bento.agoda.com^
 ||bet365.de/Members/*&affiliate=$subdocument,third-party
 ||betano.de^*?btag=$subdocument,third-party
@@ -38351,6 +38364,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||survey.io/log?
 ||surveymonkey.com/resp/api/metrics
 ||surveywall-api.survata.com^$third-party
+||sv.aq.qq.com^
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
 ||svnlnk.com/aff/trk.html
@@ -38439,6 +38453,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiktokv.com/web/report?
 ||tildacdn.com/pixel.png
 ||timber.sendtonews.com^
+||timejs.game.163.com^
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
