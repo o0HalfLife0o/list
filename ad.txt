@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0ZF3st6bpenk9k9imMeMLQ
+! Checksum: M1OtFBMd8Dit7pxqp7jjzw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206110829
-! Last Modified: 2022年06月11日 08:29
+! Version: 202206111404
+! Last Modified: 2022年06月11日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -18186,6 +18186,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||yyyyt.ltd^
 ||gguuu.top^
 ||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
@@ -18201,8 +18202,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||chenhao.name^
 ||guoyu.link^
 ||princesses.asia^
+||qomdf.top^
 ||uniworldgroup.asia^
 !2304
+||twtiq.xyz^
+||xuekalun.com^
 ||aak7.cn^
 ||merrrrrry.top^
 ||yping.online^
@@ -18220,6 +18224,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 !2211
 !2210
 !2209
+||xinbici.com^
 ||hpkqtd.com^
 ||hdw0.top^
 !2208

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nWJExoUDmAxmgoH7ofIXYw
+! Checksum: X5nxqV1QPGNT3+7LsnbG7w
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206110829
-! Last Modified: 2022年06月11日 08:29
+! Version: 202206111404
+! Last Modified: 2022年06月11日 14:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32384,7 +32384,7 @@ box10.com#@##prerollAd
 spjai.com#@##related_ads
 eva.vn#@##right_ads
 techeyesonline.com#@##side-ad
-memytutaj.pl#@##top-ad
+memytutaj.pl,viply.de#@##top-ad
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
 m.motonet.fi#@#.ProductAd
@@ -79425,6 +79425,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||yyyyt.ltd^
 ||gguuu.top^
 ||jianjianjiao.top^
 ##a[href*="/jianjianjiao.top"]
@@ -79440,8 +79441,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 ||chenhao.name^
 ||guoyu.link^
 ||princesses.asia^
+||qomdf.top^
 ||uniworldgroup.asia^
 !2304
+||twtiq.xyz^
+||xuekalun.com^
 ||aak7.cn^
 ||merrrrrry.top^
 ||yping.online^
@@ -79459,6 +79463,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=tianyashuku.com|
 !2211
 !2210
 !2209
+||xinbici.com^
 ||hpkqtd.com^
 ||hdw0.top^
 !2208
