@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rX7mCfCmJ1j3y+FdfFULrw
+! Checksum: 4lE4O952GtiiSB4051jkWQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206112008
-! Last Modified: 2022年06月11日 20:08
+! Version: 202206120205
+! Last Modified: 2022年06月12日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6344,7 +6344,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
 ||azureedge.net/wp-content/uploads/*-AD0
-||b.tukucc.com^
 ||b1.cdn.mh3666.com/html/
 ||b168.net^*.*?$image
 ||b4dg.life/love/
@@ -6626,7 +6625,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
-||c.d.cg/3C.JS
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
@@ -10207,6 +10205,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||titan007.com/js/indexshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dmh8.com##img[src*="data:"]
 360doc.com###arttopbdad
 sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
 sina.com.tw##div[style*="min-height"][style*="250px"]
@@ -11810,7 +11809,6 @@ solarbe.com##.RT_banner
 3dmgame.com##.R_qingtianzhu
 3jy.com##.Rad
 zhihu.com##.RelatedReadings-adItem
-tuku.cc##.TLAD
 avmimi.com##.TW_UTtoy
 bmlink.com##.Tg_1190x70
 alu.cn##.Tg_125x70
