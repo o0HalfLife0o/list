@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: tncSwuuwH3C06FWvxrjdoQ
+! Checksum: w0H2WUczc5m8nLDTtGG8GQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206111404
-! Last Modified: 2022年06月11日 14:04
+! Version: 202206112008
+! Last Modified: 2022年06月11日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -5603,6 +5603,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /partners/ads/*
 /partners/get-banner.
 /partnersadbutler/*
+/partnership-ads/*
 /partnerships-ads-
 /parts/ad/*
 /pauseadextension.
@@ -12520,6 +12521,9 @@ _800x80_
 ###billboard-ad-container
 ###billboard-atf
 ###billboard_ad
+###bing-text-ad-1
+###bing-text-ad-2
+###bing-text-ad-3
 ###bingadcontainer2
 ###bl11adv
 ###blancco-ad
@@ -33426,6 +33430,7 @@ tf2r.com#@#.adverts
 ||adsgymleaden.com^
 ||adshack.com^
 ||adshexa.com^
+||adshoper.com^
 ||adshopping.com^
 ||adshort.space^
 ||adsignals.com^
@@ -35871,6 +35876,7 @@ tf2r.com#@#.adverts
 ||citheekr.com^
 ||citizenshadowrequires.com^
 ||cityadspix.com^
+||citydsp.com^
 ||citysite.net^
 ||civadsoo.net^
 ||civicskirtblindness.com^
@@ -45352,6 +45358,7 @@ tf2r.com#@#.adverts
 ||resurnommions.xyz^
 ||resvgeeid.biz^
 ||retaea.com^
+||retagro.com^
 ||retaindeductionperformed.com^
 ||retainreproofsnappy.com^
 ||retainstorkloin.com^
@@ -55884,7 +55891,7 @@ tf2r.com#@#.adverts
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||boomselljamwelunch.com^
-||brid.tv^$script,domain=spin.com|thewrap.com
+||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thewrap.com
 ||c.jsrdn.com^$script,domain=muscleandfitness.com
 ||cdn.ex.co/player/
 ||channelexco.com/player/$third-party
@@ -57380,7 +57387,7 @@ google.com##.GC3LC41DERB + div[style="position: relative; height: 170px;"]
 google.com##.GGQPGYLCD5
 google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
-thefocus.news##.GRVMpuWrapper
+hitc.com,thefocus.news##.GRVMpuWrapper
 metservice.com##.Header
 sporcle.com##.IMGgi
 israelnationalnews.com##.InfoIn
@@ -57652,7 +57659,7 @@ schoolguide.co.za##.banner-bar
 schoolguide.co.za##.banner-bar-bot
 pretoria.co.za##.banner-bg
 azernews.az##.banner-block
-irishnews.com,nscreenmedia.com##.banner-container
+irishnews.com,nscreenmedia.com,whoscored.com##.banner-container
 soccerway.com##.banner-content
 411mania.com##.banner-homebottom-all
 security.org##.banner-img-container
@@ -59967,6 +59974,7 @@ bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
+67hailhail.com,deepdaledigest.com,forevergeek.com,geordiebootboys.com,hammers.news,hitc.com,molineux.news,nottinghamforest.news,rangersnews.uk,realitytitbit.com,tbrfootball.com,thechelseachronicle.com,thefocus.news##.GRVVideo
 sciencetimes.com##.article-videoplayer
 thewrap.com##.aspect-ratio-box-inside
 thewrap.com##.brid-default-skin
@@ -61760,6 +61768,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/heji/mei00*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -63166,8 +63175,8 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -63465,6 +63474,7 @@ ubmcmm.baidustatic.com
 !2303
 ||jtrgzj9.com^
 !2302
+||666577.xyz^
 ||666576.xyz^
 !2301
 !2212
@@ -70955,7 +70965,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xitongzhijia.net/theme/2017/images/temp/ad_
 ||xitongzhijia.net/theme/2017/js/total_soft.js
 ||xiu8.com/baidu-tieba/*&forum_name=
-||xiurenji.net/heji/mei
 ||xizi.com/a/
 ||xizi.com/js/rotator.js
 ||xkd*.com/layer/layer.js
@@ -71333,6 +71342,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||titan007.com/js/indexshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+360doc.com###arttopbdad
+sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
+sina.com.tw##div[style*="min-height"][style*="250px"]
+sina.com.tw##.tablet_above_ad
 itxueyuan.com##a[href*="guanggaowei"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
@@ -85738,6 +85751,7 @@ fqsousou.com,kengso.com#@#.user-share
 /bin/stats?
 /bineos.min.js
 /bing-bat.js
+/bingimpression?
 /bipixel/*
 /bitrix/spread.php?
 /biyfn/notify.
@@ -89201,6 +89215,7 @@ fqsousou.com,kengso.com#@#.user-share
 /track_outbound_
 /track_page_view?
 /track_pageview?
+/track_pixel?
 /track_proxy?
 /track_social.
 /track_stat?
@@ -96778,6 +96793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ga-beacon.appspot.com^
 ||ga.kvideo.io^
 ||ga.webdigi.co.uk^
+||gaijin.net/tag?
 ||gamegecko.com/gametrack?
 ||gannettdigital.com/capture_logger/
 ||ganon.yahoo.com^
@@ -110974,7 +110990,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
@@ -112224,7 +112240,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tiexue.net/pic/tx_1220.jpg
 ||gushiwen.org/getTicket.aspx
 ||51cto.com/edu/center/js/interaction_iframe.js
-||360doc.com/js/showarticle.js
 ||jishulink.com/images/content/visitor-footer-
 ||jishulink.com/images/activity/invite_
 ||codenong.com/c1.js
@@ -112267,6 +112282,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
+||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container

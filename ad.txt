@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: M1OtFBMd8Dit7pxqp7jjzw
+! Checksum: rX7mCfCmJ1j3y+FdfFULrw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206111404
-! Last Modified: 2022年06月11日 14:04
+! Version: 202206112008
+! Last Modified: 2022年06月11日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -633,6 +633,7 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/heji/mei00*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -2039,8 +2040,8 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2338,6 +2339,7 @@ ubmcmm.baidustatic.com
 !2303
 ||jtrgzj9.com^
 !2302
+||666577.xyz^
 ||666576.xyz^
 !2301
 !2212
@@ -9828,7 +9830,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xitongzhijia.net/theme/2017/images/temp/ad_
 ||xitongzhijia.net/theme/2017/js/total_soft.js
 ||xiu8.com/baidu-tieba/*&forum_name=
-||xiurenji.net/heji/mei
 ||xizi.com/a/
 ||xizi.com/js/rotator.js
 ||xkd*.com/layer/layer.js
@@ -10206,6 +10207,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||titan007.com/js/indexshow.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+360doc.com###arttopbdad
+sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
+sina.com.tw##div[style*="min-height"][style*="250px"]
+sina.com.tw##.tablet_above_ad
 itxueyuan.com##a[href*="guanggaowei"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 szxx.com.cn###A1
@@ -24546,7 +24551,6 @@ _box_ad_
 ||tiexue.net/pic/tx_1220.jpg
 ||gushiwen.org/getTicket.aspx
 ||51cto.com/edu/center/js/interaction_iframe.js
-||360doc.com/js/showarticle.js
 ||jishulink.com/images/content/visitor-footer-
 ||jishulink.com/images/activity/invite_
 ||codenong.com/c1.js
@@ -24589,6 +24593,7 @@ _box_ad_
 ||kuke99.com/static/home/js/index/index.js
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
+||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
