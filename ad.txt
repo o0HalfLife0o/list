@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nWW4C3ktCM6NPQdoTltMoQ
+! Checksum: 4OMZH3M5NegF0eCdIg+fuA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206120829
-! Last Modified: 2022年06月12日 08:29
+! Version: 202206121407
+! Last Modified: 2022年06月12日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1788,6 +1788,7 @@ ubmcmm.baidustatic.com
 ##.ggpost-below
 ##.ggtop
 ##.ggw
+###test333
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -1847,6 +1848,7 @@ ubmcmm.baidustatic.com
 ##.mediavfeed-newsitem
 ##.menutab_ad
 ##.ml_ad1
+##.bottom_fixed > #imgs_link4
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
@@ -2040,8 +2042,8 @@ ubmcmm.baidustatic.com
 ##div[onclick*=".leyu"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
@@ -2332,8 +2334,10 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||bob4994.com^
 ||bob4915.com^
 !2305
+||mnvde.com^
 ||opuik.com^
 !2304
 ||taiwtp1.com^
@@ -2352,6 +2356,8 @@ ubmcmm.baidustatic.com
 ||xtp01.com^
 ||jtrgzj9.com^
 !2302
+||666582.xyz^
+||666579.xyz^
 ||ylkjit.com^
 ||666576.xyz^
 ||666577.xyz^
@@ -10219,6 +10225,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||cornpic.com/images/*.gif
+||geilicdn.com/img*_960_60.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -18214,6 +18222,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lwxqaq.club^
 ||yyyyt.ltd^
 !2305
+||coodawei.cn^
+||2329.ink^
 ||wanghu2020.ltd^
 ||static.asia^
 ||666video.asia^
@@ -18228,12 +18238,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
 !2304
+||rppg.pro^
+||aa9z.cn^
 ||aak7.cn^
 ||merrrrrry.top^
 ||twtiq.xyz^
 ||xuekalun.com^
 ||yping.online^
 !2303
+||mingchacn.top^
 ||defenga.top^
 ||edetlmb.cn^
 ||gzww.site^
