@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: cx9SDOZUO2IidSRfuzza3g
+! Checksum: ZS8kCXDxEYGhMsmOi0Lt8Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206122007
-! Last Modified: 2022年06月12日 20:07
+! Version: 202206130203
+! Last Modified: 2022年06月13日 02:03
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2008,7 +2008,7 @@ ubmcmm.baidustatic.com
 ##a[href^="javascript:gl012"] + img
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
-##a[href*="/ad/"] > img[src*="hdslb.com"]
+##a[href] > img[id][src*="hdslb.com"]
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -18248,6 +18248,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xuekalun.com^
 ||yping.online^
 !2303
+||sjpoxe6.com^
 ||mingchacn.top^
 ||defenga.top^
 ||edetlmb.cn^
@@ -24630,6 +24631,7 @@ _box_ad_
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
+autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
 waipian5.com##.shortcuts-mobile-overlay
