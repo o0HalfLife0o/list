@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 4OMZH3M5NegF0eCdIg+fuA
+! Checksum: cx9SDOZUO2IidSRfuzza3g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206121407
-! Last Modified: 2022年06月12日 14:07
+! Version: 202206122007
+! Last Modified: 2022年06月12日 20:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2008,6 +2008,7 @@ ubmcmm.baidustatic.com
 ##a[href^="javascript:gl012"] + img
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
+##a[href*="/ad/"] > img[src*="hdslb.com"]
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -2363,6 +2364,7 @@ ubmcmm.baidustatic.com
 ||666577.xyz^
 !2301
 !2212
+||xinshizongqin.com^
 !2211
 ||z4a.net^
 !2210
@@ -18260,6 +18262,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||bestnfq.com^
 !2211
 !2210
+||whzshoes.com^
 !2209
 ||hdw0.top^
 ||hpkqtd.com^
