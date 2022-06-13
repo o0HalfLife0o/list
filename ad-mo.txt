@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K33mWWQZNfu2HZZpoQhbMg
+! Checksum: MKjI9pgNpsViWaOWAhgxyQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206130203
-! Last Modified: 2022年06月13日 02:03
+! Version: 202206130832
+! Last Modified: 2022年06月13日 08:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31798,9 +31798,11 @@ _800x80_
 ##a[href^="https://www.g4mz.com/"]
 ##a[href^="https://www.gambling-affiliation.com/cpc/"]
 ##a[href^="https://www.googleadservices.com/pagead/aclk?"]
+##a[href^="https://www.healthrangerstore.com/"] > img
 ##a[href^="https://www.hotgirls4fuck.com/"]
 ##a[href^="https://www.im88trk.com/"]
 ##a[href^="https://www.iyalc.com/"]
+##a[href^="https://www.jackery.com?aff="] > img
 ##a[href^="https://www.kingsoffetish.com/tour?partner_id="]
 ##a[href^="https://www.mrskin.com/account/"]
 ##a[href^="https://www.mrskin.com/tour"]
@@ -31814,6 +31816,7 @@ _800x80_
 ##a[href^="https://www.popads.net/users/"]
 ##a[href^="https://www.pornhat.com/"][rel="nofollow"]
 ##a[href^="https://www.rabbits.webcam/?id="]
+##a[href^="https://www.rcbopt.com:8080/offer/"] > img
 ##a[href^="https://www.securegfm.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
 ##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
@@ -35830,7 +35833,6 @@ tf2r.com#@#.adverts
 ||chrigm.com^
 ||christingera.site^
 ||christmasaxehandyman.com^
-||christmasporn.top^
 ||chronicads.com^
 ||chsrkred.com^
 ||chtntr.com^
@@ -57145,6 +57147,8 @@ ebay.com###rtm_html_441
 noqreport.com###rumble_vj59vh
 skylinewebcams.com###s1123
 skylinewebcams.com###s4152
+faucetpay.nurul-huda.or.id###satoshi1
+faucetpay.nurul-huda.or.id###satoshi2
 wsj.com###saving-united-coupon-list
 flatpanelshd.com###sb-site > .hidden-xs.container
 hwhills.com###sb_left_tower
@@ -57916,6 +57920,7 @@ roseindia.net##.col-md-4
 titanwolf.org##.col-md-4 > .card-raised > .card-body
 tineye.com##.col-md-4.sidebar
 disqus.com##.col-promoted
+faucetpay.nurul-huda.or.id##.col-sm-3
 nycgo.com##.colBBox
 jamendo.com##.col_extra
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
@@ -59285,6 +59290,7 @@ fastpic.ru##.vright
 vaughn.live##.vs_v75_MvnAbvsLowerThirdWrapper
 ebook-searcher.com##.w-100
 w2g.tv##.w2g-cas-ad
+w2g.tv##.w2g-dub-ad
 userscript.zone##.w300
 goodfon.com##.wallpapers__banner240
 dailymail.co.uk,thisismoney.co.uk##.watermark
@@ -59339,6 +59345,7 @@ gamenguides.com,teslaoracle.com##.wp-block-image
 repeatreplay.com##.wp-block-spacer
 c19-worldnews.com##.wp-caption
 onepagerules.com##.wp-container-6.wp-block-columns
+strangesounds.org##.wp-image-281312
 hack-sat.com##.wp-image-31131
 rvguide.com##.wp-image-3611
 appuals.com##.wp-timed-p
@@ -59426,6 +59433,7 @@ deshdoaba.com##[href="https://www.nsbinsures.com/"]
 ftv-news.com##[href="https://www.rizik.com.bd/"]
 jagoroniya.com##[href="https://www.virtuanic.com/"]
 himovies.to,musichq.net##[href="https://zoro.to"]
+faucetpay.nurul-huda.or.id##[href] > .col-sm-4
 cq-esports.com##[href][target*="blank"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
@@ -62724,6 +62732,7 @@ ubmcmm.baidustatic.com
 ###tanx-fold-main
 ###taotaole
 ###td_tpc > .ads
+###test333
 ###textggs
 ###timedfuo
 ###top-gg-container
@@ -62839,6 +62848,7 @@ ubmcmm.baidustatic.com
 ##.bn728-100
 ##.bn728-93
 ##.bottomSponsor
+##.bottom_fixed > #imgs_link4
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads + .leftd
 ##.bottomd > .closebox2
@@ -62920,7 +62930,6 @@ ubmcmm.baidustatic.com
 ##.ggpost-below
 ##.ggtop
 ##.ggw
-###test333
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -62980,7 +62989,6 @@ ubmcmm.baidustatic.com
 ##.mediavfeed-newsitem
 ##.menutab_ad
 ##.ml_ad1
-##.bottom_fixed > #imgs_link4
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
@@ -63133,6 +63141,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
+##a[href] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -63140,7 +63149,6 @@ ubmcmm.baidustatic.com
 ##a[href^="javascript:gl012"] + img
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
-##a[href] > img[id][src*="hdslb.com"]
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -63467,33 +63475,33 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
-||bob4994.com^
 ||bob4915.com^
+||bob4994.com^
 !2305
 ||mnvde.com^
 ||opuik.com^
 !2304
-||taiwtp1.com^
-||89qp98.com^
 ||500img.com^
+||89qp98.com^
 ||awsxc.live^
+||taiwtp1.com^
 !2303
-||qbyyvg3.com^
-||pbgcsk3.com^
-||mjrvkv5.com^
-||kmrcum2.com^
-||dfwskw7.com^
-||32851897.com^
-||22195976.com^
 ||17265111.com^
-||xtp01.com^
+||22195976.com^
+||32851897.com^
+||dfwskw7.com^
 ||jtrgzj9.com^
+||kmrcum2.com^
+||mjrvkv5.com^
+||pbgcsk3.com^
+||qbyyvg3.com^
+||xtp01.com^
 !2302
-||666582.xyz^
-||666579.xyz^
-||ylkjit.com^
 ||666576.xyz^
 ||666577.xyz^
+||666579.xyz^
+||666582.xyz^
+||ylkjit.com^
 !2301
 !2212
 ||xinshizongqin.com^
@@ -68033,6 +68041,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||coolaler.com/index_ads/
 ||coolhii.com/gongzhong/
 ||coolpc.com.tw/img/topweb.html
+||cornpic.com/images/*.gif
 ||cosxcos.cc/uploads/aaybabc/
 ||cp121.com/js2/
 ||cp2.eastmoney.com^
@@ -68538,6 +68547,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||geekbang.org/public/serving/
 ||geekpark.net/api/v1/ads
 ||gegeyingshi.com/template/*/images/g_js/
+||geilicdn.com/img*_960_60.
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 ||getitfree.cn/wp-content/plugins/anti-
 ||getscriptjs.com/p.js
@@ -71359,8 +71369,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cornpic.com/images/*.gif
-||geilicdn.com/img*_960_60.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -79183,6 +79191,8 @@ smjb.net##div[style*="height: 50%"]
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||bcebos.com/contentAdSecend_
 ||bdxiguaimg.com^$domain=feisucn.net
+||biqiugege8.com/js/d
+||biqiugege8.com/js/p
 ||biqugetv.com/js/lm_
 ||boluoxs.com/js/digu.js
 ||bookrb.com/images/jtt
@@ -79221,8 +79231,6 @@ smjb.net##div[style*="height: 50%"]
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shumilou.co/style/html5.js
 ||tdtxt.xyz/js/baidu.js
-||biqiugege8.com/js/d
-||biqiugege8.com/js/p
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
 ||wbxsw.com/js/gg
@@ -79348,51 +79356,55 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
-||rinn.love^
+||shoujizhuanqian.store^
+||muzhiying.xyz^
+||1kcx.hk^
 ##a[href*="/jianjianjiao.top"]
 ||gguuu.top^
 ||haitaochen.xyz^
 ||jianjianjiao.top^
 ||lwxqaq.club^
+||rinn.love^
 ||yyyyt.ltd^
 !2305
-||coodawei.cn^
 ||2329.ink^
-||wanghu2020.ltd^
-||static.asia^
 ||666video.asia^
 ||a19cd.xyz^
 ||chenhao.name^
+||coodawei.cn^
 ||guoyu.link^
 ||princesses.asia^
 ||qomdf.top^
+||static.asia^
 ||toutao.pro^
 ||uniworldgroup.asia^
+||wanghu2020.ltd^
 ||yue78.online^
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
 !2304
-||rppg.pro^
+||aa9v.cn^
 ||aa9z.cn^
 ||aak7.cn^
 ||merrrrrry.top^
+||rppg.pro^
 ||twtiq.xyz^
 ||xuekalun.com^
 ||yping.online^
 !2303
-||sjpoxe6.com^
-||mingchacn.top^
 ||defenga.top^
 ||edetlmb.cn^
 ||gzww.site^
 ||jiedaibao.gs^
+||mingchacn.top^
 ||myuosid.cn^
+||sjpoxe6.com^
 ||tianyao.site^
 !2302
 !2301
 !2212
-||kongbao.ren^
 ||bestnfq.com^
+||kongbao.ren^
 !2211
 !2210
 ||whzshoes.com^
@@ -90604,6 +90616,7 @@ _mongo_stats/
 ||brontops.com^
 ||bydst.com^
 ||ccm19.de^
+||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
 ||cpx.to^
@@ -95545,6 +95558,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytic.rocks^$third-party
 ||props.id^$third-party
 ||0stats.com^$third-party
+||24log.it^$third-party
 ||accessi.it^$third-party
 ||avstat.it^$third-party
 ||buzzoole.com^$third-party
@@ -111776,6 +111790,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||player.vgtrk.com/js/stat.js?
 @@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
+@@||post2go.ru/widget/tracking?$~third-party
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru

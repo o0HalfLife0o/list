@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZS8kCXDxEYGhMsmOi0Lt8Q
+! Checksum: rbpFDZFXJSRWHm7f540O/g
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206130203
-! Last Modified: 2022年06月13日 02:03
+! Version: 202206130832
+! Last Modified: 2022年06月13日 08:32
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1592,6 +1592,7 @@ ubmcmm.baidustatic.com
 ###tanx-fold-main
 ###taotaole
 ###td_tpc > .ads
+###test333
 ###textggs
 ###timedfuo
 ###top-gg-container
@@ -1707,6 +1708,7 @@ ubmcmm.baidustatic.com
 ##.bn728-100
 ##.bn728-93
 ##.bottomSponsor
+##.bottom_fixed > #imgs_link4
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads + .leftd
 ##.bottomd > .closebox2
@@ -1788,7 +1790,6 @@ ubmcmm.baidustatic.com
 ##.ggpost-below
 ##.ggtop
 ##.ggw
-###test333
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -1848,7 +1849,6 @@ ubmcmm.baidustatic.com
 ##.mediavfeed-newsitem
 ##.menutab_ad
 ##.ml_ad1
-##.bottom_fixed > #imgs_link4
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
@@ -2001,6 +2001,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
+##a[href] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -2008,7 +2009,6 @@ ubmcmm.baidustatic.com
 ##a[href^="javascript:gl012"] + img
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
-##a[href] > img[id][src*="hdslb.com"]
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
@@ -2335,33 +2335,33 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
-||bob4994.com^
 ||bob4915.com^
+||bob4994.com^
 !2305
 ||mnvde.com^
 ||opuik.com^
 !2304
-||taiwtp1.com^
-||89qp98.com^
 ||500img.com^
+||89qp98.com^
 ||awsxc.live^
+||taiwtp1.com^
 !2303
-||qbyyvg3.com^
-||pbgcsk3.com^
-||mjrvkv5.com^
-||kmrcum2.com^
-||dfwskw7.com^
-||32851897.com^
-||22195976.com^
 ||17265111.com^
-||xtp01.com^
+||22195976.com^
+||32851897.com^
+||dfwskw7.com^
 ||jtrgzj9.com^
+||kmrcum2.com^
+||mjrvkv5.com^
+||pbgcsk3.com^
+||qbyyvg3.com^
+||xtp01.com^
 !2302
-||666582.xyz^
-||666579.xyz^
-||ylkjit.com^
 ||666576.xyz^
 ||666577.xyz^
+||666579.xyz^
+||666582.xyz^
+||ylkjit.com^
 !2301
 !2212
 ||xinshizongqin.com^
@@ -6901,6 +6901,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||coolaler.com/index_ads/
 ||coolhii.com/gongzhong/
 ||coolpc.com.tw/img/topweb.html
+||cornpic.com/images/*.gif
 ||cosxcos.cc/uploads/aaybabc/
 ||cp121.com/js2/
 ||cp2.eastmoney.com^
@@ -7406,6 +7407,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||geekbang.org/public/serving/
 ||geekpark.net/api/v1/ads
 ||gegeyingshi.com/template/*/images/g_js/
+||geilicdn.com/img*_960_60.
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 ||getitfree.cn/wp-content/plugins/anti-
 ||getscriptjs.com/p.js
@@ -10227,8 +10229,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||cornpic.com/images/*.gif
-||geilicdn.com/img*_960_60.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -18051,6 +18051,8 @@ smjb.net##div[style*="height: 50%"]
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||bcebos.com/contentAdSecend_
 ||bdxiguaimg.com^$domain=feisucn.net
+||biqiugege8.com/js/d
+||biqiugege8.com/js/p
 ||biqugetv.com/js/lm_
 ||boluoxs.com/js/digu.js
 ||bookrb.com/images/jtt
@@ -18089,8 +18091,6 @@ smjb.net##div[style*="height: 50%"]
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
 ||shumilou.co/style/html5.js
 ||tdtxt.xyz/js/baidu.js
-||biqiugege8.com/js/d
-||biqiugege8.com/js/p
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
 ||wbxsw.com/js/gg
@@ -18216,51 +18216,55 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
-||rinn.love^
+||shoujizhuanqian.store^
+||muzhiying.xyz^
+||1kcx.hk^
 ##a[href*="/jianjianjiao.top"]
 ||gguuu.top^
 ||haitaochen.xyz^
 ||jianjianjiao.top^
 ||lwxqaq.club^
+||rinn.love^
 ||yyyyt.ltd^
 !2305
-||coodawei.cn^
 ||2329.ink^
-||wanghu2020.ltd^
-||static.asia^
 ||666video.asia^
 ||a19cd.xyz^
 ||chenhao.name^
+||coodawei.cn^
 ||guoyu.link^
 ||princesses.asia^
 ||qomdf.top^
+||static.asia^
 ||toutao.pro^
 ||uniworldgroup.asia^
+||wanghu2020.ltd^
 ||yue78.online^
 ||zhflodsix.cn^
 ||zhuomengwangluo.com^
 !2304
-||rppg.pro^
+||aa9v.cn^
 ||aa9z.cn^
 ||aak7.cn^
 ||merrrrrry.top^
+||rppg.pro^
 ||twtiq.xyz^
 ||xuekalun.com^
 ||yping.online^
 !2303
-||sjpoxe6.com^
-||mingchacn.top^
 ||defenga.top^
 ||edetlmb.cn^
 ||gzww.site^
 ||jiedaibao.gs^
+||mingchacn.top^
 ||myuosid.cn^
+||sjpoxe6.com^
 ||tianyao.site^
 !2302
 !2301
 !2212
-||kongbao.ren^
 ||bestnfq.com^
+||kongbao.ren^
 !2211
 !2210
 ||whzshoes.com^
