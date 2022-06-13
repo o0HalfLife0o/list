@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: GIpYOLpSTSi1EqEv4Evg1Q
+! Checksum: FWN2wA+bCTK3JGSmrp6pSw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206110203
-! Last Modified: 2022年06月11日 02:03
+! Version: 202206132010
+! Last Modified: 2022年06月13日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1392,6 +1392,7 @@ hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
 hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
+papadustream.co,papystreamings.com#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
@@ -1682,7 +1683,7 @@ gnula.se,pelismart.com#$#abort-on-property-read localStorage
 estrenosdoramas.net#$#abort-on-property-read __DOMAIN
 monoschinos2.com#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 compucalitv.com,pornstarsyfamosas.es#$#abort-on-property-write _pop
-bajarpelisgratis.com,jkanime.top,pelismart.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+bajarpelisgratis.com,jkanime.top,pelismart.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
@@ -1721,6 +1722,7 @@ tinsoikeo.io#$#abort-on-property-read sessionStorage;abort-current-inline-script
 plus.gtv.vn#$#abort-current-inline-script $ youtube-modal
 bongdahomnay.tech#$#abort-on-property-read $
 vebotv.xyz#$#abort-current-inline-script $ vb-pr-box
+vb.plvb.xyz#$#abort-on-property-read adsTvc
 ! Popup/Popunder/Clickunder
 viet69.org#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
