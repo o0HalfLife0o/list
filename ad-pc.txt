@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FlZtocVQ8o68UWnqrVrhjw
+! Checksum: mksXrS1sI8MBHxpssDWdew
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206130832
-! Last Modified: 2022年06月13日 08:32
+! Version: 202206131407
+! Last Modified: 2022年06月13日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -31236,6 +31236,8 @@ _800x80_
 ##[data-template-type="nativead"]
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
+##[href*="incentrev.com/"] img
+##[href="https://turtlebids.irauctions.com/"] img
 ##[href^="http://advertisesimple.info/"]
 ##[href^="http://globsads.com/"]
 ##[href^="http://go.cm-trk2.com/"]
@@ -32079,6 +32081,7 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##span[title="Ads by Google"]
 ##topadblock
+##a[href*="https://www.sweetdeals.com/"] img
 ###kt_player > a[target="_blank"]
 ###slashboxes > .deals-rail
 ##.scroll-fixable.rail-right > .deals-rail
@@ -32087,6 +32090,7 @@ _800x80_
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ###mplayer-embed
+##.GRVVideo
 ##.ac-lre-desktop
 ##.ac-lre-player-ph
 ##.ac-lre-wrapper
@@ -32563,10 +32567,13 @@ economist.com,flightcentre.co.uk,foodkick.com,liverpoolfc.com,olx.pl,payback.pl,
 revimedia.com#@#a[href*=".revimedia.com/"]
 dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 slickdeals.net#@#a[href*="adzerk.net"]
+sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
+legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
 bookworld.no#@#a[href^="https://ndt5.net/"]
+legacy.com#@#a[href^="https://pubads.g.doubleclick.net/"]
 privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 marcpapeghin.com#@#a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 politico.com#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
@@ -33927,6 +33934,7 @@ tf2r.com#@#.adverts
 ||aj1716.online^
 ||aj1907.online^
 ||aj1913.online^
+||aj2031.online^
 ||aj2208.online^
 ||aj2373.online^
 ||ajarsubscriber.com^
@@ -39092,6 +39100,7 @@ tf2r.com#@#.adverts
 ||givestment.club^
 ||givingsol.com^
 ||givirsou.net^
+||gixiluros.com^
 ||gjqhufkamcoc.com^
 ||gjw5qbyn93b8.com^
 ||gk8j5woqk26f.com^
@@ -42491,6 +42500,7 @@ tf2r.com#@#.adverts
 ||mpqfzyh.com^
 ||mpression.net^
 ||mprezchc.com^
+||mpsuadv.ru^
 ||mptentry.com^
 ||mpuqvoa.com^
 ||mpuxzyuiyejwe.com^
@@ -44494,6 +44504,7 @@ tf2r.com#@#.adverts
 ||pregnancyintuition.com^
 ||pregnantstrictlygot.com^
 ||pregnantvillager.com^
+||prelendrb.bid^
 ||premium-members.com^
 ||premium4kflix.club^
 ||premium4kflix.top^
@@ -45205,6 +45216,7 @@ tf2r.com#@#.adverts
 ||razuphyju.com^
 ||rbnt.org^
 ||rboundgypster.com^
+||rbtwo.bid^
 ||rbyewcokbqlc.com^
 ||rcblkkhfvrxyn.com^
 ||rccsekuitas.com^
@@ -45729,6 +45741,7 @@ tf2r.com#@#.adverts
 ||rosteldicycle.cam^
 ||rosyteapotgabble.com^
 ||rotabol.com^
+||rotarb.bid^
 ||rotate4all.com^
 ||rotchestche.com^
 ||rotdubboy.com^
@@ -57584,7 +57597,7 @@ searchenginejournal.com##.absolute-banner
 trustpilot.com##.ad-block
 sciencenews.org##.ad-block-leaderboard__freestar___Ologr
 sciencenewsforstudents.org##.ad-block-leaderboard__wrapper___1rR0c
-9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,myfitnesspal.com,nbcnews.com,nzherald.co.nz,opb.org,pixiv.net,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
+9to5google.com,9to5mac.com,audiokarma.org,beeradvocate.com,bizjournals.com,biznews.com,businessinsider.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,gmanetwork.com,grammarbook.com,hbr.org,insidehook.com,intouchweekly.com,khou.com,ktvu.com,lifeandstylemag.com,macstories.net,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,my9nj.com,myfitnesspal.com,nbcnews.com,nzherald.co.nz,opb.org,pixiv.net,punchng.com,realsport101.com,reason.com,scroll.in,seattletimes.com,sportskeeda.com,theglobeandmail.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,toofab.com,usmagazine.com,wogx.com##.ad-container
 mobilesyrup.com##.ad-goes-here
 goal.com##.ad-slide_adSlideBanner__cEgCm
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,iamgujarat.com,lolcounter.com,mpog100.com,samayam.com,timesofindia.com,vijaykarnataka.com##.ad1
@@ -58119,7 +58132,7 @@ finbold.com##.cta-block
 filerio.in##.ctl25
 funny.com##.ctnAdBanner
 seattlepi.com##.ctpl-fullbanner
-apotelyt.com##.cuFitaCon
+apotelyt.com##.cuFita-Con
 apotelyt.com##.cuPopu-Con
 apotelyt.com##.cuPopuCon
 homefinder.com##.cubeContainer
@@ -58170,7 +58183,7 @@ dailyfx.com##.dfx-article__sidebar
 notes.io##.directMessageBanner
 premiumtimesng.com##.directcampaign
 audiokarma.org##.discussionListItem > center
-govevents.com,protipster.com##.display
+airmail.news,govevents.com,protipster.com##.display
 flightconnections.com##.display-box
 flightconnections.com##.display-box-2
 pixabay.com##.display-gtty-item
@@ -58582,6 +58595,7 @@ latestly.com##.lhs_adv_970x90_div
 op.gg##.life-owner
 mobygames.com##.lifesupport-header
 iheartradio.ca##.lightbox-wrapper
+getbukkit.org##.limit
 linuxize.com##.linaff
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
@@ -59044,7 +59058,7 @@ newindianexpress.com##.scc
 hentaihaven.xxx##.script_manager_video_master
 readmng.com##.scroll_target_top
 9anime.to,tennisuptodate.com##.sda
-apotelyt.com##.sdbrUnitFlex100
+apotelyt.com##.sdbrUnit-Flex100
 apotelyt.com##.sdbrUnitFlex250a
 userscript.zone##.searcad
 semiconductor-today.com##.searchmidbox
@@ -59292,7 +59306,7 @@ macrumors.com##.tertiary
 ericpetersautos.com##.text-109
 businessonhome.com##.text-info
 sciencedaily.com##.textrule
-evilbeetgossip.com##.textwidget
+evilbeetgossip.com,katt.com,kyis.com,thesportsanimal.com,wild1049hd.com,wky930am.com##.textwidget
 tftcentral.co.uk##.tftce-adlabel
 thedailyusnews.com##.theda-id-1
 thedailyusnews.com##.theda-id-2
@@ -59440,6 +59454,7 @@ theiphoneappreview.com##.widget_links
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
+985kissfm.net##.widget_simpleimage
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
@@ -59598,6 +59613,7 @@ all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 spys.one##[href^="https://socksescort.com/"]
 steamanalyst.com##[href^="https://static.steamanalyst.com/steam/delivery/"]
 terraria.wiki.gg##[href^="https://store.steampowered.com/app/"]
+brighteon.com##[href^="https://support.brighteon.com/"]
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
 minidl.org##[href^="https://uploadgig.com/premium/index/"]
 cricket.com##[href^="https://www.a23.com/downloads.html?"] > img
@@ -60093,7 +60109,6 @@ bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 realclearpolitics.com###realclear_jwplayer_container
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
-67hailhail.com,deepdaledigest.com,forevergeek.com,geordiebootboys.com,hammers.news,hitc.com,molineux.news,nottinghamforest.news,rangersnews.uk,realitytitbit.com,tbrfootball.com,thechelseachronicle.com,thefocus.news##.GRVVideo
 sciencetimes.com##.article-videoplayer
 thewrap.com##.aspect-ratio-box-inside
 thewrap.com##.brid-default-skin
@@ -61837,7 +61852,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||accounts.google.com^$popup
-@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||admin.mgid.com^$popup
@@ -63293,6 +63308,7 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
+##a[href*=":10443/"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
@@ -63587,12 +63603,14 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||bob4942.com^
 ||bob4915.com^
 ||bob4994.com^
 !2305
 ||mnvde.com^
 ||opuik.com^
 !2304
+||cgdjy.top^
 ||500img.com^
 ||89qp98.com^
 ||awsxc.live^
@@ -63609,6 +63627,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||xtp01.com^
 !2302
+||666584.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -71481,8 +71500,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/a.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79468,6 +79489,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||rabbitcloud.ltd^
 ||shoujizhuanqian.store^
 ||muzhiying.xyz^
 ||1kcx.hk^
@@ -79479,6 +79501,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||yyyyt.ltd^
 !2305
+||zwgege.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -93647,6 +93670,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
 ||push-ad.com^$third-party
@@ -93662,6 +93686,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pushify.com^$third-party
 ||pushmaster-cdn.xyz^
 ||pushnami.com^$third-party
+||pushprofit.ru^$third-party
+||pushpushgo.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
 ||reprocautious.com^$third-party

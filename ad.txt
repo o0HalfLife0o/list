@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rbpFDZFXJSRWHm7f540O/g
+! Checksum: Kipvnd9Amm11XH6H4Xj8XQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206130832
-! Last Modified: 2022年06月13日 08:32
+! Version: 202206131407
+! Last Modified: 2022年06月13日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2041,6 +2041,7 @@ ubmcmm.baidustatic.com
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".leyu"]
+##a[href*=":10443/"]
 ##div[onclick*="?i_code="]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
@@ -2335,12 +2336,14 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||bob4942.com^
 ||bob4915.com^
 ||bob4994.com^
 !2305
 ||mnvde.com^
 ||opuik.com^
 !2304
+||cgdjy.top^
 ||500img.com^
 ||89qp98.com^
 ||awsxc.live^
@@ -2357,6 +2360,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||xtp01.com^
 !2302
+||666584.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -10229,8 +10233,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##a[href*="/a.ashx"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -18216,6 +18222,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||rabbitcloud.ltd^
 ||shoujizhuanqian.store^
 ||muzhiying.xyz^
 ||1kcx.hk^
@@ -18227,6 +18234,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||yyyyt.ltd^
 !2305
+||zwgege.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
