@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FLN9mLHEF80Foeu9eyMzeQ
+! Checksum: yTBUg8diIMjOPwnoSmMTGQ
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206142008
-! Last Modified: 2022年06月14日 20:08
+! Version: 202206150206
+! Last Modified: 2022年06月15日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10263,6 +10263,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qhimgs4.com/t01d8315ddb1a5adcce.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 dmh8.com##body > a
@@ -17323,7 +17324,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||cn.bidushe.com^
 ||cod.southmoney.com^
 ||code.ditiezu.net^
-||code.ts166.net^
+||ts166.net^
 ||cp.7y7.com^
 ||cp.jfcdns.com^
 ||cp.qbaobei.com^
@@ -18291,6 +18292,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||172872.com^
 ||ponymi.xyz^
 ||aa9u.cn^
 ||aa9v.cn^
