@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: duwK7vu08SXOTVmMGQ/55w
+! Checksum: obPWHcvnptrWlKVUB/cYfQ
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206140835
-! Last Modified: 2022年06月14日 08:35
+! Version: 202206141407
+! Last Modified: 2022年06月14日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -37526,6 +37526,7 @@ tf2r.com#@#.adverts
 ||easyads29.info^
 ||easyads29.mobi^
 ||easyads29.pro^
+||easydating.top^
 ||easydistrustuldistrustul.com^
 ||easyflirt-partners.biz^
 ||easygoingtouchybribe.com^
@@ -47967,6 +47968,7 @@ tf2r.com#@#.adverts
 ||u595sebqih.com^
 ||u9oxdnxk8b.com^
 ||uacgjneoqusji.xyz^
+||uads.shop^
 ||uagopaamgcxme.com^
 ||ubgkvsjnbjtk.com^
 ||ubilox.com^
@@ -61309,7 +61311,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
@@ -61833,6 +61835,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/images/ggzz/*.gif
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -63071,6 +63074,8 @@ ubmcmm.baidustatic.com
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
+##.mbads
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -63169,6 +63174,7 @@ ubmcmm.baidustatic.com
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
+##a[href="/static/xzgg/index.html"]
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
@@ -63540,11 +63546,15 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||9191919199.com^
 ||tangkai.ltd^
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
 !2305
+||kzerr.com^
+||kzeaa.com^
+||kvkaa.com^
 ||qjing39.top^
 ||mnvde.com^
 ||opuik.com^
@@ -63555,6 +63565,7 @@ ubmcmm.baidustatic.com
 ||cgdjy.top^
 ||taiwtp1.com^
 !2303
+||exwytd7.com^
 ||17265111.com^
 ||22195976.com^
 ||32851897.com^
@@ -63566,6 +63577,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||xtp01.com^
 !2302
+||666585.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -63574,16 +63586,27 @@ ubmcmm.baidustatic.com
 ||ylkjit.com^
 !2301
 !2212
+||laijd.cn^
 ||xinshizongqin.com^
 !2211
+||8686865554893.com^
 ||z4a.net^
 !2210
+||kvhaa.com^
 !2209
 !2208
 !2207
+||u0071.com^
+||u0057.com^
+||n0244.com^
+||n0255.com^
 ||8feichai.com^
 ||u0065.com^
 !2206
+!long-term
+||imgtg.com^*.gif
+||sz88.oss-cn-shenzhen.aliyuncs.com^
+||huazitupian.oss-cn-hongkong.aliyuncs.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -71442,6 +71465,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dmh8.com##body > a
 hmoe11.net##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -79428,6 +79452,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||machan.fans^
+||cfqc.me^
+||fetm.xin^
+||tokay.pro^
 ||iceberg.ink^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
@@ -79441,7 +79469,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||shoujizhuanqian.store^
 ||yyyyt.ltd^
+||zhongmeigk.hk^
 !2305
+||hs89.cn^
+||chaotickets.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -79459,6 +79490,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||ponymi.xyz^
+||aa9u.cn^
 ||aa9v.cn^
 ||aa9z.cn^
 ||aak7.cn^
@@ -89354,6 +89387,7 @@ fqsousou.com,kengso.com#@#.user-share
 /trackAdHit.
 /trackAirship.js
 /trackalyze/*$script
+/trackBatchEvents?
 /TrackClick.
 /trackClickAsync.
 /trackClickEvent.js
@@ -93617,6 +93651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||on-push.com^$third-party
 ||onepush.app^$third-party
 ||onesignal.com^$third-party
+||outfunnel.com^$third-party
 ||pn.vg^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -95430,6 +95465,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||compteur.org^$third-party
 ||count.fr^$third-party
 ||countus.fr^$third-party
+||cshield.io^$third-party
 ||d-bi.fr^$third-party
 ||datado.me^$third-party
 ||datadome.co^$third-party
@@ -111131,7 +111167,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|westernunion.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
-@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
+@@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
@@ -111175,7 +111211,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kentucky.com/mistats/finalizestats.js$~third-party
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
-@@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
+@@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
@@ -111207,6 +111243,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||mywebar.com/js/tracking_worker.js$~third-party
@@ -111223,6 +111260,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
+@@||nytimes.com/games-assets/*/analytics.js$~third-party
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oakley.com^*/tealium.js$~third-party
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party

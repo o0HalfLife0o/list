@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nfq1zPoRxAO+A78crjjlaQ
+! Checksum: vOEWrYqu2r/tMGrxTSIkhA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206140204
-! Last Modified: 2022年06月14日 02:04
+! Version: 202206141407
+! Last Modified: 2022年06月14日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -632,6 +632,7 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
+/images/ggzz/*.gif
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -1870,6 +1871,8 @@ ubmcmm.baidustatic.com
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
+##.mbads
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -1968,6 +1971,7 @@ ubmcmm.baidustatic.com
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
+##a[href="/static/xzgg/index.html"]
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
@@ -2339,11 +2343,15 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||9191919199.com^
 ||tangkai.ltd^
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
 !2305
+||kzerr.com^
+||kzeaa.com^
+||kvkaa.com^
 ||qjing39.top^
 ||mnvde.com^
 ||opuik.com^
@@ -2354,6 +2362,7 @@ ubmcmm.baidustatic.com
 ||cgdjy.top^
 ||taiwtp1.com^
 !2303
+||exwytd7.com^
 ||17265111.com^
 ||22195976.com^
 ||32851897.com^
@@ -2365,6 +2374,7 @@ ubmcmm.baidustatic.com
 ||qbyyvg3.com^
 ||xtp01.com^
 !2302
+||666585.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -2373,16 +2383,27 @@ ubmcmm.baidustatic.com
 ||ylkjit.com^
 !2301
 !2212
+||laijd.cn^
 ||xinshizongqin.com^
 !2211
+||8686865554893.com^
 ||z4a.net^
 !2210
+||kvhaa.com^
 !2209
 !2208
 !2207
+||u0071.com^
+||u0057.com^
+||n0244.com^
+||n0255.com^
 ||8feichai.com^
 ||u0065.com^
 !2206
+!long-term
+||imgtg.com^*.gif
+||sz88.oss-cn-shenzhen.aliyuncs.com^
+||huazitupian.oss-cn-hongkong.aliyuncs.com^
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
@@ -10241,6 +10262,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dmh8.com##body > a
 hmoe11.net##A[href*=".taobao.com"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -18227,6 +18249,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||machan.fans^
+||cfqc.me^
+||fetm.xin^
+||tokay.pro^
 ||iceberg.ink^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
@@ -18240,7 +18266,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||rinn.love^
 ||shoujizhuanqian.store^
 ||yyyyt.ltd^
+||zhongmeigk.hk^
 !2305
+||hs89.cn^
+||chaotickets.cn^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -18258,6 +18287,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||ponymi.xyz^
+||aa9u.cn^
 ||aa9v.cn^
 ||aa9z.cn^
 ||aak7.cn^
