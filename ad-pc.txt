@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lC4BLOPhVMqaz5+gwAUB4w
+! Checksum: 8vR81tIBZprpVwRAK447eQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206152009
-! Last Modified: 2022年06月15日 20:09
+! Version: 202206160204
+! Last Modified: 2022年06月16日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -23221,6 +23221,7 @@ _800x80_
 ##.annonstext
 ##.another_text_ad
 ##.answer_ad_content
+##.anyad
 ##.anzeige_banner
 ##.aol-knot-fullscreen-right-ad
 ##.aol-twist-flyout-ad
@@ -24456,6 +24457,7 @@ _800x80_
 ##.chrt-subheader__adv
 ##.cinemabotad
 ##.ck-ad
+##.ck_adv-box
 ##.cl-ad-inpager
 ##.cl-ad-slot-post1
 ##.cl-ad-slot-post2
@@ -38171,6 +38173,7 @@ tf2r.com#@#.adverts
 ||ewooe6df.com^
 ||ewrerew29w09.com^
 ||ewruuqe5p8ca.com^
+||ewtdjgsaip.com^
 ||ewxewjponmh.xyz^
 ||exambalmy.com^
 ||examscradle.com^
@@ -38893,6 +38896,7 @@ tf2r.com#@#.adverts
 ||futiry.com^
 ||futsoksu.com^
 ||future-hawk-content.co.uk^
+||futuredistracting.com^
 ||futureresiduals.com^
 ||futureus.com^
 ||fuxoasim.link^
@@ -39120,6 +39124,7 @@ tf2r.com#@#.adverts
 ||ggjqcdnmnno.com^
 ||ggkgocbyhut.xyz^
 ||ggkk.xyz^
+||ggklheppngros.com^
 ||gglx.me^
 ||ggrywyonmyvh.com^
 ||ggsfq.com^
@@ -41143,6 +41148,7 @@ tf2r.com#@#.adverts
 ||kjbipwznkbtybs.com^
 ||kjkhgtwft.com^
 ||kjkwrmwdyhi.com^
+||kjtwpeqalrww.com^
 ||kkafbqhaas.xyz^
 ||kkmacsqsbf.info^
 ||klalin.com^
@@ -41805,6 +41811,7 @@ tf2r.com#@#.adverts
 ||ltbbfotur.xyz^
 ||ltdxdwjsf.com^
 ||lturerpartm.com^
+||ltwrkbxgnsc.com^
 ||ltziyuyjoq.com^
 ||luadvazvjuuoj.com^
 ||luatgqssoyh.com^
@@ -46149,6 +46156,7 @@ tf2r.com#@#.adverts
 ||sb4you1.com^
 ||sbajozhyozjky.com^
 ||sbc7wfnaakau.com^
+||sbeforeuka.xyz^
 ||sbfsdvc.com^
 ||sbmrwzkwshit.com^
 ||sbprpoowdyfbx.com^
@@ -46746,6 +46754,7 @@ tf2r.com#@#.adverts
 ||soloistbailedboyfriend.com^
 ||sololockscoin.com^
 ||soltitate.site^
+||soluth.com^
 ||solvendtigrai.com^
 ||solvewebagitated.com^
 ||solvingconcentrationspy.com^
@@ -47491,6 +47500,7 @@ tf2r.com#@#.adverts
 ||tfaa2.com^
 ||tfaln.com^
 ||tfdftbasnm.com^
+||tfdnncmhx.com^
 ||tfeluikknbiq.com^
 ||tffavlypd.xyz^
 ||tfiph.com^
@@ -47687,6 +47697,7 @@ tf2r.com#@#.adverts
 ||timerobstacle.com^
 ||timeruniversalreligious.com^
 ||timeryielding.com^
+||timessmalldraught.com^
 ||timingaskew.com^
 ||tinbuadserv.com^
 ||tingeffukec.one^
@@ -48022,6 +48033,7 @@ tf2r.com#@#.adverts
 ||tsardagger.com^
 ||tsbqljox.xyz^
 ||tsgfsocco.com^
+||tsiwoulukdli.xyz^
 ||tsiwqtng8huauw30n.com^
 ||tslomhfys.com^
 ||tsml.fun^
@@ -54938,6 +54950,7 @@ tf2r.com#@#.adverts
 ||d1ezlc9vy4yc7g.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
 ||d1fs2ef81chg3.cloudfront.net^
+||d1hnmxbg6rp2o6.cloudfront.net^
 ||d1il9t8pu4dsoj.cloudfront.net^
 ||d1ilwohzbe4ao6.cloudfront.net^
 ||d1izuvv2qy7hel.cloudfront.net^
@@ -61465,7 +61478,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gbf.wiki/images/$image,~third-party
 @@||gelbooru.com//images/ad/$image,~third-party
@@ -61586,7 +61599,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||showcase.codethislab.com/banners/$image,~third-party
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||somewheresouth.net/banner/banner.php$image
-@@||spendino.de/admanager/
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||ssl.p.jwpcdn.com/player/*/jwpsrv.js$script,domain=bgr.com
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
@@ -61786,7 +61798,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||afreecatv.com/js/plugin/ad/preroll.js$script,domain=afreecatv.com
 @@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
-@@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|gamestar.de|los40.com
+@@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|los40.com
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
@@ -61832,16 +61844,15 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|tv-tokyo.co.jp|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gentside.com|pccomponentes.com|voici.fr
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
-@@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||getjad.io/library/$script,domain=allocine.fr
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
@@ -61881,7 +61892,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=games.wkb.jp
 @@||pia.jp/feature/rss/ad.xml|$~third-party,xmlhttprequest
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=gentside.com
-@@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
 @@||politiken.dk/static/$script
 @@||popin.cc/popin_discovery/recommend?$~third-party
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
