@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WyiRMHXJsiI4M+jg+KpJGw
+! Checksum: 6hhLPgW3GWWS7jnAOo6l6Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206170824
-! Last Modified: 2022年06月17日 08:24
+! Version: 202206171406
+! Last Modified: 2022年06月17日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2028,7 +2028,7 @@ ubmcmm.baidustatic.com
 ##a[target="_blank"] > img[height="120px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="120px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".126.net"][src$=".gif"]
-##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
+##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".alicdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".c-ctrip.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".lenovo.com"][src$=".png"]
@@ -2358,6 +2358,7 @@ ubmcmm.baidustatic.com
 ||kkuuu.top^
 ||tangkai.ltd^
 !2305
+||app0003.xyz^
 ##a[href*=".xxgxqscl.com/"]
 ||ijswq.com^
 ||kvkaa.com^
@@ -2378,6 +2379,7 @@ ubmcmm.baidustatic.com
 ||ybkjap.com^
 ||yukariyakumo.cn^
 !2303
+||pvhgws7.com^
 ||17265111.com^
 ||22195976.com^
 ||32851897.com^
@@ -2392,6 +2394,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666589.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -2410,6 +2413,7 @@ ubmcmm.baidustatic.com
 ||8686865554893.com^
 ||z4a.net^
 !2210
+||fcgjewelry.com^
 ||kvhaa.com^
 !2209
 !2208
@@ -18127,6 +18131,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||m1saka.love^
+||guixie.info^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||cfqc.me^
@@ -18154,6 +18160,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yyyyt.ltd^
 ||zhongmeigk.hk^
 !2305
+||waikuai.vip^
 ||2329.ink^
 ||666video.asia^
 ||a19cd.xyz^
@@ -18181,6 +18188,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||zhrrrec.cn^
+||dhtv6.xyz^
 ||172872.com^
 ||aa9q.cn^
 ||aa9u.cn^
@@ -18200,6 +18209,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xuekalun.com^
 ||yping.online^
 !2303
+||blddnwt.cn^
 ||469716.top^
 ||bnux.store^
 ||defenga.top^
@@ -18215,9 +18225,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !2302
 ||zhjzjnb.xyz^
 !2301
+||avtej.com^
 ||nanjian.ink^
 ||vz1m.com^
 !2212
+||topnfm.com^
 ||bestnfq.com^
 ||kongbao.ren^
 !2211
@@ -23993,6 +24005,9 @@ _box_ad_
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 !------------------------Specific element hiding rules------------------------!
+alibabacloud.com###carousel-whois
+alibabacloud.com##.b-alicloud-bottom
+alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
 thwiki.cc##.on-right > .swiper-container
