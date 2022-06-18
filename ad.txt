@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JJd8Y+On6+xf40R5MFC3uQ
+! Checksum: CfnoNDoQ3L4iP2en0uMQGw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206182008
-! Last Modified: 2022年06月18日 20:08
+! Version: 202206190206
+! Last Modified: 2022年06月19日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -634,6 +634,7 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/images/segucrwj*.jpg
 /images/segucrwj*.gif
 /images/mobileads*.jpg
 -880-80-4.jpg
@@ -2031,7 +2032,7 @@ ubmcmm.baidustatic.com
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
-##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
+~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body[class|="view"] > .ad-box
@@ -2346,6 +2347,9 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||afk3rs.xyz^
+||tklm77.top^
+||306842.com^
 ##a[href*="/682kg.com"]
 ||9191919199.com^
 ||bob4915.com^
@@ -17978,6 +17982,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||1kcx.hk^
 ||slinindy.top^
 ||hklst.top^
+||ttdds.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
@@ -18097,6 +18102,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||whzshoes.com^
 ||zhihuinongye.biz^
 !2209
+||tihushuo.com^
 ||cojwnb.com^
 ||duihuan8.wang^
 ||hdw0.top^
