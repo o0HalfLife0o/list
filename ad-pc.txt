@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dSy9nlxUqVaxvHLboKmI1A
+! Checksum: Zi7N/81k36ur8kYuufe04g
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206180831
-! Last Modified: 2022年06月18日 08:31
+! Version: 202206181405
+! Last Modified: 2022年06月18日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -5355,6 +5355,7 @@ tieba.baidu.com##.tuijian-wrap
 /mad.aspx?
 /mad_ad.
 /mads.php?
+/magalu-ads-
 /magazine/ads.
 /magic-ad/*
 /magic-ads/*
@@ -18767,6 +18768,7 @@ _800x80_
 ##.ad-note
 ##.ad-notice
 ##.ad-notice-small
+##.ad-observer
 ##.ad-oms
 ##.ad-on
 ##.ad-on-top
@@ -22886,6 +22888,7 @@ _800x80_
 ##.advertisement_container
 ##.advertisement_flag
 ##.advertisement_flag_sky
+##.advertisement_footer
 ##.advertisement_g
 ##.advertisement_header
 ##.advertisement_horizontal
@@ -26976,7 +26979,6 @@ _800x80_
 ##.leaderboard-advert
 ##.leaderboard-advertisement
 ##.leaderboard-top-ad
-##.leaderboard.ad
 ##.leaderboard.advert
 ##.leaderboard1AdWrapper
 ##.leaderboardAd
@@ -27380,6 +27382,8 @@ _800x80_
 ##.metabet-adtile
 ##.metaboxType-sponsor
 ##.mf-ad300-container
+##.mf-adsense-leaderboard
+##.mf-adsense-rightrail
 ##.mg_box_ads
 ##.mgid-wrapper
 ##.mgid_3x2
@@ -29924,6 +29928,7 @@ _800x80_
 ##.sticky-ad-unit-default
 ##.sticky-ad-wrapper
 ##.sticky-ads-container
+##.sticky-adsense
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
 ##.sticky-rail-ad-container
@@ -58581,6 +58586,7 @@ ptinews.com##.fullstorydivright
 whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 ferrarichat.com##.funzone
+fxstreet.com##.fxs_leaderboard
 aurn.com,borneobulletin.com.bn,businessofapps.com,chicagodefender.com,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,mediaplaynews.com,moviemaker.com,nondoc.com,one.com.mt,richmondshiretoday.co.uk,sammobile.com,talkradioeurope.com,thegolfnewsnet.com,womensagenda.com.au##.g
 yellowise.com##.g-widget-block
 titantv.com##.gAd
@@ -61681,7 +61687,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||radiotimes.com/static/advertising/$script,~third-party
-@@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=techrepublic.com|zdnet.com
+@@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
 @@||rumble.com/j/p/$script,domain=usawatchdog.com
@@ -71625,6 +71631,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+uliba.net###focusslide
+fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
+fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
+fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_ui_slider
+fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
 douyu.com##.ScreenBannerAd
 20-0.net###biedamadeyouchongtule-aa
 szxx.com.cn###A1
@@ -72037,9 +72048,7 @@ gate.baidu.com,m.baidu.com###container
 hsex.men###container > div:not([class])
 gg163.net###container > table[width="960"]
 icanzc.com###contbot
-biquge001.com,fuliba.net###content > a
-fuliba.net###content > div:first-child > a:first-child:last-child
-fuliba.net###content > ul[style="list-style-type: none;"]
+biquge001.com###content > a
 yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
@@ -72247,7 +72256,6 @@ bd2020.co###fmtdiv
 apk.tw###focus
 news.qq.com###focus-bar
 qq.com###focus_jordon
-fuliba2020.net,fuliba2021.net,fulibus.net,wuzuowei.net###focusslide
 bitauto.com###folieAdNews
 w3school.com.cn###foogz
 913e.com###footad_913e
@@ -72574,7 +72582,6 @@ hexieshe.cn###media_image-3
 loldk.com###meizi_ad
 aae3.com###menu
 avtb2022.com###menu-main-content > li:nth-child(n+5)
-fuliba.net###menu-nav > .menu-item:nth-child(n+4):not(:last-child)
 xiuren.org###menur
 tv.sohu.com###miaozhenad
 111os.com###midBox
@@ -72856,8 +72863,6 @@ hao.360.com###sidebar
 xc6b.com###sidebar > .box-b img
 appinn.com###sidebar > .widget:first-child
 ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
-fuliba.net###sidebar > div:first-child
-fuliba.net###sidebar > div:last-child
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 mpyit.com###sidebar a > img
@@ -74254,7 +74259,6 @@ hao123.com##.enter1
 hackhw.com##.entry-banner
 idanmu.ee##.entry-body > div[class]:first-child
 iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
-fuliba.net##.entry-content > div[style^="float:right"]
 reaff.com##.entry-content > p[style="text-indent:0"]
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
 ruanyifeng.com##.entry-sponsor
@@ -75401,7 +75405,6 @@ baidu.com##.result-op[tpl="sp_hot_sale"]
 tbtdg.com##.reveal-modal-bg
 rfidworld.com.cn##.rfidADClass
 acfun.cn##.right-activity
-fuliba.net##.right-banner
 image.baidu.com##.right-banner-area
 isso.com.cn##.right-content-div > .top-div + div
 jingyan.baidu.com##.right-fixed-related-wrap
@@ -75588,7 +75591,6 @@ oneinstack.com##.sidebar > .widget:last-child
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
-fulibus.net##.sidebar > div:first-child
 xiaoz.me,xingkbjm.com##.sidebar a > img
 landian.vip##.sidebar a[href^="http"]:not([href*="landian."])
 superlife.ca##.sidebar-ad-zone
@@ -75837,7 +75839,6 @@ chinanews.com##.tonglan_advert
 3dmgame.com##.tonglona_2
 3dmgame.com##.tonglona_3
 3dmgame.com##.tonglona_4
-fuliba.net##.tool_news1
 loldk.com##.tools-recommend
 meizhou.com##.top + .w1000
 2345.com##.top > .fred
@@ -76059,7 +76060,7 @@ zhaiiker.com##.widget_index_add
 unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
 flyzy2005.com##.widget_kratos_ad
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
-landiannews.com,meijumi.net##.widget_metaslider_widget
+meijumi.net##.widget_metaslider_widget
 acwifi.net##.widget_ssr
 lzdcctv.cn##.widget_ssr > a > img
 codeceo.com,fuli8.net##.widget_text:first-child
@@ -79255,11 +79256,7 @@ $script,third-party,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 ||dybee.tv/gg
 !#e
-!#Fuliba.net
-fuliba.net,uliba.net###focusslide
-fuliba2020.net,landiannews.com,uliba.net##.widget_custom_html
-fuliba.net##.widget_custom_html:first-child
-fuliba.net##.widget_custom_html:nth-child(2)
+!#f
 !#g
 !#hboav.com
 ##.cc5278_banner_ad
@@ -79528,6 +79525,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !2306
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
+||slinindy.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
@@ -79607,6 +79605,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yping.online^
 ||zhrrrec.cn^
 !2303
+||bptxcg.xyz^
 ||469716.top^
 ||blddnwt.cn^
 ||bnux.store^
@@ -79650,6 +79649,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xinbici.com^
 !2208
 !2207
+||ienglish.ren^
 ||jsk.wang^
 !2206
 !2403
@@ -84152,9 +84152,7 @@ baike567.com,wuhaozhan.net##div[id$="eBox"]
 ||jd.com^$popup,domain=baike567.com|wuhaozhan.net
 ||taobao.com^$popup,domain=baike567.com|wuhaozhan.net
 ||tmall.com^$popup,domain=baike567.com|wuhaozhan.net
-!#Wuzuowei.net
-@@||bdimg.com/libs/$domain=wuzuowei.net
-|http:$script,third-party,domain=wuzuowei.net
+!#W
 !#x
 !#Yaoqi.la
 /yaoqi/static/js/*
@@ -95417,6 +95415,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||volvelle.tech^$third-party
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
+||bob-recs.com^$third-party
+||btg360.com.br^$third-party
 ||cifraclub.com.br^$third-party
 ||clearsale.com.br^$third-party
 ||denakop.com^$third-party
@@ -98487,6 +98487,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||i.imedia.cz^
 ||log.cpex.cz^
 ||log.idnes.cz^
+||pixel.biano.cz^
 ||pixel.cpex.cz^
 ||r2b2.cz/events.php?
 ||ssp.seznam.cz^
