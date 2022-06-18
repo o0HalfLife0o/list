@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mGS0/XJIJPkyQxyuLtnllQ
+! Checksum: UgZf/5XxPSoJsDSuw0PN5g
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206181405
-! Last Modified: 2022年06月18日 14:05
+! Version: 202206182008
+! Last Modified: 2022年06月18日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -187,6 +187,8 @@ youle55.com
 !-----------------------General advert blocking filters-----------------------!
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
+/images/segucrwj*.gif
+/images/mobileads*.jpg
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1943,6 +1945,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666592.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -1954,6 +1957,7 @@ ubmcmm.baidustatic.com
 ||nbgsintl.com^
 ||ylkjit.com^
 !2301
+||eiya.net^
 ||yanzunyang.top^
 !2212
 ||laijd.cn^
@@ -7850,9 +7854,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||maiche.com/iframe/rank.html
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.qq.com/lview?
+||malimali5.com/ad1.png
 ||makaidong.com/img/
-||malimali3.com/upload/site/*.gif
-||malimali3.com/upload/site/*/640.
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
 ||manage.wdfans.cn^
@@ -8803,9 +8806,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||taizexy.com^*.gif
 ||talkfx.*/showTKImg?
 ||taobaocdn.com^$image,domain=cnblogs.com
-||taoguba.com.cn/js/tgbduilian
 ||taoguba.com.cn/res/js/tgbgg/
-||taoguba.com.cn/res/libs/tgbxc.js
 ||taosq.net/public/250x250.jpg
 ||taotaoxiang.*/111/
 ||taotaoxiang.cc/333/
@@ -8969,8 +8970,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||uho.com.tw^$subdocument
 ||ulifestyle.com.hk/images/*_300x100
 ||ultraimg.com^$domain=18board.com|18p2p.com
-||ulzdk.com/statics/v2/js/kulis.js
-||ulzdk.com/Uploads/ulzdkgif/bfq.gif
 ||union.591.com.tw/cpt?
 ||union.china.com.cn^
 ||union.yihaodian.com^
@@ -8981,7 +8980,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upan.cc/images/pay/
-||upanso.com/taoke/
 ||upantool.com/a/
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
@@ -9639,6 +9637,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+qq.com,sogou.com##.banner-vda
+qq.com,sogou.com##div[class^="page-top-banner"]
 uliba.net###focusslide
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
@@ -9832,7 +9832,6 @@ c114.com.cn###ad_r1
 chinanews.com.cn###ad_right_fc1
 kdslife.com###ad_swip
 bioon.com###ad_tb
-taoguba.com.cn###ad_tgb_list
 cctime.com###ad_three
 sina.com.cn###ad_tl_01
 gaokao.com###ad_top_gkw
@@ -10786,7 +10785,6 @@ appinn.com###ranshownow
 game2.cn###rb
 junshidao.com###rb_wap
 moe.best###rcm_sidebar
-tiboo.cn###read_hd1
 chinaqking.com###readerServiceDIV
 pujia8.com###recommend
 ganji.com###recommend_storeg_div
@@ -11158,7 +11156,6 @@ bestopview.com##.Adv_c
 pc6.com##.Advbox
 chaicp.com,qiuyi.cn##.Advertisement
 big5.china.com.cn##.Advertising > a
-usefultools.icu##.Advertising_all
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.BAIDU_CLB_AD
 le.com##.Banner
 zhihu.com##.Banner-link
@@ -11217,7 +11214,6 @@ zhihu.com##.MRelateFeedAd
 my0511.com##.MY0511-broadcast
 ltn.com.tw##.NC1.boxTitle
 ltn.com.tw##.NC3
-taoguba.com.cn##.NH_ad
 cnfol.com##.NavTopAd
 cnfol.com##.NewAdBox
 taoguba.com.cn##.NewH_top_left + .left
@@ -12067,7 +12063,6 @@ zuowen.com##.couplet_left
 tigtag.com##.couplet_r
 zuowen.com##.couplet_right
 atyun.com##.coupletbox
-upanso.com##.coupon
 caixin.com##.course_box
 meishij.net##.cp_body_right
 baidu.com##.cpc-adv-container
@@ -17422,6 +17417,7 @@ smjb.net##div[style*="height: 50%"]
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
 ||zhuishubox.com/js/after-rain.js
+||wbxsw.com/js/app_wap.
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -17534,6 +17530,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||slinindy.top^
+||hklst.top^
 ||cfqc.me^
 ||cnpask.com^
 ||dalucm.xyz^
@@ -17592,6 +17589,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||salemarket.online^
+||glspjvy.cn^
 ||172872.com^
 ||aa9q.cn^
 ||aa9u.cn^
@@ -17613,6 +17612,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yping.online^
 ||zhrrrec.cn^
 !2303
+||ceshi5.ink^
 ||bptxcg.xyz^
 ||469716.top^
 ||blddnwt.cn^
@@ -17636,6 +17636,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||nanjian.ink^
 ||vz1m.com^
 !2212
+||nfqplus.com^
 ||iauto.wang^
 ||bestnfq.com^
 ||kongbao.ren^
