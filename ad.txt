@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: v/Zl8o0xIep+maXowHpUzw
+! Checksum: UokJIjAFnKAN1cD8qa+SMA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206191406
-! Last Modified: 2022年06月19日 14:06
+! Version: 202206192008
+! Last Modified: 2022年06月19日 20:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -10090,6 +10090,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
+tmioe.com##.ad_single_0
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15861,6 +15863,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||haokoubei.top/check_img_block.js
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
@@ -18043,6 +18046,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||caicnax.cn^
 ||wangjianxd.site^
 ||172872.com^
 ||aa9q.cn^
