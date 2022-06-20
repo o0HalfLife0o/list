@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iSFNWSzH8zGjh2+eNSrxoA
+! Checksum: RPUOBr3gVcFjTAoe2BFuBA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206200205
-! Last Modified: 2022年06月20日 02:05
+! Version: 202206200827
+! Last Modified: 2022年06月20日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -31154,7 +31154,6 @@ _800x80_
 ##[class^="AdvertisingSlot_"]
 ##[class^="div-gpt-ad"]
 ##[data-ad-cls]
-##[data-ad-id]
 ##[data-ad-manager-id]
 ##[data-ad-module]
 ##[data-ad-width]
@@ -79459,6 +79458,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 !2306
 ||slifindy.top^
+||dj57.club^
+||ukan.online^
+||zy1017421.xyz^
+||fangbaba.xyz^
+||kgsrr.top^
 ||luotuoma.cool^
 ||randolph.love^
 ||hggtt.top^
@@ -98876,6 +98880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uptolike.com/widgets/*/imp?
 ||visitor-microservice.ext.p-a.im^
 ||webtrack.biz^$third-party
+||wl-analytics.tsp.li^
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||yandeg.ru/count/
 ||yandex.ru/metrika/
@@ -110251,6 +110256,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||3dnews.ru/track
 ||4pda.ru/stat/
 ||ad7.bigmir.net^
+||adme.media/metric-collector
 ||affilate.hh.ru^
 ||agroserver.ru/ct/
 ||analytics.carambatv.ru^
@@ -111416,7 +111422,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||post2go.ru/widget/tracking?$~third-party
-@@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
