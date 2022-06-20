@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: /imOhJI4pfQJfxh0ud8QUw
+! Checksum: FHfA8mfUp7727q5rcGL5+w
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206200205
-! Last Modified: 2022年06月20日 02:05
+! Version: 202206202009
+! Last Modified: 2022年06月20日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1744,6 +1744,7 @@ metruyenchu.com#$#abort-on-property-write window.onclick
 phimhays.com#$#abort-current-inline-script jQuery window.open
 truyentranhtuan.com#$#abort-current-inline-script $ btpop
 vebo.live#$#abort-current-inline-script jQuery popup
+lphim.net#$#abort-on-property-read localStorage
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-hotfix/main/hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
