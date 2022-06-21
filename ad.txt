@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CND8RIVRYpqAY4JPim5pDQ
+! Checksum: qa7+s3GIg7ireSfREKhFpw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206211406
-! Last Modified: 2022年06月21日 14:06
+! Version: 202206212011
+! Last Modified: 2022年06月21日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2348,6 +2348,7 @@ ubmcmm.baidustatic.com
 !2308
 ||jrhbhz.com^
 !2306
+||b0rbgroup.xyz^
 ||dierguanggao.xyz^
 ||bob4885.com^
 ##a[href*="/682kg.com"]
@@ -2417,6 +2418,7 @@ ubmcmm.baidustatic.com
 ||nbgsintl.com^
 ||ylkjit.com^
 !2301
+||1198194.com^
 ||eiya.net^
 ||yanzunyang.top^
 !2212
@@ -10100,6 +10102,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xonlines.com/upload/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+theporn.cc##.pp > div[class]:first-child
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmioe.com##.ad_single_0
 szxx.com.cn###A1
@@ -17989,6 +17992,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||nymnt.top^
+||hht687.site^
 ||hddss.top^
 ||youhuotiyu.asia^
 ||biercloud.love^
@@ -18074,6 +18079,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xitang.love^
 ||zwgege.cn^
 !2304
+||wula.store^
 ||hcmyfni.cn^
 ||mssmkj.com^
 ||jykhjwb.cn^
@@ -18103,6 +18109,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yping.online^
 ||zhrrrec.cn^
 !2303
+||wukelansm.top^
 ||zaixianweiyuanchuang.cn^
 ||8889888.vip^
 ||469716.top^
@@ -18131,6 +18138,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tongxinren.co^
 ||vz1m.com^
 !2212
+||bestnfz.com^
 ||nfntime.com^
 ||greatnfq.com^
 ||fangbaba.xyz^

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FHfA8mfUp7727q5rcGL5+w
+! Checksum: TC+I5f/vCwhfA9tzIxjVXA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206202009
-! Last Modified: 2022年06月20日 20:09
+! Version: 202206212011
+! Last Modified: 2022年06月21日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1197,11 +1197,13 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-123-movies.gs,123movies-official.net,apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,f2movies.to,filmlinks4u.cam,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,movies123.sbs,prmovies.re,readcomiconline.li,tinyzonetv.to,watchseries.ma,wiflix.bet,yomovies1.live#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+123-movies.gs,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,f2movies.to,filmlinks4u.cam,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.io,manhuascan.me,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readcomiconline.li,soap2day.cloud,tinyzonetv.to,watchseries.ma,wiflix.bet,yomovies1.live#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 manga21plus.com#$#abort-on-property-read a3klsam
 naughtymachinima.com#$#abort-on-property-read window.open; abort-on-property-read loadTool
+fullporner.com#$#abort-on-property-read ad; abort-on-property-read ad_list
+animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 ! #CV-667
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 getsurl.com,gslink.co,gsurl.in,gsurl.me,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -1222,7 +1224,7 @@ adpop.me,amyscans.com,apurogol.net,aquipelis.net,arenavision.in,arenavision.us,a
 ! #CV-368
 kimcartoon.to#$#abort-on-property-read NativeAd
 ! Popup/Popunder/Clickunder
-123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,adblockstreamtape.art,adblockstreamtape.site,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.ws,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,iframe-secured.com,komikcast.com,mavavid.com,mixdrop.co,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rlslog.net,rule34hentai.net,strcloud.club,strcloud.link,streamadblockplus.com,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
+123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,adblockstreamtape.art,adblockstreamtape.site,animepahe.com,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.ws,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,iframe-secured.com,komikcast.com,mavavid.com,mixdrop.co,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rlslog.net,rule34hentai.net,strcloud.club,strcloud.link,streamadblockplus.com,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 latinblog.tv,adblockstreamtape.art,adblockstreamtape.site,baytorrent.eu.org,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,voe.sx,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javmost.com,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,strcloud.club,strcloud.link,streamadblockplus.com,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,streamta.pe,strtape.cloud,strtape.site,strtape.tech,adblockstrtape.link,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,youdbox.com,mixdrop.co#$#abort-on-property-write _pop
 adblockstreamtape.art,adblockstreamtape.site,strcloud.club,strcloud.link,streamadblockplus.com,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 1tamilmv.cloud,incestflix.com,pastemytxt.com,ytmp3eu.com,9anime.to,zippyshare.com,uploadproper.com,uploadproper.net,masahub.net#$#abort-on-property-read _pop
@@ -1288,6 +1290,7 @@ vardembed.xyz,videovard.sx###NotReallyYouHaveSmallOne
 vardembed.xyz,videovard.sx###MyDickIsFat
 voeunbl0ck.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com#$#abort-on-property-read VODMonetisation
 kiss-anime.ws#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read _0x5c48; abort-on-property-read _0x43d1; abort-on-property-read _0x173b; abort-on-property-read _0x28f6
+manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 ! #CV-691
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ div[aria-label] div[class]
 ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.es,ebay.fr,ebay.it,ebay.nl#$#hide-if-matches-xpath '//a[contains(@data-track,"UnifiedRankingScenario")]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
@@ -1697,7 +1700,7 @@ hispasexy.org#$#abort-current-inline-script decodeURI; abort-on-property-read de
 animefenix.com#$#abort-current-inline-script document.createElement _yzvesi; abort-on-property-write zfgloadedpopup;
 pelisplus.so#$#abort-on-property-write _zoxxpiee
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
-comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
+comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 series-de.online#$#abort-on-property-read doSecondPop; abort-on-property-read doSecondPopU
 animefenix.com#$#abort-on-property-read p18
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
