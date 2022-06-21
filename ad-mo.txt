@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: nNWXh4AQucxfGsFVKxZAMw
+! Checksum: +uQ1s7jq56tjsDgRlKbC6w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206210829
-! Last Modified: 2022年06月21日 08:29
+! Version: 202206211406
+! Last Modified: 2022年06月21日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -4594,6 +4594,7 @@ pan.baidu.com##.upload-bar.global-clearfix
 /geobox.html
 /ges_ads/*
 /get-ad/*
+/get-ads-by-zones/*
 /get-advert-
 /get-inline-ad
 /get.ad?
@@ -24518,6 +24519,7 @@ _800x80_
 ##.component--google-ad-manager
 ##.component-ad-leiki
 ##.component-adincontent
+##.component-ads-by-google
 ##.component-ar-horizontal-bar-ad
 ##.component-header-sticky-ad
 ##.component-sponsored-links
@@ -31819,6 +31821,7 @@ _800x80_
 ##a[href^="https://trackjs.com/?utm_source"]
 ##a[href^="https://traffdaq.com/"]
 ##a[href^="https://traffic.bannerator.com/"]
+##a[href^="https://tragency-clesburg.icu/"]
 ##a[href^="https://transfer.xe.com/signup/track/redirect?"]
 ##a[href^="https://trappist-1d.com/"]
 ##a[href^="https://trf.bannerator.com/"]
@@ -40767,6 +40770,7 @@ tf2r.com#@#.adverts
 ||jjnlfd.com^
 ||jjpnveujkk.com^
 ||jjwaelns.com^
+||jk4lmrf2.de^
 ||jkgrczjllhq.com^
 ||jkgswirxm.com^
 ||jkha742.xyz^
@@ -47945,6 +47949,7 @@ tf2r.com#@#.adverts
 ||trafyield.com^
 ||tragedyadvertisecosmetic.com^
 ||tragedygrowledtricky.com^
+||tragency-clesburg.icu^
 ||tragicdoughnut.com^
 ||traglencium.com^
 ||trainedgranddad.com^
@@ -51032,6 +51037,7 @@ tf2r.com#@#.adverts
 ||geovisite.com^$third-party
 ||gestionpub.com^$third-party
 ||get.com^$third-party
+||getadjacent.com^$third-party
 ||getalinkandshare.com^$third-party
 ||getcontent.net^$third-party
 ||getdoge.io^$third-party
@@ -55563,6 +55569,7 @@ tf2r.com#@#.adverts
 ||pod.xpress.com^
 ||pokazuwka.com/popu/
 ||porndeals.com^$subdocument,third-party
+||porngamespass.com/iframes/
 ||pornravage.com/notification/
 ||potd.onlytease.com^
 ||prettyincash.com/premade/
@@ -55606,6 +55613,7 @@ tf2r.com#@#.adverts
 ||smartmovies.net/promo_$third-party
 ||smpop.icfcdn.com^$third-party
 ||smyw.org/smyw_anima_1.gif
+||snipersex.com/banners/
 ||snrcash.com/profilerotator/$third-party
 ||st.ipornia.com^$third-party
 ||static.twincdn.com/special/license.packed
@@ -56806,6 +56814,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id|adblockstreamtape.a
 ||sex3.com/ee/s/s/su
 ||sextubebox.com/js/239eka836.js
 ||sextubebox.com/js/580eka426.js
+||sexvid.xxx/ftsm/
+||sexvid.xxx/mia/
 ||sexy-egirls.com/ad_
 ||sexybabepics.net/re/sbpre.js
 ||sexytorrents.info/njUFyPRXaC7H.js
@@ -57657,6 +57667,7 @@ kollelbudget.com###text-78
 playco-opgame.com###text-8
 kollelbudget.com###text-82
 kollelbudget.com###text-83
+bestvpnserver.com###text-9
 nanoreview.net###the-app > .mb
 bestfriendsclub.ca###theme-bottom-section > .section-content
 bestfriendsclub.ca###theme-top-section > .section-content
@@ -58796,7 +58807,6 @@ stackoverflow.com##.js-sidebar-zone
 theguardian.com##.js-top-banner
 iobroker.net##.jss125
 calorieking.com##.jss2
-offerup.com##.jss301
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
 iobroker.net,iobroker.pro##.jss43
@@ -59394,6 +59404,7 @@ celebritynetworth.com##.sidebarAvtBox
 pbs.org##.sidebar__logo-pond
 caster.fm##.sidebar_ablock
 smallseotools.com##.sidebar_adds
+bxr.com##.sidebar_promo
 mediacomcable.com##.sidebar_sponsored
 alternet.org##.sidebar_sticky_container
 instantshift.com##.sidebar_vps_banner
@@ -59728,11 +59739,11 @@ bestlifeonline.com##.widget_gm_karmaadunit_widget
 extremetech.com##.widget_gptwidget
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 theiphoneappreview.com##.widget_links
-101thefox.net,949kcmo.com,appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,lifeandstylemag.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,rsbnetwork.com,thescore1260.com,washingtonmonthly.com##.widget_media_image
+101thefox.net,949kcmo.com,appleworld.today,closerweekly.com,deshdoaba.com,foreverconscious.com,intouchweekly.com,kkfm.com,lifeandstylemag.com,magic1069.com,mensjournal.com,patriotfetch.com,pctechmag.com,rok.guide,rsbnetwork.com,therebelrocks.com,thescore1260.com,washingtonmonthly.com,wbnq.com,wbwn.com,wgow.com,wgowam.com,wjbc.com,wlevradio.com##.widget_media_image
 nypost.com##.widget_nypost_dfp_ad_widget
 dailynewsegypt.com##.widget_rotatingbanners
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
-985kissfm.net##.widget_simpleimage
+985kissfm.net,bxr.com,catcountry951.com,nashfm1065.com,power923.com,wbnq.com,wncv.com,wskz.com##.widget_simpleimage
 acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com,streamingrant.com##.widget_sp_image-image-link
 gamertweak.com##.widget_srlzycxh
@@ -61414,6 +61425,8 @@ sexhd.pics##a[href^="https://go.stripchat.com/"]
 trannygem.com##a[href^="https://landing.transangelsnetwork.com/"]
 datingpornstar.com##a[href^="https://mylinks.fan/"]
 smutr.com##a[href^="https://smutr.com/?action=trace"]
+myreadingmanga.info##a[href^="https://www.dlsite.com/"]
+myreadingmanga.info##a[href^="https://www.gaming-adult.com/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
 imagebam.com,vipergirls.to##a[href^="https://www.mrporngeek.com/"]
 barelist.com##a[onclick="CallServer('ad', '')"]
@@ -63933,6 +63946,7 @@ ubmcmm.baidustatic.com
 ||ijswq.com^
 ||kvkaa.com^
 ||kzeaa.com^
+||fwesx.com^
 ||kzerr.com^
 ||mnvde.com^
 ||opuik.com^
@@ -63964,6 +63978,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666596.xyz^
 ||666595.xyz^
 ||666593.xyz^
 ||666576.xyz^
@@ -76876,7 +76891,7 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
+c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -79552,6 +79567,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !2306
 ||hddss.top^
 ||youhuotiyu.asia^
+||biercloud.love^
 ||mtsry.top^
 ||slifindy.top^
 ||dj57.club^
@@ -79634,6 +79650,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xitang.love^
 ||zwgege.cn^
 !2304
+||hcmyfni.cn^
 ||mssmkj.com^
 ||jykhjwb.cn^
 ||miaorentang.xyz^
@@ -79690,6 +79707,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||tongxinren.co^
 ||vz1m.com^
 !2212
+||nfntime.com^
 ||greatnfq.com^
 ||fangbaba.xyz^
 ||bestnfq.com^
@@ -99400,6 +99418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||g.mashable.com^
 ||g.pcmag.com^
 ||g.vev.io^
+||ga.dx.com^
 ||ga.nsimg.net^
 ||gaiaonline.com/internal/mkt_t.php?
 ||gak.webtoons.com^
@@ -110707,6 +110726,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cp.rackspace.com/javascript/services/analytics.js?$script,~third-party
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cqcounter.com^$domain=cqcounter.com
+@@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||currys.co.uk/on/*/js/tracking.js$script,~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
