@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 66JjwNMCRHBIf/KJ2S0gwg
+! Checksum: A5ebuaiZvIbTK+E7/Jlnvw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206220204
-! Last Modified: 2022年06月22日 02:04
+! Version: 202206220834
+! Last Modified: 2022年06月22日 08:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -71791,6 +71791,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+firefoxchina.cn##a[track_key="sites_saoma"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -79681,6 +79682,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||guoyang.us^
+||yundaxue.love^
+||hlryy.top^
+||bufan.in^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||biercloud.love^
@@ -79861,6 +79866,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ienglish.ren^
 ||jsk.wang^
 !2206
+!2311
+##a[href*=".meta-hh.com/"]
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -90159,6 +90166,7 @@ cgi-bin/counter
 /beacon.krxd.net/*
 /beaconimages.netflix.net/*$image
 /click.*/q/*$image
+/click.em.nike.com/*$image
 /click.email.$image
 /clicks.*/q/*$image
 /clicks.email.$image
@@ -111779,6 +111787,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 /yksmartbanner.
 /z.zolapp.
 =Ad_ZPlusGoods&
+=window.awall.adblockwalltemplatefetchdef&
 !------------------------General element hiding rules-------------------------!
 ###doyoo_mon_mask
 ###doyoo_monitor
