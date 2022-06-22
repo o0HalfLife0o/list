@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0Eh/SKYEqaWuTNWGLIUgnQ
+! Checksum: Jsnmx/su0rpyvuGSIYCeAw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206222009
-! Last Modified: 2022年06月22日 20:09
+! Version: 202206230206
+! Last Modified: 2022年06月23日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1561,7 +1561,7 @@ ubmcmm.baidustatic.com
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
-##a[href] > img[id][src*="hdslb.com"]
+##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http://ad.moemoe."]
 ##a[href^="javascript:GoDb"]
@@ -1901,6 +1901,9 @@ ubmcmm.baidustatic.com
 ||xyxhtyy.cn^
 ||zhetoutiao.top^
 ||lhippac.cn^
+||zhangzhiyang01.cn^
+##a[href*=".dztjy.com/"]
+||gytty.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -51187,22 +51190,21 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
+@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
-@@||pagure.io/static/issues_stats.js?
+@@||pagure.io/static/issues_stats.js$~third-party
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
-@@||pbskids.org/js/ga-current.js
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
 @@||pixel.condenastdigital.com/sparrow.min.js$domain=video.epicurious.com|video.gq.com|video.wired.com
 @@||pixel.quantserve.com/api/segments.xml?a=$domain=associatedcontent.com|cbs.com|cbsatlanta.com|centurylink.net|comedy.com|eurweb.com|fox5vegas.com|foxcarolina.com|grabnetworks.com|kctv5.com|kpho.com|kptv.com|theimproper.com|thenewsroom.com|tv.com|tvguide.com|wfsb.com|wnem.com|wsmv.com
 @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
-@@||playcanvas.com.*/keen.min.js
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
 @@||player.sundaysky.com^$subdocument
 @@||plex.tv/api/v2/geoip$xmlhttprequest
