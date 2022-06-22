@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Z1fUXXQuf6/zFHYMGdourQ
+! Checksum: 0zF4Ka8H59OiiA2kXMyUYw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206220834
-! Last Modified: 2022年06月22日 08:34
+! Version: 202206221407
+! Last Modified: 2022年06月22日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2403,6 +2403,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666597.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -10101,6 +10102,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vidcrunch.com/integrations/*_Responsive_*_DFP_$domain=discuss.com.hk
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 firefoxchina.cn##a[track_key="sites_saoma"]
@@ -17998,6 +18000,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yundaxue.love^
 ||hlryy.top^
 ||bufan.in^
+||rmt.plus^
+||moxiang.plus^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||biercloud.love^
@@ -18087,6 +18091,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||fmgfqwe.xyz^
 ||172872.com^
 ||77tel.com^
 ||aa9q.cn^
