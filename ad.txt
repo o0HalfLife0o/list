@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xxbO1ZGFMdrIBfKomrqTIQ
+! Checksum: EHT/xAS23So+9cI8HNXwqA
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206231406
-! Last Modified: 2022年06月23日 14:06
+! Version: 202206232009
+! Last Modified: 2022年06月23日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2367,6 +2367,10 @@ ubmcmm.baidustatic.com
 ||gocyghol.vip^
 ||wephone.club^
 ||nfpplus.com^
+||pxfeiws.cn^
+||666624.xyz^
+||yzsbpp.top^
+||mgtcw.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -14632,6 +14636,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 nxflv.com##div[style="position: absolute; width: 100%; height: 133px; bottom: 0px;"]
@@ -21430,7 +21435,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||94ab.com^$third-party
 ||98158.com^
 ||999d.com^$third-party
-||99js.rxys.com^
+||rxys.cn^
 ||a*.chajiaotong.com^
 ||a.4aqq.com^
 ||a.52wubi.com^
