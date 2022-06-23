@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7jCSjyq10er08Nc2ieWGkA
+! Checksum: mCJEMB9o9K+kXFge5mDK9Q
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206230206
-! Last Modified: 2022年06月23日 02:06
+! Version: 202206230824
+! Last Modified: 2022年06月23日 08:24
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1877,6 +1877,7 @@ ubmcmm.baidustatic.com
 ##.pasuAD
 ##.pcd_ad
 ##.pcgg
+##.top > a > .topline[src^="/photo/"]
 ##.photo-two > a[onclick^="_czc."]
 ##.player + .sponsor
 ##.player-bottom-gg
@@ -1930,6 +1931,7 @@ ubmcmm.baidustatic.com
 ##.toy52apparel_ALL
 ##.trad1
 ##.trad3
+##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
@@ -2349,8 +2351,14 @@ ubmcmm.baidustatic.com
 ||zhetoutiao.top^
 ||lhippac.cn^
 ||zhangzhiyang01.cn^
+##div[onclick*=".yyav5.top"]
 ##a[href*=".dztjy.com/"]
 ||gytty.top^
+||wy123.fun^
+||khdry.top^
+||asdqwe.ltd^
+||china-india.wang^
+||fangshan.us^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -14615,6 +14623,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ufile.cc/crod.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -23497,6 +23506,7 @@ _box_ad_
 !------------------------General element hiding rules-------------------------!
 ###doyoo_mon_mask
 ###doyoo_monitor
+###recommend-float + .footer + .popup
 ###rm-float + .popup
 ##.popup + .shortcuts-mobile-overlay
 ##.siteAnn1
