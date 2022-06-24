@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Bo3ICpji90dpHQG8a7MODg
+! Checksum: I4iR4IgtcZELkWxcoTdmDg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206240829
-! Last Modified: 2022年06月24日 08:29
+! Version: 202206241406
+! Last Modified: 2022年06月24日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -1933,6 +1933,7 @@ ubmcmm.baidustatic.com
 ##.trad1
 ##.trad3
 ##.twavt-ads
+##div[id^="em"] > a[onclick^="em"][max-width]
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
@@ -2378,6 +2379,13 @@ ubmcmm.baidustatic.com
 ||vppvp.com^
 ||byqiu.xyz^
 ||zsgwed.cn^
+||sdutmedia.com^
+||l90.xyz^
+||666625.xyz^
+||laura.fun^
+||freebuy.top^
+||asunbc.cn^
+||wfkspcs.cn^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -13950,11 +13958,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||u17i.com/readad/
-||u3c3.cc^*.gif
-||u3c3.cc^*.png
-||u3c3.com^*.gif
-||u3c3.org/3.png
-||u3c3.org^*.gif
 ||uc.cn/s/uae/g/0s/ua.js
 ||uc.zhuici.com^
 ||uc129.com/images/top_hjsj.jpg
@@ -14646,6 +14649,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ktsf.com###sow-slider-7
+ktsf.com###sow-slider-18
 qger.net##body > :not(div):not(header):not(img):not(ocjx):not(span):not(ui)
 nxflv.com##div[style="position: absolute; width: 100%; height: 133px; bottom: 0px;"]
 szxx.com.cn###A1
@@ -19865,7 +19870,6 @@ zyue.com##div[id^="divad_"]
 chinafix.com##div[id^="diy_vk_ad_"]
 sm.cn##div[id^="dl-banner-"]
 fx678.com##div[id^="dl_"]
-c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 user.qzone.qq.com##div[id^="fct_20050606_"]
 3g.qq.com##div[id^="feed-omgad-"]
 lysq.com##div[id^="followDiv_"]
@@ -20424,6 +20428,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||hopto.org/js/prebid-ads.
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
