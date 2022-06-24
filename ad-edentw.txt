@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1mSWYhyF5MmoIhLAOfGwMg
+! Checksum: XI0aDYbfSua5aLD8Fr4OHA
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202206242009
-! Last Modified: 2022年06月24日 20:09
+! Version: 202206250207
+! Last Modified: 2022年06月25日 02:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1198,7 +1198,7 @@ freeuseporn.com#$#override-property-read p18 undefined
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsjerk.tv#$#abort-current-inline-script asgPopScript
-123-movies.gs,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,f2movies.to,filmlinks4u.cam,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.me,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readcomiconline.li,soap2day.cloud,tinyzonetv.to,wiflix.bet,yomovies1.live#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+123-movies.gs,123movies-official.net,animefrenzy.net,apkmody.io,atomohd.org,atomohd.com,atomohd.xyz,atomtt.com,d123movies.to,f2movies.to,filmlinks4u.cam,gogoanime.day,gogoanime.re,gogoanime.run,goyabu.com,hentai20.com,kimcartoon.li,lalamanga.com,mangadna.com,mangahere.onl,manhuascan.me,manhwax.com,movies123.sbs,movies123.studio,prmovies.re,projectfreetv.space,readcomiconline.li,soap2day.cloud,tinyzonetv.to,wiflix.bet,yomovies1.live#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 fastconverter.net#$#abort-on-property-read afScript
 tpbay.link#$#abort-on-property-read _wm_settings
 manga21plus.com#$#abort-on-property-read a3klsam
@@ -1236,11 +1236,10 @@ xhamster.com#$#abort-on-property-read wig-popunder; abort-on-property-write wit-
 xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write dataPopUnder
 marketrealist.com#$#abort-on-property-read adHandler.cmd.push
 vev.io,vev.red,vidop.icu,vidup.io#$#abort-current-inline-script window.__INITIAL_STATE__
-ling.online,pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 mult34.com,remaxhd.one#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 hdvid.online#$#abort-on-property-read Fingerprint2; abort-on-property-read atob
-123-movies.city,actvid.com,cineb.net,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,zoechip.com#$#abort-on-property-read localStorage
+123-movies.city,actvid.com,cineb.net,hdtoday.tv,moviesjoy.to,solarmovie.pe,vidbem.com,upload4earn.org,uploadbyte.com,watchseries.ma,zoechip.com#$#abort-on-property-read localStorage
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 youdbox.com,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 filecrypt.cc,filecrypt.co#$#abort-on-property-read isAdblock
@@ -1294,13 +1293,14 @@ vardembed.xyz,videovard.sx###MyDickIsFat
 voeunbl0ck.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com#$#abort-on-property-read VODMonetisation
 kiss-anime.ws#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read _0x5c48; abort-on-property-read _0x43d1; abort-on-property-read _0x173b; abort-on-property-read _0x28f6
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
+ling-online.com#$#abort-current-inline-script document.documentElement JSON.parse
 ! #CV-691
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ div[aria-label] div[class]
 ebay.ca,ebay.co.uk,ebay.com,ebay.com.au,ebay.es,ebay.fr,ebay.it,ebay.nl#$#hide-if-matches-xpath '//a[contains(@data-track,"UnifiedRankingScenario")]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ! #CV-698
 thegatewaypundit.com#$#abort-on-property-read adtoniq; abort-on-property-write adtoniq; abort-on-property-write bomab; abort-on-property-write zacak; abort-on-property-write kozuq
 ! #CV-667
-3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,animetrick.com,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,carol-goldnerova.info,celebritiesempire.com,clipwatching.com,dailyuploads.net,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,ling.online,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.com,vidbem.com,vidbm.com,videojinni.com,vidfast.co,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchboruto.com,watchdbzsuper.tv,watchgintama.com,watchmha2dub.com,watchoverlord2.com,watchshokugeki.com,xmovies8.so,xyupload.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
+3movierulz.tv,7-up.net,7deadlysins.tv,abcvideo.cc,animetrick.com,avimobilemovies.co,aznewhomes4u.com,batimovie.com,canonprinterdownload.com,carol-goldnerova.info,celebritiesempire.com,clipwatching.com,dailyuploads.net,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,downloadgamexbox.com,dragonballsuperdub.com,dramacool.movie,dramacool.video,fanproj.net,filmovi.co,fullasianmovies.com,gamepc18.net,giaoxudaiphu.com,haqqinda.az,hot-chicks.website,hotshotgamers.net,hunstulovers.net,indishare.org,isohunt.lol,isohuntz.net,kshows.to,livecricket.is,mobilemovies.info,movies123.xyz,mybet.tips,myrightspot.com,naijal.com,pornlibrary.net,premiumkeyesetnod32.blogspot.com,prostream.to,putlocker68.com,putlockers.fm,putlockertv.ist,sandup.co,thevideobee.to,uqload.com,vidbem.com,vidbm.com,videojinni.com,vidfast.co,vidlox.me,vidshar.tv,vidshare.tv,vidstreaming.io,vostfrserie.biz,watchblackclover.com,watchboruto.com,watchdbzsuper.tv,watchgintama.com,watchmha2dub.com,watchoverlord2.com,watchshokugeki.com,xmovies8.so,xyupload.com,youdbox.com#$#abort-current-inline-script Math zfgloaded
 ! #CV-754
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 topwwnews.com#$#abort-on-property-read localStorage
