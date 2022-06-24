@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iEXp9o911aj4bKdF9n+92Q
+! Checksum: MWW3KG9vH9vRNiEQlZ+tGw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206241406
-! Last Modified: 2022年06月24日 14:06
+! Version: 202206242009
+! Last Modified: 2022年06月24日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -63212,6 +63212,10 @@ ubmcmm.baidustatic.com
 ||freebuy.top^
 ||asunbc.cn^
 ||wfkspcs.cn^
+||goldnfn.com^
+||pymby.top^
+##a[href*=".picoville.com/"]
+||slieindy.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -75475,6 +75479,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hao123.com##.insertad_wrapper
 ktsf.com###sow-slider-7
 ktsf.com###sow-slider-18
 qger.net##body > :not(div):not(header):not(img):not(ocjx):not(span):not(ui)
@@ -83261,6 +83266,7 @@ smjb.net##div[style*="height: 50%"]
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
 ||zhuishubox.com/js/after-rain.js
+||5atxt.com/1*.js
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -85511,6 +85517,7 @@ fqsousou.com,kengso.com#@#.user-share
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynaTraceMonitor^
 /dynimpression?rkey=
 /e.gif?
@@ -88743,6 +88750,7 @@ fqsousou.com,kengso.com#@#.user-share
 /uxm_tracking.
 /v.gif?
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -89908,6 +89916,7 @@ _mongo_stats/
 ||acxiomapac.com^$third-party
 ||ad-score.com^$third-party
 ||ad-srv-track.com^$third-party
+||ad1x.com^$third-party
 ||adabra.com^$third-party
 ||adalyser.com^$third-party
 ||adara.com^$third-party
@@ -91545,6 +91554,7 @@ _mongo_stats/
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
 ||piratepx.com^$third-party
+||pirsch.io^$third-party
 ||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
@@ -91584,6 +91594,7 @@ _mongo_stats/
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||postclickmarketing.com^$third-party
+||posthog.com^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
 ||predicta.net^$third-party
@@ -109955,7 +109966,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
-@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
@@ -110640,7 +110651,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it

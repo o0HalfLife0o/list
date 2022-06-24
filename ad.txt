@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I4iR4IgtcZELkWxcoTdmDg
+! Checksum: /aZB8A50E4ws4UsNLTiyZg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202206241406
-! Last Modified: 2022年06月24日 14:06
+! Version: 202206242009
+! Last Modified: 2022年06月24日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2386,6 +2386,10 @@ ubmcmm.baidustatic.com
 ||freebuy.top^
 ||asunbc.cn^
 ||wfkspcs.cn^
+||goldnfn.com^
+||pymby.top^
+##a[href*=".picoville.com/"]
+||slieindy.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -14649,6 +14653,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||qihengprint.cn/mxstatic/js/1.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hao123.com##.insertad_wrapper
 ktsf.com###sow-slider-7
 ktsf.com###sow-slider-18
 qger.net##body > :not(div):not(header):not(img):not(ocjx):not(span):not(ui)
@@ -22435,6 +22440,7 @@ smjb.net##div[style*="height: 50%"]
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
 ||zhuishubox.com/js/after-rain.js
+||5atxt.com/1*.js
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
