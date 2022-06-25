@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 6/aiHwhti2sdfMp9s0fuqw
+! Checksum: ohOU8Sy5HMaPRCWpK5TMYw
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206252007
-! Last Modified: 2022年06月25日 20:07
+! Version: 202206260206
+! Last Modified: 2022年06月26日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -27308,6 +27308,8 @@ _800x80_
 ##.manual-ad
 ##.map-ad
 ##.mapAdvertising
+##.MapLayout_BottomAd
+##.MapLayout_BottomMobiAd
 ##.map_google_ad
 ##.map_media_banner_ad
 ##.mapped-ad
@@ -32588,7 +32590,7 @@ canonsupports.com#@#.box_ads
 8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
 business-hack.net,clip.m-boso.net,iine-tachikawa.net,meihong.work#@#.category-ads:not(html):not(body)
 studio55.fi#@#.column-ad
-skyrimcommands.com#@#.container-ads
+fontspace.com,skyrimcommands.com#@#.container-ads
 marca.com#@#.content-ad
 verizonwireless.com#@#.contentAds
 disk.yandex.by,disk.yandex.com,disk.yandex.kz,disk.yandex.ru,disk.yandex.ua,disk.yandex.uz,freevoipdeal.com,voipstunt.com,yadi.sk#@#.content_ads
@@ -46024,7 +46026,6 @@ tf2r.com#@#.adverts
 ||similt.com^
 ||simpan.online^
 ||simplemuk.com^
-||simpletraffic.co^
 ||simplewebanalysis.com^
 ||simplyjmp.com^
 ||simplysemblance.com^
@@ -50824,6 +50825,7 @@ tf2r.com#@#.adverts
 ||showyoursite.com^$third-party
 ||shrinkearn.com^$third-party
 ||simpio.com^$third-party
+||simpletraffic.co^$third-party
 ||simplyhired.com^$third-party
 ||simvinvo.com^$third-party
 ||sinsoftu.com^$third-party
@@ -57156,6 +57158,7 @@ timesofindia.indiatimes.com##.addblock
 auto-data.net##.adin
 animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
 corona.help##.adlg
+wncv.com##.simple-image
 prokerala.com##.adm-unit
 goldderby.com##.adma
 brickset.com##.admin.buy
@@ -59206,6 +59209,7 @@ gametracker.com##[href^="https://www.vultr.com/"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
 uncanceled.news##[href^="https://zstacklife.com/"]
 gelbooru.com##[href^='https://realbooru.com/']
+joxfm.com,jox2fm.com##a[href^="https://www.milb.com/"]
 searchenginejournal.com##[id^="SEJ_300x250_"]
 beforeitsnews.com##[id^="banners_"]
 geeksforgeeks.org##[id^="bsa-zone"]
@@ -59712,6 +59716,8 @@ macworld.co.uk##.videoContainer
 consequence.net##.video_container
 consequence.net##.wasp-video-player
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
+wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
+xtrasports1300.com,wncv.com,wzpl.com,wlevradio.com,wxbm.com,wskz.com##a[href^="https://www.sweetdeals.com"]
 ##.section-subheader > .section-hotel-prices-header
 yahoo.com###defaultLREC
 yahoo.com###sda-LDRB
@@ -59933,6 +59939,7 @@ haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
 instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
 instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#div[class$="-ItemCardHoverProvider"]:-abp-has(div[data-ads-badge="Sponsored"])
 instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
@@ -59989,8 +59996,6 @@ windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 1001tracklists.com#?#a[onclick^='gaLnkTr']
-instacart.com#?#div[class="css-1pc1srv-ItemCardHoverProvider"]:-abp-has(.css-8t254x-SponsoredProductBadge)
-instacart.com#?#li:-abp-contains(Sponsored)
 porndr.com###PD-Under-player
 deviants.com###_iframe_content
 swfchan.com###aaaa
@@ -63215,20 +63220,26 @@ ubmcmm.baidustatic.com
 ##a[href*=".picoville.com/"]
 ##div[onclick*=".yyav5.top"]
 ||1527ego.com^
+||21cnbm.com^
 ||666624.xyz^
 ||666625.xyz^
+||666627.xyz^
 ||asdqwe.ltd^
 ||asunbc.cn^
 ||byqiu.xyz^
 ||china-india.wang^
 ||danaoren.shop^
+||dhrfnyw.xyz^
+||dyjcydn.cloud^
 ||fangshan.us^
+||fgopr.top^
 ||fmzxing.pw^
 ||freebuy.top^
 ||gocyghol.vip^
 ||goldnfn.com^
 ||gytty.top^
 ||htgsbk.top^
+||ifvpetu.cn^
 ||khdry.top^
 ||l14.xyz^
 ||l45.xyz^
@@ -63236,37 +63247,33 @@ ubmcmm.baidustatic.com
 ||laura.fun^
 ||lhgjewelry.com^
 ||lhippac.cn^
+||lmcraft.pw^
 ||mgtcw.top^
 ||nfpplus.com^
+||nfwvip.com^
 ||njamlya.top^
 ||pxfeiws.cn^
 ||pymby.top^
 ||sdutmedia.com^
 ||shzq8888.com^
 ||slieindy.top^
+||uquholhm.cn^
+||very010.com^
+||vhlret.cn^
 ||vppvp.com^
+||wangjunyan.xyz^
 ||wephone.club^
 ||wfkspcs.cn^
+||wqyloitd.cn^
 ||wy123.fun^
 ||xmsrd.com^
 ||xyxhtyy.cn^
+||yctrs.top^
 ||ykghl.top^
 ||yzsbpp.top^
 ||zhangzhiyang01.cn^
 ||zhetoutiao.top^
 ||zsgwed.cn^
-||nfwvip.com^
-||vhlret.cn^
-||very010.com^
-||lmcraft.pw^
-||dyjcydn.cloud^
-||fgopr.top^
-||666627.xyz^
-||ifvpetu.cn^
-||wangjunyan.xyz^
-||21cnbm.com^
-||dhrfnyw.xyz^
-||yctrs.top^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -83313,9 +83320,6 @@ smjb.net##div[style*="height: 50%"]
 ||zhenben.cc/2000/
 ||zhuishubox.com/js/after-rain.js
 ###asdw3
-##.nr_all > .m_f_a.sw_sp
-##.callApp_fl_btn[onclick^="open_app"]
-##.look_more_a[onclick^="open_app"]
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
@@ -83326,12 +83330,15 @@ $image,third-party,domain=258zw.com
 &xhtml?$script,third-party
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
+##.callApp_fl_btn[onclick^="open_app"]
 .com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .com/js/wap_billing.js
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 .html?android=hx*&_$csp=script-src
 .js?ssid=_$script,third-party
+##.look_more_a[onclick^="open_app"]
 .lu/js/wap_billing.js
+##.nr_all > .m_f_a.sw_sp
 ##.readerListADbox
 /1.js?ssfrid=$script,third-party
 /121sdw/*$script,third-party
@@ -110250,7 +110257,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
-@@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
+@@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||metrics.torproject.org^$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
