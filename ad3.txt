@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 9/BQNEonjs8/Xm+0yr0axg
+! Checksum: aZf24vtBfzz8ojll0tHVig
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206260834
-! Last Modified: 2022年06月26日 08:34
+! Version: 202206261405
+! Last Modified: 2022年06月26日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1195,6 +1195,7 @@ ubmcmm.baidustatic.com
 ~05wang.com##.a_pr
 ~88liu.com,~briian.com##.a_pt
 ##.a_ssk_cn
+##script + a[href^="https://l.hyenadata.com/"]
 ##.a_sxc
 ##.a_xsfl
 ##.aab-post
@@ -1962,6 +1963,16 @@ ubmcmm.baidustatic.com
 ||zhetoutiao.top^
 ||zsgwed.cn^
 ||666632.xyz^
+||cwphgqu.cn^
+||topnfj.com^
+||oyybgs.cn^
+||pfskzj.cn^
+||sliiindy.top^
+||letsread.club^
+||ntyrt.top^
+##a[href*=".urfatek.com/"]
+||helilong.xyz^
+||slcgngo.cn^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -14220,6 +14231,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zimuku.org/sp1.gif
+||qy0.ru/data/game/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 zimuku.org###rbad
@@ -26356,7 +26368,6 @@ m.babytree.com##script + a[class]
 /countstat.php?
 /countubn.
 /countus.php
-/coveo.analytics.js/*
 /cpeEvent.
 /cpeEventTracking.
 /cqcounter.
@@ -32155,7 +32166,6 @@ _mongo_stats/
 ||leadlab.click^$third-party
 ||leadlife.com^$third-party
 ||leadmanagerfx.com^$third-party
-||leadpages.net^$third-party
 ||leadsius.com^$third-party
 ||leadsleap.com^$third-party
 ||leadsmonitor.io^$third-party
@@ -36179,6 +36189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chegg.com^
 ||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
+||analytics.cloud.coveo.com^
 ||analytics.cmn.com^
 ||analytics.codigo.se^
 ||analytics.contentexchange.me^
@@ -37164,6 +37175,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -37869,6 +37881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.signalayer.com^
 ||t.skimresources.com^
 ||t.smile.eu^
+||t.splicky.com^
 ||t.spot.im^
 ||t2.t2b.click^
 ||tag-manager.playbuzz.com^
@@ -49967,6 +49980,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
+||homegate.ch/g/collect?
 ||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
@@ -51149,7 +51163,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
@@ -51209,6 +51223,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
+@@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest

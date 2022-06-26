@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: vIYt+tKAwsdiMVin++uGiA
+! Checksum: ywBugC1EA/+gV/1d3UOjvA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206260834
-! Last Modified: 2022年06月26日 08:34
+! Version: 202206261405
+! Last Modified: 2022年06月26日 14:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -6521,6 +6521,7 @@ tieba.baidu.com##.tuijian-wrap
 /taboola-header.
 /taboola_header.
 /taboolaArticle.
+/taboolaSection.
 /tag-adv.
 /tag_adv/*
 /tag_oas.
@@ -23443,6 +23444,7 @@ _800x80_
 ##.at-header-ad
 ##.at-sidebar-ad
 ##.atcode_wp_bnn
+##.atf-ad
 ##.atf-ad-medRect
 ##.atf-ad-medrec
 ##.atf-wrapper
@@ -34007,6 +34009,7 @@ tf2r.com#@#.adverts
 ||aj2208.online^
 ||aj2373.online^
 ||aj2397.online^
+||aj2430.online^
 ||ajarsubscriber.com^
 ||ajfnee.com^
 ||ajileuztnu.com^
@@ -57587,12 +57590,13 @@ getdroidtips.com##.code-block-15
 bleachernation.com,mydailyfreedom.com##.code-block-16
 cryptobriefing.com,cryptoreporter.info,gatewaynews.co.za,geekspin.co,journeybytes.com,kanonitv.net,mikeprg.com##.code-block-2
 cryptoreporter.info,techpp.com##.code-block-3
-getdroidtips.com,guru99.com,thegayuk.com,wisden.com##.code-block-4
+getdroidtips.com,guru99.com,thegayuk.com,vanguardngr.com,wisden.com##.code-block-4
 androidsage.com,patriotfetch.com,welovetrump.com##.code-block-5
 estnn.com##.code-block-59
+bigleaguepolitics.com##.code-block-6
 geekspin.co,thedriven.io##.code-block-7
 getdroidtips.com,welovetrump.com,wisden.com##.code-block-8
-androidsage.com##.code-block-9
+androidsage.com,bigleaguepolitics.com##.code-block-9
 estnn.com##.code-block-label
 link-base.org##.col-lg-12
 mydramalist.com##.col-lg-4 > .clear
@@ -58597,6 +58601,7 @@ rocket-league.com##.rlg-trading-spacer
 indiatimes.com##.rmfp
 rebelnews.com##.rn-article-ad
 rebelnews.com##.rn-sidebar-ad
+rebelnews.com##.rn_widgets_content
 realitytea.com##.roadblock
 surinenglish.com##.roba
 roblox.com##.roblox-skyscraper
@@ -62540,6 +62545,7 @@ ubmcmm.baidustatic.com
 ~05wang.com##.a_pr
 ~88liu.com,~briian.com##.a_pt
 ##.a_ssk_cn
+##script + a[href^="https://l.hyenadata.com/"]
 ##.a_sxc
 ##.a_xsfl
 ##.aab-post
@@ -63307,6 +63313,16 @@ ubmcmm.baidustatic.com
 ||zhetoutiao.top^
 ||zsgwed.cn^
 ||666632.xyz^
+||cwphgqu.cn^
+||topnfj.com^
+||oyybgs.cn^
+||pfskzj.cn^
+||sliiindy.top^
+||letsread.club^
+||ntyrt.top^
+##a[href*=".urfatek.com/"]
+||helilong.xyz^
+||slcgngo.cn^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -75565,6 +75581,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||zimuku.org/sp1.gif
+||qy0.ru/data/game/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 zimuku.org###rbad
@@ -85428,7 +85445,6 @@ fqsousou.com,kengso.com#@#.user-share
 /countstat.php?
 /countubn.
 /countus.php
-/coveo.analytics.js/*
 /cpeEvent.
 /cpeEventTracking.
 /cqcounter.
@@ -91227,7 +91243,6 @@ _mongo_stats/
 ||leadlab.click^$third-party
 ||leadlife.com^$third-party
 ||leadmanagerfx.com^$third-party
-||leadpages.net^$third-party
 ||leadsius.com^$third-party
 ||leadsleap.com^$third-party
 ||leadsmonitor.io^$third-party
@@ -95251,6 +95266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chegg.com^
 ||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
+||analytics.cloud.coveo.com^
 ||analytics.cmn.com^
 ||analytics.codigo.se^
 ||analytics.contentexchange.me^
@@ -96236,6 +96252,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -96941,6 +96958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.signalayer.com^
 ||t.skimresources.com^
 ||t.smile.eu^
+||t.splicky.com^
 ||t.spot.im^
 ||t2.t2b.click^
 ||tag-manager.playbuzz.com^
@@ -109039,6 +109057,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
 ||hokuspokus.tarnkappe.info^
+||homegate.ch/g/collect?
 ||horizont.net/stats/
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
@@ -110221,7 +110240,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
@@ -110281,6 +110300,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
+@@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
