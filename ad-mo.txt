@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lYyQrFTACbJLt1FIS4AsAA
+! Checksum: NnVCONm9fEID81OuLyCC5w
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202206271408
-! Last Modified: 2022年06月27日 14:08
+! Version: 202206272011
+! Last Modified: 2022年06月27日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -61054,6 +61054,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
 @@||material.angular.io^$generichide
+@@||material.io^$generichide
 @@||mui.com^$generichide
 @@||myaccount.google.com^$generichide
 @@||netflix.com^$generichide
@@ -63247,6 +63248,7 @@ ubmcmm.baidustatic.com
 ||hbtyk.top^
 ##a[href*=".meta-wg.com/"]
 ||666637.xyz^
+||iirpvchv.cn^
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -73549,7 +73551,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||lancdn.com^*/LinuxProbe_
 ||lancdn.com^*/uneed
 ||lancdn.com^*/wisecare
-||language-center.com.tw/udn/
 ||langxi.org/langxi/*900$image,object
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
@@ -74823,10 +74824,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||uczfl.com/data/content
 ||udn.com.tw/upf/*_banners/BD/
 ||udn.com.tw/upf/2015_money/SSI/ad/
-||udn.com/2010MAIN/inc/t03-CMS.html
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
-||udn.com/SSI/neckFrame
 ||udn.com^*/ad/
 ||ufile.cc/crod.js
 ||ultraimg.com^$domain=18board.com|18p2p.com
@@ -75676,7 +75675,6 @@ btime.com###ad_full_button_placehoder
 youxidudu.com###ad_googlebox_pc
 autohome.com.cn###ad_ic_video
 lqz.cn###ad_index
-udn.com###ad_mag
 chunyuyisheng.com###ad_modal
 100ksw.com###ad_move_sg
 zysj.com.cn###ad_pc_bottom
@@ -75912,7 +75910,6 @@ yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
 jdyou.com###contentSlide
-udn.com###content_body_banner
 aa25.cn###content_head
 aa25.cn,kafan.cn###content_top
 360kuai.com###content_top_gg
@@ -76883,7 +76880,6 @@ ziqiangxuetang.com###tutorial_btm
 ali213.net###tv
 jb51.net,makaidong.com###txtlink
 vpsmm.com###uc
-udn.com###udn_scupio_responsive_wrapper
 hurigirls99.xyz###undertd
 hurigirls99.xyz###undertd + div[style]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###union_mod
@@ -79038,7 +79034,6 @@ wallstreetcn.com##.omg-container
 10jqka.com.cn,hepan.com##.onead
 duba.com##.oneone-search
 bilibili.com##.online + .adpos
-udn.com##.only_web > .DisplayVideo
 wdzj.com##.opentb
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
@@ -81034,7 +81029,6 @@ typecho.wiki##span[style="height: 17px;margin-left: 10px;background: #000;border
 yivian.com##span[style^="color: #ff0000;"]
 159i.com##style + div[align="center"]
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
-udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
 my0511.com##table[bordercolor="#C0C0C0"][border="1"]
 bbs.fobshanghai.com##table[cellpadding="4"][style="background: #D6E0EF"]
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
@@ -110016,6 +110010,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
@@ -110224,6 +110219,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
+@@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
@@ -110272,6 +110268,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
+@@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
