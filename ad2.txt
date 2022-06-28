@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ps6vPv/0YfkCUyo5/Ldfow
+! Checksum: heAwT2w2xtZd2ApJVRX63Q
 ! Title: CJX's AdFilters
 ! Expires: 12 hours
-! Version: 202206280831
-! Last Modified: 2022年06月28日 08:31
+! Version: 202206281406
+! Last Modified: 2022年06月28日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 仅合并规则，未做其余任何处理
@@ -150,6 +150,7 @@ adx1.com
 aqours.today
 envyindebted.com
 in-page-push.com
+mediaadjustment.com
 stgowan.com
 trustedgatetocontent.com
 netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
@@ -172,6 +173,7 @@ ieeod0.com
 jinrongwang.net
 onenews.vip
 qdwght.com
+qfnoyix.cn
 quickapp.cn
 v4dwkcv.com
 weizhenwx.com
@@ -1902,6 +1904,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||zzycj.com^
 ##a[href*=".dztjy.com/"]
 ##a[href*=".icekingshop.com/"]
 ##a[href*=".meta-kp.com/"]
@@ -1997,6 +2000,10 @@ ubmcmm.baidustatic.com
 ||unypud.cn^
 ||azfrij.cn^
 ||666638.xyz^
+||yyrrw.top^
+||piilvhtu.cn^
+||trznrug.cn^
+||qichegongxiang.xyz^
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
 ##a[href*=".eampakt.com/"]
@@ -14226,6 +14233,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ttsp.tv##.play_list_adbox
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
