@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: lKoarZ7dSh/1KR7JWMx8Bg
+! Checksum: nNfG3ahSOegpZ3JSTyOaow
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206281406
-! Last Modified: 2022年06月28日 14:06
+! Version: 202206282011
+! Last Modified: 2022年06月28日 20:11
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2004,6 +2004,8 @@ ubmcmm.baidustatic.com
 ||piilvhtu.cn^
 ||trznrug.cn^
 ||qichegongxiang.xyz^
+||xox9325.com^
+||xox8956.com^
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
 ##a[href*=".eampakt.com/"]
@@ -13554,7 +13556,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||u.63kc.com^
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
-||u17i.com/readad/
 ||uc.zhuici.com^
 ||uc129.com/images/top_hjsj.jpg
 ||uc129.com/m/
@@ -13577,12 +13578,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||up.hiao.com^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
-||upan.cc/images/pay/
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uugtv.com/x/app/videoSpread?
-||uuu9.com/news/css/news_content_in.js
-||uuu9.com/yoyo_
 ||uuu9.tieba.com^$subdocument
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
@@ -13590,7 +13588,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
-||v5pc.com/static/images/dn
 ||vanpeople.com/gg/
 ||vansky.com/agdg/homegg/
 ||vansky.com/agdg/Individual/
@@ -14233,6 +14230,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+v2rayssr.com##.slider-4-box1
+v2rayssr.com##a[href*="goii.cc"]
 ttsp.tv##.play_list_adbox
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -14345,7 +14344,6 @@ sina.com.cn###SI_Comment_DA
 www.sina.com.cn###SI_EDU_AD
 playzuan.com###ShouYe_ShangBu
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
-upan.cc###ShowDIV
 soopat.com###SoopatAside
 fx168.com###SquareBanner01_01
 csdn.net###Topic_Top
@@ -14617,7 +14615,6 @@ i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"
 cqfishing.net###chs_bannerArea
 seseda90.com###clone_ad
 gz0668.com###closexguide
-uuu9.com###cm1337
 baidu.com###cms-company
 baidu.com###cms-scroll
 image.baidu.com###cmsimage
@@ -14891,7 +14888,6 @@ windows7en.com###fu_box_logo
 uotan.cn###fuck-ads
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
-v5pc.com###full_downad
 ifeng.com###funBar
 cool-de.com###fwin_popadv
 cool-de.com###fwin_popadv_cover
@@ -16264,7 +16260,6 @@ so.com##.atom-adv
 gamefy.cn,sitv.com.cn##.att-bar
 chexun.com##.attr-outside-ad
 lightnovel.us##.author + .poster
-u17.com##.auto_ad
 yangmaodang.org##.autumn-single-bottom-a-d
 yangmaodang.org##.autumn-single-top-a-d
 volcore.xyz##.avd1
@@ -16789,7 +16784,7 @@ downg.com##.download-list:first-child
 theworld.cn##.download-now
 wmzhe.com##.downloader
 9ht.com,pc0359.cn,pc6.com##.downnow
-cr173.com,downcc.com,downyi.com,itmop.com,v5pc.com,xfdown.com##.downnowgaosu
+cr173.com,downcc.com,downyi.com,itmop.com,xfdown.com##.downnowgaosu
 cr173.com##.downurl[data^="viewAds"]
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 123.sogou.com,web.sogou.com##.dropBox_list > li > a > span[style="color:red"]
@@ -18202,7 +18197,6 @@ fsdpp.cn##.sidebox > a > img
 qq.com##.sider_ad
 docin.com##.sider_gg
 sina.com.cn##.sinaads
-uuu9.com##.sindex_ad1
 2000fun.com##.single-box
 fujieace.com##.single-goods
 jszbug.com##.single-top-html
@@ -18369,7 +18363,6 @@ outofmemory.cn##.tgBar
 sogou.com##.tgad-box
 www.sogou.com##.tgad-box + div
 sogou.com##.tgad-title
-uuu9.com##.tgbox
 wanghualang.com##.theiaStickySidebar
 firefoxchina.cn##.theme-618 .theme-side-bg .mod
 firefoxchina.cn##.theme-adv
@@ -18732,7 +18725,6 @@ youku.com##.yk-AD-tong
 hk.news.yahoo.com##.yog-col div.classickick[data-beacon-fired]
 9ku.com##.youFix
 zol.com##.youxuan-shop
-uuu9.com##.yoyofc
 ysxs8.com##.ysxs8_w960_1
 52ghai.com##.yttl_x_g
 xiadele.com##.yun-advertisement
@@ -40007,6 +39999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||myspace.com/beacon/
 ||n26-trusted.n26.com^
 ||namethatporn.com/assets/imgs/1x1.gif
+||nasi.etherscan.com^
 ||nature.com/platform/track/
 ||naukrigulf.com/ni/nibms/bms_display.php
 ||nbarizona.com/metrics/
@@ -51018,7 +51011,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
-@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
@@ -51385,6 +51377,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||support.brother.com^*/js/analytics.js$script,~third-party
 @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
+@@||tag.aticdn.net^*/smarttag.js$domain=rte.ie
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script
