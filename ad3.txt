@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T+46Y7Pyjoxc29DGXgUdDQ
+! Checksum: w4HLtk4dmBMWIyPnrOHsKQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206300827
-! Last Modified: 2022年06月30日 08:27
+! Version: 202206301406
+! Last Modified: 2022年06月30日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2034,6 +2034,14 @@ ubmcmm.baidustatic.com
 ||gfvip09aa.com^
 ||2077.tech^
 ||zhoudm.love^
+||hhyyt.top^
+##a[href*=".dbrows.com/"]
+||666643.xyz^
+||hnshangzhongxia.com^
+||aoxiang.fun^
+||tdtxkvj.cn^
+||abbqhst.cn^
+||hsiaik.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14257,6 +14265,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||weibo.cn/status/banner?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -26244,7 +26253,6 @@ m.babytree.com##script + a[class]
 /collect_v3.
 /collection.php?data=
 /collector-*/event
-/collector.php?
 /collector/beacon
 /collector/hit?
 /collector/pageview
@@ -27832,6 +27840,7 @@ m.babytree.com##script + a[class]
 /mms.*/pv?
 /mms/get_loaders?
 /mmt.gif?
+/mn-collector.
 /mngi/tracking/*
 /mnppixellibrary.
 /mnt/imp?
@@ -28474,6 +28483,7 @@ m.babytree.com##script + a[class]
 /quidsi.ga.js?
 /QuotaService.RecordEvent?
 /r.gif?
+/r.rnc?
 /r/collect?
 /ra_track.
 /radar/trace?
@@ -37208,6 +37218,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
 ||leadtracking.plumvoice.com^
@@ -50254,6 +50265,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||hktvmall.com/api/event
 ||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
@@ -50347,6 +50359,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rcgi.video.qq.com^
 ||rec.udn.com^
 ||referer.pixplug.in^
+||regimeal.hk/apis/track_view_product
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rgd.com.cn/counter/

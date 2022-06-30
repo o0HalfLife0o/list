@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7Xceu4Zb3YPuYck8hbezRg
+! Checksum: NScisXGIs+4Y4x0PfwXjJA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202206300827
-! Last Modified: 2022年06月30日 08:27
+! Version: 202206301406
+! Last Modified: 2022年06月30日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -17937,6 +17937,7 @@ _800x80_
 ##.abovead
 ##.abp-homepage-right-ad
 ##.absoluteAd_wss
+##.ac-banner-ad
 ##.ac_adbox
 ##.ac_adbox_inner
 ##.acf-ad
@@ -56359,6 +56360,7 @@ ytmp3.cc###a-320-50
 egotastic.com###a46c6331
 egotasticsports.com###a83042c4
 krunker.io###aHolder
+tokder.org###aaaa
 imagebam.com###aad-header-1
 imagebam.com###aad-header-2
 imagebam.com###aad-header-3
@@ -56991,6 +56993,7 @@ sanjose.com###sponsors-module
 ourworldofenergy.com###sponsors_container
 rent.ie###sresult_banner
 searchenginejournal.com###sspcat_ifr
+tokder.org###ssss
 systutorials.com###st-in-post-1
 bizarrepedia.com###stack > .ln-thr
 saharareporters.com###stage-header
@@ -61103,8 +61106,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|zdnet.com|zeebiz.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|worldsurfleague.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|pch.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
 @@||improvedigital.com/pbw/headerlift.min.js$domain=games.co.uk|kizi.com|zigiz.com
@@ -61178,6 +61181,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||productioncars.com/pics/menu/$~third-party
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
+@@||pubads.g.doubleclick.net/ssai/$domain=worldsurfleague.com
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
@@ -63521,6 +63525,14 @@ ubmcmm.baidustatic.com
 ||gfvip09aa.com^
 ||2077.tech^
 ||zhoudm.love^
+||hhyyt.top^
+##a[href*=".dbrows.com/"]
+||666643.xyz^
+||hnshangzhongxia.com^
+||aoxiang.fun^
+||tdtxkvj.cn^
+||abbqhst.cn^
+||hsiaik.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75744,6 +75756,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||weibo.cn/status/banner?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -85455,7 +85468,6 @@ fqsousou.com,kengso.com#@#.user-share
 /collect_v3.
 /collection.php?data=
 /collector-*/event
-/collector.php?
 /collector/beacon
 /collector/hit?
 /collector/pageview
@@ -87043,6 +87055,7 @@ fqsousou.com,kengso.com#@#.user-share
 /mms.*/pv?
 /mms/get_loaders?
 /mmt.gif?
+/mn-collector.
 /mngi/tracking/*
 /mnppixellibrary.
 /mnt/imp?
@@ -87685,6 +87698,7 @@ fqsousou.com,kengso.com#@#.user-share
 /quidsi.ga.js?
 /QuotaService.RecordEvent?
 /r.gif?
+/r.rnc?
 /r/collect?
 /ra_track.
 /radar/trace?
@@ -96419,6 +96433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
 ||lcs.naver.com^
+||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
 ||leadtracking.plumvoice.com^
@@ -109465,6 +109480,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||hhytrace.sogoucdn.com^
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
+||hktvmall.com/api/event
 ||hujiang.com/v2/log
 ||i-cable.com/ci/tracking/
 ||ifeng.com/i?p=
@@ -109558,6 +109574,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rcgi.video.qq.com^
 ||rec.udn.com^
 ||referer.pixplug.in^
+||regimeal.hk/apis/track_view_product
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rgd.com.cn/counter/
