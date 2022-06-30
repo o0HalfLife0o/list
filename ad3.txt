@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R8GE6uEhXtYGdZRLskWc+Q
+! Checksum: T+46Y7Pyjoxc29DGXgUdDQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206300211
-! Last Modified: 2022年06月30日 02:11
+! Version: 202206300827
+! Last Modified: 2022年06月30日 08:27
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2029,6 +2029,11 @@ ubmcmm.baidustatic.com
 ||zhetoutiao.top^
 ||zsgwed.cn^
 ||zzycj.com^
+||lantian.love^
+||daibu.me^
+||gfvip09aa.com^
+||2077.tech^
+||zhoudm.love^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -36128,6 +36133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||99widgets.com/counters/
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.getflowbox.com^
+||a.hcaptcha.com^
 ||a.mobify.com^
 ||a2z.com/sping?
 ||aan.amazon.com^$third-party
@@ -51254,6 +51260,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kbctouch.kbc.be^*/dynatrace-$script,~third-party
 @@||kentucky.com/mistats/finalizestats.js$~third-party
+@@||kissfm.es/wp-content/themes/kissfm/assets/js/comscore.js$~third-party
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
