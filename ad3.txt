@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gSuFwNSz/7KNH0rR743dew
+! Checksum: t1/WEYg/d6lMmshAHzwrHA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207011407
-! Last Modified: 2022年07月01日 14:07
+! Version: 202207012010
+! Last Modified: 2022年07月01日 20:10
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -40563,6 +40563,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webengage.sky.com^$xmlhttprequest
 ||weblog.flyasiana.com^
 ||weblog.strawberrynet.com^
+||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||wellsfargo.com/AIDO/
 ||wellsfargo.com/tracking/
@@ -51178,6 +51179,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$script,~third-party
 @@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||coremetrics.com*/eluminate.js
 @@||coxbusiness.com/R136/assets/newrelic/newrelic.js$~third-party
@@ -51841,7 +51843,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
@@ -51876,6 +51878,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
 @@||tags.tiqcdn.com/utag/*/utag.sync.js$script,domain=sony.jp
 @@||twitter.com/oct.js$domain=jp.square-enix.com
+@@||type.jp/common/js/clicktag.js
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
