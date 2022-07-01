@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: c5Pb97OjEo3Td0Mz6Z1hLA
+! Checksum: u1HIb7jTDzt3C+P1i46beg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207010833
-! Last Modified: 2022年07月01日 08:33
+! Version: 202207011407
+! Last Modified: 2022年07月01日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -1844,8 +1844,8 @@ pan.baidu.com##.upload-bar.global-clearfix
 /adcore_$domain=~adcore.ch|~adcore.com.au
 /adcount.$domain=~adcount.com|~adcount.fi
 /adcounter.
-/adcreative.$domain=~adcreative.es|~hange.jp
-/adcreative/*$~image
+/adcreative.$domain=~adcreative.es|~adcreative.nl|~hange.jp
+/adcreative/*$~image,domain=~adcreative.nl
 /adcreatives/*
 /adcss/*$~image
 /adctrl/*$~image
@@ -31251,12 +31251,14 @@ _800x80_
 ##[href^="https://affiliate.fastcomet.com/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
+##[href^="https://clk.right-wing-health.com/"]
 ##[href^="https://cpa.10kfreesilver.com/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://glersakr.com/"]
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://ilovemyfreedoms.com/landing-"]
 ##[href^="https://infinitytrk.com/"]
 ##[href^="https://istlnkcl.com/"]
 ##[href^="https://join.girlsoutwest.com/"]
@@ -31688,6 +31690,7 @@ _800x80_
 ##a[href^="https://claring-loccelkin.com/"]
 ##a[href^="https://click.a-ads.com/"]
 ##a[href^="https://click.hoolig.app/"]
+##a[href^="https://click.linksynergy.com/"]
 ##a[href^="https://click.plista.com/pets"]
 ##a[href^="https://clickadilla.com/"]
 ##a[href^="https://clicks.pipaffiliates.com/"]
@@ -41323,7 +41326,6 @@ tf2r.com#@#.adverts
 ||linicom.co.il^
 ||linicom.co.uk^
 ||linkbuddies.com^
-||linkclicks.com^
 ||linkedgraceless.com^
 ||linkedprepenseprepense.com^
 ||linkeinvitable.site^
@@ -51170,6 +51172,7 @@ tf2r.com#@#.adverts
 ||weborama.io^$third-party
 ||webtrafic.ru^$third-party
 ||webwap.org^$third-party
+||whatfinger.com^$third-party
 ||whizzco.com^$third-party
 ||widgetly.com^$third-party
 ||winadx.com^$third-party
@@ -56228,7 +56231,7 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 /about:blank.*/$popup,domain=bitporno.com|iceporn.com|katestube.com|videowood.tv|xtapes.to
 $popup,third-party,domain=porn-tube-club.com
 !------------------------Specific element hiding rules------------------------!
-smagnet.so###AD
+magnet.so###AD
 webcarstory.com###Ads
 search.snapdo.com###AfloatingD
 weegy.com###BannerDiv
@@ -57203,7 +57206,7 @@ wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com##.adblock
 entrepreneur.com,pricespy.co.nz##.adbox
 moviechat.org##.adc
-ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,videogameschronicle.com,worldhistory.org##.adcontainer
+ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
 edutourism.in,news24online.com,online-image-editor.com,thehindu.com##.add
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
@@ -58944,7 +58947,7 @@ healthyceleb.com##.td-header-header-full
 androidcommunity.com##.td-header-rec-wrap
 5pillarsuk.com,babeltechreviews.com,sonorannews.com,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 gadgetstouse.com##.td-ss-main-sidebar
-ssbcrack.com##.td_spot_img_all
+capsulenz.com,ssbcrack.com##.td_spot_img_all
 tech-latest.com##.tdi_102_e06
 arynews.tv##.tdi_103
 pakobserver.net##.tdi_121
@@ -59096,6 +59099,7 @@ kyivpost.com##.widget-300-250
 wikikeep.com##.widget-area
 cinemaexpress.com##.widget-container-133
 miniclip.com##.widget-mpu
+dawn.com##.widget-sponsoredcontent
 screencrush.com##.widget-widget_third_party_content
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,usmagazine.com##.widget_block
@@ -63487,6 +63491,10 @@ ubmcmm.baidustatic.com
 ||666645.xyz^
 ||gfvip06al.com^
 ||mmrrk.top^
+||txie.club^
+||nfhtech.com^
+||uyzdcun.cn^
+||scktmdv.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -85861,6 +85869,7 @@ fqsousou.com,kengso.com#@#.user-share
 /event?eventType=
 /event?pmo=
 /event?ref=
+/event?sendBeacon=
 /event?stat_
 /event?t=view&
 /event?token=
@@ -89361,6 +89370,7 @@ fqsousou.com,kengso.com#@#.user-share
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -89892,6 +89902,7 @@ _mongo_stats/
 ||briskpelican.io^
 ||brontops.com^
 ||bydst.com^
+||captcha-display.com^
 ||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
@@ -89999,6 +90010,7 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
 ||omtrdc.net^
+||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
 ||ostrichesica.com^
@@ -90037,6 +90049,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stat.ovh^
 ||summerhamster.com^
+||superpointlesshamsters.com^
 ||tagcachedataxrt.com^
 ||tagcachestaticx.com^
 ||tatpek.com^
@@ -90769,6 +90782,7 @@ _mongo_stats/
 ||dpbolvw.net^$third-party
 ||dps-reach.com^$third-party
 ||driv-analytics.com^$third-party
+||dropboxfingerprintjs.com^$third-party
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party

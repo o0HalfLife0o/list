@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0FOCi0eGkNzfLXas4xZkuQ
+! Checksum: gSuFwNSz/7KNH0rR743dew
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207010833
-! Last Modified: 2022年07月01日 08:33
+! Version: 202207011407
+! Last Modified: 2022年07月01日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2061,6 +2061,10 @@ ubmcmm.baidustatic.com
 ||666645.xyz^
 ||gfvip06al.com^
 ||mmrrk.top^
+||txie.club^
+||nfhtech.com^
+||uyzdcun.cn^
+||scktmdv.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -26711,6 +26715,7 @@ m.babytree.com##script + a[class]
 /event?eventType=
 /event?pmo=
 /event?ref=
+/event?sendBeacon=
 /event?stat_
 /event?t=view&
 /event?token=
@@ -30211,6 +30216,7 @@ m.babytree.com##script + a[class]
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -30742,6 +30748,7 @@ _mongo_stats/
 ||briskpelican.io^
 ||brontops.com^
 ||bydst.com^
+||captcha-display.com^
 ||cdnhst.xyz^
 ||click360.io^
 ||cloudwp.io^
@@ -30849,6 +30856,7 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
 ||omtrdc.net^
+||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
 ||ostrichesica.com^
@@ -30887,6 +30895,7 @@ _mongo_stats/
 ||spinnaker-js.com^
 ||stat.ovh^
 ||summerhamster.com^
+||superpointlesshamsters.com^
 ||tagcachedataxrt.com^
 ||tagcachestaticx.com^
 ||tatpek.com^
@@ -31619,6 +31628,7 @@ _mongo_stats/
 ||dpbolvw.net^$third-party
 ||dps-reach.com^$third-party
 ||driv-analytics.com^$third-party
+||dropboxfingerprintjs.com^$third-party
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party
