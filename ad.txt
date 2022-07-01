@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: st6hZ9w580cuSVeaBRHIsA
+! Checksum: XJ6MkzmHUZGKM+DMAfGGaw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202207010206
-! Last Modified: 2022年07月01日 02:06
+! Version: 202207010833
+! Last Modified: 2022年07月01日 08:33
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -584,8 +584,8 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 */preroll/$media,domain=91porn.com
 91p20.space
 waust.at
-age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=mgtv1.tv|mgtv.cc|agemys.com|acgndmku.com|subaibaiys.com
+age.tv,agemys.cc##+js(noeval-if, devtoolsDetector)
+||toutiaoimg.com/origin/$image,domain=mgtv1.tv|mgtv.cc|agemys.cc|acgndmku.com|subaibaiys.com
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 d58zz.com
 dandanzan10.top,nunuyy1.org##+js(set,RTCPeerConnection,null)
@@ -629,6 +629,8 @@ youle55.com
 ||www.yatu.tv:2082/image/*.gif^$image
 ||www.yatu.tv:2082/m/images/$image
 ||nooen.com^$popup
+bixinlive.com
+quandangdang.net
 @@||union.bokecc.com/player
 ||bokecc.com/flash/playlog?
 ||click.bokecc.com/
@@ -2500,6 +2502,12 @@ ubmcmm.baidustatic.com
 ||zhoudm.love^
 ||zsgwed.cn^
 ||zzycj.com^
+||jintan.fun^
+||sl6.top^
+||wangduoduo.pw^
+||666645.xyz^
+||gfvip06al.com^
+||mmrrk.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
