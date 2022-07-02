@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: oIyOh1HscW55Ilv1yvxZCA
+! Checksum: ggjWKYAjrisuAceCxpvFZg
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207022007
-! Last Modified: 2022年07月02日 20:07
+! Version: 202207030202
+! Last Modified: 2022年07月03日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -60715,7 +60715,7 @@ gayporno.fm##.traffic
 proporn.com##.trailerspots
 pornguide.info##.twp-adv-header
 boysfood.com##.txt-a-onpage
-thegay.com##.underplayer__info > div
+thegay.com##.underplayer__info > div:not([class])
 tryindianporn.com##.uvk
 hentaiprn.com##.v-overlay
 tuberel.com##.vda-item
@@ -60743,6 +60743,7 @@ palimas.org##.video-promo
 hotmovs.tube##.video-right-top
 porntry.com##.video-side__spots
 pornez.net##.video-sidebar
+thegay.com##.video-slider-container
 kisscos.net##.video-sponsor
 xhamster.com##.video-view-ads
 pornhub.com,pornhubthbh7ap3u.onion##.video-wrapper > #player + [class]
@@ -63548,6 +63549,8 @@ ubmcmm.baidustatic.com
 ||kkggy.top^
 ##a[href*=".saeilkorea.com/"]
 ||viswcnb.cn^
+||xox9298.com^
+||666647.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75582,6 +75585,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
