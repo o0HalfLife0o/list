@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hq3FYRVltJVdS2bK0H1sUA
+! Checksum: dWqiKu36TS9oskqGTdzJRQ
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207031406
-! Last Modified: 2022年07月03日 14:06
+! Version: 202207032009
+! Last Modified: 2022年07月03日 20:09
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -32704,6 +32704,7 @@ sweetdeals.com#@#a[href*="https://www.sweetdeals.com/"] img
 legacy.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 mail.yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
+xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
 bookworld.no#@#a[href^="https://ndt5.net/"]
 legacy.com#@#a[href^="https://pubads.g.doubleclick.net/"]
@@ -57302,6 +57303,7 @@ tellymix.co.uk##.a-text
 trendstorys.com##.a-wrap
 breitbart.com##.a-wrapper
 foreca.com##.a1sjxe3a
+informer.com##.a2
 supercheats.com##.a300
 wmtips.com##.a3f17
 localtiger.com##.a9gy_lt
@@ -63685,6 +63687,8 @@ ubmcmm.baidustatic.com
 ||xinhuan.mobi^
 ||bwsvftq.cn^
 ||fhfgg.com^
+||meta-wx.com^
+||666648.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75719,6 +75723,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+hsex.men##.col-xs-12 > a[target="_blank"]
 v2rayssr.com##.slider-4-box1
 v2rayssr.com###b2-widget-html-12
 szxx.com.cn###A1
