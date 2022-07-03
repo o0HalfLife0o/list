@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y8Lk1Lyez/mhSz0c9qLHEQ
+! Checksum: lhtZqhcQoD/AwIanRMy0xg
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202207030202
-! Last Modified: 2022年07月03日 02:02
+! Version: 202207030831
+! Last Modified: 2022年07月03日 08:31
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2362,6 +2362,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".meta-kp.com/"]
 ##a[href*=".meta-wg.com/"]
 ##a[href*=".picoville.com/"]
+##a[href*=".saeilkorea.com/"]
 ##a[href*=".urfatek.com/"]
 ##a[href*="/8616.tech"]
 ##div[onclick*=".yyav5.top"]
@@ -2377,6 +2378,7 @@ ubmcmm.baidustatic.com
 ||666642.xyz^
 ||666643.xyz^
 ||666645.xyz^
+||666647.xyz^
 ||abbqhst.cn^
 ||aizhigu.tv^
 ||ajzs.xyz^
@@ -2428,6 +2430,7 @@ ubmcmm.baidustatic.com
 ||helilong.xyz^
 ||hhyyt.top^
 ||hnshangzhongxia.com^
+||hongjingsn.top^
 ||hsiaik.com^
 ||htgsbk.top^
 ||ifvpetu.cn^
@@ -2437,9 +2440,11 @@ ubmcmm.baidustatic.com
 ||jpnbhyba.xyz^
 ||k31bpzf.xyz^
 ||kengi.top^
+||kf94.club^
 ||kgsz.cn^
 ||khdry.top^
 ||kj-gov.cn^
+||kkggy.top^
 ||kmvbre.com^
 ||krkcryk.cn^
 ||kzecc.com^
@@ -2473,6 +2478,7 @@ ubmcmm.baidustatic.com
 ||pymby.top^
 ||qianyan.love^
 ||qichegongxiang.xyz^
+||qncphvc.cn^
 ||rqkfhquz.cn^
 ||rrkky.top^
 ||scktmdv.cn^
@@ -2488,6 +2494,7 @@ ubmcmm.baidustatic.com
 ||slivindy.top^
 ||slizindy.top^
 ||sozdzl.cn^
+||tangxiaodou.top^
 ||tdtxkvj.cn^
 ||topnfj.com^
 ||topnfw.com^
@@ -2498,6 +2505,7 @@ ubmcmm.baidustatic.com
 ||uyzdcun.cn^
 ||very010.com^
 ||vhlret.cn^
+||viswcnb.cn^
 ||vppvp.com^
 ||vvpingtai.com^
 ||wangduoduo.pw^
@@ -2512,6 +2520,7 @@ ubmcmm.baidustatic.com
 ||xiaomilingjing.com^
 ||xmsrd.com^
 ||xox8956.com^
+||xox9298.com^
 ||xox9325.com^
 ||xyxhtyy.cn^
 ||yaomuzhubao.com^
@@ -2529,15 +2538,6 @@ ubmcmm.baidustatic.com
 ||zhoudm.love^
 ||zsgwed.cn^
 ||zzycj.com^
-||tangxiaodou.top^
-||qncphvc.cn^
-||hongjingsn.top^
-||kf94.club^
-||kkggy.top^
-##a[href*=".saeilkorea.com/"]
-||viswcnb.cn^
-||xox9298.com^
-||666647.xyz^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14572,7 +14572,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16950,6 +16949,7 @@ rijutv.co##.container > div[style="height: 128px;"]
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 78dm.net##.container-fluid > a[href*=".taobao.com"]
 91porny.com,jiuse205.com,jiuse702.com##.container-fluid.p-0[class*="mb-"]
+live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 423down.com##.content > a
 www.wangjing.cn##.content > div[style*="980px;"]
 serengeseba.com##.content > li > a[href^="http"]
