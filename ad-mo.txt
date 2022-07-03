@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8+Hb1scCqw08muckJSz9FA
+! Checksum: uvBQJ+d0xqWAq+40jp2JOw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207032009
-! Last Modified: 2022年07月03日 20:09
+! Version: 202207040202
+! Last Modified: 2022年07月04日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -12173,6 +12173,7 @@ _800x80_
 ###afc-container
 ###aff-ad-0
 ###affiliate-billboard-widget-frame
+###affiliate_2
 ###affiliate_ad
 ###affinityBannerAd
 ###after-afp-ad-top
@@ -63577,6 +63578,10 @@ ubmcmm.baidustatic.com
 ||fhfgg.com^
 ||meta-wx.com^
 ||666648.xyz^
+||ymyh.club^
+||qianchengwenhua.xyz^
+||badjniop.top^
+||mdjxz.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -75609,8 +75614,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||xonlines.com/yyh_qp_200_200.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+dmh8.com##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 hsex.men##.col-xs-12 > a[target="_blank"]
 v2rayssr.com##.slider-4-box1
 v2rayssr.com###b2-widget-html-12
@@ -76441,7 +76448,6 @@ stheadline.com###jetso-wrapper
 awaker.cn###jiji + div[style="padding: 20px"]
 jable.tv###jimds-slider
 iqiyi.com###jingdongArea
-pianba.net###jinjisheshe
 cnbeta.com###job_box
 aiyuke.com###js-ad-type4
 tigtag.com###js-dropdown
@@ -80858,6 +80864,7 @@ douyu.com##div[id^="sign_p_"]
 xsldh6.com##div[id^="slide"] > .pure-g:nth-child(3)
 suizhoushi.com##div[id^="sznew_ad"]
 dmh8.com##div[id^="test"]
+pianba.tv##div[id^="test"]
 ottawazine.com##div[id^="text-"]
 e0575.cn##div[id^="tid_"]
 baidu.com##div[id^="toast"]
@@ -111609,7 +111616,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fulitech.com.cn^*/float.js
 ||php.cn/upload/course/
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
-||pcbeta.com/data/cache/*_*.js
+||yaozh.com/Public/js/widget/dbAdDownload.
 !------------------------Specific element hiding rules------------------------!
 edrawsoft.cn##.activity-banner
 edrawsoft.cn##.bottom-banner-activity
@@ -112636,10 +112643,6 @@ m.babytree.com##script + a[class]
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
-@@||pcbeta.com/data/cache/forum_viewthread.js
-@@||pcbeta.com/data/cache/common_extra.js
-@@||pcbeta.com/data/cache//common_
-@@||pcbeta.com/data/cache/forum_post.js
 !--------------------------------Tracking Systems-----------------------------!
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
@@ -112655,6 +112658,7 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||wujiupic.com^
 ||video.qq.com/checktime?
 ||cdn-data-cloud.com/history/
 ||s.ssl.qhres2.com/ssl/
