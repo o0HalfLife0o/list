@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: hgXK1T19cX2BAEyQyKAn2g
+! Checksum: EuOCIbGtxOm2CMObOkBwww
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207030831
-! Last Modified: 2022年07月03日 08:31
+! Version: 202207031406
+! Last Modified: 2022年07月03日 14:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2091,6 +2091,15 @@ ubmcmm.baidustatic.com
 ||zhoudm.love^
 ||zsgwed.cn^
 ||zzycj.com^
+||lknmnnr.xyz^
+||gfvip09at.com^
+||tianning.xyz^
+||wymcloud.love^
+||dxzky.love^
+||badaniop.top^
+||xinhuan.mobi^
+||bwsvftq.cn^
+||fhfgg.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14125,6 +14134,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+v2rayssr.com##.slider-4-box1
+v2rayssr.com###b2-widget-html-12
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -39562,6 +39573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
+||data.guide.photobucket.com^
 ||data.webullfintech.com/event/
 ||data.younow.com^
 ||dc.banggood.com^
@@ -51686,7 +51698,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||justmyshop.com/gate/criteo/product-id.js$~third-party
