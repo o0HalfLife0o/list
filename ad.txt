@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: q+kCVhNbkQKhsn9nDkILDg
+! Checksum: uYzwg1ZmN28//1VTEGOpFw
 ! Title: My AdFilters
 ! Expires: 12 hours
-! Version: 202207042010
-! Last Modified: 2022年07月04日 20:10
+! Version: 202207050206
+! Last Modified: 2022年07月05日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -2565,6 +2565,12 @@ ubmcmm.baidustatic.com
 ||neornad.cn^
 ||wchh.online^
 ||666649.xyz^
+||csztzc.com^
+||zgcydvu.cn^
+||tmrhoe2.com^
+##img[onclick*="/kk80.cc"]
+##a[href*="/kk80.cc"]
+||cheynewalk.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -11184,7 +11190,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||centurys.net/promo_
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgfdjz.net/xia.js
-||cgown.com^*/peiyinquan
+||cdncg.com^*/Aepku
+||cdncg.com^*/peiyinquan
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
@@ -13708,7 +13715,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ssp.kdnet.net^
 ||ssp.njxzwh.com^
 ||ssp.zf313.com^
-||sspai.com/api/v1/recommends?*=article_
+||sspai.com/api/v1/recommend*=article_
 ||sspai.com/attachment/sponsor/
 ||sss777.net/Alove-A/
 ||sssvd.china.com^
@@ -14600,6 +14607,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xonlines.com/yyh_qp_200_200.png
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+msn.com###displayAdCard
 dmh8.com##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 hsex.men##.col-xs-12 > a[target="_blank"]
 v2rayssr.com##.slider-4-box1
