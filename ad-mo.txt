@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N7dc40P9LRTlm0d8FF3P6g
+! Checksum: JraXehhMPLLK5gRfsnGcLA
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207050828
-! Last Modified: 2022年07月05日 08:28
+! Version: 202207051408
+! Last Modified: 2022年07月05日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -32532,6 +32532,7 @@ songlyrics.com#@#.footer-ad
 guloggratis.dk#@#.gallery-ad
 davidsilverspares.co.uk#@#.greyAd
 forums.digitalspy.com,marketwatch.com#@#.has-ad
+naver.com#@#.head_ad
 infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
@@ -59711,6 +59712,7 @@ fansshare.com##div[style="background-image:url(http://img23.fansshare.com/media/
 hints.macworld.com##div[style="border-bottom: 2px solid #7B7B7B; padding-bottom:8px; margin-bottom:5px;"]
 askdifference.com##div[style="color: #aaa"]
 metabattle.com##div[style="display: flex; justify-content: center; align-items: center; margin-top: 60px; min-height: 250px;"]
+vice.com##div[style="height: 250px;"]
 english-hindi.net##div[style="height:250px !important; background:#ccc;"]
 sentinelnews.com,theandersonnews.com##div[style="height:620px;width:279px;margin:auto;margin-top:5px;background-color:#eaeaea;"]
 news18.com##div[style="margin-bottom: 15px; background: rgb(230, 230, 230); height: 300px;"]
@@ -63056,6 +63058,7 @@ ubmcmm.baidustatic.com
 ##.yd_ad2
 ##.yd_ad3
 ##.yd_ad5
+##.kuandu > .bottommob
 ##.yd_ad6
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
@@ -63658,6 +63661,12 @@ ubmcmm.baidustatic.com
 ||zhoudm.love^
 ||zsgwed.cn^
 ||zzycj.com^
+||luotuoma.center^
+||goldnfh.com^
+||666653.xyz^
+||woven.pw^
+||yular.cn^
+||ziyuanyinhang.wang^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -82366,6 +82375,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 !#BaiduUnion
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|64foot.com|66law.cn|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|nanhuwang.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com
+||cdnjs.hro-cosmetics.com^
 ||003store.com^
 ||0512s.com^$third-party
 ||1.01fy.cn^
@@ -84816,6 +84826,7 @@ fqsousou.com,kengso.com#@#.user-share
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
+/apis/track_view_product
 /apixel?
 /app-measurement?
 /app/tracking/*
@@ -93210,10 +93221,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||automaticairplane.com^
 ||automaticflock.com^
 ||automaticside.com^$third-party
+||avalonalbum.com^
 ||averageamusement.com^
 ||awakebird.com^$third-party
 ||awarealley.com^$third-party
 ||awesomeagreement.com^
+||awesomeattack.com^
 ||awzbijw.com^$third-party
 ||axiomaticalley.com^$third-party
 ||bagbeam.com^$third-party
@@ -93245,6 +93258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bhcumsc.com^
 ||billowybead.com^
 ||bitterbear.com^
+||bizarrebaseball.com^
 ||blotburn.com^
 ||blushingbeast.com^
 ||blushingboundary.com^
@@ -93294,6 +93308,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||callousbrake.com^$third-party
 ||calmcactus.com^$third-party
 ||calmcough.com^
+||calypsocapsule.com^
 ||cannonjudo.com^
 ||cannontwin.com^$third-party
 ||capablecows.com^
@@ -93354,6 +93369,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||complextoad.com^$third-party
 ||conceptualizereading.com^
 ||concernedcondition.com^
+||concerneddrink.com^
 ||conditionchange.com^
 ||conditioncrush.com^$third-party
 ||confesschairs.com^$third-party
@@ -93362,6 +93378,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consciousdirt.com^
 ||consistpotato.com^
 ||controlswim.com^
+||cookchalk.com^
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
@@ -93378,6 +93395,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crawlclocks.com^
 ||crayoncompetition.com^
 ||critictruck.com^$third-party
+||crowdedmass.com^
 ||cubchannel.com^$third-party
 ||culturedcrayon.com^$third-party
 ||cumbersomecake.com^
@@ -93387,6 +93405,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||curlycannon.com^
 ||currentcollar.com^
 ||curtaincows.com^
+||curvedsquirrel.com^
 ||curvycry.com^$third-party
 ||cushionpig.com^$third-party
 ||cutecalculator.com^
@@ -93507,6 +93526,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fadedsnow.com^$third-party
 ||fadewaves.com^
 ||faintflag.com^
+||fairfeeling.com^
 ||fallaciousfifth.com^$third-party
 ||falsefeet.com^
 ||falseframe.com^$third-party
@@ -93558,6 +93578,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fumblingselection.com^
 ||functionalcrown.com^
 ||funnyairplane.com^
+||furryfork.com^
 ||furryhorses.com^
 ||futuristicapparatus.com^
 ||futuristicfairies.com^
@@ -93574,6 +93595,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||giraffepiano.com^$third-party
 ||gleamingtrade.com^
 ||glisteningguide.com^$third-party
+||glisteningsign.com^
 ||gloriousbeef.com^$third-party
 ||gloriouscracker.com^
 ||glossysense.com^
@@ -93613,8 +93635,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hatefulrequest.com^
 ||hauntlist.com^
 ||headyhook.com^
+||hearinglizards.com^
 ||hearthorn.com^$third-party
 ||heavyplayground.com^
+||helpcollar.com^
 ||hesitanttoothpaste.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
@@ -93678,6 +93702,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jailbulb.com^
 ||jamexistence.com^$third-party
 ||joblessdrum.com^
+||joyoussurprise.com^
 ||justicejudo.com^
 ||k54nw.pw^
 ||kitesquirrel.com^
@@ -93704,6 +93729,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||literatelight.com^
 ||livelumber.com^
 ||livelylaugh.com^
+||livelyreward.com^
 ||lizardslaugh.com^$third-party
 ||longinglettuce.com^
 ||lorenzourban.com^$third-party
@@ -93711,9 +93737,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lovelydrum.com^$third-party
 ||lowlocket.com^$third-party
 ||lp3tdqle.com^
+||ludicrousarch.com^
 ||lumberamount.com^$third-party
 ||lumpylumber.com^$third-party
 ||maddeningpowder.com^
+||magicaljoin.com^
+||magicalmonth.com^
 ||magnetairport.com^$third-party
 ||magnificentmeasure.com^
 ||magnificentmist.com^
@@ -93746,6 +93775,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mimosamajor.com^
 ||mindlessmark.com^
 ||minormeeting.com^
+||minuterhythm.com^
 ||miscreantmine.com^
 ||miscreantmoon.com^
 ||mixedreading.com^
@@ -93777,6 +93807,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nostalgicknot.com^
 ||nostalgicneed.com^
 ||nothingmethod.com^
+||nothingunit.com^
 ||nulldiscussion.com^
 ||nullnorth.com^
 ||nuttyorganization.com^
@@ -93808,6 +93839,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||parcelcreature.com^$third-party
 ||parchedangle.com^
 ||parchedsofa.com^
+||pardonpopular.com^
 ||parsimoniouspolice.com^$third-party
 ||partplanes.com^$third-party
 ||passengerpage.com^
@@ -93824,6 +93856,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||persuadesupport.com^
 ||petiteumbrella.com^$third-party
 ||photographpan.com^$third-party
+||physicalbikes.com^
 ||pietexture.com^$third-party
 ||pigspie.com^
 ||pinpointpotato.com^
@@ -93831,6 +93864,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||piquantprice.com^
 ||piquantstove.com^
 ||pizzasnut.com^
+||placeframe.com^
 ||placidperson.com^$third-party
 ||plainplayground.com^
 ||plainrequest.com^
@@ -93842,6 +93876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plotparent.com^
 ||plotrabbit.com^
 ||pluckypocket.com^
+||pluckytaste.com^
 ||pocketsonic.com^
 ||podiumpresto.com^
 ||pointlesspocket.com^
@@ -93869,6 +93904,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||promopassage.com^
 ||propertypotato.com^
 ||proudprose.com^
+||psychedelicchess.com^
 ||puffyloss.com^$third-party
 ||puffypaste.com^$third-party
 ||puffypull.com^$third-party
@@ -93933,6 +93969,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||righteouscrayon.com^
 ||rightfulfall.com^
 ||rigidrobin.com^
+||ringplant.com^
 ||ringplayground.com^$third-party
 ||ringsrecord.com^
 ||ritzykey.com^$third-party
@@ -93966,7 +94003,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||scaredcomfort.com^
 ||scaredsidewalk.com^
 ||scaredsnake.com^$third-party
+||scaredsnakes.com^
 ||scaredstory.com^
+||scaredswing.com^
 ||scarfsmash.com^
 ||scarfthought.com^
 ||scatteredheat.com^
@@ -94039,10 +94078,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smallbeginner.com^$third-party
 ||smashshoe.com^
 ||smashsurprise.com^$third-party
+||smilingcattle.com^
 ||smilingshake.com^
 ||smilingwaves.com^
 ||smoggysnakes.com^
 ||smoggystation.com^$third-party
+||snailscart.com^
 ||snailsengine.com^
 ||snakemineral.com^
 ||snakesshop.com^
@@ -94079,7 +94120,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spendpest.com^
 ||spidersboats.com^
 ||spiffymachine.com^$third-party
+||spikyslave.com^
 ||spirebaboon.com^
+||spitefulstop.com^
 ||spongesalt.com^
 ||spookysleet.com^
 ||spookyslope.com^
@@ -94192,6 +94235,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||terrificgoose.com^
 ||terrifictooth.com^
 ||testedtouch.com^
+||teststocking.com^
 ||texturetrick.com^
 ||therapeuticcars.com^
 ||thickticket.com^
@@ -94242,9 +94286,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ubiquitousyard.com^$third-party
 ||ultraoranges.com^
 ||unarmedindustry.com^$third-party
+||unbecomingbikes.com^
 ||unbecominghall.com^$third-party
 ||uncoveredcircle.com^
 ||uncoveredexpert.com^
+||understoodocean.com^
 ||unequalbrake.com^$third-party
 ||unevenstring.com^
 ||unifyaddition.com^
@@ -94270,6 +94316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vivaciousveil.com^
 ||voicevegetable.com^
 ||voraciousgrip.com^
+||voyagepotato.com^
 ||vq1qi.pw^
 ||waggishpig.com^
 ||wakefulcook.com^
@@ -94305,6 +94352,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wryfinger.com^
 ||wtaccesscontrol.com^
 ||xovq5nemr.com^
+||yamstamp.com
 ||youngmarble.com^
 ||youthfulnoise.com^
 ||zbwp6ghm.com^
@@ -109525,7 +109573,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||rcgi.video.qq.com^
 ||rec.udn.com^
 ||referer.pixplug.in^
-||regimeal.hk/apis/track_view_product
 ||reportsk.web.sdo.com^
 ||retcode.taobao.com^
 ||rgd.com.cn/counter/
