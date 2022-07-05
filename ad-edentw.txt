@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: N4i/nVae9yyWH6ZQOgzhOQ
+! Checksum: 5mArTmsPFmNE1QSdoDIlVw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202207052008
-! Last Modified: 2022年07月05日 20:08
+! Version: 202207060204
+! Last Modified: 2022年07月06日 02:04
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1327,6 +1327,8 @@ bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
+! Japanese sites
+nikaraw.com#$#abort-on-property-read afStorage
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/fb_non-graph.txt ***
 ! #CV-761
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /^Sponsorlu|Sponsored|Gesponsert|Patrocinado|Sponsorisé|Publicidad|Commandité|Gesponsord|Sponsorowane|Реклама|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato|Sponsoreret|Sponsrad$/ div[aria-labelledby] div[role^="button"]
@@ -1412,7 +1414,7 @@ manga-scantrad.net,toonanime.cc#$#abort-current-inline-script document.querySele
 batporno.com#$#abort-on-property-read decodeURI
 vostfree.com#$#abort-on-property-write _pop
 torrent911.com#$#abort-on-property-read atob
-animecomplet.me,animecomplet.net,animecomplet.org,dadyflix.co,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.mx,french-stream.re,french-stream.run,french-stream.so,hds-streaming.su,hdss-to.com,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,mavanimes.cc,mavanimes.co,one-piece-streaming-vostfr.com,streaming-french.com,streaming-vostfr.net,streamingfrance.com,streamingfrance.net,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,vanime.co,vanime.me,vf-film.net,voirfilm-vf.com,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip,zone-annuaire.tel,zone-annuaire.top,zone-telechargement.tel#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
+animecomplet.me,animecomplet.net,animecomplet.org,dadyflix.co,dl-protect.best,dl-protect.top,dl-protect.xyz,dl-protect1.com,ed-protect.org,extreme-down.blue,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.plus,extreme-down.pro,extreme-down.site,extreme-down.top,extreme-down.tv,extreme-down.video,extreme-down.work,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz,french-stream.mx,french-stream.re,french-stream.run,french-stream.so,hds-streaming.su,hdss-to.com,hdss.la,hdss.to,japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws,jetanimes.co,jetanimes.com,lelscan-vf.co,mavanimes.cc,mavanimes.co,one-piece-streaming-vostfr.com,streaming-french.com,streaming-vostfr.net,streamingfrance.com,streamingfrance.net,summarynetworks.com,toonanime.cc,toonanime.tv,toonanime.xyz,torrent9.si,vanime.co,vanime.me,vf-film.net,voirfilm-vf.com,voirseries.io,vostfree.com,wawacity.bz,wawacity.co,wawacity.ec,wawacity.ninja,wawacity.vip,zone-annuaire.tel,zone-annuaire.top,zone-telechargement.tel#$#abort-current-inline-script document.documentElement /atob|break|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/; abort-on-property-write JSON.parse
 japscan.ws#$#abort-current-inline-script JSON.parse
 strtapeadblock.me#$#abort-on-property-write _pao
 ! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
