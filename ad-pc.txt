@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kxM2vVphYLrPSJDFbpHJVA
+! Checksum: OFw+UnaV9xcfTH26Nni7rA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207062020
-! Last Modified: 2022年07月06日 20:20
+! Version: 202207070206
+! Last Modified: 2022年07月07日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -24508,6 +24508,7 @@ _800x80_
 ##.change_AdContainer
 ##.changeableadzone
 ##.channel--ad
+##.channel-ad
 ##.channel-adv
 ##.channel-icon--ad
 ##.channel-icon__ad-buffer
@@ -31370,6 +31371,7 @@ _800x80_
 ##[href^="http://www.pingperfect.com/aff.php"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://affiliate.fastcomet.com/"] > img
+##[href^="https://antiagingbed.com/discount/"] > img
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://click2cvs.com/"]
 ##[href^="https://clk.right-wing-health.com/"]
@@ -38686,6 +38688,7 @@ tf2r.com#@#.adverts
 ||footnote.com^
 ||footpetoo.com^
 ||foowafoa.com^
+||fopkscyj.com^
 ||fopushegi.com^
 ||forafinan.club^
 ||forarchenchan.com^
@@ -39656,6 +39659,7 @@ tf2r.com#@#.adverts
 ||hbsjqogt.xyz^
 ||hbtzzlcxfijk.com^
 ||hbunmokcwopj.com^
+||hbzhrxdmm.com^
 ||hconsukulti.co^
 ||hcrhymydx.com^
 ||hczkduimaipr.com^
@@ -40807,6 +40811,7 @@ tf2r.com#@#.adverts
 ||jugeau.com^
 ||jugerfowells.com^
 ||juggledcample.website^
+||jugust.com^
 ||juiceadv.com^
 ||juiceadv.net^
 ||juicesphose.com^
@@ -44137,6 +44142,7 @@ tf2r.com#@#.adverts
 ||pmsrvr.com^
 ||pmzer.com^
 ||pncloudfl.com^
+||pncqcqdj.com^
 ||pnd.gs^
 ||pnmoclqxtcsbw.com^
 ||pnrblholty.com^
@@ -46394,6 +46400,7 @@ tf2r.com#@#.adverts
 ||snonoz.com^
 ||snonsy.com^
 ||snopmisgive.com^
+||snoreempire.com^
 ||snortedbingo.com^
 ||snouft.com^
 ||snowdayonline.xyz^
@@ -48897,6 +48904,7 @@ tf2r.com#@#.adverts
 ||wi3brxwr2b3v.com^
 ||wickedlongingbelfry.com^
 ||wickoolt.com^
+||widaimty.com^
 ||widdiesbrawns.com^
 ||wideorganiz.xyz^
 ||widespreadglamour.com^
@@ -58443,7 +58451,6 @@ rottentomatoes.com##.leaderboard_wrapper
 gpfans.com##.leaderboardbg
 ubergizmo.com##.leaderboardcontainer
 northernstar.info,theprospectordaily.com##.leaderboardwrap
-mapquest.co.uk,mapquest.com##.leadin
 dnsleak.com##.leak__submit
 republicbroadcasting.org##.left-sidebar-padder > #text-8
 gogetaroomie.com##.left-space
@@ -58552,6 +58559,7 @@ syfy.com##.mps-container
 edarabia.com##.mpu-300
 arabiaweather.com##.mpu-card
 dailymail.co.uk##.mpu_puff_wrapper
+mapquest.co.uk,mapquest.com##.mqBizLocsContainer
 10play.com.au,ebay.com,geo.tv,jozifm.co.za,nwherald.com,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
 dkoding.in##.mrf-adv__wrapper
 motorsport.com##.ms-ap
@@ -63184,6 +63192,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.con_section > .da
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -63848,6 +63857,7 @@ ubmcmm.baidustatic.com
 ||yiuspekmn.bar^
 ||mttty.top^
 ##a[href*=".tholikiranam.com/"]
+||colour5.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -85622,7 +85632,6 @@ fqsousou.com,kengso.com#@#.user-share
 /contador.gif?
 /containerTag.js
 /containertag?
-/content-targeting-
 /contentanalytics/*
 /contentiq.js
 /ContentTrackingCall.
@@ -86909,6 +86918,7 @@ fqsousou.com,kengso.com#@#.user-share
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/businessEvent?
 /log/collect/*
 /log/counter?
 /log/error?
@@ -90056,6 +90066,7 @@ _mongo_stats/
 ||bydst.com^
 ||captcha-display.com^
 ||cdnhst.xyz^
+||ciqtracking.com^
 ||click360.io^
 ||cloudwp.io^
 ||clrt.ai^
@@ -90178,6 +90189,7 @@ _mongo_stats/
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
+||pzapi-ij.com^
 ||pzimff.com^
 ||quantserve.com^
 ||quickanalytics.ca^

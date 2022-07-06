@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: y3Sc9SPmkT1xjN8D08Wu2g
+! Checksum: r0p7YqZ+uKHE/1E8V1bdMA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207062020
-! Last Modified: 2022年07月06日 20:20
+! Version: 202207070206
+! Last Modified: 2022年07月07日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1500,6 +1500,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.con_section > .da
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -2164,6 +2165,7 @@ ubmcmm.baidustatic.com
 ||yiuspekmn.bar^
 ||mttty.top^
 ##a[href*=".tholikiranam.com/"]
+||colour5.top^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -26211,7 +26213,6 @@ m.babytree.com##script + a[class]
 /contador.gif?
 /containerTag.js
 /containertag?
-/content-targeting-
 /contentanalytics/*
 /contentiq.js
 /ContentTrackingCall.
@@ -27498,6 +27499,7 @@ m.babytree.com##script + a[class]
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/businessEvent?
 /log/collect/*
 /log/counter?
 /log/error?
@@ -30645,6 +30647,7 @@ _mongo_stats/
 ||bydst.com^
 ||captcha-display.com^
 ||cdnhst.xyz^
+||ciqtracking.com^
 ||click360.io^
 ||cloudwp.io^
 ||clrt.ai^
@@ -30767,6 +30770,7 @@ _mongo_stats/
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
+||pzapi-ij.com^
 ||pzimff.com^
 ||quantserve.com^
 ||quickanalytics.ca^
