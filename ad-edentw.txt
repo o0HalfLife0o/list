@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5mArTmsPFmNE1QSdoDIlVw
+! Checksum: /5nN3dAeiVjXUx+RqYqTjw
 ! Title: edentwCustom
 ! Expires: 12 hours
-! Version: 202207060204
-! Last Modified: 2022年07月06日 02:04
+! Version: 202207062020
+! Last Modified: 2022年07月06日 20:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1396,6 +1396,7 @@ hindipix.in,netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 japscan.cc,japscan.com,japscan.se,japscan.to,japscan.ws#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
 jpscan-vf.com#$#abort-on-property-read __formatsGetters
 blablastream.rip,frstream.rip,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
+ianime-fr.com#$#abort-on-property-read document.createElement
 streaminfr.com#$#abort-on-property-read pushADs
 linfoweb.com#$#abort-on-property-write num
 down-paradise.com,mega-p2p.net#$#abort-on-property-read open
@@ -1692,6 +1693,7 @@ animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelisp
 gnula.nu,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.parse
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 gnula.cc,series24.nu#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
+calidadcine.net#$#abort-on-property-read afStorage
 ! #CV-368
 rainanime.net#$#abort-on-property-read NativeAd
 ! Popup/Popunder

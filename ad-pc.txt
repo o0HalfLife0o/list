@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LZBgvIF0dJr12uvfKF+V6Q
+! Checksum: kxM2vVphYLrPSJDFbpHJVA
 ! Title: My AdFilters（for PC）
 ! Expires: 12 hours
-! Version: 202207061409
-! Last Modified: 2022年07月06日 14:09
+! Version: 202207062020
+! Last Modified: 2022年07月06日 20:20
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 并补充了贴吧过滤规则，感谢各位前辈的分享！
@@ -20354,7 +20354,6 @@ _800x80_
 ##.ad_js_deal_top
 ##.ad_keywords_bot
 ##.ad_keywords_bot_r
-##.ad_l
 ##.ad_label
 ##.ad_label1
 ##.ad_label2a
@@ -63846,6 +63845,9 @@ ubmcmm.baidustatic.com
 ||mbveryu.top^
 ||hfzq1600.com^
 ||kimiaexirteb.com^
+||yiuspekmn.bar^
+||mttty.top^
+##a[href*=".tholikiranam.com/"]
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -90176,6 +90178,7 @@ _mongo_stats/
 ||progmxs.com^
 ||propeller-tracking.com^
 ||pubtm.com^
+||pzimff.com^
 ||quantserve.com^
 ||quickanalytics.ca^
 ||quickkoala.io^
@@ -94529,6 +94532,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zbwp6ghm.com^
 ||zealousfield.com^
 ||zestycrime.com^
+||zipperxray.com^
 ||zippywind.com^
 ||zlp6s.pw^$third-party
 !-----------------International third-party tracking domains-----------------!
@@ -99420,6 +99424,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mms.cnn.com^
 ||modanisa.com/al/j/analytics.js
 ||momondo.com/s/vestigo/v1/measure
+||mon.us.tiktokv.com^
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.channel4.com^
 ||mov.t-mobile.com/p/js/1.js
@@ -111381,6 +111386,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||bancosantander.es/pagos-inmediatos/common/js/modules/tealium.js$~third-party
 @@||c5n.com^*/angulartics-google-analytics.min.js
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
+@@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
@@ -113318,7 +113324,8 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 age.tv,agemys.cc##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=mgtv1.tv|mgtv.cc|agemys.cc|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.tv|agemys.cc|acgndmku.com|subaibaiys.com
+cdn.sosrom.cn
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
 d58zz.com
 dandanzan10.top,nunuyy1.org##+js(set,RTCPeerConnection,null)
