@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: uKxsC59ntJ9ua7zKd62n2A
+! Checksum: +SayH5q/uxmP7SQfN0tVqg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207072020
-! Last Modified: 2022年07月07日 20:20
+! Version: 202207080206
+! Last Modified: 2022年07月08日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2190,6 +2190,11 @@ ubmcmm.baidustatic.com
 ||ling07.icu^
 ||xcjcy.pro^
 ||wiuspckmn.bar^
+||mdjxm.com^
+||greatnfw.com^
+||supernfq.com^
+||bpnhgan.cn^
+||j46rwh.site^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -14220,6 +14225,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
+pianba.tv##.a-loading
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -28437,6 +28443,8 @@ m.babytree.com##script + a[class]
 /RadioAnalytics.js
 /RadioAnalyticsIframe.js
 /radium-one.js
+/rainbow/master-js
+/rainbow/track
 /ravelin-*-track.min.js
 /rbi_us.js
 /rbipt.gif?
@@ -32886,6 +32894,7 @@ _mongo_stats/
 ||sexcounter.com^$third-party
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
+||shalltry.com^$third-party
 ||shareasale.com^$third-party
 ||sharedid.org^$third-party
 ||sharpspring.com^$third-party
@@ -39578,6 +39587,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||androidfilehost.com/libs/otf/stats.otf.php?
 ||anon-stats.eff.org^
 ||apartments.com/clientvisit/al.gif?
+||api.ffm.to/sl/e/$image
 ||api.narrativ.com/favicon.ico
 ||apkpure.com/analytics_
 ||apnews.com/logger
@@ -39682,6 +39692,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.ghostery.com/v1.js
 ||console-telemetry.oci.oraclecloud.com^
 ||contents2.00110.citi.com^
+||copilot-telemetry.githubusercontent.com^
 ||count.rin.ru^
 ||coursehero.com/v1/data-tracking
 ||cpt.itv.com^
