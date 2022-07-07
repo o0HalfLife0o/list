@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: r0p7YqZ+uKHE/1E8V1bdMA
+! Checksum: r4ptD5QJelJUXZtnI9K4Ew
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207070206
-! Last Modified: 2022年07月07日 02:06
+! Version: 202207070834
+! Last Modified: 2022年07月07日 08:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1581,6 +1581,10 @@ ubmcmm.baidustatic.com
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
+##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##img[src*=".jd.com"][style="width:100%;height:70px;"]
+##img[src*=".meituan.net"][style="width:100%;height:70px;"]
+##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style$="2147483647;"][ontouchstart]
@@ -2157,7 +2161,6 @@ ubmcmm.baidustatic.com
 ||badloniop.top^
 ||weimeiwangluo.site^
 ||scardetect.cn^
-||gqyy8.com^
 ||zhaishanghui.shop^
 ||mbveryu.top^
 ||hfzq1600.com^
@@ -2166,6 +2169,15 @@ ubmcmm.baidustatic.com
 ||mttty.top^
 ##a[href*=".tholikiranam.com/"]
 ||colour5.top^
+||666672.xyz^
+||69688qp.com^
+||unpfqc9.com^
+||mqjeut5.com^
+||50039tk.com^
+||6399tp.com^
+||xox8829.com^
+||auwrtou.cn^s
+||xgckudv.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -35449,7 +35461,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||datadome.co^$third-party
 ||deliv.lexpress.fr^$third-party
 ||do09.net^$third-party
-||early-birds.fr^$third-party
 ||early-birds.io^$third-party
 ||edt02.net^$third-party
 ||emailretargeting.com^$third-party
@@ -38780,6 +38791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||e-pagerank.fr/bouton.gif?$third-party
 ||e.funnymel.com^$third-party
 ||e.viously.com^
+||early-birds.fr/events/
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
@@ -51324,7 +51336,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
-@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
@@ -51539,7 +51551,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|unicef.de|vox.de
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
