@@ -93051,6 +93051,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
 ||onepush.app^$third-party
+@@||onesignal.com/*$script,domain=www.pixiv.net
+@@||onesignal.com^$xhr,domain=www.pixiv.net
 ||onesignal.com^$third-party
 ||outfunnel.com^$third-party
 ||pn.vg^$third-party
@@ -103387,6 +103389,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||info.e-tabs.com^
 ||info.eco.ca^
 ||info.edriving.com^
+@@||info.em-ametek.com/acton/*$script,domain=info.gatan.com
+@@||info.em-ametek.com/acton/*$xhr,domain=info.gatan.com
+@@||info.em-ametek.com/acton/*$stylesheet,domain=info.gatan.com
+@@||info.em-ametek.com/acton/content/Down_Arrow.svg$image,domain=info.gatan.com
 ||info.em-ametek.com^
 ||info.email-bkfs.com^
 ||info.emersonecologics.com^
@@ -103398,6 +103404,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||info.franklin.edu^
 ||info.freedomcte.com^
 ||info.furykeywest.com^
+@@||info.gatan.com/acton/*$subdocument,domain=www.gatan.com
 ||info.gatan.com^
 ||info.gcgfinancial.aleragroup.com^
 ||info.genesishealth.com^
@@ -103981,7 +103988,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||info.franchisegator.com^
 ||info.franklin.edu^
 ||info.furykeywest.com^
-||info.gatan.com^
 ||info.halo.com^
 ||info.healthcareittoday.com^
 ||info.hiway.org^
