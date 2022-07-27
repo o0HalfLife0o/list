@@ -19,24 +19,15 @@ jobs:
           echo "RELEASE_NAME=Released on $(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "MODIFIED_TIME=$(date -d "8 hour" -u "+%Y年%m月%d日 %H:%M")" >> $GITHUB_ENV
-          echo "EASYLIST_URL=https://easylist-downloads.adblockplus.org/easylist.txt" >> $GITHUB_ENV
-          echo "EASYLISTCHINA_URL=https://easylist-downloads.adblockplus.org/easylistchina.txt" >> $GITHUB_ENV
-          echo "EASYPRIVACY_URL=https://easylist-downloads.adblockplus.org/easyprivacy.txt" >> $GITHUB_ENV
-          echo "CJXLIST_URL=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt" >> $GITHUB_ENV
-          echo "CJX_ANNOYANCE_URL=https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt" >> $GITHUB_ENV
-          echo "ANTI_ADBLOCK_KILLER_FILTERS_URL=https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt" >> $GITHUB_ENV
-          echo "ANTIADBLOCKFILTERS_URL=https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" >> $GITHUB_ENV
-          echo "ABP_FILTERS_ANTI_CV_URL=https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" >> $GITHUB_ENV
-          echo "XINGGSF_MV_URL=https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" >> $GITHUB_ENV
           echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
           echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
-        
+
       - name: Initialize Git
         run: |
          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
          git config --global user.name github-actions[bot]
-         
+
       - name: Checkout the "master" branch
         uses: actions/checkout@v3
         with:
@@ -44,6 +35,16 @@ jobs:
 
       - name: Get every files
         id: download
+        env:
+          EASYLIST_URL: https://easylist-downloads.adblockplus.org/easylist.txt
+          EASYLISTCHINA_URL: https://easylist-downloads.adblockplus.org/easylistchina.txt
+          EASYPRIVACY_URL: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+          CJXLIST_URL: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt
+          CJX_ANNOYANCE_URL: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+          ANTI_ADBLOCK_KILLER_FILTERS_URL: https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt
+          ANTIADBLOCKFILTERS_URL: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+          ABP_FILTERS_ANTI_CV_URL: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+          XINGGSF_MV_URL: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
         run: |
           mkdir -p ./download/
           cd ./download
@@ -51,9 +52,9 @@ jobs:
           curl -sSL $EASYLISTCHINA_URL | sed -e '/^! /d' -e '1c ! EasyList China' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./easylistchina.txt
           curl -sSL $EASYPRIVACY_URL | sed -e '/^! /d' -e '1c ! EasyPrivacy' -e '/^!$/d' > ./easyprivacy.txt
           curl -sSL $CJXLIST_URL | sed -e '/^! /d' -e '1c ! EasyList Lite' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./cjxlist.txt
-          curl -sSL $CJX_ANNOYANCE_URL | sed -e '/^! /d' -e "1c ! CJX's Annoyance List" -e '/^!$/d' -e '/The End/d'  -e '/^$/d' | sed '/热门话题/,+1d' > ./cjx-annoyance.txt
+          curl -sSL $CJX_ANNOYANCE_URL | sed -e '/^! /d' -e "1c ! CJX's Annoyance List" -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./cjx-annoyance.txt
           sed -i '/!#include cjx-ublock.txt/c !#include https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-ublock.txt' ./cjx-annoyance.txt
-          curl -sSL $XINGGSF_MV_URL | sed '/禁止站内新开窗/,+2d' | sed -e '/^! /d' -e '1c ! 乘风 视频广告过滤规则' -e '/^!$/d' -e '/^$/d' > ./xinggsf-mv.txt
+          curl -sSL $XINGGSF_MV_URL | sed -e '/^! /d' -e '1c ! 乘风 视频广告过滤规则' -e '/^!$/d' -e '/^$/d' > ./xinggsf-mv.txt
           curl -sSL $ANTIADBLOCKFILTERS_URL | sed -e '1c ! Adblock Warning Removal List' -e '/^! Checksum/,/! Please check our guidelines/d' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./antiadblockfilters.txt
           curl -sSL $ABP_FILTERS_ANTI_CV_URL | sed -e '1c ! abp-filters-anti-cv' -e '/^! Checksum/,/adblockplus.org/d' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./abp-filters-anti-cv.txt
           curl -sSL $ANTI_ADBLOCK_KILLER_FILTERS_URL | sed -e '1c ! AakList (Anti-Adblock Killer)' -e '/^! Title/,/^! RegExpVisualizer/d' -e '/^!$/d' -e '/The End/d'  -e '/^$/d' > ./anti-adblock-killer-filters.txt
@@ -142,4 +143,4 @@ jobs:
           else
             echo $result
           fi
-          
+
