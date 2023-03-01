@@ -133,12 +133,13 @@ jobs:
           #git remote set-url --add origin "https://${{ secrets.CODING_ACCOUNT }}:${{ secrets.CODING_PASSWORD }}@e.coding.net/${{ secrets.CODING_NAME }}/list.git"
           git push -u -f origin master
 
-      - name: Purge jsdelivr cache
+      - name: Release and Upload Assets
         if: steps.diffResult.outputs.status == 'success'
-        run: |
-          result=$(curl -s https://purge.jsdelivr.net/gh/o0HalfLife0o/list@master/)
-          if echo $result |grep -q 'success.*true'; then
-            echo "jsdelivr缓存更新成功"
-          else
-            echo $result
-          fi
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          tag: adblock
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: |
+            *.txt
