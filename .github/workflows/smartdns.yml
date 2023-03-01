@@ -1,0 +1,46 @@
+name: Smartdns Rules
+on:
+  schedule:
+    - cron: 0 20 * * *
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Variables
+        run: |
+          echo "RELEASE_NAME=Released on $(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "anti_ad_domains=https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt" >> $GITHUB_ENV
+          echo "anti_ad_domains_whitelist=https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt" >> $GITHUB_ENV
+          echo "direct_list=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt" >> $GITHUB_ENV
+          echo "gfw_list=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt" >> $GITHUB_ENV
+          echo "greatfire_list=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt" >> $GITHUB_ENV
+
+      - name: Get every files
+        run: |
+          curl -sSL $anti_ad_domains |sed '/^#/d' > anti_ad_domains.txt
+          curl -sSL $anti_ad_domains_whitelist |sed '/^#/d' > anti_ad_domains_whitelist.txt
+          curl -sSL $direct_list |sed -e '/^#/d' -e '/^regexp:/d' -e 's#^full:##' > direct_list.txt
+          curl -sSL $gfw_list |sed '/^#/d' > gfw_list.txt
+          curl -sSL $greatfire_list |sed '/^#/d' > greatfire_list.txt
+          cat gfw_list.txt greatfire_list.txt |sort -u > gfw.txt
+          rm -f gfw_list.txt greatfire_list.txt
+
+      - name: Generate sha256sum
+        run: |
+          for i in $(ls *.txt); do
+            sha256sum $i > $i.sha256sum
+          done
+
+      - name: Release and Upload Assets
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          tag: smartdns
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: |
+            *.txt
+            *.txt.sha256sum
