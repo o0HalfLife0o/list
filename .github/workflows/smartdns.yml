@@ -1,0 +1,126 @@
+name: Smartdns Rules
+on:
+  schedule:
+    - cron: 0 20 * * *
+  #push:
+  #  branches:
+  #    - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Variables
+        run: |
+          mkdir publish
+          echo "RELEASE_NAME=Released on $(date -d "8 hour" -u +%Y%m%d%H%M)" >> $GITHUB_ENV
+          echo "anti_ad_domains=https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt" >> $GITHUB_ENV
+          echo "anti_ad_domains_whitelist=https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt" >> $GITHUB_ENV
+          echo "CHINA_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf" >> $GITHUB_ENV
+          echo "GOOGLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf" >> $GITHUB_ENV
+          echo "APPLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf" >> $GITHUB_ENV
+          echo "GFW_DOMAINS_URL=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt" >> $GITHUB_ENV
+          echo "GREATFIRE_DOMAINS_URL=https://raw.githubusercontent.com/Johnshall/cn-blocked-domain/release/domains.txt" >> $GITHUB_ENV
+          echo "CUSTOM_DIRECT=https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/cn.txt" >> $GITHUB_ENV
+          echo "CUSTOM_PROXY=https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/geolocation-!cn.txt" >> $GITHUB_ENV
+
+      - name: Checkout the "hidden" branch of Loyalsoldier/v2ray-rules-dat
+        uses: actions/checkout@v3
+        with:
+          repository: Loyalsoldier/v2ray-rules-dat
+          ref: hidden
+          path: extra
+
+      - name: Generate anti_ad files
+        run: |
+          curl -sSL $anti_ad_domains |sed '/^#/d' > publish/anti_ad_domains.txt
+          curl -sSL $anti_ad_domains_whitelist |sed '/^#/d' > publish/anti_ad_domains_whitelist.txt
+
+      - name: Get and add direct domains into temp-direct.txt file
+        run: |
+          curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > temp-direct.txt
+          curl -sSL ${CUSTOM_DIRECT} -o CUSTOM_DIRECT.txt
+          cat CUSTOM_DIRECT.txt | perl -ne '/^(domain):([^:]+)(\n$|:@.+)/ && print "$2\n"' >> temp-direct.txt
+          cat extra/direct.txt >> temp-direct.txt
+          cat temp-direct.txt |sed '/\./!d' | sort --ignore-case -u > direct-list-with-redundant
+
+      - name: Get and add proxy domains into temp-proxy.txt file
+        run: |
+          curl -sSL $GFW_DOMAINS_URL | sed  '$a\\n' > temp-proxy.txt
+          curl -sSL $GREATFIRE_DOMAINS_URL | perl -ne '/^((?=^.{3,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)/ && print "$1\n"' >> temp-proxy.txt
+          curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' >> temp-proxy.txt
+          curl -sSL $APPLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' >> temp-proxy.txt
+          curl -sSL ${CUSTOM_PROXY} -o CUSTOM_PROXY.txt
+          cat CUSTOM_PROXY.txt | grep -Ev ":@cn" | perl -ne '/^(domain):([^:]+)(\n$|:@.+)/ && print "$2\n"' >> temp-proxy.txt
+          cat CUSTOM_PROXY.txt | grep -Ev ":@cn" | perl -ne '/^(full:[^:]+)(\n$|:@.+)/ && print "$1\n"' | sort --ignore-case -u > proxy-reserve.txt
+          cat extra/proxy.txt >> temp-proxy.txt
+          cat temp-proxy.txt |sed '/\./!d' | sort --ignore-case -u > proxy-list-with-redundant
+
+      - name: Remove redundant domains
+        run: |
+          chmod +x extra/findRedundantDomain.py
+          ./extra/findRedundantDomain.py ./direct-list-with-redundant ./direct-list-deleted-unsort
+          ./extra/findRedundantDomain.py ./proxy-list-with-redundant ./proxy-list-deleted-unsort
+          [ ! -f "direct-list-deleted-unsort" ] && touch direct-list-deleted-unsort
+          [ ! -f "proxy-list-deleted-unsort" ] && touch proxy-list-deleted-unsort
+          sort ./direct-list-deleted-unsort > ./direct-list-deleted-sort
+          sort ./proxy-list-deleted-unsort > ./proxy-list-deleted-sort
+          diff ./direct-list-deleted-sort ./direct-list-with-redundant | awk '/^>/{print $2}' > ./direct-list-without-redundant
+          diff ./proxy-list-deleted-sort ./proxy-list-with-redundant | awk '/^>/{print $2}' > ./proxy-list-without-redundant
+
+      - name: Remove domains from "need-to-remove" lists in "hidden" branch
+        run: |
+          diff ./extra/direct-need-to-remove.txt ./direct-list-without-redundant | awk '/^>/{print $2}' > temp-cn.txt
+          diff ./extra/proxy-need-to-remove.txt ./proxy-list-without-redundant | awk '/^>/{print $2}' > temp-geolocation-\!cn.txt
+
+      - name: Remove domains end with ".cn" in "temp-geolocation-!cn.txt" and write lists to data directory
+        run: |
+          cat temp-cn.txt | sort --ignore-case -u | perl -ne '/^((?=^.{1,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})*)/ && print "$1\n"' > cn.txt
+          cat temp-geolocation-\!cn.txt | sort --ignore-case -u | perl -ne '/^((?=^.{1,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})*)/ && print "$1\n"' | perl -ne 'print if not /\.cn$/' > geolocation-\!cn.txt
+
+      - name: Add `full`, `regexp` and `keyword` type of rules back into "cn", "geolocation-!cn" and "category-ads-all" list
+        run: |
+          cat CUSTOM_DIRECT.txt | perl -ne '/^(full:[^:]+)(\n$|:@.+)/ && print "$1\n"' | sort --ignore-case -u > direct-reserve.txt
+          [ -f "direct-reserve.txt" ] && cat direct-reserve.txt >> cn.txt
+          [ -f "proxy-reserve.txt" ] && cat proxy-reserve.txt >> geolocation-\!cn.txt
+          #if [ -f "proxy-reserve.txt" ]; then
+          #  for i in `cat proxy-reserve.txt`; do
+          #    if ! grep -q "^${i##full:}$" proxy-list-deleted-unsort; then
+          #        echo -e "$i"
+          #    fi
+          #  done >> temp-proxy.txt
+          #fi
+
+      - name: Transform "full:" suit for Smartdns
+        run: |
+          sed 's#^full:#-.#' cn.txt > ./publish/direct_list.txt
+          sed 's#^full:#-.#' geolocation-\!cn.txt > ./publish/proxy_list.txt
+
+      - name: Upload To Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: list
+          path: |
+            *
+
+      - name: Generate sha256sum
+        working-directory: publish
+        run: |
+          for i in $(ls *.txt); do
+            sha256sum $i > $i.sha256sum
+          done
+
+      - name: Release and Upload Assets
+        uses: ncipollo/release-action@v1
+        with:
+          name: SmartDNS
+          body: ${{ env.RELEASE_NAME }}
+          tag: smartdns
+          makeLatest: false
+          allowUpdates: true
+          removeArtifacts: true
+          artifacts: |
+            publish/*.txt
+            publish/*.txt.sha256sum
